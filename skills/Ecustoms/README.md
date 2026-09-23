@@ -111,3 +111,20 @@ python scripts/add_reference.py --title "..." --so-hieu "123/QĐ-BCT" --category
 Thêm văn bản cần tài khoản có quyền `tracuu.manage` (MANAGER, ACCOUNTANT,
 DOCS). `heading` và `case` vẫn đọc tệp trên máy vì ILMS chưa có hai loại
 dữ liệu này. Không đặt `ILMS_URL` thì mọi lệnh chạy trên tệp máy như cũ.
+
+## Tra cứu thuế phòng vệ thương mại (CBPG, chống lẩn tránh)
+
+Cần `ILMS_URL`. Dữ liệu và luật tính nằm ở kho ILMSv2 — skill chỉ đọc, không tự tính:
+
+```bash
+python scripts/query_hs.py cbpg "LX International"        # tìm theo tên hàng, mã HS, nhà SX, công ty TM, mác thép, tiêu chuẩn, số QĐ
+python scripts/query_hs.py cbpg "DX57D+Z" --kieu mac_thep
+python scripts/query_hs.py vu AD19                          # hồ sơ đủ: mô tả, quy cách, mã HS, mức thuế từng nhà SX, loại trừ
+python scripts/query_hs.py thue 7210.49.11 --nuoc KR --nsx "Hyundai Steel" --nxk "LX International"
+python scripts/query_hs.py thue 7210.49.11 --nuoc CN --mac DX57D+Z --tc "EN 10346:2024"
+```
+
+- Lệnh `code <mã>` tự báo **"ĐANG BỊ ÁP THUẾ PHÒNG VỆ THƯƠNG MẠI"** khi mã thuộc vụ đang áp.
+- Khi phân loại một mã có dấu hiệu CBPG, luôn chạy `thue` với đủ nước C/O, nhà SX, nhà XK (và mác thép + tiêu chuẩn với hàng thép) rồi trích **từng bước và căn cứ** máy trả về.
+- Vụ ghi "CHƯA ĐỐI CHIẾU BẢN GIẤY": nói rõ với người dùng rằng số liệu cần đối chiếu QĐ gốc trước khi khai.
+- Không nộp C/O, không có giấy chứng nhận nhà SX, hay nhà XK không cùng hàng ngang với nhà SX đều rơi về mức cao hơn — nêu rõ điều này khi tư vấn.

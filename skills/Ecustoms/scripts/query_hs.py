@@ -20,6 +20,7 @@ import sys
 import io
 import os
 import json
+import urllib.parse
 import argparse
 import re
 import unicodedata
@@ -64,6 +65,12 @@ def api_code(code):
         print("FTA: " + ", ".join(f"{k}={v}" for k, v in r["fta"].items()))
     if r.get("chinh_sach"):
         print(f"Chính sách mặt hàng: {r['chinh_sach']}")
+    pv = [v for v in r.get("pvtm", []) if v["dang_ap"]]
+    if pv:
+        print("!!! ĐANG BỊ ÁP THUẾ PHÒNG VỆ THƯƠNG MẠI:")
+        for v in pv:
+            print(f"  [{v['ma_vu_viec']}] {v['ten_hang']} — {v['so_hieu']}")
+        print(f"  Tính mức cho lô: query_hs.py thue {r['code']} --nuoc <nước C/O> --nsx <nhà SX> --nxk <nhà XK>")
     if r.get("van_ban_lien_quan"):
         print("Văn bản trong kho nhắc tới mã này:")
         for v in r["van_ban_lien_quan"]:
@@ -105,6 +112,103 @@ def api_refs(keyword=None, category=None):
         if v.get("doan_khop"):
             print("    ..." + re.sub(r"</?b>", "**", v["doan_khop"]).replace(chr(10), " ") + "...")
     print(chr(10) + "Đọc toàn văn: query_hs.py vanban <id>")
+
+
+# ---------------------------------------------------------------- phòng vệ thương mại (CBPG)
+# Đọc kho PVTM của ILMSv2 (/api/tracuu/pvtm). Luật tính thuế nằm ở MÁY CHỦ
+# (services/pvtm.tinh_muc_thue) — skill chỉ hiển thị, không tự tính.
+_META = None
+
+
+def _meta():
+    global _META
+    if _META is None:
+        _META = ilms_api.get("/meta")["pvtm"]
+    return _META
+
+
+def _pt(v):
+    return "—" if v is None else f"{float(v):.2f}".replace(".", ",") + "%"
+
+
+def _trang_thai(v):
+    gd = _meta()["giai_doan"].get(v["giai_doan"], v["giai_doan"])
+    s = ("ĐANG ÁP · " if v["dang_ap"] else "") + gd
+    return s + ("" if v.get("da_doi_chieu") else " · CHƯA ĐỐI CHIẾU BẢN GIẤY")
+
+
+def api_cbpg(tu_khoa, kieu=None):
+    r = ilms_api.get("/pvtm/tim", q=tu_khoa, kieu=kieu or "", limit=50)
+    if not r["nhom"]:
+        print(f"Không có vụ phòng vệ thương mại nào khớp '{tu_khoa}'.")
+        return
+    nhan = {k["code"]: k["label"] for k in _meta()["kieu_tim"]}
+    for g in r["nhom"]:
+        print(f"=== {nhan.get(g['kieu'], g['kieu'])} · {g['tong']} ===")
+        for x in g["ket_qua"]:
+            vu = f"[{x['ma_vu_viec']}] {x['ten_hang']}" + ("" if x["dang_ap"] else " (hết hiệu lực)")
+            if g["kieu"] in ("nha_sx", "cong_ty_tm"):
+                muc = "Không áp" if x["khong_ap"] else _pt(x["muc_thue"])
+                ten = x["ten"] + (f" — công ty TM của {x['nha_sx']}" if g["kieu"] == "cong_ty_tm" else "")
+                print(f"  {ten} ({x['nuoc']}): {muc}  ← {vu}")
+            elif g["kieu"] in ("mac_thep", "tieu_chuan"):
+                print(f"  LOẠI TRỪ: {x['mac_thep']} theo {x['tieu_chuan']}  ← {vu}")
+            elif g["kieu"] == "loai_tru":
+                print(f"  KHÔNG THUỘC PHẠM VI: {x['noi_dung']}  ← {vu}")
+            elif g["kieu"] == "ma_hs":
+                print(f"  {_ma(x['code'])}  ← {vu}")
+            elif g["kieu"] == "so_qd":
+                print(f"  {x['so_hieu']}  ← {vu}")
+            else:
+                print(f"  {vu}")
+    print(chr(10) + "Xem hồ sơ: query_hs.py vu <mã vụ> · Tính thuế: query_hs.py thue <mã HS> --nuoc KR --nsx ... --nxk ...")
+
+
+def api_vu(ma):
+    v = ilms_api.get(f"/pvtm/vu-viec/{urllib.parse.quote(ma, safe='')}")
+    m = _meta()
+    print(f"=== [{v['ma_vu_viec']}] {v['ten_hang']} ===")
+    print(f"{m['loai'].get(v['loai'], v['loai'])} · {_trang_thai(v)}")
+    print(f"Căn cứ: {v.get('so_hieu') or '—'} · Hiệu lực {v['hieu_luc_tu']} → {v.get('hieu_luc_den') or 'chưa ghi'}")
+    if v.get("doi_chieu_ten"):
+        print(f"Đối chiếu bản giấy: {v['doi_chieu_ten']} lúc {v['doi_chieu_luc']}")
+    print(f"Không nộp C/O: {_pt(v['muc_khong_chung_tu'])}")
+    for q in v["quy_cach"]:
+        print(f"{q['ten']}: {q['gia_tri']}")
+    print(chr(10) + "Mô tả: " + v["mo_ta"])
+    print(chr(10) + f"Mã HS ({len(v['ma_hs'])}): " + ", ".join(_ma(c) for c in v["ma_hs"]))
+    for n in v["nuoc"] or [{"nuoc": "*", "ten_nuoc": "Mọi xuất xứ", "muc_toan_quoc": v["muc_khong_chung_tu"]}]:
+        print(chr(10) + f"--- {n['ten_nuoc']} · mức toàn quốc {_pt(n['muc_toan_quoc'])} ---")
+        for s in [x for x in v["nha_sx"] if x["nuoc"] == n["nuoc"]]:
+            muc = "Không áp" if s["khong_ap"] else _pt(s["muc_thue"])
+            print(f"  {s['ten']}{' [' + s['nhom'] + ']' if s.get('nhom') else ''}: {muc}")
+            if s["cong_ty_tm"]:
+                print("      công ty TM: " + "; ".join(s["cong_ty_tm"]))
+    if v["loai_tru"]:
+        print(chr(10) + "--- Loại trừ ---")
+        for x in v["loai_tru"]:
+            if x["kieu"] == "mac_thep":
+                print(f"  Mác {x['mac_thep']} theo {x['tieu_chuan']}")
+            else:
+                print(f"  {x['noi_dung'] or x.get('ma_hs')}")
+    if v.get("ghi_chu"):
+        print(chr(10) + "Ghi chú: " + v["ghi_chu"])
+
+
+def api_thue(code, nuoc=None, nsx=None, nxk=None, mac=None, tc=None):
+    r = ilms_api.post("/pvtm/tinh-thue", {"code": code, "nuoc_co": nuoc, "nha_sx": nsx, "nha_xk": nxk,
+                                          "mac_thep": mac, "tieu_chuan": tc})
+    if not r["vu_viec"]:
+        print(f"Mã {_ma(r['code'])}: KHÔNG thuộc vụ phòng vệ thương mại nào đang áp trong kho ILMS.")
+        return
+    for k in r["vu_viec"]:
+        print(f"=== [{k['ma_vu_viec']}] {k['ten_hang']} · {k['so_hieu']} ===")
+        for i, b in enumerate(k["cac_buoc"], 1):
+            print(f"  {i}. {b['buoc']}: {b['ket_qua']} {'✓' if b['dat'] else '✗'}  ({b['can_cu']})")
+        ket = f"BỊ ÁP {_pt(k['muc_thue'])}" if k["ket_luan"] == "ap" else "KHÔNG ÁP"
+        print(f"  => {ket}")
+        for c in k["canh_bao"]:
+            print(f"  ! {c}")
 
 
 def api_vanban(ma):
@@ -314,16 +418,33 @@ def main():
     sp = sub.add_parser("vanban", help="Đọc toàn văn 1 văn bản trong kho ILMS (id hoặc số hiệu)")
     sp.add_argument("ma")
 
+    sp = sub.add_parser("cbpg", help="Tìm vụ CBPG/PVTM theo tên hàng, mã HS, nhà SX, công ty TM, mác thép, tiêu chuẩn, số QĐ")
+    sp.add_argument("tu_khoa")
+    sp.add_argument("--kieu", default=None, help="mat_hang|ma_hs|nha_sx|cong_ty_tm|mac_thep|tieu_chuan|so_qd|loai_tru")
+
+    sp = sub.add_parser("vu", help="Hồ sơ đủ một vụ CBPG (mã vụ, vd AD19)")
+    sp.add_argument("ma")
+
+    sp = sub.add_parser("thue", help="Tính thuế CBPG cho một lô theo thủ tục trong QĐ")
+    sp.add_argument("code")
+    sp.add_argument("--nuoc", help="Nước trên C/O (ISO-2 hoặc tên); bỏ trống = không có C/O")
+    sp.add_argument("--nsx", help="Nhà sản xuất trên giấy chứng nhận chất lượng")
+    sp.add_argument("--nxk", help="Nhà xuất khẩu trên hóa đơn")
+    sp.add_argument("--mac", help="Mác thép")
+    sp.add_argument("--tc", help="Tiêu chuẩn đi kèm mác thép (ghi cả năm)")
+
     args = p.parse_args()
 
     if ilms_api.bat():
         chuyen = {"code": lambda: api_code(args.code), "search": lambda: api_search(args.keyword),
                   "chapter": lambda: api_chapter(args.num), "gri": lambda: api_gri(args.so),
-                  "refs": lambda: api_refs(args.keyword, args.category), "vanban": lambda: api_vanban(args.ma)}
+                  "refs": lambda: api_refs(args.keyword, args.category), "vanban": lambda: api_vanban(args.ma),
+                  "cbpg": lambda: api_cbpg(args.tu_khoa, args.kieu), "vu": lambda: api_vu(args.ma),
+                  "thue": lambda: api_thue(args.code, args.nuoc, args.nsx, args.nxk, args.mac, args.tc)}
         if args.cmd in chuyen:
             return chuyen[args.cmd]()
-    elif args.cmd == "vanban":
-        raise SystemExit("Lệnh vanban cần ILMS_URL (đọc kho văn bản của ILMSv2).")
+    elif args.cmd in ("vanban", "cbpg", "vu", "thue"):
+        raise SystemExit(f"Lệnh {args.cmd} cần ILMS_URL (đọc kho của ILMSv2).")
 
     if args.cmd == "code":
         cmd_code(args.code)

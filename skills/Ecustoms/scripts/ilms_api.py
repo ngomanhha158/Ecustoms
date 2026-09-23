@@ -38,6 +38,8 @@ def _goi(method, path, body=None, headers=None, raw=None):
             detail = json.loads(e.read().decode("utf-8")).get("detail")
         except Exception:
             detail = None
+        if isinstance(detail, list):   # lỗi kiểm dữ liệu của FastAPI: lấy câu người đọc được
+            detail = "; ".join(str(x.get("msg", "")).removeprefix("Value error, ") for x in detail)
         raise SystemExit(f"ILMS trả lỗi {e.code}: {detail or e.reason}")
     except urllib.error.URLError as e:
         raise SystemExit(f"Không kết nối được ILMS ({URL}): {e.reason}")
@@ -58,6 +60,10 @@ def get(path, **params):
     q = urllib.parse.urlencode({k: v for k, v in params.items() if v not in (None, "")})
     return _goi("GET", f"/api/tracuu{path}" + (f"?{q}" if q else ""),
                 headers={"Authorization": f"Bearer {_dang_nhap()}"})
+
+
+def post(path, body):
+    return _goi("POST", f"/api/tracuu{path}", body=body, headers={"Authorization": f"Bearer {_dang_nhap()}"})
 
 
 def them_van_ban(meta, noi_dung):
