@@ -1,6 +1,6 @@
 ---
 name: "Ecustoms"
-description: "Công cụ tra cứu & phân loại mã HS tự xây dựng (dữ liệu Biểu thuế/Chú giải công khai do người dùng tự nhập, tự cập nhật văn bản pháp luật mới)."
+description: "Tra cứu & hỗ trợ phân loại mã HS (Biểu thuế 2026, Chú giải Chương, GRI, văn bản pháp luật) và tra cứu/tính thuế PHÒNG VỆ THƯƠNG MẠI — chống bán phá giá (CBPG), chống lẩn tránh — theo mã HS, tên hàng, nhà sản xuất, công ty thương mại, mác thép, tiêu chuẩn, số QĐ. Đọc kho chung ILMSv2 khi có ILMS_URL. Dùng khi hỏi mã HS, thuế suất, FTA, chính sách mặt hàng, CBPG/PVTM."
 ---
 
 # Công cụ tra cứu & hỗ trợ phân loại HS (bản độc lập)
