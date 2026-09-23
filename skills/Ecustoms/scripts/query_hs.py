@@ -211,6 +211,88 @@ def api_thue(code, nuoc=None, nsx=None, nxk=None, mac=None, tc=None):
             print(f"  ! {c}")
 
 
+# ---------------------------------------------------------------- đồng bộ kho văn bản với ILMSv2
+# ILMS là NGUỒN CHÍNH. Kéo: mọi văn bản ILMS về references/<loai>/ (tra được khi mất mạng).
+# Đẩy: văn bản chỉ có trên máy (có dòng [Số hiệu], ILMS chưa có) lên ILMS.
+# Tệp định dạng cũ (không có [Số hiệu]) được chuyển vào references/_cu/ để khỏi trùng.
+SO_DO = os.path.join(DATA, "ilms_dong_bo.json")
+
+
+def _doc_dau(noi_dung):
+    meta = {}
+    for dong in noi_dung.splitlines()[:8]:
+        m = re.match(r"\[(Số hiệu|Tiêu đề|Ngày ban hành|Cơ quan)\]\s*(.*)", dong.strip())
+        if m:
+            meta[m.group(1)] = m.group(2).strip()
+    return meta
+
+
+def _ten_tep(so_hieu, ten):
+    goc = strip_accents(f"{so_hieu} {ten}")
+    return re.sub(r"[^a-z0-9]+", "_", goc).strip("_")[:60] + ".txt"
+
+
+def api_dongbo(chi_keo=False):
+    import shutil
+    ds = ilms_api.get("/van-ban", limit=100)["ket_qua"]
+    tren_ilms = {v["so_hieu"]: v for v in ds}
+    so_do = {}
+    if os.path.exists(SO_DO):
+        with open(SO_DO, encoding="utf-8") as f:
+            so_do = json.load(f)
+    # 1. Đẩy lên: tệp máy có [Số hiệu] mà ILMS chưa có.
+    day = 0
+    if not chi_keo:
+        for rel, full in find_ref_files():
+            with open(full, encoding="utf-8", errors="replace") as fh:
+                nd = fh.read()
+            meta = _doc_dau(nd)
+            sh = meta.get("Số hiệu")
+            if not sh or sh in tren_ilms or rel in so_do.values():
+                continue
+            loai = rel.replace("\\", "/").split("/")[0]
+            if loai not in ("chinh_sach_phap_luat", "cbpg_pvtm", "cong_van_huong_dan"):
+                print(f"  bỏ qua {rel}: nằm ngoài 3 thư mục loại văn bản")
+                continue
+            than = nd.split("-" * 20, 1)[-1].lstrip("-").strip()
+            row = ilms_api.them_van_ban({"so_hieu": sh, "ten": meta.get("Tiêu đề") or sh, "loai": loai,
+                                         "ngay_ban_hanh": meta.get("Ngày ban hành"), "co_quan": meta.get("Cơ quan", "")}, than)
+            print(f"  ĐẨY LÊN ILMS: {row['so_hieu']}")
+            day += 1
+        if day:
+            tren_ilms = {v["so_hieu"]: v for v in ilms_api.get("/van-ban", limit=100)["ket_qua"]}
+    # 2. Dời tệp định dạng cũ (không [Số hiệu]) sang references/_cu/ — nội dung đã có trên ILMS.
+    doi = 0
+    for rel, full in find_ref_files():
+        with open(full, encoding="utf-8", errors="replace") as fh:
+            dau = fh.read(2000)
+        if "Số hiệu" not in _doc_dau(dau) and rel not in so_do.values():
+            dich = os.path.join(REFS, "_cu", rel)
+            os.makedirs(os.path.dirname(dich), exist_ok=True)
+            shutil.move(full, dich)
+            doi += 1
+    # 3. Kéo về: ghi đè bản máy bằng bản ILMS (ILMS là nguồn chính); xóa bản kéo cũ của văn bản ILMS đã xóa.
+    moi = {}
+    for sh, v in tren_ilms.items():
+        full = ilms_api.get(f"/van-ban/{v['id']}")
+        rel = os.path.join(v["loai"], _ten_tep(sh, v["ten"]))
+        path = os.path.join(REFS, rel)
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(f"[Số hiệu] {sh}\n[Tiêu đề] {full['ten']}\n[Ngày ban hành] {full.get('ngay_ban_hanh') or ''}\n"
+                    f"[Cơ quan] {full.get('co_quan') or ''}\n" + "-" * 60 + "\n\n" + full["noi_dung"])
+        moi[sh] = rel
+    xoa = 0
+    for sh, rel in so_do.items():
+        if sh not in moi and os.path.exists(os.path.join(REFS, rel)):
+            os.remove(os.path.join(REFS, rel))
+            xoa += 1
+    with open(SO_DO, "w", encoding="utf-8") as f:
+        json.dump(moi, f, ensure_ascii=False, indent=2)
+    print(f"Đồng bộ xong: kéo {len(moi)} văn bản từ ILMS, đẩy {day} lên ILMS, "
+          f"dời {doi} tệp định dạng cũ vào references/_cu/, xóa {xoa} bản đã bị xóa trên ILMS.")
+
+
 def api_vanban(ma):
     if not str(ma).isdigit():
         ds = ilms_api.get("/van-ban", q=ma, limit=1)["ket_qua"]
@@ -330,7 +412,8 @@ def find_ref_files(category=None):
     if not os.path.isdir(base):
         return []
     result = []
-    for root, _dirs, files in os.walk(base):
+    for root, dirs, files in os.walk(base):
+        dirs[:] = [d for d in dirs if not d.startswith("_")]
         for f in files:
             if f.endswith((".txt", ".md")) and not f.startswith("_"):
                 full = os.path.join(root, f)
@@ -418,6 +501,9 @@ def main():
     sp = sub.add_parser("vanban", help="Đọc toàn văn 1 văn bản trong kho ILMS (id hoặc số hiệu)")
     sp.add_argument("ma")
 
+    sp = sub.add_parser("dongbo", help="Đồng bộ kho văn bản 2 chiều với ILMSv2 (ILMS là nguồn chính)")
+    sp.add_argument("--chi-keo", action="store_true", help="Chỉ kéo từ ILMS về, không đẩy lên")
+
     sp = sub.add_parser("cbpg", help="Tìm vụ CBPG/PVTM theo tên hàng, mã HS, nhà SX, công ty TM, mác thép, tiêu chuẩn, số QĐ")
     sp.add_argument("tu_khoa")
     sp.add_argument("--kieu", default=None, help="mat_hang|ma_hs|nha_sx|cong_ty_tm|mac_thep|tieu_chuan|so_qd|loai_tru")
@@ -439,11 +525,11 @@ def main():
         chuyen = {"code": lambda: api_code(args.code), "search": lambda: api_search(args.keyword),
                   "chapter": lambda: api_chapter(args.num), "gri": lambda: api_gri(args.so),
                   "refs": lambda: api_refs(args.keyword, args.category), "vanban": lambda: api_vanban(args.ma),
-                  "cbpg": lambda: api_cbpg(args.tu_khoa, args.kieu), "vu": lambda: api_vu(args.ma),
+                  "cbpg": lambda: api_cbpg(args.tu_khoa, args.kieu), "dongbo": lambda: api_dongbo(args.chi_keo), "vu": lambda: api_vu(args.ma),
                   "thue": lambda: api_thue(args.code, args.nuoc, args.nsx, args.nxk, args.mac, args.tc)}
         if args.cmd in chuyen:
             return chuyen[args.cmd]()
-    elif args.cmd in ("vanban", "cbpg", "vu", "thue"):
+    elif args.cmd in ("vanban", "cbpg", "vu", "thue", "dongbo"):
         raise SystemExit(f"Lệnh {args.cmd} cần ILMS_URL (đọc kho của ILMSv2).")
 
     if args.cmd == "code":

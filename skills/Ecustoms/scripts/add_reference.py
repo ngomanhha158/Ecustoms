@@ -93,6 +93,7 @@ def main():
         row = ilms_api.them_van_ban({"so_hieu": args.so_hieu, "ten": args.title, "loai": args.category,
                                      "ngay_ban_hanh": args.ngay, "co_quan": args.co_quan}, content)
         print(f"Đã thêm vào kho ILMS: [{row['id']}] {row['so_hieu']} (mã HS trong bài được trích tự động)")
+        print("Đồng bộ bản sao trên máy: python scripts/query_hs.py dongbo --chi-keo")
         return
 
     with open(dest, "w", encoding="utf-8") as f:

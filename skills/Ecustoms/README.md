@@ -128,3 +128,13 @@ python scripts/query_hs.py thue 7210.49.11 --nuoc CN --mac DX57D+Z --tc "EN 1034
 - Khi phân loại một mã có dấu hiệu CBPG, luôn chạy `thue` với đủ nước C/O, nhà SX, nhà XK (và mác thép + tiêu chuẩn với hàng thép) rồi trích **từng bước và căn cứ** máy trả về.
 - Vụ ghi "CHƯA ĐỐI CHIẾU BẢN GIẤY": nói rõ với người dùng rằng số liệu cần đối chiếu QĐ gốc trước khi khai.
 - Không nộp C/O, không có giấy chứng nhận nhà SX, hay nhà XK không cùng hàng ngang với nhà SX đều rơi về mức cao hơn — nêu rõ điều này khi tư vấn.
+
+## Đồng bộ với ILMSv2 (ILMS là nguồn chính)
+
+- **Dữ liệu:** có `ILMS_URL` thì mọi lệnh tra (`code`, `search`, `refs`, `vanban`, `cbpg`, `vu`, `thue`) đọc thẳng
+  kho ILMSv2 — cùng số liệu nhân viên thấy trên app. Thêm văn bản bằng `add_reference.py` hay nút "+ Văn bản"
+  trên app đều vào CÙNG một kho.
+- **Bản sao trên máy** (để tra khi mất mạng): `python scripts/query_hs.py dongbo` — kéo mọi văn bản ILMS về
+  `references/`, đẩy văn bản chỉ có trên máy (có dòng `[Số hiệu]`) lên ILMS. `--chi-keo` để chỉ kéo về.
+- Tra cứu phòng vệ thương mại (`cbpg`, `vu`, `thue`) luôn đọc trực tiếp ILMS, không có bản sao — mức thuế phải là số hiện hành.
+- **Ưu tiên:** Ecustoms là skill tra cứu HS / CBPG CHÍNH. Chỉ dùng skill khác khi người dùng gọi đích danh.
