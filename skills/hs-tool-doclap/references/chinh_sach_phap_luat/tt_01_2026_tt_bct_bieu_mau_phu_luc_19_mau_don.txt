@@ -1,0 +1,2170 @@
+[Tiêu đề] TT 01-2026-TT-BCT Bieu mau phu luc 19 mau don
+[Ngày thêm vào tool] 2026-09-23
+------------------------------------------------------------
+
+
+======================================================================
+=== 01 Phieu an toan hoa chat.docx ===
+======================================================================
+
+Phụ lục I
+MẪU PHIẾU AN TOÀN HÓA CHẤT
+(Ban hành kèm theo Thông tư số 01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương)
+Phiếu An toàn hóa chất phải có các nội dung cơ bản sau đây:
+STT | Nội dung cơ bản | Giải thích
+1 | Nhận dạng hóa chất và thông tin về nhà cung cấp | a) Thông tin định danh sản phẩm hoặc các nhận dạng khác của sản phẩm/hóa chất {Số CAS; số UN (nếu có); Số đăng ký EC (nếu có); Tên thương mại}b) Mục đích sử dụng và hạn chế khi sử dụng:  Ghi ngắn gọn mục đích sử dụng- ví dụ: làm dung môi hòa tan nhựa PVCc) Thông tin nhà cung cấp (nhập khẩu/sản xuất): Tên; địa chỉ; số điện thoại...d) Số điện thoại liên hệ trong trường hợp khẩn cấp
+2 | Nhận dạng đặc tính nguy hiểm của hóa chất | a) Phân loại theo GHS và thông tin phân loại theo theo số liệu hợp lệ có sẵn của các quốc gia, khu vực, tổ chức thử nghiệm. (Ví dụ: EU, Mỹ, OSHA…)b) Các yếu tố nhãn theo GHS (Cảnh báo nguy hiểm, hướng dẫn bảo quản, sử dụng..)c) Các thông tin nguy hại khác (nếu có, ví dụ: bụi nổ…)
+3 | Thông tin về thành phần các chất | Chấta) Nhận dạng hóa chất:Tên thông thườngb) Các nhận dạng khác của sản phẩm/hóa chất {Số CAS; số UN (nếu có); Số đăng ký EC (nếu có) }; c) Tên thương mại;d) Tạp chất và chất ổn định có ảnh hưởng đến việc phân loại hóa chất.Hỗn hợp chấtNhận dạng hóa chất, nồng độ, phầm trăm nồng độ trong khoảng xác định của tất cả các chất độc hại trên ngưỡng quy địnhGhi chú: Các quy định pháp lý về thông tin bí mật thương mại (CBI) sẽ được ưu tiên khi liệt kê thành phần các chất
+4 | Biện pháp sơ cứu về y tế | a) Mô tả các biện pháp tương ứng với các đường phơi nhiễm (Trường hợp tai nạn khi tiếp xúc với mắt (bị văng, dây vào mắt): Trường hợp tai nạn tiếp xúc trên da (bị dây vào da); Trường hợp tai nạn tiếp xúc theo đường hô hấp (hít thở phải hóa chất nguy hiểm dạng hơi, khí)b) Các triệu chứng/tác hại nghiêm trọng tức thời và ảnh hưởng sau nàyc) Các chỉ thị và hướng dẫn cấp cứu đặc biệt cần thiết
+5 | Biện pháp xử lý khi có hỏa hoạn | a) Các phương tiện chữa cháy thích hợpb) Các chất độc được sinh ra khi bị cháy (khí độc….)c) Phương tiện, trang phục bảo hộ và cảnh báo cần thiết khi chữa cháy
+6 | Biện pháp phòng ngừa, ứng phó khi có sự cố | a) Trang thiết bị bảo hộ và quy trình ứng phó sự cốb) Các cảnh báo về môi trườngc) Biện pháp, vật liệu vệ sinh sau khi xảy ra sự cố
+7 | Yêu cầu về sử dụng, bảo quản | a) Biện pháp, điều kiện cần áp dụng khi sử dụng, thao tác với hóa chất nguy hiểm (ví dụ: thông gió, chỉ dùng trong hệ thống kín, sử dụng thiết bị điện phòng nổ, vận chuyển nội bộ…)b) Biện pháp, điều kiện cần áp dụng khi bảo quản (ví dụ: nhiệt độ, cách sắp xếp, các hạn chế về nguồn gây cháy, nổ, các chất cần tránh bảo quản chung…)
+8 | Kiểm soát phơi nhiễm/yêu cầu về thiết bị bảo vệ cá nhân | a) Các thông số kiểm soát (ví dụ: ngưỡng giới hạn tiếp xúc nghề nghiệp, ngưỡng giới hạn các chỉ số sinh học)b) Các biện pháp kiểm soát thiết bị phù hợpc) Biện pháp và thiết bị bảo hộ cá nhân
+9 | Đặc tính lý, hóa của hóa chất | a) Trạng thái vật lýb) Điểm sôi (oC)c) Màu sắcd) Điểm nóng chảy (oC)đ) Mùi đặc trưnge) Điểm cháy (oC) (Flash point) theo phương pháp xác định g) Áp suất hóa hơi (mm Hg) ở nhiệt độ, áp suất tiêu chuẩnh) Nhiệt độ tự cháy (oC)i) Tỷ trọng hơi (Không khí = 1) ở nhiệt độ, áp suất tiêu chuẩn k) Giới hạn nồng độ cháy, nổ trên (% hỗn hợp với không khí)l) Độ hòa tan trong nướcm) Giới hạn nồng độ cháy, nổ dưới (% hỗn hợp với không khí)n) Độ pH o) Tỷ lệ hóa hơip) Khối lượng riêng (kg/m3)q) Các tính chất khác nếu có
+10 | Mức ổn định và phản ứng  của hóa chất | a) Khả năng phản ứng.b) Tính ổn địnhc) Phản ứng nguy hiểm (ví dụ: ăn mòn, cháy nổ…)d) Các điều kiện cần tránh (ví dụ: tĩnh điện, rung, lắc…)đ) Vật liệu không tương thích e) Phản ứng phân hủy và các sản phẩm độc của phản ứng phân hủy.
+11 | Thông tin về độc tính | Mô tả chính xác, đầy đủ các tác hại đến sinh thái khác nhau và cơ sở dữ liệu sẵn có sử dụng để nhận biết các tác hại đó, bao gồm:a) Thông tin về các đường phơi nhiễm khác nhau (ví dụ: đường thở, tiêu hóa, tiếp xúc mắt/da)b) Các triệu chứng liên quan đến tính độc hại của hóa chất và độc sinh tháic) Tác hại tức thì, tác hại lâu dài và những ảnh hưởng mãn tính do phơi nhiễm ngắn hạn và dài hạn.d) Liệt kê những thông số về độc tính (ước tính mức độ độc cấp tính)
+12 | Thông tin về sinh thái | a) Độc môi trường (nước và trên cạn)b) Tính bền vững, khó phân hủy và khả năng phân hủyc) Khả năng tích lũy sinh họcd) Độ linh động trong đấtđ) Các tác hại khác
+13 | Thông tin về thải bỏ | Mô tả các loại chất thải và các thông tin xử lý an toàn, các biện pháp thải bỏ, có tính đến bao bì nhiễm độc
+14 | Thông tin khi vận chuyển | Phải thể hiện được một hoặc nhiều hơn một các thông tin liên quan sau:a) Số hiệu UNb) Tên phương tiện vận chuyển đường biểnc) Loại nhóm hàng nguy hiểm trong vận chuyểnd) Quy cách đóng gói (nếu có)đ) Độc môi trường (chất ô nhiễm đại dương)e) Vận chuyển trong tàu lớng) Những cảnh báo đặc biệt mà người sử dụng cần lưu ý, cần tuân thủ trong vận chuyển.
+15 | Thông tin về pháp luật | Các thông tin pháp luật về an toàn, sức khỏe và môi trường đối với hóa chất
+16 | Các thông tin cần thiết khác, bao gồm các thông tin khi xây dựng và hiệu đính Phiếu an toàn hóa chất | 
+
+Các yêu cầu bắt buộc và thông tin trên đây có thể được thay đổi thứ tự và trình bày theo các hình thức khác nhau.
+
+======================================================================
+=== 02 Bieu mau nhap khau hoa chat cam.docx ===
+======================================================================
+
+Phụ lục II
+CÁC BIỂU MẪU SỬ DỤNG TRONG THỦ TỤC CẤP, CẤP LẠI, CẤP ĐIỀU CHỈNH GIẤY PHÉP NHẬP KHẨU HOÁ CHẤT CẤM
+(Ban hành kèm theo Thông tư số 01 /2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương)
+Ký hiệu | Biểu mẫu
+Mẫu 02a | Văn bản đề nghị cấp Giấy phép nhập khẩu hóa chất cấm
+Mẫu 02b | Văn bản đề nghị cấp lại, cấp điều chỉnh Giấy phép nhập khẩu hóa chất cấm
+Mẫu 02c | Mẫu Giấy phép nhập khẩu hóa chất cấm
+
+
+Mẫu 02a. Văn bản đề nghị cấp Giấy phép nhập khẩu hóa chất cấm
+TÊN TỔ CHỨC (1)------- | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc---------------
+Số: ...........(2) | ......., ngày .... tháng .... năm ......
+
+
+VĂN BẢN ĐỀ NGHỊ
+Cấp Giấy phép nhập khẩu hóa chất cấm
+Kính gửi: ……(3)
+Tên tổ chức: (1)
+Địa chỉ trụ sở chính: ……. Điện thoại: 
+Địa chỉ kho chứa hóa chất cấm của tổ chức nhập khẩu: 
+Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đầu tư số: do.... cấp ngày ... tháng ... năm…..
+Mã định danh của tổ chức
+Người đại diện pháp luật:………………….chức vụ:
+Người được ủy quyền ký văn bản:
+Đề nghị ……..(3) xem xét và cấp giấy phép nhập khẩu hoá chất cấm, theo các nội dung sau:
+
+TT | Tên thương mại/hỗn hợp chất chứa hóa chất cấm | Thông tin thành phần hóa chất cấm | Khối lượng (kg/lít) | Khối lượng quy đổi (kg) (4) | Mô tả hàng hóa | Tên Công ty xuất khẩu nước ngoài | Quốc gia
+ |  | Tên hóa chất cấm | Mã số CAS | Công thức hóa học | Hàm lượng (%) |  | Khối lượng thành phần hoá chất cấm | Khối lượng hỗn hợp chứa hoá chất cấm (trong trường hợp khối lượng hỗn hợp là lít) |  |  | 
+1 |  |  |  |  |  |  |  |  | Nhập khẩu theo Hóa đơn số... ngày ...tháng...năm.... Thông tin chi tiết hóa chất theo MSDS đính kèm. | ... | ...
+n |  |  |  |  |  |  |  |  | ... |  | 
+
+- Tên cửa khẩu nhập khẩu:;
+- Nơi làm thủ tục Hải quan:;
+- Hóa đơn số……..ngày….tháng…năm………………………………………...;
+- Thời gian thực hiện nhập khẩu:………………………………………………..;
+- Mục đích nhập khẩu (nêu cụ thể mục đích nhập khẩu):.;
+- Địa chỉ sử dụng:……………………………………………………………….;
+..............(1) xin cam đoan thực hiện đúng các quy định tại Luật Hóa chất số 69/2025/QH15, Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa, Thông tư số    01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số     26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa và các quy định pháp luật khác có liên quan. Nếu vi phạm …............ (1) xin hoàn toàn chịu trách nhiệm trước pháp luật.
+....................... (1) gửi kèm theo hồ sơ liên quan, bao gồm:..............................
+ | ĐẠI DIỆN PHÁP LUẬT /NGƯỜI ĐƯỢC ỦY QUYỀN(Ký tên và đóng dấu)
+
+Ghi chú: - (1): Tên tổ chức đăng ký cấp giấy phép nhập khẩu hóa chất cấm;
+               - (2): Ký hiệu số văn bản của tổ chức đăng ký cấp giấy phép nhập khẩu hóa chất cấm;
+- (3): Cơ quan có thẩm quyền cấp giấy phép nhập khẩu hoá chất cấm;
+- (4): Ghi cụ thể khối lượng của hỗn hợp chứa hóa chất cấm, khối lượng quy đổi của thành phần hóa chất cấm trong hỗn hợp.
+
+Mẫu 02b. Văn bản đề nghị cấp lại, cấp điều chỉnh Giấy phép nhập khẩu hóa chất cấm
+TÊN TỔ CHỨC (1)--------- | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập – Tự do – Hạnh phúc---------------
+Số: …........(2) | ......., ngày .... tháng .... năm ......
+
+
+VĂN BẢN ĐỀ NGHỊ
+Cấp lại/cấp điều chỉnh Giấy phép nhập khẩu hóa chất cấm
+Kính gửi: ……(3)
+Tên tổ chức: (1)
+Địa chỉ trụ sở chính: ……………. Điện thoại: 
+Địa chỉ sản xuất: ............................. Điện thoại: 
+Địa chỉ kho chứa hóa chất cấm: 
+Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đầu tư số: ... do..   ... cấp ngày ... tháng ... năm... 
+Mã định danh tổ chức…
+Người đại diện pháp luật:………………….chức vụ:
+Người được ủy quyền ký văn bản:
+….(1)đã được …….(3) cấp Giấy phép nhập khẩu hóa chất cấm số .... ngày .... tháng .... năm …… Hiện nay Giấy phép nhập khẩu hóa chất cấm của ……….(1) ... (nêu lý do cấp lại/cấp điều chỉnh Giấy phép nhập khẩu hóa chất cấm;
+Đề nghị …….. (3)xem xét và cấp lại/cấp điều chỉnh giấy phép nhập khẩu hóa chất cấm, theo các nội dung sau:
+- Lý do đề nghị cấp lại/cấp điều chỉnh:
+- Thông tin đề nghị cấp lại/cấp điều chỉnh:
+..............(1) xin cam đoan thực hiện đúng các quy định tại Luật Hóa chất số 69/2025/QH15, Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa, Thông tư số    01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số     26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa và các quy định pháp luật khác có liên quan. Nếu vi phạm …............ (1) xin hoàn toàn chịu trách nhiệm trước pháp luật.
+....................... (1) gửi kèm theo hồ sơ liên quan, bao gồm:............................
+
+ | ĐẠI DIỆN PHÁP LUẬT/NGƯỜI ĐƯỢC ỦY QUYỀN(Ký tên và đóng dấu)
+
+Ghi chú: - (1): Tên tổ chức đăng ký cấp lại/cấp điều chỉnh giấy phép nhập khẩu hóa chất cấm;
+               - (2): Ký hiệu số văn bản của tổ chức đăng ký cấp lại/cấp điều chỉnh Giấy phép nhập khẩu hóa chất cấm;
+- (3): Cơ quan có thẩm quyền cấp lại/cấp điều chỉnh giấy phép nhập khẩu hoá chất cấm.
+
+Mẫu 02c. Mẫu Giấy phép nhập khẩu hóa chất cấm
+CƠ QUAN CẤP PHÉP (1)------- | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc---------------
+Số: ..........(2) | ...., ngày ... tháng ... năm ......
+
+ 
+GIẤY PHÉP
+Nhập khẩu hóa chất cấm
+THỦ TRƯỞNG CƠ QUAN CẤP PHÉP...(3)
+Căn cứ Luật Hóa chất số 69/2025/QH15;
+Căn cứ Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa;
+Thông tư số     /2026/TT-BCT ngày…..tháng…..năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số 26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa;
+Căn cứ ...(4);
+Xét đề nghị cấp Giấy phép nhập khẩu/xuất khẩu hóa chất cấm tại văn bản số ... ngày ... tháng ... năm của ...(5).
+
+QUYẾT ĐỊNH:
+Điều 1. Cho phép (5)
+1. Địa chỉ trụ sở chính: 
+2. Số điện thoại: 
+3. Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đầu tư số: ... do..   ... cấp ngày ... tháng ... năm...
+4. Mã định danh của tổ chức: 
+- Được nhập khẩu hóa chất cấm như Phụ lục đính kèm.
+- Mục đích nhập khẩu: 
+- Thời gian thực hiện nhập khẩu: 
+Điều 2. …(5)……. phải thực hiện đúng mục đích nhập khẩu, các quy định tại Luật Hóa chất số 69/2025/QH15, Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa và các văn bản pháp luật có liên quan.
+Điều 3. Giấy phép này có giá trị đến hết ngày ... tháng … năm ...(6)
+Nơi nhận:- Như Điều 1;- Chi cục hải quan cửa khẩu;- Lưu: VT,.... | THỦ TRƯỞNG CƠ QUAN CẤP PHÉP(Ký tên và đóng dấu)
+
+Ghi chú: - (1): Tên cơ quan cấp Giấy phép;
+               - (2): Ký hiệu số văn bản Giấy phép;
+- (3): Chức danh thủ trưởng cơ quan cấp Giấy phép;
+- (4): Các căn cứ pháp lý khác liên quan (nếu có);
+- (5): Tên tổ chức được cấp Giấy phép;
+- (6): Ghi cụ thể thời hạn giấy phép. Trường hợp cấp lại/cấp điều chỉnh, giấy phép cũ phải được thay thế, ghi cụ thể Giấy phép này thay thế Giấy phép số…. ngày…tháng…năm… 
+
+Phụ lục
+DANH MỤC HÓA CHẤT
+(Kèm theo Giấy phép nhập khẩu số:... ngày... tháng .... năm ....)
+TT | Tên thương mại | Thông tin thành phần hoá chất cấm | Khối lượng (kg/lít) | Khối lượng quy đổi (kg) | Mô tả | Quốc gia xuất khẩu/ nhập khẩu
+ |  | Tên hóa chất cấm | Mã CAS | Hàm lượng (%) |  | Thành phần hoá chất cấm | Hỗn hợp chứa hoá chất cấm (trong trường hợp khối lượng hỗn hợp là lít) |  | 
+1 |  |  |  |  |  |  |  | Nhập khẩu … (hàm lượng …%) trong … hỗn hợp có tên thương mại ABC theo hoá đơn/vận đơn số... ngày... tháng... năm... | 
+ |  |  |  |  |  |  |  |  | 
+
+
+  
+
+
+======================================================================
+=== 03 Bieu mau SAN XUAT hoa chat cam.docx ===
+======================================================================
+
+Phụ lục III
+CÁC BIỂU MẪU SỬ DỤNG TRONG THỦ  TỤC CẤP, CẤP LẠI, CẤP ĐIỀU CHỈNH GIẤY PHÉP SẢN XUẤT HÓA CHẤT CẤM
+(Ban hành kèm theo Thông tư số   01   /2026/TT-BCT ngày  17  tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương)
+Ký hiệu | Biểu mẫu
+Mẫu 03a | Văn bản đề nghị cấp Giấy phép sản xuất hóa chất cấm
+Mẫu 03b | Văn bản đề nghị cấp lại, cấp điều chỉnh Giấy phép sản xuất hóa chất cấm
+Mẫu 03c | Mẫu Giấy phép sản xuất hóa chất cấm (mẫu giấy phép trên khổ giấy A3)
+
+
+
+
+
+
+Mẫu 03a. Văn bản đề nghị cấp Giấy phép sản xuất hóa chất cấm
+TÊN TỔ CHỨC (1)------- | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc---------------
+Số: ...........(2) | ......., ngày .... tháng .... năm ......
+
+
+VĂN BẢN ĐỀ NGHỊ
+Cấp Giấy phép sản xuất hóa chất cấm
+Kính gửi: ……(3)
+Tên tổ chức: (1)
+Địa chỉ trụ sở chính: …………. Điện thoại: 
+Địa chỉ kho chứa hóa chất cấm: 
+Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đầu tư số: ... do....... cấp ngày ... tháng ... năm... 
+Người đại diện pháp luật:………………….chức vụ:
+Người được ủy quyền ký văn bản:
+Đề nghị …….. (3) xem xét, thẩm định, kiểm tra điều kiện thực tế và cấp Giấy phép sản xuất hoá chất cấm theo các nội dung sau:
+
+TT | Tên thương mại/hỗn hợp chất chứa hóa chất cấm | Thông tin thành phần hóa chất cấm(4) | Quy mô sản xuất theo năm (kg)(5) | Ghi chú
+ |  | Tên hóa chất cấm | Mã số CAS | Công thức hóa học | Hàm lượng (%) |  | 
+1 | VD: ABC | AAA | 11-22-33 | BBB | 5% | 100 | ...
+2 |  | CCC | 22-33-44 | DDD | 10% |  | 
+n |  |  |  |  |  |  | 
+
+
+- Mục đích sản xuất hóa chất cấm (nêu cụ thể mục đích): ;
+..............(1) xin cam đoan thực hiện đúng các quy định tại Luật Hóa chất số 69/2025/QH15, Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa, Thông tư số 01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số 26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa và các quy định pháp luật khác có liên quan. Nếu vi phạm …............ (1) xin hoàn toàn chịu trách nhiệm trước pháp luật.
+....................... (1) gửi kèm theo hồ sơ liên quan, bao gồm:……………………….
+
+ | ĐẠI DIỆN PHÁP LUẬT/NGƯỜI ĐƯỢC ỦY QUYỀN(Ký tên và đóng dấu)
+
+Ghi chú: - (1): Tên tổ chức đăng ký giấy phép sản xuất hóa chất cấm;
+               - (2): Ký hiệu số văn bản của tổ chức đăng ký giấy phép sản xuất hóa chất cấm;
+- (3): Cơ quan có thẩm quyền cấp giấy phép sản xuất hoá chất cấm; 
+- (4): Chỉ kê khai các thành phần hóa chất cấm;
+- (5): Ghi rõ khối lượng quy mô sản xuất theo năm.
+Mẫu 03b. Văn bản đề nghị cấp lại, cấp điều chỉnh Giấy phép sản xuất hóa chất cấm
+TÊN TỔ CHỨC (1)------- | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc---------------
+Số: ......(2)..... | ......., ngày .... tháng .... năm ......
+
+
+VĂN BẢN ĐỀ NGHỊ
+Cấp lại/cấp điều chỉnh Giấy phép sản xuất hóa chất cấm
+Kính gửi: ……(3)
+Tên tổ chức:………………………………………………………………………. (1)
+Địa chỉ trụ sở chính: ………. Điện thoại: 
+Địa chỉ sản xuất: ............................. Điện thoại: 
+Địa chỉ kho chứa hóa chất cấm: 
+Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đầu tư số:.... do......... cấp ngày ... tháng ... năm... ……..
+Người đại diện pháp luật:………………….chức vụ:……………………………….
+Người được ủy quyền ký văn bản:…………………………………………………...
+….(1) đã được …….(3) cấp Giấy phép sản xuất hoá chất cấm số …. ngày .... tháng .... năm …… Hiện nay Giấy phép sản xuất hóa chất cấm của ……….(1) ... (nêu lý do cấp lại/cấp điều chỉnh Giấy phép sản xuất hóa chất cấm);
+Đề nghị …….. (3) xem xét và cấp lại/cấp điều chỉnh giấy phép sản xuất hóa chất cấm, theo các nội dung sau:
+TT | Tên thương mại/hỗn hợp chất chứa hóa chất cấm | Thông tin thành phần hóa chất cấm (4) | Quy mô sản xuất theo năm (kg) (5) | Ghi chú
+ |  | Tên hóa chất cấm | Mã số CAS | Công thức hóa học | Hàm lượng (%) |  | 
+1 | VD: ABC | AAA | 11-22-33 | BBB | 5 | 100 | ...
+2 |  | CCC | 22-33-44 | DDD | 10 |  | 
+n |  |  |  |  |  |  | 
+
+- ..............(1) xin cam đoan thực hiện đúng các quy định tại Luật Hóa chất số 69/2025/QH15, Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa, Thông tư số      01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số     26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa và các quy định pháp luật khác có liên quan. Nếu vi phạm …............ (1) xin hoàn toàn chịu trách nhiệm trước pháp luật.
+....................... (1) gửi kèm theo hồ sơ liên quan, bao gồm:…...............
+
+ | ĐẠI DIỆN PHÁP LUẬT/NGƯỜI ĐƯỢC ỦY QUYỀN(Ký tên và đóng dấu)
+
+Ghi chú: - (1): Tên tổ chức đăng ký cấp lại/cấp điều chỉnh giấy phép sản xuất hóa chất cấm;
+               - (2): Ký hiệu số văn bản của tổ chức đăng ký cấp lại/cấp điều chỉnh Giấy phép sản xuất hóa chất cấm;
+- (3): Cơ quan có thẩm quyền cấp lại/cấp điều chỉnh giấy phép sản xuất hóa chất cấm;
+- (4): Chỉ kê khai các thành phần hóa chất cấm;
+- (5): Ghi rõ khối lượng quy mô sản xuất theo năm.
+
+Mẫu 03c. Mẫu Giấy phép sản xuất hóa chất cấm
+
+
+Điều kiện sử dụng Giấy phép1. Lưu Giấy phép tại trụ sở chính và xuất trình Giấy phép khi được cơ quan có thẩm quyền yêu cầu.2. Không được tẩy xóa, sửa chữa nội dung trong Giấy phép.3. Không được chuyển nhượng, cho thuê, cho mượn, cầm cố Giấy phép.4. Báo cáo ……(1) khi có sự thay đổi điều kiện của đơn vị được cấp Giấy phép (Đăng ký kinh doanh, mã số thuế, địa điểm, quy mô...).5. Báo cáo ……(1) khi chấm dứt hoạt động sản xuất hoặc khi bị mất, hỏng Giấy phép.6. Không được phép bán hóa chất cấm.7. Chỉ được phép sản xuất đúng quy mô, sử dụng đúng mục đích.7. Nộp lại Giấy phép tại cơ quan cấp Giấy phép khi hết hạn sử dụng. |  | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc-----------------  ……(1) GIẤY PHÉP SẢN XUẤT HÓA CHẤT CẤM    Số:     /GP-(2)Ngày   tháng   năm
+
+ 
+ 
+
+
+TÊN CƠ QUAN CẤP GIẤY PHÉP (1)-------CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc-----------Số: ......./GP-(2)Hà Nội, ngày ... tháng ... năm ...GIẤY PHÉP SẢN XUẤT HÓA CHẤT CẤM THỦ TRƯỞNG CƠ QUAN CẤP PHÉP (3)Căn cứ Luật Hóa chất ngày 14 tháng 6 năm 2025;Căn cứ Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa; Căn cứ Thông tư số 01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số 26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa;Căn cứ …………(4);Xét Hồ sơ đề nghị cấp Giấy phép sản xuất hóa chất cấm;Theo đề nghị của ............(5).QUYẾT ĐỊNH:Điều 1. Cho phép: ……………………….…………...(6);1. Địa chỉ trụ sở chính: .........................Điện thoại: .......; 2. Địa chỉ cơ sở sản xuất… .............................................;3. Địa chỉ kho chứa hóa chất:…………………………..;4. Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đầu tư số:.... do......... cấp ngày ... tháng ... năm5. Mã số doanh nghiệp/thuế: ...................................... |  | Được phép sản xuất hóa chất hóa chất cấm với chủng loại, quy mô, mục đích sản xuất cụ thể như sau:STTTên thương mạiThông tin thành phần hóa chất cấmQuy mô sản xuất theo năm (Kg)Mục đích sản xuấtTên hóa chấtMã số CASCông thức hóa họcHàm lượng (%)                  Điều 2. (4) ........ phải thực hiện đúng các quy định tại Luật Hóa chất số 69/2025/QH15; Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa; Thông tư số 01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số 26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa và các quy định pháp luật khác có liên quan.Nếu có sự thay đổi các thông tin nêu tại Giấy phép này và thay đổi điều kiện sản xuất hóa chất cấm, (6) ........ có nghĩa vụ báo cáo với……(1)Điều 3. Giấy phép này có hiệu lực thi hành kể từ ngày ký và có giá trị đến ngày ...(7) Nơi nhận:- Như Điều 1;- Lưu: ....;THỦ TRƯỞNG CƠ QUAN CẤP PHÉP (Ký tên và đóng dấu)
+
+
+Ghi chú: - (1): Tên cơ quan có thẩm quyền cấp giấy phép sản xuất hoá chất cấm;
+  - (2): Ký hiệu văn bản Giấy phép;
+  - (3): Chức danh thủ trưởng cơ quan cấp Giấy phép;
+  - (4): Căn cứ pháp lý khác liên quan (nếu có);
+  - (5): Thông tin chức danh cơ quan thụ lý hồ sơ cấp Giấy phép;
+  - (6): Tên tổ chức đăng ký cấp giấy phép;
+  - (7): Ghi cụ thể thời hạn giấy phép. Trường hợp cấp lại/cấp điều chỉnh, giấy phép cũ phải được thay thế, ghi cụ thể Giấy phép này thay thế Giấy phép số…. ngày…tháng…năm…. 
+
+
+======================================================================
+=== 04 Phuong an kiem soat that thoat hoa chat cam.docx ===
+======================================================================
+
+Phụ lục IV
+MẪU PHƯƠNG ÁN KIỂM SOÁT PHÒNG, CHỐNG THẤT THOÁT HOÁ CHẤT CẤM
+(Ban hành kèm theo Thông tư số   01   /2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương)
+TÊN TỔ CHỨC XÂY DỰNG PHƯƠNG ÁN (1)------- | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc---------------
+Số: ……./PA-KSHCC | …....., ngày…… tháng…… năm……
+
+PHƯƠNG ÁN
+Kiểm soát phòng, chống thất thoát hóa chất cấm
+……………………..(2)
+Căn cứ Luật Hóa chất số 69/2025/QH15 ngày 14 tháng 6 năm 2025;
+Căn cứ Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 Quy định chi tiết và hướng dẫn một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa;
+Căn cứ Thông tư số 01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số 26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa.
+
+I. THÔNG TIN CHUNG
+Tên tổ chức: 
+Địa chỉ trụ sở chính:…………………Điện thoại:
+Địa điểm cơ sở sản xuất, lưu trữ, sử dụng hóa chất: 
+Mã số doanh nghiệp/Mã số thuế: 
+Người đại diện theo pháp luật: 
+Người phụ trách an toàn hóa chất: 
+II. THÔNG TIN HÓA CHẤT CẤM
+TT | Tên thương mại | Thông tin thành phần | Khối lượng (kg) | Cách thức bảo quản | Mục đích sử dụng
+ |  | Tên hóa chất | Mã CAS | Công thức hóa học | Hàm lượng (%) |  |  | 
+1 | Ví dụ: DEF | ABC | XXX | YYY | (98%) | 100 | (Thùng nhựa 200l, Kho kín, có khóa) | (Sản xuất công nghiệp
+
+III. CÁC BIỆN PHÁP KIỂM SOÁT CỤ THỂ 
+1. Kiểm soát tại khu vực lưu giữ, kho chứa 
+- Kết cấu kho: mô tả vật liệu xây dựng, diện tích, chiều cao, hệ thống thông gió;
+- Hệ thống giám sát an ninh: (ví dụ: số lượng camera, số lượng, vị trí lắp đặt, góc quay, thời gian lưu trữ dữ liệu; hệ thống báo động xâm nhập, báo động cháy, rò rỉ khí; Số lượng nhân viên bảo vệ, chế độ trực);
+- Điều kiện bảo quản;
+- Biển báo và nội quy: (khai báo việc lắp đặt biển cảnh báo, sơ đồ thoát hiểm, nội quy an toàn kho,…).
+2. Kiểm soát trong quá trình sản xuất, lưu trữ và sử dụng
+- Hệ thống ghi chép: (sử dụng phương thức quản lý cụ thể để theo dõi xuất - nhập - tồn từng ngày,…);
+- Quy trình nội bộ: (mô tả quy trình về xuất, nhập hàng, cách kiểm tra giấy phép, hóa đơn, chứng từ; cách kiểm tra khối lượng, bao gói; quy trình kiểm kê, Phân cấp trách nhiệm: thủ kho, người xuất, người nhận, người giám sát);
+- Các thông tin thực hiện các quy định trong quá trình vận chuyển.
+3. Công tác đào tạo huấn luyện an toàn hóa chất, an toàn PCC
+- Nêu thông tin, số lượng người đã được đào tạo, tập huấn an toàn hóa chất;
+- Chứng nhận và thẩm duyệt PCCC (cần nêu các thông tin liên quan đảm bảo công tác an toàn PCCC).
+IV. CAM KẾT
+……(1)……. cam kết thực hiện đúng phương án đã đề ra và tuân thủ các quy định pháp luật có liên quan. Nếu vi phạm …............ (1) xin hoàn toàn chịu trách nhiệm trước pháp luật.
+……(1)……… cam kết cập nhật phương án kiểm soát phòng, chống thất thoát hóa chất cấm khi có sự thay đổi hoạt động, chủng loại và số lượng hóa chất./.
+ | ĐẠI DIỆN PHÁP LUẬT /NGƯỜI ĐƯỢC ỦY QUYỀN (Ký, ghi rõ họ tên, chức danh và đóng dấu)
+
+Ghi chú: - (1): Tổ chức ban hành Phương án;
+               - (2): Chức danh người đại diện theo pháp luật của tổ chức ban hành Phương án.
+
+======================================================================
+=== 05 So theo doi hoa chat cam.docx ===
+======================================================================
+
+Phụ lục V
+MẪU SỔ THEO DÕI SẢN XUẤT, NHẬP KHẨU, SỬ DỤNG, TỒN TRỮ HOÁ CHẤT CẤM
+(Ban hành kèm theo Thông tư số 01 /2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương)
+
+TT | Ngày sản xuất | Ngày nhập khẩu | Mã lô sản xuất | Thông tin tờ khai nhập khẩu | Tên hóa chất | Khối lượng(kg) | Vị trí cụ thể lưu kho hóa chất | Tồn kho hóa chất trước | Sử dụng | Tổng lượng hóa chất tồn kho sau | Tổng khối lượng đã sản xuất/nhập khẩu | Tổng khối lượng được cấp phép | Người giám sát (ký và ghi rõ họ tên)
+ |  |  |  |  |  |  |  |  |  |  | đã sản xuất | Đã nhập khẩu | Sản xuất | Nhập khẩu | 
+Ví dụ 1 | 26/9/2025 |  | SX-001 |  | Hóa chất A | 100 kg | Kho A kệ 1, địa chỉ: abc,… | 50 kg | 0 | 150 kg | 350 kg |  |  |  | Nguyễn Văn A (ký và ghi rõ họ tên)
+Ví dụ 2 | 27/9/2025 |  | 0 |  | Hóa chất A | 0 | Kho A kệ 1, địa chỉ: abc,… | 150 | 50 | 100 kg | 350 |  |  |  | Nguyễn Văn A (ký và ghi rõ họ tên)
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+
+
+
+
+======================================================================
+=== 06 Bieu mau SAN XUAT KINH DOANH hoa chat KSDB.docx ===
+======================================================================
+
+PHỤ LỤC VI
+CÁC BIỂU MẪU SỬ DỤNG TRONG THỦ TỤC CẤP, CẤP LẠI, CẤP ĐIỀU CHỈNH GIẤY PHÉP SẢN XUẤT, KINH DOANH HÓA CHẤT CẦN KIỂM SOÁT ĐẶC BIỆT
+(Kèm theo Thông tư số 01 /2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương)
+
+Ký hiệu | Biểu mẫu
+Mẫu 06a | Văn bản đề nghị cấp Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt
+Mẫu 06b | Văn bản đề nghị cấp lại, cấp điều chỉnh Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt
+Mẫu 06c | Mẫu Giấy phép cấp, cấp lại, cấp điều chỉnh sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt (mẫu giấy phép trên khổ giấy A3)
+
+
+Mẫu 06a. Văn bản đề nghị cấp Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt
+TÊN TỔ CHỨC (1)----- | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc---------------
+Số: ...........(2) | ......, ngày .... tháng .... năm ......
+
+VĂN BẢN ĐỀ NGHỊ
+Cấp Giấy phép …(3).. hóa chất cần kiểm soát đặc biệt, nhóm….(5)
+Kính gửi: ……(4)……… 
+Tên tổ chức: (1)
+Địa chỉ trụ sở chính: ……………. Điện thoại: 
+Loại hình:                  Sản xuất □                Kinh doanh □
+Giấy chứng nhận đăng ký doanh nghiệp số ........ do ......cấp ngày.... tháng.... năm.... 
+Người đại diện pháp luật:………………..chức vụ:..
+Người được ủy quyền ký văn bản đề nghị:………….., số ủy quyền:..
+Đề nghị……(4)….. xem xét, cấp Giấy phép…..(3) hóa chất sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt đối với nhóm….(5), gồm:
+1. Sản xuất (*):
+a. Địa điểm cơ sở sản xuất:;
+b. Thông tin hóa chất đăng ký sản xuất.;
+
+STT | Tên thương mại | Thông tin hóa chất/tên thành phần | Quy mô sản xuất theo năm (kg) | Ghi chú
+ |  | Tên hóa chất | Mã CAS | Công thức hóa học | Hàm lượng (%) |  | 
+1 | VD:  DEF | Natri xyanua | 143-33-9 | NaCN | 5% | 200 | 
+ |  | Metanol | 67-56-1 | CH4O | 10% |  | 
+2 |  |  |  |  |  |  | 
+n |  |  |  |  |  |  | 
+
+2. Hóa chất kinh doanh(**) :
+Địa điểm cơ sở kinh doanh, lưu trữ hóa chất: 
+
+STT | Tên thương mại | Thông tin hóa chất/tên thành phần | Quy mô kinh doanh theo năm (kg) | Ghi chú
+ |  | Tên hóa chất | Mã CAS | Công thức hóa học | Hàm lượng (%) |  | 
+1 | VD:  DEF | Natri xyanua | 143-33-9 | NaCN | 5% | 400 | 
+ |  | Metanol | 67-56-1 | CH4O | 10% |  | 
+2 |  |  |  |  |  |  | 
+n |  |  |  |  |  |  | 
+
+..............(1) xin cam đoan thực hiện đúng các quy định tại Luật Hóa chất số 69/2025/QH15, Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa, Thông tư số 01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số     26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa và các quy định pháp luật khác có liên quan. Nếu vi phạm …............ (1) xin hoàn toàn chịu trách nhiệm trước pháp luật.
+......... (1) gửi kèm theo hồ sơ liên quan, bao gồm………………………………
+ | ĐẠI DIỆN PHÁP LUẬT/NGƯỜI ĐƯỢC ỦY QUYỀN(Ký tên và đóng dấu)
+
+
+Ghi chú: - (1): Tên tổ chức đăng ký cấp giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt;
+- (2) Số ký hiệu văn bản;
+- (3): Tên loại giấy phép sản xuất, kinh doanh do Công ty đăng ký;
+- (4): Tên cơ quan có thẩm quyền cấp giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt;
+- (5): Loại nhóm (nhóm 1, nhóm 2) hóa chất cần kiểm soát đặc biệt;
+- (*) và (**): Kê khai thông tin liên quan đến hoạt động của tổ chức đăng ký Giấy phép. 
+
+Mẫu 06b. Văn bản đề nghị cấp lại, cấp điều chỉnh Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt 
+TÊN TỔ CHỨC (1)------ | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc-------------
+Số: .......... (2) | ......., ngày .... tháng .... năm ......
+
+VĂN BẢN ĐỀ NGHỊ
+Cấp lại/Cấp điều chỉnh Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt nhóm…(4) 
+Kính gửi: …(3)…. ...
+Tên tổ chức: (1).
+Địa chỉ trụ sở chính:…………… Điện thoại: 
+Loại hình:               Sản xuất □            Kinh doanh □              
+Giấy chứng nhận đăng ký doanh nghiệp số ............. do ….......... cấp ngày.... tháng.... năm.... 
+Người đại diện pháp luật:…………..chức vụ:
+Người được ủy quyền ký văn bản đề nghị:………….., số ủy quyền:
+Đề nghị …….….. xem xét cấp lại/cấp điều chỉnh Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt nhóm….(4)..số ……...... ngày.... tháng.... năm.........
+- Lý do đề nghị cấp lại/cấp điều chỉnh: 
+- Thông tin đề nghị cấp lại/cấp điều chỉnh:
+................... (1) xin cam đoan thực hiện đúng các quy định tại Luật Hóa chất số 69/2025/QH15, Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa, Thông tư số    01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số     26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa và các quy định pháp luật khác có liên quan. Nếu vi phạm …............ (1) xin hoàn toàn chịu trách nhiệm trước pháp luật.
+................(1) gửi kèm theo hồ sơ liên quan, bao gồm: ……...........
+
+ | ĐẠI DIỆN PHÁP LUẬT/NGƯỜI ĐƯỢC ỦY QUYỀN(Ký tên và đóng dấu)
+
+Ghi chú:
+- (1): Tên tổ chức đăng ký cấp lại/cấp điều chỉnh giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt;
+- (2): Số ký hiệu văn bản;
+- (3): Cơ quan có thẩm quyền cấp lại/cấp điều chỉnh giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt;
+- (4): Loại nhóm (nhóm 1, nhóm 2) hóa chất cần kiểm soát đặc biệt.
+
+Mẫu 06c. Mẫu Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt
+
+Điều kiện sử dụng Giấy phép…(2) hóa chất cần kiểm soát đặc biệt1. Lưu Giấy phép tại trụ sở chính và xuất trình Giấy phép khi được cơ quan có thẩm quyền yêu cầu.2. Không được tẩy xóa, sửa chữa nội dung trong Giấy phép.3. Không được chuyển nhượng, cho thuê, cho mượn, cầm cố Giấy phép.4. Báo cáo ……(1) khi có sự thay đổi điều kiện ....... (2) của đơn vị được cấp Giấy phép (Đăng ký kinh doanh, mã số thuế, địa điểm, quy mô...).5. Báo cáo ……(1) khi chấm dứt hoạt động sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt hoặc khi bị mất, hỏng Giấy phép.6. Nộp lại Giấy phép tại cơ quan cấp Giấy phép khi hết hạn sử dụng. |  | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc-----------------  ……(1) GIẤY PHÉP ........ (2)HÓA CHẤT CẦN KIỂM SOÁT ĐẶC BIỆT     Số:     /GP-(3)Ngày   tháng   năm
+
+ 
+ 
+TÊN CƠ QUAN CẤP PHÉP (1)-------CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc-----------Số: ........./GP-(3)Hà Nội, ngày ... tháng ... năm ... GIẤY PHÉP ...(2)HÓA CHẤT CẦN KIỂM SOÁT ĐẶC BIỆT (nhóm…(4))THỦ TRƯỞNG CƠ QUAN CẤP PHÉP  Căn cứ Luật Hóa chất ngày 14 tháng 6 năm 2025;Căn cứ Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa; Thông tư số    01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số 26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa;Căn cứ ……………(5);Xét Hồ sơ đề nghị cấp Giấy phép …(2) hóa chất cần kiểm soát đặc biệt của ............(6);Theo đề nghị của ............(7).QUYẾT ĐỊNH:Điều 1. Cho phép: …………………………….…(6).1. Địa chỉ trụ sở chính: ...........Điện thoại:…………2. Địa chỉ cơ sở sản xuất:…………………………(*)3. Địa chỉ cơ sở kinh doanh hóa chất:…………(**)4. Địa chỉ kho chứa hóa chất:………………………..5. Giấy chứng nhận đăng ký doanh nghiệp số ........ do ...... cấp ngày... tháng ... năm....6. Mã số doanh nghiệp/thuế: ...................................... |  | Được…….(1) hóa chất cần kiểm soát đặc biệt với chủng loại và quy mô cụ thể như sau:STTTên thương mạiThông tin hóa chất/thành phầnQuy mô sản xuất/ kinh doanh theo năm (kg)Tên hóa chấtMã số CASCông thức hóa họcHàm lượng (%)                  Điều 2. (6) ........ phải thực hiện đúng các quy định tại các văn bản sau đây:- Luật Hóa chất số 69/2025/QH15;- Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa;- Các quy định khác có liên quan.Nếu có sự thay đổi tình trạng pháp lý về tổ chức, nội dung sản xuất, kinh doanh, điều kiện kho bãi và vận chuyển, Công ty có nghĩa vụ báo cáo với……(1)Điều 3. Giấy phép này có hiệu lực thi hành kể từ ngày ký và có giá trị đến ngày ...(11) Nơi nhận:- Như Điều 1;- Bộ Công Thương (Cục Hóa chất) (8);- UBND tỉnh, thành phố….(9);- Lưu: ....(10);THỦ TRƯỞNG CƠ QUAN CẤP PHÉP (12)(Ký tên và đóng dấu)
+
+
+Ghi chú: - (1): Tên cơ quan tiếp nhận hồ sơ cấp giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt;
+- (2): Tên loại giấy phép sản xuất, kinh doanh hóa chất;
+- (3): Tên viết tắt của cơ quan cấp giấy phép;
+- (4): Loại nhóm (nhóm 1, nhóm 2) hóa chất cần kiểm soát đặc biệt;
+- (5): Căn cứ pháp lý khác (nếu có);
+- (6): Tên tổ chức đăng ký cấp giấy phép;
+- (7): Lãnh đạo đơn vị thụ lý hồ sơ;
+- (8): Gửi Cục Hóa chất trong trường hợp UBND cấp tỉnh cấp giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt nhóm 2;
+- (9): Sau khi cấp phép, cơ quan có thẩm quyền cấp phép gửi bản sao Giấy phép đến Ủy ban nhân dân cấp tỉnh nơi tổ chức đặt trụ sở chính và Ủy ban nhân dân cấp tỉnh nơi tổ chức đặt cơ sở sản xuất, kinh doanh hóa chất để phối hợp theo dõi, quản lý.
+- (10): Lưu đơn vị thụ lý hồ sơ;
+- (11): Ghi cụ thể thời hạn giấy phép. Trường hợp cấp lại/cấp điều chỉnh, giấy phép cũ phải được thay thế, ghi cụ thể Giấy phép này thay thế Giấy phép số…. ngày…tháng…năm…. 
+- (12): Chức danh thủ trưởng cơ quan cấp Giấy phép.
+- (*), (**): Ghi rõ địa chỉ sản xuất, kinh doanh hóa chất của tổ chức. 
+
+
+
+
+
+======================================================================
+=== 07 Bieu mau XUAT NHAP KHAU hoa chat KSDB.docx ===
+======================================================================
+
+Phụ lục VII
+CÁC BIỂU MẪU SỬ DỤNG TRONG THỦ TỤC CẤP, CẤP LẠI, CẤP ĐIỀU CHỈNH, GIA HẠN GIẤY PHÉP XUẤT KHẨU, NHẬP KHẨU HÓA CHẤT CẦN KIỂM SOÁT ĐẶC BIỆT 
+(Kèm theo Thông tư số 01 /2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương)
+
+Ký hiệu | Biểu mẫu
+Mẫu 07a | Văn bản đề nghị cấp Giấy phép xuất khẩu, nhập khẩu hóa chất cần kiểm soát đặc biệt
+Mẫu 07b | Văn bản đề nghị cấp lại, cấp điều chỉnh Giấy phép xuất khẩu, nhập khẩu hóa chất cần kiểm soát đặc biệt
+Mẫu 07c | Mẫu giấy phép xuất khẩu, nhập khẩu hóa chất cần kiểm soát đặc biệt
+
+
+
+
+Mẫu 07a. Văn bản đề nghị cấp Giấy phép xuất khẩu, nhập khẩu hóa chất cần kiểm soát đặc biệt
+TÊN TỔ CHỨC, CÁ NHÂN (1)------- | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc---------------
+Số: ...........(2) | ......., ngày .... tháng .... năm ......
+
+
+VĂN BẢN ĐỀ NGHỊ
+Cấp Giấy phép nhập khẩu/xuất khẩu hóa chất cần kiểm soát đặc biệt nhóm….
+Kính gửi: ……(3)
+Tên tổ chức, cá nhân:…………………………………………………………… (1)
+Địa chỉ trụ sở chính: …………… Điện thoại: 
+Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đầu tư số: ... do...(4).. cấp ngày ... tháng ... năm... 
+Mã định danh của tổ chức, cá nhân:
+Người đại diện pháp luật:………………….chức vụ:
+Người được ủy quyền ký văn bản: 
+Đề nghị …..(3) xem xét cấp giấy phép xuất khẩu, nhập khẩu hóa chất cần kiểm soát đặc biệt, nhóm….., cụ thể như sau:
+TT | Tên thương mại/hỗn hợp chất chứa hóa chất cần kiểm soát đặc biệt (5) | Thông tin thành phần hóa chất cần kiểm soát đặc biệt | Khối lượng (kg/lít) | Khối lượng quy đổi (kg) (4) | Mô tả hàng hóa | Tên Công ty nhập khẩu/xuất khẩu nước ngoài | Quốc gia
+ |  | Tên hóa chất cần kiểm soát đặc biệt | Mã số CAS | Công thức hóa học | Hàm lượng (%) |  | Thành phần hóa chất kiểm soát đặc biệt | Hỗn hợp chứa hóa chất cần kiểm soát đặc biệt (trong trường hợp khối lượng hỗn hợp là lít) |  |  | 
+1 |  |  |  |  |  |  |  |  | Nhập khẩu theo hóa đơn số... ngày ...tháng...năm.... Thông tin chi tiết hóa chất theo MSDS đính kèm. |  | 
+2 |  |  |  |  |  |  |  |  | Xuất khẩu sang quốc gia... để bán cho Công ty... theo hóa đơn số...ngày ...tháng...năm.... Công ty nhận hàng cuối cùng:... Thông tin chi tiết hóa chất theo MSDS đính kèm. |  | 
+n |  |  |  |  |  |  |  |  |  |  | 
+
+- Tên cửa khẩu nhập khẩu/xuất khẩu: ..................................................................;
+- Nơi làm thủ tục Hải quan: .................................................................................;
+- Mục đích nhập khẩu/xuất khẩu (nêu cụ thể mục đích): .....................................;
+- Địa chỉ cơ sở sử dụng:;
+..............(1) xin cam đoan thực hiện đúng các quy định tại Luật Hóa chất số 69/2025/QH15, Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa, Thông tư số    01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số     26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa và các quy định pháp luật khác có liên quan. Nếu vi phạm …............ (1) xin hoàn toàn chịu trách nhiệm trước pháp luật.
+....................... (1) gửi kèm theo hồ sơ liên quan, bao gồm:………......................
+ | ĐẠI DIỆN PHÁP LUẬT /NGƯỜI ĐƯỢC ỦY QUYỀN(Ký tên và đóng dấu)
+
+Ghi chú:  - (1): Tên tổ chức, cá nhân đăng ký cấp giấy phép;
+                - (2): Ký hiệu số văn bản;
+   - (3): Cơ quan có thẩm quyền cấp giấy phép xuất, nhập khẩu hóa chất cần kiểm soát đặc biệt. Đối với nhóm 1 là Cục Hóa chất; đối với nhóm 2 là UBND cấp tỉnh nơi tổ chức, cá nhân có trụ sở chính. 
+   - (4): Ghi rõ khối lượng của hỗn hợp và khối lượng thành phần hóa chất cần kiểm soát đặc biệt được quy đổi trong hỗn hợp.
+Mẫu 07b. Văn bản đề nghị cấp lại, cấp điều chỉnh, gia hạn Giấy phép xuất khẩu, nhập khẩu hóa chất cần kiểm soát đặc biệt 
+TÊN TỔ CHỨC, CÁ NHÂN (1)------- | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc---------------
+Số: ...........(2) | ......., ngày .... tháng .... năm ......
+
+
+VĂN BẢN ĐỀ NGHỊ
+Cấp lại/cấp điều chỉnh/gia hạn Giấy phép nhập khẩu/ xuất khẩu hóa chất cần kiểm soát đặc biệt nhóm….
+Kính gửi: ……(3)
+Tên tổ chức/cá nhân:……………………………………………………………… (1)
+Địa chỉ trụ sở chính: …………… Điện thoại: 
+Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đầu tư số: ... do...(4).. cấp ngày ... tháng ... năm... 
+Mã định danh của tổ chức/cá nhân:
+Người đại diện pháp luật:………………….chức vụ:
+Người được ủy quyền ký văn bản: 
+Đề nghị.…(3).. xem xét cấp lại/cấp điều chỉnh/gia hạn Giấy phép xuất khẩu/nhập khẩu hoá chất cần kiểm soát đặc biệt số …....(4) ngày.... tháng.... năm.........
+- Lý do đề nghị cấp lại/cấp điều chỉnh/gia hạn: 
+- Thông tin đề nghị cấp lại/cấp điều chỉnh/gia hạn: 
+................... (1) xin cam đoan thực hiện đúng các quy định tại Luật Hóa chất số 69/2025/QH15, Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa, Thông tư số    01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số       26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa và các quy định pháp luật khác có liên quan. Nếu vi phạm …............ (1) xin hoàn toàn chịu trách nhiệm trước pháp luật.
+................(1) gửi kèm theo hồ sơ liên quan, bao gồm: ……...........
+
+ | ĐẠI DIỆN PHÁP LUẬT/NGƯỜI ĐƯỢC ỦY QUYỀN(Ký tên và đóng dấu)
+
+
+Ghi chú:  - (1): Tên tổ chức, cá nhân đăng ký cấp lại/cấp điều chỉnh giấy phép;
+               - (2): Ký hiệu số văn bản.
+    - (3): Cơ quan có thẩm quyền cấp giấy phép xuất, nhập khẩu hóa chất cần kiểm soát đặc biệt: đối với nhóm 1 là Cục Hóa chất; đối với nhóm 2 là UBND cấp tỉnh nơi tổ chức, cá nhân có trụ sở chính. 
+  - (4): Ghi cụ thể khối lượng của hỗn hợp chứa hóa chất cần kiểm soát đặc biệt, khối lượng quy đổi của thành phần hóa chất cần kiểm soát đặc biệt trong hỗn hợp.
+
+Mẫu 07c. Giấy phép xuất khẩu, nhập khẩu hóa chất cần kiểm soát đặc biệt
+CƠ QUAN CẤP GIẤY PHÉP(1)------- | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc---------------
+Số:          /GP-…(2) | ………., ngày      tháng      năm 20 …….
+
+ 
+GIẤY PHÉP (XUẤT KHẨU/NHẬP KHẨU)
+Hóa chất cần kiểm soát đặc biệt
+THỦ TRƯỞNG CƠ QUAN CẤP GIẤY PHÉP
+Căn cứ Luật hóa chất số 69/2025/QH15;
+Căn cứ Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa; Thông tư số 01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số 26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa;
+Căn cứ ……………………………… (3);
+Xét hồ sơ đề nghị cấp giấy phép (xuất khẩu/nhập khẩu) Hóa chất cần kiểm soát đặc biệt tại văn bản số .. . ngày ... tháng ... năm ... của.………….. (4);
+Theo đề nghị của ……………………………… (5).
+QUYẾT ĐỊNH:
+Điều 1. Cho phép. . . (4); trụ sở ... , điện thoại, Giấy chứng nhận đăng ký doanh nghiệp/hợp tác xã/hộ kinh doanh số ... do ...(6) cấp ngày ... tháng ... năm .... được:
+1. (Xuất khẩu/nhập khẩu) ……………………………… (7) theo hóa đơn ... số …. ngày ... tháng ... năm ... ký với ... như đề nghị của... (4) (trường hợp từ 02 chất trở lên phải lập bảng).
+2. Mục đích (xuất khẩu/nhập khẩu): ………………………………………….
+3. Cửa khẩu (xuất khẩu/nhập khẩu): ………………………………………….
+Điều 2. ...(4) phải thực hiện đúng các quy định tại Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa và những quy định của pháp luật liên quan.
+Điều 3. Giấy phép này có giá trị đến hết ngày .. .tháng ... năm 20....(8)./.
+ 
+Nơi nhận:- Như Điều 2;- Bộ Công An (Cục Cảnh sát điều tra tội phạm về ma túy) (9);- Bộ Công Thương (Cục Hóa chất)*;- Cục Hải quan, Bộ Tài chính;- Chi cục Hải quan cửa khẩu;- Lưu: VT, …….. | THỦ TRƯỞNG CƠ QUAN CẤP GIẤY PHÉP(Ký tên và đóng dấu)
+
+Ghi chú:
+- (1):  Tên cơ quan cấp Giấy phép;
+- (2): Tên viết tắt của cơ quan cấp Giấy phép;
+- (3):  Văn bản quy định chức năng, nhiệm vụ, quyền hạn của cơ quan cấp Giấy phép và các văn bản liên quan;
+- (4): Tên tổ chức, cá nhân đề nghị cấp Giấy phép;
+- (5): Người đứng đầu đơn vị thụ lý hồ sơ;
+- (6): Tên cơ quan cấp Giấy chứng nhận Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đầu tư;
+- (7): Ghi rõ thông tin hóa chất cần kiểm soát đặc biệt;
+- (8): Ghi cụ thể thời hạn giấy phép. Trường hợp cấp lại/cấp điều chỉnh, giấy phép cũ phải được thay thế, ghi cụ thể Giấy phép này thay thế Giấy phép số…. ngày…tháng…năm…. .;
+- (9): Giấy phép gửi Cục cảnh sát điều tra về tội phạm ma túy trong trường hợp giấy phép xuất khẩu, nhập khẩu hóa chất cần kiểm soát đặc biệt là tiền chất công nghiệp;
+- *: Trong trường hợp UBND cấp tỉnh cấp giấy phép xuất nhập khẩu hóa chất cần kiểm soát đặc biệt nhóm 2.
+
+Phụ lục
+DANH MỤC HÓA CHẤT 
+(Kèm theo Giấy phép xuất khẩu, nhập khẩu số:... ngày... tháng .... năm ....)
+
+TT | Tên thương mại | Thông tin thành phần hoá chất cần kiểm soát đặc biệt | Khối lượng (kg/lít) | Khối lượng quy đổi (kg) | Mô tả | Quốc gia xuất khẩu/ nhập khẩu
+ |  | Tên hóa chất cần kiểm soát đặc biệt | Mã CAS | Hàm lượng (%) |  | Thành phần hóa chất kiểm soát đặc biệt | Hỗn hợp chứa hóa chất cần kiểm soát đặc biệt (trong trường hợp khối lượng hỗn hợp là lít) |  | 
+1 |  |  |  |  |  |  |  | Nhập khẩu … (hàm lượng …%) trong … hỗn hợp có tên thương mại ABC theo hoá đơn/vận đơn số... ngày... tháng... năm... | 
+ |  |  |  |  |  |  |  |  | 
+
+
+
+======================================================================
+=== 08 Phuong an kiem soat that thoat hoa chat KSDB.docx ===
+======================================================================
+
+Phụ lục VIII
+MẪU PHƯƠNG ÁN KIỂM SOÁT PHÒNG, CHỐNG THẤT THOÁT HÓA CHẤT CẦN KIỂM SOÁT ĐẶC BIỆT
+(Ban hành kèm theo Thông tư số 01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương)
+
+TÊN TỔ CHỨC XÂY DỰNG PHƯƠNG ÁN(1)------- | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập – Tự do – Hạnh phúc---------------
+Số: ……./PA-KSHCĐB | …….., ngày…… tháng…… năm……
+
+PHƯƠNG ÁN
+Kiểm soát phòng, chống thất thoát hóa chất cần kiểm soát đặc biệt
+
+Căn cứ Luật Hóa chất số 69/2025/QH15 ngày 14 tháng 6 năm 2025;
+Căn cứ Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa;
+Căn cứ Thông tư số 01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số 26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa.
+
+I. THÔNG TIN CHUNG
+Tên tổ chức: 
+Địa chỉ trụ sở chính:…………………Điện thoại:
+Địa điểm cơ sở sản xuất, kinh doanh, lưu trữ, sử dụng hóa chất: 
+Mã số doanh nghiệp/Mã số thuế: 
+Người đại diện theo pháp luật: 
+Người phụ trách an toàn hóa chất: 
+II. THÔNG TIN HÓA CHẤT CẦN KIỂM SOÁT ĐẶC BIỆT
+TT | Tên thương mại | Thông tin thành phần | Khối lượng (kg) | Cách thức bảo quản | Mục đích sử dụng
+ |  | Tên hóa học/ thành phần | Mã CAS | Công thức hóa học | Hàm lượng (%) |  |  | 
+1 | (Ví dụ: DEF) | (Natri xyanua) | (143-33-9) | (NaCN) | (98%) | 500 | (Thùng nhựa 200l, Kho kín, có khóa) | (Sản xuất công nghiệp
+ |  |  |  |  |  |  |  | 
+
+III. CÁC BIỆN PHÁP KIỂM SOÁT CỤ THỂ 
+1. Kiểm soát tại khu vực lưu giữ, kho chứa 
+- Kết cấu kho: mô tả vật liệu xây dựng, diện tích, chiều cao, hệ thống thông gió;
+- Hệ thống giám sát an ninh: (ví dụ: số lượng camera, số lượng, vị trí lắp đặt, góc quay, thời gian lưu trữ dữ liệu; Hệ thống báo động xâm nhập, báo động cháy, rò rỉ khí; Số lượng nhân viên bảo vệ, chế độ trực);
+- Điều kiện bảo quản;
+- Biển báo và nội quy: (khai báo việc lắp đặt biển cảnh báo, sơ đồ thoát hiểm, nội quy an toàn kho,…).
+2. Kiểm soát trong quá trình sản xuất, kinh doanh và sử dụng
+- Hệ thống ghi chép: (sử dụng phương thức quản lý cụ thể để theo dõi xuất - nhập - tồn từng ngày,…);
+- Quy trình nội bộ: (mô tả quy trình về xuất, nhập hàng, cách kiểm tra giấy phép, hóa đơn, chứng từ; cách kiểm tra khối lượng, bao gói; quy trình kiểm kê, Phân cấp trách nhiệm: thủ kho, người xuất, người nhận, người giám sát);
+- Các thông tin thực hiện các quy định trong quá trình vận chuyển.
+3. Công tác đào tạo huấn luyện an toàn hóa chất, an toàn PCC
+- Nêu thông tin, số lượng người đã được đào tạo, tập huấn an toàn hóa chất;
+- Chứng nhận và thẩm duyệt PCCC (cần nêu các thông tin liên quan đảm bảo công tác an toàn PCCC).
+IV. CAM KẾT
+……(1)……. cam kết thực hiện đúng phương án đã đề ra và tuân thủ các quy định pháp luật có liên quan. Nếu để xảy ra thất thoát hoặc vi phạm quy định, (tên tổ chức, cá nhân) hoàn toàn chịu trách nhiệm trước pháp luật.
+……(1)……… cam kết cập nhật phương án kiểm soát phòng, chống thất thoát hóa chất cần kiểm soát đặc biệt khi có sự thay đổi hoạt động, chủng loại và số lượng hóa chất./.
+ | ĐẠI DIỆN PHÁP LUẬT /NGƯỜI ĐƯỢC ỦY QUYỀN(Ký, ghi rõ họ tên, chức danh và đóng dấu)
+
+
+
+Ghi chú: (1) Tổ chức xây dựng, ban hành Phương án.
+
+
+======================================================================
+=== 09 Phieu kiem soat mua ban hoa chat KSDB.docx ===
+======================================================================
+
+Phụ lục IX
+MẪU PHIẾU KIỂM SOÁT 
+MUA, BÁN HÓA CHẤT CẦN KIỂM  SOÁT ĐẶC BIỆT
+(Ban hành kèm theo Thông tư số   01   /2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương)
+
+I.  Thông tin bên bán
+Tên tổ chức..
+Địa chỉ trụ sở
+Điện thoại 
+Số Giấy chứng nhận đăng ký doanh nghiệp.
+Ngày cấp Giấy chứng nhận đăng ký doanh nghiệp
+Tên người đại diện theo pháp luật
+Số CCCD/Hộ chiếu người đại diện theo pháp luật
+Ngày cấp CCCD/ Hộ chiếu người đại diện theo pháp luật
+Cơ quan cấp CCCD/ Hộ chiếu người đại diện theo pháp luật
+Tên người giao hàng
+Ngày cấp CCCD/ Hộ chiếu người giao hàng
+Cơ quan cấp CCCD/ Hộ chiếu người giao hàng
+
+II. Thông tin bên mua
+Tên tổ chức/ cá nhân
+Địa chỉ trụ sở
+Điện thoại 
+Số Giấy chứng nhận đăng ký doanh nghiệp 
+Ngày cấp Giấy chứng nhận đăng ký doanh nghiệp
+Tên người đại diện theo pháp luật
+Số CCCD/Hộ chiếu người đại diện
+Cơ quan cấp CCCD/ Hộ chiếu người đại diện
+Tên người giao hàng
+Ngày cấp CCCD/ Hộ chiếu người giao hàng
+Cơ quan cấp CCCD/ Hộ chiếu người giao hàng
+III. Thông tin về mỗi hóa chất cần kiểm soát đặc biệt được mua, bán bao gồm:
+1. Thông tin về hóa chất:
+Tên thương mại 
+Tên khoa học của thành phần hóa học thứ 1, 2,…n
+Mã CAS của của thành phần hóa học thứ 1, 2,…n
+Hàm lượng của thành phần hóa học thứ 1, 2,…n
+Hàm lượng của thành phần khác (1)
+Khối lượng hóa chất mua bán
+Mục đích mua: Kinh doanh/Sử dụng (2)
+Mã mục đích sử dụng (3)
+2. Thông tin chung:
+Ngày giao hàng
+Ngày lập phiếu
+Số hóa đơn 
+Ngày hóa đơn
+
+Ghi chú:
+- (1): Bao gồm thông tin thành phần hóa chất khác.
+- (2): Bao gồm việc sử dụng hóa chất trong sản xuất các loại hóa chất hoặc sản phẩm, hàng hóa khác.
+- (3): Sử dụng các mã phù hợp với mục đích sử dụng chung được liệt kê tại bảng dưới đây:
+
+Mã danh mục sử dụng | Danh mục sử dụng
+01 | Các chất trung gian
+02 | Dung môi cho sơn, véc ni, chất phủ, mực in và sản phẩm diệt khuẩn
+03 | - Dung môi cho chất kết dính, chất kết dính nhạy áp suất
+04 | - Dung môi làm sạch và tẩy nhờn kim loại
+05 | - Dung môi để làm sạch vải (công nghiệp giặt là, sấy khô)
+06 | - Dung môi làm sạch khác
+07 | - Dung môi để sản xuất và chế biến hóa chất
+08 | - Dung môi cho sol khí
+09 | - Dung môi khác
+10 | - Bộ điều chỉnh quy trình hóa học
+11 | - Chất tạo màu
+12 | - Sản phẩm giặt và làm sạch sử dụng trong công nghiệp
+13 | - Sản phẩm giặt và làm sạch sử dụng trong hộ gia đình, cơ quan
+14 | - Đánh bóng và pha trộn sáp (ví dụ như sàn, xe hơi, da)
+15 | - Sơn và lớp phủ  (bao gồm sơn lót)
+16 | - Mực in và toners (gồm mực in cho văn phòng phẩm và resist inks - in cán)
+17 | - Chất chống ăn mòn cho sơn đáy tàu, chất chống ăn mòn cho lưới cá
+18 | - Các sản phẩm diệt khuẩn (I)  (Trên/ trong sản phẩm)
+19 | - Các sản phẩm diệt khuẩn (II)  [Không trên/ trong sản phẩm] sử dụng trong công nghiệp
+20 | - Các sản phẩm diệt khuẩn (III) sử dụng trong hộ gia đình, cơ quan
+21 | - Các sản phẩm nổ [bao gồm pháo hoa]
+22 | - Làm mát không khí, khử mùi
+23 | - Chất kết dính và chất bịt kín
+24 | - Vật liệu cảm quang, vật liệu chụp ảnh và vật liệu tấm in
+25 | - Sản phẩm dệt may (bao gồm chế biến vải không dệt)
+26 | - Sản phẩm giấy và bảng
+27 | - Sản phẩm nhựa
+28 | - Sản phẩm cao su
+29 | - Sản phẩm da
+30 | - Sản phẩm thủy tinh, tráng men và xi măng
+31 | - Sản phẩm gốm sứ, gốm mỏng và chịu lửa
+32 | - Sản phẩm bánh mài, hợp chất mài, vật liệu ma sát và chất bôi trơn thể rắn
+33 | - Sản phẩm kim loại
+34 | - Hóa chất xử lý bề mặt
+35 | - Sản phẩm hàn
+36 | - dung dịch thủy lực, dầu cách điện, dầu chế biến, dầu bôi trơn (VD. Dầu làm trơn động cơ, dầu ổ trục, dầu máy nén, dầu mỡ)
+37 | - Chất lỏng sử dụng trong xử lý kim loại (ví dụ: dầu cắt, dầu cán, dầu ép, dầu làm nguội), dầu chống rỉ
+38 | - Sản phẩm điện và điện tử
+39 | - Pin điện, ác quy
+40 | - Hóa chất xử lý nước
+41 | - Chất làm khô và chất hấp thụ
+42 | - chất lỏng truyền nhiệt
+43 | - Sản phẩm chống đóng băng và xả băng
+44 | - Phụ gia cho vật liệu xây dựng và các sản phẩm xây dựng (ví dụ: phụ gia bê tông, chất ngâm tẩm gỗ)
+45 | - Chất phụ gia cho vật liệu xây dựng và sản phẩm xây dựng (VD. Chất tan chảy tuyết, điều hòa đất, bình cứu hỏa)
+46 | - Hóa chất tuyển nổi
+47 | - Nhiên liệu và phụ gia nhiên liệu
+48 | Mục đích sử dụng khác
+
+
+
+======================================================================
+=== 10 bieu mau SAN XUAT KINH DOANH giay cn du dieu kien.docx ===
+======================================================================
+
+Phụ lục X
+CÁC BIỂU MẪU SỬ DỤNG TRONG THỦ TỤC CẤP, CẤP LẠI, CẤP ĐIỀU CHỈNH GIẤY CHỨNG NHẬN ĐỦ ĐIỀU KIỆN SẢN XUẤT, KINH DOANH HÓA CHẤT CÓ ĐIỀU KIỆN
+(Ban hành kèm theo Thông tư số 01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương)
+
+Ký hiệu | Biểu mẫu
+Mẫu 10a | Văn bản đề nghị cấp giấy chứng nhận đủ điều kiện sản xuất, kinh doanh hóa chất có điều kiện
+Mẫu 10b | Văn bản đề nghị cấp lại, cấp điều chỉnh giấy chứng nhận đủ điều kiện sản xuất, kinh doanh hóa chất có điều kiện
+Mẫu 10c | Mẫu Giấy chứng nhận đủ điều kiện sản xuất, kinh doanh hóa chất có điều kiện
+
+
+
+
+
+
+
+
+
+
+
+
+Mẫu 10a. Văn bản đề nghị cấp giấy chứng nhận đủ điều kiện sản xuất, kinh doanh hóa chất có điều kiện
+TÊN TỔ CHỨC (1)------- | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc---------------
+Số: ...........(2) | ......., ngày .... tháng .... năm ......
+
+
+VĂN BẢN ĐỀ NGHỊ
+Cấp Giấy chứng nhận đủ điều kiện …(3)…hóa chất có điều kiện
+Kính gửi:  ……(4)…….. 
+Tên tổ chức: (1)
+Địa chỉ trụ sở chính: …………. Điện thoại: 
+Loại hình:                  Sản xuất □                Kinh doanh □
+Giấy chứng nhận đăng ký doanh nghiệp/hộ kinh doanh số ........ do ......cấp ngày.... tháng.... năm.... 
+Người đại diện pháp luật:………………..chức vụ:
+Người được ủy quyền ký văn bản đề nghị:………….., số Ủy quyền:………
+Đề nghị……(4)…….. xem xét, cấp Giấy chứng nhận đủ điều kiện …..(3) hóa chất sản xuất, kinh doanh có điều kiện, gồm:
+1. Sản xuất (*)
+a. Địa điểm cơ sở sản xuất: ,
+b. Thông tin hóa chất đăng ký sản xuất.
+
+STT | Tên thương mại | Thông tin thành phần | Ghi chú
+ |  | Tên hóa chất | Mã CAS | Công thức hóa học | Hàm lượng (%) | 
+1 |  |  |  |  |  | 
+n |  |  |  |  |  | 
+
+2. Hóa chất kinh doanh(**):
+a) Địa điểm cơ sở kinh doanh, lưu trữ hóa chất:
+b) Thông tin hóa chất đăng ký kinh doanh
+STT | Tên thương mại | Thông tin thành phần | Ghi chú
+ |  | Tên hóa chất | Mã CAS | Công thức hóa học | Hàm lượng (%) | 
+1 |  |  |  |  |  | 
+n |  |  |  |  |  | 
+
+
+..............(1) xin cam đoan thực hiện đúng các quy định tại Luật Hóa chất số 69/2025/QH15, Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa, Thông tư số    01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số     26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa và các quy định pháp luật khác có liên quan. Nếu vi phạm …............ (1) xin hoàn toàn chịu trách nhiệm trước pháp luật.
+......... (1) gửi kèm theo hồ sơ liên quan, bao gồm…………………………………
+ | ĐẠI DIỆN PHÁP LUẬT/NGƯỜI ĐƯỢC ỦY QUYỀN(Ký tên và đóng dấu)
+
+Ghi chú: - (1): Tên tổ chức đăng ký cấp giấy chứng nhận sản xuất, kinh doanh hóa chất có điều kiện;
+               - (2): Ký hiệu số văn bản của tổ chức đăng ký cấp giấy chứng nhận sản xuất, kinh doanh hóa chất có điều kiện;
+- (3): Loại thủ tục sản xuất, kinh doanh hóa chất sản xuất kinh doanh có điều kiện;
+- (4): Cơ quan có thẩm quyền cấp Giấy chứng nhận đủ điều kiện;
+- (*) và (**): Tùy theo loại thủ tục cấp giấy chứng nhận sản xuất, kinh doanh hóa chất có điều kiện tại đơn đăng ký đề hoàn thành tương ứng.
+Mẫu 10b. Văn bản đề nghị cấp lại, cấp điều chỉnh giấy chứng nhận đủ điều kiện sản xuất, kinh doanh hóa chất có điều kiện 
+
+TÊN TỔ CHỨC (1)------- | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc---------------
+Số: .......... (2) | ......., ngày .... tháng .... năm ......
+
+VĂN BẢN ĐỀ NGHỊ
+Cấp lại/ Cấp điều chỉnh Giấy chứng nhận đủ điều kiện …(3)..hóa chất có điều kiện
+Kính gửi: … (4)…..
+
+Tên tổ chức:………………………………….(1).
+Địa chỉ trụ sở chính:…………… Điện thoại: 
+Địa chỉ sản xuất, kinh doanh: ................... Điện thoại: ................ Fax: .............. 
+Loại hình:               Sản xuất □            Kinh doanh □              
+Giấy chứng nhận đăng ký doanh nghiệp/hộ kinh doanh số ............. do ….......... cấp ngày.... tháng.... năm.... 
+Người đại diện pháp luật:………………..chức vụ:
+Người được ủy quyền:…………………………………………………………….
+Đề nghị …..…..(4) xem xét cấp lại/cấp điều chỉnh Giấy chứng nhận đủ điều kiện sản xuất, kinh doanh hóa chất có điều kiện số ……......(5) ngày.... tháng.... năm.........
+- Lý do đề nghị cấp lại/cấp điều chỉnh: 
+- Thông tin đề nghị cấp lại/cấp điều chỉnh:………………………………………
+................... (1) xin cam đoan thực hiện đúng các quy định tại Luật Hóa chất số 69/2025/QH15, Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa, Thông tư số    01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số     26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa và các quy định pháp luật khác có liên quan. Nếu vi phạm, …............ (1) xin hoàn toàn chịu trách nhiệm trước pháp luật.
+................(1) gửi kèm theo hồ sơ liên quan, bao gồm: ……...........
+
+ | ĐẠI DIỆN PHÁP LUẬT/NGƯỜI ĐƯỢC ỦY QUYỀN(Ký tên và đóng dấu)
+
+Ghi chú: (1) Tên tổ chức đăng ký cấp lại/cấp điều chỉnh giấy chứng nhận sản xuất, kinh doanh hóa chất có điều kiện.
+               (2) Ký hiệu số văn bản của tổ chức đăng ký cấp lại/cấp điều chỉnh giấy chứng nhận sản xuất, kinh doanh hóa chất có điều kiện.
+(3) Loại thủ tục sản xuất, kinh doanh hóa chất sản xuất kinh doanh có điều kiện.
+(4) Cơ quan có thẩm quyền cấp lại, cấp điều chỉnh Giấy chứng nhận đủ điều kiện.
+
+Mẫu 10c. Mẫu Giấy chứng nhận đủ điều kiện sản xuất, kinh doanh hóa chất có điều kiện
+
+TÊN CƠ QUAN CẤP GCN (1)------- | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc---------------
+Số: .../GCN-…..(2) | …….., ngày .... tháng .... năm ......
+
+
+GIẤY CHỨNG NHẬN
+Đủ điều kiện sản xuất, kinh doanh có điều kiện ………......(1)(cấp/cấp lại/cấp điều chỉnh)
+Căn cứ Luật Hóa chất số 69/2025/QH15;
+Căn cứ Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa;
+Căn cứ Thông tư số 01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số 26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa; 
+Căn cứ …………………………………………..(3);
+Xét hồ sơ đề nghị cấp/cấp lại/cấp điều chỉnh Giấy chứng nhận đủ điều kiện sản xuất/kinh doanh/ sản xuất và kinh doanh hóa chất có điều kiện của …………………………..(4);
+Theo đề nghị của …………………………………………………………………..
+QUYẾT ĐỊNH:
+Điều 1. Cấp Giấy chứng nhận đủ điều kiện sản xuất/kinh doanh/sản xuất và kinh doanh hóa chất sản xuất, kinh doanh có điều kiện cho ………………….. (4)
+1. Địa chỉ trụ sở chính: 
+2. Điện thoại:
+3. Giấy chứng nhận đăng ký doanh nghiệp/hộ kinh doanh số ...... do ......cấp ngày.... tháng.... năm.... 
+Người đại diện pháp luật:………..chức vụ:………………………………….
+Đủ điều kiện để sản xuất hóa chất có điều kiện, kinh doanh hóa chất có điều kiện với các nội dung sau đây:
+a. Sản xuất
+-  Địa điểm cơ sở sản xuất:……………….,
+-  Thông tin hóa chất đăng ký sản xuất…….
+STT | Tên thương mại | Thông tin thành phần | Ghi chú
+ |  | Tên hóa chất | Mã CAS | Công thức hóa học | Hàm lượng (%) | 
+1 |  |  |  |  |  | 
+n |  |  |  |  |  | 
+
+
+b. Kinh doanh hóa chất
+-. Địa điểm cơ sở kinh doanh, lưu trữ hóa chất:
+- Thông tin hóa chất đăng ký kinh doanh
+STT | Tên hóa chất | Mã CAS | Công thức hóa học | Hàm lượng (%) | Ghi chú
+1 |  |  |  |  | 
+n |  |  |  |  | 
+
+
+Điều 2: ……………………………….. (4) phải thực hiện đúng các quy định tại Luật Hóa chất số 69/2025/QH15, Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01    năm 2026 của Chính phủ quy định chi tiết và hướng dẫn một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa và những quy định của pháp luật liên quan.
+Điều 3. Giấy chứng nhận này có giá trị kể từ ngày ……(5).
+Nơi nhận:- Như Điều 2;- Cục Hóa chất (Bộ Công Thương);- UBND tỉnh, thành phố…(7);- Lưu: VT, …. | THỦ TRƯỞNG CƠ QUANC CẤP GIẤY CHỨNG NHẬN (6) (Ký tên và đóng dấu)
+
+Ghi chú: - (1): Cơ quan có thẩm quyền cấp giấy chứng nhận đủ điều kiện sản xuất, kinh doanh hóa chất có điều kiện;
+- (2): Ký hiệu viết tắt của cơ quan có thẩm quyền cấp giấy chứng nhận đủ điều kiện sản xuất, kinh doanh hóa chất có điều kiện;
+- (3): Văn bản ý kiến trả lời của UBND cấp tỉnh trong trường hợp lấy ý kiến;
+               - (4): Tên tổ chức, được cấp giấy chứng nhận đủ điều kiện sản xuất, kinh doanh hóa chất có điều kiện;
+- (5): Ghi cụ thể thời hạn giấy phép. Trường hợp cấp lại/cấp điều chỉnh, giấy phép cũ phải được thay thế, ghi cụ thể Giấy phép này thay thế Giấy phép số…. ngày…tháng…năm…. ;
+- (6): Chức danh người có thẩm quyền cấp giấy chứng nhận đủ điều kiện sản xuất, kinh doanh hoá chất có điều kiện;
+- (7): Sau khi cấp phép, cơ quan có thẩm quyền cấp phép gửi bản sao Giấy phép đến Ủy ban nhân dân cấp tỉnh nơi tổ chức đặt trụ sở chính và Ủy ban nhân dân cấp tỉnh nơi tổ chức đặt cơ sở sản xuất, kinh doanh hóa chất để phối hợp theo dõi, quản lý.
+
+
+======================================================================
+=== 11 bieu mau GCN TON TRU.docx ===
+======================================================================
+
+Phụ lục XI
+CÁC BIỀU MẪU SỬ DỤNG TRONG THỦ TỤC CẤP, CẤP LẠI, CẤP ĐIỀU CHỈNH GIẤY CHỨNG NHẬN ĐỦ ĐIỀU KIỆN HOẠT ĐỘNG DỊCH VỤ TỒN TRỮ HOÁ CHẤT
+(Ban hành kèm theo Thông tư số 01 /2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương)
+Ký hiệu | Biểu mẫu
+Mẫu 11a | Văn bản đề nghị cấp Giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ hóa chất
+Mẫu 11b | Văn bản đề nghị cấp lại, cấp điều chỉnh Giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ hóa chất
+Mẫu 11c | Mẫu Giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ hóa chất
+
+
+
+Mẫu 11a. Văn bản đề nghị cấp Giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ hóa chất
+
+TÊN TỔ CHỨC (1) | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc
+Số: ……. (2) | ……, ngày ….. tháng …. năm ……
+
+VĂN BẢN ĐỀ NGHỊ
+Cấp Giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ hóa chất
+Kính gửi: .....(3)....... 
+Tên tổ chức: (1)
+Địa chỉ trụ sở chính: ……………….., Điện thoại: 
+Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đầu tư số: ... do....... cấp ngày ... tháng ... năm... 
+Đại diện pháp luật: 
+Người được ủy quyền:…………..
+Loại hình:         Sản xuất                   Kinh doanh                Tồn trữ                   
+Đề nghị …(3)…….. xem xét, cấp Giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ hóa chất đối với kho chứa hóa chất cụ thể như sau:
+1. Địa điểm kho tồn trữ hóa chất:
+- Địa chỉ: 
+- Quy mô kho bãi: .
+2. Danh mục hóa chất đăng ký tồn trữ
+STT | Tên thương mại | Thông tin hóa chất/tên thành phần | Khối lượng tồn trữ theo năm (kg) | Ghi chú
+ |  | Tên hóa chất | Mã CAS | Công thức hóa học | Hàm lượng (%) |  | 
+1 | VD: ABC | Axeton | 67-64-1 | c3h6O | 30% | 100 | 
+ |  | Toluen | 108-88-3 | C7H8 | 20% |  | 
+2 |  |  |  |  |  |  | 
+n |  |  |  |  |  |  | 
+
+
+……..(1) xin cam đoan thực hiện đúng các quy định tại Luật Hóa chất số 69/2025/QH15, Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa, Thông tư số    01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số     26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa và các quy định pháp luật khác có liên quan. Nếu vi phạm ..... (1) xin hoàn toàn chịu trách nhiệm trước pháp luật.... (1) gửi kèm theo hồ sơ liên quan, bao gồm:…....................................................
+ | ĐẠI DIỆN PHÁP LUẬT/NGƯỜI ĐƯỢC ỦY QUYỀN(ký, ghi rõ họ tên và đóng dấu)
+
+
+
+Ghi chú:  - (1): Tên tổ chức đề nghị cấp giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ hóa chất.
+               - (2): Ký hiệu số văn bản.
+- (3): Cơ quan có thẩm quyền cấp giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ hóa chất.
+
+
+Mẫu 11b. Văn bản đề nghị cấp lại, cấp điều chỉnh Giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ hóa chất
+
+TÊN TỔ CHỨC (1) | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc
+Số: ……. (2) | ……, ngày ….. tháng …. năm ……
+
+VĂN BẢN ĐỀ NGHỊ
+Cấp lại/cấp điều chỉnh Giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ hóa chất
+Kính gửi: .....(3)....... 
+Tên tổ chức:………………………………………………………………………. (1)
+Địa chỉ trụ sở chính: ……………….., Điện thoại: 
+Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đầu tư số: ... do....... cấp ngày ... tháng ... năm... 
+Đại diện pháp luật:
+Người được ủy quyền:
+Loại hình:   Sản xuất                    Kinh doanh                   Tồn trữ                   
+….(1) đã được …….(3) cấp Giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ hóa chất số .... ngày .... tháng .... năm …… .
+Đề nghị …(3)…….. xem xét, cấp lại, cấp điều chỉnh Giấy chứng nhận đủ điều kiện .............(4) hoạt động dịch vụ tồn trữ hóa chất đối với kho chứa hóa chất cụ thể như sau:
+- Lý do đề nghị cấp lại/cấp điều chỉnh:
+- Thông tin đề nghị cấp lại/cấp điều chỉnh:  
+……..(1) xin cam đoan thực hiện đúng các quy định tại Luật Hóa chất số 69/2025/QH15, Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa, Thông tư số    01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số     26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa và các quy định pháp luật khác có liên quan. Nếu vi phạm ..... (1) xin hoàn toàn chịu trách nhiệm trước pháp luật.... (1) gửi kèm theo hồ sơ liên quan, bao gồm:…....................................................
+ | ĐẠI DIỆN PHÁP LUẬT/NGƯỜI ĐƯỢC ỦY QUYỀN(ký, ghi rõ họ tên và đóng dấu)
+
+
+
+Ghi chú:  - (1): Tên tổ chức đề nghị cấp lại/cấp điều chỉnh giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ hóa chất;
+                - (2): Ký hiệu số văn bản .
+- (3): Cơ quan có thẩm quyền cấp lại/cấp điều chỉnh giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ hóa chất.
+
+
+
+Mẫu 11c. Mẫu Giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ hóa chất
+
+Điều kiện hoạt động dịch vụ tồn trữ hóa chất1. Lưu Giấy phép tại trụ sở chính và xuất trình Giấy phép khi được cơ quan có thẩm quyền yêu cầu.2. Không được tẩy xóa, sửa chữa nội dung trong Giấy phép.3. Không được chuyển nhượng, cho thuê, cho mượn, cầm cố Giấy phép.4. Báo cáo ……(1) khi có sự thay đổi điều kiện của đơn vị được cấp Giấy chứng nhận (Đăng ký kinh doanh, mã số thuế, địa điểm, quy mô...).5. Báo cáo ……(2) khi chấm dứt hoạt động.7. Chỉ được phép hoạt động dịch vụ tồn trữ hóa chất với quy mô tồn trữ, diện tích tồn trữ đã được cấp giấy chứng nhận. 7. Nộp lại Giấy phép tại cơ quan cấp Giấy phép khi hết hạn sử dụng. |  | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc-----------------  ……(1) GIẤY CHỨNG NHẬN ĐỦ ĐIỀU KIỆN HOẠT ĐỘNG DỊCH VỤ TỒN TRỮ HÓA CHẤT    Số:     /GCN-(2)Ngày   tháng   năm
+
+ 
+ 
+TÊN CƠ QUAN CẤP GIẤY CHỨNG NHẬN(1)-------CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc-----------Số: ......./GP-(2)Hà Nội, ngày ... tháng ... năm ...GIẤY CHỨNG NHẬN ĐỦ ĐIỀU KIỆN HOẠT ĐỘNG DỊCH VỤ TỒN TRỮ HÓA CHẤTTHỦ TRƯỞNG CƠ QUAN CẤP PHÉP (3)Căn cứ Luật Hóa chất ngày 14 tháng 6 năm 2025;Căn cứ Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa; Thông tư số 01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số     26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa;Căn cứ …………(4);Xét Hồ sơ đề nghị cấp Giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ hóa chất của…;Theo đề nghị của ............(5).QUYẾT ĐỊNH:Điều 1. Cho phép: ……………….……(5);1. Địa chỉ trụ sở chính: ………Điện thoại: ......; 2. Địa chỉ kho tồn trữ  hóa chất:……………….3. Diện tích kho tồn trữ hóa chất :…………….4. Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đầu tư số: ... do....... cấp ngày ... tháng ... năm..5. Mã số doanh nghiệp/thuế: ............................. |  | Được phép hoạt động dịch vụ tồn trữ hóa chất với chủng  loại, quy mô cụ thể như sau:STTtên  thương mạiThông tin hóa chất/thành phầnKhối lượng tồn trữ theo năm (kg) Tên hóa chấtMã số CASCông thức hóa họcHàm lượng (%)  1      2     n      Điều 2. (4) ........ phải thực hiện đúng các quy định tại các văn bản sau đây:- Luật Hóa chất số 69/2025/QH15;- Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa;- Các quy định khác có liên quan.Nếu có sự thay đổi tình trạng pháp lý về tổ chức, quy mô, điều kiện kho bãi, ….(5) có nghĩa vụ báo cáo với……(1)Điều 3. Giấy chứng nhận này có hiệu lực thi hành kể từ ngày ký và có giá trị đến ngày ..…..(6) Nơi nhận:- Như Điều 1;- Bộ Công Thương (Cục Hóa chất) (7);- UBND cấp tỉnh (8);- Lưu: ....;THỦ TRƯỞNG CƠ QUAN CẤP PHÉP (3)(Ký tên và đóng dấu)
+
+Ghi chú: 
+- (1): Tên cơ quan tiếp nhận hồ sơ cấp giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ hóa chất;
+- (2): Ký hiệu văn bản Giấy phép;
+- (3): Chức danh người có thẩm quyền cấp Giấy phép;
+- (4): Căn cứ pháp lý khác liên quan (nếu có);
+- (5): Thông tin chức danh cơ quan thụ lý hồ sơ cấp Giấy phép;
+- (6): Ghi cụ thể thời hạn giấy phép. Trường hợp cấp lại/cấp điều chỉnh, giấy phép cũ phải được thay thế, ghi cụ thể Giấy phép này thay thế Giấy phép số…. ngày…tháng…năm…. ;
+- (7): Gửi Cục Hóa chất-Bộ Công Thương trong trường hợp Giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ do UBND cấp tỉnh cấp;
+- (8): Cơ quan có thẩm quyền cấp gửi bản sao Giấy chứng nhận đến Ủy ban nhân dân cấp tỉnh nơi tổ chức đặt trụ sở chính và Ủy ban nhân dân cấp tỉnh nơi tổ chức đặt cơ sở tồn trữ hóa chất để phối hợp theo dõi, quản lý.
+
+======================================================================
+=== 12 dang ky hoa chat moi.docx ===
+======================================================================
+
+Phụ lục XII
+CÁC BIỂU MẪU ĐĂNG KÝ HÓA CHẤT MỚI
+(Ban hành kèm theo Thông tư số  01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương)
+
+Ký hiệu | Biểu mẫu
+Mẫu 12a | Văn bản đăng ký hóa chất mới
+Mẫu 12b | Báo cáo tóm tắt đánh giá hóa chất mới
+Mẫu 12c | Xác nhận đăng ký hoá chất mới
+
+
+
+
+Mẫu 12a: Mẫu văn bản đăng ký hóa chất mới
+
+TÊN TỔ CHỨC, CÁ NHÂN (1)------- | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc---------------
+Số: ...........(2) | ......., ngày .... tháng .... năm ......
+
+
+VĂN BẢN ĐỀ NGHỊ
+ĐĂNG KÝ HÓA CHẤT MỚI
+Kính gửi: Cục Hóa chất, Bộ Công Thương
+Tên tổ chức, cá nhân:………………………………………………… (1)
+Địa chỉ trụ sở chính: ……………………. Điện thoại: ....................... …………….
+Địa chỉ sản xuất: ............................. Điện thoại: ................... ……………………....
+Địa chỉ kinh doanh: ………………….Điện thoại: ................... …………………….
+Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đầu tư số: .. do...(4).. cấp ngày ... tháng ... năm... 
+Người đại diện pháp luật:………………….chức vụ:…………………………
+Người được ủy quyền ký văn bản:………………………………………….
+Đề nghị Cục Hóa chất, Bộ Công Thương xem xét cho phép tổ chức…(1)..đăng ký hóa chất mới, cụ thể:
+
+STT | Tên thương mại | Tên thành phần | Số lượng | Đơn vị tính (kg) | Mô tả hàng hóa | Tên công ty xuất khẩu (3) | Mục đích sản xuất (4) | Thông tin thuộc danh mục nước ngoài (5)
+ |  | Tên hóa chất | Mã số CAS | Công thức hóa học | Hàm lượng |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  | 
+
+..............(1) xin cam đoan thực hiện đúng các quy định tại Luật Hóa chất số 69/2025/QH15, Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa, Thông tư số    01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số     26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa và các quy định pháp luật khác có liên quan. Nếu vi phạm …............ (1) xin hoàn toàn chịu trách nhiệm trước pháp luật................. (1) gửi kèm theo hồ sơ liên quan, bao gồm:........................................
+
+ | ĐẠI DIỆN PHÁP LUẬT /NGƯỜI ĐƯỢC ỦY QUYỀN(Ký tên và đóng dấu)
+
+
+Ghi chú:  - (1): Tên tổ chức, cá nhân đăng ký hoá chất mới.
+- (2): Ký hiệu số văn bản.
+- (3): Thông tin công ty xuất khẩu trong trường hợp nhập khẩu hoá chất mới.
+- (4): Mục đích sản xuất trong trường hợp sản xuất hoá chất mới.
+- (5): Điền thông tin thuộc danh mục  nước ngoài (nếu có).
+
+
+Mẫu 12b: Báo cáo tóm tắt đánh giá hóa chất mới
+TÊN TỔ CHỨC ĐĂNG KÝ HÓA CHÁT MỚI.(1)------- | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc---------------
+Số: (2)……./BC-ĐGHCM | …....., ngày…… tháng…… năm……
+
+
+Báo cáo tóm tắt
+Đánh giá hóa chất mới
+
+I. Thông tin chung
+- Tên tổ chức, cá nhân:
+- Địa chỉ:
+- Điện thoại:……………Email:
+- Thông tin đầu mối liên hệ:
+II. Thông tin về hóa chất mới
+- Tên hóa chất:
+- Tên gọi khác (nếu có):
+- Mã số CAS: .
+- Mã số  UN:
+Thuộc Danh mục nước ngoài:……………………………………………………….
+III. Tính chất và đặc trưng kỹ thuật của hóa chất
+- Mô tả trạng thái vật lý:…………………………………………………………….
+- Màu sắc/mùi:……………………………………………………………………….
+- Điểm sôi/điểm nóng chảy:………………………………………………………….
+- Tính tan:……………………………………………………………………………
+- Phân loại hóa chất nguy hiểm (nếu có):……………………………………………
+IV. Công dụng dự kiến và phạm vi sử dụng
+- Mục đích sử dụng:………………………………………………………………….
+- Giới hạn, điều kiện sử dụng:……………………………………………………….
+V. Đánh giá nguy cơ
+- Nguy cơ với sức khỏe con người:………………………………………………….
+- Nguy cơ đối với môi trường:……………………………………………………….
+- Khả năng cháy, nổ, phản ứng hóa học:…………………………………………….
+VI. Biện pháp quản lý, an toàn hóa chất
+- Yêu cầu lưu giữ:……………………………………………………………………
+- Phương tiện bảo hộ cá nhân:……………………………………………………….
+- Yêu cầu vận chuyển:……………………………………………………………….
+- Biện pháp phòng ngừa, ứng phó sự cố:…………………………………………….
+VII. Thông tin khác (nếu có)
+
+
+
+..............(1) xin cam đoan thực hiện đúng các quy định tại Luật Hóa chất số 69/2025/QH15, Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa, Thông tư số    01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số     26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa và các quy định pháp luật khác có liên quan. Nếu vi phạm …............ (1) xin hoàn toàn chịu trách nhiệm trước pháp luật................. (1) gửi kèm theo hồ sơ liên quan, bao gồm:……..........................................
+
+ | ĐẠI DIỆN PHÁP LUẬT /NGƯỜI ĐƯỢC ỦY QUYỀN(Ký tên và đóng dấu)
+
+Ghi chú:  (1) Tên tổ chức, cá nhân đăng ký hoá chất mới.
+                (2) Ký hiệu số văn bản.
+Mẫu 12c: Xác nhận đăng ký hoá chất mới
+CƠ QUAN XÁC NHẬN (1)------- | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc---------------
+Số:          /QĐ-…(2) | ………., ngày      tháng      năm 20 …….
+
+ 
+XÁC NHẬN ĐĂNG KÝ HOÁ CHẤT MỚI
+THỦ TRƯỞNG CƠ QUAN XÁC NHẬN
+Căn cứ Luật hóa chất số 69/2025/QH15;
+Căn cứ Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa; Thông tư số 01/2026/TT-BCT ngày 17 tháng 01năm 2026 của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số 26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa;
+Căn cứ ……………………………… (3);
+Xét hồ sơ đămg ký hoá chất mới tại văn bản số .. . ngày ... tháng ... năm ... của.………….. (4);
+Theo đề nghị của ……………………………… (5).
+QUYẾT ĐỊNH:
+Điều 1. Xác nhận. . . . (4); trụ sở ... , điện thoại, Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đầu tư số: .. do...(4).. cấp ngày ... tháng ... năm................ 
+Đăng ký hoá chất mới với thông tin cụ thể như sau:………………………………(6)
+Điều 2. ...(4) phải thực hiện đúng các quy định tại Nghị định số 26/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa và những quy định của pháp luật liên quan.
+Điều 3. Quyết định này có hiệu lực kể từ ngày…….
+ 
+Nơi nhận:- Như Điều 2;- Lưu: VT, …….. | THỦ TRƯỞNG CƠ QUAN XÁC NHẬN(Ký tên và đóng dấu)
+
+Ghi chú:
+- (1):  Tên cơ quan cấp Giấy phép;
+- (2): Tên viết tắt của cơ quan cấp Giấy phép;
+- (3):  Căn cứ pháp lý khác liên quan;
+- (4): Tên tổ chức, cá nhân đề nghị đăng ký hoá chất mới;
+- (5): Chức danh người đứng đầu đơn vị thụ lý hồ sơ;
+- (6): Thông tin xác nhận đăng ký hoá chất mới.
+
+
+
+======================================================================
+=== 13 Khai bao hoa chat.docx ===
+======================================================================
+
+Phụ lục XIII
+MẪU THÔNG TIN KHAI BÁO VÀ PHẢN HỒI KHAI BÁO HÓA CHẤT NHẬP KHẨU QUA CỔNG THÔNG TIN MỘT CỬA QUỐC GIA
+(Ban hành kèm theo Thông tư số 01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương)
+
+Ký hiệu | Biểu mẫu
+Mẫu 13a | Mẫu thông tin khai báo hóa chất nhập khẩu qua Cổng thông tin một cửa quốc gia
+Mẫu 13b | Mẫu phản hồi thông tin khai báo hóa chất nhập khẩu qua Cổng thông tin một cửa quốc gia
+
+
+Mẫu 13a. Mẫu thông tin khai báo hóa chất nhập khẩu qua Cổng thông tin một cửa quốc gia 
+
+1. Tên tổ chức, cá nhân
+Mã định danh tổ chức, cá nhân:
+2. Mã số doanh nghiệp
+3. Địa chỉ trụ sở chính: | Thông tin địa điểm: | Phường/xã: | Tỉnh/Thành phố
+4. Điện thoại: | Fax:
+5. Mục đích nhập khẩu | Kinh doanh: □ | Sử dụng: □
+6. Cửa khẩu nhập khẩu
+7. Thông tin hóa chất nhập khẩu
+STT | Tên thương mại | Trạng thái vật lý | Thông tin hóa chất/tên thành phần | Mã số HS | Khối lượng nhập khẩu (kg/lít/m3) | Khối lượng quy đổi (Kg) (trường hợp khối lượng nhập khẩu là lít) | Mục đích nhập khẩu | Xuất xứ
+ |  |  | Tên hóa chất | Mã số CAS | Công thức hóa học | Hàm lượng |  |  |  |  | 
+1 |  |  |  |  |  |  |  |  |  | Để sử dụng: □, lĩnh vực sử dụng:....Để kinh doanh: □ | 
+..n |  |  |  |  |  |  |  |  |  |  | 
+8. Số hóa đơn: | 9. Ngày hóa đơn
+10. Công ty xuất khẩu | 11. Quốc gia:
+12. Tệp hóa đơn đính kèm | 13. Tệp phiếu an toàn hóa chất bằng tiếng Việt đính kèm
+14. Thông tin khác: | Họ tên người đại diện, Chức vụ | Họ tên người phụ trách khai báo,Số điện thoại liên hệ
+
+
+
+
+Mẫu 13b. Mẫu phản hồi thông tin khai báo hóa chất nhập khẩu qua Cổng thông tin một cửa quốc gia 
+1. Tên tổ chức, cá nhân:
+2. Mã số đăng ký doanh nghiệp/hợp tác xã/hộ kinh doanh:
+3. Địa chỉ:
+4. Mã số hệ thống tiếp nhận tự động:
+5. Thông tin hóa chất nhập khẩu
+STT | Tên thương mại | Mã số HS | Khối lượng nhập khẩu (tấn/kg/lít) | Xuất xứ
+1 |  |  |  | 
+2 |  |  |  | 
+n |  |  |  | 
+6. Số hóa đơn (invoice): | Ngày ký hóa đơn:
+7. Công ty xuất khẩu: | Quốc gia:
+
+
+
+======================================================================
+=== 14 Mau Thong bao Dang ky tren CSDL chuyen nganh.docx ===
+======================================================================
+
+Phụ lục XIV
+MẪU ĐĂNG KÝ VÀ THÔNG BÁO ĐĂNG KÝ TRÊN CƠ SỞ DỮ LIỆU CHUYÊN NGÀNH HÓA CHẤT
+(Ban hành kèm theo Thông tư số 01 /2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương)
+I. Thông tin đăng ký trên cơ sở dữ liệu chuyên ngành hóa chất
+Tên tổ chức/ cá nhân đăng ký
+Địa chỉ trụ sở
+Điện thoại 
+Email:
+Số Giấy chứng nhận đăng ký doanh nghiệp
+Mã số định danh của tổ chức: 
+Ngày cấp Giấy chứng nhận đăng ký doanh nghiệp
+Tên người đại diện theo pháp luật
+Số CCCD/Hộ chiếu người đại diện theo pháp luật
+Ngày cấp CCCD/ Hộ chiếu người đại diện theo pháp luật
+Cơ quan cấp CCCD/ Hộ chiếu người đại diện theo pháp luật
+II. Thông báo doanh nghiệp đã đăng ký trên cơ sở dữ liệu chuyên ngành hoá chất
+Trạng thái phản hồi tự động thông báo qua email:
+Nội dung xác nhận: Xác nhận Công ty đã đăng ký trên cơ sở dữ liệu chuyên ngành hóa chất………….
+
+======================================================================
+=== 15 Nguyen tac phan loai hoa chat.docx ===
+======================================================================
+
+ Phụ lục XV
+NGUYÊN TẮC PHÂN LOẠI HÓA CHẤT
+(Ban hành kèm theo Thông tư số 01 /2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương)
+_______________________________
+Phần I: Các đặc tính nguy hiểm của hóa chất
+Các đặc tính nguy hiểm của hóa chất theo nguyên tắc phân loại của Hệ thống hài hòa toàn cầu về phân loại và ghi nhãn hóa chất được quy định như sau:
+1) Dễ nổ;
+2) Ôxy hóa mạnh;
+3) Ăn mòn mạnh;
+4) Dễ cháy;
+5) Độc cấp tính;
+6) Độc mãn tính;
+7) Gây kích ứng với con người;
+8) Gây ung thư hoặc có nguy cơ gây ung thư;
+9) Gây biến đổi gen;
+10) Độc đối với sinh sản;
+11) Tích luỹ sinh học;
+12) Ô nhiễm hữu cơ khó phân huỷ;
+13) Độc hại đến môi trường.
+
+
+Phần II: Phân loại hóa chất theo nguyên tắc của Hệ thống hài hòa toàn cầu (GHS)
+I: NGUY HẠI VẬT CHẤT
+Bảng 1.1. Phân loại hoá chất theo nguy hại vật chất
+Phân loại | Đặc tính nguy hiểm | Phân cấp
+1.Chất nổ | Dễ nổ, dễ cháy | Chất nổ không bền | Cấp 1.1 | Cấp 1.2 | Cấp 1.3 | Cấp 1.4 | Cấp 1.5 | Cấp 1.6
+2.Khí dễ cháy | Dễ cháy | Cấp 1 | Cấp 2 | Khí tự cháy | Cấp A | Cấp B |  | 
+3.Sol khí dễ cháy | Dễ cháy | Cấp 1 | Cấp 2 | Cấp 3 |  |  |  | 
+4.Khí oxy hoá | Dễ cháy, oxy hóa mạnh | Cấp 1 |  |  |  |  |  | 
+5.Khí chịu áp suất | Dễ nổ, dễ cháy | Khí nén | Khí hoá lỏng | Khí hoá lỏng đông lạnh | Khí hoà tan |  |  | 
+6.Chất lỏng dễ cháy | Dễ cháy | Cấp 1 | Cấp 2 | Cấp 3 | Cấp 4 |  |  | 
+7.Chất rắn dễ cháy | Dễ cháy | Cấp 1 | Cấp 2 |  |  |  |  | 
+8.Chất và hỗn hợp tự phản ứng | Dễ nổ, dễ cháy | Kiểu A | Kiểu B | Kiểu C&D | Kiểu E&F | Kiểu G |  | 
+9.Chất lỏng tự cháy | Dễ cháy | Cấp 1 |  |  |  |  |  | 
+10.Chất rắn tự cháy | Dễ cháy | Cấp 1 |  |  |  |  |  | 
+11.Chất và hỗn hợp tự phát nhiệt | Dễ cháy | Cấp 1 | Cấp 2 |  |  |  |  | 
+12.Chất và hỗn hợp khi tiếp xúc với nước sinh ra khí dễ cháy | Dễ cháy | Cấp 1 | Cấp 2 | Cấp 3 |  |  |  | 
+13.Chất lỏng oxy hoá | Dễ nổ, dễ cháy, oxy hóa mạnh | Cấp 1 | Cấp 2 | Cấp 3 |  |  |  | 
+14.Chất rắn oxy hoá | Dễ nổ, dễ cháy, oxy hóa mạnh | Cấp 1 | Cấp 2 | Cấp 3 |  |  |  | 
+15.Peroxyt hữu cơ | Dễ nổ, dễ cháy | Kiểu A | Kiểu B | Kiểu C&D | Kiểu E&F | Kiểu G |  | 
+16.Ăn mòn kim loại | Ăn mòn mạnh | Cấp 1 |  |  |  |  |  | 
+
+1. TIÊU CHÍ PHÂN LOẠI CHẤT NỔ
+Dựa trên nguy cơ của các hóa chất không thuộc loại chất nổ không bền, chúng được phân vào một trong sáu loại sau:
+1. Cấp 1.1: Các chất, hỗn hợp chất có nguy cơ nổ khối. Nổ khối là một quá trình nổ ngay lập tức và tác động lên toàn bộ thành phần khối chất nổ.
+2. Cấp 1.2: Các chất, hỗn hợp chất có nguy cơ bắn, nổ riêng lẻ nhưng không có nguy cơ nổ khối.
+3. Cấp 1.3: Các chất, hỗn hợp chất có nguy cơ cháy và gây nổ nhỏ hoặc bắn ra yếu hoặc cả hai nhưng không có nguy cơ nổ khối, việc cháy làm tăng đáng kể bức xạ nhiệt hoặc cháy liên tiếp tạo ra tiếng nổ nhỏ hoặc bắn ra hoặc cả hai.
+4. Cấp 1.4: Các chất, hỗn hợp có nguy cơ nổ thấp trong trường hợp bắt cháy. Việc cháy nổ chỉ trong giới hạn bao gói và không bắn ra các mảnh với kích cỡ lớn hoặc ngoài phạm vi đã dự đoán. Sự cháy bên ngoài không gây nổ ngay lập tức toàn bộ thành phần khối chất nổ.
+5. Cấp 1.5: Các chất và hỗn hợp chất không nhạy có nguy cơ nổ khối; có rất ít khả năng phát cháy nổ hoặc chuyển từ cháy sang nổ dưới các điều kiện thông thường.
+6. Cấp 1.6: Các chất và hỗn hợp chất không nhạy, không có nguy cơ nổ khối, không có khả năng khơi mào hay bắt cháy nổ.
+Các chất nổ được phân loại vào một trong sáu cấp từ 1 đến 6 nêu trên căn cứ theo Tài liệu hướng dẫn của Liên Hợp quốc về vận chuyển hàng hoá nguy hiểm. Việc hướng dẫn thử nghiệm và tiêu chuẩn thực hiện theo bảng sau:
+Bảng 1.2. Tiêu chí đối với chất nổ
+Chủng loại | Tiêu chí
+Chất nổ không bền hay chất nổ Cấp 1.1 đến 1.6 | Đối với chất nổ Cấp 1.1 đến 1.6, các nội dung sau cần phải được tiến hành:- Tính nổ: theo loại thử nghiệm UN2 (phần 12. Hướng dẫn thử nghiệm và tiêu chí theo Tài liệu hướng dẫn của Liên Hợp quốc về vận chuyển hàng hoá nguy hiểm). Chất được sản xuất để làm chất nổ  không là đối tượng loại thử nghiệm UN2.- Tính nhạy: theo loại thử nghiệm UN3 (phần 13. Hướng dẫn thử nghiệm và tiêu chí theo Tài liệu hướng dẫn của Liên Hợp quốc về vận chuyển hàng hoá nguy hiểm)- Độ bền nhiệt: theo thử nghiệm UN3 (c) (tiểu mục 13.6.1 Hướng dẫn thử nghiệm và tiêu chí theo Tài liệu hướng dẫn của Liên Hợp quốc về vận chuyển hàng hoá nguy hiểm)Để phân loại đúng nhóm thuốc nổ các thử nghiệm sâu hơn là cần thiết.
+
+Ghi chú:
+Chất nổ không bền là những chất nổ không bền nhiệt hoặc quá nhạy đối với vận chuyển và sử dụng thông thường. Phòng ngừa đặc biệt là hết sức cần thiết. Chất nổ không bền bao gồm các chất, hỗn hợp chất được sản xuất nhằm tạo ra hiệu ứng nổ hoặc pháo hoa:
+- Chất hay hỗn hợp chất nổ đã được đóng gói có thể được phân loại từ 1.1 đến 1.6 và với mục đích quản lý, tiếp tục được chia nhỏ thành các nhóm tương thích từ A đến S để phân biệt yêu cầu kỹ thuật theo Những quy tắc mẫu tại Chương 2.1, Tài liệu hướng dẫn của Liên Hợp quốc về vận chuyển hàng hoá nguy hiểm; 
+- Một số chất và hỗn hợp chất nổ được làm ướt bằng nước hoặc rượu hay pha loãng với các chất khác để làm giảm tính nổ của chúng. Chất nổ khử nhạy có thể được quản lý  khác với các chất và hỗn hợp nổ khác cho những mục đích khác (như trong vận chuyển);
+- Đối với các thử nghiệm phân loại chất hay hỗn hợp rắn, thử nghiệm phải được tiến hành với chính hỗn hợp và chất cần phân loại. Ví dụ: hóa chất cần phải tiến hành thử nghiệm lại nếu chúng được cung cấp hay vận chuyển ở trạng thái khác.
+Bảng 1.3. Các yếu tố nhãn cho chất nổ
+ | Chất nổ không bền | Cấp 1.1 | Cấp 1.2 | Cấp 1.3 | Cấp 1.4 | Cấp 1.5 | Cấp 1.6
+Hình đồ cảnh báo |  |  |  |  |  |  | 
+Tên gọi hình đồ | Nổ bom | Nổ bom | Nổ bom | Nổ bom | Nổ bom | 1.5 trên nền màu cam | 1.6 trên nền màu cam
+Từ cảnh báo | Nguy hiểm | Nguy hiểm | Nguy hiểm | Nguy hiểm | Cảnh báo | Nguy hiểm | Không có từ cảnh báo
+Cảnh báo nguy cơ | Chất nổ không bền | Chất nổ; nguy cơ nổ khối | Chất nổ; nguy cơ bắn ra nghiêm trọng | Chất nổ; nguy cơ cháy, nổ tung hoặc bắn ra. | Nguy cơ cháy và bắn ra | Có thể nổ khối khi cháy | Không có phát biểu nguy cơ
+
+Ghi chú: Áp dụng cho các đối tượng hỗn hợp chất và chất với mục đích quản lý như vận chuyển.
+2. TIÊU CHÍ PHÂN LOẠI KHÍ DỄ CHÁY 
+Khí dễ cháy được phân loại vào một trong các cấp theo bảng sau:
+
+Bảng 1.4. Tiêu chí đối với khí dễ cháy
+Loại | Tiêu chí
+Cấp 1 | Khí ở 200C và áp suất tiêu chuẩn 101,3 kPa:- Dễ cháy với thể tích ít hơn hoặc bằng 13% trong không khí; hoặc- Có khoảng bắt cháy trong không khí với thể tích ít nhất là 12% cho dù giới hạn bắt cháy thấp hơn.
+Cấp 2 | Ngoài các khí thuộc cấp 1, các khí khác ở 200C và áp suất tiêu chuẩn 101,3 kPa, có khoảng bắt cháy khi được trộn trong không khí
+Khí tự cháy | Khí dễ cháy có đặc tính tự bốc cháy trong không khí ở nhiệt độ 54oC hoặc thấp hơn
+Cấp A | Khí dễ cháy không ổn định hóa học tại 20oC và áp suất tiêu chuẩn ở 101.3kPa
+Cấp B | Khí dễ cháy không ổn định hóa học ở nhiệt độ trên 20oC và áp suất trên 101.3kPa
+
+Ghi chú:
+- Amoniac và metyl bromua có thể được quản lý đặc biệt đối với một số mục đích sử dụng.
+- Phân loại sol khí, xem phần III.
+Bảng 1.5. Yếu tố nhãn cho khí dễ cháy
+ | Khí dễ cháy | Phân nhóm phụ
+ | Cấp 1 | Cấp 2 | Khí tự cháy | Cấp A | Cấp B
+Hình đồ cảnh báo |  | Không có hình đồ |  | Không có hình đồ bổ sung | Không có hình đồ bổ sung
+Tên gọi hình đồ | Ngọn lửa |  | Ngọn lửa |  | 
+Từ cảnh báo | Nguy hiểm | Cảnh báo | Nguy hiểm | Không có từ cảnh báo bổ sung | Không có từ cảnh báo bổ sung
+Cảnh báo nguy cơ | Khí rất dễ cháy | Khí dễ cháy | Có thể tự bốc cháy nếu tiếp xúc với không khí | Có thể phản ứng nổ khi không có không khí | Có thể phản ứng nổ khi không có không khí ở nhiệt độ và/hoặc áp suất cao
+
+3. TIÊU CHÍ PHÂN LOẠI SOL KHÍ DỄ CHÁY
+Sol khí được xem xét phân loại là dễ cháy nếu chúng chứa bất kỳ thành phần nào được phân loại là dễ cháy theo tiêu chí GHS, như: Chất lỏng dễ cháy (xem phần VI); Chất khí dễ cháy (xem phần VII); Chất rắn dễ cháy (xem phần VIII). Sol khí được phân loại là Cấp 1 hoặc 2 nếu chứa thành phần được phân loại là dễ cháy theo GHS lớn hơn 1% (theo khối lượng). Sol khí không đáp ứng tiêu chí của Cấp 1 hoặc Cấp 2 thì được phân loại là Cấp 3 
+Ghi chú: Các thành phần dễ cháy không bao gồm các chất tự cháy, tự sinh nhiệt hoặc chất phản ứng với nước do các thành phần này không bao giờ được sử dụng như là thành phần sol khí.
+Bảng 1.6. Yếu tố nhãn cho sol khí dễ cháy
+ | Cấp 1 | Cấp 2 | Cấp 3
+Hình đồ cảnh báo |  |  | Không có hình đồ
+Tên gọi hình đồ | Ngọn lửa | Ngọn lửa | 
+Từ cảnh báo | Nguy hiểm | Cảnh báo | Cảnh báo
+Cảnh báo nguy cơ | Sol khí rất dễ cháyThùng chứa chịu áp lực: Có thể nổ nếu gia nhiệt | Sol khí dễ cháyThùng chứa chịu áp lực: Có thể nổ nếu gia nhiệt | Thùng chứa chịu áp lực: Có thể nổ nếu gia nhiệt
+
+4. TIÊU CHÍ PHÂN LOẠI KHÍ OXY HOÁ 
+Khí oxy hoá được phân loại vào một cấp duy nhất theo bảng sau đây:
+Bảng 1.7. Tiêu chí đối với khí oxy hoá
+Cấp | Tiêu chí
+1 | Bất kỳ khí nào, nhờ việc cung cấp oxy, có thể gây cháy hoặc đóng góp vào quá trình cháy của các vật liệu khác nhiều hơn không khí.
+
+Ghi chú: Khí nhân tạo chứa đến 23,5% thể tích oxy có thể không được coi là khí oxy hoá trong quản lý đối với một số mục đích như trong vận chuyển.
+Bảng 1.8. Yếu tố nhãn đối với khí oxy hoá
+ | Cấp 1
+Hình đồ cảnh báo | 
+Tên gọi hình đồ | Ngọn lửa trên vòng tròn
+Từ cảnh báo | Nguy hiểm
+Cảnh báo nguy cơ | Có thể gây ra hoặc làm mạnh hơn quá trình cháy, chất oxy hoá
+
+5. TIÊU CHÍ PHÂN LOẠI KHÍ CHỊU ÁP SUẤT
+Khí được phân loại, theo trạng thái vật chất khi được đóng gói, vào một trong 4 nhóm theo bảng dưới đây:
+Bảng 1.9. Tiêu chí đối với khí chịu áp suất
+Nhóm | Tiêu chí
+Khí nén | Khí khi được nén dưới áp suất, hoàn toàn ở thể khí ở -500C; bao gồm tất cả các khí có nhiệt độ tới hạn ≤-50
+Khí hoá lỏng | Khí khi được nén dưới áp suất, ở thể lỏng một phần ở nhiệt độ trên -500C. Có sự phân biệt giữa:- Khí hoá lỏng áp suất cao: khí có nhiệt độ tới hạn giữa -500C và +650C; và- Khí hoá lỏng áp suất thấp: khí có nhiệt độ tới hạn lớn hơn +650C
+Khí hoá lỏng đông lạnh | Khí mà khi nén bị hoá lỏng một phần do nhiệt độ thấp
+Khí hoà tan | Khí mà khi nén dưới áp suất bị hoà tan trong dung môi lỏng
+
+Bảng 1.10. Yếu tố nhãn đối với khí chịu áp suất
+ | Khí nén | Khí hoá lỏng | Khí hoá lỏng đông lạnh | Khí hoà tan
+Hình đồ cảnh báo |  |  |  | 
+Tên gọi hình đồ | Bình khí | Bình khí | Bình khí | Bình khí
+Từ cảnh báo | Cảnh báo | Cảnh báo | Cảnh báo | Cảnh báo
+Cảnh báo nguy cơ | Chứa khí dưới áp suất; có thể nổ nếu gia nhiệt | Chứa khí dưới áp suất; có thể nổ nếu gia nhiệt | Chứa khí đông lạnh, có thể gây bỏng lạnh hoặc bị thương | Chứa khí dưới áp suất; có thể nổ nếu gia nhiệt
+
+
+6. TIÊU CHÍ PHÂN LOẠI CHẤT LỎNG DỄ CHÁY
+Chất lỏng dễ cháy có thể được phân loại vào một trong 4 cấp theo bảng sau đây:
+Bảng 1.11. Tiêu chí đối với chất lỏng dễ cháy
+Cấp | Tiêu chuẩn
+1 | Điểm chớp cháy < 230C và điểm bắt đầu sôi ≤ 350C
+2 | Điểm chớp cháy < 230C và điểm bắt đầu sôi > 350C
+3 | Điểm chớp cháy ≥ 230C và ≤ 600C
+4 | Điểm chớp cháy > 600C và ≤ 930C
+
+Ghi chú:
+- Dầu khí, diesel và dầu thắp sáng có điểm chớp cháy trong khoảng 550C đến 750C có thể coi là nhóm đặc biệt cho một số mục đích quản lý;
+- Chất lỏng có điểm chớp cháy lớn hơn 350C có thể coi là chất lỏng không dễ cháy cho một số mục đích quản lý (như vận chuyển) nếu thu được kết quả âm trong thử nghiệm L.2 về khả năng duy trì cháy, theo Tài liệu hướng dẫn của Liên Hợp quốc về vận chuyển hàng hoá nguy hiểm;
+- Chất lỏng nhớt dễ cháy như sơn, men, sơn bóng, vecni, keo dán và xi có thể coi là nhóm đặc biệt cho một số mục đích quản lý như trong vận chuyển. Việc phân loại hoặc quyết định các chất lỏng này là không dễ cháy có thể được xác định theo quy định thích hợp hoặc xem xét bởi cơ quan chức năng.
+Bảng 1.12. Yếu tố nhãn đối với chất lỏng dễ cháy
+ | Cấp 1 | Cấp 2 | Cấp 3 | Cấp 4
+Hình đồ cảnh báo |  |  |  | Không có hình đồ
+Tên gọi hình đồ | Ngọn lửa | Ngọn lửa | Ngọn lửa | 
+Từ cảnh báo | Nguy hiểm | Nguy hiểm | Cảnh báo | Cảnh báo
+Cảnh báo nguy cơ | Hơi và chất lỏng cực kỳ dễ cháy | Hơi và chất lỏng rất dễ cháy | Hơi và chất lỏng dễ cháy | Chất lỏng dễ cháy
+
+7. TIÊU CHÍ PHÂN LOẠI CÁC CHẤT RẮN DỄ CHÁY 
+Chất hay hỗn hợp chất dưới dạng bột, hạt hay dạng hồ có thể được phân loại là chất rắn dễ cháy khi thời gian cháy của một hoặc nhiều lần thử nghiệm, nhỏ hơn 45 giây hoặc vận tốc cháy lớn hơn 2,2 mm/s được thực hiện theo phương pháp thử nghiệm mô tả trong phần III, tiểu mục 33.2.1 Tài liệu hướng dẫn của Liên Hợp quốc về vận chuyển hàng hoá nguy hiểm;
+- Bột kim loại hay hợp kim có thể được phân loại là chất rắn dễ cháy khi chúng bị bắt cháy và phản ứng lan nhanh theo chiều dài của mẫu trong 10 phút hoặc ít hơn;
+- Chất rắn có thể gây cháy qua ma sát được phân loại thuộc loại này tương tự như diêm cho đến khi tiêu chuẩn cụ thể cho các chất loại này được xây dựng;
+- Chất rắn dễ cháy được phân vào 1 trong 2 cấp, sử dụng Phương pháp N1 như mô tả trong 33.2.1 Tài liệu hướng dẫn của Liên Hợp quốc về vận chuyển hàng hoá nguy hiểm, theo bảng sau:
+Bảng 1.13. Tiêu chí đối với chất rắn dễ cháy
+Cấp | Tiêu chuẩn
+1 | Thử vận tốc cháy:- Hợp chất hoặc hỗn hợp khác ngoài bột kim loại:+ Vùng ướt không chặn lửa và + Thời gian cháy < 45 giây hoặc vận tốc cháy > 2,2 mm/giây- Bột kim loại: thời gian cháy ≤ 5 phút
+2 | Thử vận tốc cháy:- Hợp chất hoặc hỗn hợp khác ngoài bột kim loại:+ Vùng ướt chặn ngọn lửa ít nhất là 4 phút và+ Thời gian cháy < 45 giây hoặc vận tốc cháy > 2, 2 mm/giây- Bột kim loại: thời gian cháy > 5 phút và ≤ 10 phút
+
+Ghi chú: Đối với các thử nghiệm phân loại chất hay hỗn hợp rắn, thử nghiệm phải được tiến hành với chính hỗn hợp và chất cần phân loại. Ví dụ: hóa chất cần phải tiến hành thử nghiệm lại nếu chúng được cung cấp hay vận chuyển ở trạng thái khác.
+Bảng 1.14. Yếu tố nhãn đối với chất rắn dễ cháy
+ | Cấp 1 | Cấp 2
+Hình đồ cảnh báo |  | 
+Tên gọi hình đồ | Ngọn lửa | Ngọn lửa
+Từ cảnh báo | Nguy hiểm | Cảnh báo
+Cảnh báo nguy cơ | Chất rắn dễ cháy | Chất rắn dễ cháy
+
+8. TIÊU CHÍ PHÂN LOẠI CHẤT VÀ HỖN HỢP TỰ PHẢN ỨNG 
+1. Nếu chất hay hỗn hợp tự phản ứng thuộc một trong các trường hợp liệt kê dưới đây được phân loại như sau:
+- Chất nổ được phân loại tại Mục I Phụ lục này;
+- Chất lỏng hay chất rắn oxy hoá được phân loại tại Mục XIII và Mục XIV Phụ lục này;
+- Các peroxyt hữu cơ được phân loại tại Mục XV Phụ lục này;
+- Nhiệt phân huỷ của chúng nhỏ hơn 300 J/g; 
+- Nhiệt độ phân huỷ tự tăng tốc của chúng (SADT) lớn hơn 750C đối với một gói 50kg.
+2. Các chất hay hỗn hợp tự phản ứng được phân loại từ KIẺU A đến G theo nguyên tắc cơ bản sau đây:
+a) Chất và hỗn hợp tự phản ứng có thể nổ hay bùng cháy nhanh ở dạng bao gói được định nghĩa là hợp chất tự phản ứng KIỂU A;
+b) Chất hay hỗn hợp tự phản ứng có tính nổ dưới dạng bao gói, không nổ cũng không bùng cháy nhanh, nhưng có khả năng nổ nhiệt trong bao gói được định nghĩa là chất tự phản ứng KIỂU B;
+c) Chất hay hỗn hợp tự phản ứng có tính nổ, khi chất và hỗn hợp ở dạng bao gói không nổ hay bùng cháy nhanh hay trải qua quá trình nổ nhiệt sẽ được định nghĩa là chất tự phản ứng KIỂU C;
+d) Chất hay hỗn hợp tự phản ứng được thử nghiệm trong phòng thí nghiệm có kết quả được mô tả như sau, sẽ được định nghĩa là hợp chất tự phản ứng KIỂU D;
+- Nổ một phần, không bùng cháy nhanh và không có phản ứng mãnh liệt khi được gia nhiệt trong không gian hẹp;
+- Không nổ, bùng cháy chậm và không có phản ứng mãnh liệt khi được gia nhiệt trong không gian hẹp;
+- Không nổ hoặc không bùng cháy và phản ứng trung bình khi được gia nhiệt trong không gian hẹp;
+e) Chất và hỗn hợp tự phản ứng khi thử nghiệm trong phòng thí nghiệm hoàn toàn không nổ hay bùng cháy, không có phản ứng hoặc rất ít khi được gia nhiệt trong không gian hẹp sẽ được định nghĩa là chất tự phản ứng KIỂU E;
+f) Chất và hỗn hợp tự phản ứng khi thử nghiệm trong phòng thí nghiệm, không nổ ở trạng thái có lỗ trống, cũng như không bùng cháy, không phản ứng hoặc phản ứng ít khi được gia nhiệt trong không gian hẹp, cũng như là không có khả năng nổ hoặc khả năng nổ thấp, sẽ được định nghĩa là hợp chất tự phản ứng KIỂU F;
+g) Chất hay hỗn hợp tự phản ứng khi thử nghiệm trong phòng thí nghiệm không nổ ở trạng thái có lỗ trống cũng không như bùng cháy, ít hoặc không phản ứng khi được gia nhiệt trong không gian hẹp, cũng như ít hoặc không có khả năng nổ, bền nhiệt (nhiệt độ phân huỷ tự tăng tốc từ 600C đến 750C cho một gói 50 kg), với hỗn hợp lỏng, khi chất pha loãng có điểm sôi lớn hơn hoặc bằng 1500C được sử dụng để khử nhạy, sẽ được phân loại là chất tự phản ứng KIỂU G. 
+Nếu hỗn hợp không bền nhiệt hoặc chất pha loãng có điểm sôi thấp hơn 1500C được sử dụng để khử nhạy, hỗn hợp được định nghĩa là hoá chất tự phản ứng KIỂU F;
+Ghi chú:
+- Kiểu G không có các thành phần cảnh báo nguy cơ nhưng cần phải xem xét các tính chất thuộc loại nguy cơ khác.
+- Kiểu A đến G có thể không cần xem xét đến các tính chất khác.
+
+Bảng 1.15. Yếu tố nhãn đối với chất và hỗn hợp tự phản ứng
+ | Kiểu A | Kiểu B | Kiểu C và D | Kiểu E và F | Kiểu G
+Hình đồ cảnh báo |  |  |  |  | Không có yếu tố nhãn dùng cho cấp nguy cơ này
+Tên gọi hình đồ | Bom nổ | Bom nổ, ngọn lửa | Ngọn lửa | Ngọn lửa | 
+Từ cảnh báo | Nguy hiểm | Nguy hiểm | Nguy hiểm | Cảnh báo | 
+Cảnh báo nguy cơ | Gia nhiệt có thể gây nổ | Gia nhiệt có thể gây cháy hoặc nổ | Gia nhiệt có thể gây cháy | Gia nhiệt có thể gây cháy | 
+
+Ghi chú: Kiểu G không có các thành phần cảnh báo nguy cơ nhưng cần phải xem xét các tính chất thuộc loại nguy cơ khác.
+9. TIÊU CHÍ PHÂN LOẠI CHẤT LỎNG TỰ CHÁY 
+Chất lỏng tự cháy được phân loại vào một cấp duy nhất, sử dụng thử nghiệm N.3 trong Mục 33.3.1.5 Tài liệu hướng dẫn của Liên Hợp quốc về vận chuyển hàng hoá nguy hiểm, theo bảng sau:
+
+Bảng 1.16. Tiêu chí đối với chất lỏng tự cháy
+Cấp | Tiêu chí
+1 | Chất lỏng tự bốc cháy trong vòng 5 phút khi được thêm vào một chất mang trơ và tiếp xúc với không khí hoặc bốc cháy hay than hoá giấy lọc khi tiếp xúc với không khí trong 5 phút.
+
+Bảng 1.17. Yếu tố nhãn đối với chất lỏng tự cháy
+ | Cấp 1
+Hình đồ cảnh báo | 
+Tên gọi hình đồ | Ngọn lửa
+Từ cảnh báo | Nguy hiểm
+Cảnh báo nguy cơ | Tự bốc cháy nếu tiếp xúc với không khí
+
+10. TIÊU CHÍ PHÂN LOẠI CHẤT RẮN TỰ CHÁY 
+Chất rắn tự cháy được phân loại vào một cấp duy nhất, sử dụng thử nghiệm N.2 trong Mục 33.3.1.4 Tài liệu hướng dẫn của Liên Hợp quốc về vận chuyển hàng hoá nguy hiểm theo bảng sau:
+Bảng 1.18. Tiêu chí cho chất rắn tự cháy
+Cấp | Tiêu chuẩn
+1 | Chất rắn tự cháy trong vòng 5 phút sau khi tiếp xúc với không khí
+
+Ghi chú: Đối với các thử nghiệm phân loại chất hay hỗn hợp rắn, thử nghiệm phải được tiến hành với chính hỗn hợp và chất cần phân loại. Ví dụ: hóa chất cần phải tiến hành thử nghiệm lại nếu chúng được cung cấp hay vận chuyển ở trạng thái khác.
+
+Bảng 1.19. Yếu tố nhãn cho chất rắn tự cháy
+ | Cấp 1
+Hình đồ cảnh báo | 
+Tên gọi hình đồ | Ngọn lửa
+Từ cảnh báo | Nguy hiểm
+Cảnh báo nguy cơ | Tự bắt cháy nếu tiếp xúc không khí
+
+11. TIÊU CHÍ PHÂN LOẠI CHẤT TỰ PHÁT NHIỆT
+Chất hay hỗn hợp tự phát nhiệt được phân loại vào một trong hai cấp thuộc loại này nếu trong thử nghiệm được tiến hành theo phương pháp thử N.4 trong Mục 33.3.1.6 theo Tài liệu hướng dẫn của Liên Hợp quốc về vận chuyển hàng hoá nguy hiểm, kết quả thoả mãn tiêu chuẩn theo bảng sau:
+Bảng 1.20. Tiêu chí với chất và hỗn hợp tự phát nhiệt
+Cấp | Tiêu chí
+1 | Kết quả dương thu được trong thử nghiệm sử dụng 1 khối mẫu 25 mm ở 1400C.
+2 | - Kết quả dương thu được trong thử nghiệm sử dụng 1 khối mẫu 100 mm ở 1400C và kết quả âm thu được trong thử nghiệm sử dụng 1 khối mẫu 25 mm ở 1400C và chất hay hỗn hợp này được đóng gói trong bao gói có thể tích lớn hơn 3 m3; hoặc:- Kết quả dương thu được trong thử nghiệm sử dụng 1 khối mẫu 100 mm ở 1400C và kết quả âm thu được trong thử nghiệm sử dụng 1 khối mẫu 25 mm ở 1400C, kết quả dương thu được trong thử nghiệm sử dụng 1 khối mẫu 100 mm ở 1200C và chất hay hỗn hợp này được đóng gói trong bao gói có thể tích hơn 450 lít, hoặc:- Kết quả dương thu được trong thử nghiệm sử dụng 1 khối mẫu 100mm ở 1400C và kết quả âm thu được trong thử nghiệm sử dụng 1 khối mẫu 25 mm ở 1400C và kết quả dương thu được trong thử nghiệm sử dụng khối mẫu 100 mm ở 1000C
+
+Ghi chú:
+- Đối với các thử nghiệm phân loại chất hay hỗn hợp rắn, thử nghiệm phải được tiến hành với chính hỗn hợp và chất cần phân loại. Ví dụ: hóa chất cần phải tiến hành thử nghiệm lại nếu chúng được cung cấp hay vận chuyển ở trạng thái khác.
+- Tiêu chí đề ra dựa trên cơ sở nhiệt độ tự bốc cháy của than củi là 500C cho khối mẫu 27 m3. Chất và hỗn hợp có nhiệt độ tự bốc cháy lớn hơn 500C với thể tích 27 m3 không được phân loại vào nhóm nguy hại này. Chất và hỗn hợp có nhiệt độ tự bốc cháy lớn hơn 500C với thể tích 450 lít không được phân loại vào Cấp1 của nhóm nguy hiểm này.
+Bảng 1.21. Yếu tố nhãn đối với hợp chất và hỗn hợp tự phát nhiệt
+ | Cấp 1 | Cấp 2
+Hình đồ cảnh báo |  | 
+Tên gọi hình đồ | Ngọn lửa | Ngọn lửa
+Từ cảnh báo | Nguy hiểm | Cảnh báo
+Cảnh báo nguy cơ | Tự phát nhiệt; có thể bắt lửa | Tự phát nhiệt khi số lượng lớn; có thể bắt lửa
+
+12. TIÊU CHÍ PHÂN LOẠI CHẤT VÀ HỖN HỢP KHI TIẾP XÚC VỚI NƯỚC SINH RA KHÍ DỄ CHÁY
+Một chất hay hỗn hợp, khi tiếp xúc với nước, sinh ra khí dễ cháy được phân vào một trong 3 cấp, sử dụng thử nghiệm N.5 trong Mục 33.4.1.4 Tài liệu hướng dẫn của Liên Hợp quốc về vận chuyển hàng hoá nguy hiểm theo bảng sau.
+Bảng 1.22. Tiêu chí đối với chất và hỗn hợp khi tiếp xúc với nước sinh ra khí dễ cháy 
+Cấp | Tiêu chí
+1 | Chất và hỗn hợp phản ứng mãnh liệt với nước ở nhiệt độ thường và thường sinh ra khí tự bốc cháy ngay lập tức; hoặc phản ứng dễ dàng với nước ở nhiệt độ thường mà tốc độ giải phóng khí dễ cháy bằng hoặc lớn hơn 10 lit trên 1 kg chất trong một phút.
+2 | Chất và hỗn hợp phản ứng dễ dàng với nước ở nhiệt độ thường và tốc độ giải phóng khí bằng hoặc lớn hơn 20 lit trên 1 kg hợp chất mỗi giờ và không đáp ứng tiêu chí cấp 1.
+3 | Chất hoặc hỗn hợp nào phản ứng chậm với nước ở nhiệt độ thường và tốc độ giải phóng khí bằng hoặc lớn hơn 1 lit trên 1 kg hợp chất trong một giờ và không đáp ứng tiêu chí cấp 1 và cấp 2
+
+Ghi chú: 
+- Một chất hay hỗn hợp được phân loại là hoá chất sinh ra khí dễ cháy khi tiếp xúc với nước nếu quá trình tự bốc cháy diễn ra trong bất kỳ giai đoạn nào của quá trình thử nghiệm;
+- Đối với các thử nghiệm phân loại chất hay hỗn hợp rắn, thử nghiệm phải được tiến hành với chính hỗn hợp và chất cần phân loại. Ví dụ: hóa chất cần phải tiến hành thử nghiệm lại nếu chúng được cung cấp hay vận chuyển ở trạng thái khác.
+Bảng 1.23. Yếu tố nhãn đối với chất và hỗn hợp khi tiếp xúc với nước sinh ra khí dễ cháy
+ | Cấp 1 | Cấp 2 | Cấp 3
+Hình đồ cảnh báo |  |  | 
+Tên gọi hình đồ | Ngọn lửa | Ngọn lửa | Ngọn lửa
+Từ cảnh báo | Nguy hiểm | Nguy hiểm | Cảnh báo
+Cảnh báo nguy cơ | Khi tiếp xúc với nước giải phóng khí dễ bốc cháy ngay lập tức | Khi tiếp xúc với nước giải phóng khí dễ cháy | Tiếp xúc với nước giải phóng khí dễ cháy
+
+
+
+13. TIÊU CHÍ PHÂN LOẠI CHẤT LỎNG OXY HOÁ
+Chất lỏng oxy hoá được phân loại vào một trong 3 cấp sau, sử dụng thử nghiệm O.2 trong Mục 34.4.2 Tài liệu hướng dẫn của Liên Hợp quốc về vận chuyển hàng hoá nguy hiểm theo bảng sau:
+Bảng 1.24. Tiêu chí đối với chất lỏng oxy hoá
+Cấp | Tiêu chí
+1 | Chất hay hỗn hợp tỷ lệ 1:1 theo khối lượng với xenlulozơ trong thử nghiệm, có thể tự bốc cháy; hoặc thời gian tăng áp suất trung bình của hỗn hợp 1:1, theo khối lượng của chất và xenlulozơ nhỏ hơn so với hỗn hợp 1:1, theo khối lượng của 50% axit percloric và xenlulozơ.
+2 | Chất hay hỗn hợp tỷ lệ 1:1 theo khối lượng với xenlulozơ trong thử nghiệm, có thời gian tăng áp suất trung bình nhỏ hơn hoặc bằng với thời gian tăng áp suất trung bình của hỗn hợp 1:1 theo khối lượng của dung dịch Natri clorat và xenlulozơ; và không đáp ứng tiêu chí Cấp 1
+3 | Chất hay hỗn hợp tỷ lệ 1:1 theo khối lượng với xenlulozơ trong thử nghiệm, có thời gian tăng áp suất trung bình nhỏ hơn hoặc bằng hỗn hợp 1:1 theo khối lượng của dung dịch axit nitric 65% và xenlulozơ; và không đáp ứng tiêu chí Cấp 1 và 2
+
+Bảng 1.25. Yếu tố nhãn đối với chất lỏng oxy hoá
+ | Cấp 1 | Cấp 2 | Cấp 3
+Hình đồ cảnh báo |  |  | 
+Tên gọi hình đồ | Ngọn lửa trên vòng tròn | Ngọn lửa trên vòng tròn | Ngọn lửa trên vòng tròn
+Từ cảnh báo | Nguy hiểm | Nguy hiểm | Cảnh báo
+Cảnh báo nguy cơ | Có thể gây cháy hoặc nổ, oxy hoá mạnh | Có thể cháy mạnh, chất oxy hoá | Có thể cháy mạnh, chất oxy hoá
+
+14. TIÊU CHÍ PHÂN LOẠI CHẤT RẮN OXY HOÁ
+Chất rắn oxy hoá được phân loại vào một trong 3 cấp sử dụng thử nghiệm O.1 trong Mục 34.4.1 Tài liệu hướng dẫn của Liên Hợp quốc về vận chuyển hàng hoá nguy hiểm theo bảng sau:
+Bảng 1.26. Tiêu chí đối chất rắn oxy hoá
+Cấp | Tiêu chí
+1 | Chất hay hỗn hợp với tỷ lệ 4:1 hoặc 1:1 với xenlulozơ (theo khối lượng) được thử nghiệm, có thời gian cháy trung bình nhỏ hơn thời gian cháy trung bình của hỗn hợp 3:2, theo khối lượng của Kali bromat và xenlulozơ
+2 | Chất hay hỗn hợp với tỷ lệ 4:1 hoặc 1:1 với xenlulozơ (theo khối lượng) được thử nghiệm, có thời gian cháy trung bình bằng hay nhỏ hơn thời gian cháy trung bình của hỗn hợp 2:3, theo khối lượng của Kali bromat và xenlulozơ và không đáp ứng tiêu chí Loại 1
+3 | Chất hay hỗn hợp với tỷ lệ 4:1 hoặc 1:1 với xenlulozơ (theo khối lượng) được thử nghiệm, có thời gian cháy trung bình bằng hay nhỏ hơn thời gian cháy trung bình của hỗn hợp 3:7, theo khối lượng của Kali bromat và xenlulozơ và không đáp ứng tiêu chí Loại 1 và 2
+
+Ghi chú: Đối với các thử nghiệm phân loại chất hay hỗn hợp rắn, thử nghiệm phải được tiến hành với chính hỗn hợp và chất cần phân loại. Ví dụ: hóa chất cần phải tiến hành thử nghiệm lại nếu chúng được cung cấp hay vận chuyển ở trạng thái khác.
+Bảng 1.27. Yếu tố nhãn đối với chất rắn oxy hoá
+ | Cấp 1 | Cấp 2 | Cấp 3
+Hình đồ cảnh báo |  |  | 
+Tên gọi hình đồ | Ngọn lửa trên vòng tròn | Ngọn lửa trên vòng tròn | Ngọn lửa trên vòng tròn
+Từ cảnh báo | Nguy hiểm | Nguy hiểm | Cảnh báo
+Cảnh báo nguy cơ | Có thể gây cháy hoặc nổ; chất oxy hoá mạnh | Có thể cháy mạnh; chất oxy hoá | Có thể cháy mạnh; chất oxy hoá
+
+15. TIÊU CHÍ PHÂN LOẠI PEROXYT HỮU CƠ 
+Peroxyt hữu cơ sẽ được xem xét để phân loại này trừ khi:
+- Không nhiều hơn 1% oxy sẵn có từ peroxyt hữu cơ khi chứa không nhiều hơn 1% hydro peroxyt; hoặc
+- Không nhiều hơn 0,5% oxy sẵn có từ peroxyt hữu cơ khi chứa nhiều hơn 1% nhưng không quá 7% hydro peroxyt.
+Một số lưu ý: 
+- Hàm lượng oxy sẵn có (%) của 1 hỗn hợp peroxyt hữu cơ được tính theo công thức:
+
+Trong đó ni = số nhóm peroxy/mol của peroxyt hữu cơ i;
+ci = nồng độ (% khối lượng) của peroxyt hữu cơ i;
+mi = khối lượng phân tử của peroxyt hữu cơ i.
+Peroxyt hữu cơ được phân vào một trong 7 kiểu từ A đến G, theo các nguyên tắc sau đây:
+a) Peroxyt hữu cơ khi đã đóng gói, có thể nổ hoặc bùng cháy nhanh sẽ được xếp vào peroxyt hữu cơ kiểu A;
+b) Peroxyt hữu cơ có tính chất nổ và khi đã đóng gói không nổ hay bùng cháy nhanh nhưng có thể xảy ra nổ nhiệt trong bao gói đó sẽ được xếp vào peroxyt hữu cơ kiểu B;
+c) Peroxyt hữu cơ có tính chất nổ khi hợp chất hay hỗn hợp đã đóng gói không nổ hay bùng cháy nhanh cũng như xảy ra nổ nhiệt sẽ được xếp vào peroxyt hữu cơ kiểu C;
+d) Peroxyt hữu cơ nào khi thử nghiệm phòng thí nghiệm:
+- Nổ một phần, không bùng cháy nhanh và không có phản ứng mãnh liệt khi được gia nhiệt trong không gian hẹp;
+- Không nổ, cháy chậm và không phản ứng mãnh liệt khi được gia nhiệt trong không gian hẹp hoặc
+- Không nổ hoặc bùng cháy và có phản ứng trung bình khi được gia nhiệt trong không gian hạn chế sẽ được xếp vào peroxyt hữu cơ kiểu D;
+e) Peroxyt hữu cơ khi thử nghiệm phòng thí nghiệm, không nổ cũng như bùng cháy và có phản ứng ít hoặc không phản ứng khi được gia nhiệt trong không gian hẹp được xếp vào peroxyt hữu cơ kiểu E;
+f) Peroxyt hữu cơ khi thử nghiệm phòng thí nghiệm, không nổ ở trạng thái có lỗ trống cũng như không bùng cháy và chỉ có phản ứng ít hoặc không phản ứng khi được gia nhiệt trong không gian hẹp cũng như ít hoặc không có khả năng nổ sẽ được xếp vào peroxyt hữu cơ kiểu F;
+g) Peroxyt hữu cơ khi thử nghiệm phòng thí nghiệm, không nổ ở trạng thái có lỗ trống, không bùng cháy và không bị ảnh hưởng khi được gia nhiệt trong không gian hẹp cũng như không có tính chất nổ, cho thấy nó bền nhiệt (nhiệt độ phân huỷ tự tăng tốc là 600C hoặc cao hơn đối với gói 50kg), và đối với hỗn hợp chất lỏng, một chất pha loãng có điểm sôi không nhỏ hơn 1500C được sử dụng để khử nhạy, sẽ được xếp vào peroxyt hữu cơ kiểu G. Nếu peroxyt hữu cơ không bền nhiệt hoặc chất pha loãng có điểm sôi nhỏ hơn 1500C được sử dụng để khử nhạy, nó sẽ được xếp vào peroxyt hữu cơ kiểu F.
+Ghi chú:
+- Kiểu G không có các yếu tố cảnh báo nguy cơ nhưng phải xem xét các tính chất thuộc nhóm nguy hiểm khác.
+- Kiểu A đến G có thể không cần thiết xem xét các tính chất thuộc nhóm nguy hiểm khác.
+Bảng 1.28. Yếu tố nhãn đối với peroxyt hữu cơ
+ | Kiểu A | Kiểu B | Kiểu C và D | Kiểu E và F | Kiểu Ga
+Hình đồ cảnh báo |  |  |  |  | Không có yếu tố nhãn cho cấp nguy hại này
+Tên gọi hình đồ | Bom nổ | Bom nổ, Ngọn lửa | Ngọn lửa | Ngọn lửa | 
+Từ cảnh báo | Nguy hiểm | Nguy hiểm | Nguy hiểm | Cảnh báo | 
+Cảnh báo nguy cơ | Gia nhiệt có thể gây nổ | Gia nhiệt có thể gây cháy hoặc nổ | Gia nhiệt có thể gây cháy | Gia nhiệt có thể gây cháy | 
+
+Kiểu G không có các yếu tố cảnh báo nguy cơ nhưng phải xem xét các tính chất thuộc nhóm nguy hiểm khác.
+16. TIÊU CHÍ PHÂN LOẠI ĂN MÒN KIM LOẠI 
+Chất hay hỗn hợp ăn mòn kim loại được phân loại vào một cấp duy nhất, sử dụng thử nghiệm trong phần III, mục 37, đoạn 37.4 1 Tài liệu hướng dẫn của Liên Hợp quốc về vận chuyển hàng hoá nguy hiểm theo bảng sau:
+Bảng 1.29. Tiêu chí đối với chất và hỗn hợp ăn mòn kim loại
+Cấp | Tiêu chí
+1 | Tốc độ ăn mòn trên bề mặt thép hoặc nhôm vượt quá 6,25 mm/năm ở nhiệt độ thử nghiệm 550C khi được thử nghiệm trên cả 2 vật liệu.
+
+Bảng 1.30. Yếu tố nhãn đối với chất và hỗn hợp ăn mòn kim loại
+ | Cấp 1
+Hình đồ cảnh báo | 
+Tên gọi hình đồ | Ăn mòn
+Từ cảnh báo | Cảnh báo
+Cảnh báo nguy cơ | Có thể ăn mòn kim loại
+
+II: NGUY CƠ SỨC KHỎE VÀ MÔI TRƯỜNG
+Bảng 2.1. Bảng phân loại hóa chất theo ảnh hưởng đến sức khỏe
+Phân loại | Đặc tính nguy hiểm | Phân cấp
+1. Độc cấp tính | Độc cấp tính | Cấp 1 | Cấp 2 | Cấp 3 | Cấp 4 | Cấp 5
+2. Ăn mòn/kích ứng da | Gây kích ứng với con người | Cấp 1A | Cấp 1B | Cấp 1C | Cấp 2 | Cấp 3
+3. Tổn thương nghiêm trọng/ kích ứng mắt | Gây kích ứng với con người | Cấp 1 | Cấp 2/2A | Cấp 2B |  | 
+4. Tác nhân nhạy hô hấp | Gây kích ứng với con người | Cấp 1 |  |  |  | 
+5. Tác nhân nhạy da | Gây kích ứng với con người | Cấp 1 |  |  |  | 
+6. Đột biến tế bào mầm (tế bào gen) | Gây biến đổi gen | Cấp 1A | Cấp 1B | Cấp 2 |  | 
+7. Tác nhân gây ung thư | Gây ung thư hoặc có nguy cơ gây ưng thư | Cấp 1A | Cấp 1B | Cấp 2 |  | 
+8a. Độc tính sinh sản | Độc đối với sinh sản | Cấp 1A | Cấp 1B | Cấp 2 |  | 
+8b. Ảnh hưởng đến hoặc qua sữa mẹ | Gây kích ứng với con người |  |  |  |  | 
+9. Độc tính đến cơ quan cụ thể sau phơi nhiễm đơn | Độc cấp tính, gây kích ứng với con người | Cấp 1 | Cấp 2 | Cấp 3 |  | 
+10. Độc tính đến cơ quan cụ thể sau phơi nhiễm lặp lại | Độc mãn tính, gây kích ứng với con người | Cấp 1 | Cấp 2 |  |  | 
+11. Nguy hại hô hấp | Độc cấp tính, Gây kích ứng với con người | Cấp 1 | Cấp 2 |  |  | 
+
+Bảng 2.2. Bảng phân loại hóa chất theo ảnh hưởng đến môi trường
+Phân loại | Đặc tính nguy hiểm | Phân cấp
+Nguy hại cấp tính đối với môi trường thủy sinh | Độc hại đến môi trường | Cấp 1 | Cấp 2 | Cấp 3 | 
+Nguy hại mãn tính đối với môi trường thủy sinh | Độc hại đến môi trường | Cấp 1 | Cấp 2 | Cấp 3 | Cấp 4
+
+1. TIÊU CHÍ PHÂN LOẠI ĐỘC CẤP TÍNH 
+1.1. Độc cấp tính 
+Các chất có thể được phân loại vào một trong năm cấp độc cấp tính dựa trên mức độ độc cấp tính qua đường miệng, da hay hô hấp theo giá trị (xấp xỉ) LD50 (miệng, da) hoặc LC50 (hô hấp) trong bảng 3 dưới đây cùng với các ghi chú giải thích.
+Bảng 2.3. Các cấp độc cấp tính và giá trị LD50/LC50 tương ứng
+Đường phơi nhiễm | Cấp 1 | Cấp 2 | Cấp 3 | Cấp 4 | Cấp 5
+Miệng (mg/kg tlct) | 5 | 50 | 300 | 2000 | 5000Xem tiêu chí chi tiết trong Ghi chú (e)
+Da (mg/kg tlct) | 50 | 200 | 1000 | 2000 | 
+Khí (ppmV)Xem: Ghi chú (a) | 100 | 500 | 2500 | 5000 | 
+Hơi (mg/l)Xem: Ghi chú (a)Ghi chú (b)Ghi chú (c) | 0,5 | 2,0 | 10 | 20 | 
+Bụi và sương (mg/l)Xem: Ghi chú (a)Ghi chú (b) | 0,05 | 0,5 | 1,0 | 5 | 
+
+Tlct: trọng lượng cơ thể. Nồng độ khí được biểu diễn theo phần triệu thể tích (ppmV).
+1.2. Ghi chú:
+a) Giá trị ngưỡng hô hấp trong bảng dựa trên thử nghiệm phơi nhiễm trong 4 giờ hoặc được chuyển đổi từ dữ liệu độc tính hô hấp trong phơi nhiễm 1 giờ khi chia cho hệ số 2 đối với khí và hơi và chia cho 4, đối với bụi và sương;
+b) Đối với một số mục đích cụ thế như đảm bảo an toàn cho sức khỏe con người, nồng độ hơi bão hoà có thể được sử dụng như một yếu tố bổ sung trong các quy định pháp luật;
+c) Đối với một số chất, chất được thử nghiệm sẽ không chỉ ở dạng hơi mà là hỗn hợp dạng lỏng và hơi. Đối với các chất khí khác thử nghiệm có thể bao gồm hơi gần với dạng khí. Trong những trường hợp đó, sự phân loại phải được dựa trên ppmV như sau: Cấp 1 (100 ppmV), Cấp 2 (500 ppmV), Cấp 3 (2500 ppmV), Cấp 4 (5000 ppmV). Các khái niệm thuật ngữ “bụi”, “sương” và “hơi” liên quan đến thử nghiệm độ độc hô hấp theo Chỉ dẫn thử nghiệm của OECD;
+d) Giá trị đối với bụi và sương phải được xem xét cho phù hợp với Chỉ dẫn thử nghiệm OECD về giới hạn kỹ thuật nói chung, duy trì và đo nồng độ bụi và sương ở dạng hô hấp được;
+e) Tiêu chí đối với Cấp 5 cho phép nhận dạng các chất có nguy cơ ngộ độc cấp tính tương đối thấp nhưng trong một số trường hợp có thể gây nguy hiểm đối với những quần thể dễ bị tổn thương. Những hoá chất này được cho là có giá trị LD50 qua miệng hoặc da trong khoảng 2000-5000 mg/kh tlct và các liều lượng tương đương đối với đường hô hấp. Tiêu chuẩn riêng đối với Cấp 5 là:
+- Hoá chất được phân loại vào cấp này nếu có bằng chứng tin cậy cho rằng LD50 (hoặc LC50) ở trong khoảng giá trị của Cấp 5 hoặc các nghiên cứu khác trên động vật cho thấy ảnh hưởng đến sức khoẻ con người;
+- Hoá chất được phân vào loại này, qua ngoại suy, đánh giá hoặc đo lường khi không chắc chắn hóa chất đáp ứng tiêu chí của Cấp 4:
++ Thông tin sẵn có, tin cậy về ảnh hưởng độc hại rõ ràng trên người;
++ Quan sát thấy sự tử vong khi thử nghiệm giá trị dưới ngưỡng Cấp 4 bằng đường miệng, hô hấp hoặc qua da; 
++ Khi các chuyên gia khẳng định có dấu hiệu lâm sàng rõ rệt về độc tính khi thử nghiệm dưới ngưỡng được phân loại vào Cấp 4, trừ bệnh tiêu chảy;
++ Khi các chuyên gia khẳng định chắc chắn khả năng gây ảnh hưởng cấp tính rõ rệt từ các nghiên cứu động vật khác.
+Thử nghiệm trên động vật trong khoảng giá trị Cấp 5 không được khuyến khích và chỉ được xem xét khi kết quả của những thí nghiệm này có khả năng liên quan trực tiếp đến bảo vệ sức khoẻ con người.
+Bảng 2.4. Yếu tố ghi nhãn đối với độc cấp tính
+ | Cấp 1 | Cấp 2 | Cấp 3 | Cấp 4 | Cấp 5
+Hình đồ cảnh báo |  |  |  |  | Không sử dụng Hình đồ cảnh báo
+Tên gọi hình đồ | Đầu lâu xương chéo | Đầu lâu xương chéo | Đầu lâu xương chéo | Dấu chấm than | 
+Từ ký hiệu | Nguy hiểm | Nguy hiểm | Nguy hiểm | Cảnh báo | Cảnh báo
+Cảnh báo nguy cơ:Miệng | Chết nếu nuốt phải | Chết nếu nuốt phải | Ngộ độc nếu nuốt phải | Có hại nếu nuốt phải | Có thể có hại nếu nuốt phải
+Cảnh báo nguy cơ: Da | Chết khi tiếp xúc với da | Chết khi tiếp xúc với da | Ngộ độc khi tiếp xúc với da | Có hại khi tiếp xúc với da | Có thể có hại khi tiếp xúc với da
+Cảnh báo nguy cơ: Hô hấp | Chết nếu hít phải | Chết nếu hít phải | Ngộ độc nếu hít phải | Có hại nếu hít phải | Có thể có hại nếu hít phải
+
+2. TIÊU CHÍ PHÂN LOẠI ĂN MÒN/KÍCH ỨNG DA 
+2.1. Ăn mòn
+Chất ăn mòn được phân cấp vào một loại duy nhất trong Bảng 5, sử dụng kết quả của thử nghiệm động vật. Chất ăn mòn là chất gây phá huỷ tế bào da, có nghĩa là sự hoại tử nhìn thấy được qua biểu bì và trong hạ bì, ở ít nhất một trong 3 động vật thử nghiệm sau khi tiếp xúc trong 4 giờ trở lên. Sự ăn mòn đặc trưng bởi các vết loét, chảy máu, đóng vẩy máu. Khi kết thúc quan sát ở ngày thứ 14, sự biến màu dẫn đến làm nhợt màu da, các vùng hoàn toàn rụng lông và sẹo. Mô bệnh học phải được xem xét để thấy rõ những thương tổn đáng ngờ.
+Tuỳ theo từng trường hợp cụ thể có thể chia nhỏ hơn cấp ăn mòn da theo các cách sau (Loại 1, xem Bảng 5): Cấp 1A – khi các biểu hiện ăn mòn xảy ra dưới 3 phút phơi nhiễm và trên một giờ quan sát; Cấp 1B - khi các biểu hiện ăn mòn xảy ra sau khi tiếp xúc từ 3 phút đến 1 giờ và quan sát trên 14 ngày và cấp 1C - khi các biểu hiện ăn mòn xuất hiện sau khi tiếp xúc từ 1 giờ đến 4 giờ và quan sát trên 14 ngày.
+Bảng 2.5. Loại và các cấp ăn mòn da
+Loại 1: Ăn mòn | Các cấp | Ăn mòn ở ít nhất một trong 3 động vật thử nghiệm
+Áp dụng cho các cơ quan không sử dụng cấp nhỏ | Chỉ áp dụng cho một số cơ quan | Tiếp xúc | Quan sát
+Ăn mòn | 1A | ≤ 3 phút | ≤ 1 giờ
+ | 1B | > 3 phút - ≤ 1 giờ | ≤ 14 ngày
+ | 1C | > 1 giờ - ≤ 4 giờ | ≤ 14 ngày
+
+2.2. Kích ứng
+Các cấp kích ứng được trình bày tại Bảng 5:
+- Ảnh hưởng của một số chất có thể kéo dài suốt quá trình thử nghiệm; 
+- Các biểu hiện kích ứng trên động vật trong một thử nghiệm có thể là khác nhau. 
+- Tổn thương da khó hồi phục là yếu tố để đánh giá cấp độ kích ứng. Khi vết sưng dai dẳng đến cuối chu kỳ quan sát của 2 hay nhiều hơn 2 động vật thí nghiệm, có xét đến vùng da rụng lông (diện tích giới hạn), lên sừng, sự tăng sản và tạo vẩy thì chất đó được cho là chất kích ứng.
+Tương tự như ăn mòn, các biểu hiện kích ứng trên động vật trong thử nghiệm có thể là khác nhau. Có một số tiêu chí kích ứng riêng trong một số trường hợp cụ thể mà khi thử nghiệm có biểu hiện kích ứng rõ rệt nhưng mức độ thấp hơi so với mức trung bình của các thử nghiệm khác. Ví dụ, một hóa chất cụ thể, trong thử nghiệm cụ thể, có thể được cho là chất kích ứng nếu gây kích ứng ít nhất 1 trong 3 động vật thử nghiệm với tỷ lệ trung bình rất cao trong toàn bộ nghiên cứu, bao gồm các tổn thương dai dẳng đến cuối giai đoạn quan sát thông thường là 14 ngày. Lưu ý, phải chắc chắn các biểu hiện kích ứng là kết quả của việc phơi nhiễm với hoá chất thử nghiệm.
+Các tiêu chí phân loại kích ứng da được thể hiện trong Bảng 6. 
+Bảng 2.6. Các cấp kích ứng da
+Cấp | Tiêu chí
+Kích ứng (Cấp 2)(áp dụng cho tất cả các tài liệu) | - Giá trị trung bình ≥ 2,3 - ≤ 4,0 đối với ban đỏ/vảy hay đối với phù nề ở ít nhất 2 trong 3 động vật thí nghiệm trong 24, 48 hoặc 72 giờ sau khi bỏ miếng dán hoặc, nếu các biểu hiện kích ứng chấm dứt trong 3 ngày tiếp sau khi có biểu hiện kích ứng da; hoặc- Sự sưng viêm dai dẳng đến cuối giai đoạn quan sát thường là 14 ngày ở ít nhất 2 động vật, đặc biệt, chú ý đến sự rụng lông (diện tích giới hạn), hoá sừng, tăng sản và đóng vẩy; hoặc- Trong một số trường hợp, hóa chất thử nghiệm gây các biểu hiện kích ứng da xảy ra với một loại động vật duy nhất thử nghiệm nhưng chưa đạt tiêu chí Cấp 1.
+Kích ứng nhẹ (Cấp 3)(chỉ sử dụng trong một số tài liệu) | Giá trị trung bình ≥ 1,5 - < 2,3 về ban đỏ/vảy hay về phù nề ở ít nhất 2 trong 3 động vật thử nghiệm ở 24, 48 và 72 giờ hoặc, nếu các biểu hiện kích ứng chấm dứt trong 3 ngày liên tiếp sau khi bắt đầu có kích ứng (khi không đưa được vào cấp kích ứng ở trên).
+
+Bảng 2.7. Các yếu tố ghi nhãn đối với ăn mòn/kích ứng da
+ | Cấp 1 | Cấp 2 | Cấp 3
+ | 1A | 1B | 1C |  | 
+Hình đồ |  |  |  |  | Không sử dụng
+Tên gọi hình đồ | Ăn mòn | Ăn mòn | Ăn mòn | Dấu chấm than | 
+Từ ký hiệu | Nguy hiểm | Nguy hiểm | Nguy hiểm | Cảnh báo | Cảnh báo
+Cảnh báo nguy cơ | Gây bỏng da nghiêm trọng và hỏng mắt | Gây bỏng da nghiêm trọng và hỏng mắt | Gây bỏng da nghiêm trọng và hỏng mắt | Gây kích ứng da | Gây kích ứng da nhẹ
+
+3. TIÊU CHÍ PHÂN LOẠI TỔN THƯƠNG MẮT NGHIÊM TRỌNG/KÍCH ỨNG MẮT 
+3.1. Ảnh hưởng lên mắt khó hồi phục/tổn thương nghiêm trọng cho mắt (Cấp 1)
+Ảnh hưởng lên mắt khó hồi phục/tổn thương nghiêm trọng cho mắt (Cấp 1) được thể hiện trong Bảng 8 dưới đây:
+Bảng 2.8. Các loại ảnh hưởng lên mắt khó hồi phục
+Chất kích ứng mắt Cấp 1 (ảnh hưởng lên mắt khó hồi phục) là chất trong thử nghiệm gây ra:- ảnh hưởng lên giác mạc ít nhất một động vật- mống mắt hoặc màng kết mà sẽ không khỏi hoàn toàn trong giai đoạn quan sát thông thường là 21 ngày; và/hoặc- Ít nhất 2 trong 3 động vật thử nghiệm có:+ Độ đục giác mạc ≥ 3 và/hoặc+ Viêm mống mắt > 1,5Được tính toán theo tỷ lệ trung bình sau quá trình phân loại ở 24, 48 và 72 giờ khi tiến hành thử nghiệm với chất đó.
+
+3.2. Ảnh hưởng lên mắt có thể phục hồi (Cấp 2)
+Ảnh hưởng lên mắt có thể hồi phục (Cấp 2) được thể hiện tại Bảng 9 dưới đây. Các hợp chất gây kích ứng mắt có thể phục hồi có thể được chia thành cấp nhỏ hơn (2A và 2B) khi biểu hiện kích ứng hoàn toàn biến mất trong thời hạn quan sát 7 ngày.
+
+Bảng 2.9. Ảnh hưởng lên mắt có thể phục hồi
+Chất kích ứng mắt Cấp 2A (kích ứng lên mắt) là chất trong tiến hành thử nghiệm gây ra:- Ít nhất 2 trong 3 động vật thử nghiệm, có biểu hiện về:+ Độ đục giác mạc ≥ 1 và/hoặc+ Viêm mống mắt > 1, và/hoặc+ Đỏ màng kết ≥ 2 và/hoặc+ Phù nề màng kết (chemosis) ≥2- Tính toán theo tỷ lệ trung bình theo các đường biểu đồ 24, 48 và 72 giờ sau khi thử nghiệm và biến mất hoàn toàn trong giai đoạn quan sát thông thường 21 ngàyChất kích ứng mắt được cho là chất kích ứng nhẹ lên mắt (Cấp 2B) khi các ảnh hưởng được liệt kê ở trên có thể chấm dứt hoàn toàn trong vòng 7 ngày quan sát.
+
+Bảng 2.10. Nồng độ của các thành phần của một hỗn hợp đã phân loại là Cấp 1 về da và/ hoặc Cấp 1 hoặc 2 về mắt mà có thể bắt đầu việc phân loại hỗn hợp là gây nguy hiểm cho mắt (Cấp 1 hoặc 2)
+Tổng các thành phần được phân loại | Nồng độ khởi động việc phân loại một hỗn hợp
+ | Ảnh hưởng bất thuận nghịch đối với mắt | Ảnh hưởng thuận nghịch đối với mắt
+ | Cấp 1 | Cấp 2
+Cấp 1 về mắt hoặc da | ≥ 3% | ≥ 1% nhưng < 3%
+Cấp 2/2A về Mắt |  | ≥ 10%
+(10 x cấp 1 về mắt) + cấp 2/2A về mắt |  | ≥ 10%
+Cấp 1 về da + Cấp 1 về mắt | ≥ 3% | ≥ 1% nhưng <3%
+10 x (Cấp 1 về da + Cấp 1 về mắt) + Cấp 2A/2B về mắt |  | ≥ 10%
+
+Bảng 2.11.  Nồng độ của các thành phần của một hỗn hợp trong đó phương pháp cộng cơ học không được áp dụng, có thể bắt đầu việc phân loại hỗn hợp là gây nguy hiểm cho mắt
+Thành phần | Nồng độ | Hỗn hợp được phân loại là:
+Axit với pH ≤ 2 | ≥ 1% | Cấp 1
+Bazơ với pH ≥ 11,5 | ≥ 1% | Cấp 1
+Các thành phần ăn mòn (Cấp 1) khác trong đó không áp dụng cộng tính | ≥ 1% | Cấp 1
+Các thành phần gây kích ứng (Cấp 2) khác trong đó không áp dụng cộng tính, bao gồm axit và bazơ | ≥ 3% | Cấp 2
+
+Bảng 2.12. Các yếu tố nhãn đối với tổn thương mắt nghiêm trọng/kích ứng mắt
+ | Cấp 1 | Cấp 2A | Cấp 2B
+Hình đồ |  |  | Không dùng hình đồ cảnh báo
+Tên gọi hình đồ | Ăn mòn | Dấu chấm than | 
+Từ cảnh báo | Nguy hiểm | Cảnh báo | Cảnh báo
+Cảnh báo nguy cơ | Gây tổn thương mắt nghiêm trọng | Gây kích ứng mắt nghiêm trọng | Gây kích ứng mắt
+
+
+4. TIÊU CHÍ PHÂN LOẠI NHẠY HÔ HẤP HOẶC DA
+Tác nhân nhạy hô hấp là chất gây mẫn cảm đường thở khi hít phải chất này.
+Tác nhân nhạy da là chất gây dị ứng khi da tiếp xúc với chất này.
+Một chất được phân loại vào tác nhân nhạy hô hấp/ nhạy da khi:
+- Có bằng chứng tin cậy về việc hóa chất này gây mẫn cảm đường thở/ gây dị ứng cho người khi hít phải/ tiếp xúc với chất này;
+- Khi gây mẫn cảm đường thở/ dị ứng da rõ ràng trong thử nghiệm với động vật.
+Bảng 2.13. Giá trị ngưỡng/giới hạn nồng độ của một chất là tác nhân gây nhạy hô hấp/da trong hỗn hợp được phân loại
+Thành phần được phân loại | Giá trị ngưỡng/ giới hạn nồng độ khởi động việc phân loại hỗn hợp là:
+ | Tác nhân nhạy da | Tác nhân nhạy hô hấp
+ | Tất cả các trạng thái vật lí | Chất rắn/Lỏng | Khí
+Tác nhân nhạy daTác nhân nhạy hô hấp | ≥ 0,1% (Ghi chú 1) |  | 
+ | ≥ 1,0% (Ghi chú 1) |  | 
+ |  | ≥ 0,1% (Ghi chú 2) | ≥ 0,1% (Ghi chú 3)
+ |  | ≥ 0,1% (Ghi chú 2) | ≥ 0,2% (Ghi chú 3)
+
+Ghi chú:
+1- Nếu một tác nhân gây nhạy da có mặt trong hỗn hợp với nồng độ lớn hơn 0,1%  thì phải thông tin trong Phiếu an toàn hoá chất (SDS) và nhãn hoá chất;
+ 2- Nếu một chất rắn/lỏng là tác nhân nhạy hô hấp có mặt trong hỗn hợp với nồng độ lớn hơn 0,1% thì phải thông tin trong Phiếu an toàn hoá chất (SDS) và nhãn hoá chất;
+3- Nếu một tác nhân khí nhạy hô hấp có mặt trong hỗn hợp như một thành phần với nồng độ lớn hơn 0,1% thì phải thông tin trong Phiếu an toàn hoá chất (SDS) và nhãn hoá chất.
+Bảng 2.14. Các yếu tố ghi nhãn tác nhân nhạy hô hấp hoặc da
+ | Tác nhân nhạy hô hấpCấp 1 | Tác nhân nhạy daCấp 1
+Hình đồ cảnh báo |  | 
+Tên gọi hình đồ | Nguy hại sức khỏe | Dấu chấm than
+Từ cảnh báo | Nguy hiểm | Cảnh báo
+Cảnh báo nguy cơ | Có thể gây ra các triệu chứng dị ứng hoặc hen suyễn hoặc khó thở nếu hít phải | Có thể gây ra phản ứng dị ứng da
+
+5. TIÊU CHÍ PHÂN LOẠI KHẢ NĂNG GÂY ĐỘT BIẾN TẾ BÀO MẦM (TẾ BÀO GEN)
+Phân loại các ảnh hưởng di truyền trong các tế bào mầm của người được thực hiện trên cơ sở những thí nghiệm được mô tả trong Chỉ dẫn thử nghiệm của OECD. Đánh giá các kết quả thử nghiệm phải sử dụng ý kiến chuyên gia và tất cả các bằng chứng để phân loại.
+Bảng 2.15. Các loại nguy cơ đối với tác nhân gây đột biến tế bào mầm
+Cấp 1:Các chất được cho là gây đột biến di truyền hoặc được xem là gây đột biến có thể di truyền nếu chúng gây đột biến di truyền trong tế bào mầm ở ngườiCấp 1A:Các hoá chất được biết là gây đột biến di truyền trong tế bào mầm ở ngườiTiêu chí: Bằng chứng rõ ràng từ các nghiên cứu miễn dịch học trên người.Cấp 1B:Các hoá chất được xem là gây đột biến di truyền trong tế bào mầm ở ngườiTiêu chí: - Kết quả rõ ràng từ các thử nghiệm khả năng đột biến gen tế bào mầm di truyền trên động vật có vú; - Kết quả rõ ràng từ các thử nghiệm khả năng đột biến gen tế bào di truyền trên động vật có vú, kết hợp với một số bằng chứng cho rằng các hợp chất có khả năng gây đột biến tế bào mầm. Các bằng chứng hỗ trợ này thu được từ các thử nghiệm khả năng gây đột biến gen/nhiễm độc gen trong các tế bào mầm hoặc bằng cách chứng minh khả năng của hợp chất hoặc (các) sản phẩm trao đổi chất của nó tương tác với chất di truyền của các tế bào mầm; - Kết quả rõ ràng từ các thử nghiệm cho thấy ảnh hưởng đến đột biến gen trong tế bào mầm của người, không biểu hiện sự di truyền đến thế hệ sau. Ví dụ: tăng tần số tính trội không hoàn toàn trong tế bào tinh trùng của người phơi nhiễm.Cấp 2:Các hoá chất gây quan ngại đối với người về khả năng gây đột biến di truyền trong tế bào mầm ở ngườiTiêu chí:Bằng chứng có được từ các thực nghiệm trên động vật có vú hoặc trong một số trường hợp từ các thực nghiệm thu được từ:- Các thử nghiệm đột biến gen tế bào trên động vật có vú; - Các thử nghiệm khả năng đột biến gen tế bào khác được hỗ trợ bởi các kết quả từ các phân tích khả năng gây đột biến gen.Ghi chú: Các hoá chất trong các thử nghiệm, phân tích, đánh giá khả năng gây đột biến gen cũng cho có mối quan hệ cấu trúc hoạt tính để hiểu về các tác nhân gây đột biến gen tế bào mầm xem xét để phân loại là tác nhân gây đột biến gen Cấp 2.
+
+
+
+Bảng 2.16. Giá trị ngưỡng/giới hạn nồng độ của một chất được phân loại là tác nhân gây đột biến gen tế bào mầm có thể phân loại hỗn hợp
+Thành phần được phân loại là: | Giá trị ngưỡng/giới hạn nồng độ khởi động phân loại hỗn hợp
+ | Tác nhân gây đột biến gen Cấp 1 | Tác nhân gây đột biến gen Cấp 2
+Tác nhân gây đột biến gen Cấp 1 | ≥ 0,1% | -
+Tác nhân gây đột biến gen Cấp 2 | - | ≥ 1,0%
+
+Ghi chú: Giá trị ngưỡng/giới hạn nồng độ trong bảng trên áp dụng cho chất rắn và lỏng (đơn vị khối lượng) và khí (đơn vị thể tích).
+Bảng 2.17. Các yếu tố ghi nhãn đối với khả năng gây đột biến tế bào mầm
+ | Cấp 1A | Cấp 1B | Cấp 2
+Hình đồ cảnh báo |  |  | 
+Tên gọi hình đồ | Nguy hại sức khỏe | Nguy hại sức khỏe | Nguy hại sức khỏe
+Từ cảnh báo | Nguy hiểm | Nguy hiểm | Cảnh báo
+Cảnh báo nguy cơ | Có thể gây ra các khuyết tật di truyền (chỉ rõ đường phơi nhiễm nếu chứng minh rõ ràng rằng không có đường phơi nhiễm nào khác gây nguy hiểm) | Có thể gây ra các khuyết tật di truyền (chỉ rõ đường phơi nhiễm nếu chứng minh rõ ràng rằng không có đường phơi nhiễm nào khác gây nguy hiểm) | Nghi ngờ gây ra các khuyết tật di truyền (chỉ rõ đường phơi nhiễm nếu chứng minh rõ ràng rằng không có đường phơi nhiễm nào khác gây nguy hiểm)
+
+6. TIÊU CHÍ PHÂN LOẠI TÁC NHÂN GÂY UNG THƯ 
+Tác nhân gây ung thư được phân loại vào một trong hai cấp dựa trên mức độ tin cậy của chứng cứ và các đánh giá bổ sung. Trong một số trường hợp, cách phân loại riêng có thể được xem xét.
+Bảng 2.18. Các loại nguy cơ đối với tác nhân gây ung thư
+Cấp 1:Là chất chắc chắn là tác nhân gây ung thư ở người Phân loại chất vào Cấp 1 dựa trên cơ sở các dữ liệu miễn dịch động vật. Cấp 1A: Là hóa chất chắc chắn có khả năng gây ung thư cho người và dựa phần lớn trên các bằng chứng ở người.Cấp 1B: Là chất được cho là có khả năng gây ung thư cho người; xếp một hoá chất dựa phần lớn trên các bằng chứng ở động vật.Dựa trên mức độ tin cậy của chứng cứ cùng với các dữ liệu bổ sung, các chứng cứ đó có thể thu được từ các nghiên cứu ở người mà thiết lập một mối quan hệ nhân quả giữa tiếp xúc ở người với hoá chất và sự phát triển của ung thư (tác nhân gây ung thư ở người) đồng thời bằng chứng có thể  thu được từ các thực nghiệm động vật trong đó có bằng chứng đầy đủ để chứng tỏ khả năng gây ung thư ở động vật (cho là tác nhân gây ung thư ở người). Ngoài ra, trên cơ sở từng trường hợp, bằng chứng khoa học có thể cho rằng chất có khả năng gây ung thư ở người từ các nghiên cứu cho thấy các bằng chứng giới hạn về khả năng gây ung thư trên người cùng với các bằng chứng giới hạn về khả năng gây ung thư trong các động vật thực nghiệm.Phân loại: Tác nhân gây ung thư Cấp 1 (A và B)Cấp 2:Nghi ngờ là tác nhân gây ung thưPhân loại một hoá chất vào Cấp 2 được thực hiện trên cơ sở bằng chứng thu được từ các nghiên cứu ở người hoặc động vật nhưng bằng chứng này không đủ sức thuyết phục để đưa hoá chất vào Cấp 1. Dựa trên độ thuyết phục của chứng cứ cùng với các xem xét bổ sung, bằng chứng đó có thể thu được từ các bằng chứng về mức độ gây ung thư trong các nghiên cứu ở người hoặc từ các bằng chứng về khả năng gây ung thư trong các nghiên cứu động vật.Phân loại: Tác nhân gây ung thư Cấp 2
+
+Bảng 2.19. Các giá trị ngưỡng/giới hạn nồng độ của thành phần là tác nhân gây ung thư của một hỗn hợp được phân loại như sau
+Thành phần được phân loại là: | Các giá trị ngưỡng/giới hạn nồng độ khởi động việc phân loại hỗn hợp là:
+ | Tác nhân gây ung thư Cấp 1 | Tác nhân gây ung thư Cấp 2
+Tác nhân gây ung thư Cấp 1 | ≥ 0,1% | 
+Tác nhân gây ung thư Cấp 2 |  | ≥ 0,1% ( xem ghi chú)
+ |  | ≥ 1,0% (xem ghi chú)
+
+Ghi chú:
+Nếu một thành phần là tác nhân gây ung thư Cấp 2 có mặt trong hỗn hợp với nồng độ lớn hơn 0,1% thì phải thông tin trong Phiếu an toàn hoá chất (SDS) và nhãn hoá chất.
+Bảng 2.20. Các yếu tố ghi nhãn về cấp gây ung thư
+ | Cấp 1A | Cấp 1B | Cấp 2
+Hình đồ cảnh báo |  |  | 
+Tên gọi hình đồ | Nguy hại sức khỏe | Nguy hại sức khỏe | Nguy hại sức khỏe
+Từ cảnh báo | Nguy hiểm | Nguy hiểm | Cảnh báo
+Cảnh báo nguy cơ | Có thể gây ung thư (chỉ rõ đường phơi nhiễm nếu chứng minh rõ ràng rằng không có đường phơi nhiễm nào khác gây nguy hiểm) | Có thể gây ung thư (chỉ rõ đường phơi nhiễm nếu chứng minh rõ ràng rằng không có đường phơi nhiễm nào khác gây nguy hiểm) | Nghi ngờ gây ung thư (chỉ rõ đường phơi nhiễm nếu chứng minh rõ ràng rằng không có đường phơi nhiễm nào khác gây nguy hiểm)
+
+7. TIÊU CHÍ PHÂN LOẠI ĐỘC TÍNH SINH SẢN 
+Độc tính sinh sản được phân loại vào một trong hai cấp sau đây. Các ảnh hưởng tới khả năng hoặc dung lượng sinh sản và về sự phát triển được xem xét tách biệt.  
+Ngoài ra, các ảnh hưởng qua đường sữa mẹ được phân loại trong một cấp nguy cơ riêng.
+Bảng 2.21. Các loại nguy cơ đối với các tác nhân gây độc tính sinh sản
+Cấp 1:Đã biết hoặc được cho là tác nhân là nguyên nhân hoặc gây độc tính sinh sảnCấp này bao gồm các hợp chất đã được biết gây tác hại lên khả năng hoặc dung lượng sinh sản hoặc lên sự phát triển ở người hoặc trong đó có bằng chứng từ các nghiên cứu động vật, cơ thể được bổ sung cùng các thông tin khác, để đưa ra một giả định vững chắc rằng hợp chất có khả năng gây trở ngại đến sự sinh sản ở người. Đối với mục đích cụ thể nào đó, một hợp chất có thể được phân loại chi tiết hơn trên cơ sở  dữ liệu về người (Cấp 1A) hay từ các dữ liệu động vật (Cấp 1B).Cấp 1A:Đã biết là gây tác hại lên khả năng hoặc dung lượng sinh sản hoặc lên sự phát triển ở ngườiCăn cứ xếp loại dựa nhiều vào bằng chứng trên con người.Cấp 1B: Cho là gây tác hại lên khả năng hoặc dung lượng sinh sản hoặc lên sự phát triển ở ngườiCăn cứ phân loại dựa nhiều vào bằng chứng từ các động vật thực nghiệm. Dữ liệu từ các nghiên cứu động vật phải có bằng chứng rõ ràng về độc tính sinh sản cụ thể khi không có các ảnh hưởng độc tính khác hoặc nếu xuất hiện đồng thời với các ảnh hưởng độc tính khác, ảnh hưởng có hại lên sự sinh sản được xem là hậu quả không đặc trưng thứ cấp của các ảnh hưởng độc tính khác. Tuy nhiên, khi có thông tin cho rằng sự tăng gấp đôi về ảnh hưởng đối với người, thì xem xét phân loại Cấp 2 có thể là thích hợp hơn.Cấp 2: Nghi ngờ là tác nhân gây độc tính sinh sản hoặc phát triểnCác chất mà có một số bằng chứng ảnh hưởng lên người hoặc động vật trong các thực nghiệm - có thể có thông tin bổ sung khác về ảnh hưởng có hại lên khả năng và dung lượng sinh sản hoặc lên sự  phát triển, khi không có các ảnh hưởng độc tính khác, hoặc nếu xuất hiện cùng với các ảnh hưởng độc tính khác, ảnh hưởng có hại lên sự sinh sản được xem là hậu quả không đặc trưng thứ cấp của các ảnh hưởng độc tính khác và khi bằng chứng là không đủ sức thuyết phục để xếp chất này vào Cấp 1.
+
+Bảng 2.22. Mức độ nguy cơ ảnh hưởng đến hoặc qua sữa mẹ
+Các ảnh hưởng đến hoặc qua sữa mẹCác ảnh hưởng đến hoặc qua sữa mẹ hiện nay được xem xét ở một cấp độ. Nhiều hợp chất không có thông tin về khả năng gây ra các ảnh hưởng có hại lên con cái theo tuyến sữa. Tuy nhiên, các hợp chất mà được hấp thụ bởi người phụ nữ và đã được chỉ ra là cản trở tăng sữa hoặc hợp chất mà có thể có mặt (bao gồm các chất chuyển hoá) trong tuyến sữa ở lượng đủ để gây ra quan ngại  về sức khoẻ của trẻ đang tuổi bú, phải được phân loại để chỉ ra rằng những tính chất này nguy hiểm cho trẻ đang bú. Sự phân loại này có thể ấn định trên cơ sở:- Các nghiên cứu sự hấp thụ, trao đổi chất, phân bổ và bài tiết mà có thể cho thấy khả năng hợp chất có mặt ở mức độ có thể gây độc trong sữa mẹ; - Các kết quả của một hoặc hai nghiên cứu ở động vật mà cung cấp bằng chứng rõ ràng về ảnh hưởng có hại ở con cái do chuyển từ sữa hoặc ảnh hưởng có hại lên chất lượng sữa; - Bằng chứng ở người cho thấy một số nguy cơ đối với trẻ em trong giai đoạn bú sữa.
+
+Bảng 2.23. Giá trị ngưỡng/giới hạn nồng độ của thành phần là chất độc sinh sản trong hỗn hợp được phân loại
+Thành phần được phân loại | Ngưỡng/giới hạn nồng độ khởi động việc phân loại hỗn hợp:
+ | Chất độc sinh sản Cấp 1 | Chất độc sinh sản Cấp 2
+Chất độc sinh sảnCấp 1 | ≥ 0,1% (lưu ý 1) | 
+ | ≥ 0,3% (lưu ý 1) | 
+Chất độc sinh sảnCấp 2 |  | ≥ 0,1% (lưu ý 2)
+ |  | ≥ 3,0% (lưu ý 2)
+
+Ghi chú:
+1. Nếu chất độc sinh sản Cấp 1 có trong hỗn hợp có nồng độ lớn hơn 0,1% thì phải thông tin trong Phiếu an toàn hoá chất (SDS) và nhãn hoá chất.
+2. Nếu chất độc sinh sản Cấp 2 có trong hỗn hợp có nồng độ lớn hơn 0,1% thì phải thông tin trong Phiếu an toàn hoá chất (SDS) và nhãn hoá chất.
+Bảng 2.24. Yếu tố nhãn đối với độc tính sinh sản
+ | Cấp 1A | Cấp 1B | Cấp 2 | Ảnh hưởng  đến hoặc qua sữa mẹ
+Hình đồ cảnh báo |  |  |  | Không có hình đồ
+Tên gọi hình đồ | Nguy hại sức khỏe | Nguy hại sức khỏe | Nguy hại sức khỏe | 
+Từ cảnh báo | Nguy hiểm | Nguy hiểm | Cảnh báo | Không có từ cảnh báo
+Cảnh báo nguy cơ | Có thể có hại đến khả năng sinh sản hoặc đến trẻ chưa sinh (chỉ rõ ảnh hưởng cụ thể nếu biết hoặc đường phơi nhiễm nếu chứng minh chắc chắn là không có đường phơi nhiễm nào khác gây nguy hiểm) | Có thể có hại đến khả năng sinh  sản  hoặc đến trẻ chưa sinh (chỉ rõ ảnh hưởng cụ thể nếu biết hoặc đường phơi nhiễm nếu chứng minh chắc chắn là không có đường phơi nhiễm nào khác gây nguy hiểm) | Nghi ngờ là có hại đến khả năng sinh sản hoặc trẻ chưa sinh (chỉ rõ ảnh hưởng cụ thể nếu biết hoặc đường phơi nhiễm nếu chứng minh chắc chắn là không có đường phơi nhiễm nào khác gây nguy hiểm) | Có thể gây hại đến trẻ đang bú
+
+8. TIÊU CHÍ  PHÂN LOẠI ĐỘC TÍNH ĐẾN CƠ QUAN CỤ THỂ SAU PHƠI NHIỄM ĐƠN
+Các chất được phân loại bằng cách sử dụng ý kiến chuyên gia trên cơ sở các chứng cứ có sẵn. Các chất sẽ được xếp vào một trong hai cấp, tuỳ thuộc bản chất và mức độ nghiêm trọng mà chất có thể gây ảnh hưởng.
+Bảng 2.25. Các loại độc tính hệ đến cơ quan cụ thể sau phơi nhiễm đơn
+Cấp 1: Các hợp chất gây độc tính rõ rệt ở người hoặc độc tính căn cứ bằng chứng từ các nghiên cứu ở động vật thử nghiệm có thể cho là có khả năng gây độc tính rõ rệt ở người sau khi phơi nhiễm đơnXếp một chất vào Cấp 1 trên cơ sở:- Bằng chứng đáng tin cậy và chất lượng tốt từ các trường hợp của người hoặc các nghiên cứu dịch tễ học; - Quá trình quan sát từ các nghiên cứu thích hợp ở động vật thực nghiệm trong đó có ảnh hưởng độc tính rõ rệt nghiêm trọng liên quan đến sức khoẻ con người thường nhận thấy ở những nồng độ phơi nhiễm thấp. Các giá trị liều lượng/nồng độ hướng dẫn trong Bảng 26 dưới đây được sử dụng để đánh giá giá trị của chứng cứ.Cấp 2: Các hợp chất mà căn cứ vào bằng chứng từ các nghiên cứu ở động vật thực nghiệm có thể cho là có khả năng gây hại tới sức khoẻ con người sau khi phơi nhiễm đơn. Phân loại một chất vào Cấp 2 căn cứ vào các nghiên cứu thích hợp ở các động vật thực nghiệm trong đó có tác hại rõ rệt lên sức khoẻ con người khi phơi nhiễm với nồng độ thấp. Các giá trị liều lượng/nồng độ hướng dẫn để trợ giúp quá trình phân loại. Trong những trường hợp ngoại lệ, bằng chứng từ người cũng có thể được sử dụng để phân một chất vào Cấp 2.
+
+Bảng 2.26. Các khoảng giá trị phân loại đối với phơi nhiễm đơn
+ | Khoảng giá trị phân loại
+Đường phơi nhiễm | Đơn vị | Cấp 1 | Cấp 2 | Cấp 3
+Miệng (chuột) | mg/kg tlct | C ≤ 300 | 2000 ≥ C > 300 | Giá trị giới hạn không được áp dụng mà chủ yếu căn cứ trên bằng chứng trên con người
+Da (chuột hoặc thỏ) | mg/kg tlct | C ≤ 1000 | 2000 ≥ C > 1000 | 
+Hô hấp (chuột)khí | ppm | C ≤ 2500 | 5000 ≥ C > 2500 | 
+Hô hấp (chuột)hơi | mg/l | C ≤ 10 | 20 ≥ C > 10 | 
+Hô hấp (chuột)bụi/sương/khói | mg/l/4h | C ≤ 1,0 | 5,0 ≥ C > 1,0 | 
+
+Bảng 2.27. Giá trị ngưỡng/giới hạn nồng độ của các thành phần của hỗn hợp đã được phân loại là tác nhân độc tính đến cơ quan cụ thể sau phơi nhiễm đơn mà có thể khởi động việc phân loại hỗn hợp1
+Thành phần phân loại | Ngưỡng/giới hạn nồng độ khởi động phân loại
+ | Cấp 1 | Cấp 2
+Cấp 1Tác nhân gây độc tính đến cơ quan cụ thể sau phơi nhiễm đơn | ≥ 1,0 % (ghi chú 1) | 1,0 ≤ thành phần < 10% (ghi chú 3)
+ | ≥ 10 % (ghi chú 2) | 
+Cấp 2Tác nhân gây độc tính đến cơ quan cụ thể sau phơi nhiễm đơn |  | ≥ 1,0 % (ghi chú 4)
+ |  | ≥ 10 % (ghi chú 5)
+
+Ghi chú: 
+1. Nếu một tác nhân gây độc tính đến cơ quan cụ thể sau phơi nhiễm đơn Cấp 1 có mặt trong hỗn hợp với nồng độ nằm trong khoảng từ 1,0% đến 10% thì phải thông tin trong Phiếu an toàn hoá chất (SDS).
+2. Nếu một tác nhân gây độc tính cơ quan cụ thể sau phơi nhiễm đơn Cấp 1 có mặt trong hỗn hợp với nồng độ ≥ 10% thì phải thông tin trong Phiếu an toàn hoá chất (SDS) và nhãn hoá chất.
+3. Nếu một tác nhân độc tính đến cơ quan cụ thể thuộc Cấp 1 có mặt trong hỗn hợp với nồng độ nằm trong khoảng từ 1,0% đến 10% thì việc phân loại hỗn hợp này là tác nhân gây độc tính Cấp 2. 
+4. Nếu một tác nhân độc tính đến cơ quan cụ thể Cấp 2 có mặt trong hỗn hợp với nồng độ nằm trong khoảng từ 1,0% đến 10% thì phải thông tin trong Phiếu an toàn hoá chất (SDS).
+5. Nếu một tác nhân độc tính đến cơ quan cụ thể Cấp 2 có mặt trong hỗn hợp với  nồng độ ≥ 10% thì phải thông tin trong Phiếu an toàn hoá chất (SDS) và nhãn hoá chất.
+Bảng 2.28. Các yếu tố nhãn đối với độc tính đến cơ quan cụ thể sau phơi nhiễm đơn
+ | Cấp 1 | Cấp 2 | Cấp 3
+Hình đồ cảnh báo |  |  | 
+Tên gọi hình đồ | Nguy hại sức khoẻ | Nguy hại sức khoẻ | Dấu chấm than
+Từ cảnh báo | Nguy hiểm | Cảnh báo | Cảnh báo
+Cảnh báo nguy cơ | Gây tổn thương cho các cơ quan (hoặc chỉ rõ tất cả các cơ quan bị ảnh hưởng nếu chỉ rõ được đường phơi nhiễm) | Có thể gây tổn thương cho các cơ quan (hoặc chỉ rõ tất cả các cơ quan bị ảnh hưởng nếu chỉ rõ được đường phơi nhiễm) | Có thể gây kích ứng hô hấp hoặc có thể gây buồn ngủ hoặc chóng mặt
+
+
+
+9. TIÊU CHÍ PHÂN LOẠI ĐỘC TÍNH ĐẾN CƠ QUAN CỤ THỂ SAU PHƠI NHIỄM LẶP LẠI
+Bảng 2.29. Các loại độc tính đến cơ quan cụ thể sau
+phơi nhiễm lặp lại
+Cấp 1: Các chất gây độc tính rõ rệt ở người hoặc độc tính ở động vật thử nghiệm có thể cho là có khả năng gây độc tính rõ rệt ở người sau khi phơi nhiễm lặp lại.Phân loại chất vào Cấp 1 trên cơ sở:- Bằng chứng đáng tin cậy và chất lượng từ các trường hợp của người hoặc các nghiên cứu dịch tễ học; - Quan sát từ các nghiên cứu ở động vật thí  nghiệm trong đó các ảnh hưởng độc tính rõ rệt liên quan đến sức khoẻ con người do tiếp xúc lặp lại với chất ở nồng độ thường là thấp. Các giá trị liều lượng/nồng độ hướng dẫn được sử dụng để đánh giá giá trị chứng cứ.Cấp 2: Các chất mà trên cơ sở bằng chứng từ các nghiên cứu ở động vật thí nghiệm có khả năng gây hại cho sức khoẻ con người sau khi tiếp xúc lặp lạiPhân loại chất vào Cấp 2 căn cứ những quan sát từ các nghiên cứu thích hợp ở động vật thí nghiệm, trong đó các tác hại rõ rệt có liên quan đến sức khoẻ con người khi phơi nhiễm với chất đó ở nồng độ trung bình. Các giá trị liều lượng/nồng độ hướng dẫn để trợ giúp quá trình phân loại.Trong những trường hợp ngoại lệ, bằng chứng từ người cũng có thể được sử dụng để xếp một chất vào phân loại Cấp 2.
+
+Bảng 2.30. Các giá trị hướng dẫn hỗ trợ cho phân loại Cấp 1
+Đường phơi nhiễm | Đơn vị | Giá trị hướng dẫn(liều lượng/nồng độ)
+Miệng (chuột) | mg/kg tlct/ng | 10
+Da (chuột hoặc thỏ) | mg/kg tlct/ng | 20
+Hô hấp (chuột) khí | ppm/6h/ng | 50
+Hô hấp (chuột) hơi | mg/l/6h/ng | 0,2
+Hô hấp (chuột)bụi/sương/khói | mg/l/6h/ng | 0,02
+
+Ghi chú: ‘tlct’: trọng lượng cơ thể; ‘h’: giờ; ‘ng’: ngày.
+Bảng 2.31.Các giá trị hướng dẫn hỗ trợ phân loại Cấp 2
+Đường phơi nhiễm | Đơn vị | Giá trị hướng dẫn(liều lượng/nồng độ)
+Miệng (chuột) | mg/kg tlct/ng | 10 - 100
+Da (chuột hoặc thỏ) | mg/kg tlct/ng | 20 - 200
+Hô hấp (chuột) khí | ppm/6h/ng | 50 - 250
+Hô hấp (chuột) hơi | mg/l/6h/ng | 0,2 - 1,0
+Hô hấp (chuột)bụi/sương/khói | mg/l/6h/ng | 0,02 - 0,2
+
+Ghi chú: ‘tlct’: trọng lượng cơ thể; ‘h’: giờ; ‘ng’: ngày.
+Bảng 2.32. Giá trị ngưỡng/giới hạn nồng độ của thành phần là độc tính đến cơ quan cụ thể sau phơi nhiễm lặp lại trong hỗn hợp được phân loại
+Thành phầnphân loại | Ngưỡng/giới hạn nồng độ khởi động phân loại
+ | Cấp 1 | Cấp 2
+Cấp 1Tác nhân gây độc tính đến cơ quan cụ thể sau phơi nhiễm lặp lại | ≥ 1,0 % (ghi chú 1) | 1,0 ≤ thành phần < 10% (ghi chú 3)
+ | ≥ 10 % (ghi chú 2) | 
+Cấp 2Tác nhân gây độc tính hệ đến cơ quan cụ thể sau phơi nhiễm lặp lại |  | ≥ 1,0 % (ghi chú 4)≥ 10 % (ghi chú 5)
+
+
+
+Ghi chú:
+1. Nếu một tác nhân gây độc tính đến cơ quan cụ thể sau phơi nhiễm lặp lại Cấp 1 có mặt trong hỗn hợp với nồng độ nằm trong khoảng từ 1,0% đến 10% thì phải thông tin trong Phiếu an toàn hoá chất (SDS).
+2. Nếu một tác nhân gây độc tính cơ quan cụ thể sau phơi nhiễm lặp lại Cấp 1 có mặt trong hỗn hợp với nồng độ ≥ 10% thì phải thông tin trong Phiếu an toàn hoá chất (SDS) và nhãn hoá chất.
+3. Nếu một tác nhân độc tính đến cơ quan cụ thể thuộc Cấp 1 có mặt trong hỗn hợp với nồng độ nằm trong khoảng từ 1,0% đến 10% thì việc phân loại hỗn hợp này là tác nhân gây độc tính Cấp 2. 
+4. Nếu một tác nhân độc tính đến cơ quan cụ thể Cấp 2 có mặt trong hỗn hợp với nồng độ nằm trong khoảng từ 1,0% đến 10% thì phải thông tin trong Phiếu an toàn hoá chất (SDS).
+5. Nếu một tác nhân độc tính đến cơ quan cụ thể Cấp 2 có mặt trong hỗn hợp với  nồng độ ≥ 10% thì phải thông tin trong Phiếu an toàn hoá chất (SDS) và nhãn hoá chất.
+Bảng 2.33. Các yếu tố nhãn đối với chất độc tính đến cơ quan cụ thể sau phơi nhiễm lặp lại
+ | Cấp 1 | Cấp 2
+Hình đồ cảnh báo |  | 
+Tên gọi hình đồ | Nguy hại sức khoẻ | Nguy hại sức khoẻ
+Từ cảnh báo | Nguy hiểm | Cảnh báo
+Cảnh báo nguy cơ | Gây tổn thương cho các cơ quan hoặc chỉ rõ tất cả các cơ quan bị ảnh hưởng nếu chỉ rõ được đường phơi nhiễm | Có thể gây tổn thương cho các cơ quan hoặc chỉ rõ tất cả các cơ quan bị ảnh hưởng nếu chỉ rõ được đường phơi nhiễm
+
+
+
+10. NGUY HẠI HÔ HẤP
+Là các hóa chất gây ra nguy cơ có hại cho con người khi trực tiếp thâm nhập vào khí quản hoặc hệ hô hấp dưới qua vòm miệng, khoang mũi hoặc không trực tiếp khi nôn mửa
+Bảng 2.34. Các loại nguy hại hô hấp
+Phân loại | Tiêu chí
+Cấp 1 là chất gây nguy hại hô hấp cho con người hoặc được cho là có nguy cơ gây nguy hại hô hấp cho con người | Hóa chất được xếp loại Cấp 1 khi:- Có bằng chứng tin cậy gây nguy hại hô hấp cho người- Là các hydrocacbon có độ nhớt động học nhỏ hơn 20.5 mm2/s ở nhiệt độ 40 oC
+Cấp 2 là chất được cho là gây quan ngại về khả năng gây nguy hại hô hấp cho con người | Hóa chất được xếp loại Cấp 2 khi:- Không xếp được vào Cấp 1- Căn cứ thí nghiệm trên động vật và có xét đến các chỉ số sức căng bề mặt, điểm sôi, bay hơi, độ nhớt động học nhỏ hơn 14mm2/s ở nhiệt độ 40oC
+
+Bảng 2.35. Yếu tố nhãn của chất gây nguy hại hô hấp
+ | Cấp 1 | Cấp 2
+Hình đồ cảnh báo |  | 
+Tên gọi hình đồ | Nguy hại sức khỏe | Nguy hại sức khỏe
+Từ cảnh báo | Nguy hiểm | Cảnh báo
+Cảnh báo nguy cơ | Có thể chết nếu nuốt hoặc hít phải | Có thể gây nguy hiểm nếu nuốt hoặc hít phải
+
+
+
+11. TIÊU CHÍ PHÂN LOẠI NGUY HẠI ĐỐI VỚI MÔI TRƯỜNG THỦY SINH
+Hóa chất được phân loại theo 3 cấp độc cấp tính và 4 cấp độc mãn tính (xem Bảng 36 và Bảng 37). Các tiêu chí phân loại cấp tính và mãn tính được áp dụng độc lập. Tiêu chí  để phân loại một chất thuộc cấp từ 1 đến 3 được xác định chỉ dựa trên dữ liệu độc cấp tính (EC50 hay LC50). Tiêu chí để phân loại chất thuộc độc mãn tính trên cơ sở kết hợp 2 loại thông tin, đó là số liệu độc cấp tính và số liệu nguy cơ môi trường (khả năng phân huỷ và số liệu tích luỹ sinh học). Để xếp loại một hỗn hợp vào loại độc mãn tính, tính chất phân huỷ và tích luỹ sinh học thu được trên cơ sở từ các thử nghiệm trên các thành phần.
+Chất được phân loại là “gây nguy hiểm đối với môi trường thủy sinh” với các tiêu chí được mô tả chi tiết trong Bảng 36 dưới đây:
+Bảng 2.36. Chất gây nguy hiểm môi trường thủy sinh
+Độc cấp tính- Cấp 1LC50 96 giờ (đối với cá)                                               ≤ 1mg/l và/hoặcEC50 48 giờ (đối với giáp xác)                                     ≤ 1mg/l và/hoặcErC50  72 hoặc 96 giờ (đối với tảo và các thực vật thuỷ sinh khác) ≤ 1mg/lCấp 1 có thể chia nhỏ hơn trong một số quy định: sử dụng giá trị L(E)C50  ≤ 0,1mg/l- Cấp 2LC50 96 giờ (đối với cá)>1 đến ≤ 10mg/l và/hoặcEC50 48 giờ (đối với giáp xác)>1 đến ≤ 10mg/lvà/hoặcErC50 72 hoặc 96 giờ (đối với tảo và các thực vật thuỷ sinh khác) >1 đến ≤ 10mg/l- Cấp 3LC50 96 giờ (đối với cá)>10 đến ≤ 100mg/l và/hoặcEC50 48 giờ (đối với giáp xác)>10 đến ≤ 100mg/l và/hoặcErC50 72 hoặc 96 giờ (đối với tảo và các thực vật thuỷ sinh khác)   >10 đến ≤ 100mg/lĐối với một số quy định cho mục đích riêng  có  thể  đưa   L(E)C50 100mg/L là tiêu chí cho việc xem xét phân loại khác.
+
+Bảng 2.37. Phân loại chất nguy hiểm đối với môi trường thủy sinh Độc mãn tính
+Mãn tính Cấp 1LC50 96 giờ (đối với cá)≤ 1mg/l và/hoặcEC50 48 giờ (đối với giáp xác)≤ 1mg/l và/hoặcErC50 72 hoặc 96 giờ (đối với tảo và các thực vật thuỷ sinh khác) ≤ 1mg/lVà hợp chất không có khả năng phân huỷ nhanh và/hoặc Log Kow  ≥4 (trừ khi BCF được xác định bằng thực nghiệm < 500)Mãn tính Cấp 2LC50 96 giờ (đối với cá) >1 đến ≤ 10mg/l và/hoặcEC50 48 giờ (đối với giáp xác)>1 đến ≤ 10mg/l và/hoặc1ErC50 72 hoặc 96 giờ (đối với tảo và các thực vật thuỷ sinh khác) >1 đến ≤ 10mg/lVà hợp chất không phân huỷ nhanh Log Kow ≥4 (trừ khi thực nghiệm xác định BCF < 500) từ khi độ độc trường diễn NOEC là> 1mg/LMãn tính Cấp 3LC50 96 giờ (đối với cá)>10-≤ 100mg/l và/hoặcEC50 48 giờ (đối với giáp xác)>10-≤ 100mg/l và/hoặcErC50  72 hoặc 96 giờ (đối với tảo và các thực vật thuỷ sinh khác) >10-≤ 100mg/lMãn tính Cấp 4Hợp chất không có khả năng phân huỷ nhanh và/hoặc Log Kow  ≥4 (trừ khi BCF được xác định bằng thực nghiệm < 500) trừ khi độc tính trường diễn NOEC là > 1mg/L
+
+
+Bảng 2.38. Yếu tố nhãn đối với chất nguy hại môi trường thủy sinh
+Cấp tính
+ | Cấp 1 | Cấp 2 | Cấp 3
+Hình đồ cảnh báo |  | Không sử dụng hình đồ cảnh báo | Không sử dụng hình đồ cảnh báo
+Tên gọi hình đồ | Cá và cây |  | 
+Từ cảnh báo | Cảnh báo | Không sử dụng từ cảnh báo | Không sử dụng từ cảnh báo
+Cảnh báo nguy cơ | Rất độc đối với sinh vật thuỷ sinh | Độc đối với sinh vật thuỷ sinh | Có hại đối với sinh vật thuỷ sinh
+Mãn tính
+ | Cấp 1 | Cấp 2 | Cấp 3 | Cấp 4
+Hình đồ cảnh báo |  |  | Không sử dụng hình đồ cảnh báo | Không sử dụng hình đồ cảnh báo
+Tên gọi hình đồ | Cá và cây | Cá và cây |  | 
+Từ cảnh báo | Cảnh báo | Không sử dụng từ cảnh báo | Không sử dụng từ cảnh báo | Không sử dụng từ cảnh báo
+Cảnh báo nguy cơ | Rất độc đối với sinh vật thuỷ sinh với ảnh hưởng kéo dài | Độc đối với sinh vật thuỷ sinh với ảnh hưởng kéo dài | Có hại đối với sinh vật thuỷ sinh với ảnh hưởng kéo dài | Có thể gây ảnh hưởng có hại kéo dài đối với sinh vật thuỷ sinh
+
+Phần III: Hình đồ cảnh báo trong vận chuyển hóa chất nguy hiểm
+Bảng 3.1 Hình đồ cảnh báo trong vận chuyển hóa chất
+Khung và hình vẽ bên trong màu đen; nền (*). Kích thước 10 cm x 10 cm (đường chéo x đường chéo)
+11 | 22 | 33
+Chất lỏng dễ cháyKhí dễ cháy Sol khí dễ cháy | Chất rắn dễ cháy tự phản ứng | Chất tự dẫn lửa (tự sinh lửa), hợp chất tự sinh nhiệt
+44 | 55 | 66
+Hợp chất khi tiếp xúc với nước sinh khí dễ cháy (nguy hiểm khi ẩm, ướt) | Khí Oxi hoáChất lỏng Oxi hoáChất rắn Oxi hoá | Chất nổ loại: 1.1, 1.2, 1.3
+77 | 88 | 1199
+Chất nổ loại 1.4 | Chất nổ loại 1.5 | Chất nổ loại 1.6
+1010 | 111111 | 1212
+Khí nén | Độc cấp tính (chất độc): đường miệng, da và đường thở | Chất ăn mòn
+1313 | 141411 | 
+Chất ô nhiễm môi trường thuỷ sinh | Peroxit Hữu cơ | 
+(*) Hình 1: màu đỏ; | Hình 2: sọc màu đỏ và trắng;
+Hình 3: nửa màu trắng, nửa màu đỏ; | Hình 4: màu xanh nước biển đậm;
+Hình 5: màu vàng; | Hình 6, 7, 8, 9: màu da cam;
+Hình 10: màu xanh lá cây; | Hình 11, 13: màu trắng;
+Hình 12: nửa màu trắng, nửa màu đen; | Hình 14: nửa màu đỏ, nửa màu vàng.
+
+
+
+======================================================================
+=== 16 Chia se du lieu hoa chat tren CSDL hoa chat.docx ===
+======================================================================
+
+Phụ lục XVI
+THÔNG TIN CHIA SẺ DỮ LIỆU QUẢN LÝ HÓA CHẤT 
+TRÊN CƠ SỞ DỮ LIỆU CHUYÊN NGÀNH
+(Ban hành kèm theo Thông tư số 01 /2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương)
+I. Phần thông tin chung
+1. Thông về cơ quan cập nhật thông tin
+ - Tên cơ quan Bộ, cơ quan ngang Bộ, cơ quan đầu mối thực hiện công các hóa chất.
+- Địa chỉ.
+2. Đầu mối liên lạc
+- Họ tên;
+- Chức vụ
+ - Số điện thoại, email liên hệ.
+II. Phần nội dung cập nhật chung
+II.1. Tình hình hoạt động trong lĩnh vực quản lý
+
+STT | Thông tin các cơ sở hoạt động hóa chất | Địa chỉ | Tên loại hóa chất | Mã CAS | Khối lượng (kg) | Số lượng sự cố hóa chất đã xảy ra
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+
+ II.2. Kết quả thực hiện chiến lược phát triển ngành công nghiệp hóa chất
+1. Về công tác chỉ đạo, điều hành, triển khai thực hiện Chiến lược 
+- Văn bản, kế hoạch hành động của cơ quan (ghi rõ số, ký hiệu, ngày ban hành, tên các văn bản, bao gồm cả văn bản điều hành, tóm tắt nội dung chính);
+- Tình hình triển khai Kế hoạch hành động đến các đơn vị trực thuộc/địa phương.
+2. Kết quả thực hiện các nhiệm vụ, giải pháp được phân công(Đề nghị cập nhật chi tiết theo từng nhiệm vụ, giải pháp được giao trong Chiến lược và Kế hoạch hành động của đơn vị)
+STT | Nhiệm vụ/Giải phápđược giao | Kết quả thực hiện năm 202… (năm báo cáo) | Mức độhoàn thành (%) | Ghi chú
+1 | Ví dụ: Rà soát, xây dựng, đề xuất sửa đổi các quy định pháp luật về... | Ví dụ: Đã hoàn thành dự thảo Nghị định... | Ví dụ: …% | 
+2 | Ví dụ: Triển khai chương trình … tại địa phương... (đối với Bộ) / cơ sở (đối với cơ quan cấp tỉnh) | Ví dụ: Đã tiến hành …. tại 10 tỉnh.../ xã/ Sở | Ví dụ: 100% | 
+... | ... | ... | ... | ...
+
+3. Công tác phối hợp với các Bộ, ngành, địa phương
+- Liệt kê các Bộ, ngành, địa phương đã phối hợp;
+- Nội dung phối hợp chính (Ví dụ: xây dựng chính sách, pháp luật; chia sẻ thông tin...);
+- Kết quả đạt được từ công tác phối hợp;
+- Đề xuất, kiến nghị để tăng cường hiệu quả phối hợp.
+4. Khó khăn, vướng mắc
+- Mô tả chi tiết các khó khăn, vướng mắc phát sinh, tồn tại trong quá trình thực hiện (về cơ chế, chính sách, nguồn lực, phối hợp...);
+- Phân tích nguyên nhân tồn tại.
+5. Đề xuất, kiến nghị
+ III: NỘI DUNG CẬP NHẬT RIÊNG ĐỐI VỚI ỦY BAN NHÂN DÂN CẤP TỈNH
+Cập nhật thông tin về dự án hóa chất được đầu tư tại địa phương:
+Tên dự án | Chủ đầu tư | Địa điểm | Sản phẩm | Tiến độ | Phân ngành, lĩnh vực
+ |  |  | Sản phẩm | Công suất | Tiến độ hiện tại | Dự kiến hoạt động | 
+... | ... | ... | ... | ... |  |  | 
+
+
+ IV: NỘI DUNG CẬP NHẬT RIÊNG ĐỐI VỚI BỘ TÀI CHÍNH
+- Số liệu thống kê liên quan đến ngành công nghiệp hóa chất;
+- Khối lượng, giá trị xuất khẩu, nhập khẩu hóa chất và các sản phẩm của ngành công nghiệp hóa chất.
+
+
+
+======================================================================
+=== 17 Cap nhat thong tin vao CSDK chuyen nganh.docx ===
+======================================================================
+
+Phụ lục XVII
+CẬP NHẬT THÔNG TIN VÀO CƠ SỞ DỮ LIỆU CHUYÊN NGÀNH HOÁ CHẤT
+(Ban hành kèm theo Thông tư số 01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương)
+Phần I: THÔNG TIN CHUNG
+
+1. Tên tổ chức/ cá nhân:
+2. Địa chỉ trụ sở chính:                                        Điện thoại:                                                                           
+3. Giấy chứng nhận đăng ký doanh nghiệp/hợp tác xã/hộ kinh doanh số …….do ……………… cấp ngày …… tháng ……… năm……
+4. Mã định danh của tổ chức/cá nhân:
+5. Mã số thuế: 
+6. Danh sách các cơ sở hoạt động hóa chất
+STT | Tên cơ sở | Địa chỉ | Hoạt động chính | Người chịu trách nhiệm | Điện thoại
+ |  |  |  |  | 
+ |  |  |  |  | 
+ |  |  |  |  | 
+
+
+
+
+Phần II: XUẤT NHẬP KHẨU HÓA CHẤT
+2.1. Xuất nhập khẩu hóa chất cấm, hóa chất cần kiểm soát đặc biệt.
+
+STT | Tên Hóa chất | Hàm lượng | Số Giấy phép(3) | Ngày cấp | Hoạt động | Số lượng thực nhập, xuất khẩu(Kg) | Nước xuất khẩu hoặc nhập khẩu | Tờ khai Hải quan(số, ngày/tháng/năm) | Tên tổ chức nước ngoài mua hoặc bán hóa chất, địa chỉ liên hệ | Dự kiến xuất/nhập khẩu năm sau (Kg)
+ |  |  |  |  | NK | XK | NKNĐ | XKNĐ |  |  |  |  | 
+1. |  |  | .................... |  |  |  |  |  |  |  |  |  | 
+2. |  |  | .................... |  |  |  |  |  |  |  |  |  | 
+ |  |  | .................... |  |  |  |  |  |  |  |  |  | 
+ |  |  | .................... |  |  |  |  |  |  |  |  |  | 
+n |  |  | .................... |  |  |  |  |  |  |  |  |  | 
+ |  |  | Tổng cộng: |  |  |  |  |  |  |  |  |  | 
+
+Phần III: BÁO CÁO MUA BÁN HÓA CHẤT TRONG NƯỚC ĐỐI VỚI HÓA CHẤT CẦN KIỂM SOÁT ĐẶC BIỆT
+- Giấy phép kinh doanh hóa chất cần kiểm soát đặc biệt;
+STT | Tên thương mại | Thông tin hóa chất/tên thành phần | Tên tổ chức cá nhân mua, bán hóa chất, địa chỉ, Số điên thoại liên hệ | Mã số thuế | Số hóa đơn | Hoạt động (Mua/bán) | Khối lượng (kg) | Mục đích sử dụng bên mua (4) | Lượng tồn kho đến hết năm (5) | Dự kiến mua năm sau
+ |  | Tên hóa chất | Mã CAS | Hàm lượng |  |  |  | Mua | Bán |  |  |  | 
+1 |  |  |  | 1. |  |  | 1- |  |  |  |  |  | 
+ |  |  |  |  |  |  | 2- |  |  |  |  |  | 
+ |  |  |  |  |  |  | n- |  |  |  |  |  | 
+ |  |  |  | 2. |  |  | 1- |  |  |  |  |  | 
+ |  |  |  |  |  |  | 2- |  |  |  |  |  | 
+ |  |  |  |  |  |  | n- |  |  |  |  |  | 
+ |  |  |  | n. |  |  |  |  |  |  |  |  | 
+n |  |  |  |  |  |  |  |  |  |  |  |  | 
+
+
+Phần IV:  BÁO CÁO HOẠT ĐỘNG SẢN XUẤT HÓA CHẤT
+- Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt (nếu có);
+- Giấy chứng nhận sản xuất, kinh doanh hóa chất có điều kiện (nếu có);
+- Giấy phép sản xuất hóa chất cấm (nếu có)
+STT | Tên thương mại | Thông tin hóa chất/tên thành phần | Khối lượng sản xuất (kg) | Khối lượng được cấp giấy phép sản xuất | Lượng tồn kho đến hết năm (5) | Dự kiến sản xuất năm sau
+ |  | Tên hóa chất | Mã CAS | Hàm lượng |  |  |  | 
+1 |  |  |  | 1. |  |  |  | 
+ |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  | 
+ |  |  |  | 2. |  |  |  | 
+ |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  | 
+ |  |  |  | n. |  |  |  | 
+n |  |  |  |  |  |  |  | 
+
+
+
+Phần V: BÁO CÁO HOẠT ĐỘNG SỬ DỤNG HÓA CHẤT
+Cơ sở sử dụng hóa chất 1: 
+Tên cơ sở: ……………………… Địa chỉ:……………
+
+STT | Tên thương mại | Tên hóa chất (tên thành phần chính) | Mã số CAS | Nồng độ hoặc hàm lượng | Khối lượng sử dụng (Kg/năm) | Mã mục đích sử dụng | Mục đích sử dụng | Dự kiến sử dụng năm sau
+I | Sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt |  |  | 
+1 |  |  |  |  |  |  |  | 
+n |  |  |  |  |  |  |  | 
+II | Hóa chất sản xuất, kinh doanh có điều kiện |  |  | 
+III | Hóa chất nguy hiểm khác |  |  | 
+1 |  |  |  |  |  |  |  | 
+n |  |  |  |  |  |  |  | 
+
+Cơ sở sử dụng hóa chất n: ……….
+
+
+Phần VI: CÔNG TÁC AN TOÀN HÓA CHẤT
+1. Tình hình chung thực hiện quy định về an toàn hóa chất
+- Đã xây dựng Kế hoạch, Biện pháp phòng ngừa, ứng phó sự cố hóa chất: có/không
+- Trong năm có thay đổi nội dung Kế hoạch, Biện pháp phòng ngừa, ứng phó sự cố hóa chất: có/không.
+Trong trường hợp có thay đổi đề nghị nêu rõ nguyên nhân.
+- Trong năm có tổ chức diễn tập ứng phó sự cố hóa chất theo Kế hoạch, biện pháp phòng ngừa, ứng phó sự cố hóa chất đã xây dựng: có/không
+Trường hợp có tổ chức diễn tập đề nghị nêu rõ thời gian, địa điểm tổ chức, các cơ quan, đơn vị tham gia, phối hợp.
+2. Tình hình tai nạn, sự cố
+TT | Cơ sở xảy ra sự cố hóa chất | Tên hóa chất có liên quan | Mã số CAS | Hậu quả đối với cơ sở | Hậu quả đối với khu vực xung quanh | Khoảng cách xa nhất chịu ảnh hưởng | Nguyên nhân chính (vận hành/thiết bị)
+ |  |  |  | Số người chết | Số người bị ảnh hưởng sức khỏe | Ước tính thiệt hại vật chất | Số người chết | Số người bị ảnh hưởng sức khỏe | Ước tính thiệt hại vật chất |  | 
+1 |  |  |  |  |  |  |  |  |  |  | 
+2 |  |  |  |  |  |  |  |  |  |  | 
+n |  |  |  |  |  |  |  |  |  |  | 
+
+
+Báo cáo chi tiết nguyên nhân, diễn biến, hậu quả và quá trình khắc phục từng sự cố: ………………………………………………………...
+………………………………………………………………………………………………………………………………………
+
+
+PHẦN VII. BÁO CÁO TÌNH HÌNH THỰC HIỆN DỰ ÁN
+PHẦN II: THÔNG TIN VỀ DỰ ÁN TRONG GIAI ĐOẠN TRƯỚC KHI HOÀN THÀNH CÔNG TRÌNH VÀ ĐƯA CÔNG TRÌNH VÀO SỬ DỤNG
+2.1. Thông tin chung về các dự án trong giai đoạn trước khi hoàn thành công trình và đưa công trình vào sử dụng:
+Tên dự án | Địa điểm thực hiện dự án | Tổng mức đầu tư(VNĐ/USD) | Nguồn vốn | Sản phẩm | Nhóm dự án/Cấp công trình | Tiến độ | Phân ngành, lĩnh vực
+ |  |  |  | Sản phẩm | Công suất | Nhóm dự án | Cấp công trình | Tiến độ hiện tại | Dự kiến hoạt động | 
+... | ... | ... |  | ... | ... |  |  |  |  | 
+
+2.2. Thông tin đối với dự án ….
+Thị trường tiêu thụ chính: 
+Trong nước: ............................................................................................................................................................................
+Xuất khẩu (Ghi rõ thị trường): ..........................................................................................................................
+Công nghệ áp dụng:
+Tên công nghệ, dây chuyền: ..............................................................................................................................................
+Xuất xứ công nghệ: 
+Nguyên tắc hóa học xanh đã áp dụng:
+Mô tả ngắn gọn về tính hiện đại, thân thiện môi trường của công nghệ: .................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Chất thải nguy hại: 
+1) .........................................................................................................................................................................................................................................................................................................................................
+n) .........................................................................................................................................................................................................................................................................................................................................
+Giấy tờ pháp lý: 
+(Đánh dấu ✓ vào ô "Có" hoặc "Không" và ghi rõ thông tin chi tiết nếu có)
+STT | Loại giấy tờ | Đã có/Cập nhật? | Số, ký hiệu | Ngày cấp | Cơ quan cấp | Ghi chú
+ |  | Có | Không |  |  |  | 
+1 | Giấy chứng nhận đăng ký đầu tư |  |  |  | 
+2 | Giấy chứng nhận/quyết định giao đất, thuê đất và tài liệu liên quan |  |  |  | 
+3 | Giấy phép xây dựng |  |  |  | 
+4 | Báo cáo đánh giá tác động môi trường/Giấy phép môi trường |  |  |  | 
+5 | Thẩm định công nghệ, báo cáo nghiên cứu tiền khả thi, khả thi, thiết kế… |  |  |  | 
+6 | Thẩm duyệt thiết kế PCCC |  |  |  | 
+7 | Nghiệm thu PCCC |  |  |  | 
+ | … |  |  |  |  |  | 
+
+Chi tiết tiến độ thực hiện dự án: 
+- Tiến độ chung (% khối lượng công việc đã hoàn thành): ..............%
+Nội dung | Tiến độ thực hiện theo giấy chứng nhận đầu tư | Tiến độ thực hiện thực tế | Tiến độ | Lý do chậm tiến độ và giải pháp khắc phục
+ |  | Thời gian | % | Đảm bảo | Chậm | 
+Giải phóng mặt bằng |  |  |  | 
+Thiết kế cơ sở |  |  |  | 
+Thiết kế kỹ thuật |  |  |  | 
+Đấu thầu, lựa chọn nhà thầu |  |  |  | 
+Khởi công |  |  |  | 
+Tiến độ thi công các hạng mục |  |  |  | 
+Vận hành thử nghiệm |  |  |  | 
+Thời gian hoàn thành và đưa vào vận hành chính thức |  |  |  | 
+… |  |  |  |  |  | 
+
+
+PHẦN III: THÔNG TIN KẾT QUẢ HOẠT ĐỘNG SẢN XUẤT KINH DOANH ĐỐI VỚI DỰ ÁN ĐÃ ĐƯA CÔNG TRÌNH VÀO SỬ DỤNG
+3.1. Thông tin chung về các dự án đã đưa công trình vào sử dụng:
+Tên dự án | Địa điểm thực hiện dự án | Tổng mức đầu tư(VNĐ/USD) | Nguồn vốn | Nhóm dự án/Cấp công trình | Năm bắt đầu hoạt động | Phân ngành, lĩnh vực
+ |  |  |  | Nhóm dự án | Cấp công trình |  | 
+... | ... | ... |  |  |  |  | 
+
+3.2 Kết quả sản xuất, kinh doanh của dự án……
+Biểu tổng hợp lao động, sản phẩm, doanh thu
+STT | Tên sản phẩm | Công suất thiết kế | Công suất thực tế | Số lao động | Sản lượng năm báo cáo | Sản lượng năm trước | Doanh thu năm báo cáo (VNĐ) | Doanh thu năm trước (VNĐ)
+1 |  |  |  |  |  |  |  | 
+… |  |  |  |  |  |  |  | 
+
+Thị trường tiêu thụ chính: 
+Trong nước: ................................................................................................................................................
+Xuất khẩu (Ghi rõ thị trường): ................................................................................................................................................
+Tình hình chấp hành các quy định pháp luật:
+- Đã thực hiện đầy đủ các báo cáo, giấy phép về môi trường ☐
+- Thực hiện đầy đủ các quy định về an toàn hóa chất, PCCC                          ☐
+- Thực hiện đầy đủ chế độ báo cáo, kiểm kê, khai báo hóa chất theo quy định          ☐
+- Đã thực hiện đầy đủ các quy định về lao động                  ☐
+- Ghi chú khác (nếu có):........................................................
+PHẦN IV: KHÓ KHĂN, VƯỚNG MẮC VÀ ĐỀ XUẤT, KIẾN NGHỊ
+13. Khó khăn, vướng mắc chính đang gặp phải: (Về thủ tục, vốn, công nghệ, thị trường, nguyên liệu, nhân lực, sự cố bất khả kháng...)
+14. Nguyên nhân cơ bản, chủ yếu (Nguyên nhân khách quan, nguyên nhân chủ quan)
+15. Đề xuất, kiến nghị với cơ quan quản lý Nhà nước: (Đề xuất cụ thể với từng cơ quan: UBND tỉnh, Bộ Công Thương, …
+…… cam đoan các thông tin kê khai trên đây là hoàn toàn trung thực và chịu trách nhiệm trước pháp luật về tính chính xác của các thông tin đã cung cấp.
+
+
+
+======================================================================
+=== 18 Cong bo muc dich su dung hoa chat KSDB.docx ===
+======================================================================
+
+ Phụ lục XVIII
+MẪU THÔNG TIN CÔNG BỐ LOẠI HÓA CHẤT, MỤC ĐÍCH SỬ DỤNG HÓA CHẤT CẦN KIỂM SOÁT ĐẶC BIỆT TRÊN CƠ SỞ DỮ LIỆU CHUYÊN NGÀNH HÓA CHẤT
+ (Ban hành kèm theo Thông tư số 01/2026/TT-BCT ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương)
+I. THÔNG TIN TỔ CHỨC CÁ NHÂN
+Tên tổ chức/ cá nhân đăng ký
+Địa chỉ trụ sở
+Điện thoại 
+Số Giấy chứng nhận đăng ký doanh nghiệp 
+Ngày cấp Giấy chứng nhận đăng ký doanh nghiệp
+Tên người đại diện theo pháp luật
+Số CCCD/Hộ chiếu người đại diện theo pháp luật
+Ngày cấp CCCD/ Hộ chiếu người đại diện theo pháp luật
+Cơ quan cấp CCCD/ Hộ chiếu người đại diện theo pháp luật
+
+II. THÔNG TIN HÓA CHẤT CÔNG BỐ
+Tên thương mại 
+Tên khoa học của thành phần hóa học thứ 1, 2,…n
+Mã CAS của của thành phần hóa học thứ 1, 2,…n
+Hàm lượng của thành phần hóa học thứ 1, 2,…n
+Hàm lượng của thành phần khác (1)
+Mã mục đích sử dụng  (*) 
+Tên sản phẩm, hàng hóa/ dịch vụ cần sử dụng hóa chất 
+Mô tả chi tiết việc sử dụng hóa chất trong quá trình sản xuất sản phẩm, hàng hóa/ cung ứng dịch vụ
+Sản lượng
+Khối lượng hóa chất ước tính sử dụng trong một năm
+
+Ghi chú: - (*): Mã mục đích sử dụng theo bảng kê tại Phụ lục IX ban hành kèm theo Thông tư này.
+
+
+======================================================================
+=== 19 Hoa chat nguy hiem trong san pham hang hoa phai cong bo thong tin.docx ===
+======================================================================
+
+Phụ lục XIX
+DANH MỤC HÓA CHẤT NGUY HIỂM TRONG SẢN PHẨM HÀNG HÓA PHẢI CÔNG BỐ THÔNG TIN TRONG LĨNH QUẢN LÝ CỦA BỘ CÔNG THƯƠNG
+
+(Ban hành kèm theo Thông tư số 01 /2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Bộ trưởng Bộ Công Thương)
+
+STT | Tên Hóa chất nguy hiểm | Mã số CAS | Sản phẩm phải công bố thông tin
+1 | Acetone | 67-64-1 | Keo, dung dịch tẩy rửa
+2 | Cadimium | -------- | Sản phẩm điện tử
+3 | Chromium (VI) compounds | -------- | Sơn chống rỉ, thép mạ chrom, pin, sản phẩm điện tử
+4 | Formaldehyde | 50-00-0 | Ván ép, chất tẩy rửa
+5 | Hydrochloric acid | 7647-01-0 | Chất tẩy rửa công nghiệp
+6 | Lead | -------- | Pin, sản phẩm điện tử
+7 | Mercury | -------- | Bóng đèn
+8 | Methanol | 67-56-1 | Keo, dung dịch tẩy rửa
+9 | Sunfuric acid | 7664-93-9 | Ắc quy
+10 | Toluene | 108-88-3 | Sơn công nghiệp, mực in
+

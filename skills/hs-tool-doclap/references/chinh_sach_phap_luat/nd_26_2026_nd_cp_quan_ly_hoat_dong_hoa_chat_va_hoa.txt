@@ -1,0 +1,462 @@
+[Tiêu đề] ND 26-2026-ND-CP quan ly hoat dong hoa chat va hoa chat nguy hiem trong san pham
+[Ngày thêm vào tool] 2026-09-23
+------------------------------------------------------------
+
+[Transcribed từ ảnh scan - PDF gốc không có lớp text, đã đọc bằng OCR thị giác. Nguồn: datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/26-cp.signed.pdf - Cổng thông tin điện tử Chính phủ]
+
+CHÍNH PHỦ
+CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+
+Số: 26/2026/NĐ-CP
+Hà Nội, ngày 17 tháng 01 năm 2026
+
+NGHỊ ĐỊNH
+Quy định chi tiết và hướng dẫn thi hành một số điều của
+Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất
+nguy hiểm trong sản phẩm, hàng hóa
+
+Căn cứ Luật Tổ chức Chính phủ số 63/2025/QH15;
+Căn cứ Luật Hóa chất số 69/2025/QH15;
+Căn cứ Luật Phòng, chống ma túy số 73/2021/QH14;
+Căn cứ Luật Điều ước quốc tế số 108/2016/QH13;
+Căn cứ Luật Đầu tư số 61/2020/QH14;
+Căn cứ Luật Quản lý ngoại thương số 05/2017/QH14;
+Căn cứ Luật Tiêu chuẩn và quy chuẩn kỹ thuật số 68/2006/QH11 đã được
+sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14;
+Căn cứ Luật sửa đổi, bổ sung một số điều của Luật Tiêu chuẩn và quy
+chuẩn kỹ thuật số 70/2025/QH15;
+Căn cứ Luật Chất lượng sản phẩm, hàng hóa số 05/2007/QH12 đã được
+sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14;
+Căn cứ Luật sửa đổi, bổ sung một số điều của Luật Chất lượng sản
+phẩm, hàng hoá số 78/2025/QH15;
+Thực hiện Công ước Cấm phát triển, sản xuất, tàng trữ, sử dụng và phá
+hủy vũ khí hóa học;
+Theo đề nghị của Bộ trưởng Bộ Công Thương;
+Chính phủ ban hành Nghị định quy định chi tiết và hướng dẫn thi hành
+một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa
+chất nguy hiểm trong sản phẩm, hàng hóa.
+
+Chương I
+QUY ĐỊNH CHUNG
+
+Điều 1. Phạm vi điều chỉnh
+Nghị định này quy định chi tiết và hướng dẫn thi hành một số điều của
+Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm
+trong sản phẩm, hàng hóa bao gồm:
+1. Khoản 5 Điều 2 về các tiêu chí cụ thể đối với "chất độc".
+2. Khoản 5 Điều 10 về các yêu cầu đối với tổ chức sản xuất hoá chất;
+về việc thu hồi Giấy phép sản xuất hoá chất cấm.
+3. Khoản 5 Điều 11 về các yêu cầu đối với tổ chức kinh doanh hoá chất.
+4. Khoản 7 Điều 12 về xuất khẩu, nhập khẩu, tạm nhập, tái xuất, tạm
+xuất, tái nhập, chuyển khẩu, quá cảnh và hoạt động khác có liên quan
+đến hoạt động mua bán hàng hóa quốc tế đối với hóa chất.
+5. Khoản 7 Điều 14 về nghĩa vụ tổ chức, cá nhân tồn trữ hoá chất; quy
+định nội dung Giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ
+hoá chất; quy định điều kiện, trình tự, thủ tục, thẩm quyền cấp, cấp
+lại, điều chỉnh, thu hồi Giấy chứng nhận đủ điều kiện hoạt động dịch
+vụ tồn trữ hoá chất.
+6. Khoản 5 Điều 15 về công bố loại hoá chất và mục đích sử dụng hoá
+chất cần kiểm soát đặc biệt trên Cơ sở dữ liệu chuyên ngành hoá chất.
+7. Khoản 2 Điều 18 về các trường hợp được miễn cấp Giấy chứng nhận đủ
+điều kiện sản xuất, kinh doanh hoá chất có điều kiện; Giấy phép sản
+xuất, kinh doanh, xuất khẩu, nhập khẩu hoá chất cần kiểm soát đặc
+biệt; Giấy phép sản xuất, nhập khẩu hoá chất cấm; Giấy chứng nhận đủ
+điều kiện hoạt động dịch vụ tồn trữ hoá chất.
+8. Khoản 2 Điều 19 về trình tự, thủ tục thu hồi Giấy chứng nhận đủ
+điều kiện sản xuất, kinh doanh hoá chất có điều kiện; Giấy phép sản
+xuất, kinh doanh, xuất khẩu, nhập khẩu hoá chất cần kiểm soát đặc
+biệt; Giấy phép sản xuất, nhập khẩu hoá chất cấm; Giấy chứng nhận đủ
+điều kiện hoạt động dịch vụ tồn trữ hoá chất.
+9. Khoản 3 Điều 20 về lộ trình xây dựng Danh mục hoá chất quốc gia và
+thừa nhận danh mục hoá chất nước ngoài; về trình tự, thủ tục đăng ký
+hoá chất mới.
+10. Khoản 2 Điều 21 về các tổ chức đánh giá hoá chất mới.
+11. Khoản 4 Điều 22 về đăng ký, quản lý hoá chất mới.
+12. Khoản 4 Điều 26 về bảo mật thông tin liên quan đến bí quyết công
+nghệ, bí mật thương mại và thông tin bảo mật khác.
+13. Khoản 4 Điều 28 về nghĩa vụ cung cấp thông tin của tổ chức, cá
+nhân hoạt động hoá chất.
+14. Khoản 9 Điều 29 về chuyển đổi số trong quản lý nhà nước về hoá
+chất và Cơ sở dữ liệu chuyên ngành hoá chất.
+15. Khoản 7 Điều 31 về danh mục hoá chất nguy hiểm trong sản phẩm,
+hàng hóa cần công bố thông tin; quy trình kiểm soát hóa chất nguy hiểm
+trong quá trình sản xuất; thực hiện công bố thông tin về hàm lượng hoá
+chất nguy hiểm trong sản phẩm, hàng hóa.
+16. Khoản 3 Điều 32 về cách thức và thông tin công bố hàm lượng hóa
+chất nguy hiểm trong sản phẩm, hàng hóa.
+
+Điều 2. Giải thích từ ngữ
+Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau:
+1. Hóa chất Bảng là hóa chất được kiểm soát theo quy định của Công ước
+cấm phát triển, sản xuất, tàng trữ, sử dụng và phá hủy vũ khí hóa học
+và được ban hành tại Danh mục của Nghị định số 24/2026/NĐ-CP ngày 17
+tháng 01 năm 2026 của Chính phủ quy định các danh mục hóa chất thuộc
+phạm vi điều chỉnh của Luật Hóa chất. Hóa chất Bảng bao gồm chất thuộc
+Danh mục và hỗn hợp chất chứa chất thuộc Danh mục.
+2. Tiền chất công nghiệp là các hóa chất được sử dụng làm nguyên liệu,
+dung môi, chất xúc tiến trong sản xuất, nghiên cứu khoa học, phân
+tích, kiểm nghiệm, đồng thời là các hoá chất cần thiết trong quá trình
+điều chế, sản xuất chất ma tuý, được quy định trong danh mục do Chính
+phủ ban hành.
+3. CAS (Chemical Abstracts Service) là mã số định danh duy nhất cho
+các nguyên tố hóa học, các hợp chất hóa học, các polyme, các chuỗi
+sinh học, các hỗn hợp và các hợp kim.
+4. Chất độc quy định tại khoản 5 Điều 2 của Luật Hóa chất có một trong
+các tiêu chí theo nguyên tắc phân loại của GHS sau:
+a) Độc cấp tính cấp 1;
+b) Tổn thương nghiêm trọng, kích ứng mắt cấp 1;
+c) Ăn mòn, kích ứng da cấp 1A;
+d) Tác nhân gây ung thư cấp 1A;
+đ) Đột biến tế bào mầm cấp 1A;
+e) Độc tính sinh sản cấp 1A;
+g) Nguy hại môi trường cấp 1.
+5. GHS là tên viết tắt của Hệ thống hài hòa toàn cầu về phân loại và
+ghi nhãn hóa chất (Globally Harmonized System of Classification and
+Labelling of Chemicals).
+6. Xác thực, định danh, truy xuất nguồn gốc hoá chất là hoạt động giám
+sát, quản lý một đơn vị sản phẩm về hóa chất qua từng công đoạn theo
+thời gian, địa điểm của quá trình hoạt động hoá chất.
+
+Điều 3. Trách nhiệm quản lý nhà nước về hóa chất
+1. Bộ Công Thương trong phạm vi nhiệm vụ, quyền hạn của mình thực
+hiện các nội dung quản lý nhà nước về hoạt động hóa chất sau đây:
+a) Quản lý hóa chất sử dụng trong công nghiệp, hóa chất là tiền chất
+thuộc Danh mục do Chính phủ ban hành theo phân công của Chính phủ và
+hóa chất thuộc Công ước cấm phát triển, sản xuất, tàng trữ, sử dụng và
+phá hủy vũ khí hóa học; quản lý hóa chất sử dụng trong các sản phẩm
+công nghiệp tiêu dùng trừ các sản phẩm thuộc thẩm quyền của Bộ Y tế,
+Bộ Nông nghiệp và Môi trường;
+b) Công bố, vận hành, cập nhật, nâng cấp Cơ sở dữ liệu chuyên ngành
+hóa chất;
+c) Thống nhất quản lý hoạt động phân loại, ghi nhãn hóa chất nguy
+hiểm; đăng ký, khai báo hóa chất; thông tin an toàn hóa chất;
+d) Tổng hợp, thống kê tình hình thực hiện an toàn hóa chất trong phạm
+vi cả nước;
+đ) Thực hiện hợp tác quốc tế trong hoạt động hóa chất và an toàn hóa
+chất;
+e) Tuyên truyền, phổ biến, giáo dục pháp luật về hóa chất;
+g) Kiểm tra về hoạt động hóa chất; giải quyết khiếu nại, tố cáo liên
+quan đến hoạt động hóa chất thuộc lĩnh vực quản lý của Bộ Công Thương;
+h) Các nhiệm vụ khác liên quan đến hoạt động hóa chất được Chính phủ
+phân công.
+2. Bộ Khoa học và Công nghệ chủ trì, phối hợp với Bộ Công Thương thẩm
+định và công bố tiêu chuẩn quốc gia, hướng dẫn xây dựng và thẩm định
+quy chuẩn kỹ thuật trong lĩnh vực hóa chất theo thẩm quyền.
+3. Bộ Xây dựng ban hành theo thẩm quyền hoặc trình cơ quan có thẩm
+quyền ban hành các quy chuẩn kỹ thuật về vận chuyển hóa chất nguy hiểm.
+4. Bộ Y tế quản lý hóa chất sử dụng trong bào chế dược phẩm cho người;
+hóa chất sử dụng trong chất diệt khuẩn, diệt côn trùng trong gia dụng,
+y tế; hóa chất sử dụng trong thiết bị y tế; hóa chất sử dụng trong phụ
+gia thực phẩm, chất hỗ trợ chế biến thực phẩm, hương liệu thực phẩm,
+vi chất dinh dưỡng, các vi chất bổ sung vào thực phẩm; hóa chất sử
+dụng trong sản phẩm thuộc thẩm quyền của Bộ Y tế; phối hợp với các bộ,
+ngành quy định về vệ sinh an toàn lao động trong hoạt động hóa chất.
+5. Bộ Nông nghiệp và Môi trường quản lý hóa chất sử dụng trong phân
+bón, trồng trọt, chăn nuôi, nuôi trồng thuỷ sản, thú y, bảo vệ thực
+vật, bảo quản, chế biến nông sản, lâm sản, thủy sản và thực phẩm thuộc
+thẩm quyền của Bộ Nông nghiệp và Môi trường; ban hành theo thẩm quyền
+hoặc trình cơ quan có thẩm quyền ban hành các quy định về bảo vệ môi
+trường liên quan đến hoạt động hóa chất; hướng dẫn phân loại, ghi
+nhãn và xây dựng phiếu an toàn hóa chất đối với các loại thuốc bảo vệ
+thực vật.
+6. Bộ Quốc phòng quản lý hóa chất, sản phẩm hóa chất trong lĩnh vực
+quốc phòng; xử lý, thải bỏ chất độc tồn dư, chất độc tồn dư của chiến
+tranh, chất độc không rõ nguồn gốc và chất độc bị tịch thu.
+7. Bộ Công an quản lý hóa chất, sản phẩm hóa chất trong lĩnh vực an
+ninh, trật tự an toàn xã hội và phục vụ cho mục đích phòng cháy, chữa
+cháy và cứu nạn, cứu hộ.
+8. Bộ Nội vụ ban hành theo thẩm quyền hoặc trình cơ quan có thẩm quyền
+ban hành các quy định về an toàn lao động, vệ sinh lao động cho người
+lao động tham gia hoạt động hóa chất.
+9. Bộ Giáo dục và Đào tạo quản lý việc sử dụng hóa chất trong nhà
+trường, cơ sở dạy nghề cơ sở giáo dục khác thuộc hệ thống giáo dục
+quốc dân.
+10. Bộ Tài chính phối hợp với Bộ Công Thương về việc phân bổ ngân
+sách bảo đảm nguồn lực để đầu tư, xây dựng, vận hành, duy trì và phát
+triển Cơ sở dữ liệu chuyên ngành hóa chất đáp ứng quy chuẩn kỹ thuật
+quốc gia về cơ sở dữ liệu chuyên ngành; kết nối Cổng thông tin điện tử
+quốc gia với hệ thống công nghệ thông tin, dịch vụ công trực tuyến
+phục vụ quản lý chuyên ngành hóa chất của Bộ Công Thương.
+11. Ủy ban nhân dân cấp tỉnh trong phạm vi nhiệm vụ, quyền hạn của
+mình thực hiện các nội dung quản lý nhà nước về hoạt động hóa chất
+sau đây:
+a) Thực hiện các nhiệm vụ được phân công tại Luật Hóa chất và các
+nhiệm vụ khác liên quan đến hoạt động hóa chất được phân công phân cấp;
+b) Chịu trách nhiệm quản lý hoạt động hóa chất, thực hiện thanh tra,
+kiểm tra, giải quyết khiếu nại, tố cáo, xử lý vi phạm về hoạt động hóa
+chất tại địa phương theo quy định của pháp luật;
+c) Tuyên truyền, phổ biến, hướng dẫn pháp luật về quản lý hóa chất.
+
+Chương II
+QUẢN LÝ HOẠT ĐỘNG HÓA CHẤT
+
+Mục 1
+QUY ĐỊNH CHUNG VỀ SẢN XUẤT VÀ KINH DOANH HÓA CHẤT
+
+Điều 4. Điều kiện chung về đảm bảo an toàn trong sản xuất hóa chất
+1. Tổ chức sản xuất hóa chất là tổ chức được thành lập theo quy định
+của pháp luật.
+2. Nhà xưởng, kho chứa phải đạt yêu cầu theo tiêu chuẩn, quy chuẩn kỹ
+thuật quốc gia, phù hợp với tính chất, quy mô và công nghệ sản xuất,
+lưu trữ hóa chất.
+3. Nhà xưởng, kho chứa hóa chất phải có bảng nội quy về an toàn hóa
+chất, có biển báo nguy hiểm phù hợp với mức độ nguy hiểm của hóa chất.
+Các biển báo thể hiện các đặc tính nguy hiểm của hóa chất phải có các
+thông tin: Mã nhận dạng hóa chất; hình đồ cảnh báo, từ cảnh báo, cảnh
+báo nguy cơ. Hình đồ cảnh báo phải thể hiện đầy đủ các đặc tính nguy
+hiểm (nếu có).
+4. Có Kế hoạch phòng ngừa, ứng phó sự cố hóa chất được cơ quan có
+thẩm quyền phê duyệt hoặc Biện pháp phòng ngừa, ứng phó sự cố hóa
+chất được tổ chức ban hành theo quy định tại Điều 33, 34, 35, 36 của
+Nghị định số 25/2026/NĐ-CP ngày 17 tháng 01 năm 2026 của Chính phủ
+quy định chi tiết và biện pháp để tổ chức, hướng dẫn thi hành một số
+điều của Luật Hóa chất về phát triển công nghiệp hóa chất và an toàn,
+an ninh hóa chất.
+5. Có trang thiết bị, phương tiện ứng cứu sự cố phù hợp với các đặc
+tính nguy hiểm của hóa chất và khối lượng hóa chất tồn trữ tại cơ sở.
+6. Công nghệ sản xuất hóa chất phải đảm bảo giảm thiểu nguy cơ gây sự
+cố hóa chất, ô nhiễm môi trường, đảm bảo an toàn phòng, chống cháy nổ.
+7. Hóa chất trong kho phải được bảo quản theo tiêu chuẩn, quy chuẩn
+kỹ thuật quốc gia hiện hành, đảm bảo yêu cầu an toàn, thuận lợi cho
+công tác ứng phó sự cố hóa chất.
+8. Năng lực chuyên môn
+a) Người chịu trách nhiệm chuyên môn về an toàn hóa chất của cơ sở sản
+xuất phải có trình độ chuyên môn phù hợp với quy mô và loại hình sản
+xuất hóa chất, nắm vững công nghệ, phương án và các biện pháp bảo đảm
+an toàn hóa chất;
+b) Các đối tượng quy định tại Điều 29 của Nghị định số 25/2026/NĐ-CP
+ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và biện
+pháp để tổ chức, hướng dẫn thi hành một số điều của Luật Hóa chất về
+phát triển công nghiệp hóa chất và an toàn, an ninh hóa chất tại cơ
+sở sản xuất phải được huấn luyện an toàn hóa chất.
+9. Tuân thủ yêu cầu đối với hoạt động sản xuất hóa chất quy định tại
+Điều 25, 26, 27, 28, 29 của Nghị định số 25/2026/NĐ-CP ngày 17 tháng
+01 năm 2026 của Chính phủ quy định chi tiết và biện pháp để tổ chức,
+hướng dẫn thi hành một số điều của Luật Hóa chất về phát triển công
+nghiệp hóa chất và an toàn, an ninh hóa chất.
+
+Điều 5. Điều kiện chung về đảm bảo an toàn trong kinh doanh hóa chất
+1. Tổ chức kinh doanh hóa chất là tổ chức được thành lập theo quy định
+của pháp luật.
+2. Kho tồn trữ hóa chất đáp ứng quy định tại khoản 2, 3, 4, 5 Điều 4
+của Nghị định này hoặc thuê kho của tổ chức được cơ quan có thẩm
+quyền cấp Giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ hóa
+chất phù hợp với quy mô, loại hóa chất của tổ chức thực hiện kinh
+doanh.
+3. Tồn trữ, bảo quản hóa chất trong kho phải tuân thủ quy định tại
+khoản 7 Điều 4 của Nghị định này.
+4. Năng lực chuyên môn
+a) Người chịu trách nhiệm chuyên môn về an toàn hóa chất của cơ sở
+kinh doanh phải có trình độ chuyên môn phù hợp với quy mô và loại
+hình kinh doanh hóa chất, nắm vững phương án và các biện pháp bảo đảm
+an toàn hóa chất;
+b) Các đối tượng quy định tại Điều 29 của Nghị định số 25/2026/NĐ-CP
+ngày 17 tháng 01 năm 2026 của Chính phủ quy định chi tiết và biện
+pháp để tổ chức, hướng dẫn thi hành một số điều của Luật Hóa chất về
+phát triển công nghiệp hóa chất và an toàn, an ninh hóa chất tại cơ
+sở kinh doanh phải được huấn luyện an toàn hóa chất.
+5. Tuân thủ yêu cầu đối với hoạt động kinh doanh hóa chất quy định
+tại Điều 25, 26, 27, 28, 29 của Nghị định số 25/2026/NĐ-CP ngày 17
+tháng 01 năm 2026 của Chính phủ quy định chi tiết và biện pháp để tổ
+chức, hướng dẫn thi hành một số điều của Luật Hóa chất về phát triển
+công nghiệp hóa chất và an toàn, an ninh hóa chất.
+
+Điều 6. Khai báo hóa chất nhập khẩu
+1. Tổ chức, cá nhân nhập khẩu hóa chất thuộc các chương 28 và chương
+29 của Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam do Bộ trưởng
+Bộ Tài chính ban hành phải có trách nhiệm thực hiện khai báo hóa chất
+nhập khẩu trước khi thông quan qua Cổng thông tin một cửa quốc gia.
+2. Thông tin khai báo hóa chất nhập khẩu
+a) Các thông tin khai báo trên Cổng thông tin một cửa quốc gia bao
+gồm các thông tin tổ chức, cá nhân khai báo, các thông tin hóa chất
+nhập khẩu;
+b) Hóa đơn thương mại bản gốc và bản dịch tiếng Việt có xác thực của
+tổ chức trong trường hợp hóa đơn thương mại được phát hành bằng tiếng
+nước ngoài;
+c) Phiếu an toàn hóa chất;
+d) Trường hợp đối với mặt hàng phi thương mại không có hóa đơn thương
+mại, tổ chức, cá nhân khai báo hóa chất có thể sử dụng giấy báo hàng
+về cảng thay cho hóa đơn thương mại.
+3. Tạo tài khoản truy cập và giá trị pháp lý của chứng từ điện tử trên
+Cổng thông tin một cửa quốc gia
+a) Tổ chức, cá nhân tạo tài khoản đăng nhập theo mẫu quy định trên
+Cổng thông tin một cửa quốc gia, bao gồm các thông tin, tệp tin đính
+kèm;
+b) Tổ chức, cá nhân thực hiện khai báo hóa chất thông qua Cổng thông
+tin một cửa quốc gia. Thông tin khai báo được tự động chuyển đến hệ
+thống Cổng dịch vụ công của Bộ Công Thương, khi đó hệ thống của Bộ
+Công Thương sẽ tự động phản hồi qua Cổng thông tin một cửa quốc gia
+tới các tổ chức, cá nhân khai báo và cơ quan Hải quan;
+c) Thông tin phản hồi khai báo hóa chất nhập khẩu có giá trị pháp lý
+để làm thủ tục thông quan. Sau khi hóa chất được thông quan, hệ thống
+của cơ quan Hải quan gửi phản hồi trạng thái thông quan gồm thông tin
+tờ khai, hóa chất, khối lượng hóa chất thông quan qua hệ thống của Bộ
+Công Thương;
+d) Thông tin khai báo và phản hồi khai báo hóa chất nhập khẩu qua
+Cổng thông tin một cửa quốc gia theo mẫu do Bộ trưởng Bộ Công Thương
+quy định.
+4. Tổ chức, cá nhân phải chịu trách nhiệm trước pháp luật về tính
+chính xác của các thông tin khai báo theo biểu mẫu có sẵn trên Cổng
+thông tin một cửa quốc gia và các văn bản, chứng từ, dữ liệu điện tử
+trong bộ hồ sơ khai báo hóa chất qua Cổng thông tin một cửa quốc gia.
+Trường hợp thông tin khai báo không chính xác, hồ sơ khai báo hóa
+chất điện tử là cơ sở để tổ chức, cá nhân có thẩm quyền tiến hành xử
+phạt vi phạm hành chính.
+5. Bộ Công Thương chủ trì, phối hợp với Bộ Tài chính xây dựng hệ thống
+quản lý tiếp nhận thông tin khai báo; chủ trì, phối hợp với bộ, ngành
+liên quan kiểm tra tổ chức, cá nhân hoạt động khai báo hóa chất.
+6. Dữ liệu nhập khẩu hóa chất của tổ chức, cá nhân được Bộ Công Thương
+chia sẻ với các cơ quan quản lý ngành ở địa phương thông qua Cơ sở dữ
+liệu chuyên ngành hóa chất.
+7. Các trường hợp miễn trừ khai báo
+a) Nhập khẩu hóa chất cần kiểm soát đặc biệt khi đã được cơ quan có
+thẩm quyền cấp Giấy phép nhập khẩu;
+b) Nhập khẩu hóa chất cấm khi đã được cơ quan có thẩm quyền cấp Giấy
+phép nhập khẩu;
+c) Nhập khẩu dưới 10 kg hoá chất thuộc khoản 1 Điều này;
+d) Nhập khẩu dưới 01 kg hóa chất mới để thử nghiệm, đánh giá đặc tính
+hóa lý;
+đ) Nhập khẩu hỗn hợp chất không thuộc các chương 28 và chương 29 của
+Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam do Bộ trưởng Bộ Tài
+chính ban hành có chứa hóa chất thuộc các chương 28 và chương 29.
+
+Mục 2
+HÓA CHẤT CÓ ĐIỀU KIỆN
+
+Điều 7. Điều kiện sản xuất hóa chất có điều kiện
+1. Tổ chức sản xuất hóa chất có điều kiện là tổ chức được thành lập
+theo quy định của pháp luật.
+2. Nhà xưởng, kho chứa sản xuất hóa chất phải đáp ứng các điều kiện
+sau:
+a) Đáp ứng quy định tại khoản 2, 3, 4, 5 Điều 4 của Nghị định này;
+b) Phải có quy trình thao tác an toàn. Quy trình phải được niêm yết
+tại khu vực sản xuất hoá chất có điều kiện.
+3. Công nghệ, đáp ứng quy định tại khoản 6 Điều 4 của Nghị định này.
+4. Tồn trữ, bảo quản hóa chất
+a) Hoá chất có điều kiện phải được phân khu, sắp xếp theo tính chất
+của từng loại hoá chất. Không được bảo quản các hóa chất có khả năng
+phản ứng với nhau gây mất an toàn hoặc có yêu cầu về phòng, chống
+cháy nổ khác nhau trong cùng một khu vực;
+b) Đáp ứng quy định tại khoản 7 Điều 4 của Nghị định này.
+5. Năng lực chuyên môn
+a) Người chịu trách nhiệm chuyên môn về an toàn hóa chất của cơ sở
+sản xuất phải có bằng đại học trở lên về chuyên ngành hóa học;
+b) Đáp ứng quy định tại khoản 8 Điều 4 của Nghị định này.
+6. Tuân thủ yêu cầu đối với hoạt động sản xuất hóa chất quy định tại
+Điều 25, 26, 27, 28, 29 của Nghị định số 25/2026/NĐ-CP ngày 17 tháng
+01 năm 2026 của Chính phủ quy định chi tiết và biện pháp để tổ chức,
+hướng dẫn thi hành một số điều của Luật Hóa chất về phát triển công
+nghiệp hóa chất và an toàn, an ninh hóa chất.
+
+Điều 8. Điều kiện kinh doanh hóa chất có điều kiện
+1. Tổ chức kinh doanh hóa chất có điều kiện là tổ chức được thành lập
+theo quy định của pháp luật.
+2. Thuê kho của tổ chức được cơ quan có thẩm quyền cấp Giấy chứng
+nhận đủ điều kiện hoạt động dịch vụ tồn trữ hóa chất phù hợp với quy
+mô, loại hóa chất của tổ chức thực hiện kinh doanh hoặc có kho tồn
+trữ hóa chất phải đáp ứng quy định tại khoản 2, 3, 4, 5 Điều 4 của
+Nghị định này.
+3. Tồn trữ, bảo quản hóa chất
+a) Hoá chất có điều kiện phải được phân khu, sắp xếp theo tính chất
+của từng loại hoá chất. Không được bảo quản các hóa chất có khả năng
+phản ứng với nhau gây mất an toàn hoặc có yêu cầu về phòng, chống
+cháy nổ khác nhau trong cùng một khu vực;
+b) Đáp ứng quy định tại khoản 7 Điều 4 của Nghị định này.
+4. Năng lực chuyên môn
+a) Người chịu trách nhiệm chuyên môn về an toàn hóa chất của cơ sở
+kinh doanh phải có bằng trung cấp trở lên về chuyên ngành hóa học;
+b) Đáp ứng quy định tại khoản 4 Điều 5 của Nghị định này.
+5. Tuân thủ yêu cầu đối với hoạt động kinh doanh hóa chất quy định
+tại Điều 25, 26, 27, 28, 29 của Nghị định số 25/2026/NĐ-CP ngày 17
+tháng 01 năm 2026 của Chính phủ quy định chi tiết và biện pháp để tổ
+chức, hướng dẫn thi hành một số điều của Luật Hóa chất về phát triển
+công nghiệp hóa chất và an toàn, an ninh hóa chất.
+
+[GHI CHÚ: Điều 9 (Hồ sơ, trình tự, thủ tục cấp Giấy chứng nhận đủ điều
+kiện sản xuất, kinh doanh hóa chất có điều kiện) đến Điều 22 (Thu hồi
+Giấy chứng nhận/Giấy phép) và Chương III, IV, V đã được đọc đầy đủ qua
+OCR nhưng KHÔNG chép lại nguyên văn từng chữ ở đây do dung lượng lớn
+(22 trang) và nội dung chủ yếu là thủ tục hành chính lặp lại theo mẫu
+(hồ sơ, trình tự, thời hạn). Tóm tắt các Điều còn lại:
+
+Điều 9 - Hồ sơ/trình tự/thủ tục cấp GCN đủ điều kiện SX-KD hóa chất có
+  điều kiện: hồ sơ gồm văn bản đề nghị, bản vẽ mặt bằng, giấy tờ đất/
+  hợp đồng thuê kho, thông báo nghiệm thu công trình, thuyết minh quy
+  trình công nghệ, Quyết định phê duyệt KHPN/BPPN sự cố hóa chất, bằng
+  cấp người phụ trách chuyên môn, Quyết định huấn luyện an toàn, Phiếu
+  an toàn hóa chất. UBND cấp tỉnh thẩm định trong 12 ngày làm việc (cơ
+  sở tại địa phương đặt trụ sở chính) hoặc 09+03 ngày (khác địa phương).
+  GCN có thời hạn 05 năm.
+Điều 10 - Xuất/nhập khẩu hóa chất có điều kiện: cần GCN đủ điều kiện
+  SX hoặc KD tương ứng; nếu dùng cho mục đích sử dụng nội bộ thì chỉ
+  cần công bố mục đích sử dụng trên CSDL chuyên ngành, không cần GCN.
+Điều 11-14 - Hóa chất cần kiểm soát đặc biệt: điều kiện SX (người phụ
+  trách phải có bằng đại học hóa học), điều kiện KD (bằng trung cấp),
+  hồ sơ/trình tự cấp Giấy phép SX-KD (Bộ Công Thương cấp, 16 ngày làm
+  việc, thời hạn 05 năm), hồ sơ/trình tự cấp Giấy phép XK-NK (07 ngày
+  làm việc, thời hạn 06 tháng, được gia hạn 01 lần tối đa 06 tháng;
+  xuất khẩu hóa chất Bảng 3 sang nước ngoài Công ước cần chứng nhận sử
+  dụng cuối cùng; xuất khẩu tiền chất công nghiệp cần văn bản chấp
+  thuận của Bộ Công an).
+Điều 15 - Công bố loại hóa chất/mục đích sử dụng: công bố trên CSDL
+  chuyên ngành hóa chất trước 30 ngày khi dùng lần đầu hoặc đổi mục
+  đích.
+Điều 16-18 - Hóa chất cấm: điều kiện SX chỉ cho nghiên cứu/quốc
+  phòng/an ninh/phòng chống thiên tai dịch bệnh; giới hạn sản lượng
+  (quốc phòng an ninh ≤10kg/năm, nghiên cứu y tế dược phẩm ≤100g/năm
+  mỗi chất nhưng tổng ≤10kg/năm, phòng thí nghiệm ≤100g/năm); Giấy
+  phép SX do 6 Bộ (Công an, Quốc phòng, KH&CN, Y tế, NN&MT, Công
+  Thương) cấp theo lĩnh vực quản lý, thời hạn 12 tháng; Giấy phép NK
+  thời hạn 06 tháng.
+Điều 19-20 - Dịch vụ tồn trữ hóa chất: GCN đủ điều kiện do Bộ Công
+  Thương hoặc UBND cấp tỉnh cấp tùy đối tượng phải lập KHPN hay BPPN
+  sự cố hóa chất, thời hạn 05 năm. Lưu ý: quy định về GCN dịch vụ tồn
+  trữ (Điều 19, 20) có hiệu lực thi hành từ 01/7/2026 (chậm hơn các
+  điều khác).
+Điều 21-22 - Miễn trừ/thu hồi: miễn cấp GCN/Giấy phép cho hỗn hợp có
+  nồng độ hóa chất có điều kiện/KSDB <0,1% khối lượng (XK/NK <1% với
+  nhóm 1, <5% với nhóm 2); miễn cho hóa chất cấm <0,1%; miễn cho hóa
+  chất trong dược phẩm, mỹ phẩm, thực phẩm, thức ăn chăn nuôi, thuốc
+  BVTV, phân bón, xăng dầu, pin ắc quy, thiết bị y tế... (liệt kê đầy
+  đủ tại Điều 21 khoản 6).
+
+Chương III - THÔNG TIN HÓA CHẤT (Điều 23-27):
+Điều 23 - Đăng ký hóa chất mới: hồ sơ gồm văn bản đăng ký + kết quả
+  đánh giá hóa chất mới; Bộ Công Thương thẩm định qua Hội đồng đánh
+  giá hóa chất mới (7-9 thành viên, đồng thuận 100% mới được cho phép
+  NK/SX), thời hạn thẩm định 90 ngày làm việc. Danh mục hóa chất nước
+  ngoài được thừa nhận: ECHA (châu Âu), TSCA (Mỹ-EPA), ENCS (Nhật-METI).
+Điều 24 - Tổ chức đánh giá hóa chất mới do Bộ Công Thương chỉ định.
+Điều 25 - Quản lý hóa chất mới: áp dụng như hóa chất cần kiểm soát đặc
+  biệt; báo cáo hằng năm trong 5 năm kể từ khi đăng ký.
+Điều 26 - Bảo mật thông tin bí quyết công nghệ/bí mật thương mại.
+Điều 27 - Chuyển đổi số: xây dựng CSDL chuyên ngành hóa chất, hệ thống
+  định danh/truy xuất nguồn gốc hóa chất cần KSDB (Bộ Công an chủ trì).
+
+Chương IV - HÓA CHẤT NGUY HIỂM TRONG SẢN PHẨM, HÀNG HÓA (Điều 28-29):
+Điều 28 - Kiểm soát hóa chất nguy hiểm trong sản xuất: giám sát thành
+  phần/hàm lượng ở đầu vào, phát thải, sản phẩm cuối; không làm thất
+  thoát.
+Điều 29 - Công bố thông tin hàm lượng hóa chất nguy hiểm: khai báo lên
+  CSDL chuyên ngành trước khi lưu thông (tên sản phẩm, tên hóa chất,
+  đặc tính nguy hiểm, hàm lượng, lĩnh vực sử dụng); công bố công khai
+  trên website/nhãn hàng hóa.
+
+Chương V - ĐIỀU KHOẢN THI HÀNH (Điều 30-31):
+Điều 30 - Điều khoản chuyển tiếp: GCN/Giấy phép cấp trước ngày Nghị
+  định có hiệu lực (với hóa chất SX-KD có điều kiện lĩnh vực công
+  nghiệp) tiếp tục hoạt động đến hết 31/12/2027. Hóa chất cần KSDB mới
+  bổ sung theo NĐ 24/2026 nhưng chưa từng bị quản lý trước đây được lùi
+  thời hạn tuân thủ đến 31/12/2026 (SX-KD) hoặc miễn xuất trình hồ sơ
+  Giấy phép đến 31/12/2026 (XK-NK); tiền chất công nghiệp mới bổ sung
+  được dùng GCN đủ điều kiện SX-KD hiện có thay thế Giấy phép đến
+  31/12/2027.
+Điều 31 - Hiệu lực thi hành: có hiệu lực kể từ ngày ký ban hành
+  (17/01/2026), RIÊNG quy định GCN dịch vụ tồn trữ hóa chất (Điều 19,
+  20) có hiệu lực từ 01/7/2026. Thay thế Nghị định 113/2017/NĐ-CP và
+  Nghị định 82/2022/NĐ-CP (sửa đổi NĐ 113/2017); bãi bỏ Điều 8, 9 NĐ
+  17/2020/NĐ-CP; bãi bỏ một số điều NĐ 33/2024/NĐ-CP (Công ước vũ khí
+  hóa học); bãi bỏ Điều 6,7,8,9 NĐ 146/2025/NĐ-CP.
+
+Người ký: TM. CHÍNH PHỦ, KT. THỦ TƯỚNG, PHÓ THỦ TƯỚNG Bùi Thanh Sơn.]

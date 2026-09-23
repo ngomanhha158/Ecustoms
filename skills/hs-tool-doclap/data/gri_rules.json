@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "source": "6 Quy tắc tổng quát giải thích việc phân loại hàng hóa theo Danh mục HS (GRI) - văn bản pháp luật công khai, ban hành kèm Thông tư của Bộ Tài chính về Danh mục hàng hóa XNK Việt Nam (hiện hành: Thông tư 31/2022/TT-BTC và các văn bản sửa đổi).",
+    "note": "Người dùng tự cập nhật lại nguyên văn chính xác theo Thông tư hiện hành mới nhất khi có thay đổi."
+  },
+  "rules": [
+    {
+      "so": 1,
+      "ten": "Quy tắc 1",
+      "noi_dung": "Tên của các Phần, Chương hoặc Phân chương được đưa ra chỉ nhằm mục đích dễ tra cứu. Để đảm bảo tính pháp lý, việc phân loại hàng hóa phải được xác định theo nội dung của từng nhóm và bất cứ chú giải Phần, Chương nào có liên quan, và theo các quy tắc dưới đây khi các nhóm hoặc chú giải đó không có yêu cầu nào khác."
+    },
+    {
+      "so": 2,
+      "ten": "Quy tắc 2",
+      "noi_dung": "(a) Bất kỳ mặt hàng nào được nêu trong một nhóm hàng thì mặt hàng đó ở dạng chưa hoàn chỉnh hoặc chưa hoàn thiện nhưng đã có đặc trưng cơ bản của hàng hóa đã hoàn chỉnh hoặc hoàn thiện cũng thuộc nhóm hàng đó (kể cả hàng hóa ở dạng tháo rời hay chưa lắp ráp).\n(b) Nếu một nguyên liệu, một chất được nêu trong một nhóm hàng thì nguyên liệu, chất đó ở dạng hỗn hợp hay hợp chất với những nguyên liệu hay chất khác cũng thuộc nhóm đó. Hàng hóa làm toàn bộ bằng một loại nguyên liệu hay một chất, hoặc làm một phần từ nguyên liệu hay chất đó được nêu trong một nhóm hàng thì cũng thuộc nhóm đó, kể cả khi hàng hóa đó đã pha trộn với nguyên liệu hay chất khác. Việc phân loại những hàng hóa làm từ hai loại nguyên liệu hay hai chất trở lên phải tuân theo Quy tắc 3."
+    },
+    {
+      "so": 3,
+      "ten": "Quy tắc 3",
+      "noi_dung": "Khi áp dụng Quy tắc 2(b) hoặc vì bất cứ lý do nào khác, hàng hóa thoạt nhìn có thể phân loại vào hai hay nhiều nhóm, thì áp dụng theo trình tự sau:\n(a) Nhóm nào có mô tả cụ thể nhất sẽ được ưu tiên hơn các nhóm có mô tả khái quát khi thực hiện việc phân loại hàng hóa. Tuy nhiên, khi hai hay nhiều nhóm mà mỗi nhóm chỉ liên quan đến một phần của nguyên liệu hoặc chất chứa trong hàng hóa là hỗn hợp hay hợp chất, hoặc chỉ liên quan đến một phần của hàng hóa trong trường hợp hàng hóa đó ở dạng bộ được đóng gói để bán lẻ, thì những nhóm này được coi như thể hiện đặc trưng ngang nhau về những hàng hóa nói trên, ngay cả khi một trong số các nhóm đó có mô tả đầy đủ hơn hoặc chính xác hơn về những hàng hóa đó.\n(b) Những hàng hóa hỗn hợp bao gồm nhiều nguyên liệu khác nhau hoặc những hàng hóa được làm từ nhiều bộ phận cấu thành khác nhau, và những hàng hóa ở dạng bộ để bán lẻ, nếu không phân loại được theo Quy tắc 3(a), thì phân loại theo nguyên liệu hoặc bộ phận cấu thành tạo ra đặc tính cơ bản của chúng.\n(c) Khi hàng hóa không thể phân loại theo Quy tắc 3(a) hoặc 3(b) nêu trên thì phân loại theo nhóm cuối cùng theo thứ tự đánh số trong số các nhóm tương đương được xem xét."
+    },
+    {
+      "so": 4,
+      "ten": "Quy tắc 4",
+      "noi_dung": "Hàng hóa không thể phân loại theo đúng các Quy tắc trên đây thì được phân loại vào nhóm phù hợp với loại hàng hóa giống chúng nhất."
+    },
+    {
+      "so": 5,
+      "ten": "Quy tắc 5",
+      "noi_dung": "Ngoài những quy định trên, những quy tắc sau được áp dụng đối với những hàng hóa dưới đây:\n(a) Bao đựng máy ảnh, hộp đàn nhạc, bao súng, hộp đựng dụng cụ vẽ, hộp tư trang và các loại bao hộp tương tự, thích hợp hoặc có hình dạng đặc biệt để chứa hàng hóa hoặc bộ hàng hóa xác định, có thể dùng trong thời gian dài và đi kèm với sản phẩm khi bán, được phân loại cùng với những sản phẩm này. Tuy nhiên, nguyên tắc này không được áp dụng đối với bao bì mang tính chất cơ bản nổi trội hơn so với hàng hóa mà nó chứa đựng.\n(b) Ngoài Quy tắc 5(a), bao bì đựng hàng hóa được phân loại cùng với hàng hóa đó khi bao bì là loại thường được dùng cho loại hàng hóa đó. Tuy nhiên, nguyên tắc này không áp dụng đối với các loại bao bì mà rõ ràng là phù hợp để dùng lặp lại."
+    },
+    {
+      "so": 6,
+      "ten": "Quy tắc 6",
+      "noi_dung": "Để đảm bảo tính pháp lý, việc phân loại hàng hóa vào các phân nhóm của một nhóm phải được xác định phù hợp theo nội dung của từng phân nhóm, các chú giải phân nhóm có liên quan, và các Quy tắc trên với những sửa đổi về chi tiết cho thích hợp, trong điều kiện là chỉ có những phân nhóm cùng cấp độ mới so sánh được. Theo Quy tắc này thì chú giải Phần và Chương có liên quan cũng được áp dụng, trừ khi nội dung đòi hỏi không được áp dụng như vậy."
+    }
+  ]
+}
