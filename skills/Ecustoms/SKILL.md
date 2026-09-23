@@ -1,5 +1,5 @@
 ---
-name: "hs-tool-doclap"
+name: "Ecustoms"
 description: "Công cụ tra cứu & phân loại mã HS tự xây dựng (dữ liệu Biểu thuế/Chú giải công khai do người dùng tự nhập, tự cập nhật văn bản pháp luật mới)."
 ---
 

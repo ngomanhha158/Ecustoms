@@ -9,7 +9,7 @@ thép hình chữ H).
 ## Cấu trúc thư mục
 
 ```
-hs-tool-doclap/
+Ecustoms/
 ├── data/
 │   ├── hs_tree.json        # Biểu thuế XNK — nhập qua import_tariff.py
 │   ├── chapter_notes.json  # Chú giải pháp lý theo Chương
