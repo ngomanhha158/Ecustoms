@@ -66,6 +66,7 @@ def dang_ap(v, hom_nay=None):
 def vu_theo_ma(kho, code, chi_dang_ap=False):
     """Các vụ có mã 8 số này, đang áp trước rồi hiệu lực mới trước (như ILMS vu_theo_ma_hs)."""
     ds = [v for v in kho["vu_viec"] if code in v["ma_hs"] and (dang_ap(v) or not chi_dang_ap)]
+    ds.sort(key=lambda v: v.get("id", 0))                    # trùng ngày: id nhỏ trước, như ILMS trả thực tế
     ds.sort(key=lambda v: v["hieu_luc_tu"], reverse=True)
     return sorted(ds, key=lambda v: not dang_ap(v))   # sort ổn định: giữ thứ tự ngày trong mỗi nhóm
 

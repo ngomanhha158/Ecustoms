@@ -1,6 +1,6 @@
 {
  "nguon": "https://truelogistics.up.railway.app",
- "dong_bo_luc": "2026-09-25T04:03:08+00:00",
+ "dong_bo_luc": "2026-09-25T06:52:13+00:00",
  "vu_viec": [
   {
    "id": 2,
@@ -2737,22 +2737,30 @@
    "muc_cao": 34.27
   },
   {
-   "id": 7,
-   "ma_vu_viec": "QD1624-BCT",
+   "id": 9,
+   "ma_vu_viec": "AD15.DAY",
    "loai": "cbpg",
    "giai_doan": "chinh_thuc",
-   "ten_hang": "Vật liệu hàn (que hàn inox 308 có bọc thuốc; dây hàn thép đặc không lõi thuốc)",
-   "hieu_luc_tu": "2022-12-30",
-   "hieu_luc_den": null,
-   "da_doi_chieu": true,
+   "ten_hang": "Dây hàn thép đặc không lõi thuốc",
+   "hieu_luc_tu": "2022-08-20",
+   "hieu_luc_den": "2027-08-19",
+   "da_doi_chieu": false,
    "dang_ap": true,
    "so_hieu": "1624/QĐ-BCT, 2959/QĐ-BCT",
-   "mo_ta": "Que hàn inox 308 có bọc thuốc bị áp dụng thuế CBPG chính thức được phân loại theo các mã HS sau: 8311.10.90, 8311.30.99, 8311.90.00.\nDây hàn thép đặc không lõi thuốc bị áp dụng thuế CBPG chính thức được phân loại theo các mã HS sau: 7217.10.10, 7217.30.19, 7217.90.10, 7229.20.00, 7229.90.21, 7229.90.29, 7229.90.99, 8311.10.10, 8311.10.90, 8311.30.91, 8311.30.99, 8311.90.00.",
-   "muc_khong_chung_tu": null,
-   "ghi_chu": "QĐ 2959/QĐ-BCT (30/12/2022) sửa đổi Điều 1 và Tiểu mục 1.1, 1.2 Mục 1 Thông báo kèm QĐ 1624/QĐ-BCT (15/8/2022) về thuế CBPG chính thức với vật liệu hàn xuất xứ Ma-lai-xi-a, Thái Lan và Trung Quốc — cập nhật mã HS theo Thông tư 31/2022/TT-BTC. Hàng miễn trừ có thay đổi mã số thì thực hiện miễn trừ theo mã mới (Điều 2.2); các QĐ miễn trừ ban hành trước tiếp tục có giá trị đến hết hạn. Tệp nguồn có chú thích ¹ tại 7217.10.10 và 7229.90.99: các mã này cũng đang bị áp biện pháp chống lẩn tránh với thép cuộn, thép dây (QĐ 693/QĐ-BCT, vụ AC01.SG04).",
-   "doi_chieu_luc": "2026-09-23T16:44:19.440714Z",
-   "doi_chieu_ten": "NMH",
+   "mo_ta": "Dây hàn thép đặc không lõi thuốc: dây hàn có lõi là thép (không bao gồm thép inox); đường kính lõi thép của dây hàn nhỏ hơn hoặc bằng 5,0 mm; dây hàn được mạ đồng hoặc không mạ; lõi thép chứa các nguyên tố có hàm lượng phần trăm (%) theo khối lượng thuộc phạm vi sau: Các-bon (C) từ 0,04% đến 0,2%, Phốt pho (P) nhỏ hơn hoặc bằng 0,03%, Lưu huỳnh (S) nhỏ hơn hoặc bằng 0,035%.",
+   "muc_khong_chung_tu": 36.56,
+   "ghi_chu": "QĐ 1624/QĐ-BCT (15/8/2022, hiệu lực 20/8/2022, thời hạn 05 năm) áp thuế CBPG chính thức với vật liệu hàn xuất xứ Ma-lai-xi-a, Thái Lan, Trung Quốc (mã vụ việc AD15), gồm HAI mặt hàng có bảng mức thuế riêng: AD15.QUE (que hàn inox 308 có bọc thuốc) và AD15.DAY (dây hàn thép đặc không lõi thuốc). Ba mã 8311.10.90, 8311.30.99, 8311.90.00 thuộc CẢ HAI mặt hàng — xác định đúng mặt hàng theo mô tả trước khi chọn mức thuế. QĐ 2959/QĐ-BCT (30/12/2022) chỉ sửa danh sách mã HS theo TT 31/2022/TT-BTC, không đổi mức thuế; QĐ miễn trừ ban hành trước tiếp tục có giá trị đến hết hạn. Chú thích ¹ ² tại 7217.10.10 và 7229.90.99: đồng thời đang bị áp biện pháp chống lẩn tránh với thép cuộn, thép dây (vụ AC01.SG04). Thái Lan: không áp dụng do thỏa mãn khoản 3 Điều 78 Luật Quản lý ngoại thương — C/O Thái Lan không phải nộp thuế CBPG (Mục 5.3 Bước 1 TH2). Kiswel Sdn. Bhd được hoàn chênh lệch -1,19% so với thuế tạm thời 15,30% (Mục 6).",
+   "doi_chieu_luc": null,
+   "doi_chieu_ten": null,
    "van_ban": [
+    {
+     "so_hieu": "1624/QĐ-BCT",
+     "vai": "goc",
+     "van_ban_id": 83,
+     "ten": "Quyết định Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm vật liệu hàn có xuất xứ từ Ma-lai-xi-a, Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa",
+     "ngay_ban_hanh": "2022-08-15",
+     "link_goc": ""
+    },
     {
      "so_hieu": "2959/QĐ-BCT",
      "vai": "sua_doi",
@@ -2760,14 +2768,6 @@
      "ten": "Sửa đổi QĐ 1624/QĐ-BCT về thuế CBPG chính thức vật liệu hàn (mã HS theo TT 31/2022)",
      "ngay_ban_hanh": "2022-12-30",
      "link_goc": "https://drive.google.com/file/d/18hmd_m5T7JogYr2lPqv_-th5vS5aI_wb/view?usp=drivesdk"
-    },
-    {
-     "so_hieu": "1624/QĐ-BCT",
-     "vai": "goc",
-     "van_ban_id": null,
-     "ten": null,
-     "ngay_ban_hanh": null,
-     "link_goc": ""
     }
    ],
    "ma_hs": [
@@ -2787,33 +2787,222 @@
    "nuoc": [
     {
      "nuoc": "CN",
-     "muc_toan_quoc": null,
+     "muc_toan_quoc": 36.56,
      "ten_nuoc": "Trung Quốc"
     },
     {
      "nuoc": "MY",
-     "muc_toan_quoc": null,
+     "muc_toan_quoc": 34.37,
+     "ten_nuoc": "Malaysia"
+    }
+   ],
+   "quy_cach": [
+    {
+     "ten": "Lõi",
+     "gia_tri": "thép (không bao gồm thép inox)"
+    },
+    {
+     "ten": "Đường kính lõi",
+     "gia_tri": "nhỏ hơn hoặc bằng 5,0 mm"
+    },
+    {
+     "ten": "Bề mặt",
+     "gia_tri": "được mạ đồng hoặc không mạ"
+    },
+    {
+     "ten": "Thành phần lõi",
+     "gia_tri": "C từ 0,04% đến 0,2%; P ≤ 0,03%; S ≤ 0,035%"
+    }
+   ],
+   "nha_sx": [
+    {
+     "id": 55,
+     "nuoc": "MY",
+     "ten": "Kiswel Sdn. Bhd",
+     "nhom": null,
+     "muc_thue": 14.11,
+     "khong_ap": false,
+     "cong_ty_tm": []
+    },
+    {
+     "id": 56,
+     "nuoc": "CN",
+     "ten": "Lincoln Electric (Tangshan) Welding Materials Co., Ltd",
+     "nhom": null,
+     "muc_thue": 22.77,
+     "khong_ap": false,
+     "cong_ty_tm": []
+    }
+   ],
+   "loai_tru": [
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Dây hàn có lõi là thép inox hoặc kim loại cơ bản khác không phải là thép",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Đường kính lõi thép của dây hàn lớn hơn 5,0 mm",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Lõi thép chứa một trong các nguyên tố: C lớn hơn 0,2% hoặc P lớn hơn 0,03% hoặc S lớn hơn 0,035% hoặc Cr từ 8% trở lên",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Dây hàn có lõi thuốc hoặc dây hàn có lõi là chất trợ dung",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Dây hàn được mạ bằng kim loại cơ bản khác không phải đồng",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Dây hàn dạng thanh, que có chiều dài nhỏ hơn hoặc bằng 500 mm",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    }
+   ],
+   "muc_cao": 36.56
+  },
+  {
+   "id": 8,
+   "ma_vu_viec": "AD15.QUE",
+   "loai": "cbpg",
+   "giai_doan": "chinh_thuc",
+   "ten_hang": "Que hàn inox 308 có bọc thuốc",
+   "hieu_luc_tu": "2022-08-20",
+   "hieu_luc_den": "2027-08-19",
+   "da_doi_chieu": false,
+   "dang_ap": true,
+   "so_hieu": "1624/QĐ-BCT, 2959/QĐ-BCT",
+   "mo_ta": "Que hàn inox 308 có bọc thuốc: que hàn có lõi là thép inox 308; đường kính lõi thép của que hàn từ 2,0 mm đến 4,0 mm với dung sai là +/- 0,2 mm; que hàn được phủ thuốc bọc.",
+   "muc_khong_chung_tu": 36.11,
+   "ghi_chu": "QĐ 1624/QĐ-BCT (15/8/2022, hiệu lực 20/8/2022, thời hạn 05 năm) áp thuế CBPG chính thức với vật liệu hàn xuất xứ Ma-lai-xi-a, Thái Lan, Trung Quốc (mã vụ việc AD15), gồm HAI mặt hàng có bảng mức thuế riêng: AD15.QUE (que hàn inox 308 có bọc thuốc) và AD15.DAY (dây hàn thép đặc không lõi thuốc). Ba mã 8311.10.90, 8311.30.99, 8311.90.00 thuộc CẢ HAI mặt hàng — xác định đúng mặt hàng theo mô tả trước khi chọn mức thuế. QĐ 2959/QĐ-BCT (30/12/2022) chỉ sửa danh sách mã HS theo TT 31/2022/TT-BTC, không đổi mức thuế; QĐ miễn trừ ban hành trước tiếp tục có giá trị đến hết hạn. Chú thích ¹ ² tại 7217.10.10 và 7229.90.99: đồng thời đang bị áp biện pháp chống lẩn tránh với thép cuộn, thép dây (vụ AC01.SG04). Kiswel Sdn. Bhd: không áp dụng do thỏa mãn khoản 2 Điều 78 Luật Quản lý ngoại thương.",
+   "doi_chieu_luc": null,
+   "doi_chieu_ten": null,
+   "van_ban": [
+    {
+     "so_hieu": "1624/QĐ-BCT",
+     "vai": "goc",
+     "van_ban_id": 83,
+     "ten": "Quyết định Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm vật liệu hàn có xuất xứ từ Ma-lai-xi-a, Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa",
+     "ngay_ban_hanh": "2022-08-15",
+     "link_goc": ""
+    },
+    {
+     "so_hieu": "2959/QĐ-BCT",
+     "vai": "sua_doi",
+     "van_ban_id": 11,
+     "ten": "Sửa đổi QĐ 1624/QĐ-BCT về thuế CBPG chính thức vật liệu hàn (mã HS theo TT 31/2022)",
+     "ngay_ban_hanh": "2022-12-30",
+     "link_goc": "https://drive.google.com/file/d/18hmd_m5T7JogYr2lPqv_-th5vS5aI_wb/view?usp=drivesdk"
+    }
+   ],
+   "ma_hs": [
+    "83111090",
+    "83113099",
+    "83119000"
+   ],
+   "nuoc": [
+    {
+     "nuoc": "CN",
+     "muc_toan_quoc": 11.43,
+     "ten_nuoc": "Trung Quốc"
+    },
+    {
+     "nuoc": "MY",
+     "muc_toan_quoc": 12.78,
      "ten_nuoc": "Malaysia"
     },
     {
      "nuoc": "TH",
-     "muc_toan_quoc": null,
+     "muc_toan_quoc": 36.11,
      "ten_nuoc": "Thái Lan"
     }
    ],
    "quy_cach": [
     {
-     "ten": "Que hàn",
-     "gia_tri": "inox 308, có bọc thuốc"
+     "ten": "Lõi",
+     "gia_tri": "thép inox 308"
     },
     {
-     "ten": "Dây hàn",
-     "gia_tri": "thép đặc, không lõi thuốc"
+     "ten": "Đường kính lõi",
+     "gia_tri": "từ 2,0 mm đến 4,0 mm, dung sai +/- 0,2 mm"
+    },
+    {
+     "ten": "Bề mặt",
+     "gia_tri": "được phủ thuốc bọc"
     }
    ],
-   "nha_sx": [],
-   "loai_tru": [],
-   "muc_cao": null
+   "nha_sx": [
+    {
+     "id": 53,
+     "nuoc": "MY",
+     "ten": "Kiswel Sdn. Bhd",
+     "nhom": null,
+     "muc_thue": null,
+     "khong_ap": true,
+     "cong_ty_tm": []
+    },
+    {
+     "id": 54,
+     "nuoc": "TH",
+     "ten": "Thai Hansa Welding Electrodes Co., Ltd",
+     "nhom": null,
+     "muc_thue": 36.11,
+     "khong_ap": false,
+     "cong_ty_tm": []
+    }
+   ],
+   "loai_tru": [
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Que hàn có lõi không phải thép inox 308",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Lõi thép inox 308 có đường kính lớn hơn 4,2 mm hoặc nhỏ hơn 1,8 mm",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Que hàn không được phủ thuốc bọc",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    }
+   ],
+   "muc_cao": 36.11
   },
   {
    "id": 1,

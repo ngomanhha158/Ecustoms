@@ -14,7 +14,7 @@ import io
 import os
 import sys
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace", line_buffering=True)
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ilms_api  # noqa: E402
 import pvtm_local as pl  # noqa: E402
@@ -44,7 +44,8 @@ def cac_lo(vu):
 
 
 def rut(kq):
-    return [{k: v[k] for k in TRUONG} for v in kq["vu_viec"]]
+    # Thứ tự các vụ không phải luật (ILMS không chốt thứ tự khi trùng ngày hiệu lực) -> so theo mã vụ.
+    return sorted(({k: v[k] for k in TRUONG} for v in kq["vu_viec"]), key=lambda v: v["ma_vu_viec"])
 
 
 def main():

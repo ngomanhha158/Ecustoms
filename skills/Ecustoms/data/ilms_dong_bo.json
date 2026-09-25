@@ -5,6 +5,7 @@
   "342/2026/NĐ-CP": "chinh_sach_phap_luat\\342_2026_nd_cp_quy_dinh_chi_tiet_luat_thuong_mai_va_luat_qua.txt",
   "126/2026/TT-BQP": "chinh_sach_phap_luat\\126_2026_tt_bqp_danh_muc_san_pham_mat_ma_dan_su_co_muc_do_ru.txt",
   "341/2026/NĐ-CP": "chinh_sach_phap_luat\\341_2026_nd_cp_quy_dinh_chi_tiet_mot_so_dieu_va_bien_phap_th.txt",
+  "2084/QĐ-BCT": "cbpg_pvtm\\2084_qd_bct_ve_ket_qua_ra_soat_lan_thu_ba_viec_ap_dung_bien_.txt",
   "20601/CHQ-GSQL": "cong_van_huong_dan\\20601_chq_gsql_hang_hoa_nhap_khau_co_ky_hieu.txt",
   "42/2026/TT-BCT": "chinh_sach_phap_luat\\42_2026_tt_bct_danh_muc_chi_tiet_hang_hoa_luong_dung_thuoc_t.txt",
   "16/2026/TT-BNV": "chinh_sach_phap_luat\\16_2026_tt_bnv_danh_muc_san_pham_hang_hoa_co_muc_do_rui_ro_t.txt",
@@ -65,5 +66,7 @@
   "762/QĐ-CHQ": "chinh_sach_phap_luat\\762_qd_chq_so_tay_nghiep_vu_xu_phat_vi_pham_hanh_chinh_trong.txt",
   "693/QĐ-BCT": "cbpg_pvtm\\693_qd_bct_gia_han_ap_dung_bien_phap_chong_lan_tranh_pvtm_th.txt",
   "2959/QĐ-BCT": "cbpg_pvtm\\2959_qd_bct_sua_doi_qd_1624_qd_bct_ve_thue_cbpg_chinh_thuc_v.txt",
+  "1624/QĐ-BCT": "cbpg_pvtm\\1624_qd_bct_quyet_dinh_ap_dung_thue_chong_ban_pha_gia_chinh_.txt",
+  "1726/QĐ-BCT": "cbpg_pvtm\\1726_qd_bct_ve_viec_sua_doi_bo_sung_quyet_dinh_918_qd_bct_ng.txt",
   "837/TXNK-QLT": "cong_van_huong_dan\\837_txnk_qlt_dieu_kien_xac_dinh_thue_cbpg_thep_kiem_tra_giay.txt"
 }
