@@ -178,11 +178,31 @@ def _ten_tep(so_hieu, ten):
     return re.sub(r"[^a-z0-9]+", "_", goc).strip("_")[:60] + ".txt"
 
 
+TRANG = 100   # trần `limit` của GET /api/tracuu/van-ban
+
+
+def _moi_van_ban_ilms():
+    """Cả kho văn bản ILMS, lấy từng trang 100 bằng `offset`.
+
+    Thiếu dù một văn bản là bước 3 của dongbo XÓA NHẦM bản trên máy, nên:
+    ILMS cũ chưa hiểu `offset` sẽ trả lại trang đầu -> thấy id trùng là dừng
+    hẳn, không đoán."""
+    ds, da_thay = [], set()
+    while True:
+        trang = ilms_api.get("/van-ban", limit=TRANG, offset=len(ds))["ket_qua"]
+        moi = [v for v in trang if v["id"] not in da_thay]
+        if len(moi) != len(trang):
+            raise SystemExit("ILMS chưa hỗ trợ lấy từng trang (offset) mà kho đã từ 100 văn bản — "
+                             "cập nhật ILMS rồi chạy lại dongbo.")
+        ds += trang
+        da_thay |= {v["id"] for v in trang}
+        if len(trang) < TRANG:
+            return ds
+
+
 def api_dongbo(chi_keo=False):
     import shutil
-    ds = ilms_api.get("/van-ban", limit=100)["ket_qua"]
-    if len(ds) >= 100:   # API trả tối đa 100: đủ 100 là có thể bị cắt -> bước xóa sẽ xóa nhầm bản trên máy
-        raise SystemExit("Kho ILMS đã có từ 100 văn bản — dongbo cần phân trang trước khi chạy tiếp.")
+    ds = _moi_van_ban_ilms()
     tren_ilms = {v["so_hieu"]: v for v in ds}
     so_do = {}
     if os.path.exists(SO_DO):
@@ -208,7 +228,7 @@ def api_dongbo(chi_keo=False):
             print(f"  ĐẨY LÊN ILMS: {row['so_hieu']}")
             day += 1
         if day:
-            tren_ilms = {v["so_hieu"]: v for v in ilms_api.get("/van-ban", limit=100)["ket_qua"]}
+            tren_ilms = {v["so_hieu"]: v for v in _moi_van_ban_ilms()}
     # 2. Dời tệp định dạng cũ (không [Số hiệu]) sang references/_cu/ — nội dung đã có trên ILMS.
     doi = 0
     for rel, full in find_ref_files():
