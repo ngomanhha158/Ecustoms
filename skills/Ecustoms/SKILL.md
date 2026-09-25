@@ -1,6 +1,6 @@
 ---
 name: "Ecustoms"
-description: "Tra cứu & hỗ trợ phân loại mã HS (Biểu thuế 2026, Chú giải Chương, GRI, văn bản pháp luật) và tra cứu/tính thuế PHÒNG VỆ THƯƠNG MẠI — chống bán phá giá (CBPG), chống lẩn tránh — theo mã HS, tên hàng, nhà sản xuất, công ty thương mại, mác thép, tiêu chuẩn, số QĐ. Đọc kho chung ILMSv2 khi có ILMS_URL. Dùng khi hỏi mã HS, thuế suất, FTA, chính sách mặt hàng, CBPG/PVTM."
+description: "Tra cứu & hỗ trợ phân loại mã HS (Biểu thuế 2026, Chú giải Chương, GRI, văn bản pháp luật) và tra cứu/tính thuế PHÒNG VỆ THƯƠNG MẠI — chống bán phá giá (CBPG), chống lẩn tránh — theo mã HS, tên hàng, nhà sản xuất, công ty thương mại, mác thép, tiêu chuẩn, số QĐ. Chạy độc lập trên máy; ILMSv2 chỉ để đồng bộ dữ liệu (`dongbo`). Dùng khi hỏi mã HS, thuế suất, FTA, chính sách mặt hàng, CBPG/PVTM."
 ---
 
 # Công cụ tra cứu & hỗ trợ phân loại HS (bản độc lập)
@@ -50,50 +50,47 @@ thiếu dữ liệu.
 
 Xem `README.md` ở thư mục gốc để biết cách nhập/cập nhật dữ liệu.
 
-## Nối với kho chung ILMSv2 (khuyên dùng)
+## Chạy độc lập — ILMSv2 chỉ là nơi đồng bộ dữ liệu
 
-Đặt biến môi trường thì các lệnh `code`, `search`, `chapter`, `gri`,
-`refs` đọc thẳng kho Tra cứu HS của ILMSv2 (cùng dữ liệu nhân viên thấy
-trên tab "Tra cứu HS"), và `add_reference.py` gửi văn bản mới vào kho ấy
-thay vì lưu tệp trên máy:
+Mọi lệnh tra cứu (`code`, `search`, `chapter`, `heading`, `gri`, `refs`, `vanban`,
+`case`, `cbpg`, `vu`, `thue`) chạy **hoàn toàn trên máy**, không cần mạng, không cần
+ILMS. ILMSv2 chỉ dùng ở lệnh đồng bộ:
 
 ```powershell
 $env:ILMS_URL  = "https://truelogistics.up.railway.app"
 $env:ILMS_USER = "tai_khoan_ilms"      # hoặc $env:ILMS_TOKEN = "<token>"
 $env:ILMS_PASS = "mat_khau"
-python scripts/query_hs.py code 72287010
-python scripts/query_hs.py refs "thep can nong" --category cbpg_pvtm
-python scripts/query_hs.py vanban 3765/QĐ-BCT        # đọc toàn văn (id hoặc số hiệu)
-python scripts/add_reference.py --title "..." --so-hieu "123/QĐ-BCT" --category cbpg_pvtm --ngay 2026-09-30 --file vb.txt
+python scripts/query_hs.py dongbo            # kéo văn bản + kho CBPG về máy, đẩy văn bản chỉ có trên máy lên
+python scripts/query_hs.py dongbo --chi-keo  # chỉ kéo về
+python scripts/kiem_khop.py                  # so luật tính thuế CBPG trên máy với ILMS (phải 0 lệch)
 ```
 
-Thêm văn bản cần tài khoản có quyền `tracuu.manage` (MANAGER, ACCOUNTANT,
-DOCS). `heading` và `case` vẫn đọc tệp trên máy vì ILMS chưa có hai loại
-dữ liệu này. Không đặt `ILMS_URL` thì mọi lệnh chạy trên tệp máy như cũ.
+- `dongbo` kéo: mọi văn bản về `references/<loại>/`, mọi vụ phòng vệ thương mại (đủ hồ sơ,
+  mức thuế từng nhà SX, công ty TM, loại trừ) về `data/pvtm.json`. Ghi xong mới thay tệp cũ.
+- Dữ liệu CBPG cũ hơn **7 ngày** thì `cbpg`/`vu`/`thue` in cảnh báo đầu kết quả — mức thuế đổi
+  theo QĐ mới, nhắc người dùng chạy `dongbo`.
+- Luật tính thuế CBPG (`scripts/pvtm_local.py`) là **bản chép** luật của ILMSv2
+  (`backend/app/services/pvtm.py`). ILMS đổi luật thì chép lại khối "LUẬT" rồi chạy
+  `kiem_khop.py`; lệch dù một lô là chưa được dùng.
+- `add_reference.py` có `ILMS_URL` thì gửi văn bản mới lên kho ILMS (cần quyền `tracuu.manage`:
+  MANAGER, ACCOUNTANT, DOCS), sau đó chạy `dongbo --chi-keo` để có bản trên máy.
+- Biểu thuế, Chú giải, GRI trong `data/` là dữ liệu gốc của skill (ILMS được nạp từ chính các tệp này).
 
 ## Tra cứu thuế phòng vệ thương mại (CBPG, chống lẩn tránh)
 
-Cần `ILMS_URL`. Dữ liệu và luật tính nằm ở kho ILMSv2 — skill chỉ đọc, không tự tính:
-
 ```bash
-python scripts/query_hs.py cbpg "LX International"        # tìm theo tên hàng, mã HS, nhà SX, công ty TM, mác thép, tiêu chuẩn, số QĐ
+python scripts/query_hs.py cbpg "LX International"        # tìm theo tên hàng, mã HS, nhà SX, công ty TM, quy cách, mác thép, tiêu chuẩn, số QĐ
 python scripts/query_hs.py cbpg "DX57D+Z" --kieu mac_thep
-python scripts/query_hs.py vu AD19                          # hồ sơ đủ: mô tả, quy cách, mã HS, mức thuế từng nhà SX, loại trừ
+python scripts/query_hs.py vu AD19                          # hồ sơ đủ: văn bản, mô tả, quy cách, mã HS, mức thuế từng nhà SX, loại trừ
 python scripts/query_hs.py thue 7210.49.11 --nuoc KR --nsx "Hyundai Steel" --nxk "LX International"
 python scripts/query_hs.py thue 7210.49.11 --nuoc CN --mac DX57D+Z --tc "EN 10346:2024"
+python scripts/query_hs.py vanban 3765/QĐ-BCT               # toàn văn một văn bản (số hiệu hoặc chỉ số)
 ```
 
 - Lệnh `code <mã>` tự báo **"ĐANG BỊ ÁP THUẾ PHÒNG VỆ THƯƠNG MẠI"** khi mã thuộc vụ đang áp.
-- Khi phân loại một mã có dấu hiệu CBPG, luôn chạy `thue` với đủ nước C/O, nhà SX, nhà XK (và mác thép + tiêu chuẩn với hàng thép) rồi trích **từng bước và căn cứ** máy trả về.
+- Khi phân loại một mã có dấu hiệu CBPG, luôn chạy `thue` với đủ nước C/O, nhà SX, nhà XK (và mác thép + tiêu chuẩn với hàng thép) rồi trích **từng bước và căn cứ**.
 - Vụ ghi "CHƯA ĐỐI CHIẾU BẢN GIẤY": nói rõ với người dùng rằng số liệu cần đối chiếu QĐ gốc trước khi khai.
 - Không nộp C/O, không có giấy chứng nhận nhà SX, hay nhà XK không cùng hàng ngang với nhà SX đều rơi về mức cao hơn — nêu rõ điều này khi tư vấn.
+- Có cảnh báo dữ liệu cũ hơn 7 ngày thì nói rõ với người dùng trước khi đưa mức thuế.
 
-## Đồng bộ với ILMSv2 (ILMS là nguồn chính)
-
-- **Dữ liệu:** có `ILMS_URL` thì mọi lệnh tra (`code`, `search`, `refs`, `vanban`, `cbpg`, `vu`, `thue`) đọc thẳng
-  kho ILMSv2 — cùng số liệu nhân viên thấy trên app. Thêm văn bản bằng `add_reference.py` hay nút "+ Văn bản"
-  trên app đều vào CÙNG một kho.
-- **Bản sao trên máy** (để tra khi mất mạng): `python scripts/query_hs.py dongbo` — kéo mọi văn bản ILMS về
-  `references/`, đẩy văn bản chỉ có trên máy (có dòng `[Số hiệu]`) lên ILMS. `--chi-keo` để chỉ kéo về.
-- Tra cứu phòng vệ thương mại (`cbpg`, `vu`, `thue`) luôn đọc trực tiếp ILMS, không có bản sao — mức thuế phải là số hiện hành.
 - **Ưu tiên:** Ecustoms là skill tra cứu HS / CBPG CHÍNH. Chỉ dùng skill khác khi người dùng gọi đích danh.

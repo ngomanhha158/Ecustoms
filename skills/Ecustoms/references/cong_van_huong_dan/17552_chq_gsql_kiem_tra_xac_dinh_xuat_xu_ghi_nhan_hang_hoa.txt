@@ -1,0 +1,513 @@
+[Số hiệu] 17552/CHQ-GSQL
+[Tiêu đề] Kiểm tra, xác định xuất xứ, ghi nhãn hàng hóa
+[Ngày ban hành] 2026-06-16
+[Cơ quan] Cục Hải quan
+------------------------------------------------------------
+
+-----------------------------------------------------------------------
+  BỘ TÀI CHÍNH               CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  CỤC HẢI QUAN               Độc lập - Tự do - Hạnh phúc
+  -------                    ---------------
+  -------------------------- --------------------------------------------
+  Số: 17552/CHQ-GSQL         Hà Nội, ngày 16 tháng 6 năm 2026
+  V/v kiểm tra, xác định     
+  xuất xứ, ghi nhãn hàng hóa 
+
+  -----------------------------------------------------------------------
+
+ 
+
+Kính gửi: Các Chi cục Hải quan khu vực.
+
+Thời gian qua, Cục Hải quan đã có nhiều chỉ thị, kế hoạch và công văn
+hướng dẫn kiểm tra, giám sát về xuất xứ, ghi nhãn, chống chuyển tải bất
+hợp pháp đối với hàng hóa nhập khẩu, xuất khẩu, quá cảnh; các Chi cục
+Hải quan khu vực đã chủ động xây dựng kế hoạch, phân công thực hiện và
+tổ chức triển khai đến các đơn vị Hải quan cửa khẩu/ngoài cửa khẩu, qua
+đó đã kịp thời phát hiện và xử lý nhiều vụ việc vi phạm, đảm bảo chống
+thất thu ngân sách, chống gian lận thương mại, vi phạm pháp luật hải
+quan.
+
+Tuy nhiên, trong bối cảnh kinh tế, chính trị thế giới tiếp tục diễn biến
+phức tạp; xung đột thương mại giữa các quốc gia ngày càng tăng cao; xu
+hướng dịch chuyển sản xuất, đầu tư cùng sự phát triển của thương mại
+điện tử xuyên biên giới vừa tạo cơ hội vừa đặt ra thách thức cho công
+tác quản lý hải quan, tình trạng lợi dụng gian lận xuất xứ, lẩn tránh
+các biện pháp phòng vệ thương mại, trốn thuế, chuyển tải bất hợp pháp
+ngày càng gia tăng về quy mô, mức độ vi phạm. Trước tình hình đó, Cục
+Hải quan yêu cầu các Chi cục Hải quan khu vực lưu ý triển khai một số
+nhiệm vụ sau:
+
+I. Cơ sở pháp lý
+
+Cơ quan hải quan có trách nhiệm kiểm tra, xác định xuất xứ hàng hóa để
+áp dụng thuế suất ưu đãi đặc biệt theo đúng các cam kết quốc tế về ưu
+đãi thuế quan, thực hiện quản lý ghi nhãn hàng hóa đối với hàng hóa xuất
+khẩu nhập khẩu; ngăn chặn hành vi gian lận, giả mạo xuất xứ, ghi nhãn
+hàng hóa không đúng quy định, chuyển tải bất hợp pháp trong quá trình
+làm thủ tục hải quan và khi thanh tra, kiểm tra sau thông quan theo các
+văn bản quy phạm pháp luật sau đây:
+
+1. Đối với lĩnh vực xuất xứ hàng hóa
+
+- Luật Hải quan ngày 23/6/2014;
+
+- Luật Quản lý ngoại thương (Khoản 2 Điều 35 quy định trách nhiệm cơ
+quan hải quan kiểm tra, xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu
+khi thực hiện thủ tục hải quan theo quy định của pháp luật về hải quan);
+
+- Nghị định số 08/2015/NĐ-CP ngày 21/01/2015 của Chính phủ quy định chi
+tiết và biện pháp thi hành Luật Hải quan về thủ tục hải quan, kiểm tra,
+giám sát, kiểm soát hải quan quy định cơ quan hải quan kiểm tra thực tế
+hàng hóa để xác định xuất xứ hàng hóa (được sửa đổi, bổ sung tại Nghị
+định số 167/2025/NĐ-CP ngày 30/6/2025);
+
+- Nghị định số 31/2018/NĐ-CP ngày 08/03/2018 của Chính phủ quy định chi
+tiết Luật Quản lý ngoại thương về xuất xứ hàng hóa;
+
+- Thông tư số 38/2015/TT-BTC ngày 25/3/2015 của Bộ trưởng Bộ Tài chính
+về thủ tục hải quan, kiểm tra giám sát hải quan; thuế xuất khẩu, nhập
+khẩu và quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu (được sửa
+đổi, bổ sung tại Thông tư số 39/2018/TT-BTC ngày 20/4/2018 và Thông tư
+số 121/2025/TT-BTC ngày 18/12/2025);
+
+- Thông tư số 33/2023/TT-BTC ngày 31/5/2023 của Bộ trưởng Bộ Tài chính
+quy định xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu;
+
+- Thông tư số 05/2018/TT-BCT ngày 03/04/2018 của Bộ Công Thương quy định
+về xuất xứ hàng hóa (được sửa đổi, bổ sung tại Thông tư số
+44/2023/TT-BCT ngày 29/12/2023);
+
+- Các văn bản nội luật hóa quy tắc xuất xứ theo các điều ước quốc tế mà
+Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên;
+
+- Quy trình kiểm tra, xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu ban
+hành kèm theo Quyết định số 467/QĐ-CHQ ngày 29/4/2025 của Cục trưởng Cục
+Hải quan;
+
+- Sổ tay nghiệp vụ kiểm tra xuất xứ hàng hoá theo các Hiệp định Thương
+mại tự do ban hành kèm Quyết định số 2088/QĐ-CHQ ngày 25/12/2025 của Cục
+trưởng Cục Hải quan;
+
+2. Đối với lĩnh vực ghi nhãn hàng hóa
+
+a) Luật Chất lượng sản phẩm, hàng hóa số 05/2007/QH12; Luật sửa đổi, bổ
+sung một số điều của Luật Chất lượng sản phẩm, hàng hóa số 78/2025/QH15;
+
+b) Nghị định số 37/2026/NĐ-CP ngày 23/1/2026 của Chính phủ quy định chi
+tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật chất
+lượng sản phẩm, hàng hóa;
+
+c) Công văn số 11816/CHQ-GSQL ngày 12/2/2026 của Cục Hải quan hướng dẫn
+một số quy định mới về nhãn hàng hóa;
+
+3. Đối với lĩnh vực xử phạt vi phạm hành chính
+
+a) Luật Xử lý vi phạm hành chính ngày 20 tháng 6 năm 2012; Luật sửa đổi,
+bổ sung một số điều của Luật Xử lý vi phạm hành chính ngày 13 tháng 11
+năm 2020; Luật sửa đổi, bổ sung một số điều của Luật Xử lý vi phạm hành
+chính ngày 25 tháng 6 năm 2025;
+
+b) Nghị định số 189/2025/NĐ-CP ngày 01/7/2025 quy định chi tiết Luật Xử
+lý vi phạm hành chính về thẩm quyền xử phạt vi phạm hành chính.
+
+c) Nghị định số 169/NĐ-CP ngày 15/5/2026 của Chính phủ quy định xử phạt
+vi phạm hành chính trong lĩnh vực hải quan;
+
+d) Nghị định số 119/2017/NĐ-CP ngày 01/11/2017 của Chính phủ về xử phạt
+vi phạm hành chính trong lĩnh vực tiêu chuẩn, đo lường và chất lượng sản
+phẩm, hàng hóa được sửa đổi, bổ sung bởi Nghị định số 126/2021/NĐ-CP
+ngày 30/12/2021.
+
+e) Nghị định số 185/2013/NĐ-CP ngày 15/11/2013 (Nghị định số
+124/2015/NĐ-CP ngày 19/11/2015 của Chính phủ, sửa đổi, bổ sung một số
+điều của Nghị định số 185/2013/NĐ-CP).
+
+II. Kiểm tra, giám sát về xuất xứ, ghi nhãn hàng hóa
+
+1. Đối với hàng hóa nhập khẩu
+
+1.1. Trường hợp kiểm tra hồ sơ hải quan:
+
+Hải quan nơi kiểm tra hồ sơ thực hiện kiểm tra, giám sát các mặt hàng,
+doanh nghiệp có nghi ngờ gian lận xuất xứ, chuyển tải bất hợp pháp để
+đảm bảo các lô hàng đáp ứng đầy đủ các quy định về xuất xứ theo đúng các
+quy tắc xuất xứ áp dụng. Các Chi cục Hải quan khu vực kiểm tra xuất xứ
+hàng hóa nhập khẩu theo các quy định tại Điều 15, 16, 17, 18, 19 Thông
+tư số 33/2023/TT-BTC và Điều 12, Điều 13 quy trình kiểm tra, xác định
+xuất xứ hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo Quyết định số
+467/QĐ-CHQ ngày 29/4/2025, trong đó, lưu ý Kiểm tra một số nội dung sau:
+
+a) Kiểm tra nội dung khai xuất xứ hàng hóa trên tờ khai hải quan nhập
+khẩu:
+
+- Khai thông tin nước xuất xứ: Phải khai chính xác mã nước, vùng lãnh
+thổ nơi hàng hóa được chế tạo, sản xuất theo đúng bảng mã UN/LOCODE đã
+được Cục Hải quan thông báo;
+
+- Khai thông tin về hàng hóa: Phải khai đầy đủ, chính xác tên hàng, nhãn
+hiệu hàng hóa, quy cách phẩm chất, thông số kỹ thuật, thành phần cấu
+tạo, model, ký mã hiệu, đặc tính, công dụng của hàng hóa theo quy định
+tại Phụ lục II Thông tư số 38/2015/TT-BTC (được sửa đổi, bổ sung tại
+Thông tư số 39/2018/TT-BTC và Thông tư số 121/2025/TT-BTC ngày
+18/12/2025);
+
+b) Kiểm tra thời hạn hiệu lực của chứng từ chứng nhận xuất xứ hàng hóa;
+
+c) Kiểm tra, đối chiếu thông tin tên hàng, mã số HS; mô tả hàng hóa;
+xuất xứ; hóa đơn thương mại; số, ngày cấp chứng từ chứng nhận xuất xứ
+hàng hóa của người khai hải quan trên tờ khai hải quan nhập khẩu với
+thông tin trên chứng từ chứng nhận xuất xứ hàng hóa và các chứng từ khác
+thuộc hồ sơ hải quan để xác định tính hợp lệ của chứng từ chứng nhận
+xuất xứ hàng hóa và xuất xứ hàng hóa nhập khẩu.
+
+d) Kiểm tra tiêu chí xuất xứ hàng hóa
+
+d.1) Kiểm tra cách ghi tiêu chí xuất xứ của hàng hóa trên chứng từ chứng
+nhận xuất xứ hàng hóa (theo tiêu chí hàm lượng giá trị gia tăng, hoặc
+tiêu chí chuyển đổi mã số hàng hóa, hoặc tiêu chí công đoạn gia công chế
+biến hàng hóa, tiêu chí xuất xứ thuần túy...) theo quy tắc xuất xứ hàng
+hóa theo từng Hiệp định thương mại tự do được quy định tại Thông tư
+hướng dẫn của Bộ Công Thương và phần hướng dẫn ở mặt sau C/O.
+
+d.2) Xác định quy tắc xuất xứ áp dụng cho hàng hóa theo mã số HS quy
+định tại Hiệp định thương mại tự do có liên quan, Nghị định số
+31/2018/NĐ-CP, Thông tư số 05/2018/TT-BTC; Thông tư số 44/2023/TT-BCT,
+được sửa đổi, bổ sung Thông tư số 05/2018/TT-BTC, cụ thể:
+
+- Trường hợp người khai hải quan khai hàng hóa có xuất xứ thuần túy
+(WO): Kiểm tra điều kiện đáp ứng tiêu chí WO của hàng hóa nhập khẩu căn
+cứ vào thông tin thị trường xuất khẩu, đặc điểm địa lý quốc gia xuất
+khẩu, quy trình sản xuất hàng hóa,...đối chiếu với quy định tại Thông tư
+của Bộ Công Thương hướng dẫn về xuất xứ thuần túy để xác định xuất xứ
+hàng hóa người khai hải quan khai có phù hợp với quy định hay không và
+không phải xem xét đến các tiêu chí xuất xứ quy định tại danh mục PSR
+hay tiêu chí chung (nếu có);
+
+- Trường hợp người khai hải quan khai hàng hóa được sản xuất toàn bộ tại
+lãnh thổ của một nước thành viên từ các nguyên liệu có xuất xứ của một
+hay nhiều nước thành viên khác (PE): Không phải xem xét đến các tiêu chí
+xuất xứ quy định tại danh mục PSR hay tiêu chí chung (nếu có);
+
+- Trường hợp người khai hải quan khai hàng hóa có xuất xứ không thuần
+túy, việc xác định tiêu chí xuất xứ thực hiện theo trình tự sau:
+
++ Hàng hóa thuộc danh mục PSR, xác định tiêu chí xuất xứ theo quy định
+tại danh mục này;
+
++ Hàng hóa không thuộc danh mục PSR hoặc Hiệp định thương mại tự do
+không quy định danh mục PSR, việc xác định tiêu chí xuất xứ theo tiêu
+chí chung.
+
+e) Xử lý kết quả kiểm tra:
+
+- Trường hợp qua kết quả kiểm tra hồ sơ hải quan chưa đủ cơ sở xác định
+xuất xứ hàng hóa, có nghi vấn gian lận, giả mạo xuất xứ hàng hóa, thì
+công chức kiểm tra hồ sơ báo cáo, đề xuất Đội trưởng Hải quan chuyển
+luồng để kiểm tra thực tế (trong đó ghi rõ thông tin nghi vấn cần kiểm
+tra xác định);
+
+Trường hợp phát hiện người khai hải quan sử dụng chứng từ chứng nhận
+xuất xứ hàng hóa giả, chứng từ chứng nhận xuất xứ hàng hóa không hợp lệ
+thì xử lý theo quy định; trường hợp cần điều tra, xác minh, làm rõ dấu
+hiệu vi phạm thì Đội trưởng Hải quan tổ chức thực hiện hoặc phối hợp với
+lực lượng kiểm soát chống buôn lậu của Chi cục Hải quan khu vực để thực
+hiện và xử lý theo quy định;
+
+- Trường hợp phát hiện người khai hải quan khai sai tiêu chí xuất xứ
+hàng hóa để áp dụng thuế suất ưu đãi đặc biệt thì xem xét từ chối chứng
+từ chứng nhận xuất xứ hàng hóa và xử lý thuế theo quy định.
+
+1.2. Trường hợp kiểm tra thực tế hàng hóa:
+
+Kiểm tra, đối chiếu thông tin về xuất xứ ghi trên hàng hóa và/hoặc bao
+bì hàng hóa, thực tế hàng hóa với nội dung khai báo trên tờ khai hải
+quan và các chứng từ khác thuộc hồ sơ hải quan theo quy định tại Điều
+12, Điều 13 Quyết định số 467/QĐ-CHQ ngày 29/4/2025 về việc ban hành Quy
+trình kiểm tra, xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu. Ngoài ra
+lưu ý một số nội dung sau:
+
+a) Trường hợp nghi ngờ thực tế hàng hóa không đúng với mô tả tên hàng,
+mã số HS thì đề xuất Đội trưởng Hải quan lấy mẫu để phân tích, phân loại
+để làm cơ sở xác định xuất xứ hàng hóa nhập khẩu.
+
+Đối với hàng nhập khẩu là hàng lỏng, hàng rời, hàng không thuộc phạm vi
+ghi nhãn theo quy định hoặc hàng hóa có nhãn nhưng không thể hiện thông
+tin về xuất xứ thì kiểm tra chứng từ vận tải theo quy định tại Thông tư
+số 38/2015/TT-BTC (được sửa đổi, bổ sung tại Thông tư số
+39/2018/TT-BTC); Thông tư số 121/2025/TT-BTC đối với từng phương thức
+vận chuyển như: đường sắt, đường bộ, đường sông, đường biển, đường hàng
+không, manifest của phương tiện vận tải nhập cảnh để có cơ sở xác định
+xuất xứ hàng hóa.
+
+b) Lưu ý đối với nhãn hàng hóa khi kiểm tra thực tế hàng hoá;
+
+Việc ghi nhãn hàng hóa phải đảm bảo đúng quy định tại Nghị định số
+37/2026/NĐ-CP quy định chi tiết một số điều và biện pháp để tổ chức,
+hướng dẫn thi hành Luật chất lượng sản phẩm, hàng hóa và công văn số
+11816/CHQ-GSQL của Cục Hải quan hướng dẫn một số quy định mới về nhãn
+hàng hóa, trong đó lưu ý một số dấu hiệu:
+
+- Hàng hóa được sản xuất tại nước ngoài khi nhập khẩu về Việt Nam nhưng
+đã ghi sẵn dòng chữ “Made in Vietnam” hoặc “Produced in/by Vietnam” hoặc
+“Origin Vietnam”... trên hàng hoá và/hoặc bao bì hàng hóa.
+
+- Ghi nhãn hàng hóa không đúng quy định, thiếu thông tin bắt buộc, thay
+đổi nhãn hàng hóa để che giấu xuất xứ hoặc trốn tránh kiểm tra chất
+lượng, ghi sai thông tin về xuất xứ.
+
+c) Xử lý kết quả kiểm tra:
+
+- Trường hợp thông tin về xuất xứ, nước sản xuất trên thực tế hàng hóa
+không đúng xuất xứ với trên tờ khai hải quan nhập khẩu và các chứng từ
+khác thuộc hồ sơ hải quan thì xử lý vi phạm theo quy định, cụ thể:
+
++ Đối với hàng hóa nhập khẩu có xuất xứ từ nước, nhóm nước hoặc vùng
+lãnh thổ có thỏa thuận ưu đãi thuế quan trong quan hệ thương mại với
+Việt Nam và hàng hóa từ khu phi thuế quan nhập khẩu vào thị trường trong
+nước thì hàng hóa nhập khẩu phải áp dụng thuế suất nhập khẩu ưu đãi hoặc
+thuế suất thông thường và được thông quan theo quy định và xử lý vi phạm
+theo quy định.
+
++ Đối với hàng hóa theo thông báo của cơ quan có thẩm quyền Việt Nam
+phải có chứng từ chứng nhận xuất xứ để chứng minh hàng hóa được nhập
+khẩu từ nước, nhóm nước hoặc vùng lãnh thổ không thuộc danh sách bị cấm
+vận theo Nghị quyết của Hội đồng Bảo an Liên hợp quốc và hàng hóa quy
+định theo Danh mục tại Phụ lục V ban hành kèm Thông tư số 33/2023/TT-BTC
+hoặc theo thông báo của các Bộ, ngành phải có chứng từ chứng nhận xuất
+xứ để xác định hàng hóa không có xuất xứ từ các nước có nguy cơ gây hại
+đến an toàn xã hội, sức khỏe của cộng đồng hoặc vệ sinh môi trường cần
+được kiểm soát thì hàng hóa không được thông quan và xử lý vi phạm theo
+quy định.
+
++ Đối với hàng hóa thuộc Danh mục theo Quyết định của Bộ trưởng Bộ Công
+Thương thông báo đang ở thời điểm áp dụng thuế chống bán phá giá, thuế
+chống trợ cấp, các biện pháp tự vệ, biện pháp hạn ngạch thuế quan, biện
+pháp lẩn tránh các biện pháp phòng vệ thương mại, biện pháp hạn chế số
+lượng thì áp dụng mức thuế suất nhập khẩu thông thường hoặc thuế suất
+nhập khẩu ưu đãi hoặc áp dụng mức thuế suất theo khai báo của người khai
+hải quan nếu hàng hóa được bảo lãnh và được thông quan theo quy định.
+
+- Trường hợp hàng hóa nhập khẩu không có nhãn hàng hóa hoặc có nhãn hàng
+hóa nhưng thiếu nội dung bắt buộc tại thời điểm làm thủ tục thông quan
+theo quy định tại Nghị định số 37/2026/NĐ-CP thì thực hiện xử phạt vi
+phạm theo quy định.
+
+- Hàng hóa được sản xuất tại nước ngoài khi nhập khẩu về Việt Nam nhưng
+đã ghi sẵn dòng chữ “Made in Vietnam” hoặc “Produced in/by Vietnam” hoặc
+“Origin Vietnam" trên hàng hoá và/hoặc bao bì hàng hóa thì thực hiện xử
+lý đối với hành vi buôn bán hàng giả mạo nhãn hàng hóa, bao bì hàng hóa
+quy định tại Điều 13 Nghị định số 185/2013/NĐ-CP ngày 15/11/2013 và
+khoản 11 Điều 1 Nghị định số 124/2015/NĐ-CP ngày 19/11/2015 của Chính
+phủ, sửa đổi, bổ sung một số điều của Nghị định số 185/2013/NĐ-CP.
+
+2. Đối với hàng hóa xuất khẩu
+
+2.1. Trường hợp kiểm tra hồ sơ hải quan
+
+Hải quan nơi đăng ký tờ khai thực hiện kiểm tra, xác định xuất xứ hàng
+hóa xuất khẩu theo quy định tại Điều 6 Thông tư số 33/2023/TT-BTC; Điều
+10 Quyết định số 467/QĐ-CHQ ngày 29/4/2025, trong đó lưu ý kiểm tra nội
+dung và xử lý như sau:
+
+a) Kiểm tra nội dung khai của người khai hải quan trên tờ khai hải quan
+xuất khẩu về mô tả hàng hóa, xuất xứ, số lượng, mã số HS, model, ký/mã
+hiệu với các chứng từ khác thuộc hồ sơ hải quan để xác định nội dung
+khai của người khai hải quan là phù hợp và đủ cơ sở để xác định xuất xứ
+hàng hóa,
+
+b) Xử lý kết quả kiểm tra:
+
+b.1) Trường hợp đủ căn cứ xác định xuất xứ hàng hóa không đúng theo nội
+dung khai của người khai hải quan trên tờ khai hải quan thì xử lý theo
+quy định và yêu cầu người khai hải quan khai bổ sung theo quy định tại
+Điều 20 Thông tư số 38/2015/TT-BTC, được sửa đổi, bổ sung tại khoản 9
+Điều 1 Thông tư số 39/2018/TT-BTC và Thông tư số 121/2025/TT-BTC ngày
+18/12/2025.
+
+b.2) Trường hợp có dấu hiệu nghi ngờ gian lận xuất xứ đối với hàng hóa
+gia công, sản xuất xuất khẩu thì đối chiếu mã số HS khai trên tờ khai
+hải quan xuất khẩu với mã số HS khai khi làm thủ tục nhập khẩu (của cùng
+doanh nghiệp hoặc của các tờ khai nhập khẩu có cùng mã số HS của các
+doanh nghiệp khác);
+
+b.3) Trường hợp có cơ sở nghi ngờ về xuất xứ hàng hóa xuất khẩu hoặc có
+thông tin cảnh báo về gian lận xuất xứ, chuyển tải bất hợp pháp đối với
+danh mục hàng hóa theo thông báo của Bộ Công Thương hoặc của Cục Hải
+quan thì đề xuất Đội trưởng hải quan yêu cầu người khai hải quan giải
+trình/cung cấp các chứng từ và thực hiện quy trình kiểm tra xử lý theo
+quy định tại điểm c, d, e, g khoản 1 Điều 6 Thông tư 33/2023/TT-BTC và
+đề xuất xử lý như sau:
+
+- Nếu kết quả kiểm tra phù hợp: thực hiện theo quy định tại khoản 1 Điều
+10 Quy trình kiểm tra, xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu
+ban hành kèm theo Quyết định số 467/QĐ-CHQ ngày 29/4/2025.
+
+- Nếu kết quả kiểm tra chưa đủ cơ sở để kết luận hoặc người khai hải
+quan không giải trình/cung cấp chứng từ chứng minh hoặc nội dung giải
+trình/chứng từ chứng minh không đủ làm căn cứ để xác định xuất xứ của
+hàng hóa thì đề xuất chuyển luồng kiểm tra thực tế hàng hóa.
+
+2.2. Trường hợp kiểm tra thực tế hàng hóa
+
+a) Khi kiểm tra thực tế hàng hóa, công chức kiểm tra các thông tin về
+xuất xứ ghi trên hàng hóa/bao bì hàng hóa, thực tế hàng hóa với nội dung
+khai báo trên tờ khai hải quan, các chứng từ khác thuộc hồ sơ hải quan.
+
+b) Xử lý kết quả kiểm tra:
+
+b.1) Trường hợp xuất xứ hàng hoá phù hợp với thông tin khai báo thì thực
+hiện theo quy định tại khoản 1 Điều 10 Quy trình kiểm tra, xác định xuất
+xứ hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo Quyết định số
+467/QĐ-CHQ.
+
+b.2) Trường hợp kết quả kiểm tra xác định xuất xứ hàng hóa không phù hợp
+với khai báo và đủ cơ sở để kết luận về xuất xứ của hàng hóa thì thực
+hiện theo quy định tại khoản 2 Điều 10 Quy trình kiểm tra, xác định xuất
+xứ hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo Quyết định số
+467/QĐ-CHQ.
+
+b.3) Trường hợp chưa đủ cơ sở để kết luận về xuất xứ của hàng hóa thì
+công chức đề xuất Đội trưởng hải quan theo quy định và chuyển thông tin
+nghi vấn báo cáo Chi cục Hải quan khu vực tiến hành xác minh tại cơ
+quan, tổ chức cấp chứng từ chứng nhận xuất xứ hàng hóa hoặc kiểm tra tại
+cơ sở sản xuất của người khai hải quan theo quy định tại điểm d, điểm e
+khoản 1 Điều 6 Thông tư số 33/2023/TT-BTC.
+
+b.4) Việc xác minh tại cơ quan, tổ chức cấp chứng từ chứng nhận xuất xứ
+hàng hóa; Kiểm tra xuất xứ tại cơ sở sản xuất hàng hóa xuất khẩu và xử
+lý kết quả kiểm tra, xác minh thực hiện theo quy định tại Điều 7, Điều 8
+và Điều 9 Thông tư số 33/2023/TT-BTC và Thông tư số 39/2018/TT-BCT ngày
+30/10/2018 của Bộ Công Thương.
+
+b.5) Trường hợp có dấu hiệu nghi ngờ gian lận, giả mạo xuất xứ, chuyển
+tải bất hợp pháp đối với hàng hóa gia công, sản xuất xuất khẩu thì
+chuyển đơn vị kiểm tra sau thông quan thực hiện kiểm tra tại trụ sở
+người khai hải quan;
+
+b.6) Trường hợp phát hiện các dấu hiệu nghi ngờ liên quan đến việc cấp
+C/O thì báo cáo Đội trưởng Hải quan thông báo cho phòng cấp C/O có liên
+quan biết để kiểm soát chặt chẽ việc cấp C/O.
+
+b.7) Trường hợp trên hàng hóa, bao bì hàng hóa xuất khẩu thể hiện dòng
+chữ “sản xuất tại Việt Nam”; “chế tạo tại Việt Nam”; “xuất xứ Việt Nam”;
+“sản xuất bởi Việt Nam”; “sản phẩm của Việt Nam” hoặc “Made in Vietnam”;
+“Produced in Vietnam”; “Product of Vietnam”..., nhưng qua kiểm tra thực
+tế hàng hóa phát hiện có dấu hiệu gian lận, giả mạo xuất xứ, chuyển tải
+bất hợp pháp thì xử lý vi phạm theo quy định.
+
+3. Trong quá trình kiểm tra, giám sát hải quan, quản lý doanh nghiệp,
+các Chi cục Hải quan khu vực lưu ý các phương thức gian lận sau:
+
+a) Doanh nghiệp nhập khẩu theo loại hình sản xuất xuất khẩu; loại hình
+gia công; loại hình sản xuất kinh doanh; loại hình nhập khẩu nguyên vật
+liệu, bán thành phẩm, linh kiện, cụm linh kiện từ nước ngoài để sản
+xuất, gia công, lắp ráp nhưng hàng hóa không trải qua công đoạn gia
+công, sản xuất hoặc chỉ trải qua công đoạn gia công, sản xuất, lắp ráp
+đơn giản không đáp ứng tiêu chí xuất xứ theo quy định nhưng khi xuất
+khẩu ghi xuất xứ Việt Nam trên tờ khai hải quan và trên hàng hoá và/hoặc
+bao bì hàng hóa;
+
+b) Thành lập nhiều công ty, mỗi công ty nhập khẩu một số cụm linh kiện,
+phụ tùng hoặc bộ phận tháo rời để lắp ráp hoặc bán cho công ty khác thực
+hiện gia công, lắp ráp công đoạn đơn giản không đáp ứng tiêu chí xuất xứ
+theo quy định nhưng ghi sản xuất tại Việt Nam hoặc xuất xứ Việt Nam trên
+nhãn hàng hóa để tiêu thụ tại thị trường trong nước nhằm đánh lừa người
+tiêu dùng hoặc xuất khẩu;
+
+c) Nhập khẩu hàng hóa có xuất xứ từ nước ngoài về Việt Nam, sau đó hợp
+thức hóa hồ sơ hoặc xin cấp giấy chứng nhận xuất xứ để xuất khẩu nhưng
+lại khai báo xuất xứ Việt Nam;
+
+d) Lợi dụng quy trình, thủ tục cấp C/O để khai thông tin không đúng các
+thông tin tại hồ sơ đề nghị cấp C/O như không khai nguồn gốc nguyên vật
+liệu nhập khẩu đầu vào, lập các hợp đồng giả về mua nguyên vật liệu
+trong nước, sử dụng hóa đơn giá trị gia tăng cho nhiều tờ khai xuất
+khẩu, quay vòng hồ sơ xin cấp C/O.
+
+đ) Xuất khẩu các hàng hoá mà trên hàng hoá và/hoặc bao bì thể hiện là
+xuất xứ Việt Nam hoặc theo khai báo là xuất xứ Việt Nam nhưng không đáp
+ứng được các tiêu chí về xuất xứ theo các quy định.
+
+4. Đối với hàng gửi kho ngoại quan
+
+Thực hiện theo các văn bản quy phạm pháp luật có liên quan và các hướng
+dẫn tại công văn số 1236/TCHQ-GSQL ngày 21/3/2023 về kiểm tra, giám sát
+đối với hàng hóa quá cảnh, hàng gửi kho ngoại quan, tạm nhập tái xuất.
+
+Hải quan cửa khẩu quản lý kho ngoại quan giám sát chặt chẽ các trường
+hợp đề nghị đóng ghép hàng hóa, thay đổi trạng thái bao bì, dán nhãn rồi
+xuất khẩu sang nước thứ ba hoặc nhập vào nội địa.
+
+5. Các mặt hàng trọng điểm
+
+Qua công tác phân tích, xác định rủi ro, nhất là kết quả kiểm tra nội
+bộ, các mặt hàng trọng điểm sau đây được ghi nhận:
+
+(1) Nhóm mặt hàng gỗ và các sản phẩm từ gỗ, trong đó trọng tâm là mặt
+hàng: gỗ dán từ nguyên liệu gỗ cứng, tủ gỗ, ghế sofa có khung gỗ; (2)
+Nhóm thiết bị: thiết bị thể thao; thiết bị nội thất; (3) Nhóm mặt hàng
+thép: khớp nối bằng thép; bánh xe thép; thép tiền chế; ống đồng; (4)
+Nhóm mặt hàng điện tử: mạch điện máy xử lý dữ liệu; sản phẩm điện tử và
+linh kiện; (5) Nhóm mặt hàng xe đạp, xe đạp điện và linh kiện; (6) Pin
+năng lượng mặt trời, Pin Lithium; (7) Đệm mút; (8) Đá nhân tạo; (9) Gạch
+men; (10) Lốp xe tải và xe khách; (11) Bao và túi nhựa; (12) Nhóm máy
+móc, thiết bị: máy móc, thiết bị, dụng cụ, phụ tùng, máy hút bụi; máy
+cắt cỏ; (13) Ghim đóng thùng; (14) Vỏ bình ga; (15) giày dép và túi
+xách; (16) Thực phẩm; (17) Hộp nhựa Propylen; (18) Nông sản.
+
+Ngoài các nhóm mặt hàng nêu trên, các đơn vị căn cứ tình hình thực tế
+của đơn vị mình để lựa chọn bổ sung các nhóm mặt hàng có nguy cơ cao về
+gian lận, giả mạo xuất xứ, chuyển tải bất hợp pháp.
+
+6. Các loại hình trọng điểm
+
+Các mã loại hình sau cần được lưu ý khi xác định trọng điểm:
+
+- Hàng hóa xuất khẩu: B11 (Xuất kinh doanh), E52 (Xuất sản phẩm gia công
+cho thương nhân nước ngoài), E62 (Xuất sản phẩm sản xuất xuất khẩu), C12
+(Hàng hóa từ kho ngoại quan xuất đi nước ngoài)...
+
+- Hàng hóa nhập khẩu: A11 (Nhập kinh doanh tiêu dùng), A12 (Nhập kinh
+doanh sản xuất), E31 (Nhập nguyên liệu sản xuất xuất khẩu), E21 (Nhập
+nguyên liệu, vật tư để gia công cho thương nhân nước ngoài)...
+
+III. Tổ chức thực hiện và công tác báo cáo
+
+1. Công văn này thay thế các nội dung hướng dẫn về việc kiểm tra, giám
+sát về xuất xứ hàng hóa, ghi nhãn hàng hóa và chống chuyển tải bất hợp
+pháp tại Công văn số 5189/TCHQ-GSQL ngày 13/8/2019; Chỉ thị số
+7988/CT-TCHQ ngày 25/12/2019; Công văn số 755/TCHQ-GSQL ngày 11/02/2020
+và Công văn số 571/CHQ-GSQL ngày 26/3/2025.
+
+2. Việc kiểm tra đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh có nghi
+ngờ xâm phạm quyền sở hữu trí tuệ thực hiện theo công văn số
+16727/CHQ-GSQL ngày 26/5/2026.
+
+3. Các đơn vị gửi báo cáo theo định kỳ 6 tháng (vào ngày 07/7) và hàng
+năm (vào ngày 07/01 năm liền kề) về công tác kiểm tra giám sát hải quan
+đối với xuất xứ hàng hóa, ghi nhãn và chuyển tải bất hợp pháp về Cục Hải
+quan (qua Ban Giám sát quản lý về hải quan theo hòm thư
+co@customs.gov.vn). Đầu mối liên hệ: Đ/c Nguyễn Trung Kiên - Chuyên viên
+Tổ Nghiệp vụ số 1 - Ban Giám sát quản lý về hải quan, điện thoại
+0972328389.
+
+Trong quá trình thực hiện nếu có vướng mắc phát sinh, các đơn vị báo
+cáo, đề xuất gửi Cục Hải quan (Ban Giám sát quản lý về hải quan) để được
+hướng dẫn.
+
+Nhận được văn bản này, yêu cầu các Chi cục Hải quan khu vực quán triệt
+đến Hải quan cửa khẩu/ngoài cửa khẩu tổ chức thực hiện./.
+
+ 
+
+  -----------------------------------------------------------------------
+  Nơi nhận:                           KT. CỤC TRƯỞNG
+  - Như trên;                         PHÓ CỤC TRƯỞNG
+  - Đ/c Nguyễn Đức Chi - Thứ trưởng   Âu Anh Tuấn
+  BTC;                                
+  - Lãnh đạo Cục;                     
+  - Lưu: VT, GSQL (03b).              
+  ----------------------------------- -----------------------------------
+
+  -----------------------------------------------------------------------

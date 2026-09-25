@@ -1,0 +1,2053 @@
+[Số hiệu] 71/2026/TT-BCA
+[Tiêu đề] Hướng dẫn thực hiện tạm hoãn xuất cảnh, chưa cho nhập cảnh
+[Ngày ban hành] 2026-05-25
+[Cơ quan] Bộ Công An
+------------------------------------------------------------
+
+|BỘ CÔNG AN                 |CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM            |
+|-------                    |Độc lập - Tự do - Hạnh phúc                   |
+|                           |---------------                               |
+|Số: 71/2026/TT-BCA         |Hà Nội, ngày 25 tháng 5 năm 2026              |
+
+
+ 
+
+
+                                  THÔNG TƯ
+
+
+         HƯỚNG DẪN THỰC HIỆN TẠM HOÃN XUẤT CẢNH, CHƯA CHO NHẬP CẢNH
+
+
+Căn cứ Luật Xuất cảnh, nhập cảnh của công dân Việt Nam số 49/2019/QH14 được
+sửa đổi, bổ sung bởi Luật số 23/2023/QH15 và Luật số 118/2025/QH15;
+
+
+Căn cứ Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại
+Việt Nam số 47/2014/QH13 được sửa đổi, bổ sung bởi Luật số 51/2019/QH14,
+Luật số 23/2023/QH15, Luật số 103/2025/QH15 và Luật số 118/2025/QH15;
+
+
+Căn cứ Nghị định số 02/2025/NĐ-CP của Chính phủ quy định chức năng, nhiệm
+vụ, quyền hạn và cơ cấu tổ chức của Bộ Công an được sửa đổi, bổ sung bởi
+Nghị định số 11/2025/NĐ-CP;
+
+
+Theo đề nghị của Cục trưởng Cục Quản lý xuất nhập cảnh;
+
+
+Bộ trưởng Bộ Công an ban hành Thông tư hướng dẫn thực hiện tạm hoãn xuất
+cảnh, chưa cho nhập cảnh.
+
+
+Điều 1. Phạm vi điều chỉnh
+
+
+1. Thông tư này hướng dẫn thực hiện quyết định của cơ quan, người có thẩm
+quyền về việc tạm hoãn xuất cảnh, chưa cho nhập cảnh; việc gia hạn, hủy bỏ,
+giải tỏa quyết định tạm hoãn xuất cảnh; việc giải tỏa quyết định chưa cho
+nhập cảnh.
+
+
+2. Thông tư này không điều chỉnh đối với:
+
+
+a) Trường hợp quy định tại khoản 1 Điều 35, khoản 1 Điều 37 Luật Tương trợ
+tư pháp về hình sự số 103/2025/QH15 và khoản 12 Điều 37 Luật Xuất cảnh,
+nhập cảnh của công dân Việt Nam số 49/2019/QH14 được sửa đổi, bổ sung bởi
+Luật số 23/2023/QH15 và Luật số 118/2025/QH15 (sau đây gọi chung là Luật
+Xuất cảnh, nhập cảnh của công dân Việt Nam);
+
+
+b) Quyết định của cơ quan, người có thẩm quyền về việc tạm hoãn xuất cảnh,
+chưa cho nhập cảnh và gia hạn, hủy bỏ, giải tỏa quyết định tạm hoãn xuất
+cảnh; giải tỏa quyết định chưa cho nhập cảnh vì lý do an ninh quốc gia,
+trật tự, an toàn xã hội.
+
+
+Điều 2. Hình thức trao đổi
+
+
+1. Quyết định, đề nghị tạm hoãn xuất cảnh, chưa cho nhập cảnh và bổ sung,
+gia hạn, hủy bỏ, giải tỏa quyết định tạm hoãn xuất cảnh; giải tỏa quyết
+định chưa cho nhập cảnh của cơ quan, người có thẩm quyền gửi cho Cục Quản
+lý xuất nhập cảnh trên môi trường điện tử bằng hình thức trao đổi dữ liệu
+qua kết nối với hệ thống thông tin Quản lý xuất nhập cảnh.
+
+
+Việc gửi, tiếp nhận, xử lý các dữ liệu liên quan đến quyết định, đề nghị
+tạm hoãn xuất cảnh, chưa cho nhập cảnh và bổ sung, gia hạn, hủy bỏ, giải
+tỏa quyết định tạm hoãn xuất cảnh; giải tỏa quyết định chưa cho nhập cảnh
+của cơ quan, người có thẩm quyền qua kết nối với hệ thống thông tin Quản lý
+xuất nhập cảnh phải bảo đảm các nguyên tắc sau:
+
+
+a) Thống nhất, phù hợp với các quy định của pháp luật về giao dịch điện tử,
+bảo vệ dữ liệu cá nhân, an ninh mạng và pháp luật chuyên ngành khác có liên
+quan;
+
+
+b) Dữ liệu điện tử được trao đổi qua kết nối với hệ thống thông tin Quản lý
+xuất nhập cảnh có giá trị pháp lý như văn bản giấy khi đáp ứng yêu cầu về
+xác thực, toàn vẹn dữ liệu theo quy định của pháp luật về giao dịch điện
+tử;
+
+
+c) Được ghi nhật ký điện tử về thời gian gửi, tiếp nhận, xử lý dữ liệu để
+phục vụ công tác đối chiếu, kiểm tra, giải quyết khiếu nại và xác định
+trách nhiệm của cơ quan, tổ chức có liên quan.
+
+
+2. Trường hợp không thực hiện được trên môi trường điện tử bằng hình thức
+trao đổi dữ liệu qua kết nối với hệ thống thông tin Quản lý xuất nhập cảnh
+theo quy định tại khoản 1 Điều này thì thực hiện bằng một trong các hình
+thức trực tiếp, qua đường công văn hoặc chuyển phát nhanh; việc gửi qua các
+hình thức này phải là bản chính, đầy đủ thông tin theo mẫu ban hành kèm
+theo Thông tư này hoặc tại các văn bản quy phạm pháp luật khác có liên quan
+và theo quy định về bảo mật thông tin, tài liệu.
+
+
+Điều 3. Biểu mẫu
+
+
+1. Ban hành kèm theo Thông tư này các biểu mẫu sau:
+
+
+a) Quyết định tạm hoãn xuất cảnh (Mẫu M01), Quyết định gia hạn tạm hoãn
+xuất cảnh (Mẫu M01b), Quyết định hủy bỏ quyết định tạm hoãn xuất cảnh (Mẫu
+M01c): dùng cho cơ quan, người có thẩm quyền theo quy định tại khoản 2 Điều
+37 Luật Xuất cảnh, nhập cảnh của công dân Việt Nam để áp dụng đối với
+trường hợp được hoãn chấp hành án phạt tù, tạm đình chỉ chấp hành án phạt
+tù và các trường hợp thuộc khoản 3, 4, 5, 6, 7, 8 Điều 37 Luật Xuất cảnh,
+nhập cảnh của công dân Việt Nam; khoản 1, 2, 3 Điều 29 Luật Nhập cảnh, xuất
+cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam số 47/2014/QH13
+được sửa đổi, bổ sung bởi Luật số 51/2019/QH14, Luật số 23/2023/QH15, Luật
+số 103/2025/QH15 và Luật số 118/2025/QH15 (sau đây gọi chung là Luật Nhập
+cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam);
+
+
+b) Các trường hợp tạm hoãn xuất cảnh do Cơ quan điều tra đăng ký, quản lý
+theo quy định của Bộ luật Tố tụng hình sự áp dụng Quyết định tạm hoãn xuất
+cảnh và Quyết định hủy bỏ biện pháp ngăn chặn theo biểu mẫu trong tố tụng
+hình sự;
+
+
+c) Các trường hợp tạm hoãn xuất cảnh do Chánh án Tòa án, Hội đồng xét xử,
+Thẩm phán chủ tọa phiên tòa, Hội đồng xét tha tù trước thời hạn có điều
+kiện áp dụng biểu mẫu theo quy định của pháp luật tương ứng về tố tụng hình
+sự, tố tụng dân sự và thi hành án hình sự;
+
+
+d) Thông báo danh sách tạm hoãn xuất cảnh (Mẫu M01d): dùng cho Cơ quan thi
+hành án hình sự Công an cấp tỉnh để áp dụng đối với người bị hoãn xuất cảnh
+là người được tha tù trước thời hạn có điều kiện trong thời gian thử thách,
+người được hưởng án treo trong thời gian thử thách, người chấp hành án phạt
+cải tạo không giam giữ trong thời gian chấp hành án theo quy định tại khoản
+2 Điều 36 Luật Xuất cảnh, nhập cảnh của công dân Việt Nam;
+
+
+đ) Quyết định chưa cho nhập cảnh (Mẫu M02), Quyết định giải tỏa chưa cho
+nhập cảnh (Mẫu M02b): dùng cho cơ quan, người có thẩm quyền theo quy định
+tại Điều 22 Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước
+ngoài tại Việt Nam;
+
+
+e) Văn bản đề nghị Bộ trưởng Bộ Công an ra Quyết định tạm hoãn xuất cảnh
+(Mẫu M03): dùng cho Chánh án Tòa án nhân dân tối cao, Bộ trưởng, Thủ trưởng
+cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố theo quy định
+tại điểm b khoản 3 Điều 29 Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của
+người nước ngoài tại Việt Nam;
+
+
+g) Quyết định của Bộ trưởng Bộ Công an tạm hoãn xuất cảnh, gia hạn, hủy bỏ,
+giải tỏa (Mẫu M04) theo đề nghị của cơ quan, người có thẩm quyền quy định
+tại khoản 3 Điều 29 Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người
+nước ngoài tại Việt Nam;
+
+
+h) Văn bản trao đổi với cơ quan, người có thẩm quyền ra Quyết định tạm hoãn
+xuất cảnh/chưa cho nhập cảnh (Mẫu M05): dùng cho Cục Quản lý xuất nhập
+cảnh.
+
+
+2. Trường hợp quyết định tạm hoãn xuất cảnh, chưa cho nhập cảnh được ban
+hành tại các văn bản quy phạm pháp luật khác thì cơ quan, người có thẩm
+quyền sử dụng biểu mẫu được ban hành kèm theo văn bản quy phạm pháp luật
+đó.
+
+
+Điều 4. Hồ sơ đề nghị Bộ trưởng Bộ Công an ra quyết định tạm hoãn xuất cảnh
+
+
+Hồ sơ đề nghị Bộ trưởng Bộ Công an ra quyết định tạm hoãn xuất cảnh theo
+quy định tại điểm b khoản 3 Điều 29 Luật Nhập cảnh, xuất cảnh, quá cảnh, cư
+trú của người nước ngoài tại Việt Nam bao gồm: văn bản quy định tại điểm e
+khoản 1 Điều 3 Thông tư này, các quyết định xử phạt vi phạm hành chính theo
+thẩm quyền và các tài liệu khác có liên quan.
+
+
+Điều 5. Kiểm tra, xử lý thông tin
+
+
+1. Đối với quyết định tạm hoãn xuất cảnh, chưa cho nhập cảnh:
+
+
+a) Khi nhận được quyết định tạm hoãn xuất cảnh, chưa cho nhập cảnh, Cục
+Quản lý xuất nhập cảnh kiểm tra thông tin xuất nhập cảnh, trường hợp đã
+xuất cảnh hoặc nhập cảnh, Cục Quản lý xuất nhập cảnh thông báo theo mẫu M05
+cho cơ quan, người có thẩm quyền ra quyết định này;
+
+
+b) Trường hợp chưa xuất cảnh hoặc chưa nhập cảnh, ngay trong ngày nhận được
+quyết định, Cục Quản lý xuất nhập cảnh cập nhật thông tin vào chương trình
+quản lý, thông báo đơn vị kiểm soát xuất nhập cảnh, cơ quan liên quan.
+
+
+2. Đối với Quyết định gia hạn, hủy bỏ, giải tỏa tạm hoãn xuất cảnh; giải
+tỏa chưa cho nhập cảnh:
+
+
+Ngay trong ngày nhận được quyết định, Cục Quản lý xuất nhập cảnh cập nhật
+thông tin vào chương trình quản lý, thông báo đơn vị kiểm soát xuất nhập
+cảnh, cơ quan liên quan.
+
+
+3. Đối với văn bản đề nghị Bộ trưởng Bộ Công an ra Quyết định tạm hoãn xuất
+cảnh:
+
+
+a) Trong thời hạn không quá 02 ngày làm việc, Cục trưởng Cục Quản lý xuất
+nhập cảnh báo cáo Bộ trưởng Bộ Công an xem xét quyết định;
+
+
+b) Trong thời hạn không quá 24 giờ kể từ khi nhận được quyết định tạm hoãn
+xuất cảnh của Bộ trưởng Bộ Công an, Cục Quản lý xuất nhập cảnh cập nhật
+thông tin vào chương trình quản lý, thông báo đơn vị kiểm soát xuất nhập
+cảnh, cơ quan liên quan.
+
+
+4. Trường hợp đơn vị kiểm soát xuất nhập cảnh phát hiện người có nghĩa vụ
+chấp hành quyết định tạm hoãn xuất cảnh, chưa cho nhập cảnh, phải thông báo
+ngay kết quả thực hiện về Cục Quản lý xuất nhập cảnh để thống nhất quản lý;
+thông báo cho cơ quan, người có thẩm quyền ra quyết định để phối hợp xử lý
+(nếu có yêu cầu).
+
+
+Điều 6. Trách nhiệm của Cục Quản lý xuất nhập cảnh
+
+
+1. Tổ chức trực ban 24/24 giờ để tiếp nhận quyết định, đề nghị tạm hoãn
+xuất cảnh, chưa cho nhập cảnh và gia hạn, hủy bỏ, giải tỏa quyết định tạm
+hoãn xuất cảnh; giải tỏa quyết định chưa cho nhập cảnh của cơ quan, người
+có thẩm quyền.
+
+
+2. Kiểm tra nội dung, hình thức quyết định, đề nghị tạm hoãn xuất cảnh,
+chưa cho nhập cảnh và gia hạn, hủy bỏ, giải tỏa, nếu chưa đúng thẩm quyền
+hoặc thông tin không đầy đủ thì yêu cầu bổ sung ngay trong ngày nhận được
+quyết định, đề nghị tạm hoãn xuất cảnh, chưa cho nhập cảnh và gia hạn, hủy
+bỏ, giải tỏa.
+
+
+3. Chủ trì tổ chức phổ biến, hướng dẫn cơ quan, tổ chức liên quan thực hiện
+Thông tư này.
+
+
+4. Chủ trì, phối hợp các đơn vị liên quan hướng dẫn quy trình tiếp nhận, xử
+lý quyết định, đề nghị tạm hoãn xuất cảnh, chưa cho nhập cảnh và bổ sung,
+gia hạn, hủy bỏ, giải tỏa quyết định tạm hoãn xuất cảnh; giải tỏa quyết
+định chưa cho nhập cảnh trên môi trường điện tử bằng hình thức trao đổi dữ
+liệu qua kết nối với hệ thống thông tin Quản lý xuất nhập cảnh.
+
+
+5. Xây dựng, quản lý vận hành ổn định hệ thống thông tin phục vụ việc tiếp
+nhận quyết định, đề nghị tạm hoãn xuất cảnh, chưa cho nhập cảnh và bổ sung,
+gia hạn, hủy bỏ, giải tỏa quyết định tạm hoãn xuất cảnh; giải tỏa quyết
+định chưa cho nhập cảnh trên môi trường điện tử bằng hình thức trao đổi dữ
+liệu qua kết nối với hệ thống thông tin Quản lý xuất nhập cảnh.
+
+
+Điều 7. Trách nhiệm của các cơ quan, đơn vị liên quan
+
+
+1. Văn phòng Cơ quan Cảnh sát điều tra, Bộ Công an là đầu mối tiếp nhận,
+phối hợp xác minh các quyết định truy nã, đình nã; trong vòng 24 giờ kể từ
+khi tiếp nhận có trách nhiệm cập nhật các quyết định truy nã, đình nã lên
+hệ thống cơ sở dữ liệu Đối tượng truy nã và kết nối, chia sẻ với Cơ sở dữ
+liệu quốc gia về xuất nhập cảnh để phục vụ công tác.
+
+
+2. Cơ quan, người có thẩm quyền quyết định, đề nghị tạm hoãn xuất cảnh,
+chưa cho nhập cảnh và bổ sung, gia hạn, hủy bỏ, giải tỏa quyết định tạm
+hoãn xuất cảnh; giải tỏa quyết định chưa cho nhập cảnh có trách nhiệm:
+
+
+a) Điền đầy đủ, chính xác thông tin tại mẫu quyết định, thông báo tạm hoãn
+xuất cảnh, chưa cho nhập cảnh và gia hạn, hủy bỏ, giải tỏa quyết định tạm
+hoãn xuất cảnh; giải tỏa quyết định chưa cho nhập cảnh ban hành kèm theo
+Thông tư này hoặc tại các văn bản quy phạm pháp luật khác có liên quan; dữ
+liệu được trao đổi trên môi trường điện tử phải bảo đảm tính toàn vẹn,
+chính xác, đầy đủ và xác thực;
+
+
+b) Thường xuyên rà soát, cập nhật và kịp thời trao đổi Cục Quản lý xuất
+nhập cảnh các thông tin liên quan trong hồ sơ đăng ký tạm hoãn xuất cảnh,
+chưa cho nhập cảnh khi có sự thay đổi;
+
+
+c) Khai thác Cơ sở dữ liệu quốc gia về dân cư (nếu đủ điều kiện) để xác
+thực, bổ sung thông tin của người bị tạm hoãn xuất cảnh, chưa cho nhập cảnh
+trước khi gửi Cục Quản lý xuất nhập cảnh.
+
+
+Điều 8. Hiệu lực thi hành
+
+
+1. Thông tư này có hiệu lực kể từ ngày 10 tháng 7 năm 2026 và thay thế
+Thông tư số 79/2020/TT-BCA ngày 14 tháng 7 năm 2020 của Bộ trưởng Bộ Công
+an hướng dẫn thực hiện tạm hoãn xuất cảnh, chưa cho nhập cảnh.
+
+
+2. Các quyết định tạm hoãn xuất cảnh, chưa cho nhập cảnh được ban hành
+trước ngày Thông tư này có hiệu lực thi hành vẫn còn hiệu lực cho đến khi
+hết thời hạn của quyết định.
+
+
+3. Trong quá trình thực hiện Thông tư nếu có khó khăn, vướng mắc, cơ quan,
+tổ chức, cá nhân trao đổi về Bộ Công an (qua Cục Quản lý xuất nhập cảnh) để
+được hướng dẫn./.
+
+
+ 
+
+
+|                                    |BỘ TRƯỞNG                           |
+|Nơi nhận:                           |                                    |
+|- Các bộ, cơ quan ngang bộ;         |                                    |
+|- UBND các tỉnh, thành phố;         |                                    |
+|- Văn phòng Trung ương và các Ban   |                                    |
+|của Đảng;                           |Đại tướng Lương Tam Quang           |
+|- Hội đồng Dân tộc và các Ủy ban của|                                    |
+|Quốc hội;                           |                                    |
+|- Tòa án nhân dân tối cao;          |                                    |
+|- Viện Kiểm sát nhân dân tối cao;   |                                    |
+|- Kiểm toán Nhà nước;               |                                    |
+|- Các đồng chí Thứ trưởng Bộ Công   |                                    |
+|an;                                 |                                    |
+|- Công an các đơn vị, địa phương;   |                                    |
+|- Cổng thông tin điện tử Bộ Công an,|                                    |
+|Công báo;                           |                                    |
+|- Lưu: VT, QLXNC, (141b).           |                                    |
+
+
+ 
+
+
+                      Mẫu M01 (Ban hành kèm theo Thông tư số 71/2026/TT-BCA)
+
+
+|........................(1)|CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM            |
+|-------                    |Độc lập - Tự do - Hạnh phúc                   |
+|                           |---------------                               |
+|Số:                        |..........., ngày .... tháng .... năm ….....  |
+|.......................... |                                              |
+
+
+ 
+
+
+|QUYẾT ĐỊNH TẠM HOÃN XUẤT CẢNH                               |             |
+|                                                            |Ảnh 4x6cm    |
+|Căn cứ:                                                     |             |
+|............................................................|             |
+|..........................(2)                               |             |
+
+
+ 
+
+
+                                 QUYẾT ĐỊNH
+
+
+Tạm hoãn xuất cảnh đối với:
+
+
+Ông/Bà (chữ in hoa): ...............................................Giới
+tính: ...........................
+
+
+Các tên khác (nếu có):
+............................................................................
+.............
+
+
+Ngày tháng năm sinh: ......../........./.........Nơi sinh:
+..............................................
+
+
+Quốc tịch hiện nay: ………………………(3) Giấy tờ tùy thân: .……………..(4)
+
+
+Nơi cư trú hiện nay:
+............................................................................
+..............(5)
+
+
+Nghề nghiệp: .......................Nơi làm việc:
+..........................................................
+
+
+Lý do:
+............................................................................
+.......................................
+
+
+Thời hạn: …………………………………………………………………….(6)
+
+
+Biện pháp xử lý khi phát hiện:
+..........................................................................(7
+)
+
+
+Khi cần thiết, Cơ quan quản lý xuất nhập cảnh liên hệ với:
+
+
+Đơn vị được giao xử lý: ……….………… Điện thoại: …………....................
+
+
+Cán bộ được phân công xử lý: ........................................ Điện
+thoại: .................
+
+
+ 
+
+
+|                                    |……………………………….(1)                    |
+|Nơi nhận:                           |(ký, ghi rõ họ tên, chức vụ, đóng   |
+|-.........(8);                      |dấu)                                |
+|- Lưu: .....                        |                                    |
+
+
+ 
+
+
+Ghi chú:
+
+
+(1) Tên cơ quan quyết định tạm hoãn xuất cảnh;
+
+
+(2) Trích dẫn khoản, điều, văn bản pháp luật quy định thẩm quyền ra quyết
+định tạm hoãn xuất cảnh;
+
+
+(3) Nếu người không quốc tịch thì ghi “không”, nếu chưa xác định được quốc
+tịch thì ghi “không rõ”;
+
+
+(4) Đối với người nước ngoài thì ghi rõ số hộ chiếu/giấy tờ có giá trị xuất
+cảnh, nhập cảnh Việt Nam, nước cấp; đối với công dân Việt Nam thì ghi rõ số
+CC/CCCD/Hộ chiếu/Giấy thông hành;
+
+
+(5) Đối với người nước ngoài đang ở Việt Nam ghi địa chỉ đang tạm trú, đối
+với công dân Việt Nam: ghi địa chỉ thường trú/tạm trú/nơi ở hiện nay;
+
+
+(6) Ghi rõ thời hạn từ ngày.... tháng .....năm….đến ngày....tháng....năm…;
+
+
+(7) Ngoài việc ngăn chặn, nếu cần áp dụng biện pháp khác đề nghị ghi rõ yêu
+cầu;
+
+
+(8) - Họ tên của người bị tạm hoãn xuất cảnh trừ trường hợp vì lý do an
+ninh, quốc phòng, phòng chống tội phạm;
+
+
+- Ghi tên cơ quan, tổ chức có liên quan.
+
+
+ 
+
+
+             Form M01 (promulgated together with Circular No 71/2026/TT-BCA)
+
+
+|...........................|SOCIALIST REPUBLIC OF VIETNAM                 |
+|...............(1)         |Independence - Freedom - Happiness            |
+|                           |-------------                                 |
+|No:                        |................, DD/MM/YY                    |
+
+
+ 
+
+
+                      DECISION ON SUSPENSION FROM EXIT
+
+
+           Pursuant to .......................................(2)
+
+
+|DECIDE                                                   |Photograph      |
+|                                                         |4x6cm           |
+|                                                         |                |
+|                                                         |                |
+|                                                         |                |
+
+
+To suspend from exit:
+
+
+Mr./Mrs. (in capital letters):
+............................................................................
+.....
+
+
+Other names (if any): ...................................... Gender:
+....................................
+
+
+Date of birth: ............/............../.............Place of birth:
+....................................
+
+
+Current nationality: ......................... (3) Personal travel
+documents/ ID: ..............(4)
+
+
+Current residence address:
+............................................................................
+.......(5)
+
+
+Profession: ..................................................Working
+address: ................................
+
+
+Reason:
+............................................................................
+........................................
+
+
+Duration:
+............................................................................
+...................................(6)
+
+
+Measures applied when detecting:
+.......................................................................(7)
+
+
+In case of necessity, the immigration management agency contacts:
+
+
+The unit assigned to handle the case:
+.......................................Tel: ........................
+
+
+Officer assigned to handle the case:
+....................................... Tel: .......................
+
+
+ 
+
+
+|Adressees:                   |...........................................|
+|-                            |....... (1)                                |
+|.........................(8) |(signature, full name, job title, official |
+|- Saved in:                  |stamp)                                     |
+|........................     |                                           |
+
+
+ 
+
+
+Annotation:
+
+
+(1) Name of the agency issuing the Decision on Suspension from Exit;
+
+
+(2) To quote Clause, Article or legal documents stipulating the agency to
+issue the Decision on Suspension from Exit;
+
+
+(3) Clearly write “None” for stateless person; write “unidentified” for
+unidentified nationals;
+
+
+(4) For foreigners, write number of passport/ travel document valid for
+entry into or exit from Vietnam, name of issuing country; For Vietnamsese,
+write the number of Identification/citizen identity
+certificate/passport/travel document;
+
+
+(5) For foreigners who are living in Vietnam, write the temporary residence
+address; For Vietnamsese, write permanent/temporary/current residence
+address.
+
+
+(6) Write clearly duration from DD/MM/YY .... to DD/MM/YY.......
+
+
+(7) Specify the requests if more than one preventive measure applied in
+case of necessity;
+
+
+(8)- Full name of the person who is subject to suspension from exit except
+for the reasons of security, national defence and criminal prevention.
+
+
+- Name of relevant agencies and organizations.
+
+
+ 
+
+
+                     Mẫu M01b (Ban hành kèm theo Thông tư số 71/2026/TT-BCA)
+
+
+|........................(1)|CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM            |
+|-------                    |Độc lập - Tự do - Hạnh phúc                   |
+|                           |---------------                               |
+|Số:                        |..........., ngày .... tháng .... năm ….....  |
+|.......................... |                                              |
+
+
+ 
+
+
+|QUYẾT ĐỊNH                                                  |             |
+|GIA HẠN TẠM HOÃN XUẤT CẢNH                                  |Ảnh 4x6cm    |
+|                                                            |             |
+|Căn cứ:                                                     |             |
+|............................................................|             |
+|..........................(2)                               |             |
+
+
+ 
+
+
+                                 QUYẾT ĐỊNH
+
+
+Gia hạn tạm hoãn xuất cảnh đến ngày.... tháng .... năm .... theo Quyết định
+tạm hoãn xuất cảnh số .......ngày.... tháng .... năm ..... của
+..........(1) đối với:
+
+
+Ông/Bà (chữ in hoa): ............................................... Giới
+tính: ...........................
+
+
+Các tên khác (nếu có):
+............................................................................
+.............
+
+
+Ngày tháng năm sinh: ......../........./.........Nơi sinh:
+..............................................
+
+
+Quốc tịch hiện nay: ………………………(3) Giấy tờ tùy thân: .……………..(4)
+
+
+Nơi cư trú hiện nay:
+............................................................................
+..............(5)
+
+
+Nghề nghiệp: .......................Nơi làm việc:
+..........................................................
+
+
+Lý do:
+............................................................................
+.......................................
+
+
+Biện pháp xử lý khi phát hiện:
+..........................................................................(6
+)
+
+
+Khi cần thiết, Cơ quan quản lý xuất nhập cảnh liên hệ với:
+
+
+Đơn vị được giao xử lý: ……….…………………… Điện thoại: …………......
+
+
+Cán bộ được phân công xử lý: ................................ Điện thoại:
+......................
+
+
+ 
+
+
+|                                    |……………………………….(1)                    |
+|Nơi nhận:                           |(ký, ghi rõ họ tên, chức vụ, đóng   |
+|-.........(7);                      |dấu)                                |
+|- Lưu: .....                        |                                    |
+
+
+ 
+
+
+Ghi chú:
+
+
+(1) Tên cơ quan quyết định gia hạn tạm hoãn xuất cảnh;
+
+
+(2) Trích dẫn khoản, điều, văn bản pháp luật quy định thẩm quyền ra quyết
+định gia hạn tạm hoãn xuất cảnh;
+
+
+(3) Nếu người không quốc tịch thì ghi “không”, nếu chưa xác định được quốc
+tịch thì ghi “không rõ”;
+
+
+(4) Đối với người nước ngoài thì ghi rõ số hộ chiếu/giấy tờ có giá trị xuất
+cảnh, nhập cảnh Việt Nam, nước cấp; đối với công dân Việt Nam thì ghi rõ số
+CC/CCCD/Hộ chiếu/Giấy thông hành;
+
+
+(5) Đối với người nước ngoài đang ở Việt Nam ghi địa chỉ đang tạm trú, đối
+với công dân Việt Nam: ghi địa chỉ thường trú/tạm trú/nơi ở hiện nay;
+
+
+(6) Ngoài việc ngăn chặn, nếu cần áp dụng biện pháp khác đề nghị ghi rõ yêu
+cầu;
+
+
+(7) - Họ tên của người bị tạm hoãn xuất cảnh trừ trường hợp vì lý do an
+ninh, quốc phòng, phòng chống tội phạm;
+
+
+ - Ghi tên cơ quan, tổ chức có liên quan.
+
+
+ 
+
+
+            Form M01b (promulgated together with Circular No 71/2026/TT-BCA)
+
+
+|...........................|SOCIALIST REPUBLIC OF VIETNAM                 |
+|...............(1)         |Independence - Freedom - Happiness            |
+|                           |-------------                                 |
+|No:                        |................, DD/MM/YY                    |
+
+
+ 
+
+
+                DECISION ON EXTENSION OF SUSPENSION FROM EXIT
+
+
+|Pursuant                                                 |Photograph      |
+|to.............................................(2)       |4x6cm           |
+|DECIDE                                                   |                |
+|                                                         |                |
+|                                                         |                |
+
+
+To extend suspension-from-exit duration until DD/MM/YY according to
+Decision on Suspension from Exit No....... DD/MM/YY by...................
+(1) to:
+
+
+Mr./Mrs. (in capital letters): ............................. Gender:
+........................................
+
+
+Other names (if any):
+............................................................................
+............
+
+
+Date of birth: ............/............../.............Place of birth:
+....................................
+
+
+Current nationality: .........................(3) Personal travel
+documents/ ID: ...............(4)
+
+
+Current residence address:
+............................................................................
+.......(5)
+
+
+Profession: ..................................................Working
+address: ................................
+
+
+Reason:
+............................................................................
+........................................
+
+
+Measures applied when detecting:
+......................................................................(6)
+
+
+In case of necessity, the immigration management agency contacts:
+
+
+The unit assigned to handle the case:
+.......................................Tel: ........................
+
+
+Officer assigned to handle the case:
+.......................................Tel: .........................
+
+
+ 
+
+
+|Adressees:                  |.............................................|
+|-.........................(7|..... (1)                                    |
+|)                           |(signature, full name, job title, official   |
+|- Saved in::                |stamp)                                       |
+|........................    |                                             |
+
+
+Annotation:
+
+
+(1) Name of the agency issuing the Decision on Extension of Suspension from
+Exit;
+
+
+(2) To quote Clause, Article or legal documents stipulating the agency to
+issue the Decision on Extension of Suspension from Exit;
+
+
+(3) Clearly write “None” for stateless person, write “unidentified” for
+unidentified nationals;
+
+
+(4) For foreigners, write number of passport/ travel document valid for
+entry into or exit from Vietnam, name of issuing country; For Vietnamsese,
+write the number of Identification/citizen identity
+certificate/passport/travel document;
+
+
+(5) For foreigners who are living in Vietnam, write temporary residence
+address; For Vietnamsese, write permanent/temporary/existing residence
+address;
+
+
+(6) Specify the requests if more than one preventive measure applied in
+case of necessity;
+
+
+(7) - Full name of the person who is subject to Extension of Suspension
+from Exit for the reasons of security, national defence and criminal
+prevention.
+
+
+- Name of relevant agencies and organizations.
+
+
+ 
+
+
+                     Mẫu M01c (Ban hành kèm theo Thông tư số 71/2026/TT-BCA)
+
+
+|........................(1)|CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM            |
+|-------                    |Độc lập - Tự do - Hạnh phúc                   |
+|                           |---------------                               |
+|Số:                        |..........., ngày .... tháng .... năm ….....  |
+|.......................... |                                              |
+
+
+ 
+
+
+|QUYẾT ĐỊNH HỦY BỎ                                           |             |
+|QUYẾT ĐỊNH TẠM HOÃN XUẤT CẢNH                               |Ảnh 4x6cm    |
+|                                                            |             |
+|Căn cứ:                                                     |             |
+|............................................................|             |
+|..........................(2)                               |             |
+
+
+ 
+
+
+                                 QUYẾT ĐỊNH
+
+
+Từ ngày.... tháng .... năm ..... hủy bỏ Quyết định tạm hoãn xuất cảnh
+số......., ngày...tháng...năm... của
+.........................................(1) đối với:
+
+
+Ông/Bà (chữ in hoa): ...............................................Giới
+tính: ...........................
+
+
+Các tên khác (nếu có):
+............................................................................
+.............
+
+
+Ngày tháng năm sinh: ......../........./.........Nơi sinh:
+..............................................
+
+
+Quốc tịch hiện nay: ………………………(3) Giấy tờ tùy thân: .……………..(4)
+
+
+Nơi cư trú hiện nay:
+............................................................................
+..............(5)
+
+
+Lý do:
+............................................................................
+.......................................
+
+
+Khi cần thiết, Cơ quan quản lý xuất nhập cảnh liên hệ với:
+
+
+Đơn vị được giao xử lý: ……….………………. Điện thoại: ………….............
+
+
+Cán bộ được phân công xử lý: ............................ Điện thoại:
+.............................
+
+
+ 
+
+
+|                                    |……………………………….(1)                    |
+|Nơi nhận:                           |(ký, ghi rõ họ tên, chức vụ, đóng   |
+|-.........(6);                      |dấu)                                |
+|- Lưu: .....                        |                                    |
+
+
+ 
+
+
+Ghi chú:
+
+
+(1) Tên cơ quan quyết định hủy bỏ quyết định tạm hoãn xuất cảnh;
+
+
+(2) Trích dẫn khoản, điều, văn bản pháp luật quy định thẩm quyền ra quyết
+định hủy bỏ quyết định tạm hoãn xuất cảnh;
+
+
+(3) Nếu người không quốc tịch thì ghi “không”, nếu chưa xác định được quốc
+tịch thì ghi “không rõ”;
+
+
+(4) Đối với người nước ngoài thì ghi rõ số hộ chiếu/giấy tờ có giá trị xuất
+cảnh, nhập cảnh Việt Nam, nước cấp; đối với công dân Việt Nam thì ghi rõ số
+CC/CCCD/Hộ chiếu/Giấy thông hành;
+
+
+ (5) Đối với người nước ngoài đang ở Việt Nam ghi địa chỉ đang tạm trú, đối
+với công dân Việt Nam: ghi địa chỉ thường trú/tạm trú/nơi ở hiện nay;
+
+
+(6) - Họ tên của người được hủy bỏ biện pháp tạm hoãn xuất cảnh trừ trường
+hợp vì lý do an ninh, quốc phòng, phòng chống tội phạm;
+
+
+- Ghi tên cơ quan, tổ chức có liên quan.
+
+
+ 
+
+
+            Form M01c (promulgated together with Circular No 71/2026/TT-BCA)
+
+
+|...........................|SOCIALIST REPUBLIC OF VIETNAM                 |
+|...............(1)         |Independence - Freedom - Happiness            |
+|                           |-------------                                 |
+|No:                        |................, DD/MM/YY                    |
+
+
+ 
+
+
+              DECISION ON CANCELLATION OF SUSPENSION FROM EXIT
+
+
+|Pursuant                                                 |Photograph      |
+|to.............................................(2)       |4x6cm           |
+|DECIDE                                                   |                |
+|                                                         |                |
+|                                                         |                |
+
+
+To cancel Decision on Suspension from Exit No....... DD/MM/YY by (1)
+.......... from
+DD/MM/YY......................................................... to:
+
+
+Mr./Mrs. (in capital letters): ............................. Gender:
+........................................
+
+
+Other names (if any):
+............................................................................
+............
+
+
+Date of birth: ............/............../.............Place of birth:
+....................................
+
+
+Current nationality: .........................(3) Personal travel
+documents/ ID: ...............(4)
+
+
+Current residence address:
+............................................................................
+..(5)
+
+
+Reason:
+............................................................................
+........................................
+
+
+In case of necessity, the immigration management agency contacts:
+
+
+The unit assigned to handle the case:
+.......................................Tel: ........................
+
+
+Officer assigned to handle the case:
+....................................... Tel: .......................
+
+
+ 
+
+
+|Adressees:                  |.............................................|
+|-.........................(6|..... (1)                                    |
+|)                           |(signature, full name, job title, official   |
+|- Saved in::                |stamp)                                       |
+|........................    |                                             |
+
+
+ 
+
+
+Annotation:
+
+
+(1) Name of the agency issuing the Decision on Cancellation of Suspension
+from Exit;
+
+
+(2) To quote Clause, Article or legal documents stipulating the competence
+to issue the Decision on Cancellation of Suspension from exit;
+
+
+(3) Clearly write “None” for stateless person, write “unidentified” for
+unidentified nationals;
+
+
+(4) For foreigners, clearly write number of passport/ travel document valid
+for entry into or exit from Vietnam, name of issuing country; For
+Vietnamsese, write the number of Identification/citizen identity
+certificate/passport/travel document;
+
+
+(5) For foreigners who are living in Vietnam, write temporary residence
+address; For Vietnamsese, write permanent/temporary/current residence
+address.
+
+
+(6)- Full name of person who is subject to Cancellation of Suspension from
+Exit except for the reasons of security, national defence and criminal
+prevention.
+
+
+- Name of relevant agencies and organizations.
+
+
+ 
+
+
+                     Mẫu M01d (Ban hành kèm theo Thông tư số 71/2026/TT-BCA)
+
+
+|........................(1)|CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM            |
+|-------                    |Độc lập - Tự do - Hạnh phúc                   |
+|                           |---------------                               |
+|Số:                        |..........., ngày .... tháng .... năm ….....  |
+|.......................... |                                              |
+
+
+ 
+
+
+                                  THÔNG BÁO
+
+
+              Về việc .....................................(2)
+
+
+           (Dùng cho Cơ quan thi hành án hình sự Công an cấp tỉnh)
+
+
+              Kính gửi: Cục Quản lý xuất nhập cảnh - Bộ Công an
+
+
+Căn
+cứ:.........................................................................
+................................(3), ...................... (4) đã tạm hoãn
+xuất cảnh đối với:
+
+
+|STT |Họ và|Giới|Ngày |Quốc |Giấy  |Địa chỉ |Lý do    |Thời    |Đơn vị và   |
+|    |tên  |tính|sinh |tịch(|tờ tùy|(7)     |         |hạn(8)  |cán bộ xử   |
+|    |     |    |     |5)   |thân(6|        |         |        |lý, số ĐT   |
+|    |     |    |     |     |)     |        |         |        |liên lạc    |
+|    |     |    |     |     |      |        |         |        |            |
+
+
+Đề nghị quý Cục phối hợp./.
+
+
+ 
+
+
+|Nơi nhận:                           |……………………………..………….(1)                |
+|- Như trên;                         | (ký, ghi rõ họ tên, chức vụ, đóng   |
+|                                    |dấu)                                 |
+|                                    |                                     |
+|-.........(9);                      |                                     |
+|- Lưu.....                          |                                     |
+
+
+Ghi chú:
+
+
+(1) Tên cơ quan thông báo tạm hoãn xuất cảnh, gia hạn tạm hoãn xuất cảnh;
+
+
+(2) Ghi rõ tạm hoãn xuất cảnh/gia hạn tạm hoãn xuất cảnh;
+
+
+(3) Trích dẫn khoản, điều, văn bản pháp luật quy định thẩm quyền ra quyết
+định tạm hoãn xuất cảnh, gia hạn tạm hoãn xuất cảnh;
+
+
+(4) Ghi rõ tên cơ quan có thẩm quyền ra quyết định tạm hoãn xuất cảnh, gia
+hạn tạm hoãn xuất cảnh;
+
+
+(5) Nếu người không quốc tịch thì ghi “không”, nếu chưa xác định được quốc
+tịch thì ghi “không rõ”;
+
+
+(6) Đối với người nước ngoài thì ghi rõ số hộ chiếu/giấy tờ có giá trị xuất
+cảnh, nhập cảnh Việt Nam, nước cấp; đối với công dân Việt Nam thì ghi rõ số
+CC/CCCD/Hộ chiếu/Giấy thông hành;
+
+
+(7) Đối với người nước ngoài đang ở Việt Nam ghi địa chỉ đang tạm trú, đối
+với công dân Việt Nam ghi địa chỉ thường trú/tạm trú/nơi ở hiện nay;
+
+
+(8) Ghi rõ thời hạn từ ngày.... tháng.....năm….đến ngày....tháng....năm…;
+
+
+(9) Ghi tên cơ quan, tổ chức có liên quan.
+
+
+ 
+
+
+                      Mẫu M02 (Ban hành kèm theo Thông tư số 71/2026/TT-BCA)
+
+
+|........................(1)|CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM            |
+|-------                    |Độc lập - Tự do - Hạnh phúc                   |
+|                           |---------------                               |
+|Số:                        |..........., ngày .... tháng .... năm ….....  |
+|.......................... |                                              |
+
+
+ 
+
+
+|QUYẾT ĐỊNH CHƯA CHO NHẬP CẢNH                               |             |
+|                                                            |Ảnh 4x6cm    |
+|Căn cứ:                                                     |             |
+|............................................................|             |
+|..........................(2)                               |             |
+
+
+ 
+
+
+                                 QUYẾT ĐỊNH
+
+
+Chưa cho nhập cảnh đối với:
+
+
+Ông/Bà (chữ in hoa): ...............................................Giới
+tính: ...........................
+
+
+Các tên khác (nếu có):
+............................................................................
+.............
+
+
+Ngày tháng năm sinh: ......../........./.........Nơi sinh:
+..............................................
+
+
+Quốc tịch hiện nay: ………………………(3) Giấy tờ tùy thân: .……………..(4)
+
+
+Lý do:
+............................................................................
+.......................................
+
+
+Thời hạn chưa cho nhập cảnh từ ngày …………………. đến ngày …………....
+
+
+Biện pháp xử lý khi phát hiện:
+..........................................................................(5
+)
+
+
+Khi cần thiết, Cơ quan quản lý xuất nhập cảnh liên hệ với:
+
+
+Đơn vị được giao xử lý: ……….……………… Điện thoại: …………...........
+
+
+Cán bộ được phân công xử lý: .......................... Điện thoại:
+...........................
+
+
+ 
+
+
+|                                    |……………………………….(1)                    |
+|Nơi nhận:                           |(ký, ghi rõ họ tên, chức vụ, đóng   |
+|-.........(6);                      |dấu)                                |
+|- Lưu.....                          |                                    |
+
+
+ 
+
+
+Ghi chú:
+
+
+(1) Tên cơ quan quyết định chưa cho nhập cảnh;
+
+
+(2) Trích dẫn khoản, điều, văn bản pháp luật quy định thẩm quyền ra quyết
+định chưa cho nhập cảnh;
+
+
+(3) Nếu người không quốc tịch thì ghi “không”, nếu chưa xác định được quốc
+tịch thì ghi “không rõ”;
+
+
+(4) Ghi rõ số hộ chiếu/giấy tờ có giá trị xuất cảnh, nhập cảnh Việt Nam,
+nước cấp;
+
+
+(5) Ngoài việc ngăn chặn, nếu cần áp dụng biện pháp khác đề nghị ghi rõ yêu
+cầu;
+
+
+(6) Ghi tên cơ quan, tổ chức có liên quan.
+
+
+ 
+
+
+             M02 Form (promulgated together with Circular No 71/2026/TT-BCA)
+
+
+|...........................|SOCIALIST REPUBLIC OF VIETNAM                 |
+|..(1)                      |Independence - Freedom - Happiness            |
+|                           |-------------                                 |
+|No:……………                   |…….................., DD/MM/YY                |
+
+
+ 
+
+
+|DECISION ON SUSPENSION FROM ENTRY                        |Photograph      |
+|Pursuant to…………...........……………………… (2)                  |4x6cm           |
+|                                                         |                |
+|                                                         |                |
+|                                                         |                |
+
+
+                                   DECIDE
+
+
+To suspend from entry:
+
+
+Mr. /Mrs. (in capital letters): ………………….. Gender: …………………………..
+
+
+Other names (if any): ………………………………………………………….......
+
+
+Date of birth: …… / …….. / ………… Place of birth: …………………………
+
+
+Current nationality: ………………(3) Personal travel documents/ID:………...... (4)
+
+
+Reasons: …………………………………………………………………………..
+
+
+The period during which entry is not permitted from (date) ……. to (date)
+……......
+
+
+Measures of settlement when detecting……………………………………… (5)
+
+
+In case of necessity, the immigration management agency contacts:
+…............
+
+
+The unit assigned to handle the case:
+.......................................Tel: ...................
+
+
+Officer assigned to handle the case:
+........................................Tel: ..........................
+
+
+ 
+
+
+|Adressees:                  |.............................................|
+|-.........................(6|..... (1)                                    |
+|)                           |(signature, full name, job title, official   |
+|- Saved in::                |stamp)                                       |
+|........................    |                                             |
+
+
+ 
+
+
+Annotation:
+
+
+(1) Name of the agency issuing the Decision on Suspension from Entry;
+
+
+(2) To quote Clause, Article or legal documents stipulating the competence
+to issue the Decision on Suspension from Entry;
+
+
+(3) Clearly write “None” for stateless person; write “unidentified” for
+unidentified nationals;
+
+
+(4) Clearly write number of passport/ travel document valid for entry into
+or exit from Vietnam, name of issuing country;
+
+
+(5) Specify the requests if more than one preventive measure applied in
+case of necessity;
+
+
+(6) Name of relevant agencies and organizations.
+
+
+ 
+
+
+                     Mẫu M02b (Ban hành kèm theo Thông tư số 71/2026/TT-BCA)
+
+
+|........................(1)|CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM            |
+|-------                    |Độc lập - Tự do - Hạnh phúc                   |
+|                           |---------------                               |
+|Số:                        |..........., ngày .... tháng .... năm ….....  |
+|.......................... |                                              |
+
+
+ 
+
+
+|QUYẾT ĐỊNH GIẢI TỎA                                         |             |
+|QUYẾT ĐỊNH CHƯA CHO NHẬP CẢNH                               |Ảnh 4x6cm    |
+|                                                            |             |
+|Căn cứ:                                                     |             |
+|............................................................|             |
+|..........................(2)                               |             |
+
+
+                                       
+
+
+                                 QUYẾT ĐỊNH
+
+
+Từ ngày .... tháng .... năm ..... giải tỏa Quyết định chưa cho nhập cảnh
+số......., ngày...tháng...năm... của
+.........................................(1) đối với:
+
+
+Ông/Bà (chữ in hoa): ...............................................Giới
+tính: ...........................
+
+
+Các tên khác (nếu có):
+............................................................................
+.............
+
+
+Ngày tháng năm sinh: ......../........./.........Nơi sinh:
+..............................................
+
+
+Quốc tịch hiện nay: ………………………(3) Giấy tờ tùy thân: .……………..(4)
+
+
+Với lý do:
+............................................................................
+................................
+
+
+ 
+
+
+|                                    |……………………………….(1)                    |
+|Nơi nhận:                           |(ký, ghi rõ họ tên, chức vụ, đóng   |
+|-.........(5);                      |dấu)                                |
+|- Lưu: .....                        |                                    |
+
+
+ 
+
+
+Ghi chú:
+
+
+(1) Tên cơ quan quyết định giải tỏa chưa cho nhập cảnh;
+
+
+(2) Trích dẫn khoản, điều, văn bản pháp luật quy định thẩm quyền ra quyết
+định giải tỏa chưa cho nhập cảnh;
+
+
+(3) Nếu người không quốc tịch thì ghi “không”, nếu chưa xác định được quốc
+tịch thì ghi “không rõ”;
+
+
+(4) Ghi rõ số hộ chiếu/giấy tờ có giá trị xuất cảnh, nhập cảnh Việt Nam,
+nước cấp;
+
+
+(5) Ghi tên cơ quan, tổ chức có liên quan.
+
+
+ 
+
+
+            Form M02b (promulgated together with Circular No 71/2026/TT-BCA)
+
+
+|...........................|SOCIALIST REPUBLIC OF VIETNAM                 |
+|...(1)                     |Independence - Freedom - Happiness            |
+|                           |-------------                                 |
+|No:…………..                  |................, DD/MM/YY                    |
+
+
+ 
+
+
+|DECISION ON LIFTING SUSPENSION FROM ENTRY                |Photograph      |
+|Pursuant to…....………………………….. (2)                         |4x6cm           |
+|                                                         |                |
+|                                                         |                |
+|                                                         |                |
+
+
+                                   DECIDE
+
+
+To lift Decision on Suspension From Entry No.....................dated
+dd/mm/yyyy by........................, (1) to:
+
+
+Mr. /Mrs. (capital letters): ………………….. Gender: …………………………..
+
+
+Other names (if any):………………………………………………………….......
+
+
+Date of birth: …… / …….. / ………… Place of birth: …………………………
+
+
+Current nationality: ………………… (3) Personal travel documents/ ID:……… (4)
+
+
+Reasons: …………………………………………………………………………..
+
+
+ 
+
+
+|Adressees:                  |.............................................|
+|-.........................(5|..... (1)                                    |
+|)                           |(signature, full name, job title, official   |
+|- Saved in::                |stamp)                                       |
+|........................    |                                             |
+
+
+ 
+
+
+Annotation:
+
+
+(1) Name of the agency issuing the Decision on Lifting Suspension from
+Entry;
+
+
+(2) To quote Clause, Article or legal documents stipulating the competence
+to issue the Decision on Lifting suspension from Entry;
+
+
+(3) Write “None” for stateless person; write “unidentified” for
+unidentified nationals;
+
+
+(4) Clearly write number passport/travel document valid for entry into or
+exit from Vietnam, name of issuing country;
+
+
+(5) Name of relevant agencies and organizations.
+
+
+ 
+
+
+                      Mẫu M03 (Ban hành kèm theo Thông tư số 71/2026/TT-BCA)
+
+
+|........................(1)|CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM            |
+|-------                    |Độc lập - Tự do - Hạnh phúc                   |
+|                           |---------------                               |
+|Số:                        |..........., ngày .... tháng .... năm ….....  |
+|.......................... |                                              |
+|V/v                        |                                              |
+|...........................|                                              |
+|..... (2)                  |                                              |
+
+
+ 
+
+
+                            Kính gửi: Bộ Công an
+                      (qua Cục Quản lý xuất nhập cảnh)
+
+
+Căn cứ điểm b khoản 3 Điều 29 của Luật nhập cảnh, xuất cảnh, quá cảnh, cư
+trú của người nước ngoài tại Việt Nam số 47/2014/QH13 (được sửa đổi, bổ
+sung bởi Luật số 51/2019/QH14, Luật số 23/2023/QH15, Luật số 103/2025/QH15
+và Luật số 118/2025/QH15), đề nghị Bộ trưởng Bộ Công an ra quyết định
+............................ (2) đối với:
+
+
+Ông/Bà (chữ in hoa):
+........................................................... Giới tính:
+...............
+
+
+Các tên khác (nếu có):
+............................................................................
+..............
+
+
+Ngày tháng năm sinh: ........./........./.........Nơi sinh:
+.............................................
+
+
+Quốc tịch gốc: ............................. Quốc tịch hiện nay:
+.................................... (3)
+
+
+Giấy tờ tùy thân:
+……………..……..................................................................(
+4)
+
+
+Nghề nghiệp: ..................... Nơi làm việc:
+...........................................................
+
+
+Địa chỉ tạm trú/thường trú tại Việt Nam:
+.............................................................
+
+
+Lý do:
+............................................................................
+....................................(5)
+
+
+Thời hạn: …………………………………………………………..….............(6)
+
+
+Biện pháp xử lý khi phát hiện:
+.........................................................................
+(7)
+
+
+Đơn vị được giao xử lý: ................................................
+Điện thoại: ………….
+
+
+Cán bộ được phân công xử lý: ....................................... Điện
+thoại: ..................
+
+
+Đề nghị quý Bộ phối hợp./.
+
+
+ 
+
+
+|                                    |……………………………….(1)                    |
+|Nơi nhận:                           |(ký, ghi rõ họ tên, chức vụ, đóng   |
+|- Như trên;                         |dấu)                                |
+|- .........(8);                     |                                    |
+|- Lưu.....                          |                                    |
+
+
+ 
+
+
+Ghi chú:
+
+
+(1) Tên cơ quan đề nghị theo quy định tại điểm e khoản 1 Điều 3 Thông tư;
+
+
+(2) Ghi rõ: tạm hoãn xuất cảnh/gia hạn tạm hoãn xuất cảnh;
+
+
+(3) Nếu người không quốc tịch thì ghi “không”, nếu chưa xác định được quốc
+tịch thì ghi “không rõ”;
+
+
+(4) Ghi rõ số hộ chiếu/giấy tờ có giá trị xuất cảnh, nhập cảnh Việt Nam,
+nước cấp;
+
+
+(5) Kèm theo ảnh 4x6cm, Quyết định xử phạt vi phạm hành chính đối với đề
+nghị tạm hoãn xuất cảnh;
+
+
+(6) Ghi rõ từ ngày....tháng.....năm đến ngày....tháng....năm; nếu gia hạn
+ghi đến ngày....tháng...năm;
+
+
+(7) Ngoài việc ngăn chặn, nếu cần áp dụng biện pháp khác đề nghị ghi rõ yêu
+cầu;
+
+
+(8) - Họ tên của người bị áp dụng biện pháp ngăn chặn;
+
+
+- Tên cơ quan, tổ chức có liên quan.
+
+
+ 
+
+
+             Form M03 (promulgated together with Circular No 71/2026/TT-BCA)
+
+
+|.....................(1)   |SOCIALIST REPUBLIC OF VIETNAM                 |
+|---------                  |Independence - Freedom - Happiness            |
+|                           |-------------                                 |
+|No:….…….....(2)            |........., DD/MM/YY                           |
+
+
+ 
+
+
+                       To: Ministry of Public security
+                          (Immigration Department)
+
+
+Pursuant to point b Clause 3 Article 29 of the Law on Foreigners’s Entry
+into, Exit from, Transit through and Residence in Vietnam no 47/2014/QH13
+(amended by the Law No. 51/2019/QH14, the Law No. 23/2023/QH15, the Law No.
+103/2025/QH15, the Law No. 118/2025/QH15), request Minister of Public
+security to issue the Decision on……………….. (2) to:
+
+
+Mr/Mrs (in capital letters): …………………… ……….. Gender: ……………
+
+
+Other names (if any):
+............................................................................
+................
+
+
+Date of birth ……./……../…….Place of birth:……………………….…………
+
+
+Nationality of origin……………. Current nationality………………………. (3)
+
+
+Personal travel documents/ ID: …..……………………………………… …...(4)
+
+
+Profession: ……………………Working address ………………………………
+
+
+Temporary/permanent residence address in Vietnam: ………………………….
+
+
+Reasons: ……………………………………………………………………….(5)
+
+
+Duration: ……………………………………………………………………..(6)
+
+
+Measures applied when detecting: ………………………………….........(7)
+
+
+The unit assigned to handle the case:
+......................................Tel: ......................
+
+
+Officer assigned to handle the case:
+.......................................Tel: .......................
+
+
+Kindly request the esteemed Ministry for your the coordination./.
+
+
+ 
+
+
+|Adressees:                  |.............................................|
+|-.........................(8|..... (1)                                    |
+|)                           |(signature, full name, job title, official   |
+|- Saved in::                |stamp)                                       |
+|........................    |                                             |
+
+
+ 
+
+
+Annotation:
+
+
+ (1) Name of requesting agency according to point e Clause 1 Article 3 of
+this Circular;
+
+
+(2) Clearly write: suspension from exit/extension of suspension from exit;
+
+
+(3) Clearly write “None” for stateless person, write “unidentified” for
+undentified nationals;
+
+
+(4) Clearly write number of passport/ travel document valid for entry into
+or exit from Vietnam, name of issuing country;
+
+
+(5) 4x6 photo is enclosed, Decision on sanctioning of administrative
+violations in case of suspension-from-exit request;
+
+
+(6) Specify from DD/MM/YYYY to date…month…year…; in case of extension,
+write until............. DD/MM/YYYY.;
+
+
+(7) Specify the requests if more than one preventive measure applied in
+case of necessity;
+
+
+(8) - Full name of person subject to preventive measures;
+
+
+ - Name of relevant authority, organization.
+
+
+ 
+
+
+                      Mẫu M04 (Ban hành kèm theo Thông tư số 71/2026/TT-BCA)
+
+
+|BỘ CÔNG AN                 |CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM            |
+|-------                    |Độc lập - Tự do - Hạnh phúc                   |
+|                           |---------------                               |
+|Số:……../QĐ-BCA             |..........., ngày .... tháng .... năm ….....  |
+
+
+ 
+
+
+                                 QUYẾT ĐỊNH
+
+
+                  Về việc ............................ (1)
+
+
+                            BỘ TRƯỞNG BỘ CÔNG AN
+
+
+- Căn cứ điểm b khoản 3 Điều 29 Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú
+của người nước ngoài tại Việt Nam số 47/2014/QH13 (được sửa đổi, bổ sung
+bởi Luật số 51/2019/QH14, Luật số 23/2023/QH15, Luật số 103/2025/QH15 và
+Luật số 118/2025/QH15);
+
+
+- Theo đề nghị của ............................ (2),
+
+
+                                 QUYẾT ĐỊNH:
+
+
+Điều 1. .............................…………………………………... (1) đối với:
+
+
+Ông/Bà (chữ in hoa):
+........................................................... Giới tính:
+.............
+
+
+Các tên khác (nếu có):
+............................................................................
+............
+
+
+Ngày tháng năm sinh: ........./........./.........Nơi sinh:
+...........................................
+
+
+Quốc tịch hiện nay: .............. Giấy tờ tùy thân:
+.................................................. (3)
+
+
+Nghề nghiệp: ..................... Nơi làm việc:
+.........................................................
+
+
+Địa chỉ tạm trú/thường trú tại Việt Nam:
+...........................................................
+
+
+Điều 2. Thời hạn: …. ………………………………………….…….(4)
+
+
+Điều 3. Cục Quản lý xuất nhập cảnh và người có tên tại Điều 1 thực hiện
+Quyết định này./.
+
+
+ 
+
+
+|                                    |BỘ TRƯỞNG                           |
+|Nơi nhận:                           |                                    |
+|- Như Điều 3;                       |                                    |
+|- (2) …… (để ph/h);                 |                                    |
+|- Lưu: VT, QLXNC…. b.               |                                    |
+
+
+ 
+
+
+Ghi chú:
+
+
+(1) Ghi rõ: tạm hoãn xuất cảnh, gia hạn, hủy bỏ/giải tỏa tạm hoãn xuất
+cảnh;
+
+
+(2) Tên cơ quan đề nghị tạm hoãn xuất cảnh;
+
+
+(3) Ghi rõ số hộ chiếu/giấy tờ có giá trị xuất cảnh, nhập cảnh Việt Nam,
+nước cấp;
+
+
+(4) Ghi rõ từ ngày.... tháng ... năm đến ngày .... tháng .... năm ….; nếu
+gia hạn ghi đến ngày .... tháng ...năm....; nếu giải tỏa ghi từ
+ngày....tháng...năm….
+
+
+ 
+
+
+             Form M04 (promulgated together with Circular No 71/2026/TT-BCA)
+
+
+|MINISTRY OF PUBLIC SECURITY|SOCIALIST REPUBLIC OF VIETNAM                 |
+|                           |Independence - Freedom - Happiness            |
+|                           |-------------                                 |
+|No: ……../QĐ-BCA            |................, DD/MM/YY                    |
+
+
+ 
+
+
+                                  DECISION
+
+
+                   On…………………..........................(1)
+
+
+                       THE MINISTER OF PUBLIC SECURITY
+
+
+- Pursuant to point b Clause 3 Article 29 of the Law on Foreigners’s Entry
+into, Exit from, Transit through and Residence in Vietnam no 47/2014/QH13
+(amended by the Law No. 51/2019/QH14, the Law No. 23/2023/QH15, the Law No.
+103/2025/QH15, the Law No. 118/2025/QH15);
+
+
+- Upon the request of……………………………(2)
+
+
+                                   DECIDE
+
+
+Article 1.…………………………………………………………........(1) to:
+
+
+Mr/Ms (capital letters) ………………………………… Gender: …………...........
+
+
+Other name (if any) ………………………………………………….................
+
+
+Date of birth: …/…./….................Place of birth: ……………………………….......
+
+
+Current nationality: ………... Personal travel documents/
+ID:…………...............(3)
+
+
+Profession: …………………….Working address:…………………………............
+
+
+Temporary/permanent residence address in Vietnam: …………………………......
+
+
+Article 2. Duration: ………………………………………..............……….(4)
+
+
+Article 3. Immigration Department and the person as mentioned in the
+Article 1 shall implement this Decision.
+
+
+ 
+
+
+|Adressees:                             |THE MINISTER                      |
+|- As shown in Article 3;               |                                  |
+|-(2) …………… (for coordination);         |                                  |
+|- Saved in: Records, Immigration       |                                  |
+|Department……. number of copies.        |                                  |
+
+
+Annotation:
+
+
+(1) Clearly write: suspension from exit, extension, cancellation/lift of
+suspension from exit;
+
+
+(2) Name of agency requesting exit suspension;
+
+
+(3) Clearly write passport number/travel document valid for the entry into
+and exit from Vietnam and issuing country.
+
+
+(4) Clearly write from DD/MM/YYYY to DD/MM/YYYY; in case of extension,
+write duration of extention until DD/MM/YYYY; in case of lifting, write
+DD/MM/YYYY from the lift of exit suspension.
+
+
+ 
+
+
+                          Mẫu M05 (Ban hành theo Thông tư số 71/2026/TT-BCA)
+
+
+|BỘ CÔNG AN                 |CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM            |
+|CỤC QUẢN LÝ XUẤT NHẬP CẢNH |Độc lập - Tự do - Hạnh phúc                   |
+|-------                    |---------------                               |
+|Số:        /QLXNC-P…       |......., ngày …. tháng … năm 20…              |
+|V/v tạm hoãn xuất cảnh/    |                                              |
+|chưa cho nhập cảnh         |                                              |
+
+
+ 
+
+
+                           Kính gửi: …………………. (1)
+
+
+Ngày …../...../...., Cục Quản lý xuất nhập cảnh nhận được văn bản số………...,
+ghi ngày.…../…../…..của.............................................. (1)
+về việc tạm hoãn xuất cảnh/chưa cho nhập cảnh đối với ông/bà (chữ in hoa):
+....................., sinh ngày: .../…../....., quốc tịch:…........., giấy
+tờ tùy thân:…………….……..
+
+
+Cục Quản lý xuất nhập cảnh đã kiểm tra, người có tên nêu trên (2) đã xuất
+cảnh/nhập cảnh Việt Nam ngày…/…/…. qua cửa khẩu
+….................................
+
+
+Xin thông báo để quý cơ quan xử lý những vấn đề liên quan./.
+
+
+ 
+
+
+|                                    |CỤC TRƯỞNG                          |
+|Nơi nhận:                           |                                    |
+|- Như trên;                         |                                    |
+|- Lưu: VT,QLXNC, 2b.                |                                    |
+|                                    |                                    |
+|                                    |……………………..                          |
+
+
+Ghi chú:
+
+
+(1) Tên cơ quan gửi văn bản về việc tạm hoãn xuất cảnh/chưa cho nhập cảnh;
+
+
+(2) Ghi rõ họ tên, ngày tháng năm sinh; số, loại giấy tờ dùng để xuất
+cảnh/nhập cảnh nếu khác với thông tin cơ quan đã đăng ký.

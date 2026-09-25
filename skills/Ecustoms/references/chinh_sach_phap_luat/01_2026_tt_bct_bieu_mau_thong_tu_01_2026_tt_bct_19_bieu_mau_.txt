@@ -4,12 +4,6 @@
 [Cơ quan] Bộ Công Thương
 ------------------------------------------------------------
 
-[Số hiệu] 01/2026/TT-BCT (Biểu mẫu)
-[Tiêu đề] Thông tư 01/2026/TT-BCT — 19 biểu mẫu, phụ lục kèm theo
-[Ngày ban hành] 2026-01-17
-[Cơ quan] Bộ Công Thương
-------------------------------------------------------------
-
 ======================================================================
 === 01 Phieu an toan hoa chat.docx ===
 ======================================================================
@@ -2174,4 +2168,3 @@ STT | Tên Hóa chất nguy hiểm | Mã số CAS | Sản phẩm phải công b�
 8 | Methanol | 67-56-1 | Keo, dung dịch tẩy rửa
 9 | Sunfuric acid | 7664-93-9 | Ắc quy
 10 | Toluene | 108-88-3 | Sơn công nghiệp, mực in
-

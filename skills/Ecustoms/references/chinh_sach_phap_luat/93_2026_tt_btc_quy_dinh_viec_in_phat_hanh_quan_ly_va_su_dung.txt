@@ -1,0 +1,1950 @@
+[Số hiệu] 93/2026/TT-BTC
+[Tiêu đề] Quy định việc in, phát hành, quản lý và sử dụng tem điện tử rượu và tem điện tử thuốc lá
+[Ngày ban hành] 2026-07-01
+[Cơ quan] Bộ Tài chính
+------------------------------------------------------------
+
+|BỘ TÀI CHÍNH              |CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM          |
+|-------                   |Độc lập - Tự do - Hạnh phúc                 |
+|                          |---------------                             |
+|Số: 93/2026/TT-BTC        |Hà Nội, ngày 01 tháng 7 năm 2026            |
+
+
+                                  THÔNG TƯ
+
+   QUY ĐỊNH VIỆC IN, PHÁT HÀNH, QUẢN LÝ VÀ SỬ DỤNG TEM ĐIỆN TỬ RƯỢU VÀ TEM
+                              ĐIỆN TỬ THUỐC LÁ
+
+Căn cứ Luật Quản lý thuế số 108/2025/QH15;
+
+Căn cứ Luật Giao dịch điện tử số 20/2023/QH15 được sửa đổi, bổ sung bởi
+Luật số 60/2024/QH15;
+
+Căn cứ Luật Chuyển đổi số số 148/2025/QH15;
+
+Căn cứ Luật An ninh mạng số 116/2025/QH15;
+
+Căn cứ Nghị định số 67/2013/NĐ-CP của Chính phủ quy định chi tiết một số
+điều và biện pháp thi hành Luật Phòng, chống tác hại của thuốc lá về kinh
+doanh thuốc lá được sửa đổi, bổ sung bởi Nghị định số 106/2017/NĐ-CP, Nghị
+định số 08/2018/NĐ-CP và Nghị định số 17/2020/NĐ-CP;
+
+Căn cứ Nghị định số 105/2017/NĐ-CP của Chính phủ về kinh doanh rượu được
+sửa đổi, bổ sung bởi Nghị định số 17/2020/NĐ-CP;
+
+Căn cứ Nghị định số 254/2026/NĐ-CP của Chính phủ quy định chi tiết một số
+điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế số
+108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử;
+
+Căn cứ Nghị định số 29/2025/NĐ-CP của Chính phủ quy định chức năng, nhiệm
+vụ, quyền hạn và cơ cấu tổ chức của Bộ Tài chính được sửa đổi, bổ sung bởi
+Nghị định số 166/2025/NĐ-CP;
+
+Theo đề nghị của Cục trưởng Cục Thuế, Cục trưởng Cục Hải quan;
+
+Bộ trưởng Bộ Tài chính ban hành Thông tư quy định việc in, phát hành, quản
+lý và sử dụng tem điện tử rượu và tem điện tử thuốc lá.
+
+Chương I
+
+                               QUY ĐỊNH CHUNG
+
+Điều 1. Phạm vi điều chỉnh
+
+Thông tư này quy định việc in, phát hành, quản lý, sử dụng tem điện tử rượu
+và tem điện tử thuốc lá nhập khẩu, sản xuất để tiêu thụ trong nước.
+
+Điều 2. Đối tượng áp dụng
+
+1. Doanh nghiệp, tổ chức, cá nhân sản xuất, nhập khẩu rượu, sản phẩm thuốc
+lá thuộc trường hợp phải dán tem theo quy định của pháp luật.
+
+2. Cơ quan thuế, cơ quan hải quan.
+
+3. Các cơ quan, đơn vị, tổ chức, cá nhân khác có liên quan.
+
+Chương II
+
+                               QUY ĐỊNH CỤ THỂ
+
+Điều 3. Tem điện tử và dán tem điện tử
+
+1. Tem điện tử rượu, tem điện tử thuốc lá là tem có dấu hiệu nhận biết bằng
+mắt thường, trên tem có mã QR chứa các thông tin, dữ liệu về tem điện tử.
+Mã QR trên tem điện tử phải bảo đảm khả năng đọc, tra cứu, xác thực bằng
+phương tiện kỹ thuật phù hợp. Các thông tin, dữ liệu điện tử được tra cứu
+trên Hệ thống thông tin quản lý thuế, Cổng Thông tin điện tử Cục Hải quan
+để phục vụ công tác quản lý, tra cứu của doanh nghiệp, tổ chức, cá nhân,
+người tiêu dùng và cơ quan quản lý nhà nước.
+
+2. Mẫu tem và mô tả tem điện tử:
+
+a) Mẫu tem và mô tả tem điện tử thuốc lá sản xuất để tiêu thụ trong nước
+được trình bày tại Phụ lục I kèm theo Thông tư này;
+
+b) Mẫu tem và mô tả tem điện tử rượu sản xuất để tiêu thụ trong nước được
+trình bày tại Phụ lục II kèm theo Thông tư này;
+
+c) Mô tả về tem điện tử rượu nhập khẩu được trình bày tại Phụ lục IV kèm
+theo Thông tư này;
+
+d) Mô tả về tem và vị trí dán tem điện tử thuốc lá nhập khẩu được trình bày
+tại Phụ lục V kèm theo Thông tư này.
+
+3. Nguyên tắc dán tem điện tử:
+
+a) Sản phẩm thuốc lá nhập khẩu và sản phẩm thuốc lá sản xuất để tiêu thụ
+trong nước thuộc trường hợp phải dán tem theo quy định tại Nghị định số
+67/2013/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp thi
+hành Luật Phòng, chống tác hại của thuốc lá về kinh doanh thuốc lá được sửa
+đổi, bổ sung bởi Nghị định số 106/2017/NĐ-CP, Nghị định số 08/2018/NĐ-CP và
+Nghị định số 17/2020/NĐ-CP phải dán tem điện tử theo quy định tại Thông tư
+này.
+
+Sản phẩm thuốc lá phải được đóng vào thành bao (bao gồm cả gói hoặc hộp),
+sau đây gọi chung là bao thuốc lá. Mỗi bao thuốc lá được dán một (01) tem
+điện tử. Trường hợp bao thuốc lá có sử dụng màng bóng kính bọc bên ngoài
+thì tem điện tử phải được dán vào bao thuốc lá trước khi bọc màng bóng kính
+phủ bên ngoài. Tem điện tử được dán tại vị trí đảm bảo nguyên tắc khi mở
+bao thuốc lá tem sẽ rách.
+
+b) Rượu nhập khẩu và rượu sản xuất để tiêu thụ trong nước thuộc trường hợp
+phải dán tem theo quy định tại Nghị định số 105/2017/NĐ-CP của Chính phủ về
+kinh doanh rượu được sửa đổi, bổ sung bởi Nghị định số 17/2020/NĐ-CP phải
+dán tem điện tử theo quy định tại Thông tư này.
+
+Rượu nhập khẩu và rượu sản xuất để tiêu thụ trong nước phải được đóng thành
+chai (bao gồm cả hũ, bình, lọ, can, túi, hộp, thùng), sau đây gọi chung là
+chai rượu. Mỗi chai rượu được dán một (01) tem điện tử. Trường hợp chai
+rượu có sử dụng màng bóng kính bọc bên ngoài thì tem điện tử phải được dán
+vào chai trước khi đóng màng bóng kính phủ bên ngoài. Tem điện tử rượu được
+dán vắt qua nơi rượu có thể được lấy ra trên bao bì chứa sản phẩm rượu (nắp
+chai, nắp hũ, nắp bình, vòi rượu hoặc vị trí tương tự) đảm bảo khi mở nắp
+thì tem sẽ rách và không thể sử dụng lại.
+
+c) Việc dán tem điện tử phải bảo đảm các thông tin nhận diện trên tem không
+bị che khuất, tẩy xóa, làm biến dạng hoặc làm mất khả năng tra cứu, xác
+thực thông tin tem trong điều kiện lưu thông, bảo quản, vận chuyển thông
+thường của sản phẩm.
+
+4. Đơn vị thực hiện dán tem điện tử:
+
+a) Doanh nghiệp, tổ chức nhập khẩu sản phẩm rượu đóng chai, rượu thành phẩm
+dạng thùng, téc nhập khẩu về sang, chiết ra chai hoặc nhập khẩu sản phẩm
+thuốc lá phải thực hiện dán tem điện tử trong quá trình làm thủ tục nhập
+khẩu hoặc sau khi đã hoàn thành thủ tục nhập khẩu nhưng trước khi đưa sản
+phẩm ra thị trường tiêu thụ;
+
+b) Trường hợp doanh nghiệp, tổ chức nhập khẩu sản phẩm rượu đóng chai hoặc
+nhập khẩu sản phẩm thuốc lá thực hiện dán tem điện tử tại cơ sở sản xuất ở
+nước ngoài thì việc dán tem điện tử phải được hoàn thành trước khi nhập
+khẩu vào lãnh thổ Việt Nam;
+
+c) Đối với sản phẩm thuốc lá sản xuất để tiêu thụ trong nước: doanh nghiệp
+có Giấy phép sản xuất sản phẩm thuốc lá phải thực hiện dán tem điện tử đúng
+quy định cho sản phẩm thuốc lá tại địa điểm sản xuất sau khi sản phẩm thuốc
+lá được đóng thành bao thuốc lá và trước khi đưa sản phẩm đi tiêu thụ trong
+nước;
+
+d) Đối với rượu sản xuất để tiêu thụ trong nước: tổ chức, cá nhân sản xuất
+rượu trong nước phải thực hiện dán tem điện tử đúng quy định cho sản phẩm
+rượu tại địa điểm sản xuất sau khi rượu được đóng chai và trước khi đưa sản
+phẩm rượu đi tiêu thụ trong nước;
+
+đ) Doanh nghiệp, tổ chức, cá nhân tự chịu trách nhiệm về việc dán tem điện
+tử theo đúng quy định tại Thông tư này.
+
+5. Quản lý dữ liệu tem điện tử:
+
+a) Cục Thuế thực hiện quản lý dữ liệu tem điện tử rượu, tem điện tử thuốc
+lá sản xuất để tiêu thụ trong nước. Cục Hải quan thực hiện quản lý dữ liệu
+tem điện tử thuốc lá nhập khẩu, tem điện tử rượu nhập khẩu;
+
+b) Cơ quan thuế các cấp, cơ quan hải quan các cấp thực hiện quản lý, tra
+cứu, khai thác, sử dụng dữ liệu tem điện tử theo phân quyền của Cục Thuế,
+Cục Hải quan; phối hợp, cung cấp thông tin về tem điện tử với các cơ quan,
+đơn vị có chức năng, nhiệm vụ liên quan nhằm phục vụ công tác quản lý;
+
+c) Việc quản lý dữ liệu tem điện tử rượu, tem điện tử thuốc lá phải bảo đảm
+tính duy nhất của mã quản lý tem điện tử, khả năng tra cứu tem điện tử theo
+phạm vi quản lý của cơ quan thuế, cơ quan hải quan;
+
+d) Việc quản lý, khai thác, tra cứu, xác thực và chia sẻ dữ liệu tem điện
+tử phải bảo đảm an toàn thông tin, bảo mật dữ liệu, an ninh mạng, phân
+quyền truy cập và lưu vết xử lý dữ liệu theo quy định của pháp luật.
+
+Điều 4. Nguyên tắc quản lý, sử dụng tem điện tử
+
+1. Nguyên tắc quản lý:
+
+a) Cục Hải quan thực hiện in, phát hành tem điện tử thuốc lá nhập khẩu, tem
+điện tử rượu nhập khẩu và thực hiện bán tem điện tử thuốc lá nhập khẩu, tem
+điện tử rượu nhập khẩu cho các doanh nghiệp, tổ chức được phép nhập khẩu
+sản phẩm thuốc lá, sản phẩm rượu hoặc được mua hàng tịch thu, bán đấu giá
+của cơ quan có thẩm quyền theo quy định;
+
+b) Cục Thuế thực hiện in, phát hành tem điện tử thuốc lá sản xuất để tiêu
+thụ trong nước, tem điện tử rượu sản xuất để tiêu thụ trong nước và thực
+hiện bán tem điện tử thuốc lá sản xuất để tiêu thụ trong nước, tem điện tử
+rượu sản xuất để tiêu thụ trong nước cho các tổ chức, cá nhân theo quy định
+của pháp luật;
+
+c) Doanh nghiệp, tổ chức, cá nhân sản xuất hoặc nhập khẩu sản phẩm rượu,
+sản phẩm thuốc lá hoàn toàn chịu trách nhiệm về quản lý, sử dụng, truyền
+các dữ liệu thông tin tem điện tử đến cơ quan quản lý theo quy định.
+
+2. Nguyên tắc sử dụng tem điện tử của tổ chức, cá nhân:
+
+a) Sử dụng tem điện tử đúng mục đích, đúng đối tượng theo quy định tại
+Thông tư này;
+
+b) Không trao đổi, mua, bán, vay, mượn tem điện tử;
+
+c) Không cố ý làm mất, làm hư hỏng tem điện tử.
+
+Điều 5. Quản lý, mua bán tem điện tử thuốc lá nhập khẩu, tem điện tử rượu
+nhập khẩu
+
+1. In, phát hành tem:
+
+a) Cục Hải quan chịu trách nhiệm in, cấp tem điện tử cho Chi cục Hải quan
+khu vực sử dụng theo nhu cầu của các đơn vị đã đăng ký theo định kỳ hàng
+năm;
+
+b) Chi cục Hải quan khu vực giao Hải quan cửa khẩu/ngoài cửa khẩu thực hiện
+bán tem điện tử cho doanh nghiệp, tổ chức đã hoàn thành trách nhiệm theo
+quy định tại điểm b khoản 2 Điều này;
+
+c) Toàn bộ tem điện tử trước khi đưa vào sử dụng phải được Cục Hải quan
+thông báo phát hành trên Cổng Thông tin điện tử Cục Hải quan (địa chỉ:
+https://customs.gov.vn). Nội dung thông báo phát hành bao gồm: tên tem,
+mẫu/ký hiệu tem, số lượng, số seri, thời gian bắt đầu sử dụng, giá bán.
+
+2. Mua, bán tem điện tử thuốc lá, tem điện tử rượu:
+
+a) Trách nhiệm của cơ quan hải quan:
+
+a.1) Cục Hải quan thông báo và cập nhật khi có thay đổi giá bán tem điện tử
+và trường hợp Hệ thống xử lý dữ liệu điện tử hải quan gặp sự cố trên Cổng
+Thông tin điện tử Cục Hải quan;
+
+a.2) Hải quan cửa khẩu/ngoài cửa khẩu thực hiện bán tem điện tử cho doanh
+nghiệp, tổ chức theo đề nghị của doanh nghiệp, tổ chức đảm bảo đầy đủ hồ sơ
+mua tem điện tử theo quy định và lũy kế số tem bán (của toàn ngành) không
+vượt quá số tem được Cục Hải quan cung cấp.
+
+b) Trách nhiệm của doanh nghiệp, tổ chức khi mua tem điện tử thuốc lá, tem
+điện tử rượu:
+
+b.1) Nộp Đơn đề nghị mua tem điện tử rượu/tem điện tử thuốc lá nhập khẩu
+theo Mẫu số 09/TEM Phụ lục VI kèm theo Thông tư này đến Hệ thống xử lý dữ
+liệu điện tử hải quan hoặc nộp bản giấy trong trường hợp Hệ thống gặp sự
+cố;
+
+b.2) Thanh toán tiền mua tem, nhận tem, quản lý và sử dụng tem theo quy
+định tại Thông tư này.
+
+3. Báo cáo tình hình sử dụng tem:
+
+a) Doanh nghiệp, tổ chức mua tem điện tử thực hiện khai báo, gửi dữ liệu
+thông tin về tem điện tử: tên doanh nghiệp, tổ chức dán tem; mã số thuế của
+doanh nghiệp, tổ chức dán tem; số tờ khai hải quan hoặc số Quyết định bán
+hàng tịch thu, bán đấu giá; ngày đăng ký tờ khai hải quan hoặc ngày ban
+hành Quyết định bán hàng tịch thu, bán đấu giá; tổng số lượng tem đưa vào
+dán; số lượng tem dán thành công, số lượng tem bị hỏng; tên tem; ký hiệu
+mẫu số tem; ký hiệu tem; số seri tem; tên đơn vị nhập khẩu; mã số thuế đơn
+vị nhập khẩu; tên đơn vị sản xuất; ngày sản xuất; tên sản phẩm; quy cách
+đóng gói; số lượng tem còn lại đến Hệ thống xử lý dữ liệu điện tử hải quan
+theo Mẫu số 12/TEM Phụ lục VI kèm theo Thông tư này;
+
+b) Thời hạn gửi dữ liệu thông tin về tem điện tử: trong thời gian 05 ngày
+làm việc kể từ ngày hoàn thành việc dán tem điện tử tại Việt Nam cho lô
+hàng và trước khi đưa sản phẩm ra thị trường tiêu thụ đối với sản phẩm rượu
+nhập khẩu, thuốc lá nhập khẩu; trong thời gian 05 ngày làm việc kể từ khi
+thông quan và trước khi đưa sản phẩm ra thị trường tiêu thụ đối với sản
+phẩm rượu nhập khẩu, thuốc lá nhập khẩu được dán tem điện tử tại cơ sở sản
+xuất ở nước ngoài;
+
+c) Trường hợp bảng tổng hợp dữ liệu tem điện tử đã gửi cơ quan hải quan có
+sai, sót hoặc cần điều chỉnh, bổ sung thì ngay sau khi phát hiện sai, sót
+hoặc cần điều chỉnh, bổ sung (đảm bảo không quá 05 ngày làm việc kể từ ngày
+hoàn thành gửi dữ liệu thông tin về tem) người khai hải quan gửi lại bảng
+tổng hợp dữ liệu tem điện tử thay thế bảng tổng hợp dữ liệu tem điện tử có
+sai, sót hoặc cần điều chỉnh, bổ sung đã gửi theo Mẫu số 12/TEM Phụ lục VI
+kèm theo Thông tư này;
+
+d) Đối với tem điện tử bị hỏng trong tổng số tem điện tử được doanh nghiệp,
+tổ chức khai báo, khi tra cứu hệ thống của Cục Hải quan sẽ xác định tem
+điện tử đó không có giá trị sử dụng;
+
+đ) Trường hợp Hệ thống xử lý dữ liệu điện tử hải quan gặp sự cố theo thông
+báo trên Cổng Thông tin điện tử Cục Hải quan, sau khi hoàn thành việc dán
+tem điện tử cho hàng hoá, doanh nghiệp, tổ chức lập báo cáo sử dụng tem
+điện tử theo Mẫu số 12/TEM Phụ lục VI kèm theo Thông tư này và gửi đến Hải
+quan cửa khẩu/ngoài cửa khẩu bán tem điện tử. Trong thời hạn 05 ngày làm
+việc kể từ ngày cơ quan hải quan thông báo Hệ thống được khắc phục sự cố,
+doanh nghiệp, tổ chức thực hiện khai báo, gửi dữ liệu thông tin về tem điện
+tử đến Hệ thống xử lý dữ liệu điện tử hải quan theo quy định.
+
+4. Tra cứu thông tin về tem điện tử:
+
+a) Khi người sử dụng sản phẩm rượu nhập khẩu, sản phẩm thuốc lá nhập khẩu
+hoặc các cơ quan có liên quan có nhu cầu tra cứu các thông tin của tem điện
+tử rượu, tem điện tử thuốc lá đã dán lên sản phẩm rượu nhập khẩu, sản phẩm
+thuốc lá nhập khẩu thì thực hiện quét mã QR hoặc truy cập trên Cổng Thông
+tin điện tử Cục Hải quan;
+
+b) Các thông tin của tem điện tử rượu, tem điện tử thuốc lá trên mã QR đã
+dán lên sản phẩm rượu nhập khẩu, sản phẩm thuốc lá nhập khẩu bao gồm: số
+seri tem; tên tem, ký hiệu mẫu, ký hiệu; tên đơn vị sản xuất; ngày sản
+xuất; tên đơn vị nhập khẩu; mã số thuế đơn vị nhập khẩu; tên sản phẩm; quy
+cách đóng gói; số tờ khai hải quan/số Quyết định; ngày đăng ký tờ khai/ngày
+Quyết định.
+
+5. Xử lý trong trường hợp mất, cháy, hỏng, huỷ tem điện tử:
+
+a) Trách nhiệm của cơ quan hải quan:
+
+a.1) Tham gia Hội đồng hủy tem điện tử của doanh nghiệp, tổ chức;
+
+a.2) Tiếp nhận, cập nhật thông tin thông báo hủy tem điện tử của doanh
+nghiệp, tổ chức như sau: Hệ thống hải quan tự động tiếp nhận Thông báo kết
+quả hủy tem điện tử của doanh nghiệp, tổ chức và tự động cập nhật thông tin
+số seri các tem điện tử không còn giá trị sử dụng trên Hệ thống xử lý dữ
+liệu điện tử hải quan.
+
+b) Trách nhiệm của doanh nghiệp, tổ chức:
+
+b.1) Trường hợp mất, cháy tem điện tử: doanh nghiệp, tổ chức phát hiện mất,
+cháy tem điện tử, sử dụng tài khoản được cơ quan hải quan cấp lập báo cáo
+mất, cháy tem điện tử trên Hệ thống xử lý dữ liệu điện tử hải quan chậm
+nhất không quá 05 ngày làm việc kể từ ngày phát hiện việc mất, cháy tem
+điện tử theo các nội dung sau: tên tem; mẫu/ký hiệu tem; số seri, số lượng,
+lý do mất, cháy tem theo Mẫu số 11/TEM Phụ lục VI kèm theo Thông tư này.
+Trường hợp tìm lại được tem điện tử đã mất, doanh nghiệp, tổ chức phải thực
+hiện huỷ tem điện tử chậm nhất là 05 ngày làm việc kể từ ngày tìm lại được
+tem điện tử đã mất. Việc hủy tem điện tử thực hiện theo điểm b.3 khoản này;
+
+b.2) Trường hợp tem điện tử bị hỏng: doanh nghiệp, tổ chức phát hiện tem
+điện tử bị hỏng, sử dụng tài khoản được cơ quan hải quan cấp lập báo cáo
+hỏng tem điện tử trên Hệ thống xử lý dữ liệu điện tử hải quan chậm nhất
+không quá 05 ngày làm việc kể từ ngày phát hiện hỏng tem điện tử theo các
+nội dung sau: tên tem; mẫu/ký hiệu tem; số seri, số lượng, lý do hỏng tem
+theo Mẫu số 11/TEM Phụ lục VI kèm theo Thông tư này và thực hiện huỷ tem
+điện tử bị hỏng. Việc hủy tem điện tử bị hỏng thực hiện theo điểm b.3 khoản
+này;
+
+b.3) Doanh nghiệp, tổ chức nhập khẩu sản phẩm rượu, sản phẩm thuốc lá thực
+hiện huỷ tem điện tử rượu, tem điện tử thuốc lá nhập khẩu theo trình tự như
+sau:
+
+b.3.1) Lập Bảng kiểm kê tem điện tử rượu hoặc tem điện tử thuốc lá cần hủy
+trong đó nêu rõ: tên đơn vị cấp tem; tên, địa chỉ, mã số thuế đơn vị được
+cấp tem; thời gian cấp; số lượng tem được cấp (từ số đến số, tổng số); đặc
+điểm mẫu tem và danh sách các số tờ khai hoặc số, ngày Quyết định bán hàng
+tịch thu, bán đấu giá của cơ quan có thẩm quyền;
+
+b.3.2) Lập Hội đồng hủy tem điện tử đối với sản phẩm rượu nhập khẩu, sản
+phẩm thuốc lá nhập khẩu gồm: đại diện Hải quan cửa khẩu/ngoài cửa khẩu nơi
+quản lý, đại diện lãnh đạo doanh nghiệp hoặc tổ chức, đại diện bộ phận kế
+toán, bộ phận sản xuất hoặc kinh doanh của doanh nghiệp, tổ chức;
+
+b.3.3) Lập Biên bản hủy tem điện tử rượu hoặc tem điện tử thuốc lá trong đó
+nêu rõ: lý do hủy, số lượng hủy (từ số đến số, tổng số), hình thức hủy;
+
+b.3.4) Sau khi hoàn thành việc hủy tem điện tử (đảm bảo tem điện tử bị hủy
+không thể tái sử dụng), các thành viên trong Hội đồng hủy tem điện tử phải
+ký vào biên bản và phải chịu trách nhiệm trước pháp luật nếu có sai sót.
+
+Hồ sơ hủy tem điện tử rượu nhập khẩu hoặc tem điện tử thuốc lá nhập khẩu
+được lưu tại doanh nghiệp, tổ chức sử dụng tem điện tử rượu nhập khẩu hoặc
+tem điện tử thuốc lá nhập khẩu.
+
+b.4) Thông báo kết quả hủy tem điện tử gửi qua Hệ thống xử lý dữ liệu điện
+tử hải quan thời gian chậm nhất không quá 05 ngày làm việc kể từ ngày hoàn
+thành Biên bản hủy tem điện tử theo Mẫu số 10/TEM Phụ lục VI kèm theo Thông
+tư này. Hồ sơ thông báo bao gồm: bản sao Bảng kiểm kê; Biên bản hủy tem
+điện tử rượu nhập khẩu hoặc tem điện tử thuốc lá nhập khẩu cần hủy và cập
+nhật thông tin hủy tem điện tử gồm: tên đơn vị bán tem; tên, địa chỉ, mã số
+thuế đơn vị mua tem; thời gian mua; số lượng tem (từ số đến số, tổng số);
+đặc điểm mẫu tem và danh sách các số tờ khai hoặc số, ngày Quyết định bán
+hàng tịch thu, bán đấu giá của cơ quan có thẩm quyền, số seri tem đã hủy.
+
+6. Thủ tục mua tem điện tử để dán tại cơ sở sản xuất ở nước ngoài trước khi
+nhập khẩu vào thị trường Việt Nam:
+
+a) Khi vận chuyển tem điện tử ra cơ sở sản xuất tại nước ngoài để dán trên
+sản phẩm hàng hóa, căn cứ thời hạn giao hàng ghi trên hợp đồng mua bán,
+doanh nghiệp, tổ chức khai thời hạn tạm xuất tái nhập trên tờ khai hải quan
+và làm thủ tục hải quan tạm xuất tại cơ quan hải quan nơi thuận tiện;
+
+b) Khi nhập khẩu hàng hóa đã được dán tem, ngoài khai làm thủ tục nhập khẩu
+sản phẩm, hàng hoá theo loại hình tương ứng, doanh nghiệp, tổ chức phải
+khai tờ khai hải quan và làm thủ tục tái nhập số lượng tem tương ứng với số
+lượng sản phẩm hàng hóa đã được dán tem;
+
+c) Trường hợp chưa sử dụng hoặc chưa sử dụng hết số lượng tem đã làm thủ
+tục tạm xuất, doanh nghiệp, tổ chức chịu trách nhiệm lưu giữ để sử dụng cho
+số lượng sản phẩm hàng hóa còn lại trên hợp đồng mua bán. Trường hợp điều
+chuyển sang hợp đồng mua bán khác thì phải thông báo lại cho cơ quan hải
+quan nơi bán tem biết và điều chỉnh thông tin mua tem trên Hệ thống xử lý
+dữ liệu điện tử hải quan.
+
+Điều 6. Quản lý tem điện tử rượu và tem điện tử thuốc lá sản xuất để tiêu
+thụ trong nước
+
+1. Trách nhiệm của cơ quan thuế các cấp trong quản lý Thông báo phát hành
+và cấp, bán tem điện tử rượu và tem điện tử thuốc lá sản xuất để tiêu thụ
+trong nước:
+
+a) Trách nhiệm của Cục Thuế:
+
+a.1) Thông báo phát hành tem điện tử rượu và tem điện tử thuốc lá trên Hệ
+thống thông tin quản lý thuế trước khi bán theo Mẫu số 01/TB/TEM Phụ lục
+III kèm theo Thông tư này.
+
+Cục Thuế thực hiện in tem điện tử trên cơ sở tổng hợp kế hoạch của các Thuế
+tỉnh, thành phố (theo đăng ký của các doanh nghiệp, tổ chức, cá nhân sản
+xuất sản phẩm rượu, sản phẩm thuốc lá) và dự phòng tối đa 20% kế hoạch in;
+
+a.2) Cấp tem điện tử rượu và tem điện tử thuốc lá cho Thuế tỉnh, thành phố
+có đăng ký nhận tem;
+
+a.3) Tiếp nhận, tra cứu tem điện tử rượu, tem điện tử thuốc lá trên Hệ
+thống thông tin quản lý thuế;
+
+a.4) Thông báo tem điện tử rượu, tem điện tử thuốc lá không còn giá trị sử
+dụng do mất, cháy, hỏng tại kho Cục Thuế, do thay đổi chính sách về quản lý
+tem điện tử.
+
+b) Trách nhiệm của cơ quan thuế các cấp:
+
+b.1) Các Thuế tỉnh, thành phố nhận tem điện tử rượu và tem điện tử thuốc lá
+từ Cục Thuế và bán cho các tổ chức, cá nhân trên địa bàn có sản xuất rượu;
+doanh nghiệp trên địa bàn có Giấy phép sản xuất sản phẩm thuốc lá còn hiệu
+lực theo quy định (bao gồm việc cấp tem cho Thuế cơ sở trực thuộc để bán
+tem điện tử theo quy định);
+
+b.2) Cơ quan thuế các cấp thực hiện việc theo dõi chi tiết số tem tồn đầu
+kỳ, số tem nhận, số tem bán cho doanh nghiệp, tổ chức, cá nhân, số tem mất,
+cháy, hỏng, hủy trong kỳ, số tem tồn cuối kỳ và thực hiện báo cáo thanh
+quyết toán tiền bán tem theo quý, năm với cơ quan thuế cấp trên;
+
+b.3) Tiếp nhận hồ sơ đăng ký, sử dụng tem điện tử của doanh nghiệp, tổ
+chức, cá nhân:
+
+b.3.1) Trong thời gian 01 ngày làm việc kể từ ngày Hệ thống thông tin quản
+lý thuế tiếp nhận thành công hồ sơ đăng ký, sử dụng tem điện tử của doanh
+nghiệp, tổ chức, cá nhân theo quy định tại khoản 2 Điều này, cơ quan thuế
+gửi Thông báo chấp nhận/không chấp nhận hồ sơ đăng ký, sử dụng tem điện tử
+theo Mẫu số 02/TB/TEM Phụ lục III kèm theo Thông tư này cho doanh nghiệp,
+tổ chức, cá nhân qua Hệ thống thông tin quản lý thuế. Hệ thống thông tin
+quản lý thuế sẽ tự động trả thông báo đối với các Mẫu số 04/TEM, Mẫu số
+07/TEM Phụ lục III kèm theo Thông tư này.
+
+b.3.2) Trường hợp không chấp nhận, cơ quan thuế thực hiện thông báo lý do
+không chấp nhận và hướng dẫn để doanh nghiệp, tổ chức, cá nhân bổ sung hồ
+sơ theo quy định.
+
+b.4) Bán tem điện tử và xử lý số tem điện tử còn tồn đối với doanh nghiệp,
+tổ chức, cá nhân chia, tách, sáp nhập hoặc chuyển cơ quan thuế quản lý có
+nhu cầu tiếp tục sử dụng tem:
+
+b.4.1) Cơ quan thuế có trách nhiệm bán tem điện tử ngay khi doanh nghiệp,
+tổ chức, cá nhân thực hiện đầy đủ các thủ tục mua tem theo quy định tại
+Thông tư này;
+
+b.4.2) Đối với doanh nghiệp, tổ chức, cá nhân chia, tách, sáp nhập hoặc
+chuyển cơ quan thuế quản lý trực tiếp có nhu cầu tiếp tục sử dụng số tem
+còn tồn:
+
+Trường hợp chấp nhận đăng ký điều chỉnh số tem còn tồn của doanh nghiệp, tổ
+chức, cá nhân, cơ quan thuế thực hiện chuyển ngay số tem còn tồn tại doanh
+nghiệp, tổ chức, cá nhân chia, tách, sáp nhập sang tên, mã số thuế của
+doanh nghiệp, tổ chức, cá nhân sau chia, tách, sáp nhập hoặc chuyển số tem
+còn tồn từ cơ quan thuế nơi chuyển đi sang cơ quan thuế nơi chuyển đến để
+doanh nghiệp, tổ chức, cá nhân tiếp tục sử dụng theo quy định;
+
+Trường hợp không chấp nhận, cơ quan thuế thực hiện thông báo lý do không
+chấp nhận và hướng dẫn để doanh nghiệp, tổ chức, cá nhân bổ sung hồ sơ theo
+quy định.
+
+b.4.3) Cập nhật các thông tin của tem điện tử do cơ quan thuế bán hoặc
+chuyển tồn đối với các doanh nghiệp, tổ chức, cá nhân chia, tách, sáp nhập
+hoặc chuyển cơ quan thuế quản lý trực tiếp có nhu cầu tiếp tục sử dụng tem,
+gồm các nội dung sau: tên, mã số thuế của doanh nghiệp, tổ chức, cá nhân
+sản xuất thuốc lá, sản xuất rượu tiêu thụ trong nước; tên cơ quan thuế bán
+tem điện tử, tên loại tem, ký hiệu mẫu số tem, ký hiệu tem, từ số, đến số;
+ngày bán tem hoặc ngày chuyển cơ quan thuế quản lý, số lượng, giá bán.
+
+b.5) Các trường hợp cơ quan thuế thông báo tem điện tử rượu, tem điện tử
+thuốc lá không còn giá trị sử dụng:
+
+b.5.1) Tem điện tử rượu, tem điện tử thuốc lá không còn giá trị sử dụng do
+mất, cháy, hỏng tại kho cơ quan thuế;
+
+b.5.2) Đối với tem điện tử rượu, tem điện tử thuốc lá mất, cháy, hỏng,
+không còn giá trị sử dụng do doanh nghiệp, tổ chức, cá nhân, phải thực hiện
+báo cáo, thông báo với cơ quan thuế trên Hệ thống thông tin quản lý thuế
+thuộc các trường hợp quy định tại điểm h khoản 2 Điều này, cơ quan thuế
+không phải thực hiện thông báo tem điện tử rượu, tem điện tử thuốc lá không
+còn giá trị sử dụng;
+
+b.5.3) Tem điện tử rượu, tem điện tử thuốc lá của doanh nghiệp, tổ chức, cá
+nhân chấm dứt hiệu lực mã số thuế;
+
+b.5.4) Tem điện tử rượu, tem điện tử thuốc lá của doanh nghiệp, tổ chức, cá
+nhân thuộc trường hợp cơ quan thuế xác minh và thông báo không hoạt động
+tại địa chỉ đã đăng ký;
+
+b.5.5) Doanh nghiệp, tổ chức, cá nhân sử dụng tem điện tử rượu, tem điện tử
+thuốc lá trong thời gian thông báo với cơ quan quản lý nhà nước có thẩm
+quyền tạm ngừng sản xuất, kinh doanh;
+
+b.5.6) Trường hợp có hành vi sử dụng tem điện tử để dán lên hàng nhập lậu,
+hàng cấm, hàng giả, hàng xâm phạm quyền sở hữu trí tuệ bị cơ quan chức năng
+phát hiện và thông báo cho cơ quan thuế;
+
+b.5.7) Trường hợp cơ quan đăng ký kinh doanh, cơ quan nhà nước có thẩm
+quyền yêu cầu doanh nghiệp, tổ chức, cá nhân ngừng sản xuất kinh doanh theo
+quy định của pháp luật;
+
+b.5.8) Tem điện tử rượu, tem điện tử thuốc lá của doanh nghiệp, tổ chức, cá
+nhân có hành vi cho, bán, trao đổi, vay, mượn;
+
+b.5.9) Tem điện tử rượu, tem điện tử thuốc lá của doanh nghiệp, tổ chức, cá
+nhân do cơ quan quản lý nhà nước thông báo sử dụng không đúng quy định.
+
+2. Trách nhiệm của doanh nghiệp, tổ chức, cá nhân trong quản lý, sử dụng
+tem điện tử rượu, tem điện tử thuốc lá sản xuất để tiêu thụ trong nước:
+
+a) Đăng ký sử dụng tem điện tử rượu, tem điện tử thuốc lá:
+
+a.1) Tổ chức, cá nhân sản xuất rượu hoặc doanh nghiệp có Giấy phép sản xuất
+sản phẩm thuốc lá để tiêu thụ trong nước còn hiệu lực do cơ quan có thẩm
+quyền cấp, căn cứ sản lượng sản xuất trong năm, thời hạn được phép sản xuất
+(nếu có), sử dụng tài khoản giao dịch điện tử còn hiệu lực đã được cơ quan
+thuế cấp, truy cập Hệ thống thông tin quản lý thuế để đăng ký sử dụng tem
+điện tử theo Mẫu số 01/TEM Phụ lục III kèm theo Thông tư này;
+
+a.2) Doanh nghiệp, tổ chức, cá nhân nhận Thông báo của cơ quan thuế qua
+phương thức điện tử theo Mẫu số 02/TB/TEM Phụ lục III kèm theo Thông tư này
+về việc chấp nhận hay không chấp nhận việc đăng ký sử dụng tem điện tử
+rượu, tem điện tử thuốc lá:
+
+a.2.1) Trường hợp được chấp nhận, doanh nghiệp, tổ chức, cá nhân sử dụng
+tài khoản giao dịch điện tử còn hiệu lực đã được cơ quan thuế cấp, truy cập
+Hệ thống thông tin quản lý thuế để tiếp tục thực hiện các nội dung quy định
+tại khoản này;
+
+a.2.2) Trường hợp không được chấp nhận, doanh nghiệp, tổ chức, cá nhân bổ
+sung hồ sơ theo thông báo của cơ quan thuế trước khi gửi lại đăng ký sử
+dụng tem điện tử theo phương thức điện tử.
+
+b) Lập kế hoạch mua tem điện tử rượu, tem điện tử thuốc lá:
+
+b.1) Căn cứ kế hoạch sản xuất rượu, kế hoạch sản xuất sản phẩm thuốc lá để
+tiêu thụ trong nước hàng năm, chậm nhất là ngày 15 tháng 5 của năm liền
+trước năm kế hoạch, tổ chức, cá nhân sản xuất rượu hoặc doanh nghiệp sản
+xuất sản phẩm thuốc lá để tiêu thụ trong nước sử dụng tài khoản giao dịch
+điện tử còn hiệu lực đã được cơ quan thuế cấp, truy cập Hệ thống thông tin
+quản lý thuế để đăng ký kế hoạch mua tem điện tử theo Mẫu số 02/TEM Phụ lục
+III kèm theo Thông tư này. Số lượng tem đề nghị mua không được vượt quá sản
+lượng được phép sản xuất theo Giấy phép sản xuất còn hiệu lực do cơ quan có
+thẩm quyền cấp (nếu có), trường hợp vượt phải ghi rõ lý do.
+
+Tổ chức, cá nhân sản xuất rượu hoặc doanh nghiệp sản xuất sản phẩm thuốc lá
+để tiêu thụ trong nước, không đăng ký kế hoạch sử dụng tem điện tử coi như
+không có nhu cầu mua tem.
+
+Trường hợp doanh nghiệp sở hữu thương hiệu sản phẩm rượu, thuốc lá thuê đơn
+vị khác gia công sản phẩm thì sử dụng tem điện tử của doanh nghiệp sở hữu
+thương hiệu;
+
+b.2) Trường hợp trong năm, doanh nghiệp, tổ chức, cá nhân có biến động về
+sản xuất dẫn đến tăng nhu cầu mua tem điện tử; các tổ chức, cá nhân mới có
+hoạt động sản xuất rượu, doanh nghiệp mới có Giấy phép sản xuất sản phẩm
+thuốc lá để tiêu thụ trong nước sau ngày 15 tháng 5 hàng năm: trước ngày đề
+nghị mua tem điện tử ít nhất 30 ngày, doanh nghiệp, tổ chức, cá nhân sử
+dụng tài khoản giao dịch điện tử còn hiệu lực đã được cơ quan thuế cấp,
+truy cập Hệ thống thông tin quản lý thuế để đăng ký số lượng tem điện tử
+cần mua hoặc mua thêm của năm kế hoạch theo Mẫu số 02/TEM Phụ lục III kèm
+theo Thông tư này. Tổng số lượng tem điện tử đề nghị mua không được vượt
+quá sản lượng được phép sản xuất theo Giấy phép sản xuất (nếu có), trường
+hợp vượt phải ghi rõ lý do;
+
+b.3) Doanh nghiệp, tổ chức, cá nhân nhận Thông báo của cơ quan thuế qua
+phương thức điện tử theo Mẫu số 02/TB/TEM Phụ lục III kèm theo Thông tư này
+về việc chấp nhận hay không chấp nhận việc đăng ký kế hoạch mua, mua bổ
+sung tem điện tử rượu, tem điện tử thuốc lá:
+
+b.3.1) Trường hợp chấp nhận, doanh nghiệp, tổ chức, cá nhân thực hiện các
+thủ tục mua tem điện tử, nhận tem điện tử với cơ quan thuế theo quy định
+tại điểm c khoản này;
+
+b.3.2) Trường hợp không chấp nhận, doanh nghiệp, tổ chức, cá nhân bổ sung
+hồ sơ theo thông báo của cơ quan thuế trước khi gửi lại kế hoạch mua tem
+điện tử theo quy định.
+
+c) Mua tem điện tử rượu, tem điện tử thuốc lá:
+
+c.1) Căn cứ kế hoạch mua, kế hoạch mua bổ sung tem điện tử của năm kế hoạch
+đã đăng ký với cơ quan thuế quản lý trực tiếp, doanh nghiệp, tổ chức, cá
+nhân sử dụng tài khoản giao dịch điện tử còn hiệu lực đã được cơ quan thuế
+cấp, truy cập Hệ thống thông tin quản lý thuế để đăng ký mua tem điện tử
+theo Mẫu số 02/TEM Phụ lục III kèm theo Thông tư này;
+
+c.2) Trong thời gian 01 ngày làm việc, cơ quan thuế thông báo cho doanh
+nghiệp, tổ chức, cá nhân nhận qua phương thức điện tử theo Mẫu số 02/TB/TEM
+Phụ lục III kèm theo Thông tư này về việc chấp nhận hay không chấp nhận đề
+nghị mua tem điện tử rượu, tem điện tử thuốc lá.
+
+c.2.1) Trường hợp được chấp nhận, khi đến cơ quan thuế để mua, nhận tem
+điện tử rượu, tem điện tử thuốc lá, doanh nghiệp, tổ chức, cá nhân thực
+hiện thanh toán tiền mua tem điện tử, nhận tem điện tử, quản lý và sử dụng
+tem điện tử theo quy định tại Thông tư này;
+
+c.2.2) Trường hợp không được chấp nhận, doanh nghiệp, tổ chức, cá nhân bổ
+sung hồ sơ theo thông báo của cơ quan thuế trước khi thực hiện các thủ tục
+mua tem điện tử, nhận tem điện tử theo quy định.
+
+d) Khi doanh nghiệp, tổ chức, cá nhân xuất tem điện tử cho bộ phận sản xuất
+thì doanh nghiệp, tổ chức, cá nhân phải quét mã QR gắn trên thùng tem điện
+tử hoặc block tem điện tử hoặc tem điện tử, đồng thời nhập các dữ liệu: tên
+hàng hóa, thời gian sản xuất (theo ngày/tháng/năm hoặc tháng/năm), đơn vị
+đo lường (lít/chai đối với rượu, điếu/bao đối với thuốc lá), đơn giá bán
+sản phẩm (hoặc đơn giá bán sản phẩm tạm tính trong trường hợp chưa xác định
+được đơn giá), để đảm bảo kết nối thông tin về dữ liệu tem điện tử được
+truyền đến Hệ thống thông tin quản lý thuế. Trường hợp doanh nghiệp, tổ
+chức, cá nhân phát hiện dữ liệu tem điện tử đã quét có sai, sót, cần điều
+chỉnh thì tổ chức, cá nhân, doanh nghiệp thực hiện điều chỉnh lại dữ liệu
+tem điện tử đã quét;
+
+đ) Trường hợp kết thúc năm kế hoạch mà doanh nghiệp, tổ chức, cá nhân không
+sử dụng hết số lượng tem điện tử rượu, tem điện tử thuốc lá đã mua thì số
+lượng tem điện tử còn lại được tiếp tục sử dụng cho năm tiếp theo;
+
+e) Truyền dữ liệu thông tin của tem điện tử rượu, tem điện tử thuốc lá đã
+được dán lên sản phẩm rượu, sản phẩm thuốc lá để tiêu thụ trong nước về cơ
+quan thuế:
+
+e.1) Chậm nhất ngày 20 của tháng tiếp theo, doanh nghiệp, tổ chức, cá nhân
+sử dụng tài khoản giao dịch điện tử còn hiệu lực đã được cơ quan thuế cấp,
+truy cập Hệ thống thông tin quản lý thuế để truyền dữ liệu thông tin của
+tem điện tử đã dán theo Mẫu số 07/TEM Phụ lục III kèm theo Thông tư này đến
+Hệ thống thông tin quản lý thuế. Trường hợp ngày cuối cùng trùng với ngày
+nghỉ theo quy định của pháp luật thì ngày cuối cùng của thời hạn được tính
+là ngày làm việc liền kề sau ngày nghỉ đó. Trường hợp dữ liệu tem điện tử
+đã gửi cơ quan thuế có sai, sót hoặc cần bổ sung thì doanh nghiệp, tổ chức,
+cá nhân gửi lại dữ liệu tem điện tử thay thế dữ liệu tem điện tử có sai,
+sót hoặc cần bổ sung;
+
+e.2) Doanh nghiệp, tổ chức, cá nhân nhận Thông báo của cơ quan thuế qua
+phương thức điện tử theo Mẫu số 02/TB/TEM Phụ lục III kèm theo Thông tư này
+về việc chấp nhận hay không chấp nhận bảng tổng hợp dữ liệu tem điện tử.
+Trường hợp không được chấp nhận, doanh nghiệp, tổ chức, cá nhân bổ sung hồ
+sơ theo thông báo của cơ quan thuế, trước khi gửi lại dữ liệu tem điện tử
+theo quy định;
+
+e.3) Trường hợp Hệ thống thông tin quản lý thuế gặp lỗi kỹ thuật chưa tiếp
+nhận được dữ liệu thông tin của tem điện tử đã dán, Cục Thuế có trách nhiệm
+thông báo trên Hệ thống thông tin quản lý thuế. Trong thời hạn 02 ngày làm
+việc kể từ ngày Cục Thuế có thông báo Hệ thống thông tin quản lý thuế hoạt
+động bình thường trở lại, doanh nghiệp, tổ chức, cá nhân thực hiện chuyển
+dữ liệu thông tin của tem điện tử đã dán đến cơ quan thuế và không bị xác
+định là hành vi chậm gửi dữ liệu tem điện tử.
+
+g) Xử lý tem điện tử rượu, tem điện tử thuốc lá của các doanh nghiệp, tổ
+chức, cá nhân sản xuất rượu, sản phẩm thuốc lá khi ngừng sản xuất, giải
+thể, phá sản; chia, tách, sáp nhập, hợp nhất hoặc chuyển cơ quan thuế quản
+lý trực tiếp:
+
+g.1) Tổ chức, cá nhân sản xuất rượu hoặc doanh nghiệp sản xuất sản phẩm
+thuốc lá khi ngừng sản xuất, giải thể, phá sản, hợp nhất thực hiện quyết
+toán và hủy số tem điện tử đã mua còn tồn trong thời hạn 05 ngày làm việc
+kể từ ngày doanh nghiệp, tổ chức, cá nhân thông báo ngừng sản xuất hoặc
+ngày Quyết định giải thể, phá sản, hợp nhất và gửi thông báo kết quả hủy
+theo Mẫu số 04/TEM Phụ lục III kèm theo Thông tư này đến cơ quan thuế;
+
+g.2) Doanh nghiệp, tổ chức, cá nhân chia, tách, sáp nhập hoặc chuyển cơ
+quan thuế quản lý trực tiếp có nhu cầu tiếp tục sử dụng số tem điện tử còn
+tồn, sử dụng tài khoản giao dịch điện tử còn hiệu lực đã được cơ quan thuế
+cấp, truy cập Hệ thống thông tin quản lý thuế để đăng ký điều chỉnh số tem
+còn tồn tại doanh nghiệp, tổ chức, cá nhân chia, tách, sáp nhập sang tên,
+mã số thuế của doanh nghiệp, tổ chức, cá nhân sau chia, tách, sáp nhập theo
+Mẫu số 06/TEM Phụ lục III kèm theo Thông tư này. Trường hợp không có nhu
+cầu tiếp tục sử dụng thì thực hiện quyết toán và hủy số tem điện tử còn tồn
+như điểm g.1 khoản này;
+
+g.3) Doanh nghiệp, tổ chức, cá nhân nhận Thông báo của cơ quan thuế qua
+phương thức điện tử theo Mẫu số 02/TB/TEM Phụ lục III kèm theo Thông tư này
+về việc chấp nhận hay không chấp nhận đề nghị tiếp tục sử dụng số tem điện
+tử còn tồn của doanh nghiệp, tổ chức, cá nhân.
+
+Trường hợp không được chấp nhận, doanh nghiệp, tổ chức, cá nhân bổ sung hồ
+sơ theo hướng dẫn của cơ quan thuế, gửi lại Mẫu số 06/TEM Phụ lục III kèm
+theo Thông tư này qua phương thức điện tử;
+
+h) Xử lý trong trường hợp mất, cháy, hỏng, huỷ tem điện tử rượu, tem điện
+tử thuốc lá:
+
+h.1) Trường hợp mất, cháy tem điện tử rượu, tem điện tử thuốc lá: doanh
+nghiệp, tổ chức, cá nhân lập biên bản xác định thời gian, địa điểm xảy ra
+việc mất, cháy tem, có xác nhận của chính quyền địa phương cấp xã nơi xảy
+ra việc mất, cháy tem và thực hiện lưu biên bản tại doanh nghiệp, tổ chức,
+cá nhân.
+
+Doanh nghiệp, tổ chức, cá nhân sử dụng tài khoản giao dịch điện tử còn hiệu
+lực đã được cơ quan thuế cấp, truy cập Hệ thống thông tin quản lý thuế để
+lập báo cáo mất, cháy tem điện tử chậm nhất không quá 03 ngày làm việc kể
+từ ngày phát hiện việc mất, cháy tem điện tử theo Mẫu số 04/TEM Phụ lục III
+kèm theo Thông tư này.
+
+Trường hợp tìm lại được tem điện tử đã mất, doanh nghiệp, tổ chức, cá nhân
+phải thực hiện hủy tem điện tử chậm nhất là 03 ngày làm việc kể từ ngày tìm
+lại được tem điện tử đã mất và báo cáo kết quả hủy tem chậm nhất không quá
+03 ngày làm việc kể từ ngày huỷ tem theo Mẫu số 04/TEM Phụ lục III kèm theo
+Thông tư này;
+
+h.2) Trường hợp tem điện tử rượu, tem điện tử thuốc lá sản xuất để tiêu thụ
+trong nước bị hỏng (tem bị hỏng tại kho, hỏng trong quá trình sản xuất là
+tem còn trạng thái vật lý nhưng không còn nguyên như mẫu tem quy định tại
+Thông tư này: tem bị rách, bị mờ ký tự,... hoặc tem không còn trạng thái
+vật lý (vỡ vụn thành nhiều mảnh, không còn thể hiện được các dấu hiệu định
+danh của tem gồm số seri và mã QR)): doanh nghiệp, tổ chức, cá nhân phải
+thực hiện hủy tem điện tử bị hỏng không tiếp tục sử dụng (trừ trường hợp
+tem hỏng không còn trạng thái vật lý thì không phải thực hiện huỷ tem).
+
+Trường hợp tem điện tử đã được dán lên sản phẩm, đã báo cáo sử dụng nhưng
+sau đó tem điện tử bị hỏng trong quá trình lưu thông hoặc sản phẩm không
+dùng được nữa và được nhà sản xuất thực hiện hủy sản phẩm: doanh nghiệp, tổ
+chức, cá nhân thực hiện hủy tem điện tử.
+
+Doanh nghiệp, tổ chức, cá nhân sử dụng tài khoản giao dịch điện tử còn hiệu
+lực đã được cơ quan thuế cấp, truy cập Hệ thống thông tin quản lý thuế để
+lập thông báo kết quả hủy tem điện tử chậm nhất không quá 03 ngày làm việc
+kể từ ngày huỷ tem hỏng theo Mẫu số 04/TEM Phụ lục III kèm theo Thông tư
+này;
+
+h.3) Doanh nghiệp, tổ chức, cá nhân nhận thông báo của cơ quan thuế qua
+phương thức điện tử theo Mẫu số 02/TB/TEM Phụ lục III kèm theo Thông tư này
+về việc chấp nhận hay không chấp nhận thông báo mất/cháy/kết quả hủy tem
+điện tử.
+
+Trường hợp không được chấp nhận, doanh nghiệp, tổ chức, cá nhân bổ sung hồ
+sơ theo hướng dẫn của cơ quan thuế, gửi lại Mẫu số 04/TEM Phụ lục III kèm
+theo Thông tư này bằng phương thức điện tử;
+
+h.4) Hồ sơ hủy tem điện tử tại tổ chức, cá nhân sản xuất rượu hoặc doanh
+nghiệp sản xuất sản phẩm thuốc lá gồm:
+
+h.4.1) Bảng kiểm kê tem điện tử rượu, tem điện tử thuốc lá cần huỷ;
+
+h.4.2) Quyết định thành lập Hội đồng hủy tem điện tử rượu, tem điện tử
+thuốc lá. Hội đồng huỷ tem điện tử gồm: đại diện lãnh đạo, đại diện bộ phận
+kế toán, đại diện bộ phận sản xuất của doanh nghiệp, tổ chức. Đối với cá
+nhân sản xuất rượu không phải lập Hội đồng huỷ tem điện tử rượu;
+
+h.4.3) Biên bản huỷ tem điện tử, trong đó nêu rõ lý do, nguyên nhân huỷ.
+Các thành viên Hội đồng huỷ tem điện tử phải ký vào biên bản huỷ tem điện
+tử và chịu trách nhiệm trước pháp luật nếu có sai sót.
+
+Hồ sơ huỷ tem điện tử được lưu tại doanh nghiệp, tổ chức, cá nhân sử dụng
+tem điện tử.
+
+3. Tra cứu, xác thực thông tin về tem điện tử rượu dán trên chai rượu, tem
+điện tử thuốc lá dán trên bao thuốc lá sản xuất để tiêu thụ trong nước:
+
+a) Khi người sử dụng sản phẩm rượu, sản phẩm thuốc lá hoặc các cơ quan có
+liên quan có nhu cầu tra cứu, xác thực các thông tin của tem điện tử rượu,
+tem điện tử thuốc lá đã dán lên sản phẩm rượu, sản phẩm thuốc lá thuốc lá
+sản xuất để tiêu thụ trong nước thì thực hiện quét mã QR hoặc truy cập Hệ
+thống thông tin quản lý thuế.
+
+b) Các thông tin của tem điện tử rượu, tem điện tử thuốc lá hiển thị khi
+tra cứu bao gồm: tên loại tem, ký hiệu mẫu số, ký hiệu tem; dãy số nhảy
+tem; tên, mã số thuế của đơn vị sản xuất sản phẩm thuốc lá, sản xuất rượu;
+tên cơ quan thuế bán tem điện tử, ngày bán tem điện tử; tên hàng hóa; thời
+gian sản xuất (ngày/tháng/năm hoặc tháng/năm); đơn vị đo lường (lít/chai
+đối với rượu, điếu/bao đối với thuốc lá).
+
+Chương III
+
+                            ĐIỀU KHOẢN THI HÀNH 
+
+Điều 7. Kinh phí in tem điện tử
+
+1. Cơ quan hải quan thực hiện bán tem điện tử rượu, tem điện tử thuốc lá
+nhập khẩu cho các doanh nghiệp nhập khẩu sản phẩm rượu, thuốc lá. Cơ quan
+thuế thực hiện bán tem điện tử rượu, tem điện tử thuốc lá sản xuất để tiêu
+thụ trong nước cho các tổ chức, cá nhân sản xuất rượu, doanh nghiệp có Giấy
+phép sản xuất sản phẩm thuốc lá.
+
+2. Giá bán tem điện tử được xác định theo nguyên tắc bảo đảm bù đắp toàn bộ
+các chi phí, gồm chi phí in tem điện tử và nộp thuế theo quy định; không
+bao gồm chi phí đầu tư ứng dụng công nghệ thông tin, công nghệ quản lý để
+tiếp nhận, tra cứu dữ liệu, quản lý tem điện tử, các chi phí này do ngân
+sách nhà nước bảo đảm theo quy định của pháp luật hiện hành.
+
+3. Cục trưởng Cục Thuế, Cục trưởng Cục Hải quan quyết định giá bán tem điện
+tử đảm bảo nguyên tắc nêu trên và phù hợp với thực tế thực hiện theo từng
+thời kỳ, từng đợt in phát hành tem điện tử đáp ứng kế hoạch, đăng ký nhu
+cầu sử dụng của doanh nghiệp, tổ chức, cá nhân được phép sử dụng tem điện
+tử theo quy định.
+
+4. Cục Thuế, Cục Hải quan được ngân sách nhà nước bố trí kinh phí để in tem
+điện tử. Số tiền thu được từ bán tem điện tử sau khi nộp thuế theo quy định
+được nộp toàn bộ vào ngân sách nhà nước.
+
+Điều 8. Xử lý vi phạm
+
+Doanh nghiệp nhập khẩu rượu, tổ chức, cá nhân sản xuất rượu trong nước,
+doanh nghiệp nhập khẩu sản phẩm thuốc lá, doanh nghiệp sản xuất sản phẩm
+thuốc lá trong nước làm mất, cháy, hỏng tem điện tử; không thực hiện đúng
+các quy định về báo cáo, hủy tem điện tử với cơ quan thuế, cơ quan hải quan
+bị xử phạt theo mức quy định tại Nghị định số 125/2020/NĐ-CP của Chính phủ
+quy định xử phạt vi phạm hành chính về thuế, hóa đơn được sửa đổi, bổ sung
+bởi Nghị định số 102/2021/NĐ-CP và Nghị định số 310/2025/NĐ-CP.
+
+Điều 9. Hiệu lực thi hành
+
+1. Thông tư này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026.
+
+2. Tem điện tử rượu, tem điện tử thuốc lá đã được phát hành, in theo mẫu
+quy định tại Thông tư số 23/2021/TT-BTC ngày 30 tháng 3 năm 2021 của Bộ
+trưởng Bộ Tài chính được tiếp tục sử dụng cho đến khi sử dụng hết.
+
+3. Thông tư này thay thế các Thông tư sau:
+
+a) Thông tư số 23/2021/TT-BTC ngày 30 tháng 3 năm 2021 của Bộ trưởng Bộ Tài
+chính hướng dẫn việc in, phát hành, quản lý và sử dụng tem điện tử rượu và
+tem điện tử thuốc lá;
+
+b) Thông tư số 31/2025/TT-BTC ngày 31 tháng 5 năm 2025 của Bộ trưởng Bộ Tài
+chính sửa đổi, bổ sung một số điều của Thông tư số 23/2021/TT-BTC ngày 30
+tháng 3 năm 2021 của Bộ trưởng Bộ Tài chính hướng dẫn việc in, phát hành,
+quản lý và sử dụng tem điện tử rượu và tem điện tử thuốc lá.
+
+4. Trường hợp các văn bản quy phạm pháp luật quy định viện dẫn tại Thông tư
+này được sửa đổi, bổ sung hoặc thay thế thì thực hiện theo văn bản sửa đổi,
+bổ sung hoặc thay thế đó.
+
+5. Quá trình thực hiện có phát sinh vướng mắc, các bộ, ngành, địa phương,
+các doanh nghiệp, tổ chức, cá nhân phản ánh cụ thể về Bộ Tài chính để xem
+xét, hướng dẫn giải quyết./.
+
+ 
+
+|                                  |KT. BỘ TRƯỞNG                      |
+|Nơi nhận:                         |THỨ TRƯỞNG                         |
+|- Ban Bí thư Trung ương Đảng;     |                                   |
+|- Thủ tướng, các Phó Thủ tướng    |                                   |
+|Chính phủ;                        |                                   |
+|- Văn phòng Trung ương Đảng và các|                                   |
+|Ban của Đảng;                     |Cao Anh Tuấn                       |
+|- Văn phòng Tổng Bí thư;          |                                   |
+|- Văn phòng Quốc hội;             |                                   |
+|- Văn phòng Chủ tịch nước;        |                                   |
+|- Văn phòng Chính phủ;            |                                   |
+|- Hội đồng Dân tộc và các Ủy ban  |                                   |
+|của Quốc hội;                     |                                   |
+|- Viện kiểm sát nhân dân tối cao; |                                   |
+|- Tòa án nhân dân tối cao;        |                                   |
+|- Kiểm toán nhà nước;             |                                   |
+|- Ủy ban Trung ương Mặt trận Tổ   |                                   |
+|quốc Việt Nam;                    |                                   |
+|- Cơ quan Trung ương của các đoàn |                                   |
+|thể;                              |                                   |
+|- Các bộ, cơ quan ngang bộ;       |                                   |
+|- HĐND, UBND các tỉnh, TP trực    |                                   |
+|thuộc trung ương;                 |                                   |
+|- Sở Tài chính, Thuế tỉnh, TP trực|                                   |
+|thuộc trung ương;                 |                                   |
+|- Chi cục Hải quan, Kho bạc Nhà   |                                   |
+|nước khu vực;                     |                                   |
+|- Cục Kiểm tra văn bản và Tổ chức |                                   |
+|thi hành pháp luật, Bộ Tư pháp;   |                                   |
+|- Cơ sở dữ liệu quốc gia về pháp  |                                   |
+|luật;                             |                                   |
+|- Cổng pháp luật quốc gia;        |                                   |
+|- Công báo;                       |                                   |
+|- Cổng Thông tin điện tử của Chính|                                   |
+|phủ;                              |                                   |
+|- Cổng Thông tin điện tử Bộ Tài   |                                   |
+|chính;                            |                                   |
+|- Trang Thông tin điện tử Cục     |                                   |
+|Thuế;                             |                                   |
+|- Các đơn vị thuộc Bộ Tài chính;  |                                   |
+|- Lưu: VT, CT (CS    b).          |                                   |
+
+
+                                  PHỤ LỤC I
+
+ QUY ĐỊNH VỀ MẪU TEM ĐIỆN TỬ DÁN LÊN SẢN PHẨM THUỐC LÁ SẢN XUẤT ĐỂ TIÊU THỤ
+                                 TRONG NƯỚC
+ (Kèm theo Thông tư số 93/2026/TT-BTC ngày 01 tháng 7 năm 2026 của Bộ trưởng
+                                Bộ Tài chính)
+
+Mô tả tem điện tử thuốc lá:
+
+1. Mẫu tem điện tử thuốc lá được mô tả theo nội dung dưới đây
+
+                                    [pic]
+
+2. Tem điện tử thuốc lá có kích thước tem 22 mm ± 1,5mm x 45 mm ± 1,5mm,
+nội dung tem được in trên chất liệu giấy có hoa văn bóng nước chìm và có
+sợi màu, định lượng (65 ± 5) g/m². Tem in 08 màu, trên tem có hoa văn sắp
+xếp đối xứng, lồng vào nhau.
+
+3. Trên tem có in dòng chữ TEM ĐIỆN TỬ THUỐC LÁ, có ký hiệu mẫu tem là TTL,
+có in mã QR. Tem điện tử thuốc lá có ký hiệu và số thứ tự liên tục từ số
+00000001 đến số 40000000, từng chữ có cỡ chữ biến đổi. Ký tự để phân biệt
+các ký hiệu tem điện tử thuốc lá là 2 chữ cái trong 20 chữ cái in hoa của
+bảng chữ cái tiếng Việt bao gồm: A, B, C, D, E, G, H, K, L, M, N, P, Q, R,
+S, T, U, V, X, Y và năm in của tem.
+
+4. Kỹ thuật in tem phải đảm bảo tính bảo an, có khả năng chống làm giả,
+trong đó:
+
+- Bảo an bằng thiết kế: thiết kế bảo an có kỹ thuật đánh dấu, vân nền hoa
+văn trang trí được sử dụng trên phần mềm bảo an, có hoa văn sắp xếp đối
+xứng, lồng vào nhau có độ tinh xảo cao.
+
+- Bảo an bằng mực in: được in bằng kỹ thuật bảo vệ, có dãy số nhảy phát
+quang dưới ánh sáng tia cực tím.
+
+
+
+                                 PHỤ LỤC II
+
+   QUY ĐỊNH VỀ MẪU TEM ĐIỆN TỬ DÁN LÊN SẢN PHẨM RƯỢU SẢN XUẤT ĐỂ TIÊU THỤ
+                                 TRONG NƯỚC
+ (Kèm theo Thông tư số 93/2026/TT-BTC ngày 01 tháng 7 năm 2026 của Bộ trưởng
+                                Bộ Tài chính)
+
+Mô tả tem điện tử rượu:
+
+Tem điện tử rượu có 02 loại như sau:
+
+1. Tem điện tử rượu dán vào chai rượu có độ cồn bằng hoặc lớn hơn 20º (loại
+dùng cho dán bằng tay hoặc dán bằng máy).
+
+- Kích thước tem: 110mm ± 1,5mm x 13 mm ± 1,5mm
+
+- Tem in trên giấy bóc vỡ khi dán bóc ra sẽ bị vỡ, một mặt có tráng keo sẵn
+đối với tem sử dụng dán bằng tay, dán bằng máy. Định lượng (cả đế) (300 ±
+8) g/m² đối với tem dán bằng tay, định lượng (cả đế) (180 ± 18) g/m² đối
+với tem dán bằng máy.
+
+- Tem in trên giấy dai định lượng (70 ± 2) g/m² đối với tem sử dụng dán
+bằng máy (tem cắt rời)..
+
+- Tem in 04 màu, trên tem có nền hoa văn được thiết kế đan xen nhau.
+
+- Trên tem có in dòng chữ TEM ĐIỆN TỬ RƯỢU (SXTN≥20º)
+
+- Bên trái tem điện tử rượu:
+
++ In dòng chữ thể hiện ký hiệu mẫu tem là TR01C đối với rượu sản xuất để
+tiêu thụ trong nước ≥20º dùng cho dán bằng máy; TR01R đối với rượu sản xuất
+để tiêu thụ trong nước ≥20º dùng cho dán bằng máy (tem cắt rời) hoặc TR01T
+đối với rượu sản xuất để tiêu thụ trong nước ≥20º dùng cho dán bằng tay.
+
++ In mã QR.
+
+- Bên phải tem điện tử rượu:
+
++ In ký tự để phân biệt các ký hiệu tem điện tử rượu là 2 chữ cái trong 20
+chữ cái in hoa của bảng chữ cái tiếng Việt bao gồm: A, B, C, D, E, G, H, K,
+L, M, N, P, Q, R, S, T, U, V, X, Y và năm in của tem.
+
++ In số thứ tự từ số 00000001 đến số 20000000 bằng mực màu đen, từng chữ có
+cỡ chữ biến đổi.
+
+- Kỹ thuật in tem phải đảm bảo tính bảo an, có khả năng chống làm giả,
+trong đó:
+
++ Bảo an bằng thiết kế: thiết kế bảo an có kỹ thuật đánh dấu, vân nền hoa
+văn trang trí được sử dụng trên phần mềm bảo an, có nền hoa văn được thiết
+kế đan xen nhau có độ tinh xảo cao.
+
++ Bảo an bằng mực in: được in bằng kỹ thuật bảo vệ, có dãy số nhảy phát
+quang dưới ánh sáng tia cực tím. Đối với tem có ký hiệu mẫu TR01C và TR01T
+có in UV tạo hiệu ứng ánh sáng xiên, có thể nhận biết bằng mắt thường.
+
+                                    [pic]
+
+2. Tem điện tử rượu dán vào chai rượu có độ cồn nhỏ hơn 20º (loại dùng cho
+dán bằng tay hoặc dán bằng máy).
+
+- Kích thước tem: 110mm ± 1,5mm x 13 mm ± 1,5mm .
+
+- Tem in trên giấy bóc vỡ, khi dán bóc ra sẽ bị vỡ, một mặt có tráng keo
+sẵn. Định lượng (cả đế) (300 ± 8) g/m² đối với tem dán bằng tay, định lượng
+(cả đế) (180 ± 18) g/m² đối với tem dán bằng máy.
+
+- Tem in trên giấy dai, định lượng (70 ± 2) g/m² đối với tem sử dụng dán
+bằng máy (tem cắt rời).
+
+- Tem in 04 màu, trên tem có nền hoa văn được thiết kế đan xen nhau.
+
+- Trên tem có in dòng chữ TEM ĐIỆN TỬ RƯỢU (SXTN<20º).
+
+- Bên trái tem điện tử rượu:
+
++ In dòng chữ thể hiện ký hiệu mẫu tem là TR02C đối với rượu sản xuất để
+tiêu thụ trong nước <20º dùng cho dán bằng máy; TR02R đối với rượu sản xuất
+để tiêu thụ trong nước <20º dùng cho dán bằng máy (tem cắt rời) hoặc TR02T
+đối với rượu sản xuất để tiêu thụ trong nước <20º dùng cho dán bằng tay.
+
++ In mã QR.
+
+- Bên phải tem điện tử rượu:
+
++ In ký tự để phân biệt các ký hiệu tem điện tử rượu là 2 chữ cái trong 20
+chữ cái in hoa của bảng chữ cái tiếng Việt gồm: A, B, C, D, E, G, H, K, L,
+M, N, P, Q, R, S, T, U, V, X, Y và năm in của tem.
+
++ In số thứ tự từ số 00000001 đến số 20000000 bằng mực màu đen, từng chữ có
+cỡ chữ biến đổi.
+
+- Kỹ thuật in tem phải đảm bảo tính bảo an, có khả năng chống làm giả,
+trong đó:
+
++ Bảo an bằng thiết kế: thiết kế bảo an có kỹ thuật đánh dấu, vân nền hoa
+văn trang trí được sử dụng trên phần mềm bảo an, có có nền hoa văn được
+thiết kế đan xen nhau có độ tinh xảo cao.
+
++ Bảo an bằng mực in: được in bằng kỹ thuật bảo vệ, có dãy số nhảy phát
+quang dưới ánh sáng tia cực tím. Đối với tem có ký hiệu mẫu TR02C và TR02T
+có in UV tạo hiệu ứng ánh sáng xiên, có thể nhận biết bằng mắt thường.
+
+                                    [pic]
+
+
+
+                                 PHỤ LỤC III
+
+ DANH MỤC MẪU BIỂU LIÊN QUAN ĐẾN VIỆC IN, PHÁT HÀNH, QUẢN LÝ VÀ SỬ DỤNG TEM
+     ĐIỆN TỬ THUỐC LÁ, TEM ĐIỆN TỬ RƯỢU SẢN XUẤT ĐỂ TIÊU THỤ TRONG NƯỚC
+ (Kèm theo Thông tư số 93/2026/TT-BTC ngày 01 tháng 7 năm 2026 của Bộ trưởng
+                                Bộ Tài chính)
+
+|TT   |Mẫu số       |Tên mẫu biểu                                       |
+|I    |Thông báo của cơ quan thuế                                       |
+|1    |01/TB/TEM    |Thông báo phát hành tem điện tử thuốc lá/tem điện  |
+|     |             |tử rượu sản xuất để tiêu thụ trong nước            |
+|2    |02/TB/TEM    |Thông báo chấp nhận/không chấp nhận hồ sơ đăng ký, |
+|     |             |sử dụng tem điện tử                                |
+|II   |Hồ sơ đăng ký, sử dụng tem điện tử của tổ chức, cá nhân          |
+|1    |01/TEM       |Tờ khai đăng ký/thay đổi thông tin sử dụng tem điện|
+|     |             |tử                                                 |
+|2    |02/TEM       |Kế hoạch mua/mua bổ sung/Đơn đề nghị mua tem điện  |
+|     |             |tử thuốc lá hoặc tem điện tử rượu sản xuất để tiêu |
+|     |             |thụ trong nước                                     |
+|3    |04/TEM       |Thông báo mất, cháy/kết quả hủy tem điện tử thuốc  |
+|     |             |lá hoặc tem điện tử rượu sản xuất để tiêu thụ trong|
+|     |             |nước                                               |
+|4    |06/TEM       |Đề nghị sáp nhập, chia, tách/chuyển cơ quan thuế   |
+|     |             |quản lý tem điện tử thuốc lá hoặc tem điện tử rượu |
+|     |             |sản xuất để tiêu thụ trong nước                    |
+|5    |07/TEM       |Bảng tổng hợp dữ liệu tem điện tử gửi cơ quan thuế |
+
+
+|                                      |Mẫu số: 01/TB/TEM               |
+|                                      |(Kèm theo Thông tư số           |
+|                                      |93/2026/TT-BTC ngày 01 tháng 7  |
+|                                      |năm 2026 của Bộ trưởng Bộ Tài   |
+|                                      |chính)                          |
+
+
+
+
+|BỘ TÀI CHÍNH              |CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM          |
+|CỤC THUẾ                  |Độc lập - Tự do - Hạnh phúc                 |
+|-------                   |---------------                             |
+|Số: …./TB-…               |………….., ngày …….. tháng ……. năm …..         |
+
+
+                                  THÔNG BÁO
+
+ Phát hành tem điện tử thuốc lá/ tem điện tử rượu sản xuất để tiêu thụ trong
+                                    nước
+
+Cục Thuế thông báo phát hành tem điện tử thuốc lá/tem điện tử rượu sản xuất
+để tiêu thụ trong nước, cụ thể như sau:
+
+|STT |Tên  |Ký   |Ký   |Số    |Từ |Đến |Giá bán   |Ngày   |Doanh nghiệp|
+|    |loại |hiệu |hiệu |lượng |số |số  |tem       |bắt đầu|in          |
+|    |tem  |mẫu  |     |(tem) |   |    |(đồng/tem)|sử dụng|            |
+|                                 |                                     |
+
+
+
+
+|                                      |Mẫu số: 02/TB/TEM               |
+|                                      |(Kèm theo Thông tư số           |
+|                                      |93/2026/TT-BTC ngày 01 tháng 7  |
+|                                      |năm 2026 của Bộ trưởng Bộ Tài   |
+|                                      |chính)                          |
+
+
+
+
+|TÊN CƠ QUAN THUẾ         |CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM          |
+|CẤP TRÊN                 |Độc lập - Tự do - Hạnh phúc                 |
+|TÊN CƠ QUAN THUẾ         |---------------                             |
+|RA THÔNG BÁO             |                                            |
+|-------                  |                                            |
+|Số: …/TB-…               |…………, ngày…….tháng……năm…..                  |
+
+
+
+
+                                  THÔNG BÁO
+
+ Thông báo về việc chấp nhận/không chấp nhận <Đăng ký sử dụng tem điện tử/Kế
+ hoạch mua/mua bổ sung tem điện tử/Đơn đề nghị mua tem điện tử/Thông báo kết
+  quả hủy tem điện tử/Báo cáo mất, cháy tem điện tử/Đề nghị sáp nhập, chia,
+ tách/Chuyển cơ quan thuế quản lý tem điện tử/Bảng tổng hợp dữ liệu tem điện
+                            tử gửi cơ quan thuế>
+
+Kính gửi: (Tên người nộp thuế:….)
+
+(Mã số thuế của NNT:….)
+
+Căn cứ <Đăng ký sử dụng tem điện tử/Kế hoạch mua/mua bổ sung tem điện
+tử/Đơn đề nghị mua tem điện tử/Thông báo kết quả hủy tem điện tử/Báo cáo
+mất, cháy tem điện tử/Đề nghị sáp nhập, chia, tách/Chuyển cơ quan thuế quản
+lý tem điện tử/Bảng tổng hợp dữ liệu tem điện tử gửi cơ quan thuế> của
+Người nộp thuế (NNT) gửi tới cơ quan thuế lúc
+…giờ...phút...giây...ngày..../..../20..
+
+Cơ quan thuế thông báo chấp nhận/không chấp nhận <Đăng ký sử dụng tem điện
+tử/Kế hoạch mua/mua bổ sung tem điện tử/Đơn đề nghị mua tem điện tử/Thông
+báo kết quả hủy tem điện tử/Báo cáo mất, cháy tem điện tử/Đề nghị sáp nhập,
+chia, tách/Chuyển cơ quan thuế quản lý tem điện tử/Bảng tổng hợp dữ liệu
+tem điện tử gửi cơ quan thuế> của NNT.
+
+(Trong trường hợp không chấp nhận cần ghi rõ lý do không chấp nhận).
+
+Cơ quan thuế thông báo để người nộp thuế biết, thực hiện./.
+
+
+
+|Nơi nhận:                   |THỦ TRƯỞNG CƠ QUAN THUẾ                   |
+|- Như trên;                 |RA THÔNG BÁO                              |
+|- Lưu: VT,                  |(Chữ ký số của Thủ trưởng cơ quan thuế)   |
+
+
+|                                     |Mẫu số: 01/TEM                   |
+|                                     |(Kèm theo Thông tư số            |
+|                                     |93/2026/TT-BTC ngày 01 tháng 7   |
+|                                     |năm 2026 của Bộ trưởng Bộ Tài    |
+|                                     |chính)                           |
+
+
+
+
+                     CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                         Độc lập - Tự do - Hạnh phúc
+                               ---------------
+
+                                   TỜ KHAI
+
+                         Đăng ký sử dụng tem điện tử
+
+|                           |○ Đăng ký mới                             |
+|                           |○ Thay đổi thông tin                      |
+
+
+Tên người nộp thuế:
+............................................................................
+................................
+
+Mã số thuế:
+............................................................................
+..............................................
+
+Cơ quan thuế quản lý: …………………………………………………………………………….
+
+Người liên hệ:
+............................................................................
+..........................................
+
+Địa chỉ liên hệ:
+............................................................................
+.........................................
+
+Địa chỉ thư điện tử:
+............................................................................
+..................................
+
+Điện thoại liên hệ:
+............................................................................
+.....................................
+
+1. Căn cứ Giấy phép sản xuất sản phẩm thuốc lá số…. do…. cấp ngày….. (đính
+kèm theo Tờ khai này), trong đó có quy định:
+
+- Sản lượng thuốc được phép sản xuất để tiêu thụ trong nước
+là:……....……………………
+
+- Thời hạn được phép sản xuất là: ………………………………………....…………………….
+
+2. Theo Thông tư số 93/2026/TT-BTC ngày 01 tháng 7 năm 2026 của Bộ Tài
+chính, chúng tôi/tôi thuộc đối tượng sử dụng tem điện tử. Chúng tôi đăng
+ký/thay đổi thông tin đã đăng ký với cơ quan thuế về việc sử dụng tem điện
+tử như sau:
+
+- Áp dụng tem điện tử:
+
+□ Tem điện tử rượu.
+
+□ Tem điện tử thuốc lá.
+
+Chúng tôi cam kết hoàn toàn chịu trách nhiệm trước pháp luật về tính chính
+xác, trung thực của nội dung nêu trên và thực hiện theo đúng quy định của
+pháp luật./.
+
+
+
+|                        |……, ngày……. tháng….. năm…..                   |
+|                        |NGƯỜI NỘP THUẾ hoặc                           |
+|                        |ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ          |
+|                        |(Chữ ký số, chữ ký điện tử của người nộp thuế)|
+
+
+
+
+Ghi chú:
+
+Mục 1: chỉ doanh nghiệp sản xuất sản phẩm thuốc lá khai thông tin ở mục
+này.
+
+
+
+|                                      |Mẫu số: 02/TEM                  |
+|                                      |(Kèm theo Thông tư số           |
+|                                      |93/2026/TT-BTC ngày 01 tháng 7  |
+|                                      |năm 2026 của Bộ trưởng Bộ Tài   |
+|                                      |chính)                          |
+
+
+
+
+                     CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                         Độc lập - Tự do - Hạnh phúc
+                               ---------------
+                          .….., ngày….. tháng… năm…
+
+ KẾ HOẠCH MUA/MUA BỔ SUNG/ĐƠN ĐỀ NGHỊ MUA TEM ĐIỆN TỬ THUỐC LÁ HOẶC TEM ĐIỆN
+                   TỬ RƯỢU SẢN XUẤT ĐỂ TIÊU THỤ TRONG NƯỚC
+                                   NĂM....
+
+                Kính gửi:………………………………………………………………………..…………(1)
+
+□ Đăng ký kế hoạch lần đầu
+
+□ Đăng ký kế hoạch bổ sung lần thứ:
+
+□ Đơn đề nghị mua
+
+Tên doanh nghiệp, tổ chức, cá nhân:……………………………………………………………
+
+Mã số thuế:………………………………………………………………………………………….
+
+Địa chỉ:……………………………………………………………………………………………….
+
+(a) Căn cứ Giấy phép sản xuất sản phẩm thuốc lá số………... do……………..cấp
+ngày…………….., trong đó có quy định:
+
+- Sản lượng thuốc lá được phép sản xuất để tiêu thụ trong nước:
+……...............................
+
+- Thời hạn được phép sản xuất:……………………………………………………………………
+
+(b) Thông tin người được giới thiệu đến mua tem:
+
+Số CCCD/Hộ chiếu:……………………….…Ngày cấp……………..…....Nơi cấp…………….
+
+Họ tên: ……………………………………………………………………………………………….
+
+(Tên doanh nghiệp, tổ chức, cá nhân) lập kế hoạch mua/mua bổ sung/đơn đề
+nghị mua tem như sau:
+
+                                                            Đơn vị tính: Tem
+
+|STT  |Ký hiệu mẫu|Kế hoạch  |Kế hoạch   |Số lượng tem đề nghị|Lý do  |
+|     |tem        |mua       |mua bổ sung|mua kỳ này (*)      |       |
+|1    |2          |3         |4          |5                   |6      |
+|     |           |          |           |                    |       |
+
+
+Tôi xin cam kết hoàn toàn chịu trách nhiệm trước pháp luật về việc quản lý,
+sử dụng tem điện tử thuốc lá hoặc tem điện tử rượu theo đúng quy định./.
+
+
+
+|                       |NGƯỜI NỘP THUẾ hoặc                           |
+|                       |ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ          |
+|                       |(Chữ ký số, chữ ký điện tử của người nộp thuế)|
+
+
+Ghi chú:
+
+(1): Cơ quan thuế quản lý trực tiếp doanh nghiệp, tổ chức, cá nhân.
+
+(a): Áp dụng đối với lập kế hoạch mua, mua bổ sung tem điện tử thuốc lá.
+
+(b): Áp dụng đối với đơn đề nghị mua.
+
+(*): Số lượng tem đề nghị mua không được vượt quá sản lượng được phép sản
+xuất, trường hợp vượt phải ghi rõ lý do.
+
+
+
+|                                       |Mẫu số: 04/TEM                 |
+|                                       |(Kèm theo Thông tư số          |
+|                                       |93/2026/TT-BTC ngày 01 tháng 7 |
+|                                       |năm 2026 của Bộ trưởng Bộ Tài  |
+|                                       |chính)                         |
+
+
+                     CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                         Độc lập - Tự do - Hạnh phúc
+                               ---------------
+                          ….., ngày….. tháng… năm…
+
+                                  THÔNG BÁO
+
+  Mất, cháy/Kết quả hủy tem điện tử thuốc lá hoặc tem điện tử rượu sản xuất
+                           để tiêu thụ trong nước
+
+|           |□ Thông báo mất, cháy                                     |
+|           |□ Thông báo kết quả hủy                                   |
+
+
+                  Kính gửi:………………………………………………………………………. (1)
+
+Tên tổ chức, cá nhân:…………………………………………………………………………..…
+
+Mã số thuế:…………………………………………………………………………………………
+
+Địa chỉ:……………………………………………………………....……………………………...
+
+Ngày…… tháng…... năm….., (Tên tổ chức, cá nhân) (thông báo hủy/phát hiện bị
+mất, cháy) tem điện tử thuốc lá hoặc tem điện tử rượu sản xuất để tiêu thụ
+trong nước như sau:
+
+                                                            Đơn vị tính: Tem
+
+|STT |Ký hiệu mẫu tem  |Ký hiệu tem |Số lượng                         |
+|    |                 |            |Tổng    |Trong đó số tem đã báo  |
+|    |                 |            |        |cáo sử dụng thực hiện   |
+|    |                 |            |        |hủy                     |
+|1   |2                |3           |4       |5                       |
+|    |                 |            |        |                        |
+
+
+Lý do hủy:………………………………………........……………………………….…….……..(a)
+
+Phương pháp hủy…………………………………………………………………….…………. (b)
+
+Lý do mất, cháy:…...…………………………………........………………………….……....... (c)
+
+Nay đơn vị thông báo với (1) …….. về số tem điện tử thuốc lá hoặc tem điện
+tử rượu trên không còn giá trị sử dụng.
+
+
+
+|                       |NGƯỜI NỘP THUẾ hoặc                           |
+|                       |ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ          |
+|                       |(Chữ ký số, chữ ký điện tử của người nộp thuế)|
+
+
+Ghi chú:
+
+(1): Cơ quan thuế quản lý trực tiếp tổ chức, cá nhân.
+
+(a), (b): Áp dụng đối với thông báo kết quả hủy.
+
+(c): Áp dụng đối với thông báo mất, cháy.
+
+Cột 4: Thống kê tổng số tem mất, cháy hoặc hủy.
+
+Cột 5: Thống kê số tem hủy nhưng đã báo cáo sử dụng.
+
+
+
+|                                      |Mẫu số: 06/TEM                  |
+|                                      |(Kèm theo Thông tư số           |
+|                                      |93/2026/TT-BTC ngày 01 tháng 7  |
+|                                      |năm 2026 của Bộ trưởng Bộ Tài   |
+|                                      |chính)                          |
+
+
+
+
+|TÊN DOANH NGHIỆP/             |CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM      |
+|TỔ CHỨC                       |Độc lập - Tự do - Hạnh phúc             |
+|-------                       |---------------                         |
+|Số: …………                      |........., ngày…… tháng……. năm……        |
+
+
+
+
+                                   ĐỀ NGHỊ
+
+ Sáp nhập, chia, tách/chuyển cơ quan thuế quản lý tem điện tử thuốc lá hoặc
+              tem điện tử rượu sản xuất để tiêu thụ trong nước.
+
+ Kính gửi: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+                          . . . .. . . . . . . (1)
+
+Tên tổ chức, cá nhân:
+............................................................................
+........................
+
+Mã số thuế:…………………………………………………………………
+
+Địa chỉ:………………………………………………………………………….
+
+- Đề nghị chuyển số lượng tem còn tồn sáp nhập hoặc chia, tách sang: (2)
+
+Tên doanh
+nghiệp:.....................................................................
+....................
+
+Mã số thuế:……………………………………………………………………
+
+Địa chỉ:…………………………………………………………………………..
+
+- Đề nghị chuyển số lượng tem còn tồn sang cơ quan thuế quản lý khác:(3)
+
+Tên cơ quan thuế quản lý chuyển tới:…………………………………………
+
+Địa chỉ:…………………………………………………………………………..
+
+Cụ thể như sau:
+
+                                                            Đơn vị tính: Tem
+
+|STT  |Tên loại tem |Ký hiệu  |Ký hiệu  |Từ số   |Đến số  |Số lượng    |
+|     |điện tử      |mẫu      |         |        |        |            |
+|     |             |         |         |        |        |            |
+
+
+
+
+|Nơi nhận:                 |NGƯỜI NỘP THUẾ hoặc                        |
+|- Như trên;               |ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ       |
+|- Lưu: VT,                |(Chữ ký số, chữ ký điện tử của người nộp   |
+|                          |thuế)                                      |
+
+
+Ghi chú:
+
+(1): Cơ quan thuế quản lý trực tiếp tổ chức, cá nhân.
+
+(2): Trường hợp sáp nhập hoặc chia, tách.
+
+(3): Trường hợp chuyển cơ quan thuế quản lý trực tiếp.
+
+|                                       |Mẫu số: 07/TEM                 |
+|                                       |(Kèm theo Thông tư số          |
+|                                       |93/2026/TT-BTC ngày 01 tháng 7 |
+|                                       |năm 2026 của Bộ trưởng Bộ Tài  |
+|                                       |chính)                         |
+
+
+                     CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                         Độc lập - Tự do - Hạnh phúc
+                               ---------------
+
+             BẢNG TỔNG HỢP DỮ LIỆU TEM ĐIỆN TỬ GỬI CƠ QUAN THUẾ
+
+                              Tháng … . năm…..
+
+Tên người nộp
+thuế:.......................................................................
+.......................................
+
+Mã số thuế:
+............................................................................
+...............................................
+
+Địa chỉ: …………………………………………….......……………………….............................
+
+                                                            Đơn vị tính: Tem
+
+|STT                       |Tên loại tem                               |
+
+
+Ghi chú:
+
+- Cột 12, 13, 14: không thống kê số tem điện tử đã dán lên sản phẩm, đã báo
+cáo sử dụng sau đó bị hỏng.
+
+- Cột 15: không thống kê số tem hủy đối với tem đã mất tìm lại được và tem
+đã dán lên sản phẩm, đã báo cáo sử dụng sau đó thực hiện hủy.
+
+
+
+
+
+                                 PHỤ LỤC IV
+
+            MÔ TẢ VỀ TEM ĐIỆN TỬ DÁN LÊN SẢN PHẨM RƯỢU NHẬP KHẨU
+ (Kèm theo Thông tư số 93/2026/TT-BTC ngày 01 tháng 7 năm 2026 của Bộ trưởng
+                                Bộ Tài chính)
+
+1. Các mẫu tem rượu nhập khẩu
+
+Tem rượu nhập khẩu gồm hai mẫu:
+
+- Tem rượu nhập khẩu độ cồn dưới 30 độ (độ cồn <30⁰).
+
+- Tem rượu nhập khẩu độ cồn bằng hoặc lớn hơn 30 độ (độ cồn >=30⁰).
+
+2. Mô tả
+
+Kích thước: 13mm ± 1,5mm x 120mm ± 1,5mm
+
+Chất liệu giấy in: in bằng giấy bóc vỡ, định lượng (cả đế): (300 ± 12)
+g/m², khi dán chắc bóc ra sẽ bị vỡ; một mặt có tráng keo sẵn.
+
+Màu in: 08 màu (trong đó có 02 màu mực in bảo an không màu phát quang dưới
+ánh sáng đèn UV và ánh sáng đèn laser hồng ngoại) và 01 màu in số seri.
+
+Có in mã QR.
+
+Kỹ thuật in tem phải đảm bảo tính bảo an, trong đó:
+
+- Bảo an bằng thiết kế: thiết kế bảo an có kỹ thuật đánh dấu, vân nền hoa
+văn trang trí được sử dụng trên phần mềm bảo an đặc biệt, gồm nhiều tầng
+lớp vân đan xem có độ tinh xảo cao.
+
+- Bảo an bằng mực in: 02 mực in bảo an không màu phát quang dưới ánh sáng
+đèn UV và ánh sáng đèn laser hồng ngoại) và 01 màu in số seri bằng mực đỏ,
+(số thứ tự liên tục từ số 0000001 đến số 9999999), phát quang dưới ánh sáng
+đèn UV.
+
+
+
+                                  PHỤ LỤC V
+
+   MÔ TẢ VỀ TEM VÀ VỊ TRÍ DÁN TEM ĐIỆN TỬ LÊN SẢN PHẨM THUỐC LÁ NHẬP KHẨU
+ (Kèm theo Thông tư số 93/2026/TT-BTC ngày 01 tháng 7 năm 2026 của Bộ trưởng
+                                Bộ Tài chính)
+
+1. Mô tả tem
+
+1.1. Tem sản phẩm thuốc lá điếu nhập khẩu
+
+- Kích thước tem: 22 mm ± 1,5mm x 45 mm ± 1,5mm.
+
+- Có in mã QR.
+
+- Kỹ thuật in: tem được in trên giấy có nền hoa văn màu vàng chanh, các cụm
+hoa văn được in đan xen nhau. Trên tem có in 04 dòng chữ màu đen, ba dòng
+chữ tiếng Việt và một dòng chữ tiếng Anh theo thứ tự và nội dung như sau:
+
+Dòng chữ trên cùng: “BỘ TÀI CHÍNH NƯỚC CHXHCN VIỆT NAM”.
+
+Dòng chữ thứ 2: “CỤC HẢI QUAN”
+
+Dòng chữ thứ 3: “TEM THUỐC LÁ ĐIẾU NHẬP KHẨU”.
+
+Dòng chữ dưới cùng “IMPORTED CIGARETTE STAMP” nhỏ hơn chữ tiếng Việt ngay
+trên.
+
+Dưới 4 dòng chữ nêu trên là dòng số thứ tự màu đỏ.
+
+1.2.Tem xì gà nhập khẩu
+
+- Kích thước tem: 22 mm ± 1,5mm x 45 mm ± 1,5mm.
+
+- Có in mã QR.
+
+- Kỹ thuật in: tem được in trên giấy có nền hoa văn màu xanh cô-ban, các
+cụm hoa văn được in đan xen nhau. Trên tem có in 04 dòng chữ màu đen, ba
+dòng chữ tiếng Việt và một dòng chữ tiếng Anh theo thứ tự và nội dung như
+sau:
+
+Dòng chữ trên cùng: “BỘ TÀI CHÍNH NƯỚC CHXHCN VIỆT NAM”.
+
+Dòng chữ thứ 2: “CỤC HẢI QUAN”
+
+Dòng chữ thứ 3: “TEM XÌ GÀ NHẬP KHẨU”.
+
+Dòng chữ dưới cùng “IMPORTED CIGAR STAMP” nhỏ hơn chữ tiếng Việt ngay trên.
+
+Dưới 4 dòng chữ nêu trên là dòng số thứ tự màu đỏ.
+
+1.3.Tem thuốc lá điếu nhập khẩu, tem xì gà nhập khẩu được in bằng kỹ thuật
+bảo vệ đặc biệt, có dãy số phát quang dưới ánh sáng cực tím, có ký hiệu,
+năm phát hành, số thứ tự liên tục từ số 0000001 đến số 9999999, có khả năng
+chống làm giả tem cao. Kỹ thuật in tem phải đảm bảo tính bảo an (bảo an
+bằng thiết kế và bảo an bằng mực in).
+
+2. Vị trí dán tem
+
+                                    [pic]
+
+
+
+                                 PHỤ LỤC VI
+
+ DANH MỤC MẪU BIỂU LIÊN QUAN ĐẾN VIỆC IN, PHÁT HÀNH, QUẢN LÝ VÀ SỬ DỤNG TEM
+           ĐIỆN TỬ RƯỢU NHẬP KHẨU, TEM ĐIỆN TỬ THUỐC LÁ NHẬP KHẨU
+ (Kèm theo Thông tư số 93/2026/TT-BTC ngày 01 tháng 7 năm 2026 của Bộ trưởng
+                                Bộ Tài chính)
+
+|TT   |Mẫu số     |Tên mẫu biểu                                         |
+|1    |09/TEM     |Đơn đề nghị mua tem điện tử thuốc lá nhập khẩu hoặc  |
+|     |           |tem điện tử rượu nhập khẩu                           |
+|2    |10/TEM     |Thông báo kết quả huỷ tem điện tử thuốc lá nhập khẩu |
+|     |           |hoặc tem điện tử rượu nhập khẩu                      |
+|3    |11/TEM     |Báo cáo mất/cháy/hỏng tem điện tử thuốc lá nhập khẩu |
+|     |           |hoặc tem điện tử rượu nhập khẩu                      |
+|4    |12/TEM     |Bảng tổng hợp dữ liệu tem điện tử gửi cơ quan hải    |
+|     |           |quan                                                 |
+
+
+|                                      |Mẫu số: 09/TEM                  |
+|                                      |(Kèm theo Thông tư số           |
+|                                      |93/2026/TT-BTC ngày 01 tháng 7  |
+|                                      |năm 2026 của Bộ trưởng Bộ Tài   |
+|                                      |chính)                          |
+
+
+
+
+|TÊN DOANH NGHIỆP/         |CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM         |
+|TỔ CHỨC                   |Độc lập - Tự do - Hạnh phúc                |
+|-------                   |---------------                            |
+|Số: …………                  |........, ngày...... tháng....... năm......|
+
+
+                                 ĐƠN ĐỀ NGHỊ
+
+        Mua tem điện tử rượu nhập khẩu/tem điện tử thuốc lá nhập khẩu
+
+           Kính gửi: Hải quan cửa khẩu/ngoài cửa khẩu…............
+
+A. Phần dành cho doanh nghiệp, tổ chức mua tem điện tử khai(1):
+
+1. Tên doanh nghiệp, tổ
+chức:.......................................................................
+......................
+
+2. Mã số
+thuế:.......................................................................
+...............................................
+
+3. Địa
+chỉ:........................................................................
+.....................................................
+
+4. Tên người nhận tem:.............................căn cước/hộ chiếu
+số:.......................................
+
+Điện thoại
+số:.......................................Email:............................
+..........................................
+
+5. Địa chỉ cụ thể nơi dự kiến dán
+tem:........................................................................
+.........
+
+6. Thời gian dự kiến dán tem (từ ngày đến
+ngày):...............................................................
+
+Căn cứ Điều 5 Thông tư số 93/2026/TT-BTC ngày 01 tháng 7 năm 2026 của Bộ
+trưởng Bộ Tài chính, (doanh nghiệp, tổ chức)……………………đề nghị được mua tem
+điện tử có thông tin cụ thể như sau:
+
+                                                            Đơn vị tính: Tem
+
+|STT  |Tên loại tem |Ký hiệu   |Số lượng tem|Số lượng tem|Số lượng tem |
+|     |điện tử      |mẫu tem   |tồn đầu kỳ  |mua kỳ này  |được sử dụng |
+|1    |2            |3         |4           |5           |6=4+5        |
+|     |             |          |            |            |             |
+
+
+Chứng từ kèm theo Đơn(2):
+
+|1. Tờ khai hải quan số:……………đăng ký                      |Có ☐ Không ☐|
+|ngày.......tháng.......năm........tại Hải                |            |
+|quan……………………………… (áp dụng cho lô hàng nhập khẩu)         |            |
+|2. Quyết định bán hàng tịch thu, bán đấu giá             |Có ☐ Không ☐|
+|số:……………ngày…… tháng …… năm ………. và Hợp đồng mua bán tài |            |
+|sản đấu giá số: …...………… ngày ……… tháng ….. năm………. (áp  |            |
+|dụng cho lô hàng bị tịch thu, bán đấu giá của cơ quan có |            |
+|thẩm quyền)                                              |            |
+|3. Hợp đồng mua bán hoặc Hợp đồng gia công hàng hoá số   |Có ☐ Không ☐|
+|………...…… ngày ……. tháng …… năm ………… (áp dụng cho trường  |            |
+|hợp mua tem điện tử để dán tại cơ sở sản xuất ở nước     |            |
+|ngoài trước khi nhập khẩu hàng hoá)                      |            |
+|4. Giấy ủy quyền số: ........... ngày ......... tháng    |Có ☐ Không ☐|
+|......... năm ........ (áp dụng cho người nhận tem được  |            |
+|doanh nghiệp, tổ chức uỷ quyền)                          |            |
+|5. Tài liệu có liên quan khác (nếu có):                  |Có ☐ Không ☐|
+|…………………………………………………………..…….........                      |            |
+
+
+(Doanh nghiệp, tổ chức)…………………………….. cam đoan thông tin khai và chứng từ
+đính kèm Đơn này là đúng, đầy đủ theo quy định; cam đoan việc sử dụng tem
+điện tử đúng mục đích, báo cáo sử dụng tem với cơ quan hải quan đúng quy
+định và chịu trách nhiệm trước pháp luật về các nội dung khai báo và cam
+đoan trên đây./.
+
+
+
+|Nơi nhận:              |NGƯỜI ĐẠI DIỆN THEO PHÁP LUẬT                 |
+|- Như trên;            |(Chữ ký số, chữ ký điện tử của người nộp thuế)|
+|- ...                  |                                              |
+
+
+B. Phần dành cho cơ quan hải quan bán tem:
+
+Sau khi kiểm tra thông tin khai báo của doanh nghiệp, tổ chức khai tại mục
+A trên đây, công chức hải quan được giao nhiệm vụ bán tem thực hiện tích
+chọn “có” hoặc “không” bán tem:                 Có ☐
+Không ☐
+
+1. Trường hợp chọn “có” bán tem thì cập nhật thông tin tem điện tử đã bán
+cho doanh nghiệp, tổ chức như sau:
+
+                                                            Đơn vị tính: Tem
+
+|STT |Tên tem điện |Ký hiệu|Ký hiệu|Số lượng  |Số Seri tem  |Ngày cấp|
+|    |tử           |mẫu    |       |tem       |(từ số đến   |        |
+|    |             |       |       |          |số)          |        |
+|1   |2            |3      |4      |5         |6            |7       |
+|    |             |       |       |          |             |        |
+|    |             |       |       |          |             |        |
+
+
+2. Trường hợp chọn “không” chấp nhận thì ghi rõ lý do, nội dung đề nghị bổ
+sung để phản hồi cho doanh nghiệp biết:
+
+Lý do………………………………………………………………………………………………….
+
+Đề nghị người khai bổ sung thông tin liên quan (3):………………………………….………….
+
+
+
+|                          |CÔNG CHỨC HẢI QUAN BÁN TEM                  |
+|                          |(Chữ ký số, chữ ký điện tử của công chức hải|
+|                          |quan)                                       |
+
+
+Ghi chú:
+
+(1) Trường hợp doanh nghiệp có thay đổi thông tin đề nghị mua tem (sửa/hủy)
+thì phải thực hiện gửi thông tin sửa/hủy Đơn đề nghị đến cơ quan hải quan
+trước khi cơ quan hải quan hoàn thành việc cấp bán tem.
+
+(2) Tại mục “Chứng từ kèm theo Đơn”: Nếu tích chọn ô “có” thì doanh nghiệp,
+tổ chức có trách nhiệm gửi kèm bản chụp chứng từ tương ứng kèm theo Đơn để
+cơ quan Hải quan thực hiện kiểm tra.
+
+(3) Doanh nghiệp cung cấp thông tin về camera giám sát tại địa điểm dán tem
+(link truy cập, tài khoản, mật khẩu…).
+
+
+
+|                                       |Mẫu số: 10/TEM                 |
+|                                       |(Kèm theo Thông tư số          |
+|                                       |93/2026/TT-BTC ngày 01 tháng 7 |
+|                                       |năm 2026 của Bộ trưởng Bộ Tài  |
+|                                       |chính)                         |
+
+
+
+
+|TÊN DOANH NGHIỆP/         |CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM         |
+|TỔ CHỨC                   |Độc lập - Tự do - Hạnh phúc                |
+|-------                   |---------------                            |
+|Số: ......../TB-          |........, ngày...... tháng....... năm......|
+
+
+
+
+                                  THÔNG BÁO
+
+ Kết quả hủy tem điện tử thuốc lá nhập khẩu hoặc tem điện tử rượu nhập khẩu
+
+ Kính gửi: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+                          . . . .. . . . . . . (1)
+
+Tên doanh nghiệp, tổ chức:
+............................................................................
+..............
+
+Mã số
+thuế:.......................................................................
+............................................
+
+Tờ khai hải quan hoặc Quyết định bán hàng tịch thu, bán đấu giá số
+……………....... (2)
+
+Địa
+chỉ:........................................................................
+.................................................
+
+Lý do hủy:
+............................................................................
+........................................
+
+Hình thức hủy
+:...........................................................................
+..................................
+
+Ngày……tháng……năm……, (doanh nghiệp, tổ chức) thông báo kết quả hủy tem điện
+tử thuốc lá nhập khẩu/tem điện tử rượu nhập khẩu:
+
+                                                            Đơn vị tính: Tem
+
+|STT |Tên tem   |Ký hiệu |Ký hiệu |Từ số     |Đến số       |Số lượng  |
+|    |          |mẫu     |tem     |(số seri) |(số seri)    |          |
+|    |          |        |        |          |             |          |
+|    |          |        |        |          |             |          |
+
+
+|Nơi nhận:                 |NGƯỜI ĐẠI DIỆN THEO PHÁP LUẬT              |
+|- Như trên;               |(Chữ ký số, chữ ký điện tử của người nộp   |
+|- Lưu: VT,                |thuế)                                      |
+
+
+Ghi chú:
+
+(1) Hải quan cửa khẩu/ngoài cửa khẩu nơi doanh nghiệp, tổ chức đã mua tem
+điện tử
+
+(2) Đối với trường hợp doanh nghiệp, tổ chức có Quyết định bán hàng tịch
+thu, bán đấu giá của cơ quan có thẩm quyền (trường hợp rượu nhập khẩu bị
+tịch thu) không phải ghi số tờ khai Hải quan.
+
+
+
+|                                       |Mẫu số: 11/TEM                 |
+|                                       |(Kèm theo Thông tư số          |
+|                                       |93/2026/TT-BTC ngày 01 tháng 7 |
+|                                       |năm 2026 của Bộ trưởng Bộ Tài  |
+|                                       |chính)                         |
+
+
+
+
+|TÊN DOANH NGHIỆP/         |CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM          |
+|TỔ CHỨC                   |Độc lập - Tự do - Hạnh phúc                 |
+|-------                   |---------------                             |
+|Số: ......../BC-          |........, ngày...... tháng....... năm...... |
+
+
+
+
+                                   BÁO CÁO
+
+                Mất/cháy/hỏng tem điện tử thuốc lá nhập khẩu
+                       hoặc tem điện tử rượu nhập khẩu
+
+ Kính gửi: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+                          . . . .. . . . . . . (1)
+
+Tên doanh nghiệp, tổ
+chức:.......................................................................
+..................
+
+Mã số
+thuế:.......................................................................
+............................................
+
+Địa
+chỉ:........................................................................
+..................................................
+
+Tờ khai hải quan hoặc Quyết định bán hàng tịch thu, bán đấu giá số ……………………
+
+Ngày.........tháng........năm.......(doanh nghiệp, tổ chức) phát hiện bị
+mất/cháy/hỏng tem điện tử thuốc lá nhập khẩu hoặc tem điện tử rượu nhập
+khẩu như sau:
+
+                                                            Đơn vị tính: Tem
+
+|STT |Tên tem  |Ký hiệu|Ký hiệu|Từ số   |Đến số  |Số lượng  |Ghi chú   |
+|    |         |mẫu    |tem    |(số     |(số     |          |          |
+|    |         |       |       |seri)   |seri)   |          |          |
+|    |         |       |       |        |        |          |          |
+
+
+Lý do mất/cháy/hỏng tem điện tử: .............
+
+Nay đơn vị báo cáo với (1)……..…… để phối hợp truy tìm, ngăn chặn lợi dụng
+và thông báo số tem điện tử thuốc lá nhập khẩu/tem điện tử rượu nhập khẩu
+trên không còn giá trị sử dụng.
+
+
+
+|                          |NGƯỜI ĐẠI DIỆN THEO PHÁP LUẬT              |
+|                          |(Chữ ký số, chữ ký điện tử của người nộp   |
+|                          |thuế)                                      |
+
+
+Ghi chú:
+
+(1) Hải quan cửa khẩu/ngoài cửa khẩu nơi doanh nghiệp, tổ chức đã mua tem
+điện tử
+
+|                                     |Mẫu số: 12/TEM                  |
+|                                     |(Kèm theo Thông tư số           |
+|                                     |93/2026/TT-BTC ngày 01 tháng 7  |
+|                                     |năm 2026 của Bộ trưởng Bộ Tài   |
+|                                     |chính)                          |
+
+
+           BẢNG TỔNG HỢP DỮ LIỆU TEM ĐIỆN TỬ GỬI CƠ QUAN HẢI QUAN
+
+(1) Ngày..........tháng.........năm..............
+
+(2) Lần gửi dữ liệu thứ: .............................................
+
+(3) Thay thế cho lần gửi dữ liệu thứ:.........................
+
+(4) Thay thế lần thứ:.....................................................
+
+Tên doanh nghiệp, tổ chức dán
+tem:........................................................................
+.....
+
+Mã số thuế:
+…………........................................................................
+............................
+
+Số tờ khai hải quan/Số Quyết định bán hàng tịch thu, bán đấu giá ……ngày
+đăng ký tờ khai hải quan/ngày ban hành Quyết định......
+
+                                                            Đơn vị tính: Tem
+
+|STT                          |Tên tem                                  |
+
+
+Ghi chú:
+
+(1) Ngày dán tem
+
+(2) Lần gửi dữ liệu thứ 1, 2...trong ngày
+
+(3) Trường hợp gửi dữ liệu thay thế thì điền thông tin thay thế cho lần gửi
+dữ liệu nào
+
+(4) Trường hợp kê khai chỉ tiêu số 3 thì sẽ kê khai thêm chỉ tiêu số 4 về
+lần thay thế thứ mấy
+
+(5) Ngày ký số
+
+(6) Cột Từ số (số seri tem) và cột Đến số (số seri tem) không áp dụng đối
+với sản phẩm thuốc lá điếu

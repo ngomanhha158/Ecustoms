@@ -1,0 +1,2899 @@
+{
+ "nguon": "https://truelogistics.up.railway.app",
+ "dong_bo_luc": "2026-09-25T03:50:08+00:00",
+ "vu_viec": [
+  {
+   "id": 2,
+   "ma_vu_viec": "AC03.AD20",
+   "loai": "chong_lan_tranh",
+   "giai_doan": "tam_thoi",
+   "ten_hang": "Thép cán nóng khổ rộng trên 1.880 mm đến 2.300 mm",
+   "hieu_luc_tu": "2026-04-17",
+   "hieu_luc_den": null,
+   "da_doi_chieu": true,
+   "dang_ap": true,
+   "so_hieu": "612/QĐ-BCT",
+   "mo_ta": "Hàng hóa là một số sản phẩm sắt hoặc thép hợp kim hoặc không hợp kim được cán phẳng; được cán nóng; độ dày từ 1,2mm đến 25,4mm; có chiều rộng lớn hơn 1.880mm và nhỏ hơn hoặc bằng 2.300mm; chưa được gia công quá mức cán nóng; đã tẩy gỉ hoặc không tẩy gỉ; không dát phủ, phủ, mạ hoặc tráng; có phủ dầu hoặc không phủ dầu; hàm lượng carbon nhỏ hơn hoặc bằng 0,30% tính theo khối lượng.",
+   "muc_khong_chung_tu": 27.83,
+   "ghi_chu": "Biện pháp chống lẩn tránh TẠM THỜI biện pháp CBPG của vụ AD20 (QĐ 1959/QĐ-BCT), do thay đổi không đáng kể hàng hóa (tăng chiều rộng lên trên 1.880 mm). Mức thuế CBPG 27,83% cho tất cả các công ty sản xuất, xuất khẩu của Trung Quốc. Không nộp C/O hoặc nộp C/O Trung Quốc → 27,83%; C/O nước khác → không áp. Thời hạn: từ ngày QĐ có hiệu lực đến hết thời hạn theo khoản 4 Điều 94 Nghị định 86/2025/NĐ-CP. Căn cứ điều tra: QĐ 3176/QĐ-BCT ngày 27/10/2025. Mục 3.3: mác BW450, BS700MCK2, AG700, LG700T là MIỄN TRỪ (nộp hồ sơ theo TT 26/2025/TT-BCT).",
+   "doi_chieu_luc": "2026-09-23T16:17:06.081505Z",
+   "doi_chieu_ten": "NMH",
+   "van_ban": [
+    {
+     "so_hieu": "612/QĐ-BCT",
+     "vai": "goc",
+     "van_ban_id": 13,
+     "ten": "Chống lẩn tránh PVTM tạm thời thép cán nóng Trung Quốc khổ 1.880–2.300 mm (AC03.AD20)",
+     "ngay_ban_hanh": "2026-04-02",
+     "link_goc": "https://drive.google.com/file/d/1smoNGfEJbgr7O1BXUxQPF-MBa_PebcxS/view?usp=drive_link"
+    }
+   ],
+   "ma_hs": [
+    "72082500",
+    "72082600",
+    "72082719",
+    "72082799",
+    "72083600",
+    "72083700",
+    "72083800",
+    "72083920",
+    "72083940",
+    "72083990",
+    "72085200",
+    "72085300",
+    "72085490",
+    "72089090",
+    "72111415",
+    "72111416",
+    "72111419",
+    "72111913",
+    "72111919",
+    "72119012",
+    "72119019",
+    "72253090",
+    "72254090",
+    "72259990",
+    "72269110",
+    "72269190"
+   ],
+   "nuoc": [
+    {
+     "nuoc": "CN",
+     "muc_toan_quoc": 27.83,
+     "ten_nuoc": "Trung Quốc"
+    }
+   ],
+   "quy_cach": [
+    {
+     "ten": "Chủng loại",
+     "gia_tri": "sắt hoặc thép hợp kim hoặc không hợp kim"
+    },
+    {
+     "ten": "Gia công",
+     "gia_tri": "được cán phẳng; được cán nóng; chưa được gia công quá mức cán nóng"
+    },
+    {
+     "ten": "Độ dày",
+     "gia_tri": "từ 1,2mm đến 25,4mm"
+    },
+    {
+     "ten": "Chiều rộng",
+     "gia_tri": "lớn hơn 1.880mm và nhỏ hơn hoặc bằng 2.300mm"
+    },
+    {
+     "ten": "Bề mặt",
+     "gia_tri": "đã tẩy gỉ hoặc không tẩy gỉ; không dát phủ, phủ, mạ hoặc tráng; có phủ dầu hoặc không phủ dầu"
+    },
+    {
+     "ten": "Hàm lượng carbon",
+     "gia_tri": "nhỏ hơn hoặc bằng 0,30% tính theo khối lượng"
+    }
+   ],
+   "nha_sx": [],
+   "loai_tru": [
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Các sản phẩm thép cán nóng có hàm lượng carbon lớn hơn 0,30% tính theo khối lượng",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Các sản phẩm thép cán nóng dạng tấm có độ dày từ 10mm trở lên",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "vu_khac",
+     "noi_dung": "Các sản phẩm thép cán nóng được loại trừ khỏi phạm vi áp dụng thuế CBPG chính thức theo Quyết định số 1959/QĐ-BCT ngày 04 tháng 07 năm 2025",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": "AD20"
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Miễn trừ (chỉ khi có quyết định miễn trừ của Bộ Công Thương, không tự động loại trừ): Các sản phẩm thuộc mác thép BW450",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Miễn trừ (chỉ khi có quyết định miễn trừ của Bộ Công Thương, không tự động loại trừ): Các sản phẩm thuộc mác thép BS700MCK2",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Miễn trừ (chỉ khi có quyết định miễn trừ của Bộ Công Thương, không tự động loại trừ): Các sản phẩm thuộc mác thép AG700",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Miễn trừ (chỉ khi có quyết định miễn trừ của Bộ Công Thương, không tự động loại trừ): Các sản phẩm thuộc mác thép LG700T",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    }
+   ],
+   "muc_cao": 27.83
+  },
+  {
+   "id": 6,
+   "ma_vu_viec": "ER01.AD08",
+   "loai": "cbpg",
+   "giai_doan": "chinh_thuc",
+   "ten_hang": "Thép cán nguội (ép nguội) dạng cuộn hoặc tấm",
+   "hieu_luc_tu": "2025-12-28",
+   "hieu_luc_den": "2030-12-27",
+   "da_doi_chieu": true,
+   "dang_ap": true,
+   "so_hieu": "3765/QĐ-BCT",
+   "mo_ta": "Sản phẩm thép các-bon cán nguội (ép nguội) dạng cuộn hoặc tấm, hợp kim hoặc không hợp kim, được cán phẳng, có bề rộng dưới 1.600mm, độ dày từ 0,108mm đến 2,55mm, đã được ủ hoặc chưa được ủ, được phủ hoặc được tráng với chất vô cơ hoặc chưa được phủ hoặc tráng.",
+   "muc_khong_chung_tu": 25.22,
+   "ghi_chu": "Rà soát cuối kỳ, gia hạn thêm 05 năm.",
+   "doi_chieu_luc": "2026-09-23T16:42:38.160574Z",
+   "doi_chieu_ten": "NMH",
+   "van_ban": [
+    {
+     "so_hieu": "3765/QĐ-BCT",
+     "vai": "gia_han",
+     "van_ban_id": 12,
+     "ten": "Rà soát cuối kỳ, gia hạn 5 năm thuế CBPG thép cán nguội Trung Quốc (ER01.AD08)",
+     "ngay_ban_hanh": "2025-12-26",
+     "link_goc": "https://drive.google.com/file/d/1Zra5wjGkVsxqc3-y9mguBE-pg0R8_DE7/view?usp=drivesdk"
+    }
+   ],
+   "ma_hs": [
+    "72091610",
+    "72091690",
+    "72091710",
+    "72091790",
+    "72091891",
+    "72091899",
+    "72092610",
+    "72092690",
+    "72092710",
+    "72092790",
+    "72092810",
+    "72092890",
+    "72099090",
+    "72112320",
+    "72112330",
+    "72112390",
+    "72112920",
+    "72112930",
+    "72112990",
+    "72255090"
+   ],
+   "nuoc": [
+    {
+     "nuoc": "CN",
+     "muc_toan_quoc": 25.22,
+     "ten_nuoc": "Trung Quốc"
+    }
+   ],
+   "quy_cach": [
+    {
+     "ten": "Bề rộng",
+     "gia_tri": "Dưới 1.600 mm"
+    },
+    {
+     "ten": "Độ dày",
+     "gia_tri": "0,108 – 2,55 mm"
+    },
+    {
+     "ten": "Dạng",
+     "gia_tri": "Cuộn hoặc tấm, cán phẳng"
+    }
+   ],
+   "nha_sx": [
+    {
+     "id": 38,
+     "nuoc": "CN",
+     "ten": "BX Steel Posco Cold Rolled Sheet Co., Ltd.",
+     "nhom": "Nhóm Benxi",
+     "muc_thue": 25.22,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Benxi Iron and Steel (Group) International Economic and Trading Co., Ltd.",
+      "Benxi Iron and Steel Hong Kong Limited"
+     ]
+    },
+    {
+     "id": 39,
+     "nuoc": "CN",
+     "ten": "Bengang Steel Plates Co., Ltd.",
+     "nhom": "Nhóm Benxi",
+     "muc_thue": 25.22,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Benxi Iron and Steel (Group) International Economic and Trading Co., Ltd.",
+      "Benxi Iron and Steel Hong Kong Limited"
+     ]
+    },
+    {
+     "id": 40,
+     "nuoc": "CN",
+     "ten": "Baoshan Iron & Steel Co., Ltd.",
+     "nhom": null,
+     "muc_thue": 15.5,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Baosteel Singapore Pte. Ltd."
+     ]
+    },
+    {
+     "id": 41,
+     "nuoc": "CN",
+     "ten": "Wuhan Iron & Steel Co., Ltd.",
+     "nhom": null,
+     "muc_thue": 15.5,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Baosteel Singapore Pte. Ltd."
+     ]
+    },
+    {
+     "id": 42,
+     "nuoc": "CN",
+     "ten": "Baosteel Zhanjiang Iron & Steel Co., Ltd.",
+     "nhom": null,
+     "muc_thue": 15.5,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Baosteel Singapore Pte. Ltd."
+     ]
+    },
+    {
+     "id": 43,
+     "nuoc": "CN",
+     "ten": "Shanghai Meishan Iron & Steel Co., Ltd.",
+     "nhom": null,
+     "muc_thue": 15.5,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Baosteel Singapore Pte. Ltd."
+     ]
+    },
+    {
+     "id": 44,
+     "nuoc": "CN",
+     "ten": "Angang Steel Company Limited",
+     "nhom": null,
+     "muc_thue": 15.74,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Angang Group Hong Kong Co., Limited"
+     ]
+    },
+    {
+     "id": 45,
+     "nuoc": "CN",
+     "ten": "Bazhou Jinshangyi Metal Products Co., Ltd.",
+     "nhom": null,
+     "muc_thue": 4.43,
+     "khong_ap": false,
+     "cong_ty_tm": []
+    },
+    {
+     "id": 46,
+     "nuoc": "CN",
+     "ten": "Laiwu Steel Yinshan Section Co., Ltd.",
+     "nhom": null,
+     "muc_thue": 25.22,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Qilu Steel Pte. Ltd.",
+      "Eldon Development Ltd."
+     ]
+    },
+    {
+     "id": 47,
+     "nuoc": "CN",
+     "ten": "SD Steel Rizhao Co., Ltd.",
+     "nhom": null,
+     "muc_thue": 25.22,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Qilu Steel Pte. Ltd.",
+      "Eldon Development Ltd."
+     ]
+    },
+    {
+     "id": 48,
+     "nuoc": "CN",
+     "ten": "Inner Mongolia Baotou Steel Union Co., Ltd.",
+     "nhom": "Nhóm Baotou",
+     "muc_thue": 15.64,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Baotou Steel (Singapore) Pte. Ltd.",
+      "Baotou Steel International Economic and Trading Co., Ltd.",
+      "Baogang Zhan Bo International Trade Limited"
+     ]
+    },
+    {
+     "id": 49,
+     "nuoc": "CN",
+     "ten": "Inner Mongolia Baotou Steel Metal Manufacturing Co., Ltd.",
+     "nhom": "Nhóm Baotou",
+     "muc_thue": 15.64,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Baotou Steel (Singapore) Pte. Ltd.",
+      "Baotou Steel International Economic and Trading Co., Ltd.",
+      "Baogang Zhan Bo International Trade Limited"
+     ]
+    },
+    {
+     "id": 50,
+     "nuoc": "CN",
+     "ten": "Shougang Jingtang United Iron & Steel Co., Ltd.",
+     "nhom": null,
+     "muc_thue": 19.74,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Shougang Holding Trade (Hong Kong) Limited",
+      "China Shougang International Trade & Engineering Corporation"
+     ]
+    },
+    {
+     "id": 51,
+     "nuoc": "CN",
+     "ten": "Zhangjiagang Yangtze River Cold Rolled Sheet Co., Ltd.",
+     "nhom": null,
+     "muc_thue": 25.22,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Jiangsu Shagang International Trade Co., Ltd.",
+      "Xinsha International Pte. Ltd."
+     ]
+    },
+    {
+     "id": 52,
+     "nuoc": "CN",
+     "ten": "Rizhao Baohua New Materials Co., Ltd.",
+     "nhom": null,
+     "muc_thue": 20.79,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Baohua Steel International Pte Limited"
+     ]
+    }
+   ],
+   "loai_tru": [
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Thép không gỉ cán nguội (thường thuộc mã 7219.32.00; 7219.33.00; 7219.34.00; 7219.35.00; 7219.90.00; 7220.20.10; 7220.20.90; 7220.90.10; 7220.90.90)",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Thép mạ điện silicon (thép mạ kỹ thuật điện)",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Tấm thép đen (tôn đen) cán để tráng thiếc",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Thép gió",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Thép lượn sóng",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Thép cán nguội được sơn phủ",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    }
+   ],
+   "muc_cao": 25.22
+  },
+  {
+   "id": 3,
+   "ma_vu_viec": "AD19",
+   "loai": "cbpg",
+   "giai_doan": "chinh_thuc",
+   "ten_hang": "Thép mạ (tôn mạ)",
+   "hieu_luc_tu": "2025-08-14",
+   "hieu_luc_den": "2030-08-13",
+   "da_doi_chieu": true,
+   "dang_ap": true,
+   "so_hieu": "2310/QĐ-BCT",
+   "mo_ta": "Một số sản phẩm thép hợp kim hoặc không hợp kim, cán phẳng ở dạng cuộn và không phải dạng cuộn, chứa hàm lượng carbon dưới 0,60% tính theo khối lượng, đã dát phủ, tráng, mạ hay phủ kim loại chống ăn mòn như kẽm hoặc nhôm, hoặc các hợp kim gốc sắt, bất kể độ dày và chiều rộng. Các sản phẩm đã mạ kẽm hoặc hợp kim nhôm kẽm hoặc hợp kim kẽm nhôm magiê được phủ thêm lớp crom hoặc oxit crom thuộc phạm vi áp dụng.",
+   "muc_khong_chung_tu": 37.13,
+   "ghi_chu": "",
+   "doi_chieu_luc": "2026-09-23T16:42:54.249849Z",
+   "doi_chieu_ten": "NMH",
+   "van_ban": [
+    {
+     "so_hieu": "2310/QĐ-BCT",
+     "vai": "goc",
+     "van_ban_id": 9,
+     "ten": "Áp dụng thuế CBPG chính thức thép mạ Trung Quốc và Hàn Quốc (AD19)",
+     "ngay_ban_hanh": "2025-08-14",
+     "link_goc": "https://drive.google.com/file/d/1tVD81zcGwF49sof7_cfCwOAWTMWHTs0T/view?usp=drive_link"
+    }
+   ],
+   "ma_hs": [
+    "72104111",
+    "72104112",
+    "72104119",
+    "72104911",
+    "72104914",
+    "72104915",
+    "72104916",
+    "72104917",
+    "72104918",
+    "72104919",
+    "72105000",
+    "72106111",
+    "72106112",
+    "72106119",
+    "72106911",
+    "72106919",
+    "72109010",
+    "72109090",
+    "72123011",
+    "72123012",
+    "72123013",
+    "72123014",
+    "72123019",
+    "72125014",
+    "72125019",
+    "72125023",
+    "72125024",
+    "72125029",
+    "72125093",
+    "72125094",
+    "72125099",
+    "72126011",
+    "72126012",
+    "72126019",
+    "72259220",
+    "72259290",
+    "72259990",
+    "72269911",
+    "72269919",
+    "72269991",
+    "72269999"
+   ],
+   "nuoc": [
+    {
+     "nuoc": "CN",
+     "muc_toan_quoc": 37.13,
+     "ten_nuoc": "Trung Quốc"
+    },
+    {
+     "nuoc": "KR",
+     "muc_toan_quoc": 15.67,
+     "ten_nuoc": "Hàn Quốc"
+    }
+   ],
+   "quy_cach": [
+    {
+     "ten": "Hàm lượng carbon",
+     "gia_tri": "Dưới 0,60% khối lượng"
+    },
+    {
+     "ten": "Lớp phủ",
+     "gia_tri": "Kẽm, nhôm hoặc hợp kim gốc sắt"
+    },
+    {
+     "ten": "Độ dày, chiều rộng",
+     "gia_tri": "Bất kể"
+    }
+   ],
+   "nha_sx": [
+    {
+     "id": 1,
+     "nuoc": "CN",
+     "ten": "Boxing Hengrui New Material Co., Ltd.",
+     "nhom": null,
+     "muc_thue": null,
+     "khong_ap": true,
+     "cong_ty_tm": [
+      "Guangdong Bon Voyage International Trade Co., Ltd.",
+      "Zhejiang Landel Trade Co., Ltd",
+      "Boxing County Yiliya New Materials Co., Ltd."
+     ]
+    },
+    {
+     "id": 2,
+     "nuoc": "CN",
+     "ten": "Yieh Phui (China) Technomaterial Co., Ltd.",
+     "nhom": null,
+     "muc_thue": null,
+     "khong_ap": true,
+     "cong_ty_tm": [
+      "Tianjin Lianfa Precision Steel Corporation",
+      "Chin Fong Metal Pte. Ltd."
+     ]
+    },
+    {
+     "id": 3,
+     "nuoc": "CN",
+     "ten": "Baoshan Iron & Steel Co., Ltd.",
+     "nhom": "Nhóm Baosteel",
+     "muc_thue": 37.13,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Shanghai Baosteel International Economic & Trading Co., Ltd.",
+      "Shanghai Baosteel Steel Trading Co., Ltd",
+      "Shanghai Ouyeel Supply Chain Management Co., Ltd",
+      "Guangzhou Baosteel Southern Trading Co., Ltd.",
+      "Baosteel Singapore Pte Ltd",
+      "Wuhan Baosteel Huazhong Trading Co., Ltd"
+     ]
+    },
+    {
+     "id": 4,
+     "nuoc": "CN",
+     "ten": "Shanghai Meishan Iron & Steel Co., Ltd.",
+     "nhom": "Nhóm Baosteel",
+     "muc_thue": 37.13,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Shanghai Baosteel International Economic & Trading Co., Ltd.",
+      "Shanghai Baosteel Steel Trading Co., Ltd",
+      "Shanghai Ouyeel Supply Chain Management Co., Ltd",
+      "Guangzhou Baosteel Southern Trading Co., Ltd.",
+      "Baosteel Singapore Pte Ltd",
+      "Wuhan Baosteel Huazhong Trading Co., Ltd"
+     ]
+    },
+    {
+     "id": 5,
+     "nuoc": "CN",
+     "ten": "Baosteel Zhanjiang Iron & Steel Co., Ltd.",
+     "nhom": "Nhóm Baosteel",
+     "muc_thue": 37.13,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Shanghai Baosteel International Economic & Trading Co., Ltd.",
+      "Shanghai Baosteel Steel Trading Co., Ltd",
+      "Shanghai Ouyeel Supply Chain Management Co., Ltd",
+      "Guangzhou Baosteel Southern Trading Co., Ltd.",
+      "Baosteel Singapore Pte Ltd",
+      "Wuhan Baosteel Huazhong Trading Co., Ltd"
+     ]
+    },
+    {
+     "id": 6,
+     "nuoc": "CN",
+     "ten": "Wuhan Iron & Steel Co., Ltd.",
+     "nhom": "Nhóm Baosteel",
+     "muc_thue": 37.13,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Shanghai Baosteel International Economic & Trading Co., Ltd.",
+      "Shanghai Baosteel Steel Trading Co., Ltd",
+      "Shanghai Ouyeel Supply Chain Management Co., Ltd",
+      "Guangzhou Baosteel Southern Trading Co., Ltd.",
+      "Baosteel Singapore Pte Ltd",
+      "Wuhan Baosteel Huazhong Trading Co., Ltd"
+     ]
+    },
+    {
+     "id": 7,
+     "nuoc": "KR",
+     "ten": "POSCO",
+     "nhom": null,
+     "muc_thue": null,
+     "khong_ap": true,
+     "cong_ty_tm": [
+      "POSCO International Corporation",
+      "Samsung C&T Corporation"
+     ]
+    },
+    {
+     "id": 8,
+     "nuoc": "KR",
+     "ten": "KG Dongbu Steel Co., Ltd.",
+     "nhom": null,
+     "muc_thue": null,
+     "khong_ap": true,
+     "cong_ty_tm": [
+      "LX International Corp.",
+      "Osteel Inc.",
+      "Shanghai Shijing International Trading Co., Ltd.",
+      "ST. International"
+     ]
+    },
+    {
+     "id": 9,
+     "nuoc": "KR",
+     "ten": "Dongkuk Coated Metal Co., Ltd",
+     "nhom": null,
+     "muc_thue": null,
+     "khong_ap": true,
+     "cong_ty_tm": [
+      "LX International Corp."
+     ]
+    },
+    {
+     "id": 10,
+     "nuoc": "KR",
+     "ten": "Hyundai Steel Company",
+     "nhom": null,
+     "muc_thue": 12.0,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "LX International Corp."
+     ]
+    }
+   ],
+   "loai_tru": [
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Các sản phẩm thép được phủ, mạ hoặc tráng bằng crom hoặc oxit crom",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Các sản phẩm là thép không gỉ",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "vu_khac",
+     "noi_dung": "Thép hợp kim hoặc không hợp kim cán phẳng, được sơn, đã áp CBPG theo 2822/QĐ-BCT",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": "2822/QĐ-BCT"
+    },
+    {
+     "kieu": "vu_khac",
+     "noi_dung": "Thép cán nóng đã áp CBPG theo 1959/QĐ-BCT",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": "1959/QĐ-BCT"
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Các sản phẩm thép được phủ, mạ hoặc tráng kẽm bằng phương pháp điện phân",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "CR180BH",
+     "tieu_chuan": "VDA 239-100",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "CR440Y780T-DP",
+     "tieu_chuan": "VDA 239-100",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "CR660Y780T-CP",
+     "tieu_chuan": "VDA 239-100",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "HC180YD+Z",
+     "tieu_chuan": "VDA 239-100",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "DX57D+Z",
+     "tieu_chuan": "EN 10346:2024",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S500MCD+Z",
+     "tieu_chuan": "EN 10346:2024",
+     "ma_hs": null,
+     "vu_khac": null
+    }
+   ],
+   "muc_cao": 37.13
+  },
+  {
+   "id": 4,
+   "ma_vu_viec": "AD20",
+   "loai": "cbpg",
+   "giai_doan": "chinh_thuc",
+   "ten_hang": "Thép cán nóng",
+   "hieu_luc_tu": "2025-07-06",
+   "hieu_luc_den": "2030-07-05",
+   "da_doi_chieu": true,
+   "dang_ap": true,
+   "so_hieu": "1959/QĐ-BCT",
+   "mo_ta": "Hàng hóa là một số sản phẩm sắt hoặc thép hợp kim hoặc không hợp kim được cán phẳng; được cán nóng; độ dày từ 1,2 mm đến 25,4 mm; chiều rộng không quá 1.880 mm; chưa được gia công quá mức cán nóng; đã tẩy gỉ hoặc không tẩy gỉ; không dát phủ, phủ, mạ hoặc tráng; có phủ dầu hoặc không phủ dầu; hàm lượng carbon nhỏ hơn hoặc bằng 0,30% tính theo khối lượng.",
+   "muc_khong_chung_tu": 27.83,
+   "ghi_chu": "QĐ 1959/QĐ-BCT áp thuế CBPG chính thức với thép cán nóng xuất xứ Trung Quốc và (Điều 2) chấm dứt điều tra, KHÔNG áp thuế CBPG với thép cán nóng từ Ấn Độ (lượng nhập khẩu không đáng kể, nhỏ hơn 3%). Các dòng mac_thep chỉ loại trừ đối với 'sản phẩm thép cán nóng dạng tấm' thuộc mác thép và tiêu chuẩn tương ứng (Mục 1.c). Thời hạn áp dụng 05 năm kể từ ngày có hiệu lực (trừ khi gia hạn, thay đổi, hủy bỏ). Thuế CBPG tạm thời trước đó theo QĐ 460/QĐ-BCT ngày 21/02/2025 và QĐ 1204/QĐ-BCT ngày 28/4/2025 (sửa đổi 460); hàng không thuộc diện áp thuế chính thức được hoàn thuế tạm thời đã nộp (Mục 6). Mục 1.d: mác BW450, BS700MCK2, AG700, LG700T là MIỄN TRỪ (doanh nghiệp chưa có quyết định miễn trừ phải nộp hồ sơ theo TT 26/2025/TT-BCT).",
+   "doi_chieu_luc": "2026-09-23T15:40:56.795332Z",
+   "doi_chieu_ten": "NMH",
+   "van_ban": [
+    {
+     "so_hieu": "1959/QĐ-BCT",
+     "vai": "goc",
+     "van_ban_id": 8,
+     "ten": "Áp dụng thuế CBPG chính thức thép cán nóng Trung Quốc; chấm dứt điều tra Ấn Độ (AD20)",
+     "ngay_ban_hanh": "2025-07-04",
+     "link_goc": "https://drive.google.com/file/d/1GzwNLJRJlUis16jC6sZdwm-GvYmDQHzT/view?usp=drive_link"
+    }
+   ],
+   "ma_hs": [
+    "72082500",
+    "72082600",
+    "72082719",
+    "72082799",
+    "72083600",
+    "72083700",
+    "72083800",
+    "72083920",
+    "72083940",
+    "72083990",
+    "72085100",
+    "72085200",
+    "72085300",
+    "72085490",
+    "72089090",
+    "72111415",
+    "72111416",
+    "72111419",
+    "72111913",
+    "72111919",
+    "72119012",
+    "72119019",
+    "72253090",
+    "72254090",
+    "72259990",
+    "72269110",
+    "72269190"
+   ],
+   "nuoc": [
+    {
+     "nuoc": "CN",
+     "muc_toan_quoc": 27.83,
+     "ten_nuoc": "Trung Quốc"
+    }
+   ],
+   "quy_cach": [
+    {
+     "ten": "Chủng loại",
+     "gia_tri": "sắt hoặc thép hợp kim hoặc không hợp kim"
+    },
+    {
+     "ten": "Gia công",
+     "gia_tri": "được cán phẳng; được cán nóng; chưa được gia công quá mức cán nóng"
+    },
+    {
+     "ten": "Độ dày",
+     "gia_tri": "từ 1,2 mm đến 25,4 mm"
+    },
+    {
+     "ten": "Chiều rộng",
+     "gia_tri": "không quá 1.880 mm"
+    },
+    {
+     "ten": "Bề mặt",
+     "gia_tri": "đã tẩy gỉ hoặc không tẩy gỉ; không dát phủ, phủ, mạ hoặc tráng; có phủ dầu hoặc không phủ dầu"
+    },
+    {
+     "ten": "Hàm lượng carbon",
+     "gia_tri": "nhỏ hơn hoặc bằng 0,30% tính theo khối lượng"
+    }
+   ],
+   "nha_sx": [
+    {
+     "id": 11,
+     "nuoc": "CN",
+     "ten": "Hebei Anfeng Iron & Steel Group Co., Ltd",
+     "nhom": null,
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Hangzhou CIEC Group Co., Ltd",
+      "Hangzhou CIEC Hanjia Trading Co.,Ltd.",
+      "Zhe Jiang Cogeneration Zhongbang Supply Chain Service Co., Ltd.",
+      "Hangzhou CIEC Lianfeng Trading Co.,Ltd.",
+      "Hainan CIEC Trading Co., Ltd",
+      "Hangzhou Cogeneration (Hong Kong) Co., Ltd.",
+      "Singapore (Cogeneration) Steel Pte Ltd",
+      "Honors Commodity Hong Kong Company Limited",
+      "Anfeng Iron and Steel International Trading Co., Ltd",
+      "Win Faith Trading Limited"
+     ]
+    },
+    {
+     "id": 12,
+     "nuoc": "CN",
+     "ten": "Inner Mongolia Baotou Steel Union Co., Ltd.",
+     "nhom": "Nhóm Baotou (STT 2)",
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Baolou Steel International Economic and Trading Co., Ltd.",
+      "Baogang Zhan Bo International Trade Limited",
+      "Chengdu Baogang Southwest Steel Sales Co., Ltd.",
+      "Tianjin Baogang North China Steel Sales Co., Ltd.",
+      "Shaanxi Baogang Northwest Steel Sales. Co., Ltd.",
+      "Qingdao Baogang Central China Steel Sales Co., Ltd.",
+      "Shanghai Gangjia Rare Earth Technology Co., Ltd.",
+      "Inner Mongolia Baotou Steel Union Co., Ltd. Spot Sales Center"
+     ]
+    },
+    {
+     "id": 13,
+     "nuoc": "CN",
+     "ten": "Rare Earth Steel Plate Co., Ltd.",
+     "nhom": "Nhóm Baotou (STT 2)",
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Baolou Steel International Economic and Trading Co., Ltd.",
+      "Baogang Zhan Bo International Trade Limited",
+      "Chengdu Baogang Southwest Steel Sales Co., Ltd.",
+      "Tianjin Baogang North China Steel Sales Co., Ltd.",
+      "Shaanxi Baogang Northwest Steel Sales. Co., Ltd.",
+      "Qingdao Baogang Central China Steel Sales Co., Ltd.",
+      "Shanghai Gangjia Rare Earth Technology Co., Ltd.",
+      "Inner Mongolia Baotou Steel Union Co., Ltd. Spot Sales Center"
+     ]
+    },
+    {
+     "id": 14,
+     "nuoc": "CN",
+     "ten": "Hebei Zongheng Group Fengnan Iron & Steel Co.,Ltd",
+     "nhom": "Nhóm Zongheng (STT 3)",
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Tangshan Zhicheng Ecommerce Co.,Ltd.",
+      "Tianjin Binhai Aoyuan International Trade Co.,Ltd.",
+      "Majestic Rock Resources Group Pte. Ltd.",
+      "Hebei Sinogiant Steel Holdings Group Co., Ltd.",
+      "Zhejiang Hongcheng New Energy Co., Ltd.",
+      "Xin Lian Ye (Beijing) International Trade Co., Ltd",
+      "Sinogiant Steel Holdings Group Limited",
+      "Hebei Zhongzhong Cold Rolling Materials Co., Ltd.",
+      "Cangzhou Kaineng Transportation Service Co., Ltd",
+      "Shanghai Chetong Trading Co., Ltd",
+      "Xu Zhou Zhong An Mining Service Co.,Ltd",
+      "Win Faith Trading Limited"
+     ]
+    },
+    {
+     "id": 15,
+     "nuoc": "CN",
+     "ten": "Cangzhou Zhongtie Iron & Steel Co., Ltd",
+     "nhom": "Nhóm Zongheng (STT 3)",
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Tangshan Zhicheng Ecommerce Co.,Ltd.",
+      "Tianjin Binhai Aoyuan International Trade Co.,Ltd.",
+      "Majestic Rock Resources Group Pte. Ltd.",
+      "Hebei Sinogiant Steel Holdings Group Co., Ltd.",
+      "Zhejiang Hongcheng New Energy Co., Ltd.",
+      "Xin Lian Ye (Beijing) International Trade Co., Ltd",
+      "Sinogiant Steel Holdings Group Limited",
+      "Hebei Zhongzhong Cold Rolling Materials Co., Ltd.",
+      "Cangzhou Kaineng Transportation Service Co., Ltd",
+      "Shanghai Chetong Trading Co., Ltd",
+      "Xu Zhou Zhong An Mining Service Co.,Ltd",
+      "Win Faith Trading Limited"
+     ]
+    },
+    {
+     "id": 16,
+     "nuoc": "CN",
+     "ten": "Guangxi Liuzhou Iron and Steel Group Company Limited",
+     "nhom": "Nhóm Liuzhou (STT 4)",
+     "muc_thue": 23.1,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Guangdong Liugang Logistics Trading Co., Ltd.",
+      "Guangxi Liuzhou Cenhai Metal Material Co., Ltd.",
+      "Guangxi Nanning Liugang steel Sales Co., Ltd.",
+      "Guilin Liugang steel Sales Co., Ltd.",
+      "Guangxi Liuzhou Iron & Steel Group Company Limited Guangdong Branch"
+     ]
+    },
+    {
+     "id": 17,
+     "nuoc": "CN",
+     "ten": "Liu Zhou Iron and Steel Company Limited",
+     "nhom": "Nhóm Liuzhou (STT 4)",
+     "muc_thue": 23.1,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Guangdong Liugang Logistics Trading Co., Ltd.",
+      "Guangxi Liuzhou Cenhai Metal Material Co., Ltd.",
+      "Guangxi Nanning Liugang steel Sales Co., Ltd.",
+      "Guilin Liugang steel Sales Co., Ltd.",
+      "Guangxi Liuzhou Iron & Steel Group Company Limited Guangdong Branch"
+     ]
+    },
+    {
+     "id": 18,
+     "nuoc": "CN",
+     "ten": "Guangxi Iron and Steel Group Company Limited",
+     "nhom": "Nhóm Liuzhou (STT 4)",
+     "muc_thue": 23.1,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Guangdong Liugang Logistics Trading Co., Ltd.",
+      "Guangxi Liuzhou Cenhai Metal Material Co., Ltd.",
+      "Guangxi Nanning Liugang steel Sales Co., Ltd.",
+      "Guilin Liugang steel Sales Co., Ltd.",
+      "Guangxi Liuzhou Iron & Steel Group Company Limited Guangdong Branch"
+     ]
+    },
+    {
+     "id": 19,
+     "nuoc": "CN",
+     "ten": "Shougang Jingtang United Iron & Steel Co., Ltd",
+     "nhom": "Nhóm Shougang (STT 5)",
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "China Shougang International Trade & Engineering Corporation",
+      "Shougang Holding Trade (Hong Kong) Limited",
+      "Wuhan Shougang Steel Trading Co., Ltd",
+      "Tianjin Shougang Steel Trade Co., Ltd",
+      "Shandong Shougang Steel Trade Co., Ltd",
+      "Guangzhou Shougang Steel Trading Co., Ltd",
+      "Shanghai Shougang Steel Trade Co., Ltd"
+     ]
+    },
+    {
+     "id": 20,
+     "nuoc": "CN",
+     "ten": "Shougang Qian'an Iron & Steel Company",
+     "nhom": "Nhóm Shougang (STT 5)",
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "China Shougang International Trade & Engineering Corporation",
+      "Shougang Holding Trade (Hong Kong) Limited",
+      "Wuhan Shougang Steel Trading Co., Ltd",
+      "Tianjin Shougang Steel Trade Co., Ltd",
+      "Shandong Shougang Steel Trade Co., Ltd",
+      "Guangzhou Shougang Steel Trading Co., Ltd",
+      "Shanghai Shougang Steel Trade Co., Ltd"
+     ]
+    },
+    {
+     "id": 21,
+     "nuoc": "CN",
+     "ten": "Jingye Iron and Steel Co., Ltd",
+     "nhom": null,
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Jingye International (HK) Company Limited",
+      "Power Rich Resources Limited"
+     ]
+    },
+    {
+     "id": 22,
+     "nuoc": "CN",
+     "ten": "Rizhao Baohua New Materials Co., Ltd",
+     "nhom": "Nhóm Rizhao (STT 7)",
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Baohua Steel International Pte. Limited",
+      "Win Faith Trading Limited"
+     ]
+    },
+    {
+     "id": 23,
+     "nuoc": "CN",
+     "ten": "Rizhao Steel Holding Group Co., Ltd",
+     "nhom": "Nhóm Rizhao (STT 7)",
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Baohua Steel International Pte. Limited",
+      "Win Faith Trading Limited"
+     ]
+    },
+    {
+     "id": 24,
+     "nuoc": "CN",
+     "ten": "Maanshan Iron & Steel Co., Ltd",
+     "nhom": null,
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Maanshan Masteel Cihu Steel Processing And Distribution Co., Ltd.",
+      "Maanshan Iron & steel (Shanghai) Steel Sales Co., Ltd.",
+      "Masteel (Hefei) Materials Technology Co., Ltd.",
+      "Masteel (Wuhu) Materials Technology Co., Ltd.",
+      "Maanshan Masteel Cihu Steel Processing And Distribution Co., Ltd. Changzhou Branch",
+      "Masteel (Yangzhou) Steel Processing Co., Ltd.",
+      "Nanjing Masted Steel Sales Co., Ltd.",
+      "Masteel (Hangzhou) Steel Sales Co., Ltd.",
+      "Masteel (Wuhan) Materials Technology Co., Ltd.",
+      "Masteel (Hefei) Steel Processing Co., Ltd.",
+      "Masteel (Hong Kong) Co.,Ltd.",
+      "Cumic Steel Limited",
+      "Dao Fortune (Hong Kong) Co., Limited",
+      "Wuchan Zhongda Fortune Link International Co., Ltd",
+      "Ningbo Bedrock Singapore Pte Ltd.",
+      "Lianfeng International Pte. Ltd",
+      "King Metore International Pte. Ltd.",
+      "Hangzhou Cogeneration (Hong Kong) Co., Ltd.",
+      "Singapore (Cogeneration) Steel Pte Ltd."
+     ]
+    },
+    {
+     "id": 25,
+     "nuoc": "CN",
+     "ten": "HBIS Laoting Iron and Steel Co., Ltd.",
+     "nhom": null,
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "HBIS Company Limited Tangshan Branch",
+      "Tangshan Iron and Steel Group Co., Ltd.",
+      "Duferco Asia Pte. Ltd."
+     ]
+    },
+    {
+     "id": 26,
+     "nuoc": "CN",
+     "ten": "Hebei Yanshan Iron and Steel Group Co., Ltd",
+     "nhom": null,
+     "muc_thue": 26.94,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Beijing Yanshan Iron & Steel Co., Ltd",
+      "Wider Vantage International Limited",
+      "Sheng Feng (Hong Kong) Co., Limited",
+      "Ye-Steel Trading Co., Limited",
+      "Win Faith Trading Limited"
+     ]
+    },
+    {
+     "id": 27,
+     "nuoc": "CN",
+     "ten": "Chongqing Iron And Steel Co., Ltd",
+     "nhom": null,
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": []
+    },
+    {
+     "id": 28,
+     "nuoc": "CN",
+     "ten": "Bengang Steel Plates Co., Ltd",
+     "nhom": null,
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Benxi Iron And Steel (Group) International Economic and Trading Co., Ltd",
+      "Benxi Iron & Steel Hong Kong Limited",
+      "Arsen International (HK) Limited",
+      "Sharpmax International (Hongkong) Co., Limited",
+      "North Hengda Logistics Co., Ltd",
+      "Shenyang Bengang Metallurgical Technology Co., Ltd",
+      "Tianjin Bengang Steel Trading Co., Ltd",
+      "Shanghai Bengang Metallurgical Technology Co., Ltd",
+      "Yantai Bengang Steel Sales Co., Ltd",
+      "Win Faith Trading Limited"
+     ]
+    },
+    {
+     "id": 29,
+     "nuoc": "CN",
+     "ten": "Xinyu Iron & Steel Co., Ltd.",
+     "nhom": null,
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "G Steel Enterprise Pte. Ltd."
+     ]
+    },
+    {
+     "id": 30,
+     "nuoc": "CN",
+     "ten": "Angang Steel Company Limited",
+     "nhom": "Nhóm Angang (STT 14)",
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Angang Group International Trade Corporation Ltd.",
+      "Angang Group Hong Kong Co., Limited",
+      "Dalian Woo-Ho Hongkong International Trading Limited",
+      "Cumic Steel Limited",
+      "Shenyang Angang International Trade Co., Ltd.",
+      "Shanghai Angang International Trade Co., Ltd.",
+      "Guangzhou Ansteel International Trade Co., Ltd",
+      "Win Faith Trading Limited"
+     ]
+    },
+    {
+     "id": 31,
+     "nuoc": "CN",
+     "ten": "Angang Group Chaoyang Iron&steel Co.,Ltd.",
+     "nhom": "Nhóm Angang (STT 14)",
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Angang Group International Trade Corporation Ltd.",
+      "Angang Group Hong Kong Co., Limited",
+      "Dalian Woo-Ho Hongkong International Trading Limited",
+      "Cumic Steel Limited",
+      "Shenyang Angang International Trade Co., Ltd.",
+      "Shanghai Angang International Trade Co., Ltd.",
+      "Guangzhou Ansteel International Trade Co., Ltd",
+      "Win Faith Trading Limited"
+     ]
+    },
+    {
+     "id": 32,
+     "nuoc": "CN",
+     "ten": "Jiangsu Shagang steel Co., Ltd",
+     "nhom": "Nhóm Shagang (STT 15)",
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Jiangsu Shagang International Trade Co., Ltd",
+      "Jiangsu Shagang Material Trade Co., Ltd",
+      "Shagang International (Singapore) Pte. Ltd",
+      "Zhangjiagang Free Trade Zone Binpeng Trading Co., Ltd",
+      "Win Faith Trading Limited"
+     ]
+    },
+    {
+     "id": 33,
+     "nuoc": "CN",
+     "ten": "Jiangsu Shagang Group Co., Ltd",
+     "nhom": "Nhóm Shagang (STT 15)",
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Jiangsu Shagang International Trade Co., Ltd",
+      "Jiangsu Shagang Material Trade Co., Ltd",
+      "Shagang International (Singapore) Pte. Ltd",
+      "Zhangjiagang Free Trade Zone Binpeng Trading Co., Ltd",
+      "Win Faith Trading Limited"
+     ]
+    },
+    {
+     "id": 34,
+     "nuoc": "CN",
+     "ten": "Baoshan Iron & Steel Co.,Ltd.",
+     "nhom": "Nhóm Baosteel (STT 16)",
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Guangzhou Baosteel Southern Trading Co., Ltd.",
+      "Wuhan Baosteel Huazhong Trading Co., Ltd",
+      "Shanghai Baosteel Steel Trading Co., Ltd",
+      "Shanghai Baosteel Pudong International Trading Co., Ltd.",
+      "Shanghai Ouyeel Supply Chain Co., Ltd.",
+      "Baosteel Singapore Pte Ltd",
+      "Win Faith Trading Limited"
+     ]
+    },
+    {
+     "id": 35,
+     "nuoc": "CN",
+     "ten": "Shanghai Meishan Iron & Steel Co.,Ltd.",
+     "nhom": "Nhóm Baosteel (STT 16)",
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Guangzhou Baosteel Southern Trading Co., Ltd.",
+      "Wuhan Baosteel Huazhong Trading Co., Ltd",
+      "Shanghai Baosteel Steel Trading Co., Ltd",
+      "Shanghai Baosteel Pudong International Trading Co., Ltd.",
+      "Shanghai Ouyeel Supply Chain Co., Ltd.",
+      "Baosteel Singapore Pte Ltd",
+      "Win Faith Trading Limited"
+     ]
+    },
+    {
+     "id": 36,
+     "nuoc": "CN",
+     "ten": "Wuhan Iron & Steel Co.,Ltd.",
+     "nhom": "Nhóm Baosteel (STT 16)",
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Guangzhou Baosteel Southern Trading Co., Ltd.",
+      "Wuhan Baosteel Huazhong Trading Co., Ltd",
+      "Shanghai Baosteel Steel Trading Co., Ltd",
+      "Shanghai Baosteel Pudong International Trading Co., Ltd.",
+      "Shanghai Ouyeel Supply Chain Co., Ltd.",
+      "Baosteel Singapore Pte Ltd",
+      "Win Faith Trading Limited"
+     ]
+    },
+    {
+     "id": 37,
+     "nuoc": "CN",
+     "ten": "Baosteel Zhanjiang Iron & Steel Co., Ltd.",
+     "nhom": "Nhóm Baosteel (STT 16)",
+     "muc_thue": 27.83,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Guangzhou Baosteel Southern Trading Co., Ltd.",
+      "Wuhan Baosteel Huazhong Trading Co., Ltd",
+      "Shanghai Baosteel Steel Trading Co., Ltd",
+      "Shanghai Baosteel Pudong International Trading Co., Ltd.",
+      "Shanghai Ouyeel Supply Chain Co., Ltd.",
+      "Baosteel Singapore Pte Ltd",
+      "Win Faith Trading Limited"
+     ]
+    }
+   ],
+   "loai_tru": [
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Các sản phẩm là thép không gỉ",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "ABS A",
+     "tieu_chuan": "ABS",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "ABS B",
+     "tieu_chuan": "ABS",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "ABS D",
+     "tieu_chuan": "ABS",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "ABS E",
+     "tieu_chuan": "ABS",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A131 A",
+     "tieu_chuan": "ASTM A131",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A131 B",
+     "tieu_chuan": "ASTM A131",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A131 D",
+     "tieu_chuan": "ASTM A131",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A131 E",
+     "tieu_chuan": "ASTM A131",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A131 AH36",
+     "tieu_chuan": "ASTM A131",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A131 AH40",
+     "tieu_chuan": "ASTM A131",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A131 DH32",
+     "tieu_chuan": "ASTM A131",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A131 DH36",
+     "tieu_chuan": "ASTM A131",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A131 DH40",
+     "tieu_chuan": "ASTM A131",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A131 EH32",
+     "tieu_chuan": "ASTM A131",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A131 EH36",
+     "tieu_chuan": "ASTM A131",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A131 EH40",
+     "tieu_chuan": "ASTM A131",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A131 FH32",
+     "tieu_chuan": "ASTM A131",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A131 FH36",
+     "tieu_chuan": "ASTM A131",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A131 FH40",
+     "tieu_chuan": "ASTM A131",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "BV AH32",
+     "tieu_chuan": "BV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "BV AH36",
+     "tieu_chuan": "BV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "BV AH40",
+     "tieu_chuan": "BV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "BV DH32",
+     "tieu_chuan": "BV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "BV DH36",
+     "tieu_chuan": "BV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "BV DH40",
+     "tieu_chuan": "BV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "BV EH32",
+     "tieu_chuan": "BV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "BV EH36",
+     "tieu_chuan": "BV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "BV EH40",
+     "tieu_chuan": "BV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "BV FH36",
+     "tieu_chuan": "BV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "BV FH40",
+     "tieu_chuan": "BV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NV A",
+     "tieu_chuan": "DNV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NV B",
+     "tieu_chuan": "DNV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NV D",
+     "tieu_chuan": "DNV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NV E",
+     "tieu_chuan": "DNV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "LR A",
+     "tieu_chuan": "LR",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "LR B",
+     "tieu_chuan": "LR",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "LR D",
+     "tieu_chuan": "LR",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "LR E",
+     "tieu_chuan": "LR",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "BV A",
+     "tieu_chuan": "BV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "BV B",
+     "tieu_chuan": "BV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "BV D",
+     "tieu_chuan": "BV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "BV E",
+     "tieu_chuan": "BV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "RINA A",
+     "tieu_chuan": "RINA",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "RINA B",
+     "tieu_chuan": "RINA",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "RINA D",
+     "tieu_chuan": "RINA",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "RINA E",
+     "tieu_chuan": "RINA",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "GL A",
+     "tieu_chuan": "GL",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "GL B",
+     "tieu_chuan": "GL",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "GL D",
+     "tieu_chuan": "GL",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "GL E",
+     "tieu_chuan": "GL",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "CCS AH32",
+     "tieu_chuan": "GB 712-2011",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "CCS AH36",
+     "tieu_chuan": "GB 712-2011",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "CCS AH40",
+     "tieu_chuan": "GB 712-2011",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "CCS DH32",
+     "tieu_chuan": "GB 712-2011",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "CCS DH36",
+     "tieu_chuan": "GB 712-2011",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "CCS DH40",
+     "tieu_chuan": "GB 712-2011",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "CCS EH32",
+     "tieu_chuan": "GB 712-2011",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "CCS EH36",
+     "tieu_chuan": "GB 712-2011",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "CCS EH40",
+     "tieu_chuan": "GB 712-2011",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "CCS FH32",
+     "tieu_chuan": "GB 712-2011",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "CCS FH40",
+     "tieu_chuan": "GB 712-2011",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "CCS A",
+     "tieu_chuan": "GB 712-2011",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "CCS B",
+     "tieu_chuan": "GB 712-2011",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "CCS D",
+     "tieu_chuan": "GB 712-2011",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "CCS E",
+     "tieu_chuan": "GB 712-2011",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "KR A",
+     "tieu_chuan": "KR",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "KR B",
+     "tieu_chuan": "KR",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "KR D",
+     "tieu_chuan": "KR",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "KR E",
+     "tieu_chuan": "KR",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "KR AH36",
+     "tieu_chuan": "KR",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "KR AH40",
+     "tieu_chuan": "KR",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "KR DH36",
+     "tieu_chuan": "KR",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "KR DH40",
+     "tieu_chuan": "KR",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "KR EH32",
+     "tieu_chuan": "KR",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "KR EH36",
+     "tieu_chuan": "KR",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "KR FH32",
+     "tieu_chuan": "KR",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "KR FH36",
+     "tieu_chuan": "KR",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "KR FH40",
+     "tieu_chuan": "KR",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NK KA",
+     "tieu_chuan": "NK",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NK KB",
+     "tieu_chuan": "NK",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NK KD",
+     "tieu_chuan": "NK",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NK KE",
+     "tieu_chuan": "NK",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NV AH32",
+     "tieu_chuan": "DNV/NV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NV AH36",
+     "tieu_chuan": "DNV/NV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NV AH40",
+     "tieu_chuan": "DNV/NV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NV DH32",
+     "tieu_chuan": "DNV/NV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NV DH36",
+     "tieu_chuan": "DNV/NV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NV DH40",
+     "tieu_chuan": "DNV/NV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NV EH32",
+     "tieu_chuan": "DNV/NV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NV EH36",
+     "tieu_chuan": "DNV/NV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NV EH40",
+     "tieu_chuan": "DNV/NV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NV FH32",
+     "tieu_chuan": "DNV/NV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NV FH36",
+     "tieu_chuan": "DNV/NV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NV FH40",
+     "tieu_chuan": "DNV/NV",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "RS A",
+     "tieu_chuan": "ГOCT 5521",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "RS B",
+     "tieu_chuan": "ГOCT 5521",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "RS D",
+     "tieu_chuan": "ГOCT 5521",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "RS E",
+     "tieu_chuan": "ГOCT 5521",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "RS AH32",
+     "tieu_chuan": "ГOCT 5521",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "RS AH36",
+     "tieu_chuan": "ГOCT 5521",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "RS AH40",
+     "tieu_chuan": "ГOCT 5521",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "RS EH36",
+     "tieu_chuan": "ГOCT 5521",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "RS DH32",
+     "tieu_chuan": "ГOCT 5521",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "RS DH36",
+     "tieu_chuan": "ГOCT 5521",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "RS DH40",
+     "tieu_chuan": "ГOCT 5521",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "RS EH32",
+     "tieu_chuan": "ГOCT 5521",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "RS EH40",
+     "tieu_chuan": "ГOCT 5521",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "RS FH36",
+     "tieu_chuan": "ГOCT 5521",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "RS FH40",
+     "tieu_chuan": "ГOCT 5521",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A514 Gr.Q",
+     "tieu_chuan": "ASTM A514",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A514 Gr.F",
+     "tieu_chuan": "ASTM A514",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A517 Gr.Q",
+     "tieu_chuan": "ASTM A517",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A572 Gr.65",
+     "tieu_chuan": "ASTM A572",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A709 Gr.50",
+     "tieu_chuan": "ASTM A709/A709M",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A709 Gr.50W",
+     "tieu_chuan": "ASTM A709/A709M",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A709 Gr.70",
+     "tieu_chuan": "ASTM A709/A709M",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A709 Gr.70W",
+     "tieu_chuan": "ASTM A709/A709M",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "A913 Gr.70",
+     "tieu_chuan": "ASTM A913",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S355NL",
+     "tieu_chuan": "EN 10025-3:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S355NL Z15",
+     "tieu_chuan": "EN 10025-3:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S420NL",
+     "tieu_chuan": "EN 10025-3:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S420NL",
+     "tieu_chuan": "EN 10025-4:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S420ML",
+     "tieu_chuan": "EN 10025-3:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S420ML",
+     "tieu_chuan": "EN 10025-4:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S420NL Z15",
+     "tieu_chuan": "EN 10025-3:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S420NL Z25",
+     "tieu_chuan": "EN 10025-3:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S420NL Z35",
+     "tieu_chuan": "EN 10025-3:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S420NL C",
+     "tieu_chuan": "EN 10025-3:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S420NL D",
+     "tieu_chuan": "EN 10025-3:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S460NL",
+     "tieu_chuan": "EN 10025-3:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S460NL",
+     "tieu_chuan": "EN 10025-4:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S460ML",
+     "tieu_chuan": "EN 10025-3:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S460ML",
+     "tieu_chuan": "EN 10025-4:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S500NL",
+     "tieu_chuan": "EN 10025-3:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S500NL",
+     "tieu_chuan": "EN 10025-4:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S550ML",
+     "tieu_chuan": "EN 10025-3:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S550ML",
+     "tieu_chuan": "EN 10025-4:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S620QL",
+     "tieu_chuan": "EN 10025-6:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S620Q",
+     "tieu_chuan": "EN 10025-6:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S690QL",
+     "tieu_chuan": "EN 10025-6:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S690Q",
+     "tieu_chuan": "EN 10025-6:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "S690QL1",
+     "tieu_chuan": "EN 10025-6:2019",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NM400",
+     "tieu_chuan": "GB/T 24186-2022",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NM450",
+     "tieu_chuan": "GB/T 24186-2022",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "NM500",
+     "tieu_chuan": "GB/T 24186-2022",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "510L",
+     "tieu_chuan": "GB/T 3273:2015",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "700L",
+     "tieu_chuan": "GB/T 3273:2015",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "610L",
+     "tieu_chuan": "GB/T 3273:2015",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "Q460QNH",
+     "tieu_chuan": "GB/T 1591-2018",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "Q690B",
+     "tieu_chuan": "GB/T 1591-2018",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "Q690C",
+     "tieu_chuan": "GB/T 1591-2018",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "Q690D",
+     "tieu_chuan": "GB/T 1591-2018",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "Q690E",
+     "tieu_chuan": "GB/T 1591-2018",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "20CrMo",
+     "tieu_chuan": "GB/T 3077",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "16MnCr5",
+     "tieu_chuan": "GB/T 3077",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "18CrMo4",
+     "tieu_chuan": "GB/T 3077",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "20MnCr5",
+     "tieu_chuan": "GB/T 3077",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "SCM415 PO",
+     "tieu_chuan": "JIS G4053",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mac_thep",
+     "noi_dung": "",
+     "mac_thep": "SCr420",
+     "tieu_chuan": "JIS G4053",
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Miễn trừ (chỉ khi có quyết định miễn trừ của Bộ Công Thương, không tự động loại trừ): Các sản phẩm thuộc mác thép BW450",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Miễn trừ (chỉ khi có quyết định miễn trừ của Bộ Công Thương, không tự động loại trừ): Các sản phẩm thuộc mác thép BS700MCK2",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Miễn trừ (chỉ khi có quyết định miễn trừ của Bộ Công Thương, không tự động loại trừ): Các sản phẩm thuộc mác thép AG700",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Miễn trừ (chỉ khi có quyết định miễn trừ của Bộ Công Thương, không tự động loại trừ): Các sản phẩm thuộc mác thép LG700T",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    }
+   ],
+   "muc_cao": 27.83
+  },
+  {
+   "id": 5,
+   "ma_vu_viec": "ER01.AD04",
+   "loai": "cbpg",
+   "giai_doan": "ra_soat",
+   "ten_hang": "Thép phủ màu (tôn màu) — thép cán phẳng được sơn",
+   "hieu_luc_tu": "2024-10-24",
+   "hieu_luc_den": "2029-10-23",
+   "da_doi_chieu": true,
+   "dang_ap": true,
+   "so_hieu": "2822/QĐ-BCT",
+   "mo_ta": "Hàng hóa bị áp dụng thuế chống bán phá giá là một số sản phẩm thép hợp kim hoặc không hợp kim được cán phẳng, được mạ hoặc không mạ sau đó được sơn.\nTên gọi thông thường: thép phủ màu hoặc tôn màu",
+   "muc_khong_chung_tu": 34.27,
+   "ghi_chu": "Kết quả rà soát cuối kỳ vụ AD04 (mã vụ việc rà soát: ER01.AD04): gia hạn thêm 05 năm biện pháp CBPG với thép cán phẳng được sơn xuất xứ Hàn Quốc và Trung Quốc. Mức áp dụng: Trung Quốc 34,27%, Hàn Quốc 19,25% (Mục 5, Bước 2 và Bước 3). Điều 4: hết hiệu lực các QĐ 3198/QĐ-BCT (24/10/2019), 1283/QĐ-BCT (20/4/2021), 2964/QĐ-BCT (30/12/2022), 84/QĐ-BCT (18/01/2023, vụ NR02.AD04) và 449/QĐ-BCT (24/02/2023). Điều 2: các quyết định miễn trừ ban hành trước ngày QĐ này có hiệu lực tiếp tục thực hiện đến hết thời hạn. Bảng Mục 3 trong tệp nguồn chỉ còn một dòng: STT 22 — nhà SX/XK 'Dongkuk Steel Mill. Co., Ltd.', công ty TM liên quan 'SK Networks. Co., Ltd.', KHÔNG có cột mức thuế.",
+   "doi_chieu_luc": "2026-09-23T16:44:06.198061Z",
+   "doi_chieu_ten": "NMH",
+   "van_ban": [
+    {
+     "so_hieu": "2822/QĐ-BCT",
+     "vai": "ra_soat",
+     "van_ban_id": 10,
+     "ten": "Kết quả rà soát cuối kỳ CBPG thép cán phẳng, được sơn (Hàn Quốc, Trung Quốc)",
+     "ngay_ban_hanh": "2024-10-24",
+     "link_goc": "https://drive.google.com/file/d/1x3Fg3kOX-yCCB7W612zSUILY1TfyvIpn/view?usp=drive_link"
+    }
+   ],
+   "ma_hs": [
+    "72107012",
+    "72107013",
+    "72107019",
+    "72107021",
+    "72107029",
+    "72107091",
+    "72107099",
+    "72124011",
+    "72124012",
+    "72124013",
+    "72124014",
+    "72124019",
+    "72124091",
+    "72124099",
+    "72259990",
+    "72269919",
+    "72269999"
+   ],
+   "nuoc": [
+    {
+     "nuoc": "CN",
+     "muc_toan_quoc": 34.27,
+     "ten_nuoc": "Trung Quốc"
+    },
+    {
+     "nuoc": "KR",
+     "muc_toan_quoc": 19.25,
+     "ten_nuoc": "Hàn Quốc"
+    }
+   ],
+   "quy_cach": [
+    {
+     "ten": "Chủng loại",
+     "gia_tri": "thép hợp kim hoặc không hợp kim được cán phẳng"
+    },
+    {
+     "ten": "Bề mặt",
+     "gia_tri": "được mạ hoặc không mạ sau đó được sơn"
+    }
+   ],
+   "nha_sx": [],
+   "loai_tru": [
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Các sản phẩm có lớp nền là thép cán nóng (được miễn trừ căn cứ kết quả kiểm định của cơ quan Hải quan hoặc kết quả giám định của tổ chức giám định hoạt động theo quy định pháp luật)",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Các sản phẩm có bề mặt không được sơn (được miễn trừ căn cứ kết quả kiểm định của cơ quan Hải quan hoặc kết quả giám định của tổ chức giám định hoạt động theo quy định pháp luật)",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Miễn trừ (chỉ khi có quyết định miễn trừ của Bộ Công Thương, không tự động loại trừ): Các sản phẩm thép phủ màu PCM và VCM chất lượng cao được sử dụng trong ngành công nghiệp điện tử và điện gia dụng",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Miễn trừ (chỉ khi có quyết định miễn trừ của Bộ Công Thương, không tự động loại trừ): Các sản phẩm thép phủ sơn PVDF sử dụng trong các nhà máy nhiệt điện",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Miễn trừ (chỉ khi có quyết định miễn trừ của Bộ Công Thương, không tự động loại trừ): Các sản phẩm thép phủ màu trong nước chưa sản xuất được",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    }
+   ],
+   "muc_cao": 34.27
+  },
+  {
+   "id": 7,
+   "ma_vu_viec": "QD1624-BCT",
+   "loai": "cbpg",
+   "giai_doan": "chinh_thuc",
+   "ten_hang": "Vật liệu hàn (que hàn inox 308 có bọc thuốc; dây hàn thép đặc không lõi thuốc)",
+   "hieu_luc_tu": "2022-12-30",
+   "hieu_luc_den": null,
+   "da_doi_chieu": true,
+   "dang_ap": true,
+   "so_hieu": "1624/QĐ-BCT, 2959/QĐ-BCT",
+   "mo_ta": "Que hàn inox 308 có bọc thuốc bị áp dụng thuế CBPG chính thức được phân loại theo các mã HS sau: 8311.10.90, 8311.30.99, 8311.90.00.\nDây hàn thép đặc không lõi thuốc bị áp dụng thuế CBPG chính thức được phân loại theo các mã HS sau: 7217.10.10, 7217.30.19, 7217.90.10, 7229.20.00, 7229.90.21, 7229.90.29, 7229.90.99, 8311.10.10, 8311.10.90, 8311.30.91, 8311.30.99, 8311.90.00.",
+   "muc_khong_chung_tu": null,
+   "ghi_chu": "QĐ 2959/QĐ-BCT (30/12/2022) sửa đổi Điều 1 và Tiểu mục 1.1, 1.2 Mục 1 Thông báo kèm QĐ 1624/QĐ-BCT (15/8/2022) về thuế CBPG chính thức với vật liệu hàn xuất xứ Ma-lai-xi-a, Thái Lan và Trung Quốc — cập nhật mã HS theo Thông tư 31/2022/TT-BTC. Hàng miễn trừ có thay đổi mã số thì thực hiện miễn trừ theo mã mới (Điều 2.2); các QĐ miễn trừ ban hành trước tiếp tục có giá trị đến hết hạn. Tệp nguồn có chú thích ¹ tại 7217.10.10 và 7229.90.99: các mã này cũng đang bị áp biện pháp chống lẩn tránh với thép cuộn, thép dây (QĐ 693/QĐ-BCT, vụ AC01.SG04).",
+   "doi_chieu_luc": "2026-09-23T16:44:19.440714Z",
+   "doi_chieu_ten": "NMH",
+   "van_ban": [
+    {
+     "so_hieu": "2959/QĐ-BCT",
+     "vai": "sua_doi",
+     "van_ban_id": 11,
+     "ten": "Sửa đổi QĐ 1624/QĐ-BCT về thuế CBPG chính thức vật liệu hàn (mã HS theo TT 31/2022)",
+     "ngay_ban_hanh": "2022-12-30",
+     "link_goc": "https://drive.google.com/file/d/18hmd_m5T7JogYr2lPqv_-th5vS5aI_wb/view?usp=drivesdk"
+    },
+    {
+     "so_hieu": "1624/QĐ-BCT",
+     "vai": "goc",
+     "van_ban_id": null,
+     "ten": null,
+     "ngay_ban_hanh": null,
+     "link_goc": ""
+    }
+   ],
+   "ma_hs": [
+    "72171010",
+    "72173019",
+    "72179010",
+    "72292000",
+    "72299021",
+    "72299029",
+    "72299099",
+    "83111010",
+    "83111090",
+    "83113091",
+    "83113099",
+    "83119000"
+   ],
+   "nuoc": [
+    {
+     "nuoc": "CN",
+     "muc_toan_quoc": null,
+     "ten_nuoc": "Trung Quốc"
+    },
+    {
+     "nuoc": "MY",
+     "muc_toan_quoc": null,
+     "ten_nuoc": "Malaysia"
+    },
+    {
+     "nuoc": "TH",
+     "muc_toan_quoc": null,
+     "ten_nuoc": "Thái Lan"
+    }
+   ],
+   "quy_cach": [
+    {
+     "ten": "Que hàn",
+     "gia_tri": "inox 308, có bọc thuốc"
+    },
+    {
+     "ten": "Dây hàn",
+     "gia_tri": "thép đặc, không lõi thuốc"
+    }
+   ],
+   "nha_sx": [],
+   "loai_tru": [],
+   "muc_cao": null
+  },
+  {
+   "id": 1,
+   "ma_vu_viec": "AC01.SG04",
+   "loai": "chong_lan_tranh",
+   "giai_doan": "het_hieu_luc",
+   "ten_hang": "Thép cuộn, thép dây",
+   "hieu_luc_tu": "2023-03-22",
+   "hieu_luc_den": null,
+   "da_doi_chieu": false,
+   "dang_ap": false,
+   "so_hieu": "693/QĐ-BCT",
+   "mo_ta": "Hàng hóa thuộc đối tượng áp dụng biện pháp chống lẩn tránh biện pháp phòng vệ thương mại là các sản phẩm thép cuộn, thép dây có mã HS: 7213.91.90, 7217.10.10, 7217.10.29, 7229.90.99, 9839.10.00 nhập khẩu vào Việt Nam từ các nước/vùng lãnh thổ khác nhau.",
+   "muc_khong_chung_tu": null,
+   "ghi_chu": "Gia hạn biện pháp chống lẩn tránh biện pháp PVTM (biện pháp tự vệ thép dài) với thép cuộn, thép dây nhập khẩu từ các nước/vùng lãnh thổ khác nhau, dưới dạng thuế nhập khẩu bổ sung theo lộ trình: 22/3/2023–21/3/2024: 6,3%; 22/3/2024–21/3/2025: 6,2%; 22/3/2025–21/3/2026: 6,1%; từ 22/3/2026 trở đi: 0%. Căn cứ: QĐ 1230/QĐ-BCT (13/5/2019) áp dụng và QĐ 920/QĐ-BCT (20/3/2020) gia hạn biện pháp chống lẩn tránh; QĐ 691/QĐ-BCT (21/3/2023) gia hạn biện pháp tự vệ thép dài. Loại trừ (i), (ii), (iii): nộp cho Hải quan giấy tờ chứng minh hàng thỏa tiêu chí; (iv): phải có Quyết định miễn trừ của BCT. Hàng có C/O từ nước/vùng lãnh thổ đang phát triển trong Phụ lục QĐ 691/QĐ-BCT được loại trừ.",
+   "doi_chieu_luc": null,
+   "doi_chieu_ten": null,
+   "van_ban": [
+    {
+     "so_hieu": "693/QĐ-BCT",
+     "vai": "gia_han",
+     "van_ban_id": 14,
+     "ten": "Gia hạn áp dụng biện pháp chống lẩn tránh PVTM thép cuộn, thép dây",
+     "ngay_ban_hanh": "2023-03-21",
+     "link_goc": "https://drive.google.com/file/d/1cdf0U3ipFnaU3XyUlZJatsln6t2pyTYR/view?usp=drivesdk"
+    }
+   ],
+   "ma_hs": [
+    "72139190",
+    "72171010",
+    "72171029",
+    "72299099",
+    "98391000"
+   ],
+   "nuoc": [],
+   "quy_cach": [],
+   "nha_sx": [],
+   "loai_tru": [
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Thép chứa một trong các nguyên tố có hàm lượng phần trăm (%) theo khối lượng thuộc phạm vi sau: Các-bon (C) > 0,37%; Si-líc (Si) > 0,60%; Crôm (Cr) > 0,60%; Ni-ken (Ni) > 0,60%; Đồng (Cu) > 0,60%.",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Thép chứa đồng thời các nguyên tố có hàm lượng phần trăm (%) theo khối lượng thuộc phạm vi sau: Măng-gan (Mn) từ 0,70% đến 1,15%; Lưu huỳnh (S) từ 0,24% đến 0,35%.",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Thép có mặt cắt ngang hình tròn từ 14mm trở lên.",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Miễn trừ (chỉ khi có quyết định miễn trừ của Bộ Công Thương, không tự động loại trừ): Các sản phẩm thép trong nước chưa sản xuất được để sử dụng trong ngành công nghiệp hỗ trợ và cơ khí chế tạo.",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null
+    },
+    {
+     "kieu": "vu_khac",
+     "noi_dung": "Hàng hóa có giấy chứng nhận xuất xứ (C/O) ghi rõ xuất xứ từ các nước/vùng lãnh thổ đang phát triển có tên trong Phụ lục Danh sách các quốc gia/vùng lãnh thổ đang phát triển được loại trừ áp dụng biện pháp tự vệ ban hành kèm theo Quyết định 691/QĐ-BCT ngày 21 tháng 3 năm 2023",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": "691/QĐ-BCT"
+    }
+   ],
+   "muc_cao": null
+  }
+ ]
+}

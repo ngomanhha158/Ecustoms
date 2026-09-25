@@ -1,0 +1,1606 @@
+[Số hiệu] 54/2026/TT-BQP
+[Tiêu đề] Kiểm tra chất lượng vũ khí trang bị, sản phẩm, hàng quốc phòng
+[Ngày ban hành] 2026-06-05
+[Cơ quan] Bộ Quốc phòng
+------------------------------------------------------------
+
+-----------------------------------------------------------------------
+  BỘ QUỐC PHÒNG              CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  -------                    Độc lập - Tự do - Hạnh phúc
+                             ---------------
+  -------------------------- --------------------------------------------
+  Số: 54/2026/TT-BQP         Hà Nội, ngày 05 tháng 6 năm 2026
+
+  -----------------------------------------------------------------------
+
+THÔNG TƯ
+
+QUY ĐỊNH KIỂM TRA CHẤT LƯỢNG VŨ KHÍ TRANG BỊ, SẢN PHẨM, HÀNG QUỐC PHÒNG
+
+Căn cứ Luật Tiêu chuẩn và quy chuẩn kỹ thuật số 68/2006/QH11, được sửa
+đổi, bổ sung bởi Luật số 35/2018/QH14; Luật số 70/2025/QH15;
+
+Căn cứ Luật Chất lượng sản phẩm, hàng hóa số 05/2007/QH12, được sửa đổi,
+bổ sung bởi Luật số 35/2018/QH14; Luật số 78/2025/QH15;
+
+Căn cứ Nghị định số 22/2026/NĐ-CP của Chính phủ quy định chi tiết một số
+điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Tiêu chuẩn và quy
+chuẩn kỹ thuật;
+
+Căn cứ Nghị định số 37/2026/NĐ-CP của Chính phủ quy định chi tiết một số
+điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Chất lượng sản
+phẩm, hàng hóa;
+
+Căn cứ Nghị định số 01/2022/NĐ-CP của Chính phủ quy định chức năng,
+nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Quốc phòng, được sửa đổi,
+bổ sung bởi Nghị định số 03/2025/NĐ-CP của Chính phủ;
+
+Theo đề nghị của Tổng Tham mưu trưởng Quân đội nhân dân Việt Nam;
+
+Bộ trưởng Bộ Quốc phòng ban hành Thông tư quy định kiểm tra chất lượng
+vũ khí trang bị, sản phẩm, hàng quốc phòng.
+
+Chương I
+
+QUY ĐỊNH CHUNG
+
+Điều 1. Phạm vi điều chỉnh
+
+Thông tư này quy định hình thức, nội dung, quy trình, kinh phí bảo đảm
+và trách nhiệm của các cơ quan, đơn vị trong hoạt động kiểm tra chất
+lượng vũ khí trang bị, sản phẩm, hàng quốc phòng.
+
+Điều 2. Đối tượng áp dụng
+
+1. Cơ quan thực hiện chức năng quản lý nhà nước về chất lượng vũ khí
+trang bị, sản phẩm, hàng quốc phòng.
+
+2. Cơ quan, đơn vị, tổ chức, cá nhân có liên quan đến chất lượng vũ khí
+trang bị, sản phẩm, hàng quốc phòng.
+
+Điều 3. Giải thích từ ngữ
+
+Trong Thông tư này, các từ ngữ dưới đây được hiểu như sau:
+
+1. Kiểm tra chất lượng vũ khí trang bị, sản phẩm, hàng quốc phòng là
+việc cơ quan nhà nước có thẩm quyền tiến hành xem xét, đánh giá lại chất
+lượng vũ khí trang bị, sản phẩm, hàng quốc phòng trong quá trình sản
+xuất, xuất khẩu, nhập khẩu, khai thác, sử dụng.
+
+2. Cơ quan kiểm tra chất lượng vũ khí trang bị, sản phẩm, hàng quốc
+phòng (sau đây gọi là cơ quan kiểm tra chất lượng) là cơ quan được Bộ
+Quốc phòng giao thực hiện chức năng quản lý nhà nước về chất lượng vũ
+khí trang bị, sản phẩm, hàng quốc phòng.
+
+3. Chất lượng vũ khí trang bị, sản phẩm, hàng quốc phòng là mức độ các
+đặc tính của vũ khí trang bị, sản phẩm, hàng quốc phòng đáp ứng yêu cầu
+của tiêu chuẩn công bố áp dụng, quy chuẩn kỹ thuật tương ứng và quy định
+về tính năng chiến-kỹ thuật được cấp có thẩm quyền phê duyệt.
+
+4. Đánh giá sự phù hợp bao gồm: Các hoạt động thử nghiệm, giám định chất
+lượng, chứng nhận hợp chuẩn, hợp quy đối với vũ khí trang bị, sản phẩm,
+hàng quốc phòng theo tiêu chuẩn công bố áp dụng, quy chuẩn kỹ thuật
+tương ứng hoặc quy định về tính năng chiến-kỹ thuật được cấp có thẩm
+quyền phê duyệt.
+
+5. Vũ khí trang bị bao gồm: Vũ khí trang bị kỹ thuật, trang bị hậu cần,
+đang khai thác, sử dụng tại đơn vị.
+
+6. Hàng quốc phòng bao gồm: Sản phẩm, hàng hóa thuộc phạm vi quản lý của
+Bộ Quốc phòng và sản phẩm, hàng hóa lưỡng dụng phục vụ nhiệm vụ quân sự,
+quốc phòng đang trong quá trình mua sắm.
+
+7. Hàng quốc phòng xuất khẩu là sản phẩm quốc phòng do các cơ sở sản
+xuất quốc phòng sản xuất phục vụ mục đích xuất khẩu.
+
+8. Thử nghiệm là việc xác định một hay nhiều đặc tính của vũ khí trang
+bị, sản phẩm, hàng quốc phòng theo một quy trình nhất định.
+
+9. Giám định chất lượng là việc kiểm tra và xác định sự phù hợp về chất
+lượng của hàng quốc phòng với yêu cầu cụ thể hoặc yêu cầu chung.
+
+10. Tài liệu kèm theo vũ khí trang bị, sản phẩm, hàng quốc phòng bao
+gồm: Kết quả đánh giá sự phù hợp, tài liệu giới thiệu tính năng, công
+dụng, đặc tính, hướng dẫn sử dụng.
+
+11. Chuyên gia kỹ thuật là người được đào tạo theo hướng chuyên sâu, có
+kinh nghiệm về thực hành và kỹ năng thực tiễn; có lý luận chuyên sâu về
+lĩnh vực cụ thể hoặc có kiến thức, hiểu biết vượt trội so với mặt bằng
+kiến thức chung.
+
+Điều 4. Nguyên tắc và căn cứ kiểm tra chất lượng
+
+1. Nguyên tắc kiểm tra:
+
+a) Kiểm tra chất lượng được thực hiện trên cơ sở quy định về tính năng
+chiến-kỹ thuật được cấp có thẩm quyền phê duyệt và theo công bố của nhà
+sản xuất; tiêu chuẩn, quy chuẩn kỹ thuật tương ứng; quy định về nhãn sản
+phẩm, hàng quốc phòng; các quy định của pháp luật có liên quan;
+
+b) Hoạt động kiểm tra chất lượng đối với vũ khí trang bị, sản phẩm, hàng
+quốc phòng phải bảo đảm minh bạch, chính xác, khách quan, khoa học theo
+quy định của pháp luật, phù hợp với yêu cầu bảo đảm chất lượng vũ khí
+trang bị, sản phẩm, hàng quốc phòng trong từng thời kỳ;
+
+c) Kiểm tra chất lượng đối với vũ khí trang bị, sản phẩm, hàng quốc
+phòng được thực hiện bởi Đoàn kiểm tra.
+
+2. Căn cứ kiểm tra:
+
+a) Kế hoạch kiểm tra hằng năm được Tổng Tham mưu trưởng phê duyệt;
+
+b) Theo mệnh lệnh, chỉ thị của Bộ trưởng Bộ Quốc phòng, Tổng Tham mưu
+trưởng;
+
+c) Báo cáo của cơ quan, đơn vị liên quan về chất lượng vũ khí trang bị,
+sản phẩm, hàng quốc phòng có chất lượng không ổn định, thiếu tin cậy.
+
+Điều 5. Hành vi bị nghiêm cấm
+
+1. Các cá nhân, cơ quan, đơn vị và tổ chức có liên quan gây áp lực với
+cơ quan kiểm tra chất lượng, Đoàn kiểm tra để làm thay đổi kết quả kiểm
+tra.
+
+2. Cung cấp sai kết quả kiểm tra, thử nghiệm, chứng nhận chất lượng hoặc
+cung cấp giả mạo các tài liệu kèm theo vũ khí trang bị, sản phẩm, hàng
+quốc phòng.
+
+3. Phát tán, làm lộ, lọt thông tin, tài liệu mật về chất lượng vũ khí
+trang bị, sản phẩm, hàng quốc phòng.
+
+Điều 6. Cơ quan kiểm tra chất lượng
+
+1. Cục Tiêu chuẩn-Đo lường-Chất lượng/Bộ Tổng Tham mưu là cơ quan kiểm
+tra chất lượng vũ khí trang bị, sản phẩm, hàng quốc phòng.
+
+2. Nhiệm vụ, quyền hạn của cơ quan kiểm tra chất lượng:
+
+a) Tổ chức thực hiện kiểm tra chất lượng;
+
+b) Chỉ định cơ sở Đo lường-Chất lượng, cơ sở thử nghiệm, cơ sở kỹ thuật
+(sau đây gọi chung là cơ sở thử nghiệm) tham gia kiểm tra chất lượng;
+
+c) Thông báo kết quả kiểm tra cho các cơ quan, đơn vị liên quan;
+
+d) Tổng hợp kết quả, báo cáo Tổng Tham mưu trưởng, Bộ trưởng Bộ Quốc
+phòng kết quả kiểm tra chất lượng và đề xuất các biện pháp xử lý đối với
+vũ khí trang bị, sản phẩm, hàng quốc phòng không bảo đảm chất lượng.
+
+Điều 7. Cơ sở thử nghiệm tham gia kiểm tra chất lượng
+
+1. Cơ sở Đo lường-Chất lượng được Cục Tiêu chuẩn-Đo lường-Chất lượng
+công nhận năng lực kiểm định, hiệu chuẩn, thử nghiệm phù hợp Tiêu chuẩn
+TCVN/QS 877:2014.
+
+2. Các cơ sở thử nghiệm trong và ngoài Quân đội được công nhận năng lực
+thử nghiệm phù hợp Tiêu chuẩn TCVN ISO/IEC 17025:2017.
+
+3. Cơ sở kỹ thuật khác do cơ quan kiểm tra chất lượng chỉ định.
+
+Điều 8. Kiểm soát viên chất lượng
+
+1. Yêu cầu:
+
+a) Là sĩ quan thuộc biên chế tại Cục Tiêu chuẩn-Đo lường-Chất lượng;
+được sắp xếp vào vị trí kiêm nhiệm “kiểm soát viên chất lượng”;
+
+b) Có trình độ đại học trở lên thuộc các chuyên ngành hậu cần, kỹ thuật
+và am hiểu về vũ khí trang bị, sản phẩm, hàng quốc phòng được kiểm tra;
+
+c) Có ít nhất 03 năm công tác trong lĩnh vực tiêu chuẩn, đo lường, chất
+lượng, có chứng chỉ huấn luyện, bồi dưỡng về nghiệp vụ kiểm soát viên
+chất lượng và được Cục Tiêu chuẩn-Đo lường-Chất lượng cấp thẻ kiểm soát
+viên chất lượng (Mẫu thẻ kiểm soát viên chất lượng quy định tại Phụ lục
+I ban hành kèm theo Thông tư này).
+
+2. Nhiệm vụ và quyền hạn:
+
+a) Nhiệm vụ
+
+Thực hiện nhiệm vụ kiểm tra, giám sát, lấy mẫu; phối hợp xử lý vi phạm
+hành chính và các nhiệm vụ chuyên môn khác liên quan đến quản lý chất
+lượng vũ khí trang bị, sản phẩm, hàng quốc phòng theo quy định;
+
+Báo cáo trung thực kết quả kiểm tra chất lượng; chịu trách nhiệm trước
+pháp luật và người chỉ huy về tính chính xác của kết quả kiểm tra;
+
+Bảo mật về thông tin, hồ sơ, tài liệu liên quan đến nhiệm vụ.
+
+b) Quyền hạn
+
+Yêu cầu cơ quan, đơn vị, cá nhân liên quan cung cấp đủ thông tin, hồ sơ,
+tài liệu phục vụ kiểm tra chất lượng;
+
+Từ chối sự can thiệp của bất kỳ cá nhân, cơ quan, đơn vị có thể dẫn đến
+sai lệch tính chính xác, trung thực trong quá trình thực hiện nhiệm vụ.
+
+Điều 9. Đoàn kiểm tra chất lượng
+
+1. Thẩm quyền thành lập và thành phần:
+
+a) Đoàn kiểm tra do Cục trưởng Cục Tiêu chuẩn-Đo lường-Chất lượng quyết
+định thành lập trên cơ sở kế hoạch kiểm tra đã được Tổng Tham mưu trưởng
+phê duyệt hoặc trong trường hợp có mệnh lệnh, chỉ thị yêu cầu kiểm tra
+đột xuất;
+
+b) Thành phần đoàn kiểm tra bao gồm: Trưởng đoàn, thư ký, kiểm soát viên
+chất lượng, các thành viên là đại diện cơ quan, đơn vị liên quan đến
+chất lượng vũ khí, trang bị, sản phẩm, hàng quốc phòng, chuyên gia kỹ
+thuật, cơ quan Tiêu chuẩn-Đo lường-Chất lượng thuộc đơn vị có đối tượng
+kiểm tra và cơ sở thử nghiệm được chỉ định.
+
+2. Nguyên tắc làm việc:
+
+Đoàn kiểm tra làm việc theo nguyên tắc đa số khi có hai phần ba thành
+viên trở lên tham gia và kết luận của đoàn kiểm tra có giá trị pháp lý
+khi có hơn một nửa thành viên đoàn kiểm tra nhất trí.
+
+3. Nhiệm vụ của đoàn kiểm tra:
+
+a) Xây dựng, ban hành kế hoạch theo các nội dung kiểm tra quy định tại
+khoản 2 Điều 15, khoản 2 Điều 18 và khoản 2 Điều 24 Thông tư này. Chỉ
+đạo cơ sở thử nghiệm xây dựng, phê duyệt quy trình thử nghiệm tính năng
+chiến-kỹ thuật của vũ khí trang bị, sản phẩm, hàng quốc phòng (sau đây
+gọi là quy trình thử nghiệm);
+
+b) Thực hiện kiểm tra tại các cơ quan, đơn vị liên quan; chỉ đạo hoạt
+động của cơ sở thử nghiệm tham gia kiểm tra; kết luận về chất lượng vũ
+khí trang bị, sản phẩm, hàng quốc phòng;
+
+c) Xử lý và đề xuất biện pháp xử lý với cấp có thẩm quyền quy định tại
+các Điều 16, 19, 22 và 25 Thông tư này;
+
+d) Báo cáo Cục trưởng Cục Tiêu chuẩn-Đo lường-Chất lượng kết quả kiểm
+tra.
+
+Điều 10. Quy trình thực hiện kiểm tra chất lượng
+
+1. Cục trưởng Cục Tiêu chuẩn-Đo lường-Chất lượng thành lập đoàn kiểm tra
+(Mẫu quyết định thành lập đoàn kiểm tra quy định tại Phụ lục II ban hành
+kèm theo Thông tư này).
+
+2. Đoàn kiểm tra xây dựng, ban hành kế hoạch kiểm tra chất lượng (Mẫu kế
+hoạch kiểm tra chất lượng quy định tại Phụ lục III ban hành kèm theo
+Thông tư này); phê duyệt quy trình thử nghiệm (Mẫu quy trình thử nghiệm
+quy định tại Phụ lục IV, Mẫu quyết định phê duyệt quy trình thử nghiệm
+quy định tại Phụ lục V ban hành kèm theo Thông tư này).
+
+3. Đoàn kiểm tra tiến hành kiểm tra đối với vũ khí trang bị, sản phẩm,
+hàng quốc phòng theo kế hoạch và quy trình thử nghiệm.
+
+4. Trên cơ sở kết quả kiểm tra, đoàn kiểm tra đề nghị Cục trưởng Cục
+Tiêu chuẩn-Đo lường-Chất lượng thông báo kết quả kiểm tra chất lượng cho
+các cơ quan, đơn vị liên quan (Mẫu thông báo kết quả kiểm tra chất lượng
+quy định tại Phụ lục VI ban hành kèm theo Thông tư này).
+
+Điều 11. Hồ sơ phục vụ kiểm tra
+
+1. Hồ sơ sản phẩm quốc phòng:
+
+a) Báo cáo của cơ sở sản xuất, sửa chữa quốc phòng về chất lượng sản
+phẩm quốc phòng và việc chấp hành các quy định về bảo đảm chất lượng
+trong sản xuất, sửa chữa (Mẫu báo cáo chất lượng đối với sản phẩm quốc
+phòng trong sản xuất, sửa chữa quy định tại Phụ lục VII ban hành kèm
+theo Thông tư này);
+
+b) Quyết định phê duyệt kế hoạch sản xuất, sửa chữa; quyết định phê
+duyệt tính năng chiến-kỹ thuật của cấp có thẩm quyền;
+
+c) Tài liệu kỹ thuật của sản phẩm quốc phòng;
+
+d) Kết quả đánh giá sự phù hợp của cơ quan, đơn vị có thẩm quyền;
+
+đ) Chứng nhận của hệ thống quản lý chất lượng (nếu có);
+
+e) Các tài liệu khác có liên quan.
+
+2. Hồ sơ hàng quốc phòng mua trong nước, nhập khẩu:
+
+a) Báo cáo kết quả mua trong nước, nhập khẩu của chủ đầu tư (Mẫu báo cáo
+chất lượng đối với hàng quốc phòng mua trong nước, nhập khẩu quy định
+tại Phụ lục VIII ban hành kèm theo Thông tư này);
+
+b) Quyết định phê duyệt kế hoạch mua trong nước, nhập khẩu; quyết định
+phê duyệt tính năng chiến-kỹ thuật của cấp có thẩm quyền; hợp đồng mua
+bán/hợp đồng đặt hàng;
+
+c) Tài liệu kèm theo hàng quốc phòng có xuất xứ nước ngoài:
+
+Chứng nhận xuất xứ; chứng nhận chất lượng hoặc chứng nhận phù hợp; các
+hồ sơ, tài liệu có giá trị pháp lý tương đương;
+
+Giấy chứng nhận hiệu chuẩn hoặc giấy chứng nhận kiểm định đối với phương
+tiện đo.
+
+d) Tài liệu kèm theo hàng quốc phòng sản xuất trong nước, đặt hàng sản
+xuất:
+
+Giấy chứng nhận chất lượng/chứng nhận xuất xưởng;
+
+Giấy chứng nhận hiệu chuẩn hoặc giấy chứng nhận kiểm định đối với phương
+tiện đo;
+
+Tiêu chuẩn công bố áp dụng;
+
+Hồ sơ thiết kế được cấp có thẩm quyền phê duyệt theo quy định; hồ sơ
+kiểm tra chất lượng vật tư, phụ tùng đầu vào phục vụ sản xuất; hồ sơ thử
+nghiệm, nghiệm thu của doanh nghiệp cung cấp hàng quốc phòng đối với
+hàng quốc phòng đặt hàng sản xuất.
+
+đ) Kết quả đánh giá sự phù hợp của cơ quan, đơn vị có thẩm quyền;
+
+e) Các tài liệu khác có liên quan.
+
+3. Hồ sơ sản phẩm quốc phòng xuất khẩu: Thực hiện tương tự như hồ sơ sản
+phẩm quốc phòng quy định tại khoản 1 Điều này.
+
+4. Hồ sơ vũ khí trang bị đang khai thác, sử dụng:
+
+a) Báo cáo về chất lượng vũ khí trang bị và việc chấp hành quy định về
+quản lý chất lượng vũ khí trang bị đang khai thác, sử dụng tại đơn vị
+(Mẫu báo cáo chất lượng đối với vũ khí trang bị đang khai thác, sử dụng
+tại đơn vị quy định tại Phụ lục IX ban hành kèm theo Thông tư này);
+
+b) Tài liệu phục vụ phân cấp chất lượng, bảo đảm kỹ thuật cho vũ khí
+trang bị; tài liệu khai thác, sử dụng, huấn luyện;
+
+c) Hồ sơ phân cấp chất lượng, theo dõi sử dụng, bảo quản, bảo dưỡng, sửa
+chữa vũ khí trang bị;
+
+d) Các tài liệu khác có liên quan.
+
+5. Các cơ quan, đơn vị chịu trách nhiệm trước pháp luật về tính hợp lệ,
+tính pháp lý của hồ sơ kiểm tra chất lượng.
+
+Điều 12. Quy định về truy xuất nguồn gốc sản phẩm, hàng quốc phòng
+
+1. Sản phẩm quốc phòng; hàng quốc phòng nhập khẩu trực tiếp qua các hợp
+đồng mua bán hoặc uỷ thác không thực hiện truy xuất nguồn gốc.
+
+2. Sản phẩm, hàng hóa lưỡng dụng mua trong nước thực hiện truy xuất /
+nguồn gốc theo quy định tại Điều 6d Luật Chất lượng sản phẩm, hàng hóa
+số 05/2007/QH12, được bổ sung tại khoản 1 Điều 1 Luật số 78/2025/QH15 và
+Mục 2 Chương III Nghị định số 37/2026/NĐ-CP của Chính phủ quy định chi
+tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Chất
+lượng sản phẩm, hàng hóa.
+
+Điều 13. Bảo mật thông tin
+
+Cơ quan Tiêu chuẩn-Đo lường-Chất lượng các cấp và các thành viên Đoàn
+kiểm tra chất lượng có trách nhiệm:
+
+1. Thực hiện đúng quy định của pháp luật, Bộ Quốc phòng về công tác bảo
+vệ bí mật, bảo mật thông tin.
+
+2. Quản lý hồ sơ theo quy định của pháp luật về lưu trữ.
+
+3. Không cung cấp, phát tán thông tin liên quan đến nội dung kiểm tra,
+chất lượng vũ khí trang bị, sản phẩm, hàng quốc phòng cho tổ chức, cá
+nhân không liên quan.
+
+Chương II
+
+KIỂM TRA CHẤT LƯỢNG ĐỐI VỚI SẢN PHẨM QUỐC PHÒNG TRONG SẢN XUẤT, SỬA CHỮA
+
+Điều 14. Điều kiện bảo đảm chất lượng sản phẩm quốc phòng trong sản
+xuất, sửa chữa
+
+1. Áp dụng hệ thống quản lý nhằm bảo đảm chất lượng sản phẩm quốc phòng
+phù hợp tiêu chuẩn công bố áp dụng, quy chuẩn kỹ thuật tương ứng.
+
+2. Công bố tiêu chuẩn áp dụng, quy chuẩn kỹ thuật tương ứng theo quy
+định, gồm: Công bố các đặc tính cơ bản của sản phẩm quốc phòng; tiêu
+chuẩn áp dụng trên tài liệu kèm theo sản phẩm quốc phòng và ghi nhãn
+theo quy định. Nội dung của tiêu chuẩn công bố áp dụng không được trái
+với quy chuẩn kỹ thuật hoặc yêu cầu kỹ thuật được cấp có thẩm quyền phê
+duyệt.
+
+3. Tuân thủ các tiêu chuẩn, quy chuẩn kỹ thuật tương ứng liên quan đến
+quá trình sản xuất, sửa chữa; chứng nhận hợp chuẩn, hợp quy theo quy
+định.
+
+4. Đối với sản phẩm quốc phòng chưa có tiêu chuẩn, quy chuẩn kỹ thuật
+tương ứng phải được cấp có thẩm quyền phê duyệt yêu cầu kỹ thuật, tính
+năng chiến-kỹ thuật; tài liệu thiết kế theo quy định.
+
+Điều 15. Trường hợp, nội dung và quy trình kiểm tra
+
+1. Trường hợp kiểm tra:
+
+a) Định kỳ: Theo Kế hoạch kiểm tra hằng năm;
+
+b) Đột xuất:
+
+Theo chỉ thị, mệnh lệnh của Bộ trưởng Bộ Quốc phòng, Tổng Tham mưu
+trưởng;
+
+Sản phẩm quốc phòng có dấu hiệu không bảo đảm chất lượng trong quá trình
+xuất khẩu, khai thác, sử dụng.
+
+2. Nội dung kiểm tra:
+
+a) Kiểm tra việc thực hiện các yêu cầu quy định liên quan đến điều kiện
+bảo đảm chất lượng trong sản xuất, sửa chữa; việc áp dụng các yêu cầu
+quy định của tiêu chuẩn, quy chuẩn kỹ thuật tương ứng; yêu cầu kỹ thuật,
+tính năng chiến-kỹ thuật; tài liệu thiết kế liên quan đến quá trình sản
+xuất, sửa chữa;
+
+b) Kiểm tra việc áp dụng các biện pháp quản lý chất lượng đối với sản
+phẩm quốc phòng sản xuất, sửa chữa;
+
+c) Kiểm tra kết quả đánh giá sự phù hợp và các tài liệu kèm theo sản
+phẩm quốc phòng sản xuất, sửa chữa;
+
+d) Lấy mẫu, thử nghiệm mẫu theo tiêu chuẩn, quy chuẩn kỹ thuật tương ứng
+hoặc các quy định khác của cấp có thẩm quyền ban hành trong trường hợp
+kiểm tra theo các điểm a, b, c khoản này không đạt yêu cầu;
+
+đ) Kết luận về chất lượng sản phẩm quốc phòng được kiểm tra và kiến nghị
+(nếu có).
+
+3. Quy trình kiểm tra:
+
+a) Công bố Quyết định thành lập Đoàn kiểm tra;
+
+b) Kiểm tra theo quy định tại khoản 2 Điều này;
+
+c) Lập Biên bản kiểm tra và kết luận về chất lượng sản phẩm quốc phòng
+sản xuất, sửa chữa;
+
+d) Xử lý vi phạm theo quy định tại Điều 16 Thông tư này.
+
+Điều 16. Xử lý vi phạm trong quá trình kiểm tra chất lượng đối với sản
+phẩm quốc phòng
+
+1. Trong quá trình kiểm tra sản phẩm quốc phòng khi phát hiện cơ sở sản
+xuất, sửa chữa quốc phòng không thực hiện đúng các yêu cầu về tiêu chuẩn
+công bố áp dụng, quy chuẩn kỹ thuật tương ứng, quy định về tính năng
+chiến-kỹ thuật được cấp có thẩm quyền phê duyệt và các điều kiện bảo đảm
+chất lượng liên quan đến quá trình sản xuất, sửa chữa thì việc xử lý
+được thực hiện theo quy định sau đây:
+
+a) Đoàn kiểm tra yêu cầu cơ sở sản xuất, sửa chữa quốc phòng thực hiện
+các biện pháp khắc phục để bảo đảm chất lượng sản phẩm quốc phòng. Trước
+khi đưa sản phẩm quốc phòng đã khắc phục vào sử dụng, cơ sở sản xuất,
+sửa chữa quốc phòng phải thông báo bằng văn bản cho Đoàn kiểm tra;
+
+b) Sau khi có yêu cầu của Đoàn kiểm tra mà cơ sở sản xuất, sửa chữa quốc
+phòng vẫn tiếp tục vi phạm thì trong thời hạn 07 ngày làm việc, kể từ
+ngày có kết luận về vi phạm của cơ sở sản xuất, sửa chữa quốc phòng; cơ
+quan kiểm tra chất lượng báo cáo cấp có thẩm quyền xử lý theo quy định
+của pháp luật.
+
+2. Trong quá trình kiểm tra chất lượng sản phẩm quốc phòng mà kết quả
+thử nghiệm khẳng định sản phẩm không phù hợp tiêu chuẩn công bố áp dụng,
+quy chuẩn kỹ thuật tương ứng liên quan đến sự an toàn của người, động
+vật, thực vật, tài sản, môi trường thì Đoàn kiểm tra được phép đình chỉ
+tạm thời việc sản xuất, sửa chữa; niêm phong sản phẩm quốc phòng không
+phù hợp và kiến nghị cấp có thẩm quyền xử lý theo quy định của pháp
+luật.
+
+Chương III
+
+KIỂM TRA CHẤT LƯỢNG ĐỐI VỚI HÀNG QUỐC PHÒNG MUA TRONG NƯỚC, NHẬP KHẨU
+
+Điều 17. Điều kiện bảo đảm chất lượng hàng quốc phòng mua trong nước,
+nhập khẩu
+
+1. Hàng quốc phòng mua trong nước, nhập khẩu phải đáp ứng yêu cầu của
+hợp đồng, tính năng chiến-kỹ thuật được cấp có thẩm quyền phê duyệt,
+tiêu chuẩn công bố áp dụng, quy chuẩn kỹ thuật tương ứng, tài liệu kỹ
+thuật.
+
+2. Đối với hàng quốc phòng do Quân đội đặt hàng sản xuất trong nước nếu
+chưa có tiêu chuẩn, quy chuẩn kỹ thuật tương ứng thì phải được cấp có
+thẩm quyền phê duyệt yêu cầu kỹ thuật, tính năng chiến-kỹ thuật; tài
+liệu thiết kế.
+
+3. Hàng quốc phòng mua trong nước, nhập khẩu phải được giám định chất
+lượng theo quy định phục vụ công tác quản lý nhà nước trước khi tổ chức
+nghiệm thu, đưa vào sử dụng.
+
+Điều 18. Trường hợp, nội dung và quy trình kiểm tra
+
+1. Trường hợp kiểm tra:
+
+a) Định kỳ: Theo Kế hoạch kiểm tra hằng năm;
+
+b) Đột xuất:
+
+Theo chỉ thị, mệnh lệnh của Bộ trưởng Bộ Quốc phòng, Tổng Tham mưu
+trưởng;
+
+Có khiếu nại về chất lượng đối với hàng quốc phòng mua trong nước, nhập
+khẩu;
+
+Hàng quốc phòng có dấu hiệu không bảo đảm chất lượng trong quá trình
+khai thác, sử dụng.
+
+2. Nội dung kiểm tra:
+
+a) Đối với hàng quốc phòng mua trong nước, nhập khẩu:
+
+Kiểm tra tài liệu, hồ sơ mua trong nước, nhập khẩu hàng quốc phòng;
+
+Kiểm tra kết quả đánh giá sự phù hợp của cơ quan, đơn vị có thẩm quyền;
+
+Lấy mẫu, thử nghiệm mẫu theo tiêu chuẩn, quy chuẩn kỹ thuật tương ứng
+hoặc các quy định khác của cấp có thẩm quyền ban hành trong trường hợp
+kiểm tra hai nội dung trên không đạt yêu cầu;
+
+Kết luận về chất lượng hàng quốc phòng mua trong nước, nhập khẩu được
+kiểm tra và kiến nghị (nếu có).
+
+b) Đối với hàng quốc phòng đặt hàng sản xuất:
+
+Kiểm tra các điều kiện bảo đảm chất lượng trong sản xuất;
+
+Kiểm tra kết quả đánh giá sự phù hợp, nhãn hàng quốc phòng và hồ sơ, tài
+liệu kèm theo đối với hàng quốc phòng;
+
+Lấy mẫu, thử nghiệm mẫu theo tiêu chuẩn, quy chuẩn kỹ thuật tương ứng
+hoặc các quy định khác của cấp có thẩm quyền ban hành trong trường hợp
+kiểm tra hai nội dung trên không đạt yêu cầu;
+
+Kết luận về chất lượng hàng quốc phòng đặt hàng sản xuất được kiểm tra
+và kiến nghị (nếu có).
+
+3. Quy trình kiểm tra:
+
+a) Công bố Quyết định thành lập Đoàn kiểm tra;
+
+b) Kiểm tra theo quy định tại khoản 2 Điều này;
+
+c) Lập biên bản kiểm tra và kết luận về chất lượng hàng quốc phòng;
+
+d) Xử lý vi phạm theo quy định tại Điều 19 Thông tư này.
+
+Điều 19. Xử lý vi phạm trong quá trình kiểm tra chất lượng hàng quốc
+phòng mua trong nước, nhập khẩu
+
+1. Hàng quốc phòng đạt yêu cầu về chất lượng nhưng không đáp ứng yêu cầu
+về nhãn hàng hóa; hồ sơ mua trong nước, nhập khẩu theo quy định của Bộ
+Quốc phòng về hoạt động giám định chất lượng hàng quốc phòng thì Đoàn
+kiểm tra yêu cầu đơn vị chủ hàng khắc phục.
+
+2. Trong trường hợp kết quả thử nghiệm tính năng chiến-kỹ thuật không
+đạt yêu cầu, Đoàn kiểm tra báo cáo và đề xuất biện pháp xử lý với cấp có
+thẩm quyền; tùy theo tính chất, mức độ vi phạm yêu cầu về quản lý chất
+lượng, cấp có thẩm quyền quyết định buộc tái xuất; trả lại cơ sở sản
+xuất, doanh nghiệp cung cấp hàng quốc phòng; yêu cầu tiêu hủy và đề nghị
+xử lý các vi phạm theo quy định của pháp luật.
+
+Chương IV
+
+KIỂM TRA CHẤT LƯỢNG ĐỐI VỚI HÀNG QUỐC PHÒNG XUẤT KHẨU
+
+Điều 20. Điều kiện bảo đảm chất lượng hàng quốc phòng xuất khẩu
+
+1. Hàng quốc phòng xuất khẩu phải phù hợp với các quy định của nước nhập
+khẩu, với hợp đồng, bên đặt hàng hoặc điều ước quốc tế, thỏa thuận quốc
+tế thừa nhận lẫn nhau về kết quả đánh giá sự phù hợp với nước, vùng lãnh
+thổ có liên quan.
+
+2. Áp dụng các tiêu chuẩn, quy chuẩn kỹ thuật tương ứng trong quá trình
+sản xuất hoặc áp dụng các hệ thống quản lý nhằm bảo đảm chất lượng hàng
+quốc phòng xuất khẩu.
+
+Điều 21. Kiểm tra chất lượng hàng quốc phòng xuất khẩu
+
+1. Hàng quốc phòng xuất khẩu đáp ứng các yêu cầu quy định tại Điều 20
+Thông tư này được miễn kiểm tra của cơ quan kiểm tra chất lượng.
+
+2. Trường hợp hàng quốc phòng xuất khẩu không bảo đảm chất lượng gây ảnh
+hưởng đến lợi ích và uy tín của Quân đội, của quốc gia; cơ quan kiểm tra
+chất lượng tổ chức kiểm tra sản phẩm quốc phòng xuất khẩu quy định tại
+khoản 2 và khoản 3 Điều 15 Thông tư này.
+
+Điều 22. Xử lý hàng quốc phòng xuất khẩu không bảo đảm điều kiện xuất
+khẩu
+
+1. Báo cáo cấp có thẩm quyền cho phép sử dụng nếu chất lượng hàng quốc
+phòng phù hợp tiêu chuẩn, quy chuẩn kỹ thuật tương ứng của Quân đội.
+
+2. Yêu cầu đơn vị chủ hàng xuất khẩu khắc phục, sửa chữa để hàng quốc
+phòng được tiếp tục xuất khẩu hoặc được sử dụng trong Quân đội sau khi
+đã đáp ứng theo tiêu chuẩn, quy chuẩn kỹ thuật tương ứng.
+
+3. Kiến nghị với cấp có thẩm quyền ra quyết định tiêu hủy.
+
+Chương V
+
+KIỂM TRA CHẤT LƯỢNG ĐỐI VỚI VŨ KHÍ TRANG BỊ ĐANG KHAI THÁC, SỬ DỤNG
+
+Điều 23. Điều kiện bảo đảm chất lượng vũ khí trang bị đang khai thác, sử
+dụng
+
+1. Vũ khí trang bị phải được quản lý; khai thác, sử dụng theo đúng quy
+định, hướng dẫn của chuyên ngành hậu cần, kỹ thuật đối với từng loại vũ
+khí trang bị.
+
+2. Vũ khí trang bị phải được định kỳ kiểm tra, phân cấp chất lượng theo
+tiêu chuẩn, quy chuẩn kỹ thuật tương ứng hoặc quy định, hướng dẫn khác
+do cấp có thẩm quyền ban hành.
+
+Điều 24. Trường hợp, nội dung và quy trình kiểm tra
+
+1. Trường hợp kiểm tra:
+
+a) Định kỳ: Theo Kế hoạch kiểm tra hằng năm;
+
+b) Đột xuất:
+
+Theo chỉ thị, mệnh lệnh của Bộ trưởng Bộ Quốc phòng, Tổng Tham mưu
+trưởng;
+
+Vũ khí trang bị có dấu hiệu không bảo đảm chất lượng trong quá trình
+khai thác, sử dụng.
+
+2. Nội dung kiểm tra:
+
+a) Kiểm tra việc chấp hành các quy định trong quản lý; khai thác, sử
+dụng; việc áp dụng các biện pháp nhằm bảo đảm, duy trì chất lượng vũ khí
+trang bị phù hợp với yêu cầu kỹ thuật theo tiêu chuẩn, quy chuẩn kỹ
+thuật tương ứng hoặc quy định khác của cấp có thẩm quyền đối với từng
+loại vũ khí trang bị;
+
+b) Lấy mẫu, thử nghiệm mẫu theo tiêu chuẩn, quy chuẩn kỹ thuật tương ứng
+hoặc các quy định khác của cấp có thẩm quyền ban hành
+
+c) Kết luận về chất lượng vũ khí trang bị được kiểm tra và kiến nghị
+(nếu có).
+
+3. Quy trình kiểm tra:
+
+a) Công bố Quyết định thành lập Đoàn kiểm tra;
+
+b) Kiểm tra theo quy định tại khoản 2 Điều này;
+
+c) Lập Biên bản kiểm tra và kết luận về chất lượng vũ khí trang bị;
+
+d) Xử lý vi phạm theo quy định tại Điều 25 Thông tư này.
+
+Điều 25. Xử lý vi phạm trong quá trình kiểm tra chất lượng vũ khí trang
+bị đang khai thác, sử dụng
+
+1. Trong quá trình kiểm tra khi phát hiện đơn vị không chấp hành và áp
+dụng các điều kiện bảo đảm chất lượng quy định tại Điều 23 Thông tư này
+thì Đoàn kiểm tra dừng ngay việc kiểm tra trong trường hợp có nguy cơ
+gây mất an toàn cho người, vũ khí trang bị; lập biên bản hoặc niêm phong
+vũ khí trang bị; yêu cầu chỉ huy đơn vị không tiếp tục khai thác, sử
+dụng và báo cáo với cấp có thẩm quyền xử lý theo quy định. Việc kiểm tra
+chỉ được tiếp tục sau khi đơn vị đã khắc phục triệt để nguy cơ mất an
+toàn và được Tổng Tham mưu trưởng chấp thuận.
+
+2. Vũ khí trang bị qua kiểm tra không đáp ứng yêu cầu về chất lượng, tùy
+theo mức độ, tính chất của vũ khí trang bị, Đoàn kiểm tra áp dụng các
+biện pháp sau:
+
+a) Yêu cầu chỉ huy đơn vị thực hiện các biện pháp khắc phục để bảo đảm,
+duy trì chất lượng vũ khí trang bị theo đúng tiêu chuẩn, quy chuẩn kỹ
+thuật tương ứng hoặc quy định khác của cấp có thẩm quyền;
+
+b) Sau khi có yêu cầu khắc phục mà đơn vị vẫn tiếp tục vi phạm thì báo
+cáo Cục trưởng Cục Tiêu chuẩn-Đo lường-Chất lượng trình cấp có thẩm
+quyền dừng việc khai thác, sử dụng để xử lý theo quy định.
+
+Chương VI
+
+KINH PHÍ BẢO ĐẢM
+
+Điều 26. Nguồn kinh phí bảo đảm
+
+1. Nguồn ngân sách nhà nước chi thường xuyên cho quốc phòng hằng năm
+được cấp có thẩm quyền phê duyệt;
+
+2. Nguồn kinh phí hợp pháp khác theo quy định của pháp luật.
+
+Điều 27. Nội dung bảo đảm
+
+1. Nghiên cứu, xây dựng quy trình thử nghiệm.
+
+2. Nguyên liệu, vật liệu, nhiên liệu, năng lượng, vật tư; mua sắm, thuê
+khoán công cụ, dụng cụ, thiết bị phục vụ thử nghiệm tính năng chiến-kỹ
+thuật.
+
+3. Nghiệp vụ hoạt động kiểm tra chất lượng: Họp khai mạc, kết luận; hội
+thảo về kết quả kiểm tra chất lượng vũ khí trang bị, sản phẩm, hàng quốc
+phòng; văn phòng phẩm và các nội dung khác có liên quan.
+
+Chương VII
+
+TRÁCH NHIỆM CỦA CÁC CƠ QUAN, ĐƠN VỊ
+
+Điều 28. Bộ Tổng Tham mưu
+
+1. Giúp Bộ trưởng Bộ Quốc phòng quản lý nhà nước về chất lượng đối với
+vũ khí trang bị, sản phẩm, hàng quốc phòng; định kỳ hằng năm báo cáo Bộ
+trưởng Bộ Quốc phòng về chất lượng vũ khí trang bị, sản phẩm, hàng quốc
+phòng trong toàn quân.
+
+2. Chỉ đạo Cục Tiêu chuẩn-Đo lường-Chất lượng:
+
+a) Tham mưu với Tổng Tham mưu trưởng thực hiện chức năng quản lý nhà
+nước về chất lượng đối với vũ khí trang bị, sản phẩm, hàng quốc phòng
+theo đúng quy định của Nhà nước và Bộ Quốc phòng.
+
+b) Chủ trì, phối hợp với các cơ quan, đơn vị xây dựng kế hoạch kiểm tra
+chất lượng vũ khí trang bị, sản phẩm, hàng quốc phòng hằng năm trình cấp
+có thẩm quyền phê duyệt.
+
+c) Ra quyết định thành lập đoàn kiểm tra chất lượng; tổ chức thực hiện
+việc kiểm tra chất lượng.
+
+d) Chỉ đạo, hướng dẫn nghiệp vụ cho các cơ quan, đơn vị được kiểm tra
+chất lượng.
+
+đ) Quản lý và duy trì năng lực các cơ sở Đo lường-Chất lượng phục vụ
+nhiệm vụ kiểm tra chất lượng.
+
+e) Huấn luyện, bồi dưỡng nghiệp vụ cho đội ngũ cán bộ làm công tác quản
+lý, kiểm tra chất lượng.
+
+g) Thông báo bằng văn bản và thu hồi thẻ kiểm soát viên chất lượng trong
+trường hợp kiểm soát viên chất lượng chuyển công tác hoặc không hoàn
+thành nhiệm vụ quy định tại điểm a khoản 2 Điều 8 Thông tư này.
+
+h) Lập dự toán kinh phí nghiệp vụ cho hoạt động kiểm tra chất lượng đối
+với vũ khí trang bị, sản phẩm, hàng quốc phòng theo quy định tại Điều 26
+Thông tư này;
+
+i) Hằng năm tổng hợp kết quả công tác quản lý chất lượng vũ khí trang
+bị, sản phẩm, hàng quốc phòng, trình Tổng Tham mưu trưởng báo cáo Bộ
+trưởng Bộ Quốc phòng.
+
+3. Chỉ đạo Cục Quân lực: Đề xuất đối tượng kiểm tra; phối hợp, tham gia
+kiểm tra chất lượng đối với vũ khí trang bị, sản phẩm, hàng quốc phòng.
+
+Điều 29. Các đơn vị trực thuộc Bộ Quốc phòng
+
+1. Chấp hành nghiêm các quy định về quản lý chất lượng đối với vũ khí
+trang bị, sản phẩm, hàng quốc phòng theo đúng quy định của Nhà nước và
+Bộ Quốc phòng.
+
+2. Chịu trách nhiệm trước Bộ trưởng Bộ Quốc phòng về chất lượng vũ khí
+trang bị, sản phẩm, hàng quốc phòng được giao sản xuất, sửa chữa; mua
+trong nước, nhập khẩu; xuất khẩu và khai thác, sử dụng.
+
+3. Chỉ đạo các cơ quan, đơn vị thuộc quyền thực hiện đánh giá sự phù hợp
+đối với vũ khí trang bị, sản phẩm, hàng quốc phòng.
+
+4. Xây dựng và duy trì áp dụng hệ thống quản lý chất lượng nhằm bảo đảm
+chất lượng sản phẩm quốc phòng sản xuất, sửa chữa phù hợp với tiêu chuẩn
+công bố áp dụng, quy chuẩn kỹ thuật tương ứng. Tuân thủ các điều kiện
+bảo đảm chất lượng đối với vũ khí trang bị, sản phẩm, hàng quốc phòng.
+
+5. Phối hợp với cơ quan chức năng thực hiện kiểm tra chất lượng đối với
+vũ khí trang bị, sản phẩm, hàng quốc phòng.
+
+6. Hằng năm tổng hợp, báo cáo Tổng Tham mưu trưởng (qua Cục Tiêu
+chuẩn-Đo lường-Chất lượng) về kết quả công tác quản lý chất lượng vũ khí
+trang bị, sản phẩm, hàng quốc phòng theo quy định.
+
+Điều 30. Cục Tài chính
+
+Chủ trì, phối hợp với Cục Tiêu chuẩn-Đo lường-Chất lượng bảo đảm ngân
+sách cho hoạt động kiểm tra chất lượng hằng năm; chỉ đạo, hướng dẫn các
+đơn vị đề xuất ngân sách phục vụ kiểm tra chất lượng vũ khí trang bị,
+sản phẩm, hàng quốc phòng.
+
+Điều 31. Các cơ quan, đơn vị sản xuất, mua trong nước, nhập khẩu, xuất
+khẩu và khai thác, sử dụng
+
+1. Chấp hành nghiêm các quy định về bảo đảm chất lượng vũ khí trang bị,
+sản phẩm, hàng quốc phòng của Nhà nước và Bộ Quốc phòng.
+
+2. Áp dụng các biện pháp để kiểm soát, quản lý chất lượng đối với vũ khí
+trang bị, sản phẩm, hàng quốc phòng.
+
+3. Chấp hành việc kiểm tra chất lượng đối với vũ khí trang bị, sản phẩm,
+hàng quốc phòng.
+
+4. Cung cấp đầy đủ hồ sơ, tài liệu; thông tin chính xác về chất lượng vũ
+khí trang bị, sản phẩm, hàng quốc phòng cho cơ quan kiểm tra chất lượng.
+
+Điều 32. Cơ quan quản lý trực tiếp đầu mối ngành Tiêu chuẩn-Đo
+lường-Chất lượng
+
+1. Tham mưu, đề xuất các quy định, giải pháp quản lý chất lượng vũ khí
+trang bị, sản phẩm, hàng quốc phòng phù hợp với các quy định hiện hành
+và tình hình thực tế của đơn vị.
+
+2. Hướng dẫn và chỉ đạo các đơn vị thực hiện các văn bản quy phạm pháp
+luật, các tiêu chuẩn, quy chuẩn kỹ thuật tương ứng, tài liệu có liên
+quan phục vụ quản lý chất lượng đối với vũ khí trang bị, sản phẩm, hàng
+quốc phòng.
+
+3. Phối hợp xác định chủng loại vũ khí trang bị, sản phẩm, hàng quốc
+phòng kiểm tra hằng năm.
+
+4. Chỉ đạo cơ quan, đơn vị liên quan tổng hợp, chuẩn bị hồ sơ, tài liệu
+và tham gia kiểm tra chất lượng đối với vũ khí trang bị, sản phẩm, hàng
+quốc phòng.
+
+5. Hằng năm giúp người chỉ huy tổng hợp, báo cáo kết quả công tác quản
+lý chất lượng vũ khí trang bị, sản phẩm, hàng quốc phòng theo quy định.
+
+6. Chỉ đạo Cơ quan đầu mối ngành Tiêu chuẩn-Đo lường-Chất lượng: Tham
+mưu, hướng dẫn, triển khai thực hiện việc duy trì các điều kiện bảo đảm
+chất lượng vũ khí trang bị, sản phẩm, hàng quốc phòng theo quy định.
+
+Chương VIII
+
+ĐIỀU KHOẢN THI HÀNH
+
+Điều 33. Hiệu lực thi hành
+
+1. Thông tư này có hiệu lực thi hành kể từ ngày 21 tháng 7 năm 2026.
+
+2. Thông tư số 153/2019/TT-BQP ngày 08 tháng 10 năm 2019 của Bộ trưởng
+Bộ Quốc phòng quy định kiểm tra nhà nước về chất lượng vũ khí trang bị,
+sản phẩm, hàng quốc phòng hết hiệu lực kể từ ngày Thông tư này có hiệu
+lực thi hành.
+
+3. Trường hợp văn bản viện dẫn trong Thông tư này được sửa đổi, bổ sung
+hoặc thay thế thì áp dụng theo văn bản sửa đổi, bổ sung hoặc thay thế.
+
+Điều 34. Quy định chuyển tiếp
+
+Các kế hoạch kiểm tra chất lượng đối với vũ khí trang bị, sản phẩm, hàng
+quốc phòng đã ban hành trước thời điểm Thông tư này có hiệu lực thì việc
+triển khai kiểm tra chất lượng thực hiện theo quy định tại Thông tư số
+153/2019/TT-BQP ngày 08 tháng 10 năm 2019 của Bộ trưởng Bộ Quốc phòng
+quy định kiểm tra nhà nước về chất lượng vũ khí trang bị, sản phẩm, hàng
+quốc phòng.
+
+Điều 35. Trách nhiệm thi hành
+
+1. Tổng Tham mưu trưởng, chỉ huy các cơ quan, đơn vị, tổ chức và cá nhân
+có liên quan chịu trách nhiệm thi hành Thông tư này.
+
+2. Trong quá trình thực hiện, nếu có vướng mắc, các cơ quan, đơn vị kịp
+thời phản ánh về Bộ Tổng Tham mưu (qua Cục Tiêu chuẩn-Đo lường-Chất
+lượng) để tổng hợp, báo cáo Bộ trưởng Bộ Quốc phòng xem xét, quyết
+định./.
+
+  ----------------------------------- -----------------------------------
+  Nơi nhận:                           KT. BỘ TRƯỞNG
+  - Bộ trưởng BQP (để báo cáo);       THỨ TRƯỞNG
+  - Bộ Khoa học và Công nghệ;         Thượng tướng Nguyễn Văn Hiền
+  - Các T² BQP, Chủ nhiệm TCCT;       
+  - Các cơ quan, đơn vị trực thuộc    
+  BQP;                                
+  - Cục TC-ĐL-CL/BTTM;                
+  - Cục Pháp chế/BQP;                 
+  - Ban Cơ yếu Chính phủ;             
+  - Cổng TTĐT BQP (để đăng tải);      
+  - Lưu: VT, THBĐ.                    
+
+  ----------------------------------- -----------------------------------
+
+PHỤ LỤC I
+
+MẪU THẺ KIỂM SOÁT VIÊN CHẤT LƯỢNG
+(Ban hành kèm theo Thông tư số 54/2026/TT-BQP ngày 05 tháng 6 năm 2026
+của Bộ trưởng Bộ Quốc phòng)
+
+1. Thẻ kiểm soát viên chất lượng bằng nhựa, in màu hai mặt có kích thước
+(54 x 86) mm.
+
+2. Nội dung thẻ kiểm soát viên chất lượng
+
+a) Mặt trước: Ảnh của kiểm soát viên chất lượng và chữ in màu xanh lá
+cây.
+
+b) Mặt sau: Quy định sử dụng và mã vạch 2 chiều theo chuẩn QR chứa thông
+tin về kiểm soát viên. Chữ in và mã QR có màu đen.
+
+c) Hình nền: Là nền sóng sin cách điệu.
+
+d) Thông tin trong mã vạch 2 chiều gồm: Họ tên, đơn vị, mã số, số, ngày
+tháng năm ban hành quyết định chứng nhận kiểm soát viên chất lượng.
+
+[]
+
+PHỤ LỤC II
+
+MẪU QUYẾT ĐỊNH THÀNH LẬP ĐOÀN KIỂM TRA
+(Ban hành kèm theo Thông tư số 54/2026/TT-BQP ngày 05 tháng 6 năm 2026
+của Bộ trưởng Bộ Quốc phòng)
+
+  ------------------------- ---------------------------------------------
+  BỘ TỔNG THAM MƯU          CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  CỤC TIÊU CHUẨN            Độc lập - Tự do - Hạnh phúc
+  ĐO LƯỜNG-CHẤT LƯỢNG       ---------------
+  -------                   
+
+  Số: …./….                 Hà Nội, ngày tháng năm
+  ------------------------- ---------------------------------------------
+
+QUYẾT ĐỊNH
+
+Về việc thành lập Đoàn kiểm tra chất lượng (1) tại (2)
+
+CỤC TRƯỞNG CỤC TIÊU CHUẨN-ĐO LƯỜNG-CHẤT LƯỢNG
+
+Căn cứ pháp lý;
+
+Theo đề nghị của ....
+
+QUYẾT ĐỊNH:
+
+Điều 1. Thành lập Đoàn kiểm tra chất lượng ....
+
+(Danh sách đoàn kiểm tra)
+
+Điều 2. Cục Tiêu chuẩn-Đo lường-Chất lượng mời đại diện cơ quan, đơn vị
+sau tham gia Đoàn kiểm tra:
+
+Điều 3. Sử dụng năng lực cơ sở thử nghiệm:
+
+Điều 4. Nhiệm vụ của Đoàn kiểm tra:
+
+Điều 5. Trách nhiệm của các cơ quan, đơn vị
+
+1. Cơ sở thử nghiệm:
+
+2. Đơn vị được kiểm tra:
+
+Điều 6. Quyết định này có hiệu lực kể từ ngày ký và hết hiệu lực khi
+Đoàn kiểm tra hoàn thành nhiệm vụ. Đoàn kiểm tra được sử dụng con dấu
+của cơ quan, đơn vị trong quá trình thực hiện nhiệm vụ; tự giải thể sau
+khi hoàn thành nhiệm vụ.
+
+Trưởng đoàn kiểm tra, chỉ huy các cơ quan, đơn vị liên quan và các thành
+viên có tên tại Điều 1 chịu trách nhiệm thi hành Quyết định này./.
+
+  ----------------------------------- -----------------------------------
+  Nơi nhận:                           CỤC TRƯỞNG
+  -                                   (Chữ ký, đóng dấu/chữ ký số)
+  -                                   Cấp bậc, họ và tên
+
+  ----------------------------------- -----------------------------------
+
+(1) Tên chủng loại vũ khí trang bị, sản phẩm, hàng quốc phòng.
+
+(2) Tên đơn vị quản lý vũ khí trang bị, sản phẩm, hàng quốc phòng.
+
+PHỤ LỤC III
+
+MẪU KẾ HOẠCH KIỂM TRA CHẤT LƯỢNG
+(Ban hành kèm theo Thông tư số 54/2026/TT-BQP ngày 05 tháng 6 năm 2026
+của Bộ trưởng Bộ Quốc phòng)
+
+  ------------------------- ---------------------------------------------
+  CỤC TIÊU CHUẨN            CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  ĐO LƯỜNG-CHẤT LƯỢNG       Độc lập - Tự do - Hạnh phúc
+  ĐOÀN KIỂM TRA             ---------------
+  -------                   
+
+  Số: …./….                 Hà Nội, ngày tháng năm
+  ------------------------- ---------------------------------------------
+
+KẾ HOẠCH
+
+Kiểm tra chất lượng (1) tại (2)
+
+Căn cứ pháp lý
+
+I. MỤC ĐÍCH, YÊU CẦU
+
+1. Mục đích:
+
+2. Yêu cầu:
+
+II. ĐỐI TƯỢNG, NỘI DUNG, PHƯƠNG PHÁP KIỂM TRA
+
+1. Đối tượng kiểm tra:
+
+2. Nội dung kiểm tra:
+
+3. Phương pháp kiểm tra:
+
+III. THÀNH PHẦN
+
+1. Đoàn kiểm tra:
+
+2. Đại diện cơ quan, đơn vị có liên quan:
+
+3. Đại diện đơn vị được kiểm tra:
+
+IV. THỜI GIAN, ĐỊA ĐIỂM
+
+1. Thời gian:
+
+2. Địa điểm:
+
+V. TỔ CHỨC THỰC HIỆN
+
+1. Nhiệm vụ của Đoàn kiểm tra:
+
+2. Trách nhiệm các cơ quan, đơn vị:
+
+a) Cơ sở thử nghiệm:
+
+b) Đơn vị được kiểm tra:
+
+VI. CÔNG TÁC BẢO ĐẢM
+
+  ------------------------------ ----------------------------------------
+  Nơi nhận:                      TM. ĐOÀN KIỂM TRA
+  -                              TRƯỞNG ĐOÀN
+  -                              (Chữ ký, đóng dấu/chữ ký số)
+                                 QUYỀN HẠN, CHỨC VỤ CỦA NGƯỜI KÝ
+                                 Cấp bậc, họ và tên
+
+  ------------------------------ ----------------------------------------
+
+(1) Tên chủng loại vũ khí trang bị, sản phẩm, hàng quốc phòng.
+
+(2) Tên đơn vị quản lý vũ khí trang bị, sản phẩm, hàng quốc phòng.
+
+PHỤ LỤC IV
+
+MẪU QUY TRÌNH THỬ NGHIỆM
+(Ban hành kèm theo Thông tư số 54/2026/TT-BQP ngày 05 tháng 6 năm 2026
+của Bộ trưởng Bộ Quốc phòng)
+
+  ---------------------------- ------------------------------------------
+  TÊN CƠ QUAN CHỦ QUẢN         CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  TÊN CƠ QUAN, ĐƠN VỊ          Độc lập - Tự do - Hạnh phúc
+  BAN HÀNH VĂN BẢN             ---------------
+  -------                      
+
+  Số: …./….                    Địa danh, ngày tháng năm
+  ---------------------------- ------------------------------------------
+
+QUY TRÌNH
+
+Thử nghiệm tính năng chiến - kỹ thuật cơ bản của (1) tại (2)
+
+Năm...
+
+(1) Tên chủng loại vũ khí trang bị, sản phẩm, hàng quốc phòng.
+
+(2) Tên đơn vị quản lý vũ khí trang bị, sản phẩm, hàng quốc phòng.
+
+I. PHẠM VI ÁP DỤNG
+
+Quy trình này dùng để kiểm tra chất lượng đối với ...
+
+…
+
+II. CĂN CỨ PHÁP LÝ
+
+1. Thông tư số .../2026/TT-BQP ngày .../.../2026 của Bộ trưởng Bộ Quốc
+phòng quy định kiểm tra chất lượng vũ khí trang bị, sản phẩm, hàng quốc
+phòng;
+
+2. Quyết định số ... về việc thành lập đoàn kiểm tra...
+
+3. Kế hoạch số .../KH-TĐC ngày ...
+
+….
+
+III. CƠ SỞ THỬ NGHIỆM
+
+IV. THÀNH PHẦN THAM GIA
+
+1. Đoàn kiểm tra:
+
+2. Đại diện cơ quan, đơn vị có liên quan:
+
+3. Đại diện đơn vị được kiểm tra:
+
+…
+
+V. QUY ĐỊNH CHUNG
+
+…
+
+VI. DANH MỤC CÁC TRANG BỊ SỬ DỤNG KIỂM TRA, THỬ NGHIỆM
+
+…
+
+VII. NỘI DUNG THỬ NGHIỆM
+
+  ---- ------------ ---------- ------------------ --------------- ---------
+  TT   Tên thiết bị Số lượng   Chỉ tiêu kỹ thuật  Phương pháp     Ghi chú
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+  ---- ------------ ---------- ------------------ --------------- ---------
+
+VIII. XỬ LÝ KẾT QUẢ
+
+…
+
+  ----------------------------------- -----------------------------------
+  Nơi nhận:                           QUYỀN HẠN, CHỨC VỤ CỦA NGƯỜI KÝ
+  -                                   (Chữ ký, đóng dấu/chữ ký số)
+  -                                   Cấp bậc, họ và tên
+
+  ----------------------------------- -----------------------------------
+
+PHỤ LỤC V
+
+MẪU QUYẾT ĐỊNH PHÊ DUYỆT QUY TRÌNH THỬ NGHIỆM
+(Ban hành kèm theo Thông tư số 54/2026/TT-BQP ngày 05 tháng 6 năm 2026
+của Bộ trưởng Bộ Quốc phòng)
+
+  ------------------------- ---------------------------------------------
+  CỤC TIÊU CHUẨN            CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  ĐO LƯỜNG-CHẤT LƯỢNG       Độc lập - Tự do - Hạnh phúc
+  ĐOÀN KIỂM TRA             ---------------
+  -------                   
+
+  Số: …./….                 Địa danh, ngày tháng năm
+  ------------------------- ---------------------------------------------
+
+QUYẾT ĐỊNH
+
+Phê duyệt Quy trình thử nghiệm tính năng chiến-kỹ thuật cơ bản của (1)
+tại (2)
+
+TRƯỞNG ĐOÀN KIỂM TRA
+
+Căn cứ pháp lý;
+
+Căn cứ Quyết định số ...
+
+Căn cứ Kế hoạch số...
+
+Theo đề nghị của...
+
+QUYẾT ĐỊNH:
+
+Điều 1. Phê duyệt Quy trình số …/… ngày …./…./….. của (3) về việc (4).
+
+Điều 2. Quyết định này có hiệu lực kể từ ngày ký. Đoàn kiểm tra, chỉ huy
+các cơ quan, đơn vị và cá nhân có liên quan chịu trách nhiệm thi hành
+Quyết định này./.
+
+  ----------------------------- -----------------------------------------
+  Nơi nhận:                     TM. ĐOÀN KIỂM TRA
+  -                             TRƯỞNG ĐOÀN
+  -                             (Chữ ký, đóng dấu/chữ ký số)
+                                QUYỀN HẠN, CHỨC VỤ CỦA NGƯỜI KÝ
+                                Cấp bậc, họ và tên
+
+  ----------------------------- -----------------------------------------
+
+(1) Tên chủng loại vũ khí trang bị, sản phẩm, hàng quốc phòng; (2) Tên
+đơn vị quản lý vũ khí trang bị, sản phẩm, hàng quốc phòng, (3) Tên đơn
+vị xây dựng quy trình thử nghiệm; (4) Tên quy trình
+
+PHỤ LỤC VI
+
+MẪU THÔNG BÁO KẾT QUẢ KIỂM TRA CHẤT LƯỢNG
+(Ban hành kèm theo Thông tư số 54/2026/TT-BQP ngày 05 tháng 6 năm 2026
+của Bộ trưởng Bộ Quốc phòng)
+
+  ------------------------- ---------------------------------------------
+  BỘ TỔNG THAM MƯU          CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  CỤC TIÊU CHUẨN            Độc lập - Tự do - Hạnh phúc
+  ĐO LƯỜNG-CHẤT LƯỢNG       ---------------
+  -------                   
+
+  Số: …./….                 Hà Nội, ngày tháng năm
+  ------------------------- ---------------------------------------------
+
+THÔNG BÁO
+
+Kết quả kiểm tra chất lượng (1) tại (2)
+
+Căn cứ pháp lý
+
+Cục Tiêu chuẩn-Đo lường-Chất lượng thông báo kết quả kiểm tra chất lượng
+(1) tại (2) như sau:
+
+I. THÀNH PHẦN
+
+1. Đoàn kiểm tra:
+
+2. Đại diện cơ quan, đơn vị có liên quan:
+
+3. Đại diện đơn vị được kiểm tra:
+
+…
+
+II. ĐỐI TƯỢNG, NỘI DUNG, PHƯƠNG PHÁP KIỂM TRA
+
+1. Đối tượng kiểm tra:
+
+2. Nội dung kiểm tra:
+
+3. Phương pháp kiểm tra
+
+III. THỜI GIAN, ĐỊA ĐIỂM
+
+1. Thời gian:
+
+2. Địa điểm:
+
+IV. KẾT QUẢ KIỂM TRA
+
+V. KẾT LUẬN
+
+VI. KIẾN NGHỊ
+
+  ----------------------------------- -----------------------------------
+  Nơi nhận:                           CỤC TRƯỞNG
+  -                                   (Chữ ký, đóng dấu/chữ ký số)
+  -                                   Cấp bậc, họ và tên
+
+  ----------------------------------- -----------------------------------
+
+(1) Tên chủng loại vũ khí trang bị, sản phẩm, hàng quốc phòng; (2) Tên
+đơn vị quản lý vũ khí trang bị, sản phẩm, hàng quốc phòng.
+
+PHỤ LỤC VII
+
+MẪU BÁO CÁO CHẤT LƯỢNG ĐỐI VỚI SẢN PHẨM QUỐC PHÒNG TRONG SẢN XUẤT, SỬA
+CHỮA
+(Ban hành kèm theo Thông tư số 54/2026/TT-BQP ngày 05 tháng 6 năm 2026
+của Bộ trưởng Bộ Quốc phòng)
+
+  ------------------------- ---------------------------------------------
+  TÊN CƠ QUAN CHỦ QUẢN      CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  TÊN CƠ QUAN, ĐƠN VỊ       Độc lập - Tự do - Hạnh phúc
+  BAN HÀNH VĂN BẢN          ---------------
+  -------                   
+
+  Số: …./….                 Địa danh, ngày tháng năm
+  ------------------------- ---------------------------------------------
+
+BÁO CÁO
+
+Chất lượng sản phẩm quốc phòng và việc chấp hành quy định về bảo đảm
+chất lượng tại (1) năm...
+
+Kính gửi: Cục Tiêu chuẩn-Đo lường-Chất lượng/BTTM.
+
+1. Đơn vị : ………………………………………………………………………………………
+
+2. Địa chỉ: ………………………………………………………………………………………
+
+3. Số điện thoại liên hệ: ………………………………………………………………………
+
+4. Nội dung báo cáo:
+
+- Việc phổ biến, quán triệt và áp dụng các quy định trong công tác quản
+lý chất lượng sản phẩm quốc phòng sản xuất, sửa chữa;
+
+- Các kế hoạch sản xuất, sửa chữa; quyết định phê duyệt tính năng
+chiến-kỹ thuật, tài liệu kỹ thuật của sản phẩm quốc phòng sản xuất, sửa
+chữa...
+
+(Danh mục tài liệu, văn bản theo Phụ lục I);
+
+- Số lượng, chủng loại, đồng bộ, chất lượng sản phẩm quốc phòng sản
+xuất, sửa chữa năm...
+
+(Thống kê sản phẩm quốc phòng sản xuất, sửa chữa và các trang bị công
+nghệ, trang bị Đo lường-Thử nghiệm theo Phụ lục II);
+
+- Việc duy trì các điều kiện bảo đảm chất lượng tại đơn vị theo quy
+định; kết quả đánh giá sự phù hợp của cấp có thẩm quyền.
+
+5. Đánh giá chung:
+
+6. Kiến nghị của đơn vị.
+
+  ------------------------------- ---------------------------------------
+  Nơi nhận:                       QUYỀN HẠN, CHỨC VỤ CỦA NGƯỜI KÝ
+  -                               (Chữ ký, đóng dấu/chữ ký số)
+  -                               Cấp bậc, họ và tên
+
+  ------------------------------- ---------------------------------------
+
+(1) Tên đơn vị
+
+Phụ lục I
+
+THỐNG KÊ HỒ SƠ TÀI LIỆU
+
+(Kèm theo Báo cáo số ngày tháng năm của )
+
+  ------- --------------------------- ------------- ---------- -----------
+  TT      Tên văn bản/tài liệu        Ngày tháng    Cấp ban    Đơn vị quản
+                                      năm ban hành  hành       lý
+
+  1       Các quy định, hướng dẫn của                          
+          các cấp về công tác quản lý                          
+          chất lượng; kế hoạch sản                             
+          xuất, sửa chữa của đơn vị.                           
+
+  -       …                                                    
+
+  2       Các quyết định phê duyệt kế                          
+          hoạch, quyết định phê duyệt                          
+          tính năng chiến-kỹ thuật;                            
+          tài liệu kỹ thuật.                                   
+
+  -       …                                                    
+
+  3       Tài liệu dùng cho bảo đảm                            
+          chất lượng sản phẩm quốc                             
+          phòng sản xuất, sửa chữa và                          
+          các tài liệu khác.                                   
+
+  -       …                                                    
+  ------- --------------------------- ------------- ---------- -----------
+
+Phụ lục II
+
+THỐNG KÊ SỐ LƯỢNG, CHẤT LƯỢNG SẢN PHẨM QUỐC PHÒNG VÀ CÁC TRANG BỊ CÔNG
+NGHỆ, TRANG BỊ ĐO LƯỜNG - THỬ NGHIỆM
+(Kèm theo Báo cáo số ngày tháng năm của )
+
+1. Sản phẩm quốc phòng sản xuất, sửa chữa
+
+  ------- --------- -------- -------- --------- --------- --------- --------
+  TT      Tên sản   Đơn vị   Số lượng Cấp chất  Thời gian Tiêu      Tài liệu
+          phẩm quốc tính              lượng     sản xuất, chuẩn,    phân cấp
+          phòng                                 sửa chữa  quy chuẩn chất
+                                                          kỹ thuật  lượng
+                                                          áp dụng   
+
+                                                                    
+  ------- --------- -------- -------- --------- --------- --------- --------
+
+2. Trang bị công nghệ
+
+  ------- ---------- -------- --------- ------------ ----------- ----------
+  TT      Tên trang  Ký hiệu  Năm sản   Cấp chất     Sử dụng cho Tài liệu
+          bị công             xuất      lượng/tình   đối tượng/  phân cấp
+          nghệ                          trạng kỹ     lĩnh vực    chất lượng
+                                        thuật                    
+
+                                                                 
+  ------- ---------- -------- --------- ------------ ----------- ----------
+
+3. Trang bị Đo lường-Thử nghiệm
+
+  ------- ---------- -------- ---------- ---------- ------------ -----------
+  TT      Tên trang  Ký hiệu  Năm sản    Cấp chất   Kiểm         
+          bị ĐL-TN            xuất       lượng      định/hiệu    
+                                                    chuẩn/kiểm   
+                                                    tra kỹ thuật 
+                                                    đo lường lần 
+                                                    cuối         
+
+                                                    Thời gian    Nơi thực
+                                                                 hiện
+
+                                                                 
+  ------- ---------- -------- ---------- ---------- ------------ -----------
+
+PHỤ LỤC VIII
+
+MẪU BÁO CÁO CHẤT LƯỢNG ĐỐI VỚI HÀNG QUỐC PHÒNG MUA TRONG NƯỚC, NHẬP KHẨU
+(Ban hành kèm theo Thông tư số 54/2026/TT-BQP ngày 05 tháng 6 năm 2026
+của Bộ trưởng Bộ Quốc phòng)
+
+  ------------------------- ---------------------------------------------
+  TÊN CƠ QUAN CHỦ QUẢN      CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  TÊN CƠ QUAN, ĐƠN VỊ       Độc lập - Tự do - Hạnh phúc
+  BAN HÀNH VĂN BẢN          ---------------
+  -------                   
+
+  Số: …./….                 Địa danh, ngày tháng năm
+  ------------------------- ---------------------------------------------
+
+BÁO CÁO
+
+Chất lượng hàng quốc phòng thuộc (1) mua trong nước, nhập khẩu
+
+Kính gửi: Cục Tiêu chuẩn-Đo lường-Chất lượng/BTTM.
+
+1. Đơn vị : ………………………………………………………………………………………
+
+2. Địa chỉ: ………………………………………………………………………………………
+
+3. Số điện thoại liên hệ: ………………………………………………………………………
+
+4. Nội dung báo cáo:
+
+- Việc phổ biến, thực hiện các quyết định mua sắm, phê duyệt tính năng
+chiến kỹ thuật, tiêu chuẩn kỹ thuật, tài liệu kỹ thuật...
+
+(Danh mục tài liệu, văn bản theo Phụ lục I);
+
+- Chủng loại; ký mã hiệu; số lượng; đồng bộ; hãng sản xuất; nguồn gốc
+xuất xứ; năm sản xuất; năm sử dụng.
+
+- Kết quả đánh giá sự phù hợp, nghiệm thu.
+
+(Thống kê hồ sơ tài liệu theo Phụ lục I, danh mục hàng quốc phòng mua
+trong nước, nhập khẩu theo Phụ lục II).
+
+5. Đánh giá chung
+
+6. Kiến nghị của đơn vị./.
+
+  ----------------------------- -----------------------------------------
+  Nơi nhận:                     QUYỀN HẠN, CHỨC VỤ CỦA NGƯỜI KÝ
+  -                             (Chữ ký, đóng dấu/chữ ký số)
+  -                             Cấp bậc, họ và tên
+
+  ----------------------------- -----------------------------------------
+
+(1) Hợp đồng số....ngày...tháng... năm
+
+Phụ lục I
+
+THỐNG KÊ HỒ SƠ TÀI LIỆU
+
+(Kèm theo Báo cáo số ngày tháng năm của )
+
+  ------- --------------------------------- -------------- --------------
+  TT      Tên văn bản/tài liệu              Ngày ban hành  Đơn vị quản lý
+
+  1       Các văn bản pháp lý phục vụ mua                  
+          trong nước, nhập khẩu                            
+
+  2       Quyết định phê duyệt tính năng                   
+          chiến kỹ thuật                                   
+
+  ...     ....                                             
+  ------- --------------------------------- -------------- --------------
+
+Phụ lục II
+
+THỐNG KÊ HÀNG QUỐC PHÒNG MUA TRONG NƯỚC, NHẬP KHẨU
+
+(Kèm theo Báo cáo số ngày tháng năm của )
+
+  ------- ------------------------ --------- ---------- -------------------
+  TT      Chủng loại; ký mã hiệu;  ĐVT       Số lượng   Kết quả đánh giá sự
+          hãng sản xuất; năm sản                        phù hợp, nghiệm thu
+          xuất                                          
+
+                                                        
+
+                                                        
+  ------- ------------------------ --------- ---------- -------------------
+
+PHỤ LỤC IX
+
+MẪU BÁO CÁO CHẤT LƯỢNG ĐỐI VỚI VKTB ĐANG KHAI THÁC, SỬ DỤNG TẠI ĐƠN VỊ
+(Ban hành kèm theo Thông tư số 54/2026/TT-BQP ngày 05 tháng 6 năm 2026
+của Bộ trưởng Bộ Quốc phòng)
+
+  ------------------------- ---------------------------------------------
+  TÊN CƠ QUAN CHỦ QUẢN      CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  TÊN CƠ QUAN, ĐƠN VỊ       Độc lập - Tự do - Hạnh phúc
+  BAN HÀNH VĂN BẢN          ---------------
+  -------                   
+
+  Số: …./….                 Địa danh, ngày tháng năm
+  ------------------------- ---------------------------------------------
+
+BÁO CÁO
+
+Chất lượng vũ khí trang bị và việc chấp hành quy định về quản lý chất
+lượng vũ khí trang bị đang khai thác, sử dụng tại đơn vị
+
+Kính gửi: Cục Tiêu chuẩn-Đo lường-Chất lượng/BTTM.
+
+1. Đơn vị : ………………………………………………………………………………………
+
+2. Địa chỉ: ………………………………………………………………………………………
+
+3. Số điện thoại liên hệ: ………………………………………………………………………
+
+4. Nội dung báo cáo:
+
+- Công tác phổ biến, quán triệt các quy định trong quản lý; khai thác,
+sử dụng vũ khí trang bị;
+
+- Việc áp dụng các biện pháp nhằm bảo đảm, duy trì chất lượng vũ khí
+trang bị phù hợp với yêu cầu kỹ thuật theo tiêu chuẩn, quy chuẩn kỹ
+thuật tương ứng hoặc quy định khác của cấp có thẩm quyền đối với từng
+loại vũ khí trang bị.
+
+(Danh mục tài liệu, văn bản theo Phụ lục I);
+
+- Số lượng, chủng loại, đồng bộ, cấp chất lượng và hiệu quả sử dụng vũ
+khí trang bị đang khai thác, sử dụng tại đơn vị.
+
+(Thống kê VKTB đang khai thác, sử dụng và các trang bị bảo đảm kỹ thuật,
+trang bị Đo lường-Thử nghiệm theo Phụ lục II);
+
+5. Đánh giá chung
+
+6. Kiến nghị của đơn vị./.
+
+  ------------------------------ ----------------------------------------
+  Nơi nhận:                      QUYỀN HẠN, CHỨC VỤ CỦA NGƯỜI KÝ
+  -                              (Chữ ký, đóng dấu/chữ ký số)
+  -                              Cấp bậc, họ và tên
+
+  ------------------------------ ----------------------------------------
+
+Phụ lục I
+
+THỐNG KÊ HỒ SƠ TÀI LIỆU
+
+(Kèm theo Báo cáo số ngày tháng năm của )
+
+  ------- ------------------------------ --------- ----------- -----------
+  TT      Tên văn bản/tài liệu           Số lượng  Mục đích sử Đơn vị quản
+                                                   dụng        lý
+
+  1       Các quy định trong quản lý;                          
+          khai thác, sử dụng vũ khí                            
+          trang bị.                                            
+
+  -       …                                                    
+
+  2       Các văn bản về quản lý chất                          
+          lượng vũ khí trang bị do đơn                         
+          vị ban hành.                                         
+
+  -       …                                                    
+
+  3       Tài liệu dùng cho bảo đảm chất                       
+          lượng vũ khí trang bị (tiêu                          
+          chuẩn áp dụng, các tài liệu                          
+          khai thác sử dụng, huấn luyện                        
+          và các tài liệu khác).                               
+
+  -       ...                                                  
+  ------- ------------------------------ --------- ----------- -----------
+
+Phụ lục II
+
+THỐNG KÊ SỐ LƯỢNG, CHẤT LƯỢNG VŨ KHÍ TRANG BỊ VÀ CÁC TRANG BỊ BĐKT,
+TRANG BỊ ĐO LƯỜNG-THỬ NGHIỆM
+(Kèm theo Báo cáo số ngày tháng năm của )
+
+1. VKTB đang khai thác sử dụng tại đơn vị
+
+  ------- --------- --------- --------- ---------- ----------- ------------
+  TT      Tên VKTB  Đơn vị    Số lượng  Cấp chất   Tình trạng  Tài liệu
+                    tính                lượng      đồng bộ     phân cấp
+                                                               chất lượng
+
+                                                               
+  ------- --------- --------- --------- ---------- ----------- ------------
+
+2. Trang bị bảo đảm kỹ thuật
+
+  ------- --------- -------- ---------- ------------- ----------- -----------
+  TT      Tên trang Ký hiệu  Năm sản    Cấp chất      Sử dụng cho Tài liệu
+          bị                 xuất       lượng/tình    đối tượng/  phân cấp
+                                        trạng kỹ      lĩnh vực    chất lượng
+                                        thuật                     
+
+                                                                  
+  ------- --------- -------- ---------- ------------- ----------- -----------
+
+3. Trang bị Đo lường-Thử nghiệm
+
+  ------- ---------- -------- ---------- ---------- ------------ -----------
+  TT      Tên trang  Ký hiệu  Năm sản    Cấp chất   Kiểm         
+          bị ĐL-TN            xuất       lượng      định/hiệu    
+                                                    chuẩn/kiểm   
+                                                    tra kỹ thuật 
+                                                    đo lường lần 
+                                                    cuối         
+
+                                                    Thời gian    Nơi thực
+                                                                 hiện
+
+                                                                 
+  ------- ---------- -------- ---------- ---------- ------------ -----------

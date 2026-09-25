@@ -4,12 +4,6 @@
 [Cơ quan] Chính phủ
 ------------------------------------------------------------
 
-[Số hiệu] 25/2026/NĐ-CP
-[Tiêu đề] Quy định chi tiết Luật Hóa chất về phát triển công nghiệp hóa chất và an toàn, an ninh hóa chất
-[Ngày ban hành] 2026-01-17
-[Cơ quan] Chính phủ
-------------------------------------------------------------
-
 CHÍNH PHỦ________Số: 25/2026/NĐ-CP | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc_______________________________________Hà Nội, ngày 17 tháng 01 năm 2026
 
 
@@ -646,4 +640,3 @@ Tiến sĩ
 9520320 | Kỹ thuật môi trường
 9720203 | Hoá dược
 9720208 | Hoá sinh dược
-

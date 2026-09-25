@@ -4,7 +4,7 @@ Bộ skill Claude cho nghiệp vụ hải quan của True Logistics.
 
 | Skill | Việc |
 |---|---|
-| [`Ecustoms`](skills/Ecustoms) | Tra cứu mã HS, Biểu thuế 2026, Chú giải Chương, GRI và văn bản pháp luật (CBPG, NĐ/TT, công văn). Nối được với kho Tra cứu HS của ILMSv2. |
+| [`Ecustoms`](skills/Ecustoms) | Tra cứu mã HS, Biểu thuế 2026, Chú giải Chương, GRI và văn bản pháp luật (CBPG, NĐ/TT, công văn). Chạy độc lập trên máy, đồng bộ dữ liệu với ILMSv2 bằng `dongbo`. |
 
 ## Cài một skill
 

@@ -4,12 +4,6 @@
 [Cơ quan] Chính phủ
 ------------------------------------------------------------
 
-[Số hiệu] 24/2026/NĐ-CP
-[Tiêu đề] Quy định các danh mục hóa chất thuộc phạm vi điều chỉnh của Luật Hóa chất
-[Ngày ban hành] 2026-01-17
-[Cơ quan] Chính phủ
-------------------------------------------------------------
-
 CHÍNH PHỦ__________Số: 24/2026/NĐ-CP | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc_______________________________________ Hà Nội, ngày 17 tháng 01 năm 2026
 
  
@@ -1502,4 +1496,3 @@ III | Nguy hại cho môi trường |
 IV | Nguy hại khác | 
 1. | Chất hoặc hợp chất gây nguy hiểm EUH014 | 100.000
 2. | Chất hoặc hợp chất gây nguy hiểm EUH029 | 50.000
-
