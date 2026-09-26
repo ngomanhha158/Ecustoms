@@ -16,15 +16,26 @@ Chạy từ thư mục của skill này (đường dẫn tuyệt đối tới `s
 
 ```bash
 python scripts/query_hs.py code <mã 8 số>       # tra 1 mã HS
-python scripts/query_hs.py search "<từ khóa>"   # tìm mã theo từ khóa (chỉ tham khảo)
+python scripts/query_hs.py search "<từ khóa>" [--chuong 72] [--n 30]  # tìm theo từ, không dấu, thứ tự tùy ý; xếp hạng, gom theo nhóm
 python scripts/query_hs.py chapter <số chương>  # Chú giải pháp lý theo Chương
 python scripts/query_hs.py heading <4 số>       # Chú giải chi tiết nhóm 4 số
 python scripts/query_hs.py gri [số quy tắc]     # toàn văn 6 quy tắc GRI
 python scripts/query_hs.py refs "<từ khóa>"     # tra văn bản pháp luật đã thêm (mọi danh mục)
 python scripts/query_hs.py refs "<từ khóa>" --category chinh_sach_phap_luat  # chỉ tra NĐ/TT
 python scripts/query_hs.py refs "<từ khóa>" --category cbpg_pvtm             # chỉ tra QĐ CBPG/PVTM
+python scripts/query_hs.py refs --nam 2026 --co-quan BCT   # liệt kê văn bản lọc theo năm/cơ quan, kèm nhãn ⚠ hiệu lực
+python scripts/query_hs.py hieuluc 13/2015/TT-BTC  # văn bản nào trong kho sửa đổi/thay thế/bãi bỏ văn bản này
+python scripts/query_hs.py hieuluc                 # mọi văn bản trong kho đã bị văn bản khác tác động
+python scripts/query_hs.py lo ds_ma.csv --fta acfta,evfta [--ra ket_qua.tsv]  # tra hàng loạt, xuất TSV dán Excel
 python scripts/query_hs.py case "<từ khóa>"     # tra tiền lệ/case đã tự ghi lại
 ```
+
+- `lo`: mỗi dòng `mã HS[, nước C/O, nhà SX, nhà XK, mác thép, tiêu chuẩn]` (tab/phẩy/chấm phẩy, dòng tiêu đề
+  tự bỏ). Có nước/NSX thì cột PVTM tính mức như lệnh `thue`; không có thì chỉ báo vụ đang áp. Kết quả TSV:
+  đưa người dùng trong khung ```tsv để dán vào ô A1.
+- `hieuluc` và nhãn ⚠ của `refs` là dò TỰ ĐỘNG theo câu chữ ("thay thế", "bãi bỏ", "sửa đổi, bổ sung") và thứ
+  bậc văn bản, chỉ trong kho trên máy. Luôn nói rõ là gợi ý; không thấy văn bản sửa đổi KHÔNG có nghĩa là còn
+  hiệu lực — trích dẫn làm căn cứ phải đối chiếu nguồn chính thức.
 
 Nếu dữ liệu Biểu thuế/Chú giải chưa được nhập, script sẽ báo rõ và
 hướng dẫn chạy `scripts/import_tariff.py` — không tự bịa số liệu khi

@@ -37,6 +37,7 @@ REFS = os.path.join(BASE, "references")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ilms_api  # noqa: E402  — CHỈ dùng khi đồng bộ (`dongbo`); tra cứu luôn đọc dữ liệu trên máy
 import pvtm_local as pl  # noqa: E402
+import hieu_luc as hl  # noqa: E402
 
 
 def _ma(c):
@@ -287,6 +288,90 @@ def cmd_vanban(ma):
                      "hoặc `query_hs.py refs <từ khóa>` để tìm.")
 
 
+# ---------------------------------------------------------------- tra hàng loạt
+# Mỗi dòng: mã HS [, nước C/O, nhà SX, nhà XK, mác thép, tiêu chuẩn] — phân cách tab, phẩy hoặc chấm phẩy.
+# Xuất TSV để dán vào ô A1 của Excel. Mã in dạng 7210.49.11 để Excel giữ nguyên số 0 đầu.
+COT_LO = ("code", "nuoc_co", "nha_sx", "nha_xk", "mac_thep", "tieu_chuan")
+
+
+def doc_lo(dong):
+    """[(so_dong, {code, nuoc_co, ...})] — bỏ dòng trống, dòng '#', và dòng tiêu đề (ô đầu không có số)."""
+    import csv
+    ra = []
+    dong = [d for d in dong if d.strip() and not d.lstrip().startswith("#")]
+    if not dong:
+        return ra
+    try:
+        kieu = csv.Sniffer().sniff(dong[0], delimiters="\t,;")
+    except csv.Error:
+        kieu = csv.excel_tab
+    for i, o in enumerate(csv.reader(dong, kieu), 1):
+        o = [x.strip() for x in o]
+        if i == 1 and not re.search(r"\d{4}", o[0]):
+            continue
+        ra.append((i, {k: (o[j] if j < len(o) and o[j] else None) for j, k in enumerate(COT_LO)}))
+    return ra
+
+
+def _o(v):
+    return re.sub(r"[\t\r\n]+", " ", str(v or "")).strip()
+
+
+def dong_lo(codes, kho, lo, fta):
+    """Một dòng kết quả (list ô) cho một lô."""
+    code = re.sub(r"\D", "", lo["code"] or "")
+    e = codes.get(code)
+    if len(code) != 8 or not e:
+        return [_o(lo["code"]), "KHÔNG CÓ MÃ 8 SỐ NÀY TRONG BIỂU THUẾ"] + [""] * (5 + len(fta))
+    o = [_ma(code), e.get("desc_vn", ""), e.get("unit", ""), e.get("thue_nk_thong_thuong", ""),
+         e.get("mfn", ""), e.get("vat", "")] + [e.get("fta", {}).get(f, "") for f in fta] + [e.get("chinh_sach", "")]
+    if kho is None:
+        o.append("chưa đồng bộ CBPG")
+    elif not pl.vu_theo_ma(kho, code, chi_dang_ap=True):
+        o.append("-")
+    elif not any(lo[k] for k in COT_LO[1:]):
+        o.append("ĐANG ÁP: " + "; ".join(f"{v['ma_vu_viec']} {v['so_hieu']}"
+                                          for v in pl.vu_theo_ma(kho, code, chi_dang_ap=True))
+                 + " — thêm nước/NSX/NXK để tính mức")
+    else:
+        try:
+            r = pl.tinh_cho_lo(kho, lo)
+            o.append("; ".join(f"{k['ma_vu_viec']}: " + (f"ÁP {_pt(k['muc_thue'])}" if k["ket_luan"] == "ap"
+                                                          else "không áp") for k in r["vu_viec"]))
+        except SystemExit as loi:
+            o.append(f"LỖI: {loi}")
+    return [_o(x) for x in o]
+
+
+def cmd_lo(tep, fta="", ra=None):
+    codes = load_json("hs_tree.json").get("codes", {})
+    if not codes:
+        raise SystemExit("Chưa có dữ liệu Biểu thuế — chạy scripts/import_tariff.py trước.")
+    if tep == "-":
+        dong = sys.stdin.read().splitlines()
+    else:
+        with open(tep, encoding="utf-8-sig", errors="replace") as fh:
+            dong = fh.read().splitlines()
+    fta = [f.strip().lower() for f in fta.split(",") if f.strip()]
+    try:
+        kho = pl.doc_kho()
+        cu = pl.canh_bao_cu(kho)
+        if cu:
+            print(cu, file=sys.stderr)
+    except pl.ChuaDongBo:
+        kho = None
+    dau = ["Mã HS", "Mô tả", "ĐVT", "NK thông thường", "MFN", "VAT"] + [f.upper() for f in fta] \
+        + ["Chính sách mặt hàng", "Phòng vệ thương mại"]
+    bang = [dau] + [dong_lo(codes, kho, lo, fta) for _i, lo in doc_lo(dong)]
+    tsv = "\n".join("\t".join(h) for h in bang) + "\n"
+    if ra:
+        with open(ra, "w", encoding="utf-8-sig", newline="") as fh:
+            fh.write(tsv)
+        print(f"Ghi {len(bang) - 1} dòng ra {ra}.")
+    else:
+        sys.stdout.write(tsv)
+
+
 def load_json(name):
     path = os.path.join(DATA, name)
     if not os.path.exists(path):
@@ -339,21 +424,57 @@ def cmd_code(code):
     _cbpg_cua_ma(code_n)
 
 
-def cmd_search(keyword):
-    tree = load_json("hs_tree.json")
-    codes = tree.get("codes", {})
-    kw = strip_accents(keyword)
-    results = []
-    for code, entry in codes.items():
-        text = strip_accents(entry.get("desc_vn", "") + " " + entry.get("desc_en", ""))
-        if kw in text:
-            results.append((code, entry))
-    if not results:
+# ---------------------------------------------------------------- tìm mã theo từ khóa
+# Khớp theo TỪ (không phân biệt dấu, thứ tự tùy ý): "thep hinh" khớp "Thép ... dạng hình".
+# Xếp hạng: đủ mọi từ > thiếu từ; cụm liền mạch; mã 8 số; mô tả ngắn (sát nghĩa hơn).
+def _tu(s):
+    return re.findall(r"[a-z0-9]+", strip_accents(s))
+
+
+def xep_hang(codes, keyword, chuong=None):
+    """[(diem, code, entry, du_tu)] đã xếp; du_tu=False là kết quả nới lỏng (thiếu từ)."""
+    tu = list(dict.fromkeys(_tu(keyword)))
+    if not tu:
+        return []
+    cum = " ".join(tu)
+    ra = []
+    for code, e in codes.items():
+        if chuong and not code.startswith(f"{int(chuong):02d}"):
+            continue
+        vn = " ".join(_tu(e.get("desc_vn", "")))
+        chu = set(vn.split()) | set(_tu(e.get("desc_en", "")))
+        khop = sum(1 for t in tu if t in chu or any(c.startswith(t) for c in chu if len(t) >= 3))
+        if not khop:
+            continue
+        diem = khop / len(tu) * 100 + (30 if cum in vn else 0) + (10 if len(code) == 8 else 0) \
+            - min(len(vn), 400) / 40
+        ra.append((diem, code, e, khop == len(tu)))
+    ra.sort(key=lambda r: (-r[0], r[1]))
+    du = [r for r in ra if r[3]]
+    # Có kết quả đủ từ thì bỏ kết quả thiếu; không có thì chỉ giữ kết quả khớp >= nửa số từ.
+    return du or [r for r in ra if r[0] >= 50 - 400 / 40]
+
+
+def cmd_search(keyword, chuong=None, n=20):
+    codes = load_json("hs_tree.json").get("codes", {})
+    kq = xep_hang(codes, keyword, chuong)
+    if not kq:
         print(f"Không tìm thấy kết quả cho '{keyword}'. (Chỉ là gợi ý từ khóa — luôn đọc Chú giải trước khi kết luận.)")
         return
-    print(f"Kết quả cho '{keyword}' (CHỈ LÀ GỢI Ý — luôn đọc Chú giải trước khi kết luận):")
-    for code, entry in results[:20]:
-        print(f"  {code}  MFN={entry.get('mfn','')}  {entry.get('desc_vn','')[:90]}")
+    if not kq[0][3]:
+        print(f"! Không mã nào chứa đủ các từ '{keyword}' — dưới đây là mã khớp MỘT PHẦN.")
+    print(f"Kết quả cho '{keyword}': {len(kq)} mã, hiện {min(n, len(kq))} (CHỈ LÀ GỢI Ý — luôn đọc Chú giải trước khi kết luận):")
+    nhom_da_in = set()
+    for _d, code, e, _du in kq[:n]:
+        nhom = code[:4]
+        if nhom not in nhom_da_in:
+            nhom_da_in.add(nhom)
+            print(f"— Nhóm {nhom}: {codes.get(nhom, {}).get('desc_vn', '')[:90]}")
+        if len(code) == 8:
+            print(f"    {_ma(code)}  MFN={e.get('mfn', '')}  {e.get('desc_vn', '')[:100]}")
+    chuong_ds = sorted({c[:2] for _d, c, _e, _du in kq})
+    if len(chuong_ds) > 1:
+        print(f"Các Chương có mã khớp: {', '.join(chuong_ds)} — lọc bằng --chuong <số>.")
 
 
 def cmd_chapter(num):
@@ -402,32 +523,96 @@ def find_ref_files(category=None):
     return sorted(result)
 
 
-def cmd_refs(keyword=None, category=None):
-    files = find_ref_files(category)
-    if not files:
-        print("Chưa có văn bản tham khảo nào (trong danh mục đã chọn). Dùng scripts/add_reference.py để thêm.")
+def kho_van_ban(category=None):
+    """Mọi văn bản trên máy kèm dòng đầu [Số hiệu]/[Ngày ban hành]/[Cơ quan] và quan hệ hiệu lực."""
+    ds = []
+    for rel, full in find_ref_files(category):
+        with open(full, "r", encoding="utf-8", errors="replace") as fh:
+            nd = fh.read()
+        m = _doc_dau(nd)
+        ds.append({"rel": rel, "noi_dung": nd, "so_hieu": m.get("Số hiệu", ""), "tieu_de": m.get("Tiêu đề", ""),
+                   "ngay": m.get("Ngày ban hành", ""), "co_quan": m.get("Cơ quan", "")})
+    return hl.lap_chi_muc(ds)
+
+
+def _loc(ds, nam=None, co_quan=None):
+    if nam:
+        ds = [v for v in ds if v["ngay"].startswith(str(nam)) or f"/{nam}/" in v["so_hieu"]]
+    if co_quan:
+        k = strip_accents(co_quan)
+        ds = [v for v in ds if k in strip_accents(v["co_quan"] + " " + v["so_hieu"])]
+    return ds
+
+
+def _dong_vb(v):
+    dau = f"{v['so_hieu'] or v['rel']} ({v['ngay'] or '—'}, {v['co_quan'] or '—'})"
+    tt = hl.tinh_trang(v)
+    return dau + (f" {tt}" if tt else "")
+
+
+def cmd_refs(keyword=None, category=None, nam=None, co_quan=None):
+    # quan hệ hiệu lực dò trên CẢ kho: văn bản thay thế có thể nằm ở danh mục khác
+    ds = [v for v in _loc(kho_van_ban(), nam, co_quan)
+          if not category or v["rel"].startswith(category + os.sep) or v["rel"].startswith(category + "/")]
+    if not ds:
+        print("Chưa có văn bản tham khảo nào (trong danh mục/bộ lọc đã chọn). Dùng scripts/add_reference.py để thêm.")
         return
     if not keyword:
-        print("Danh sách văn bản tham khảo:")
-        for rel, _full in files:
-            print(f"  {rel}")
+        print(f"Danh sách văn bản tham khảo ({len(ds)}):")
+        for v in sorted(ds, key=lambda v: v["ngay"], reverse=True):
+            print(f"  {_dong_vb(v)}")
+            print(f"      {v['tieu_de'][:110] or v['rel']}")
         return
     kw = strip_accents(keyword)
     found_any = False
-    for rel, full in files:
-        with open(full, "r", encoding="utf-8", errors="replace") as fh:
-            content = fh.read()
-        if kw in strip_accents(content):
-            found_any = True
-            print(f"=== Khớp trong: {rel} ===")
-            # in đoạn ngữ cảnh quanh từ khóa đầu tiên
-            idx = strip_accents(content).find(kw)
-            start = max(0, idx - 300)
-            end = min(len(content), idx + 500)
-            print("..." + content[start:end] + "...")
-            print()
+    for v in ds:
+        content = v["noi_dung"]
+        idx = strip_accents(content).find(kw)
+        if idx < 0:
+            continue
+        found_any = True
+        print(f"=== {_dong_vb(v)} — {v['rel']} ===")
+        start = max(0, idx - 300)
+        end = min(len(content), idx + 500)
+        print("..." + content[start:end] + "...")
+        print()
     if not found_any:
         print(f"Không tìm thấy '{keyword}' trong các văn bản tham khảo hiện có.")
+
+
+def cmd_hieuluc(ma=None):
+    """Quan hệ hiệu lực của một văn bản; không có số hiệu -> mọi văn bản đã có văn bản khác tác động."""
+    ds = kho_van_ban()
+    print("(Dò tự động trên kho văn bản trên máy — chỉ là GỢI Ý, đối chiếu văn bản gốc trước khi trích dẫn.)")
+    if not ma:
+        bi = [v for v in ds if v["bi_tac_dong"]]
+        if not bi:
+            print("Chưa phát hiện văn bản nào trong kho bị văn bản khác trong kho sửa đổi/thay thế.")
+            return
+        for v in sorted(bi, key=lambda v: v["so_hieu"]):
+            print(f"  {_dong_vb(v)}")
+        return
+    v = next((v for v in ds if v["so_hieu"] and hl.trung_so(v["so_hieu"], ma)), None)
+    if not v:
+        # văn bản không có trên máy nhưng có thể được văn bản trên máy nhắc tới
+        print(f"Không có văn bản '{ma}' trên máy.")
+        nhac = [(l, n, t) for n in ds for l, d, t in n["tac_dong"] if hl.trung_so(d, ma)]
+    else:
+        print(f"=== {v['so_hieu']} — {v['tieu_de']} ===")
+        print(f"Ban hành: {v['ngay'] or '—'} · {v['co_quan'] or '—'} · Hiệu lực từ: "
+              f"{v['ngay_hl'] or 'không ghi ngày cụ thể (xem Điều khoản thi hành)'}")
+        if v["tac_dong"]:
+            print("\nVăn bản này tác động lên:")
+            for loai, dich, trich in v["tac_dong"]:
+                print(f"  • {hl.NHAN[loai]}: {dich}\n      {trich[:260]}")
+        nhac = v["bi_tac_dong"]
+    if nhac:
+        print("\nVăn bản trong kho tác động lên văn bản này:")
+        for loai, n, trich in nhac:
+            print(f"  • {hl.NHAN[loai]} bởi {n['so_hieu']} ({n['ngay'] or '—'})\n      {trich[:260]}")
+    else:
+        print("\nChưa thấy văn bản nào trong kho sửa đổi/thay thế văn bản này — KHÔNG có nghĩa là còn "
+              "hiệu lực; kho chỉ gồm văn bản đã đồng bộ.")
 
 
 def cmd_case(keyword=None):
@@ -461,6 +646,8 @@ def main():
 
     sp = sub.add_parser("search")
     sp.add_argument("keyword")
+    sp.add_argument("--chuong", help="Chỉ tìm trong 1 Chương (vd 72)")
+    sp.add_argument("--n", type=int, default=20, help="Số mã hiển thị (mặc định 20)")
 
     sp = sub.add_parser("chapter")
     sp.add_argument("num")
@@ -474,6 +661,16 @@ def main():
     sp = sub.add_parser("refs")
     sp.add_argument("keyword", nargs="?")
     sp.add_argument("--category", default=None, help="Giới hạn tra trong 1 danh mục (vd chinh_sach_phap_luat, cbpg_pvtm)")
+    sp.add_argument("--nam", help="Lọc theo năm ban hành (vd 2026)")
+    sp.add_argument("--co-quan", help="Lọc theo cơ quan ban hành hoặc ký hiệu (vd 'Bộ Tài chính', BCT)")
+
+    sp = sub.add_parser("hieuluc", help="Quan hệ sửa đổi/thay thế/bãi bỏ giữa các văn bản trong kho")
+    sp.add_argument("ma", nargs="?", help="Số hiệu (vd 13/2015/TT-BTC); bỏ trống = liệt kê văn bản đã bị tác động")
+
+    sp = sub.add_parser("lo", help="Tra hàng loạt mã HS từ tệp CSV/TSV/TXT, xuất bảng TSV dán thẳng vào Excel")
+    sp.add_argument("tep", help="Tệp đầu vào ('-' = đọc từ bàn phím/pipe)")
+    sp.add_argument("--fta", default="", help="Các cột FTA cần in, vd acfta,atiga,evfta")
+    sp.add_argument("--ra", help="Ghi TSV ra tệp (UTF-8 có BOM để Excel đọc đúng tiếng Việt)")
 
     sp = sub.add_parser("case")
     sp.add_argument("keyword", nargs="?")
@@ -506,7 +703,8 @@ def main():
             raise SystemExit("dongbo cần ILMS_URL + ILMS_USER/ILMS_PASS (nơi lấy dữ liệu).")
         return api_dongbo(args.chi_keo)
     chuyen = {"vanban": lambda: cmd_vanban(args.ma), "cbpg": lambda: cmd_cbpg(args.tu_khoa, args.kieu),
-              "vu": lambda: cmd_vu(args.ma),
+              "vu": lambda: cmd_vu(args.ma), "hieuluc": lambda: cmd_hieuluc(args.ma),
+              "lo": lambda: cmd_lo(args.tep, args.fta, args.ra),
               "thue": lambda: cmd_thue(args.code, args.nuoc, args.nsx, args.nxk, args.mac, args.tc)}
     if args.cmd in chuyen:
         return chuyen[args.cmd]()
@@ -514,7 +712,7 @@ def main():
     if args.cmd == "code":
         cmd_code(args.code)
     elif args.cmd == "search":
-        cmd_search(args.keyword)
+        cmd_search(args.keyword, args.chuong, args.n)
     elif args.cmd == "chapter":
         cmd_chapter(args.num)
     elif args.cmd == "heading":
@@ -522,7 +720,7 @@ def main():
     elif args.cmd == "gri":
         cmd_gri(args.so)
     elif args.cmd == "refs":
-        cmd_refs(args.keyword, args.category)
+        cmd_refs(args.keyword, args.category, args.nam, args.co_quan)
     elif args.cmd == "case":
         cmd_case(args.keyword)
     else:
