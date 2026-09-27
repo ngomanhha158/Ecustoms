@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Phòng vệ thương mại (CBPG…) chạy HOÀN TOÀN trên máy — đọc data/pvtm.json.
 
-Skill Ecustoms tách khỏi ILMSv2: ILMS chỉ là nơi ĐỒNG BỘ dữ liệu (`query_hs.py
+Skill HQskills tách khỏi ILMSv2: ILMS chỉ là nơi ĐỒNG BỘ dữ liệu (`query_hs.py
 dongbo` kéo về data/pvtm.json). Tra cứu, xem hồ sơ vụ, tính thuế đều chạy ở đây,
 không cần mạng.
 
