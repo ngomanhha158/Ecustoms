@@ -36,7 +36,8 @@ REFS = os.path.join(BASE, "references")
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ilms_api  # noqa: E402  — CHỈ dùng khi đồng bộ (`dongbo`); tra cứu luôn đọc dữ liệu trên máy
-import pvtm_local as pl  # noqa: E402
+import pvtm_local as pl
+import soat_lo  # noqa: E402
 import hieu_luc as hl  # noqa: E402
 
 
@@ -128,20 +129,29 @@ def cmd_vu(ma):
         print(chr(10) + "Ghi chú: " + v["ghi_chu"])
 
 
-def cmd_thue(code, nuoc=None, nsx=None, nxk=None, mac=None, tc=None):
-    r = pl.tinh_cho_lo(_kho(), {"code": code, "nuoc_co": nuoc, "nha_sx": nsx, "nha_xk": nxk,
-                                "mac_thep": mac, "tieu_chuan": tc})
+def cmd_thue(code, nuoc=None, nsx=None, nxk=None, mac=None, tc=None, day=None, rong=None, carbon=None,
+             loi=None, dang=None):
+    lo = {"code": code, "nuoc_co": nuoc, "nha_sx": nsx, "nha_xk": nxk, "mac_thep": mac, "tieu_chuan": tc,
+          "day": day, "rong": rong, "carbon": carbon, "loi": loi, "dang": dang}
+    r = soat_lo.soat(_kho(), lo)
     if not r["vu_viec"]:
         print(f"Mã {_ma(r['code'])}: KHÔNG thuộc vụ phòng vệ thương mại nào đang áp (dữ liệu trên máy).")
         return
+    dau = {True: "✓", False: "✗", None: "?"}
     for k in r["vu_viec"]:
         print(f"=== [{k['ma_vu_viec']}] {k['ten_hang']} · {k['so_hieu']} ===")
         for i, b in enumerate(k["cac_buoc"], 1):
-            print(f"  {i}. {b['buoc']}: {b['ket_qua']} {'✓' if b['dat'] else '✗'}  ({b['can_cu']})")
-        ket = f"BỊ ÁP {_pt(k['muc_thue'])}" if k["ket_luan"] == "ap" else "KHÔNG ÁP"
+            print(f"  {i}. {b['buoc']}: {b['ket_qua']} {dau[b['dat']]}  ({b['can_cu']})")
+        ket = {"ap": f"BỊ ÁP {_pt(k['muc_thue'])}", "khong_ap": "KHÔNG ÁP",
+               "khong_thuoc_pham_vi": "KHÔNG THUỘC PHẠM VI VỤ NÀY (không áp)",
+               "chua_du": "CHƯA ĐỦ DỮ LIỆU ĐỂ KẾT LUẬN — cần: " + ", ".join(k.get("thieu", []))}[k["ket_luan"]]
         print(f"  => {ket}")
         for c in k["canh_bao"]:
             print(f"  ! {c}")
+        if k.get("tu_doi_chieu") and k["ket_luan"] != "khong_thuoc_pham_vi":
+            print("  Tự đối chiếu (công cụ không kiểm được bằng số):")
+            for x in k["tu_doi_chieu"]:
+                print(f"    - {x}")
 
 
 def _cbpg_cua_ma(code_n):
@@ -291,7 +301,7 @@ def cmd_vanban(ma):
 # ---------------------------------------------------------------- tra hàng loạt
 # Mỗi dòng: mã HS [, nước C/O, nhà SX, nhà XK, mác thép, tiêu chuẩn] — phân cách tab, phẩy hoặc chấm phẩy.
 # Xuất TSV để dán vào ô A1 của Excel. Mã in dạng 7210.49.11 để Excel giữ nguyên số 0 đầu.
-COT_LO = ("code", "nuoc_co", "nha_sx", "nha_xk", "mac_thep", "tieu_chuan")
+COT_LO = ("code", "nuoc_co", "nha_sx", "nha_xk", "mac_thep", "tieu_chuan", "day", "rong", "carbon", "dang")
 
 
 def doc_lo(dong):
@@ -335,9 +345,11 @@ def dong_lo(codes, kho, lo, fta):
                  + " — thêm nước/NSX/NXK để tính mức")
     else:
         try:
-            r = pl.tinh_cho_lo(kho, lo)
+            r = soat_lo.soat(kho, lo)
+            nhan = {"khong_ap": "không áp", "khong_thuoc_pham_vi": "ngoài phạm vi",
+                    "chua_du": "CHƯA ĐỦ DỮ LIỆU"}
             o.append("; ".join(f"{k['ma_vu_viec']}: " + (f"ÁP {_pt(k['muc_thue'])}" if k["ket_luan"] == "ap"
-                                                          else "không áp") for k in r["vu_viec"]))
+                                                          else nhan[k["ket_luan"]]) for k in r["vu_viec"]))
         except SystemExit as loi:
             o.append(f"LỖI: {loi}")
     return [_o(x) for x in o]
@@ -695,6 +707,11 @@ def main():
     sp.add_argument("--nxk", help="Nhà xuất khẩu trên hóa đơn")
     sp.add_argument("--mac", help="Mác thép")
     sp.add_argument("--tc", help="Tiêu chuẩn đi kèm mác thép (ghi cả năm)")
+    sp.add_argument("--day", help="Độ dày (mm)")
+    sp.add_argument("--rong", help="Chiều rộng (mm)")
+    sp.add_argument("--carbon", help="Hàm lượng carbon (%% khối lượng; với dây hàn là carbon của lõi)")
+    sp.add_argument("--loi", help="Đường kính lõi (mm) — dây hàn, que hàn")
+    sp.add_argument("--dang", help="tam (tấm) hoặc cuon (cuộn)")
 
     args = p.parse_args()
 
@@ -705,7 +722,8 @@ def main():
     chuyen = {"vanban": lambda: cmd_vanban(args.ma), "cbpg": lambda: cmd_cbpg(args.tu_khoa, args.kieu),
               "vu": lambda: cmd_vu(args.ma), "hieuluc": lambda: cmd_hieuluc(args.ma),
               "lo": lambda: cmd_lo(args.tep, args.fta, args.ra),
-              "thue": lambda: cmd_thue(args.code, args.nuoc, args.nsx, args.nxk, args.mac, args.tc)}
+              "thue": lambda: cmd_thue(args.code, args.nuoc, args.nsx, args.nxk, args.mac, args.tc,
+                                         args.day, args.rong, args.carbon, args.loi, args.dang)}
     if args.cmd in chuyen:
         return chuyen[args.cmd]()
 
