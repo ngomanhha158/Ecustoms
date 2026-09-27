@@ -190,8 +190,8 @@ Nơi nhận:                                     [QUYỀN HẠN, CHỨC VỤ NG�
 - Công văn: trích yếu nằm dưới số và ký hiệu, bắt đầu bằng "V/v".
 - Báo cáo, tờ trình: tên loại văn bản IN HOA, trích yếu ngay dưới.
 - Phân cấp nội dung: **I, II, III → 1, 2, 3 → a, b, c → gạch đầu dòng**.
-- Ngày, tháng dưới 10 thì thêm số 0 (ngày 05 tháng 09 năm 2026). Tháng 01 và 02
-  cũng thêm số 0.
+- Ngày dưới 10 và tháng 1, 2 thì thêm số 0 phía trước; tháng 3 đến 12 giữ nguyên
+  (ngày 05 tháng 9 năm 2026; ngày 15 tháng 02 năm 2026).
 
 ### Cấu trúc nội dung
 

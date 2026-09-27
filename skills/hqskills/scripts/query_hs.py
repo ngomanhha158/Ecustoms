@@ -592,6 +592,48 @@ def cmd_refs(keyword=None, category=None, nam=None, co_quan=None):
         print(f"Không tìm thấy '{keyword}' trong các văn bản tham khảo hiện có.")
 
 
+def cmd_canhbao(ngay=90, ngay_vb=30, hom_nay=None):
+    """Việc cần theo dõi: vụ PVTM sắp hết hạn / quá hạn / tạm thời / rà soát, văn bản mới ban hành."""
+    from datetime import date, timedelta
+    hn = date.fromisoformat(hom_nay) if hom_nay else date.today()
+    print(f"=== CẢNH BÁO THỜI HẠN — tính đến {hn:%d/%m/%Y}, nhìn trước {ngay} ngày ===")
+    try:
+        kho = pl.doc_kho()
+    except pl.ChuaDongBo as loi:
+        kho = None
+        print(f"! {loi}")
+    if kho:
+        cu = pl.canh_bao_cu(kho)
+        if cu:
+            print(cu)
+        con_ap = [v for v in kho["vu_viec"] if v["giai_doan"] in pl.GIAI_DOAN_CON_AP]
+        het = []
+        for v in con_ap:
+            den = v.get("hieu_luc_den")
+            if den and hn <= date.fromisoformat(den) <= hn + timedelta(days=ngay):
+                het.append((date.fromisoformat(den), v))
+        print(chr(10) + f"A. Vụ sắp hết hiệu lực trong {ngay} ngày ({len(het)}):")
+        for den, v in sorted(het, key=lambda x: x[0]):
+            print(f"  [{v['ma_vu_viec']}] {v['ten_hang']} — {v['so_hieu']}: hết {den:%d/%m/%Y} "
+                  f"(còn {(den - hn).days} ngày). Theo dõi QĐ rà soát cuối kỳ / gia hạn.")
+        qua = [v for v in con_ap if v.get("hieu_luc_den") and date.fromisoformat(v["hieu_luc_den"]) < hn]
+        print(chr(10) + f"B. Đã quá ngày hết hiệu lực nhưng dữ liệu vẫn ghi còn áp ({len(qua)}):")
+        for v in qua:
+            print(f"  [{v['ma_vu_viec']}] {v['so_hieu']}: hết {v['hieu_luc_den']} — kiểm QĐ gia hạn rồi chạy dongbo.")
+        theo_doi = [v for v in con_ap if v["giai_doan"] in ("tam_thoi", "ra_soat")]
+        print(chr(10) + f"C. Vụ đang tạm thời / đang rà soát — mức thuế có thể đổi ({len(theo_doi)}):")
+        for v in theo_doi:
+            den = v.get("hieu_luc_den") or "chưa ghi"
+            print(f"  [{v['ma_vu_viec']}] {v['ten_hang']} — {v['so_hieu']} · "
+                  f"{pl.NHAN_GIAI_DOAN[v['giai_doan']]} · hiệu lực {v['hieu_luc_tu']} → {den}")
+    moi = [v for v in kho_van_ban() if v["ngay"] and re.fullmatch(r"\d{4}-\d{2}-\d{2}", v["ngay"])
+           and hn - timedelta(days=ngay_vb) <= date.fromisoformat(v["ngay"]) <= hn]
+    print(chr(10) + f"D. Văn bản trong kho ban hành trong {ngay_vb} ngày qua ({len(moi)}):")
+    for v in sorted(moi, key=lambda v: v["ngay"], reverse=True):
+        print(f"  {_dong_vb(v)}")
+        print(f"      {v['tieu_de'][:110]}")
+
+
 def cmd_hieuluc(ma=None):
     """Quan hệ hiệu lực của một văn bản; không có số hiệu -> mọi văn bản đã có văn bản khác tác động."""
     ds = kho_van_ban()
@@ -684,6 +726,11 @@ def main():
     sp.add_argument("--fta", default="", help="Các cột FTA cần in, vd acfta,atiga,evfta")
     sp.add_argument("--ra", help="Ghi TSV ra tệp (UTF-8 có BOM để Excel đọc đúng tiếng Việt)")
 
+    sp = sub.add_parser("canhbao", help="Vụ PVTM sắp hết hạn/quá hạn/tạm thời/rà soát, văn bản mới ban hành")
+    sp.add_argument("--ngay", type=int, default=90, help="Nhìn trước bao nhiêu ngày (mặc định 90)")
+    sp.add_argument("--ngay-vb", type=int, default=30, help="Văn bản ban hành trong bao nhiêu ngày qua (mặc định 30)")
+    sp.add_argument("--hom-nay", help="Tính như thể hôm nay là ngày này (YYYY-MM-DD)")
+
     sp = sub.add_parser("case")
     sp.add_argument("keyword", nargs="?")
 
@@ -722,6 +769,7 @@ def main():
     chuyen = {"vanban": lambda: cmd_vanban(args.ma), "cbpg": lambda: cmd_cbpg(args.tu_khoa, args.kieu),
               "vu": lambda: cmd_vu(args.ma), "hieuluc": lambda: cmd_hieuluc(args.ma),
               "lo": lambda: cmd_lo(args.tep, args.fta, args.ra),
+              "canhbao": lambda: cmd_canhbao(args.ngay, args.ngay_vb, args.hom_nay),
               "thue": lambda: cmd_thue(args.code, args.nuoc, args.nsx, args.nxk, args.mac, args.tc,
                                          args.day, args.rong, args.carbon, args.loi, args.dang)}
     if args.cmd in chuyen:
