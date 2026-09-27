@@ -102,7 +102,7 @@ python scripts/kiem_khop.py                  # so luật tính thuế CBPG trên
 ```bash
 python scripts/query_hs.py cbpg "LX International"        # tìm theo tên hàng, mã HS, nhà SX, công ty TM, quy cách, mác thép, tiêu chuẩn, số QĐ
 python scripts/query_hs.py cbpg "DX57D+Z" --kieu mac_thep
-python scripts/query_hs.py vu AD19                          # hồ sơ đủ: văn bản, mô tả, quy cách, mã HS, mức thuế từng nhà SX, loại trừ
+python scripts/query_hs.py vu AD19                          # hồ sơ đủ: tiêu đề theo mô tả hàng hóa, văn bản, quy cách, mã HS, mức thuế từng nhà SX, loại trừ
 python scripts/query_hs.py thue 7210.49.11 --nuoc KR --nsx "Hyundai Steel" --nxk "LX International"
 python scripts/query_hs.py thue 7210.49.11 --nuoc CN --mac DX57D+Z --tc "EN 10346:2024"
 python scripts/query_hs.py thue 7208.51.00 --nuoc CN --mac "LR A" --tc LR --dang tam --day 12 --rong 1500 --carbon 0.18
@@ -111,6 +111,9 @@ python scripts/query_hs.py vanban 3765/QĐ-BCT               # toàn văn một 
 ```
 
 - Lệnh `code <mã>` tự báo **"ĐANG BỊ ÁP THUẾ PHÒNG VỆ THƯƠNG MẠI"** khi mã thuộc vụ đang áp.
+- **Gọi tên vụ theo Mô tả hàng hóa của QĐ**, không theo tên hàng rút gọn (CEO 27-09): dùng đúng tiêu đề lệnh
+  `vu` in ra (`pvtm_local.tieu_de` — nguyên văn QĐ, chỉ bỏ câu dẫn "Hàng hóa … là một số sản phẩm"). Không tự
+  ghép tên hàng với chủng loại, không tóm tắt lại bằng lời mình.
 - Khi phân loại một mã có dấu hiệu CBPG, luôn chạy `thue` với đủ nước C/O, nhà SX, nhà XK (và mác thép + tiêu chuẩn với hàng thép) rồi trích **từng bước và căn cứ**.
 - **Luôn hỏi và nhập quy cách** với hàng thép: `--day` (mm), `--rong` (mm), `--carbon` (%), `--dang tam|cuon`;
   dây/que hàn thêm `--loi` (mm). `thue` soát lô với khoảng quy cách của từng vụ (có dung sai) và điều kiện đi kèm

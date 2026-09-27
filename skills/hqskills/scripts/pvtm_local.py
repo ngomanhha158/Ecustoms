@@ -80,7 +80,7 @@ def tinh_cho_lo(kho, lo):
     ket_qua = []
     for vu in vu_theo_ma(kho, code, chi_dang_ap=True):
         ket_qua.append({**tinh_muc_thue(vu, {**lo, "code": code}).dict(), "ten_hang": vu["ten_hang"],
-                        "so_hieu": vu["so_hieu"], "da_doi_chieu": vu["da_doi_chieu"]})
+                        "tieu_de": tieu_de(vu["mo_ta"], vu["ten_hang"]), "so_hieu": vu["so_hieu"], "da_doi_chieu": vu["da_doi_chieu"]})
     return {"code": code, "bi_ap": any(k["ket_luan"] == "ap" for k in ket_qua), "vu_viec": ket_qua}
 
 
@@ -189,6 +189,18 @@ def khop_tieu_chuan(trong_qd, cua_lo):
     if ":" in qd:
         return qd.replace(" ", "") == lo.replace(" ", "")
     return lo == qd or lo.startswith(qd + " ") or lo.startswith(qd + ":") or lo.startswith(qd + "-")
+
+
+# Tiêu đề hồ sơ vụ theo "Mô tả hàng hóa" của QĐ (CEO 27-09) — bản chép services/pvtm.tieu_de.
+# Chỉ bỏ câu dẫn ("Hàng hóa … là một số sản phẩm"), còn lại nguyên văn; chưa có mô tả -> tên hàng.
+_CAU_DAN = re.compile(r"^(hang hoa[^.;:]*? la )?(mot so |cac )?san pham ")
+
+
+def tieu_de(mo_ta, ten_hang):
+    mt = " ".join(unicodedata.normalize("NFC", mo_ta or "").split())
+    dan = _CAU_DAN.match(bo_dau(mt))
+    than = mt[dan.end():] if dan else mt
+    return than[:1].upper() + than[1:] if than else ten_hang
 
 
 def so(v):

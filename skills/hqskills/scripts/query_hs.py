@@ -100,7 +100,7 @@ def cmd_vu(ma):
     v = next((x for x in kho["vu_viec"] if x["ma_vu_viec"].lower() == ma.strip().lower()), None)
     if not v:
         raise SystemExit(f"Không có vụ '{ma}'. Các vụ: " + ", ".join(x["ma_vu_viec"] for x in kho["vu_viec"]))
-    print(f"=== [{v['ma_vu_viec']}] {v['ten_hang']} ===")
+    print(f"=== [{v['ma_vu_viec']}] {pl.tieu_de(v['mo_ta'], v['ten_hang'])} ===")
     print(f"{pl.NHAN_LOAI.get(v['loai'], v['loai'])} · {_trang_thai(v)}")
     print(f"Căn cứ: {v.get('so_hieu') or '—'} · Hiệu lực {v['hieu_luc_tu']} → {v.get('hieu_luc_den') or 'chưa ghi'}")
     if v.get("doi_chieu_ten"):
@@ -110,7 +110,6 @@ def cmd_vu(ma):
     print(f"Không nộp C/O: {_pt(v['muc_khong_chung_tu'])}")
     for q in v["quy_cach"]:
         print(f"{q['ten']}: {q['gia_tri']}")
-    print(chr(10) + "Mô tả: " + v["mo_ta"])
     print(chr(10) + f"Mã HS ({len(v['ma_hs'])}): " + ", ".join(_ma(c) for c in v["ma_hs"]))
     for n in v["nuoc"] or [{"nuoc": "*", "ten_nuoc": "Mọi xuất xứ", "muc_toan_quoc": v["muc_khong_chung_tu"]}]:
         print(chr(10) + f"--- {n['ten_nuoc']} · mức toàn quốc {_pt(n['muc_toan_quoc'])} ---")
@@ -143,7 +142,7 @@ def _in_thue(r):
         return
     dau = {True: "✓", False: "✗", None: "?"}
     for k in r["vu_viec"]:
-        print(f"=== [{k['ma_vu_viec']}] {k['ten_hang']} · {k['so_hieu']} ===")
+        print(f"=== [{k['ma_vu_viec']}] {k['tieu_de']} · {k['so_hieu']} ===")
         for i, b in enumerate(k["cac_buoc"], 1):
             print(f"  {i}. {b['buoc']}: {b['ket_qua']} {dau[b['dat']]}  ({b['can_cu']})")
         ket = {"ap": f"BỊ ÁP {_pt(k['muc_thue'])}", "khong_ap": "KHÔNG ÁP",

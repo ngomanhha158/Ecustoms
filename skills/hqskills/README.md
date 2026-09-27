@@ -122,7 +122,7 @@ python scripts/kiem_khop.py                  # so luật tính thuế CBPG trên
 ```bash
 python scripts/query_hs.py cbpg "LX International"        # tìm theo tên hàng, mã HS, nhà SX, công ty TM, quy cách, mác thép, tiêu chuẩn, số QĐ
 python scripts/query_hs.py cbpg "DX57D+Z" --kieu mac_thep
-python scripts/query_hs.py vu AD19                          # hồ sơ đủ: văn bản, mô tả, quy cách, mã HS, mức thuế từng nhà SX, loại trừ
+python scripts/query_hs.py vu AD19                          # hồ sơ đủ: tiêu đề theo mô tả hàng hóa, văn bản, quy cách, mã HS, mức thuế từng nhà SX, loại trừ
 python scripts/query_hs.py thue 7210.49.11 --nuoc KR --nsx "Hyundai Steel" --nxk "LX International"
 python scripts/query_hs.py thue 7210.49.11 --nuoc CN --mac DX57D+Z --tc "EN 10346:2024"
 python scripts/query_hs.py vanban 3765/QĐ-BCT               # toàn văn một văn bản (số hiệu hoặc chỉ số)
