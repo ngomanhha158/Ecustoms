@@ -5,6 +5,7 @@ pvtm_local.py là BẢN CHÉP luật của ILMS. Script này dựng mọi kiểu
 liệu đã đồng bộ (không C/O, C/O từng nước, nước không bị áp, từng nhà SX tự
 xuất, từng công ty TM, nhà XK sai, mác thép loại trừ đúng/sai tiêu chuẩn, mã
 HS loại trừ), gọi CẢ HAI bên rồi so kết luận, mức thuế, từng bước, cảnh báo.
+Kèm tiêu đề hồ sơ từng vụ (`tieu_de`, theo Mô tả hàng hóa).
 
 Chạy sau mỗi lần `dongbo` hoặc khi ILMS đổi luật:
     python scripts/kiem_khop.py
@@ -13,6 +14,7 @@ Cần ILMS_URL + ILMS_USER/ILMS_PASS. Lệch dù một lô là thoát mã 1.
 import io
 import os
 import sys
+import urllib.parse
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace", line_buffering=True)
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -74,7 +76,15 @@ def main():
                 print(f"LỆCH [{vu['ma_vu_viec']}] lô {lo}")
                 print(f"  máy : {may}")
                 print(f"  ILMS: {chu}")
-    print(f"{so_lo} lô, {lech} lệch.")
+    for vu in kho["vu_viec"]:
+        may = pl.tieu_de(vu["mo_ta"], vu["ten_hang"])
+        chu = ilms_api.get(f"/pvtm/vu-viec/{urllib.parse.quote(vu['ma_vu_viec'], safe='')}").get("tieu_de")
+        if may != chu:
+            lech += 1
+            print(f"LỆCH tiêu đề [{vu['ma_vu_viec']}]")
+            print(f"  máy : {may}")
+            print(f"  ILMS: {chu}")
+    print(f"{so_lo} lô + {len(kho['vu_viec'])} tiêu đề, {lech} lệch.")
     sys.exit(1 if lech else 0)
 
 

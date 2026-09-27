@@ -36,7 +36,9 @@ REFS = os.path.join(BASE, "references")
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ilms_api  # noqa: E402  — CHỈ dùng khi đồng bộ (`dongbo`); tra cứu luôn đọc dữ liệu trên máy
-import pvtm_local as pl  # noqa: E402
+import pvtm_local as pl
+import soat_lo  # noqa: E402
+import doi_chieu as dc  # noqa: E402
 import hieu_luc as hl  # noqa: E402
 
 
@@ -98,7 +100,7 @@ def cmd_vu(ma):
     v = next((x for x in kho["vu_viec"] if x["ma_vu_viec"].lower() == ma.strip().lower()), None)
     if not v:
         raise SystemExit(f"Không có vụ '{ma}'. Các vụ: " + ", ".join(x["ma_vu_viec"] for x in kho["vu_viec"]))
-    print(f"=== [{v['ma_vu_viec']}] {v['ten_hang']} ===")
+    print(f"=== [{v['ma_vu_viec']}] {pl.tieu_de(v['mo_ta'], v['ten_hang'])} ===")
     print(f"{pl.NHAN_LOAI.get(v['loai'], v['loai'])} · {_trang_thai(v)}")
     print(f"Căn cứ: {v.get('so_hieu') or '—'} · Hiệu lực {v['hieu_luc_tu']} → {v.get('hieu_luc_den') or 'chưa ghi'}")
     if v.get("doi_chieu_ten"):
@@ -108,7 +110,6 @@ def cmd_vu(ma):
     print(f"Không nộp C/O: {_pt(v['muc_khong_chung_tu'])}")
     for q in v["quy_cach"]:
         print(f"{q['ten']}: {q['gia_tri']}")
-    print(chr(10) + "Mô tả: " + v["mo_ta"])
     print(chr(10) + f"Mã HS ({len(v['ma_hs'])}): " + ", ".join(_ma(c) for c in v["ma_hs"]))
     for n in v["nuoc"] or [{"nuoc": "*", "ten_nuoc": "Mọi xuất xứ", "muc_toan_quoc": v["muc_khong_chung_tu"]}]:
         print(chr(10) + f"--- {n['ten_nuoc']} · mức toàn quốc {_pt(n['muc_toan_quoc'])} ---")
@@ -128,20 +129,32 @@ def cmd_vu(ma):
         print(chr(10) + "Ghi chú: " + v["ghi_chu"])
 
 
-def cmd_thue(code, nuoc=None, nsx=None, nxk=None, mac=None, tc=None):
-    r = pl.tinh_cho_lo(_kho(), {"code": code, "nuoc_co": nuoc, "nha_sx": nsx, "nha_xk": nxk,
-                                "mac_thep": mac, "tieu_chuan": tc})
+def cmd_thue(code, nuoc=None, nsx=None, nxk=None, mac=None, tc=None, day=None, rong=None, carbon=None,
+             loi=None, dang=None):
+    lo = {"code": code, "nuoc_co": nuoc, "nha_sx": nsx, "nha_xk": nxk, "mac_thep": mac, "tieu_chuan": tc,
+          "day": day, "rong": rong, "carbon": carbon, "loi": loi, "dang": dang}
+    _in_thue(soat_lo.soat(_kho(), lo))
+
+
+def _in_thue(r):
     if not r["vu_viec"]:
         print(f"Mã {_ma(r['code'])}: KHÔNG thuộc vụ phòng vệ thương mại nào đang áp (dữ liệu trên máy).")
         return
+    dau = {True: "✓", False: "✗", None: "?"}
     for k in r["vu_viec"]:
-        print(f"=== [{k['ma_vu_viec']}] {k['ten_hang']} · {k['so_hieu']} ===")
+        print(f"=== [{k['ma_vu_viec']}] {k['tieu_de']} · {k['so_hieu']} ===")
         for i, b in enumerate(k["cac_buoc"], 1):
-            print(f"  {i}. {b['buoc']}: {b['ket_qua']} {'✓' if b['dat'] else '✗'}  ({b['can_cu']})")
-        ket = f"BỊ ÁP {_pt(k['muc_thue'])}" if k["ket_luan"] == "ap" else "KHÔNG ÁP"
+            print(f"  {i}. {b['buoc']}: {b['ket_qua']} {dau[b['dat']]}  ({b['can_cu']})")
+        ket = {"ap": f"BỊ ÁP {_pt(k['muc_thue'])}", "khong_ap": "KHÔNG ÁP",
+               "khong_thuoc_pham_vi": "KHÔNG THUỘC PHẠM VI VỤ NÀY (không áp)",
+               "chua_du": "CHƯA ĐỦ DỮ LIỆU ĐỂ KẾT LUẬN — cần: " + ", ".join(k.get("thieu", []))}[k["ket_luan"]]
         print(f"  => {ket}")
         for c in k["canh_bao"]:
             print(f"  ! {c}")
+        if k.get("tu_doi_chieu") and k["ket_luan"] != "khong_thuoc_pham_vi":
+            print("  Tự đối chiếu (công cụ không kiểm được bằng số):")
+            for x in k["tu_doi_chieu"]:
+                print(f"    - {x}")
 
 
 def _cbpg_cua_ma(code_n):
@@ -291,7 +304,7 @@ def cmd_vanban(ma):
 # ---------------------------------------------------------------- tra hàng loạt
 # Mỗi dòng: mã HS [, nước C/O, nhà SX, nhà XK, mác thép, tiêu chuẩn] — phân cách tab, phẩy hoặc chấm phẩy.
 # Xuất TSV để dán vào ô A1 của Excel. Mã in dạng 7210.49.11 để Excel giữ nguyên số 0 đầu.
-COT_LO = ("code", "nuoc_co", "nha_sx", "nha_xk", "mac_thep", "tieu_chuan")
+COT_LO = ("code", "nuoc_co", "nha_sx", "nha_xk", "mac_thep", "tieu_chuan", "day", "rong", "carbon", "dang")
 
 
 def doc_lo(dong):
@@ -335,9 +348,11 @@ def dong_lo(codes, kho, lo, fta):
                  + " — thêm nước/NSX/NXK để tính mức")
     else:
         try:
-            r = pl.tinh_cho_lo(kho, lo)
+            r = soat_lo.soat(kho, lo)
+            nhan = {"khong_ap": "không áp", "khong_thuoc_pham_vi": "ngoài phạm vi",
+                    "chua_du": "CHƯA ĐỦ DỮ LIỆU"}
             o.append("; ".join(f"{k['ma_vu_viec']}: " + (f"ÁP {_pt(k['muc_thue'])}" if k["ket_luan"] == "ap"
-                                                          else "không áp") for k in r["vu_viec"]))
+                                                          else nhan[k["ket_luan"]]) for k in r["vu_viec"]))
         except SystemExit as loi:
             o.append(f"LỖI: {loi}")
     return [_o(x) for x in o]
@@ -580,6 +595,75 @@ def cmd_refs(keyword=None, category=None, nam=None, co_quan=None):
         print(f"Không tìm thấy '{keyword}' trong các văn bản tham khảo hiện có.")
 
 
+def cmd_canhbao(ngay=90, ngay_vb=30, hom_nay=None):
+    """Việc cần theo dõi: vụ PVTM sắp hết hạn / quá hạn / tạm thời / rà soát, văn bản mới ban hành."""
+    from datetime import date, timedelta
+    hn = date.fromisoformat(hom_nay) if hom_nay else date.today()
+    print(f"=== CẢNH BÁO THỜI HẠN — tính đến {hn:%d/%m/%Y}, nhìn trước {ngay} ngày ===")
+    try:
+        kho = pl.doc_kho()
+    except pl.ChuaDongBo as loi:
+        kho = None
+        print(f"! {loi}")
+    if kho:
+        cu = pl.canh_bao_cu(kho)
+        if cu:
+            print(cu)
+        con_ap = [v for v in kho["vu_viec"] if v["giai_doan"] in pl.GIAI_DOAN_CON_AP]
+        het = []
+        for v in con_ap:
+            den = v.get("hieu_luc_den")
+            if den and hn <= date.fromisoformat(den) <= hn + timedelta(days=ngay):
+                het.append((date.fromisoformat(den), v))
+        print(chr(10) + f"A. Vụ sắp hết hiệu lực trong {ngay} ngày ({len(het)}):")
+        for den, v in sorted(het, key=lambda x: x[0]):
+            print(f"  [{v['ma_vu_viec']}] {v['ten_hang']} — {v['so_hieu']}: hết {den:%d/%m/%Y} "
+                  f"(còn {(den - hn).days} ngày). Theo dõi QĐ rà soát cuối kỳ / gia hạn.")
+        qua = [v for v in con_ap if v.get("hieu_luc_den") and date.fromisoformat(v["hieu_luc_den"]) < hn]
+        print(chr(10) + f"B. Đã quá ngày hết hiệu lực nhưng dữ liệu vẫn ghi còn áp ({len(qua)}):")
+        for v in qua:
+            print(f"  [{v['ma_vu_viec']}] {v['so_hieu']}: hết {v['hieu_luc_den']} — kiểm QĐ gia hạn rồi chạy dongbo.")
+        theo_doi = [v for v in con_ap if v["giai_doan"] in ("tam_thoi", "ra_soat")]
+        print(chr(10) + f"C. Vụ đang tạm thời / đang rà soát — mức thuế có thể đổi ({len(theo_doi)}):")
+        for v in theo_doi:
+            den = v.get("hieu_luc_den") or "chưa ghi"
+            print(f"  [{v['ma_vu_viec']}] {v['ten_hang']} — {v['so_hieu']} · "
+                  f"{pl.NHAN_GIAI_DOAN[v['giai_doan']]} · hiệu lực {v['hieu_luc_tu']} → {den}")
+    moi = [v for v in kho_van_ban() if v["ngay"] and re.fullmatch(r"\d{4}-\d{2}-\d{2}", v["ngay"])
+           and hn - timedelta(days=ngay_vb) <= date.fromisoformat(v["ngay"]) <= hn]
+    print(chr(10) + f"D. Văn bản trong kho ban hành trong {ngay_vb} ngày qua ({len(moi)}):")
+    for v in sorted(moi, key=lambda v: v["ngay"], reverse=True):
+        print(f"  {_dong_vb(v)}")
+        print(f"      {v['tieu_de'][:110]}")
+
+
+def cmd_chungtu(tep, tsv=False):
+    """Đối chiếu chéo chứng từ (JSON do Claude trích) rồi soát thuế PVTM cho lô."""
+    with open(tep, encoding="utf-8") as fh:
+        ho_so = json.load(fh)
+    dong, lo, canh_bao = dc.doi_chieu(ho_so)
+    cot = [l for l in dc.LOAI if any(l in d["gia_tri"] for d in dong)]
+    dau = ["Trường"] + [dc.LOAI[l] for l in cot] + ["Kết quả"]
+    bang = [dau] + [[d["nhan"]] + [d["gia_tri"].get(l, "") for l in cot] + [d["ket"]] for d in dong]
+    print("=== ĐỐI CHIẾU CHÉO CHỨNG TỪ ===")
+    if tsv:
+        print("\n".join("\t".join(_o(x) for x in h) for h in bang))
+    else:
+        rong = [max(len(str(h[i])) for h in bang) for i in range(len(dau))]
+        for h in bang:
+            print("  " + " | ".join(str(x).ljust(rong[i]) for i, x in enumerate(h)))
+    kho = _kho()
+    for c in canh_bao + dc.canh_bao_cach_viet_mac(kho, lo):
+        print(f"! {c}")
+    print()
+    print("=== SOÁT THUẾ PHÒNG VỆ THƯƠNG MẠI (theo giá trị ưu tiên ở trên) ===")
+    chua_ro = [d["nhan"] for d in dong if d["ket"].startswith(("✗", "?"))]
+    if chua_ro:
+        print(f"!!! KẾT LUẬN DƯỚI ĐÂY CHỈ LÀ TẠM — còn {len(chua_ro)} điểm lệch/đọc không chắc: "
+              + ", ".join(chua_ro) + ". Làm rõ trước khi xác định thuế.")
+    _in_thue(soat_lo.soat(kho, dc.lo_tinh_thue(lo)))
+
+
 def cmd_hieuluc(ma=None):
     """Quan hệ hiệu lực của một văn bản; không có số hiệu -> mọi văn bản đã có văn bản khác tác động."""
     ds = kho_van_ban()
@@ -672,6 +756,15 @@ def main():
     sp.add_argument("--fta", default="", help="Các cột FTA cần in, vd acfta,atiga,evfta")
     sp.add_argument("--ra", help="Ghi TSV ra tệp (UTF-8 có BOM để Excel đọc đúng tiếng Việt)")
 
+    sp = sub.add_parser("chungtu", help="Đối chiếu chéo Mill Test/C-O/hóa đơn/tờ khai (JSON) rồi soát thuế PVTM")
+    sp.add_argument("tep", help="Tệp JSON hồ sơ chứng từ (xem scripts/doi_chieu.py)")
+    sp.add_argument("--tsv", action="store_true", help="In bảng đối chiếu dạng TSV để dán Excel")
+
+    sp = sub.add_parser("canhbao", help="Vụ PVTM sắp hết hạn/quá hạn/tạm thời/rà soát, văn bản mới ban hành")
+    sp.add_argument("--ngay", type=int, default=90, help="Nhìn trước bao nhiêu ngày (mặc định 90)")
+    sp.add_argument("--ngay-vb", type=int, default=30, help="Văn bản ban hành trong bao nhiêu ngày qua (mặc định 30)")
+    sp.add_argument("--hom-nay", help="Tính như thể hôm nay là ngày này (YYYY-MM-DD)")
+
     sp = sub.add_parser("case")
     sp.add_argument("keyword", nargs="?")
 
@@ -695,6 +788,11 @@ def main():
     sp.add_argument("--nxk", help="Nhà xuất khẩu trên hóa đơn")
     sp.add_argument("--mac", help="Mác thép")
     sp.add_argument("--tc", help="Tiêu chuẩn đi kèm mác thép (ghi cả năm)")
+    sp.add_argument("--day", help="Độ dày (mm)")
+    sp.add_argument("--rong", help="Chiều rộng (mm)")
+    sp.add_argument("--carbon", help="Hàm lượng carbon (%% khối lượng; với dây hàn là carbon của lõi)")
+    sp.add_argument("--loi", help="Đường kính lõi (mm) — dây hàn, que hàn")
+    sp.add_argument("--dang", help="tam (tấm) hoặc cuon (cuộn)")
 
     args = p.parse_args()
 
@@ -705,7 +803,10 @@ def main():
     chuyen = {"vanban": lambda: cmd_vanban(args.ma), "cbpg": lambda: cmd_cbpg(args.tu_khoa, args.kieu),
               "vu": lambda: cmd_vu(args.ma), "hieuluc": lambda: cmd_hieuluc(args.ma),
               "lo": lambda: cmd_lo(args.tep, args.fta, args.ra),
-              "thue": lambda: cmd_thue(args.code, args.nuoc, args.nsx, args.nxk, args.mac, args.tc)}
+              "canhbao": lambda: cmd_canhbao(args.ngay, args.ngay_vb, args.hom_nay),
+              "chungtu": lambda: cmd_chungtu(args.tep, args.tsv),
+              "thue": lambda: cmd_thue(args.code, args.nuoc, args.nsx, args.nxk, args.mac, args.tc,
+                                         args.day, args.rong, args.carbon, args.loi, args.dang)}
     if args.cmd in chuyen:
         return chuyen[args.cmd]()
 

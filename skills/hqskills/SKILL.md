@@ -1,6 +1,6 @@
 ---
 name: hqskills
-description: "HQskills — bộ công cụ nghiệp vụ Hải quan: (1) tra cứu & hỗ trợ phân loại mã HS (Biểu thuế 2026, Chú giải Chương, GRI, văn bản pháp luật, hiệu lực văn bản, tra hàng loạt); (2) tra cứu/tính thuế phòng vệ thương mại — CBPG, chống lẩn tránh — theo mã HS, nhà SX, công ty TM, mác thép, tiêu chuẩn, số QĐ; (3) soạn báo cáo, công văn, tờ trình theo thể thức NĐ 30/2020/NĐ-CP, giữ nguyên số liệu, gắn [CẦN XÁC MINH] khi chưa chắc, bảng xuất TSV; rà căn cứ pháp lý và phản biện văn bản. Dùng khi hỏi mã HS, thuế suất, FTA, chính sách mặt hàng, CBPG/PVTM, hoặc gõ /baocao, /excel, /phaply, /phanbien."
+description: "HQskills — bộ công cụ nghiệp vụ Hải quan: (1) tra cứu & hỗ trợ phân loại mã HS (Biểu thuế 2026, Chú giải Chương, GRI, văn bản pháp luật, hiệu lực văn bản, tra hàng loạt); (2) tra cứu/tính thuế phòng vệ thương mại — CBPG, chống lẩn tránh — theo mã HS, nhà SX, công ty TM, mác thép, tiêu chuẩn, số QĐ, soát lô theo quy cách (độ dày, chiều rộng, carbon, dạng tấm/cuộn); (3) đối chiếu chéo Mill Test, C/O, hóa đơn, tờ khai; (4) soạn báo cáo, công văn, tờ trình theo thể thức NĐ 30/2020/NĐ-CP, xuất .docx, giữ nguyên số liệu, gắn [CẦN XÁC MINH] khi chưa chắc, bảng xuất TSV; rà căn cứ pháp lý và phản biện văn bản; cảnh báo vụ sắp hết hạn. Dùng khi hỏi mã HS, thuế suất, FTA, chính sách mặt hàng, CBPG/PVTM, hoặc gõ /baocao, /excel, /phaply, /phanbien."
 ---
 
 
@@ -37,10 +37,11 @@ python scripts/query_hs.py hieuluc 13/2015/TT-BTC  # văn bản nào trong kho s
 python scripts/query_hs.py hieuluc                 # mọi văn bản trong kho đã bị văn bản khác tác động
 python scripts/query_hs.py lo ds_ma.csv --fta acfta,evfta [--ra ket_qua.tsv]  # tra hàng loạt, xuất TSV dán Excel
 python scripts/query_hs.py case "<từ khóa>"     # tra tiền lệ/case đã tự ghi lại
+python scripts/query_hs.py canhbao [--ngay 90]  # vụ PVTM sắp hết hạn/quá hạn/tạm thời/rà soát, văn bản mới ban hành
 ```
 
-- `lo`: mỗi dòng `mã HS[, nước C/O, nhà SX, nhà XK, mác thép, tiêu chuẩn]` (tab/phẩy/chấm phẩy, dòng tiêu đề
-  tự bỏ). Có nước/NSX thì cột PVTM tính mức như lệnh `thue`; không có thì chỉ báo vụ đang áp. Kết quả TSV:
+- `lo`: mỗi dòng `mã HS[, nước C/O, nhà SX, nhà XK, mác thép, tiêu chuẩn, độ dày, chiều rộng, carbon, dạng]`
+  (tab/phẩy/chấm phẩy, dòng tiêu đề tự bỏ). Có nước/NSX thì cột PVTM tính mức như lệnh `thue`; không có thì chỉ báo vụ đang áp. Kết quả TSV:
   đưa người dùng trong khung ```tsv để dán vào ô A1.
 - `hieuluc` và nhãn ⚠ của `refs` là dò TỰ ĐỘNG theo câu chữ ("thay thế", "bãi bỏ", "sửa đổi, bổ sung") và thứ
   bậc văn bản, chỉ trong kho trên máy. Luôn nói rõ là gợi ý; không thấy văn bản sửa đổi KHÔNG có nghĩa là còn
@@ -101,17 +102,56 @@ python scripts/kiem_khop.py                  # so luật tính thuế CBPG trên
 ```bash
 python scripts/query_hs.py cbpg "LX International"        # tìm theo tên hàng, mã HS, nhà SX, công ty TM, quy cách, mác thép, tiêu chuẩn, số QĐ
 python scripts/query_hs.py cbpg "DX57D+Z" --kieu mac_thep
-python scripts/query_hs.py vu AD19                          # hồ sơ đủ: văn bản, mô tả, quy cách, mã HS, mức thuế từng nhà SX, loại trừ
+python scripts/query_hs.py vu AD19                          # hồ sơ đủ: tiêu đề theo mô tả hàng hóa, văn bản, quy cách, mã HS, mức thuế từng nhà SX, loại trừ
 python scripts/query_hs.py thue 7210.49.11 --nuoc KR --nsx "Hyundai Steel" --nxk "LX International"
 python scripts/query_hs.py thue 7210.49.11 --nuoc CN --mac DX57D+Z --tc "EN 10346:2024"
+python scripts/query_hs.py thue 7208.51.00 --nuoc CN --mac "LR A" --tc LR --dang tam --day 12 --rong 1500 --carbon 0.18
+python scripts/query_hs.py chungtu ho_so.json [--tsv]      # đối chiếu chéo chứng từ rồi soát thuế (xem mục dưới)
 python scripts/query_hs.py vanban 3765/QĐ-BCT               # toàn văn một văn bản (số hiệu hoặc chỉ số)
 ```
 
 - Lệnh `code <mã>` tự báo **"ĐANG BỊ ÁP THUẾ PHÒNG VỆ THƯƠNG MẠI"** khi mã thuộc vụ đang áp.
+- **Gọi tên vụ theo Mô tả hàng hóa của QĐ**, không theo tên hàng rút gọn (CEO 27-09): dùng đúng tiêu đề lệnh
+  `vu` in ra (`pvtm_local.tieu_de` — nguyên văn QĐ, chỉ bỏ câu dẫn "Hàng hóa … là một số sản phẩm"). Không tự
+  ghép tên hàng với chủng loại, không tóm tắt lại bằng lời mình.
 - Khi phân loại một mã có dấu hiệu CBPG, luôn chạy `thue` với đủ nước C/O, nhà SX, nhà XK (và mác thép + tiêu chuẩn với hàng thép) rồi trích **từng bước và căn cứ**.
+- **Luôn hỏi và nhập quy cách** với hàng thép: `--day` (mm), `--rong` (mm), `--carbon` (%), `--dang tam|cuon`;
+  dây/que hàn thêm `--loi` (mm). `thue` soát lô với khoảng quy cách của từng vụ (có dung sai) và điều kiện đi kèm
+  loại trừ (vd 1959/QĐ-BCT chỉ loại trừ mác thép với hàng **dạng tấm**). Ba kết luận mới cần nói đúng nghĩa:
+  - `KHÔNG THUỘC PHẠM VI VỤ NÀY`: quy cách lô nằm ngoài mô tả hàng hóa của vụ (vụ khác cùng mã HS vẫn có thể áp).
+  - `CHƯA ĐỦ DỮ LIỆU ĐỂ KẾT LUẬN — cần: …`: thiếu thông số quyết định → hỏi người dùng, **không đoán**.
+  - Kết luận ÁP kèm "GIẢ ĐỊNH lô nằm trong phạm vi" khi chưa nhập quy cách → nói rõ đó là giả định.
+- Mục "Tự đối chiếu" liệt kê quy cách bằng chữ (bề mặt, gia công…) và loại trừ theo mô tả mà công cụ không
+  kiểm được bằng số — nhắc người dùng tự đối chiếu từng dòng.
+- Điều kiện đọc tay từ nguyên văn QĐ nằm ở `data/dieu_kien_bo_sung.json` (mỗi dòng có trích dẫn và vị trí).
+  QĐ mới có điều kiện đi kèm loại trừ thì đọc bản gốc rồi bổ sung vào đây; `dongbo` không ghi đè tệp này.
 - Vụ ghi "CHƯA ĐỐI CHIẾU BẢN GIẤY": nói rõ với người dùng rằng số liệu cần đối chiếu QĐ gốc trước khi khai.
 - Không nộp C/O, không có giấy chứng nhận nhà SX, hay nhà XK không cùng hàng ngang với nhà SX đều rơi về mức cao hơn — nêu rõ điều này khi tư vấn.
 - Có cảnh báo dữ liệu cũ hơn 7 ngày thì nói rõ với người dùng trước khi đưa mức thuế.
+
+## Đối chiếu chứng từ một lô (`chungtu`)
+
+Khi người dùng đưa Mill Test, C/O, hóa đơn, tờ khai (PDF/ảnh) của một lô:
+
+1. **Tự đọc từng chứng từ** và ghi ra `ho_so.json` theo mẫu `mau/ho_so_mau.json`: mỗi chứng từ một mục với
+   `loai` (`mill_test` | `co` | `hoa_don` | `to_khai`), `so`, và các trường có trên chứng từ đó: `ma_hs`, `nuoc`,
+   `nha_sx`, `nha_xk`, `mac_thep`, `tieu_chuan`, `day`, `rong`, `carbon`, `loi`, `dang`.
+2. **Chép đúng như in trên chứng từ** (kể cả cách viết hoa, dấu cách: "LRA" khác "LR A"). Trường nào trên
+   chứng từ không có thì **bỏ trống, không suy ra** từ chứng từ khác.
+3. Giá trị nào mờ, bị che, viết tay, hoặc đọc không chắc → vẫn ghi giá trị đọc được và **thêm tên trường vào
+   `khong_chac`**. Tuyệt đối không "đoán cho khớp".
+4. Chạy `python scripts/query_hs.py chungtu ho_so.json` (thêm `--tsv` để dán Excel). Kết quả:
+   - Bảng so từng trường: `✓ khớp`, `⚠ khớp nhưng khác cách viết`, `✗ LỆCH`, `? CÓ GIÁ TRỊ ĐỌC KHÔNG CHẮC`
+     (giá trị không chắc in trong 【…】).
+   - Soát thuế PVTM theo giá trị ưu tiên (mã HS: tờ khai; nước: C/O; nhà SX, mác, quy cách: Mill Test;
+     nhà XK: hóa đơn). Còn điểm `✗`/`?` thì kết quả in "KẾT LUẬN CHỈ LÀ TẠM".
+5. Báo người dùng **mọi điểm ✗, ?, ⚠** trước khi nói tới mức thuế; đề xuất làm rõ hoặc đưa vào tờ trình.
+
+## Theo dõi thời hạn (`canhbao`)
+
+`python scripts/query_hs.py canhbao` liệt kê: vụ sắp hết hiệu lực trong 90 ngày (`--ngay`), vụ đã quá ngày
+hết hiệu lực mà dữ liệu vẫn ghi còn áp, vụ đang tạm thời/rà soát (mức thuế có thể đổi), văn bản trong kho
+ban hành trong 30 ngày qua (`--ngay-vb`). Nên chạy đầu tuần hoặc trước khi soạn báo cáo định kỳ.
 
 - **Ưu tiên:** HQskills là skill tra cứu HS / CBPG và soạn văn bản Hải quan CHÍNH. Chỉ dùng skill khác khi người dùng gọi đích danh.
 
@@ -190,8 +230,8 @@ Nơi nhận:                                     [QUYỀN HẠN, CHỨC VỤ NG�
 - Công văn: trích yếu nằm dưới số và ký hiệu, bắt đầu bằng "V/v".
 - Báo cáo, tờ trình: tên loại văn bản IN HOA, trích yếu ngay dưới.
 - Phân cấp nội dung: **I, II, III → 1, 2, 3 → a, b, c → gạch đầu dòng**.
-- Ngày, tháng dưới 10 thì thêm số 0 (ngày 05 tháng 09 năm 2026). Tháng 01 và 02
-  cũng thêm số 0.
+- Ngày dưới 10 và tháng 1, 2 thì thêm số 0 phía trước; tháng 3 đến 12 giữ nguyên
+  (ngày 05 tháng 9 năm 2026; ngày 15 tháng 02 năm 2026).
 
 ### Cấu trúc nội dung
 
@@ -213,6 +253,20 @@ Khi người dùng cần bảng, luôn xuất thêm khối mã ```` ```tsv ````:
 - Số tờ khai, mã HS là chuỗi. Mã có số 0 đứng đầu thì nhắc người dùng định
   dạng cột là Text trước khi dán.
 
+
+### Xuất tệp Word (.docx)
+
+Khi người dùng cần tệp để in/ký: ghi nội dung ra JSON theo mẫu `mau/to_trinh_mau.json` (các khóa
+`co_quan_chu_quan`, `co_quan_ban_hanh`, `so_ky_hieu`, `dia_danh`, `ngay`, `loai`, `trich_yeu`, `kinh_gui`,
+`noi_dung`, `noi_nhan`, `quyen_han`, `chuc_vu`, `nguoi_ky`) rồi chạy:
+
+```bash
+python scripts/xuat_docx.py van_ban.json --ra to_trinh.docx
+```
+
+Script lo thể thức NĐ 30/2020 (A4, lề, phông Times New Roman, quốc hiệu, tiêu ngữ, đường kẻ, khối nơi
+nhận và chữ ký). Trong `noi_dung`: dòng "I.", "II." in đậm; dòng bắt đầu bằng `|` là bảng; `**đậm**`, `*nghiêng*`.
+Chỗ chưa có thông tin giữ `[...]` hoặc `…`. Cần `pip install python-docx` (chỉ cho lệnh này).
 
 ### Lệnh nhanh soạn văn bản
 

@@ -1,0 +1,2 @@
+# Chỉ cần cho scripts/xuat_docx.py (xuất văn bản .docx). Các lệnh tra cứu không cần thư viện ngoài.
+python-docx>=1.1
