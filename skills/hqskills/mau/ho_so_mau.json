@@ -1,0 +1,10 @@
+{
+  "ghi_chu": "Hồ sơ mẫu để thử lệnh chungtu — số liệu giả định, không phải lô thật.",
+  "chung_tu": [
+    {"loai": "mill_test", "so": "MTC-0001", "nha_sx": "Hingfui Steel Co., Ltd", "mac_thep": "LRA", "tieu_chuan": "LR",
+     "day": 12, "rong": 1500, "carbon": 0.18, "dang": "tam", "khong_chac": ["carbon"]},
+    {"loai": "co", "so": "E26CN0001", "nuoc": "China", "nha_sx": "HINGFUI STEEL CO LTD", "nha_xk": "ABC Trading Ltd", "ma_hs": "7208.51"},
+    {"loai": "hoa_don", "so": "INV-0001", "nha_xk": "ABC Trading Limited", "mac_thep": "LR A", "day": 12, "rong": 1520},
+    {"loai": "to_khai", "so": "1023648796", "ma_hs": "72085100", "nuoc": "CN", "nha_xk": "ABC Trading Ltd"}
+  ]
+}

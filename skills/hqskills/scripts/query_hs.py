@@ -38,6 +38,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ilms_api  # noqa: E402  — CHỈ dùng khi đồng bộ (`dongbo`); tra cứu luôn đọc dữ liệu trên máy
 import pvtm_local as pl
 import soat_lo  # noqa: E402
+import doi_chieu as dc  # noqa: E402
 import hieu_luc as hl  # noqa: E402
 
 
@@ -133,7 +134,10 @@ def cmd_thue(code, nuoc=None, nsx=None, nxk=None, mac=None, tc=None, day=None, r
              loi=None, dang=None):
     lo = {"code": code, "nuoc_co": nuoc, "nha_sx": nsx, "nha_xk": nxk, "mac_thep": mac, "tieu_chuan": tc,
           "day": day, "rong": rong, "carbon": carbon, "loi": loi, "dang": dang}
-    r = soat_lo.soat(_kho(), lo)
+    _in_thue(soat_lo.soat(_kho(), lo))
+
+
+def _in_thue(r):
     if not r["vu_viec"]:
         print(f"Mã {_ma(r['code'])}: KHÔNG thuộc vụ phòng vệ thương mại nào đang áp (dữ liệu trên máy).")
         return
@@ -634,6 +638,33 @@ def cmd_canhbao(ngay=90, ngay_vb=30, hom_nay=None):
         print(f"      {v['tieu_de'][:110]}")
 
 
+def cmd_chungtu(tep, tsv=False):
+    """Đối chiếu chéo chứng từ (JSON do Claude trích) rồi soát thuế PVTM cho lô."""
+    with open(tep, encoding="utf-8") as fh:
+        ho_so = json.load(fh)
+    dong, lo, canh_bao = dc.doi_chieu(ho_so)
+    cot = [l for l in dc.LOAI if any(l in d["gia_tri"] for d in dong)]
+    dau = ["Trường"] + [dc.LOAI[l] for l in cot] + ["Kết quả"]
+    bang = [dau] + [[d["nhan"]] + [d["gia_tri"].get(l, "") for l in cot] + [d["ket"]] for d in dong]
+    print("=== ĐỐI CHIẾU CHÉO CHỨNG TỪ ===")
+    if tsv:
+        print("\n".join("\t".join(_o(x) for x in h) for h in bang))
+    else:
+        rong = [max(len(str(h[i])) for h in bang) for i in range(len(dau))]
+        for h in bang:
+            print("  " + " | ".join(str(x).ljust(rong[i]) for i, x in enumerate(h)))
+    kho = _kho()
+    for c in canh_bao + dc.canh_bao_cach_viet_mac(kho, lo):
+        print(f"! {c}")
+    print()
+    print("=== SOÁT THUẾ PHÒNG VỆ THƯƠNG MẠI (theo giá trị ưu tiên ở trên) ===")
+    chua_ro = [d["nhan"] for d in dong if d["ket"].startswith(("✗", "?"))]
+    if chua_ro:
+        print(f"!!! KẾT LUẬN DƯỚI ĐÂY CHỈ LÀ TẠM — còn {len(chua_ro)} điểm lệch/đọc không chắc: "
+              + ", ".join(chua_ro) + ". Làm rõ trước khi xác định thuế.")
+    _in_thue(soat_lo.soat(kho, dc.lo_tinh_thue(lo)))
+
+
 def cmd_hieuluc(ma=None):
     """Quan hệ hiệu lực của một văn bản; không có số hiệu -> mọi văn bản đã có văn bản khác tác động."""
     ds = kho_van_ban()
@@ -726,6 +757,10 @@ def main():
     sp.add_argument("--fta", default="", help="Các cột FTA cần in, vd acfta,atiga,evfta")
     sp.add_argument("--ra", help="Ghi TSV ra tệp (UTF-8 có BOM để Excel đọc đúng tiếng Việt)")
 
+    sp = sub.add_parser("chungtu", help="Đối chiếu chéo Mill Test/C-O/hóa đơn/tờ khai (JSON) rồi soát thuế PVTM")
+    sp.add_argument("tep", help="Tệp JSON hồ sơ chứng từ (xem scripts/doi_chieu.py)")
+    sp.add_argument("--tsv", action="store_true", help="In bảng đối chiếu dạng TSV để dán Excel")
+
     sp = sub.add_parser("canhbao", help="Vụ PVTM sắp hết hạn/quá hạn/tạm thời/rà soát, văn bản mới ban hành")
     sp.add_argument("--ngay", type=int, default=90, help="Nhìn trước bao nhiêu ngày (mặc định 90)")
     sp.add_argument("--ngay-vb", type=int, default=30, help="Văn bản ban hành trong bao nhiêu ngày qua (mặc định 30)")
@@ -770,6 +805,7 @@ def main():
               "vu": lambda: cmd_vu(args.ma), "hieuluc": lambda: cmd_hieuluc(args.ma),
               "lo": lambda: cmd_lo(args.tep, args.fta, args.ra),
               "canhbao": lambda: cmd_canhbao(args.ngay, args.ngay_vb, args.hom_nay),
+              "chungtu": lambda: cmd_chungtu(args.tep, args.tsv),
               "thue": lambda: cmd_thue(args.code, args.nuoc, args.nsx, args.nxk, args.mac, args.tc,
                                          args.day, args.rong, args.carbon, args.loi, args.dang)}
     if args.cmd in chuyen:

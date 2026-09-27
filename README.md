@@ -4,7 +4,7 @@ Bộ skill Claude cho nghiệp vụ hải quan.
 
 | Skill | Việc |
 |---|---|
-| [`HQskills`](skills/hqskills) | Tra cứu mã HS, Biểu thuế 2026, Chú giải Chương, GRI và văn bản pháp luật (CBPG, NĐ/TT, công văn); tính thuế CBPG cho lô hàng; soạn báo cáo, công văn theo NĐ 30/2020 (`/baocao`, `/excel`, `/phaply`, `/phanbien`). Chạy độc lập trên máy, đồng bộ dữ liệu bằng `dongbo`. |
+| [`HQskills`](skills/hqskills) | Tra cứu mã HS, Biểu thuế 2026, Chú giải Chương, GRI và văn bản pháp luật (CBPG, NĐ/TT, công văn); tính thuế CBPG cho lô hàng có soát quy cách; đối chiếu chéo chứng từ (`chungtu`); cảnh báo thời hạn (`canhbao`); soạn báo cáo, công văn theo NĐ 30/2020 (`/baocao`, `/excel`, `/phaply`, `/phanbien`) và xuất .docx. Chạy độc lập trên máy, đồng bộ dữ liệu bằng `dongbo`. |
 
 ## Cài một skill
 

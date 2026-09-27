@@ -150,3 +150,17 @@ căn cứ tra từ chính kho của skill:
 
 Ký hiệu cần xử lý sau khi nhận văn bản: `[...]` (điền vào),
 `[CẦN XÁC MINH LẠI SỐ LIỆU]`, `[CẦN XÁC MINH CĂN CỨ]`, `[CẦN XÁC MINH HIỆU LỰC]`.
+
+## Soát lô, đối chiếu chứng từ, cảnh báo thời hạn
+
+| Lệnh | Việc làm |
+|---|---|
+| `thue <mã> --nuoc … --mac … --tc … --dang tam\|cuon --day … --rong … --carbon … [--loi …]` | Tính thuế CBPG **có soát quy cách**: lô ngoài phạm vi vụ, điều kiện đi kèm loại trừ (vd chỉ dạng tấm), thiếu thông số quyết định thì báo CHƯA ĐỦ DỮ LIỆU |
+| `chungtu ho_so.json [--tsv]` | So từng trường giữa Mill Test, C/O, hóa đơn, tờ khai (khớp / khác cách viết / lệch / đọc không chắc) rồi soát thuế |
+| `canhbao [--ngay 90]` | Vụ PVTM sắp hết hạn, quá hạn, tạm thời, rà soát; văn bản mới ban hành |
+| `scripts/xuat_docx.py van_ban.json --ra van_ban.docx` | Xuất tờ trình, công văn, báo cáo ra Word đúng thể thức NĐ 30/2020 (cần `pip install python-docx`) |
+
+Điều kiện đọc tay từ nguyên văn QĐ (vd 1959/QĐ-BCT chỉ loại trừ mác thép với hàng dạng tấm) nằm ở
+`data/dieu_kien_bo_sung.json`. Mẫu đầu vào: `mau/ho_so_mau.json`, `mau/to_trinh_mau.json`.
+
+Kiểm thử: `python -m unittest discover -s skills/hqskills/tests`
