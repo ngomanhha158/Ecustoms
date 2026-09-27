@@ -2,7 +2,7 @@
 """Nối công cụ với kho Tra cứu HS của ILMSv2 (/api/tracuu).
 
 Bật khi có biến môi trường:
-    ILMS_URL   vd https://truelogistics.up.railway.app
+    ILMS_URL   vd https://<dia-chi-may-chu>
     ILMS_TOKEN token đăng nhập, HOẶC ILMS_USER + ILMS_PASS để tự đăng nhập
 Không có ILMS_URL -> các lệnh chạy trên tệp máy như cũ.
 """

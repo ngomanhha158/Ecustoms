@@ -9,7 +9,7 @@ thép hình chữ H).
 ## Cấu trúc thư mục
 
 ```
-Ecustoms/
+hqskills/
 ├── data/
 │   ├── hs_tree.json        # Biểu thuế XNK — nhập qua import_tariff.py
 │   ├── chapter_notes.json  # Chú giải pháp lý theo Chương
@@ -98,7 +98,7 @@ Mọi lệnh tra cứu (`code`, `search`, `chapter`, `heading`, `gri`, `refs`, `
 ILMS. ILMSv2 chỉ dùng ở lệnh đồng bộ:
 
 ```powershell
-$env:ILMS_URL  = "https://truelogistics.up.railway.app"
+$env:ILMS_URL  = "https://<dia-chi-may-chu>"
 $env:ILMS_USER = "tai_khoan_ilms"      # hoặc $env:ILMS_TOKEN = "<token>"
 $env:ILMS_PASS = "mat_khau"
 python scripts/query_hs.py dongbo            # kéo văn bản + kho CBPG về máy, đẩy văn bản chỉ có trên máy lên
@@ -134,4 +134,19 @@ python scripts/query_hs.py vanban 3765/QĐ-BCT               # toàn văn một 
 - Không nộp C/O, không có giấy chứng nhận nhà SX, hay nhà XK không cùng hàng ngang với nhà SX đều rơi về mức cao hơn — nêu rõ điều này khi tư vấn.
 - Có cảnh báo dữ liệu cũ hơn 7 ngày thì nói rõ với người dùng trước khi đưa mức thuế.
 
-- **Ưu tiên:** Ecustoms là skill tra cứu HS / CBPG CHÍNH. Chỉ dùng skill khác khi người dùng gọi đích danh.
+- **Ưu tiên:** HQskills là skill tra cứu HS / CBPG và soạn văn bản Hải quan CHÍNH. Chỉ dùng skill khác khi người dùng gọi đích danh.
+
+## Soạn văn bản Hải quan
+
+HQskills còn soạn báo cáo, công văn, tờ trình theo thể thức NĐ 30/2020/NĐ-CP,
+căn cứ tra từ chính kho của skill:
+
+| Lệnh | Việc làm |
+|---|---|
+| `/baocao [nội dung thô]` | Dự thảo báo cáo: Kết quả → Tồn tại → Nguyên nhân → Kiến nghị |
+| `/excel [dữ liệu]` | Bảng TSV dán thẳng vào ô A1 của Excel |
+| `/phaply [vụ việc]` | Rà căn cứ pháp lý, chỉ lỗ hổng, gợi ý NĐ/TT cần bổ sung |
+| `/phanbien [văn bản]` | Đóng vai lãnh đạo Cục, đặt câu hỏi phản biện |
+
+Ký hiệu cần xử lý sau khi nhận văn bản: `[...]` (điền vào),
+`[CẦN XÁC MINH LẠI SỐ LIỆU]`, `[CẦN XÁC MINH CĂN CỨ]`, `[CẦN XÁC MINH HIỆU LỰC]`.

@@ -1,10 +1,10 @@
-# Ecustoms
+# HQskills
 
-Bộ skill Claude cho nghiệp vụ hải quan của True Logistics.
+Bộ skill Claude cho nghiệp vụ hải quan.
 
 | Skill | Việc |
 |---|---|
-| [`Ecustoms`](skills/Ecustoms) | Tra cứu mã HS, Biểu thuế 2026, Chú giải Chương, GRI và văn bản pháp luật (CBPG, NĐ/TT, công văn). Chạy độc lập trên máy, đồng bộ dữ liệu với ILMSv2 bằng `dongbo`. |
+| [`HQskills`](skills/hqskills) | Tra cứu mã HS, Biểu thuế 2026, Chú giải Chương, GRI và văn bản pháp luật (CBPG, NĐ/TT, công văn); tính thuế CBPG cho lô hàng; soạn báo cáo, công văn theo NĐ 30/2020 (`/baocao`, `/excel`, `/phaply`, `/phanbien`). Chạy độc lập trên máy, đồng bộ dữ liệu bằng `dongbo`. |
 
 ## Cài một skill
 
@@ -13,7 +13,7 @@ vào `.claude/skills/` của một repo (cả đội dùng chung):
 
 ```powershell
 git clone https://github.com/ngomanhha158/Ecustoms.git
-Copy-Item -Recurse Ecustoms\skills\Ecustoms "$env:USERPROFILE\.claude\skills\"
+Copy-Item -Recurse Ecustoms\skills\hqskills "$env:USERPROFILE\.claude\skills\"
 ```
 
 Dữ liệu nền là văn bản pháp luật công khai (Biểu thuế XNK 2026, TT 31/2022,
