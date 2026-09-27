@@ -18,7 +18,6 @@ cố định để phần kết luận không phụ thuộc vào việc mô hìn
 không bao giờ bị coi là đã khớp.
 """
 import pvtm_local as pl
-import soat_lo
 
 LOAI = {"mill_test": "Mill Test", "co": "C/O", "hoa_don": "Hóa đơn", "to_khai": "Tờ khai", "khac": "Khác"}
 # trường -> (nhãn, thứ tự ưu tiên chứng từ khi lấy giá trị để tính thuế)
@@ -46,7 +45,7 @@ def _chuan(truong, v):
     if truong == "nuoc":
         try:
             return pl.chuan_nuoc(str(v))
-        except SystemExit:
+        except ValueError:
             return pl.bo_dau(str(v))
     if truong in ("nha_sx", "nha_xk"):
         return pl.chuan_ten_cong_ty(str(v))
@@ -55,7 +54,10 @@ def _chuan(truong, v):
     if truong == "tieu_chuan":
         return pl._chuan_tc(str(v))
     if truong == "dang":
-        return soat_lo.chuan_dang(str(v))
+        try:
+            return pl.chuan_dang(str(v))
+        except ValueError:   # chữ lạ: giữ nguyên để hiện thành điểm lệch, không đoán
+            return pl.bo_dau(str(v))
     return pl.so(v)
 
 
@@ -122,7 +124,7 @@ def canh_bao_cach_viet_mac(kho, lo):
 
 
 def lo_tinh_thue(lo):
-    """Lô đã đối chiếu -> đầu vào cho soat_lo.soat."""
+    """Lô đã đối chiếu -> đầu vào cho pvtm_local.tinh_cho_lo."""
     ma = pl.la_ma_hs(str(lo.get("ma_hs") or ""))
     if not ma or len(ma) != 8:
         raise SystemExit(f"Chưa có mã HS 8 số trên chứng từ (đang có: {lo.get('ma_hs') or 'không'}) — "

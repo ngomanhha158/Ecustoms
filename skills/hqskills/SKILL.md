@@ -87,12 +87,14 @@ python scripts/kiem_khop.py                  # so luật tính thuế CBPG trên
 ```
 
 - `dongbo` kéo: mọi văn bản về `references/<loại>/`, mọi vụ phòng vệ thương mại (đủ hồ sơ,
-  mức thuế từng nhà SX, công ty TM, loại trừ) về `data/pvtm.json`. Ghi xong mới thay tệp cũ.
+  mức thuế từng nhà SX, công ty TM, loại trừ, điều kiện đi kèm loại trừ `dieu_kien`) về `data/pvtm.json`.
+  Ghi xong mới thay tệp cũ.
 - Dữ liệu CBPG cũ hơn **7 ngày** thì `cbpg`/`vu`/`thue` in cảnh báo đầu kết quả — mức thuế đổi
   theo QĐ mới, nhắc người dùng chạy `dongbo`.
-- Luật tính thuế CBPG (`scripts/pvtm_local.py`) là **bản chép** luật của ILMSv2
-  (`backend/app/services/pvtm.py`). ILMS đổi luật thì chép lại khối "LUẬT" rồi chạy
-  `kiem_khop.py`; lệch dù một lô là chưa được dùng.
+- Luật tính thuế CBPG, kể cả soát lô theo quy cách (`scripts/pvtm_local.py`, khối "LUẬT"), là **bản chép
+  nguyên văn** ILMSv2 `backend/app/services/pvtm.py` — một luật chỉ viết một chỗ, ở ILMS. ILMS đổi luật thì
+  chạy `python scripts/chep_luat_ilms.py <ILMS>/backend/app/services/pvtm.py --commit <sha>` (không sửa tay),
+  rồi chạy test và `kiem_khop.py`; lệch dù một lô là chưa được dùng.
 - `add_reference.py` có `ILMS_URL` thì gửi văn bản mới lên kho ILMS (cần quyền `tracuu.manage`:
   MANAGER, ACCOUNTANT, DOCS), sau đó chạy `dongbo --chi-keo` để có bản trên máy.
 - Biểu thuế, Chú giải, GRI trong `data/` là dữ liệu gốc của skill (ILMS được nạp từ chính các tệp này).
@@ -123,8 +125,9 @@ python scripts/query_hs.py vanban 3765/QĐ-BCT               # toàn văn một 
   - Kết luận ÁP kèm "GIẢ ĐỊNH lô nằm trong phạm vi" khi chưa nhập quy cách → nói rõ đó là giả định.
 - Mục "Tự đối chiếu" liệt kê quy cách bằng chữ (bề mặt, gia công…) và loại trừ theo mô tả mà công cụ không
   kiểm được bằng số — nhắc người dùng tự đối chiếu từng dòng.
-- Điều kiện đọc tay từ nguyên văn QĐ nằm ở `data/dieu_kien_bo_sung.json` (mỗi dòng có trích dẫn và vị trí).
-  QĐ mới có điều kiện đi kèm loại trừ thì đọc bản gốc rồi bổ sung vào đây; `dongbo` không ghi đè tệp này.
+- Điều kiện đi kèm loại trừ (trích nguyên văn + vị trí trong QĐ) nhập ở ILMS (bảng `pvtm_dieu_kien`) và về máy
+  qua `dongbo`. QĐ mới có điều kiện đi kèm loại trừ thì báo người quản lý ILMS nhập — skill không giữ bản riêng.
+  Có cảnh báo "chưa có điều kiện đi kèm loại trừ" thì chạy `dongbo` trước khi kết luận "không áp" theo mác thép.
 - Vụ ghi "CHƯA ĐỐI CHIẾU BẢN GIẤY": nói rõ với người dùng rằng số liệu cần đối chiếu QĐ gốc trước khi khai.
 - Không nộp C/O, không có giấy chứng nhận nhà SX, hay nhà XK không cùng hàng ngang với nhà SX đều rơi về mức cao hơn — nêu rõ điều này khi tư vấn.
 - Có cảnh báo dữ liệu cũ hơn 7 ngày thì nói rõ với người dùng trước khi đưa mức thuế.

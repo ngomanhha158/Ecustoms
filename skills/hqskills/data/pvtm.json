@@ -148,7 +148,686 @@
      "vu_khac": null
     }
    ],
-   "muc_cao": 27.83
+   "muc_cao": 27.83,
+   "dieu_kien": [
+    {
+     "loai": "ke_thua_mac_thep",
+     "dieu_kien": {
+      "vu": "AD20"
+     },
+     "trich": "Các sản phẩm thép cán nóng được loại trừ khỏi phạm vi áp dụng thuế CBPG chính thức theo Quyết định số 1959/QĐ-BCT ngày 04 tháng 07 năm 2025",
+     "can_cu": "612/QĐ-BCT — Thông báo kèm theo, Mục 3.2",
+     "loai_tru_mac": [
+      {
+       "mac_thep": "ABS A",
+       "tieu_chuan": "ABS"
+      },
+      {
+       "mac_thep": "ABS B",
+       "tieu_chuan": "ABS"
+      },
+      {
+       "mac_thep": "ABS D",
+       "tieu_chuan": "ABS"
+      },
+      {
+       "mac_thep": "ABS E",
+       "tieu_chuan": "ABS"
+      },
+      {
+       "mac_thep": "A131 A",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 B",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 D",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 E",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 AH36",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 AH40",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 DH32",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 DH36",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 DH40",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 EH32",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 EH36",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 EH40",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 FH32",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 FH36",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 FH40",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "BV AH32",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV AH36",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV AH40",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV DH32",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV DH36",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV DH40",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV EH32",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV EH36",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV EH40",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV FH36",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV FH40",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "NV A",
+       "tieu_chuan": "DNV"
+      },
+      {
+       "mac_thep": "NV B",
+       "tieu_chuan": "DNV"
+      },
+      {
+       "mac_thep": "NV D",
+       "tieu_chuan": "DNV"
+      },
+      {
+       "mac_thep": "NV E",
+       "tieu_chuan": "DNV"
+      },
+      {
+       "mac_thep": "LR A",
+       "tieu_chuan": "LR"
+      },
+      {
+       "mac_thep": "LR B",
+       "tieu_chuan": "LR"
+      },
+      {
+       "mac_thep": "LR D",
+       "tieu_chuan": "LR"
+      },
+      {
+       "mac_thep": "LR E",
+       "tieu_chuan": "LR"
+      },
+      {
+       "mac_thep": "BV A",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV B",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV D",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV E",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "RINA A",
+       "tieu_chuan": "RINA"
+      },
+      {
+       "mac_thep": "RINA B",
+       "tieu_chuan": "RINA"
+      },
+      {
+       "mac_thep": "RINA D",
+       "tieu_chuan": "RINA"
+      },
+      {
+       "mac_thep": "RINA E",
+       "tieu_chuan": "RINA"
+      },
+      {
+       "mac_thep": "GL A",
+       "tieu_chuan": "GL"
+      },
+      {
+       "mac_thep": "GL B",
+       "tieu_chuan": "GL"
+      },
+      {
+       "mac_thep": "GL D",
+       "tieu_chuan": "GL"
+      },
+      {
+       "mac_thep": "GL E",
+       "tieu_chuan": "GL"
+      },
+      {
+       "mac_thep": "CCS AH32",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS AH36",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS AH40",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS DH32",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS DH36",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS DH40",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS EH32",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS EH36",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS EH40",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS FH32",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS FH40",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS A",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS B",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS D",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS E",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "KR A",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR B",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR D",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR E",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR AH36",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR AH40",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR DH36",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR DH40",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR EH32",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR EH36",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR FH32",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR FH36",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR FH40",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "NK KA",
+       "tieu_chuan": "NK"
+      },
+      {
+       "mac_thep": "NK KB",
+       "tieu_chuan": "NK"
+      },
+      {
+       "mac_thep": "NK KD",
+       "tieu_chuan": "NK"
+      },
+      {
+       "mac_thep": "NK KE",
+       "tieu_chuan": "NK"
+      },
+      {
+       "mac_thep": "NV AH32",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV AH36",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV AH40",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV DH32",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV DH36",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV DH40",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV EH32",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV EH36",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV EH40",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV FH32",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV FH36",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV FH40",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "RS A",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS B",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS D",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS E",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS AH32",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS AH36",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS AH40",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS EH36",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS DH32",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS DH36",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS DH40",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS EH32",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS EH40",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS FH36",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS FH40",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "A514 Gr.Q",
+       "tieu_chuan": "ASTM A514"
+      },
+      {
+       "mac_thep": "A514 Gr.F",
+       "tieu_chuan": "ASTM A514"
+      },
+      {
+       "mac_thep": "A517 Gr.Q",
+       "tieu_chuan": "ASTM A517"
+      },
+      {
+       "mac_thep": "A572 Gr.65",
+       "tieu_chuan": "ASTM A572"
+      },
+      {
+       "mac_thep": "A709 Gr.50",
+       "tieu_chuan": "ASTM A709/A709M"
+      },
+      {
+       "mac_thep": "A709 Gr.50W",
+       "tieu_chuan": "ASTM A709/A709M"
+      },
+      {
+       "mac_thep": "A709 Gr.70",
+       "tieu_chuan": "ASTM A709/A709M"
+      },
+      {
+       "mac_thep": "A709 Gr.70W",
+       "tieu_chuan": "ASTM A709/A709M"
+      },
+      {
+       "mac_thep": "A913 Gr.70",
+       "tieu_chuan": "ASTM A913"
+      },
+      {
+       "mac_thep": "S355NL",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S355NL Z15",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S420NL",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S420NL",
+       "tieu_chuan": "EN 10025-4:2019"
+      },
+      {
+       "mac_thep": "S420ML",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S420ML",
+       "tieu_chuan": "EN 10025-4:2019"
+      },
+      {
+       "mac_thep": "S420NL Z15",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S420NL Z25",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S420NL Z35",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S420NL C",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S420NL D",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S460NL",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S460NL",
+       "tieu_chuan": "EN 10025-4:2019"
+      },
+      {
+       "mac_thep": "S460ML",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S460ML",
+       "tieu_chuan": "EN 10025-4:2019"
+      },
+      {
+       "mac_thep": "S500NL",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S500NL",
+       "tieu_chuan": "EN 10025-4:2019"
+      },
+      {
+       "mac_thep": "S550ML",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S550ML",
+       "tieu_chuan": "EN 10025-4:2019"
+      },
+      {
+       "mac_thep": "S620QL",
+       "tieu_chuan": "EN 10025-6:2019"
+      },
+      {
+       "mac_thep": "S620Q",
+       "tieu_chuan": "EN 10025-6:2019"
+      },
+      {
+       "mac_thep": "S690QL",
+       "tieu_chuan": "EN 10025-6:2019"
+      },
+      {
+       "mac_thep": "S690Q",
+       "tieu_chuan": "EN 10025-6:2019"
+      },
+      {
+       "mac_thep": "S690QL1",
+       "tieu_chuan": "EN 10025-6:2019"
+      },
+      {
+       "mac_thep": "NM400",
+       "tieu_chuan": "GB/T 24186-2022"
+      },
+      {
+       "mac_thep": "NM450",
+       "tieu_chuan": "GB/T 24186-2022"
+      },
+      {
+       "mac_thep": "NM500",
+       "tieu_chuan": "GB/T 24186-2022"
+      },
+      {
+       "mac_thep": "510L",
+       "tieu_chuan": "GB/T 3273:2015"
+      },
+      {
+       "mac_thep": "700L",
+       "tieu_chuan": "GB/T 3273:2015"
+      },
+      {
+       "mac_thep": "610L",
+       "tieu_chuan": "GB/T 3273:2015"
+      },
+      {
+       "mac_thep": "Q460QNH",
+       "tieu_chuan": "GB/T 1591-2018"
+      },
+      {
+       "mac_thep": "Q690B",
+       "tieu_chuan": "GB/T 1591-2018"
+      },
+      {
+       "mac_thep": "Q690C",
+       "tieu_chuan": "GB/T 1591-2018"
+      },
+      {
+       "mac_thep": "Q690D",
+       "tieu_chuan": "GB/T 1591-2018"
+      },
+      {
+       "mac_thep": "Q690E",
+       "tieu_chuan": "GB/T 1591-2018"
+      },
+      {
+       "mac_thep": "20CrMo",
+       "tieu_chuan": "GB/T 3077"
+      },
+      {
+       "mac_thep": "16MnCr5",
+       "tieu_chuan": "GB/T 3077"
+      },
+      {
+       "mac_thep": "18CrMo4",
+       "tieu_chuan": "GB/T 3077"
+      },
+      {
+       "mac_thep": "20MnCr5",
+       "tieu_chuan": "GB/T 3077"
+      },
+      {
+       "mac_thep": "SCM415 PO",
+       "tieu_chuan": "JIS G4053"
+      },
+      {
+       "mac_thep": "SCr420",
+       "tieu_chuan": "JIS G4053"
+      }
+     ]
+    },
+    {
+     "loai": "mac_thep_chi_khi",
+     "dieu_kien": {
+      "dang": "tam"
+     },
+     "trich": "Loại trừ theo 1959/QĐ-BCT chỉ áp dụng cho các sản phẩm thép cán nóng dạng tấm thuộc danh mục mác thép",
+     "can_cu": "612/QĐ-BCT — Thông báo kèm theo, Mục 3.2 (dẫn 1959/QĐ-BCT Mục 1 điểm c)"
+    },
+    {
+     "loai": "loai_tru_quy_cach",
+     "dieu_kien": {
+      "dang": "tam",
+      "day": [
+       ">=",
+       10
+      ]
+     },
+     "trich": "Các sản phẩm thép cán nóng dạng tấm có độ dày từ 10mm trở lên",
+     "can_cu": "612/QĐ-BCT — Thông báo kèm theo, Mục 3.2"
+    },
+    {
+     "loai": "loai_tru_quy_cach",
+     "dieu_kien": {
+      "carbon": [
+       ">",
+       0.3
+      ]
+     },
+     "trich": "Các sản phẩm thép cán nóng có hàm lượng carbon lớn hơn 0,30% tính theo khối lượng",
+     "can_cu": "612/QĐ-BCT — Thông báo kèm theo, Mục 3.2"
+    }
+   ]
   },
   {
    "id": 6,
@@ -444,7 +1123,8 @@
      "vu_khac": null
     }
    ],
-   "muc_cao": 25.22
+   "muc_cao": 25.22,
+   "dieu_kien": []
   },
   {
    "id": 3,
@@ -770,7 +1450,15 @@
      "vu_khac": null
     }
    ],
-   "muc_cao": 37.13
+   "muc_cao": 37.13,
+   "dieu_kien": [
+    {
+     "loai": "ho_so_loai_tru",
+     "dieu_kien": {},
+     "trich": "Để được loại trừ thì các thông tin về mác thép, tiêu chuẩn tương ứng, thành phần hóa học, tính chất hóa học, tính chất cơ học tại giấy chứng nhận chất lượng của nhà sản xuất phải phù hợp với mác thép và tiêu chuẩn được loại trừ và thống nhất với các chứng từ khác trong bộ hồ sơ hải quan.",
+     "can_cu": "2310/QĐ-BCT — Thông báo kèm theo, Mục 5 điểm b"
+    }
+   ]
   },
   {
    "id": 4,
@@ -2622,7 +3310,17 @@
      "vu_khac": null
     }
    ],
-   "muc_cao": 27.83
+   "muc_cao": 27.83,
+   "dieu_kien": [
+    {
+     "loai": "mac_thep_chi_khi",
+     "dieu_kien": {
+      "dang": "tam"
+     },
+     "trich": "Các sản phẩm thép cán nóng dạng tấm thuộc một trong các mác thép có tên tại cột 2 và tiêu chuẩn tương ứng tại cột 3",
+     "can_cu": "1959/QĐ-BCT — Thông báo kèm theo, Mục 1 điểm c"
+    }
+   ]
   },
   {
    "id": 5,
@@ -2734,7 +3432,8 @@
      "vu_khac": null
     }
    ],
-   "muc_cao": 34.27
+   "muc_cao": 34.27,
+   "dieu_kien": []
   },
   {
    "id": 9,
@@ -2884,7 +3583,8 @@
      "vu_khac": null
     }
    ],
-   "muc_cao": 36.56
+   "muc_cao": 36.56,
+   "dieu_kien": []
   },
   {
    "id": 8,
@@ -3002,7 +3702,8 @@
      "vu_khac": null
     }
    ],
-   "muc_cao": 36.11
+   "muc_cao": 36.11,
+   "dieu_kien": []
   },
   {
    "id": 1,
@@ -3082,7 +3783,9 @@
      "vu_khac": "691/QĐ-BCT"
     }
    ],
-   "muc_cao": null
+   "muc_cao": null,
+   "dieu_kien": []
   }
- ]
+ ],
+ "ghi_chu_dieu_kien": "dieu_kien chép từ ILMS db/phase138_pvtm_soat_lo.sql (27-09) cho bản đồng bộ 25-09; dongbo lần tới thay bằng dữ liệu máy chủ."
 }

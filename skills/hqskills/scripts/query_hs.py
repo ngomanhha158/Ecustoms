@@ -37,7 +37,6 @@ REFS = os.path.join(BASE, "references")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ilms_api  # noqa: E402  — CHỈ dùng khi đồng bộ (`dongbo`); tra cứu luôn đọc dữ liệu trên máy
 import pvtm_local as pl
-import soat_lo  # noqa: E402
 import doi_chieu as dc  # noqa: E402
 import hieu_luc as hl  # noqa: E402
 
@@ -133,7 +132,7 @@ def cmd_thue(code, nuoc=None, nsx=None, nxk=None, mac=None, tc=None, day=None, r
              loi=None, dang=None):
     lo = {"code": code, "nuoc_co": nuoc, "nha_sx": nsx, "nha_xk": nxk, "mac_thep": mac, "tieu_chuan": tc,
           "day": day, "rong": rong, "carbon": carbon, "loi": loi, "dang": dang}
-    _in_thue(soat_lo.soat(_kho(), lo))
+    _in_thue(pl.tinh_cho_lo(_kho(), lo))
 
 
 def _in_thue(r):
@@ -330,6 +329,14 @@ def _o(v):
     return re.sub(r"[\t\r\n]+", " ", str(v or "")).strip()
 
 
+def _ket_luan_o(k):
+    """Như ô Phòng vệ của tra hàng loạt ILMS: thiếu thông số thì nói rõ — ÁP khi thiếu là ÁP GIẢ ĐỊNH."""
+    txt = f"ÁP {_pt(k['muc_thue'])}" if k["ket_luan"] == "ap" else pl.NHAN_KET_LUAN[k["ket_luan"]].lower()
+    if k["thieu"]:
+        txt += (" (giả định — " if k["ket_luan"] == "ap" else " (") + "cần: " + ", ".join(k["thieu"]) + ")"
+    return txt
+
+
 def dong_lo(codes, kho, lo, fta):
     """Một dòng kết quả (list ô) cho một lô."""
     code = re.sub(r"\D", "", lo["code"] or "")
@@ -348,11 +355,8 @@ def dong_lo(codes, kho, lo, fta):
                  + " — thêm nước/NSX/NXK để tính mức")
     else:
         try:
-            r = soat_lo.soat(kho, lo)
-            nhan = {"khong_ap": "không áp", "khong_thuoc_pham_vi": "ngoài phạm vi",
-                    "chua_du": "CHƯA ĐỦ DỮ LIỆU"}
-            o.append("; ".join(f"{k['ma_vu_viec']}: " + (f"ÁP {_pt(k['muc_thue'])}" if k["ket_luan"] == "ap"
-                                                          else nhan[k["ket_luan"]]) for k in r["vu_viec"]))
+            r = pl.tinh_cho_lo(kho, lo)
+            o.append("; ".join(f"{k['ma_vu_viec']}: " + _ket_luan_o(k) for k in r["vu_viec"]))
         except SystemExit as loi:
             o.append(f"LỖI: {loi}")
     return [_o(x) for x in o]
@@ -661,7 +665,7 @@ def cmd_chungtu(tep, tsv=False):
     if chua_ro:
         print(f"!!! KẾT LUẬN DƯỚI ĐÂY CHỈ LÀ TẠM — còn {len(chua_ro)} điểm lệch/đọc không chắc: "
               + ", ".join(chua_ro) + ". Làm rõ trước khi xác định thuế.")
-    _in_thue(soat_lo.soat(kho, dc.lo_tinh_thue(lo)))
+    _in_thue(pl.tinh_cho_lo(kho, dc.lo_tinh_thue(lo)))
 
 
 def cmd_hieuluc(ma=None):
