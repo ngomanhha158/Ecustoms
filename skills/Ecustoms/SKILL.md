@@ -68,7 +68,7 @@ Mọi lệnh tra cứu (`code`, `search`, `chapter`, `heading`, `gri`, `refs`, `
 ILMS. ILMSv2 chỉ dùng ở lệnh đồng bộ:
 
 ```powershell
-$env:ILMS_URL  = "https://truelogistics.up.railway.app"
+$env:ILMS_URL  = "https://<dia-chi-may-chu>"
 $env:ILMS_USER = "tai_khoan_ilms"      # hoặc $env:ILMS_TOKEN = "<token>"
 $env:ILMS_PASS = "mat_khau"
 python scripts/query_hs.py dongbo            # kéo văn bản + kho CBPG về máy, đẩy văn bản chỉ có trên máy lên

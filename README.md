@@ -1,6 +1,6 @@
 # Ecustoms
 
-Bộ skill Claude cho nghiệp vụ hải quan của True Logistics.
+Bộ skill Claude cho nghiệp vụ hải quan.
 
 | Skill | Việc |
 |---|---|
