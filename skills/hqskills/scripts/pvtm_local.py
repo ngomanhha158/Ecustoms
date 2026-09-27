@@ -6,7 +6,7 @@ dongbo` kéo về data/pvtm.json). Tra cứu, xem hồ sơ vụ, tính thuế đ
 không cần mạng.
 
 LUẬT TÍNH THUẾ là BẢN CHÉP của ILMSv2 `backend/app/services/pvtm.py`
-(commit b96dbc9). Hai bản phải cho cùng kết quả — `scripts/kiem_khop.py` gọi
+(commit b96dbc9; thêm `tieu_de` 27-09). Hai bản phải cho cùng kết quả — `scripts/kiem_khop.py` gọi
 cả hai trên mọi mã HS × nhiều kiểu lô và báo lệch. ILMS đổi luật thì chép lại
 khối "LUẬT" dưới đây rồi chạy kiem_khop.py.
 """
