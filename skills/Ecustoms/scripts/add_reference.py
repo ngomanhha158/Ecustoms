@@ -22,14 +22,13 @@ dùng --paste hoặc lưu thành .txt trước, script này chỉ nhận văn b�
 thuần (txt/md).
 """
 import sys
-import io
 import os
 import re
 import argparse
 import unicodedata
 from datetime import date
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REFS = os.path.join(BASE, "references")

@@ -10,16 +10,21 @@ Chạy sau mỗi lần `dongbo` hoặc khi ILMS đổi luật:
     python scripts/kiem_khop.py
 Cần ILMS_URL + ILMS_USER/ILMS_PASS. Lệch dù một lô là thoát mã 1.
 """
-import io
 import os
 import sys
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace", line_buffering=True)
+sys.stdout.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ilms_api  # noqa: E402
 import pvtm_local as pl  # noqa: E402
 
-TRUONG = ("ma_vu_viec", "ket_luan", "muc_thue", "cac_buoc", "canh_bao", "nha_sx_khop")
+TRUONG = ("ma_vu_viec", "ket_luan", "muc_thue", "cac_buoc", "canh_bao", "nha_sx_khop",
+          "thieu", "thieu_khoa", "tu_doi_chieu")
+QUY_CACH = ("day", "rong", "carbon", "loi", "dang")
+# Thông số lô thử phase138: trong / ngoài phạm vi các vụ thép (dày 1,2–25,4; rộng ≤ 1.880; C ≤ 0,3…)
+# và dây/que hàn (lõi 2,0–4,0 ± 0,2; ≤ 5,0), mỗi dạng tấm/cuộn.
+BIEN_THE = [{"dang": "tam"}, {"dang": "cuon"}, {"day": "3", "rong": "1250", "carbon": "0,16", "dang": "tam"},
+            {"day": "0,5"}, {"day": "30"}, {"rong": "2100"}, {"carbon": "0,5"}, {"loi": "3"}, {"loi": "6"}]
 
 
 def cac_lo(vu):
@@ -34,10 +39,18 @@ def cac_lo(vu):
         for c in s["cong_ty_tm"][:2]:
             lo.append({"code": code, "nuoc_co": s["nuoc"], "nha_sx": s["ten"], "nha_xk": c})
     nuoc = vu["nuoc"][0]["nuoc"] if vu["nuoc"] else "CN"
+    lo += [{"code": code, "nuoc_co": nuoc, **b} for b in BIEN_THE]
+    for x in [x for x in vu["loai_tru"] if x["kieu"] == "mac_thep"][:3]:   # đủ nhánh, khỏi thử cả 160 mác
+        for b in ({}, {"dang": "tam"}, {"dang": "cuon"}):
+            lo.append({"code": code, "nuoc_co": nuoc, "mac_thep": x["mac_thep"], "tieu_chuan": x["tieu_chuan"], **b})
+        lo.append({"code": code, "nuoc_co": nuoc, "mac_thep": x["mac_thep"], "tieu_chuan": "TC khac"})
+    for d in vu.get("dieu_kien") or []:   # vụ kế thừa danh mục mác của vụ khác (AC03.AD20 <- AD20)
+        for x in (d.get("loai_tru_mac") or [])[:2]:
+            for bt in ({"dang": "tam"}, {"dang": "cuon"}, {}):
+                lo.append({"code": code, "nuoc_co": nuoc, "mac_thep": x["mac_thep"], "tieu_chuan": x["tieu_chuan"], **bt})
     for x in vu["loai_tru"]:
         if x["kieu"] == "mac_thep":
-            lo.append({"code": code, "nuoc_co": nuoc, "mac_thep": x["mac_thep"], "tieu_chuan": x["tieu_chuan"]})
-            lo.append({"code": code, "nuoc_co": nuoc, "mac_thep": x["mac_thep"], "tieu_chuan": "TC khac"})
+            continue
         elif x["kieu"] == "ma_hs" and pl.ma_hs_8(x.get("ma_hs")):
             lo.append({"code": pl.ma_hs_8(x["ma_hs"]), "nuoc_co": nuoc})
     return lo
@@ -45,12 +58,12 @@ def cac_lo(vu):
 
 def rut(kq):
     # Thứ tự các vụ không phải luật (ILMS không chốt thứ tự khi trùng ngày hiệu lực) -> so theo mã vụ.
-    return sorted(({k: v[k] for k in TRUONG} for v in kq["vu_viec"]), key=lambda v: v["ma_vu_viec"])
+    return [kq.get("chua_du")] + sorted(({k: v.get(k) for k in TRUONG} for v in kq["vu_viec"]),
+                                        key=lambda v: v["ma_vu_viec"])
 
 
-def main():
-    if not ilms_api.bat():
-        raise SystemExit("Cần ILMS_URL + ILMS_USER/ILMS_PASS để so với máy chủ.")
+def chay(in_chi_tiet=True):
+    """So mọi lô dựng từ dữ liệu trên máy. Trả (số lô, số lệch)."""
     kho = pl.doc_kho()
     so_lo = lech = 0
     da_thu = set()
@@ -65,15 +78,24 @@ def main():
             chu = rut(ilms_api.post("/pvtm/tinh-thue", {"code": lo["code"], "nuoc_co": lo.get("nuoc_co"),
                                                         "nha_sx": lo.get("nha_sx"), "nha_xk": lo.get("nha_xk"),
                                                         "mac_thep": lo.get("mac_thep"),
-                                                        "tieu_chuan": lo.get("tieu_chuan")}))
+                                                        "tieu_chuan": lo.get("tieu_chuan"),
+                                                        **{k: lo[k] for k in QUY_CACH if k in lo}}))
             for a in (may, chu):
-                for v in a:
+                for v in a[1:]:
                     v["muc_thue"] = None if v["muc_thue"] is None else round(float(v["muc_thue"]), 4)
             if may != chu:
                 lech += 1
-                print(f"LỆCH [{vu['ma_vu_viec']}] lô {lo}")
-                print(f"  máy : {may}")
-                print(f"  ILMS: {chu}")
+                if in_chi_tiet:
+                    print(f"LỆCH [{vu['ma_vu_viec']}] lô {lo}")
+                    print(f"  máy : {may}")
+                    print(f"  ILMS: {chu}")
+    return so_lo, lech
+
+
+def main():
+    if not ilms_api.bat():
+        raise SystemExit("Cần ILMS_URL + ILMS_USER/ILMS_PASS để so với máy chủ.")
+    so_lo, lech = chay()
     print(f"{so_lo} lô, {lech} lệch.")
     sys.exit(1 if lech else 0)
 

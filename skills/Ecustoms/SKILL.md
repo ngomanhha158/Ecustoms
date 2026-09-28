@@ -16,11 +16,13 @@ Chạy từ thư mục của skill này (đường dẫn tuyệt đối tới `s
 
 ```bash
 python scripts/query_hs.py code <mã 8 số>       # tra 1 mã HS
+python scripts/query_hs.py code <mã> --dac-tinh "đã sơn lót"  # soát đặc tính hàng lệch nhóm đã/chưa phủ-mạ-sơn của mã
 python scripts/query_hs.py search "<từ khóa>"   # tìm mã theo từ khóa (chỉ tham khảo)
 python scripts/query_hs.py chapter <số chương>  # Chú giải pháp lý theo Chương
 python scripts/query_hs.py heading <4 số>       # Chú giải chi tiết nhóm 4 số
 python scripts/query_hs.py gri [số quy tắc]     # toàn văn 6 quy tắc GRI
-python scripts/query_hs.py refs "<từ khóa>"     # tra văn bản pháp luật đã thêm (mọi danh mục)
+python scripts/query_hs.py refs "<từ khóa>"     # tra văn bản, XẾP theo độ liên quan + trích đoạn tô đậm
+                                                # (gõ có dấu thì so có dấu: "cán" không khớp "căn cứ")
 python scripts/query_hs.py refs "<từ khóa>" --category chinh_sach_phap_luat  # chỉ tra NĐ/TT
 python scripts/query_hs.py refs "<từ khóa>" --category cbpg_pvtm             # chỉ tra QĐ CBPG/PVTM
 python scripts/query_hs.py case "<từ khóa>"     # tra tiền lệ/case đã tự ghi lại
@@ -63,15 +65,22 @@ $env:ILMS_PASS = "mat_khau"
 python scripts/query_hs.py dongbo            # kéo văn bản + kho CBPG về máy, đẩy văn bản chỉ có trên máy lên
 python scripts/query_hs.py dongbo --chi-keo  # chỉ kéo về
 python scripts/kiem_khop.py                  # so luật tính thuế CBPG trên máy với ILMS (phải 0 lệch)
+python scripts/nap_vb.py ocr "QD.pdf" --doc "QD.doc"   # OCR PDF scan qua ILMS -> bản chờ duyệt, đối chiếu mọi con số với bản Word
+python scripts/nap_vb.py luu QD --loai cbpg_pvtm --da-soat  # lưu bản đã soát (còn 【…】 thì từ chối)
 ```
 
 - `dongbo` kéo: mọi văn bản về `references/<loại>/`, mọi vụ phòng vệ thương mại (đủ hồ sơ,
   mức thuế từng nhà SX, công ty TM, loại trừ) về `data/pvtm.json`. Ghi xong mới thay tệp cũ.
+  Xong thì TỰ so luật tính thuế với ILMS (như `kiem_khop.py`) và liệt kê mã HS thuộc ≥ 2 vụ đang áp.
+- Mạng chập chờn: lệnh đọc tự thử lại 3 lần; lệnh ghi / OCR không thử lại, báo lỗi rõ để chạy lại.
+- Văn bản PDF scan: `nap_vb.py ocr` → người đọc lại tệp `data/ocr_cho_duyet/<tên>.txt` (sửa thẳng
+  trong tệp, xóa mọi dấu 【…】 sau khi soát) → `nap_vb.py luu`. Không bao giờ lưu bản OCR chưa soát.
 - Dữ liệu CBPG cũ hơn **7 ngày** thì `cbpg`/`vu`/`thue` in cảnh báo đầu kết quả — mức thuế đổi
   theo QĐ mới, nhắc người dùng chạy `dongbo`.
-- Luật tính thuế CBPG (`scripts/pvtm_local.py`) là **bản chép** luật của ILMSv2
-  (`backend/app/services/pvtm.py`). ILMS đổi luật thì chép lại khối "LUẬT" rồi chạy
-  `kiem_khop.py`; lệch dù một lô là chưa được dùng.
+- Luật tính thuế CBPG (`scripts/pvtm_luat.py`) là **bản chép NGUYÊN TỆP** `backend/app/services/pvtm.py`
+  của ILMSv2, sinh tự động — KHÔNG sửa tay. `dongbo` báo lệch (ILMS đã đổi luật) thì:
+  `python scripts/chep_luat.py` (lấy luật mới từ repo ILMS trên máy, biến `ILMS_REPO`) rồi `python scripts/kiem_khop.py`
+  — phải 0 lệch mới dùng `thue`.
 - `add_reference.py` có `ILMS_URL` thì gửi văn bản mới lên kho ILMS (cần quyền `tracuu.manage`:
   MANAGER, ACCOUNTANT, DOCS), sau đó chạy `dongbo --chi-keo` để có bản trên máy.
 - Biểu thuế, Chú giải, GRI trong `data/` là dữ liệu gốc của skill (ILMS được nạp từ chính các tệp này).
@@ -79,11 +88,15 @@ python scripts/kiem_khop.py                  # so luật tính thuế CBPG trên
 ## Tra cứu thuế phòng vệ thương mại (CBPG, chống lẩn tránh)
 
 ```bash
+python scripts/query_hs.py cbpg                            # bảng tóm tắt mọi vụ: trạng thái, hạn, mức không C/O, mức từng nước
 python scripts/query_hs.py cbpg "LX International"        # tìm theo tên hàng, mã HS, nhà SX, công ty TM, quy cách, mác thép, tiêu chuẩn, số QĐ
 python scripts/query_hs.py cbpg "DX57D+Z" --kieu mac_thep
 python scripts/query_hs.py vu AD19                          # hồ sơ đủ: văn bản, mô tả, quy cách, mã HS, mức thuế từng nhà SX, loại trừ
 python scripts/query_hs.py thue 7210.49.11 --nuoc KR --nsx "Hyundai Steel" --nxk "LX International"
 python scripts/query_hs.py thue 7210.49.11 --nuoc CN --mac DX57D+Z --tc "EN 10346:2024"
+python scripts/query_hs.py thue 7210.70.21 --nuoc CN --dac-tinh "đã sơn lót"   # kèm soát đặc tính hàng với mã
+python scripts/query_hs.py thue 7208.25.00 --nuoc CN --mac "LR A" --tc LR --dang tam --day 10 --rong 1500 --carbon 0,16
+                                                            # quy cách lô: --day --rong (mm) --carbon (%) --loi (mm) --dang tam|cuon
 python scripts/query_hs.py vanban 3765/QĐ-BCT               # toàn văn một văn bản (số hiệu hoặc chỉ số)
 ```
 
@@ -92,5 +105,17 @@ python scripts/query_hs.py vanban 3765/QĐ-BCT               # toàn văn một 
 - Vụ ghi "CHƯA ĐỐI CHIẾU BẢN GIẤY": nói rõ với người dùng rằng số liệu cần đối chiếu QĐ gốc trước khi khai.
 - Không nộp C/O, không có giấy chứng nhận nhà SX, hay nhà XK không cùng hàng ngang với nhà SX đều rơi về mức cao hơn — nêu rõ điều này khi tư vấn.
 - Có cảnh báo dữ liệu cũ hơn 7 ngày thì nói rõ với người dùng trước khi đưa mức thuế.
+- Kết luận có 4 loại: **Bị áp** · **Không áp** · **Ngoài phạm vi vụ** (quy cách lô ngoài mô tả hàng của QĐ) ·
+  **Chưa đủ dữ liệu** (dòng "? Cần thêm" nêu đúng thông số thiếu — HỎI người dùng, không kết luận "không áp").
+  Có cảnh báo "kết luận ÁP đang GIẢ ĐỊNH" thì nói rõ lô chưa được soát quy cách. Dòng "· Tự đối chiếu" là
+  quy cách chữ máy không so được — người khai tự đối chiếu với hàng thực tế.
+- Mã thuộc ≥ 2 vụ đang áp (vd AD20 + AC03.AD20; que hàn + dây hàn AD15): `thue` in cảnh báo đầu kết quả —
+  hỏi / xác định hàng đúng MÔ TẢ của vụ nào trước khi đưa mức thuế.
+- Dòng loại trừ có nhãn cách miễn: **[Tự động — căn cứ kết quả kiểm định…]** chỉ cần kết quả kiểm định Hải
+  quan hoặc giám định; **[Chỉ khi có quyết định miễn trừ của Bộ Công Thương]** thì DN phải có QĐ miễn trừ
+  (chưa có thì nộp hồ sơ theo TT 37/2019 + TT 42/2023) — nói rõ loại nào khi tư vấn.
+- Người dùng tả đặc tính hàng (đã sơn / mạ / tráng / phủ, hay chưa) thì truyền `--dac-tinh` để máy soát
+  lệch nhóm của mã; có cảnh báo thì soát lại mã HS trước (bài học: thép "đã sơn lót" tra nhầm 7208 là bỏ
+  sót vụ ER01.AD04 của 7210.70).
 
 - **Ưu tiên:** Ecustoms là skill tra cứu HS / CBPG CHÍNH. Chỉ dùng skill khác khi người dùng gọi đích danh.

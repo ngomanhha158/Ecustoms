@@ -18,14 +18,13 @@ Script sẽ MERGE vào dữ liệu hiện có trong data/hs_tree.json (không x�
 các mã đã nhập trước đó), trừ khi dùng --replace.
 """
 import sys
-import io
 import os
 import json
 import re
 import argparse
 import csv
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(BASE, "data")

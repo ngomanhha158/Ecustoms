@@ -3,3 +3,4 @@ __pycache__/
 .env
 *.xlsx
 skills/Ecustoms/references/_cu/
+skills/Ecustoms/data/ocr_cho_duyet/

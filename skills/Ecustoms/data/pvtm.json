@@ -1,6 +1,6 @@
 {
  "nguon": "https://truelogistics.up.railway.app",
- "dong_bo_luc": "2026-09-25T06:52:13+00:00",
+ "dong_bo_luc": "2026-09-28T02:04:35+00:00",
  "vu_viec": [
   {
    "id": 2,
@@ -66,27 +66,742 @@
    "quy_cach": [
     {
      "ten": "Chủng loại",
-     "gia_tri": "sắt hoặc thép hợp kim hoặc không hợp kim"
+     "gia_tri": "sắt hoặc thép hợp kim hoặc không hợp kim",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Gia công",
-     "gia_tri": "được cán phẳng; được cán nóng; chưa được gia công quá mức cán nóng"
+     "gia_tri": "được cán phẳng; được cán nóng; chưa được gia công quá mức cán nóng",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Độ dày",
-     "gia_tri": "từ 1,2mm đến 25,4mm"
+     "gia_tri": "từ 1,2mm đến 25,4mm",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Chiều rộng",
-     "gia_tri": "lớn hơn 1.880mm và nhỏ hơn hoặc bằng 2.300mm"
+     "gia_tri": "lớn hơn 1.880mm và nhỏ hơn hoặc bằng 2.300mm",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Bề mặt",
-     "gia_tri": "đã tẩy gỉ hoặc không tẩy gỉ; không dát phủ, phủ, mạ hoặc tráng; có phủ dầu hoặc không phủ dầu"
+     "gia_tri": "đã tẩy gỉ hoặc không tẩy gỉ; không dát phủ, phủ, mạ hoặc tráng; có phủ dầu hoặc không phủ dầu",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Hàm lượng carbon",
-     "gia_tri": "nhỏ hơn hoặc bằng 0,30% tính theo khối lượng"
+     "gia_tri": "nhỏ hơn hoặc bằng 0,30% tính theo khối lượng",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
+    }
+   ],
+   "dieu_kien": [
+    {
+     "loai": "ke_thua_mac_thep",
+     "dieu_kien": {
+      "vu": "AD20"
+     },
+     "trich": "Các sản phẩm thép cán nóng được loại trừ khỏi phạm vi áp dụng thuế CBPG chính thức theo Quyết định số 1959/QĐ-BCT ngày 04 tháng 07 năm 2025",
+     "can_cu": "612/QĐ-BCT — Thông báo kèm theo, Mục 3.2",
+     "loai_tru_mac": [
+      {
+       "mac_thep": "ABS A",
+       "tieu_chuan": "ABS"
+      },
+      {
+       "mac_thep": "ABS B",
+       "tieu_chuan": "ABS"
+      },
+      {
+       "mac_thep": "ABS D",
+       "tieu_chuan": "ABS"
+      },
+      {
+       "mac_thep": "ABS E",
+       "tieu_chuan": "ABS"
+      },
+      {
+       "mac_thep": "A131 A",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 B",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 D",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 E",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 AH36",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 AH40",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 DH32",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 DH36",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 DH40",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 EH32",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 EH36",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 EH40",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 FH32",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 FH36",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "A131 FH40",
+       "tieu_chuan": "ASTM A131"
+      },
+      {
+       "mac_thep": "BV AH32",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV AH36",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV AH40",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV DH32",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV DH36",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV DH40",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV EH32",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV EH36",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV EH40",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV FH36",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV FH40",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "NV A",
+       "tieu_chuan": "DNV"
+      },
+      {
+       "mac_thep": "NV B",
+       "tieu_chuan": "DNV"
+      },
+      {
+       "mac_thep": "NV D",
+       "tieu_chuan": "DNV"
+      },
+      {
+       "mac_thep": "NV E",
+       "tieu_chuan": "DNV"
+      },
+      {
+       "mac_thep": "LR A",
+       "tieu_chuan": "LR"
+      },
+      {
+       "mac_thep": "LR B",
+       "tieu_chuan": "LR"
+      },
+      {
+       "mac_thep": "LR D",
+       "tieu_chuan": "LR"
+      },
+      {
+       "mac_thep": "LR E",
+       "tieu_chuan": "LR"
+      },
+      {
+       "mac_thep": "BV A",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV B",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV D",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "BV E",
+       "tieu_chuan": "BV"
+      },
+      {
+       "mac_thep": "RINA A",
+       "tieu_chuan": "RINA"
+      },
+      {
+       "mac_thep": "RINA B",
+       "tieu_chuan": "RINA"
+      },
+      {
+       "mac_thep": "RINA D",
+       "tieu_chuan": "RINA"
+      },
+      {
+       "mac_thep": "RINA E",
+       "tieu_chuan": "RINA"
+      },
+      {
+       "mac_thep": "GL A",
+       "tieu_chuan": "GL"
+      },
+      {
+       "mac_thep": "GL B",
+       "tieu_chuan": "GL"
+      },
+      {
+       "mac_thep": "GL D",
+       "tieu_chuan": "GL"
+      },
+      {
+       "mac_thep": "GL E",
+       "tieu_chuan": "GL"
+      },
+      {
+       "mac_thep": "CCS AH32",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS AH36",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS AH40",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS DH32",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS DH36",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS DH40",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS EH32",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS EH36",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS EH40",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS FH32",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS FH40",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS A",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS B",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS D",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "CCS E",
+       "tieu_chuan": "GB 712-2011"
+      },
+      {
+       "mac_thep": "KR A",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR B",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR D",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR E",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR AH36",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR AH40",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR DH36",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR DH40",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR EH32",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR EH36",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR FH32",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR FH36",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "KR FH40",
+       "tieu_chuan": "KR"
+      },
+      {
+       "mac_thep": "NK KA",
+       "tieu_chuan": "NK"
+      },
+      {
+       "mac_thep": "NK KB",
+       "tieu_chuan": "NK"
+      },
+      {
+       "mac_thep": "NK KD",
+       "tieu_chuan": "NK"
+      },
+      {
+       "mac_thep": "NK KE",
+       "tieu_chuan": "NK"
+      },
+      {
+       "mac_thep": "NV AH32",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV AH36",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV AH40",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV DH32",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV DH36",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV DH40",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV EH32",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV EH36",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV EH40",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV FH32",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV FH36",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "NV FH40",
+       "tieu_chuan": "DNV/NV"
+      },
+      {
+       "mac_thep": "RS A",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS B",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS D",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS E",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS AH32",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS AH36",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS AH40",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS EH36",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS DH32",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS DH36",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS DH40",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS EH32",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS EH40",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS FH36",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "RS FH40",
+       "tieu_chuan": "ГOCT 5521"
+      },
+      {
+       "mac_thep": "A514 Gr.Q",
+       "tieu_chuan": "ASTM A514"
+      },
+      {
+       "mac_thep": "A514 Gr.F",
+       "tieu_chuan": "ASTM A514"
+      },
+      {
+       "mac_thep": "A517 Gr.Q",
+       "tieu_chuan": "ASTM A517"
+      },
+      {
+       "mac_thep": "A572 Gr.65",
+       "tieu_chuan": "ASTM A572"
+      },
+      {
+       "mac_thep": "A709 Gr.50",
+       "tieu_chuan": "ASTM A709/A709M"
+      },
+      {
+       "mac_thep": "A709 Gr.50W",
+       "tieu_chuan": "ASTM A709/A709M"
+      },
+      {
+       "mac_thep": "A709 Gr.70",
+       "tieu_chuan": "ASTM A709/A709M"
+      },
+      {
+       "mac_thep": "A709 Gr.70W",
+       "tieu_chuan": "ASTM A709/A709M"
+      },
+      {
+       "mac_thep": "A913 Gr.70",
+       "tieu_chuan": "ASTM A913"
+      },
+      {
+       "mac_thep": "S355NL",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S355NL Z15",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S420NL",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S420NL",
+       "tieu_chuan": "EN 10025-4:2019"
+      },
+      {
+       "mac_thep": "S420ML",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S420ML",
+       "tieu_chuan": "EN 10025-4:2019"
+      },
+      {
+       "mac_thep": "S420NL Z15",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S420NL Z25",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S420NL Z35",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S420NL C",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S420NL D",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S460NL",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S460NL",
+       "tieu_chuan": "EN 10025-4:2019"
+      },
+      {
+       "mac_thep": "S460ML",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S460ML",
+       "tieu_chuan": "EN 10025-4:2019"
+      },
+      {
+       "mac_thep": "S500NL",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S500NL",
+       "tieu_chuan": "EN 10025-4:2019"
+      },
+      {
+       "mac_thep": "S550ML",
+       "tieu_chuan": "EN 10025-3:2019"
+      },
+      {
+       "mac_thep": "S550ML",
+       "tieu_chuan": "EN 10025-4:2019"
+      },
+      {
+       "mac_thep": "S620QL",
+       "tieu_chuan": "EN 10025-6:2019"
+      },
+      {
+       "mac_thep": "S620Q",
+       "tieu_chuan": "EN 10025-6:2019"
+      },
+      {
+       "mac_thep": "S690QL",
+       "tieu_chuan": "EN 10025-6:2019"
+      },
+      {
+       "mac_thep": "S690Q",
+       "tieu_chuan": "EN 10025-6:2019"
+      },
+      {
+       "mac_thep": "S690QL1",
+       "tieu_chuan": "EN 10025-6:2019"
+      },
+      {
+       "mac_thep": "NM400",
+       "tieu_chuan": "GB/T 24186-2022"
+      },
+      {
+       "mac_thep": "NM450",
+       "tieu_chuan": "GB/T 24186-2022"
+      },
+      {
+       "mac_thep": "NM500",
+       "tieu_chuan": "GB/T 24186-2022"
+      },
+      {
+       "mac_thep": "510L",
+       "tieu_chuan": "GB/T 3273:2015"
+      },
+      {
+       "mac_thep": "700L",
+       "tieu_chuan": "GB/T 3273:2015"
+      },
+      {
+       "mac_thep": "610L",
+       "tieu_chuan": "GB/T 3273:2015"
+      },
+      {
+       "mac_thep": "Q460QNH",
+       "tieu_chuan": "GB/T 1591-2018"
+      },
+      {
+       "mac_thep": "Q690B",
+       "tieu_chuan": "GB/T 1591-2018"
+      },
+      {
+       "mac_thep": "Q690C",
+       "tieu_chuan": "GB/T 1591-2018"
+      },
+      {
+       "mac_thep": "Q690D",
+       "tieu_chuan": "GB/T 1591-2018"
+      },
+      {
+       "mac_thep": "Q690E",
+       "tieu_chuan": "GB/T 1591-2018"
+      },
+      {
+       "mac_thep": "20CrMo",
+       "tieu_chuan": "GB/T 3077"
+      },
+      {
+       "mac_thep": "16MnCr5",
+       "tieu_chuan": "GB/T 3077"
+      },
+      {
+       "mac_thep": "18CrMo4",
+       "tieu_chuan": "GB/T 3077"
+      },
+      {
+       "mac_thep": "20MnCr5",
+       "tieu_chuan": "GB/T 3077"
+      },
+      {
+       "mac_thep": "SCM415 PO",
+       "tieu_chuan": "JIS G4053"
+      },
+      {
+       "mac_thep": "SCr420",
+       "tieu_chuan": "JIS G4053"
+      }
+     ]
+    },
+    {
+     "loai": "mac_thep_chi_khi",
+     "dieu_kien": {
+      "dang": "tam"
+     },
+     "trich": "Loại trừ theo 1959/QĐ-BCT chỉ áp dụng cho các sản phẩm thép cán nóng dạng tấm thuộc danh mục mác thép",
+     "can_cu": "612/QĐ-BCT — Thông báo kèm theo, Mục 3.2 (dẫn 1959/QĐ-BCT Mục 1 điểm c)"
+    },
+    {
+     "loai": "loai_tru_quy_cach",
+     "dieu_kien": {
+      "day": [
+       ">=",
+       10
+      ],
+      "dang": "tam"
+     },
+     "trich": "Các sản phẩm thép cán nóng dạng tấm có độ dày từ 10mm trở lên",
+     "can_cu": "612/QĐ-BCT — Thông báo kèm theo, Mục 3.2"
+    },
+    {
+     "loai": "loai_tru_quy_cach",
+     "dieu_kien": {
+      "carbon": [
+       ">",
+       0.3
+      ]
+     },
+     "trich": "Các sản phẩm thép cán nóng có hàm lượng carbon lớn hơn 0,30% tính theo khối lượng",
+     "can_cu": "612/QĐ-BCT — Thông báo kèm theo, Mục 3.2"
     }
    ],
    "nha_sx": [],
@@ -148,6 +863,13 @@
      "vu_khac": null
     }
    ],
+   "tieu_de": "Sắt hoặc thép hợp kim hoặc không hợp kim được cán phẳng; được cán nóng; độ dày từ 1,2mm đến 25,4mm; có chiều rộng lớn hơn 1.880mm và nhỏ hơn hoặc bằng 2.300mm; chưa được gia công quá mức cán nóng; đã tẩy gỉ hoặc không tẩy gỉ; không dát phủ, phủ, mạ hoặc tráng; có phủ dầu hoặc không phủ dầu; hàm lượng carbon nhỏ hơn hoặc bằng 0,30% tính theo khối lượng.",
+   "khoa_can_nhap": [
+    "day",
+    "rong",
+    "carbon",
+    "dang"
+   ],
    "muc_cao": 27.83
   },
   {
@@ -208,17 +930,36 @@
    "quy_cach": [
     {
      "ten": "Bề rộng",
-     "gia_tri": "Dưới 1.600 mm"
+     "gia_tri": "Dưới 1.600 mm",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Độ dày",
-     "gia_tri": "0,108 – 2,55 mm"
+     "gia_tri": "0,108 – 2,55 mm",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Dạng",
-     "gia_tri": "Cuộn hoặc tấm, cán phẳng"
+     "gia_tri": "Cuộn hoặc tấm, cán phẳng",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     }
    ],
+   "dieu_kien": [],
    "nha_sx": [
     {
      "id": 38,
@@ -444,6 +1185,12 @@
      "vu_khac": null
     }
    ],
+   "tieu_de": "Thép các-bon cán nguội (ép nguội) dạng cuộn hoặc tấm, hợp kim hoặc không hợp kim, được cán phẳng, có bề rộng dưới 1.600mm, độ dày từ 0,108mm đến 2,55mm, đã được ủ hoặc chưa được ủ, được phủ hoặc được tráng với chất vô cơ hoặc chưa được phủ hoặc tráng.",
+   "khoa_can_nhap": [
+    "day",
+    "rong",
+    "dang"
+   ],
    "muc_cao": 25.22
   },
   {
@@ -530,15 +1277,41 @@
    "quy_cach": [
     {
      "ten": "Hàm lượng carbon",
-     "gia_tri": "Dưới 0,60% khối lượng"
+     "gia_tri": "Dưới 0,60% khối lượng",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Lớp phủ",
-     "gia_tri": "Kẽm, nhôm hoặc hợp kim gốc sắt"
+     "gia_tri": "Kẽm, nhôm hoặc hợp kim gốc sắt",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Độ dày, chiều rộng",
-     "gia_tri": "Bất kể"
+     "gia_tri": "Bất kể",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
+    }
+   ],
+   "dieu_kien": [
+    {
+     "loai": "ho_so_loai_tru",
+     "dieu_kien": {},
+     "trich": "Để được loại trừ thì các thông tin về mác thép, tiêu chuẩn tương ứng, thành phần hóa học, tính chất hóa học, tính chất cơ học tại giấy chứng nhận chất lượng của nhà sản xuất phải phù hợp với mác thép và tiêu chuẩn được loại trừ và thống nhất với các chứng từ khác trong bộ hồ sơ hải quan.",
+     "can_cu": "2310/QĐ-BCT — Thông báo kèm theo, Mục 5 điểm b"
     }
    ],
    "nha_sx": [
@@ -770,6 +1543,10 @@
      "vu_khac": null
     }
    ],
+   "tieu_de": "Thép hợp kim hoặc không hợp kim, cán phẳng ở dạng cuộn và không phải dạng cuộn, chứa hàm lượng carbon dưới 0,60% tính theo khối lượng, đã dát phủ, tráng, mạ hay phủ kim loại chống ăn mòn như kẽm hoặc nhôm, hoặc các hợp kim gốc sắt, bất kể độ dày và chiều rộng. Các sản phẩm đã mạ kẽm hoặc hợp kim nhôm kẽm hoặc hợp kim kẽm nhôm magiê được phủ thêm lớp crom hoặc oxit crom thuộc phạm vi áp dụng.",
+   "khoa_can_nhap": [
+    "carbon"
+   ],
    "muc_cao": 37.13
   },
   {
@@ -837,27 +1614,73 @@
    "quy_cach": [
     {
      "ten": "Chủng loại",
-     "gia_tri": "sắt hoặc thép hợp kim hoặc không hợp kim"
+     "gia_tri": "sắt hoặc thép hợp kim hoặc không hợp kim",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Gia công",
-     "gia_tri": "được cán phẳng; được cán nóng; chưa được gia công quá mức cán nóng"
+     "gia_tri": "được cán phẳng; được cán nóng; chưa được gia công quá mức cán nóng",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Độ dày",
-     "gia_tri": "từ 1,2 mm đến 25,4 mm"
+     "gia_tri": "từ 1,2 mm đến 25,4 mm",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Chiều rộng",
-     "gia_tri": "không quá 1.880 mm"
+     "gia_tri": "không quá 1.880 mm",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Bề mặt",
-     "gia_tri": "đã tẩy gỉ hoặc không tẩy gỉ; không dát phủ, phủ, mạ hoặc tráng; có phủ dầu hoặc không phủ dầu"
+     "gia_tri": "đã tẩy gỉ hoặc không tẩy gỉ; không dát phủ, phủ, mạ hoặc tráng; có phủ dầu hoặc không phủ dầu",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Hàm lượng carbon",
-     "gia_tri": "nhỏ hơn hoặc bằng 0,30% tính theo khối lượng"
+     "gia_tri": "nhỏ hơn hoặc bằng 0,30% tính theo khối lượng",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
+    }
+   ],
+   "dieu_kien": [
+    {
+     "loai": "mac_thep_chi_khi",
+     "dieu_kien": {
+      "dang": "tam"
+     },
+     "trich": "Các sản phẩm thép cán nóng dạng tấm thuộc một trong các mác thép có tên tại cột 2 và tiêu chuẩn tương ứng tại cột 3",
+     "can_cu": "1959/QĐ-BCT — Thông báo kèm theo, Mục 1 điểm c"
     }
    ],
    "nha_sx": [
@@ -2622,6 +3445,13 @@
      "vu_khac": null
     }
    ],
+   "tieu_de": "Sắt hoặc thép hợp kim hoặc không hợp kim được cán phẳng; được cán nóng; độ dày từ 1,2 mm đến 25,4 mm; chiều rộng không quá 1.880 mm; chưa được gia công quá mức cán nóng; đã tẩy gỉ hoặc không tẩy gỉ; không dát phủ, phủ, mạ hoặc tráng; có phủ dầu hoặc không phủ dầu; hàm lượng carbon nhỏ hơn hoặc bằng 0,30% tính theo khối lượng.",
+   "khoa_can_nhap": [
+    "day",
+    "rong",
+    "carbon",
+    "dang"
+   ],
    "muc_cao": 27.83
   },
   {
@@ -2684,13 +3514,26 @@
    "quy_cach": [
     {
      "ten": "Chủng loại",
-     "gia_tri": "thép hợp kim hoặc không hợp kim được cán phẳng"
+     "gia_tri": "thép hợp kim hoặc không hợp kim được cán phẳng",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Bề mặt",
-     "gia_tri": "được mạ hoặc không mạ sau đó được sơn"
+     "gia_tri": "được mạ hoặc không mạ sau đó được sơn",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     }
    ],
+   "dieu_kien": [],
    "nha_sx": [],
    "loai_tru": [
     {
@@ -2734,6 +3577,8 @@
      "vu_khac": null
     }
    ],
+   "tieu_de": "Thép hợp kim hoặc không hợp kim được cán phẳng, được mạ hoặc không mạ sau đó được sơn. Tên gọi thông thường: thép phủ màu hoặc tôn màu",
+   "khoa_can_nhap": [],
    "muc_cao": 34.27
   },
   {
@@ -2744,14 +3589,14 @@
    "ten_hang": "Dây hàn thép đặc không lõi thuốc",
    "hieu_luc_tu": "2022-08-20",
    "hieu_luc_den": "2027-08-19",
-   "da_doi_chieu": false,
+   "da_doi_chieu": true,
    "dang_ap": true,
    "so_hieu": "1624/QĐ-BCT, 2959/QĐ-BCT",
    "mo_ta": "Dây hàn thép đặc không lõi thuốc: dây hàn có lõi là thép (không bao gồm thép inox); đường kính lõi thép của dây hàn nhỏ hơn hoặc bằng 5,0 mm; dây hàn được mạ đồng hoặc không mạ; lõi thép chứa các nguyên tố có hàm lượng phần trăm (%) theo khối lượng thuộc phạm vi sau: Các-bon (C) từ 0,04% đến 0,2%, Phốt pho (P) nhỏ hơn hoặc bằng 0,03%, Lưu huỳnh (S) nhỏ hơn hoặc bằng 0,035%.",
    "muc_khong_chung_tu": 36.56,
    "ghi_chu": "QĐ 1624/QĐ-BCT (15/8/2022, hiệu lực 20/8/2022, thời hạn 05 năm) áp thuế CBPG chính thức với vật liệu hàn xuất xứ Ma-lai-xi-a, Thái Lan, Trung Quốc (mã vụ việc AD15), gồm HAI mặt hàng có bảng mức thuế riêng: AD15.QUE (que hàn inox 308 có bọc thuốc) và AD15.DAY (dây hàn thép đặc không lõi thuốc). Ba mã 8311.10.90, 8311.30.99, 8311.90.00 thuộc CẢ HAI mặt hàng — xác định đúng mặt hàng theo mô tả trước khi chọn mức thuế. QĐ 2959/QĐ-BCT (30/12/2022) chỉ sửa danh sách mã HS theo TT 31/2022/TT-BTC, không đổi mức thuế; QĐ miễn trừ ban hành trước tiếp tục có giá trị đến hết hạn. Chú thích ¹ ² tại 7217.10.10 và 7229.90.99: đồng thời đang bị áp biện pháp chống lẩn tránh với thép cuộn, thép dây (vụ AC01.SG04). Thái Lan: không áp dụng do thỏa mãn khoản 3 Điều 78 Luật Quản lý ngoại thương — C/O Thái Lan không phải nộp thuế CBPG (Mục 5.3 Bước 1 TH2). Kiswel Sdn. Bhd được hoàn chênh lệch -1,19% so với thuế tạm thời 15,30% (Mục 6).",
-   "doi_chieu_luc": null,
-   "doi_chieu_ten": null,
+   "doi_chieu_luc": "2026-09-26T06:02:04.280006Z",
+   "doi_chieu_ten": "NMH",
    "van_ban": [
     {
      "so_hieu": "1624/QĐ-BCT",
@@ -2759,7 +3604,7 @@
      "van_ban_id": 83,
      "ten": "Quyết định Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm vật liệu hàn có xuất xứ từ Ma-lai-xi-a, Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa",
      "ngay_ban_hanh": "2022-08-15",
-     "link_goc": ""
+     "link_goc": "https://drive.google.com/file/d/1s17AR0xtYAbYvcJ5auDmmLIeRdvtuFbt/view?usp=drivesdk"
     },
     {
      "so_hieu": "2959/QĐ-BCT",
@@ -2799,21 +3644,46 @@
    "quy_cach": [
     {
      "ten": "Lõi",
-     "gia_tri": "thép (không bao gồm thép inox)"
+     "gia_tri": "thép (không bao gồm thép inox)",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Đường kính lõi",
-     "gia_tri": "nhỏ hơn hoặc bằng 5,0 mm"
+     "gia_tri": "nhỏ hơn hoặc bằng 5,0 mm",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Bề mặt",
-     "gia_tri": "được mạ đồng hoặc không mạ"
+     "gia_tri": "được mạ đồng hoặc không mạ",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Thành phần lõi",
-     "gia_tri": "C từ 0,04% đến 0,2%; P ≤ 0,03%; S ≤ 0,035%"
+     "gia_tri": "C từ 0,04% đến 0,2%; P ≤ 0,03%; S ≤ 0,035%",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     }
    ],
+   "dieu_kien": [],
    "nha_sx": [
     {
      "id": 55,
@@ -2884,6 +3754,11 @@
      "vu_khac": null
     }
    ],
+   "tieu_de": "Dây hàn thép đặc không lõi thuốc: dây hàn có lõi là thép (không bao gồm thép inox); đường kính lõi thép của dây hàn nhỏ hơn hoặc bằng 5,0 mm; dây hàn được mạ đồng hoặc không mạ; lõi thép chứa các nguyên tố có hàm lượng phần trăm (%) theo khối lượng thuộc phạm vi sau: Các-bon (C) từ 0,04% đến 0,2%, Phốt pho (P) nhỏ hơn hoặc bằng 0,03%, Lưu huỳnh (S) nhỏ hơn hoặc bằng 0,035%.",
+   "khoa_can_nhap": [
+    "carbon",
+    "loi"
+   ],
    "muc_cao": 36.56
   },
   {
@@ -2894,14 +3769,14 @@
    "ten_hang": "Que hàn inox 308 có bọc thuốc",
    "hieu_luc_tu": "2022-08-20",
    "hieu_luc_den": "2027-08-19",
-   "da_doi_chieu": false,
+   "da_doi_chieu": true,
    "dang_ap": true,
    "so_hieu": "1624/QĐ-BCT, 2959/QĐ-BCT",
    "mo_ta": "Que hàn inox 308 có bọc thuốc: que hàn có lõi là thép inox 308; đường kính lõi thép của que hàn từ 2,0 mm đến 4,0 mm với dung sai là +/- 0,2 mm; que hàn được phủ thuốc bọc.",
    "muc_khong_chung_tu": 36.11,
    "ghi_chu": "QĐ 1624/QĐ-BCT (15/8/2022, hiệu lực 20/8/2022, thời hạn 05 năm) áp thuế CBPG chính thức với vật liệu hàn xuất xứ Ma-lai-xi-a, Thái Lan, Trung Quốc (mã vụ việc AD15), gồm HAI mặt hàng có bảng mức thuế riêng: AD15.QUE (que hàn inox 308 có bọc thuốc) và AD15.DAY (dây hàn thép đặc không lõi thuốc). Ba mã 8311.10.90, 8311.30.99, 8311.90.00 thuộc CẢ HAI mặt hàng — xác định đúng mặt hàng theo mô tả trước khi chọn mức thuế. QĐ 2959/QĐ-BCT (30/12/2022) chỉ sửa danh sách mã HS theo TT 31/2022/TT-BTC, không đổi mức thuế; QĐ miễn trừ ban hành trước tiếp tục có giá trị đến hết hạn. Chú thích ¹ ² tại 7217.10.10 và 7229.90.99: đồng thời đang bị áp biện pháp chống lẩn tránh với thép cuộn, thép dây (vụ AC01.SG04). Kiswel Sdn. Bhd: không áp dụng do thỏa mãn khoản 2 Điều 78 Luật Quản lý ngoại thương.",
-   "doi_chieu_luc": null,
-   "doi_chieu_ten": null,
+   "doi_chieu_luc": "2026-09-26T06:02:07.815900Z",
+   "doi_chieu_ten": "NMH",
    "van_ban": [
     {
      "so_hieu": "1624/QĐ-BCT",
@@ -2909,7 +3784,7 @@
      "van_ban_id": 83,
      "ten": "Quyết định Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm vật liệu hàn có xuất xứ từ Ma-lai-xi-a, Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa",
      "ngay_ban_hanh": "2022-08-15",
-     "link_goc": ""
+     "link_goc": "https://drive.google.com/file/d/1s17AR0xtYAbYvcJ5auDmmLIeRdvtuFbt/view?usp=drivesdk"
     },
     {
      "so_hieu": "2959/QĐ-BCT",
@@ -2945,17 +3820,36 @@
    "quy_cach": [
     {
      "ten": "Lõi",
-     "gia_tri": "thép inox 308"
+     "gia_tri": "thép inox 308",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Đường kính lõi",
-     "gia_tri": "từ 2,0 mm đến 4,0 mm, dung sai +/- 0,2 mm"
+     "gia_tri": "từ 2,0 mm đến 4,0 mm, dung sai +/- 0,2 mm",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     },
     {
      "ten": "Bề mặt",
-     "gia_tri": "được phủ thuốc bọc"
+     "gia_tri": "được phủ thuốc bọc",
+     "khoa": null,
+     "tu": null,
+     "den": null,
+     "tu_bao_gom": true,
+     "den_bao_gom": true,
+     "dang_cho_phep": null
     }
    ],
+   "dieu_kien": [],
    "nha_sx": [
     {
      "id": 53,
@@ -3002,6 +3896,10 @@
      "vu_khac": null
     }
    ],
+   "tieu_de": "Que hàn inox 308 có bọc thuốc: que hàn có lõi là thép inox 308; đường kính lõi thép của que hàn từ 2,0 mm đến 4,0 mm với dung sai là +/- 0,2 mm; que hàn được phủ thuốc bọc.",
+   "khoa_can_nhap": [
+    "loi"
+   ],
    "muc_cao": 36.11
   },
   {
@@ -3012,14 +3910,14 @@
    "ten_hang": "Thép cuộn, thép dây",
    "hieu_luc_tu": "2023-03-22",
    "hieu_luc_den": null,
-   "da_doi_chieu": false,
+   "da_doi_chieu": true,
    "dang_ap": false,
    "so_hieu": "693/QĐ-BCT",
    "mo_ta": "Hàng hóa thuộc đối tượng áp dụng biện pháp chống lẩn tránh biện pháp phòng vệ thương mại là các sản phẩm thép cuộn, thép dây có mã HS: 7213.91.90, 7217.10.10, 7217.10.29, 7229.90.99, 9839.10.00 nhập khẩu vào Việt Nam từ các nước/vùng lãnh thổ khác nhau.",
    "muc_khong_chung_tu": null,
    "ghi_chu": "Gia hạn biện pháp chống lẩn tránh biện pháp PVTM (biện pháp tự vệ thép dài) với thép cuộn, thép dây nhập khẩu từ các nước/vùng lãnh thổ khác nhau, dưới dạng thuế nhập khẩu bổ sung theo lộ trình: 22/3/2023–21/3/2024: 6,3%; 22/3/2024–21/3/2025: 6,2%; 22/3/2025–21/3/2026: 6,1%; từ 22/3/2026 trở đi: 0%. Căn cứ: QĐ 1230/QĐ-BCT (13/5/2019) áp dụng và QĐ 920/QĐ-BCT (20/3/2020) gia hạn biện pháp chống lẩn tránh; QĐ 691/QĐ-BCT (21/3/2023) gia hạn biện pháp tự vệ thép dài. Loại trừ (i), (ii), (iii): nộp cho Hải quan giấy tờ chứng minh hàng thỏa tiêu chí; (iv): phải có Quyết định miễn trừ của BCT. Hàng có C/O từ nước/vùng lãnh thổ đang phát triển trong Phụ lục QĐ 691/QĐ-BCT được loại trừ.",
-   "doi_chieu_luc": null,
-   "doi_chieu_ten": null,
+   "doi_chieu_luc": "2026-09-26T06:02:10.941622Z",
+   "doi_chieu_ten": "NMH",
    "van_ban": [
     {
      "so_hieu": "693/QĐ-BCT",
@@ -3039,6 +3937,7 @@
    ],
    "nuoc": [],
    "quy_cach": [],
+   "dieu_kien": [],
    "nha_sx": [],
    "loai_tru": [
     {
@@ -3082,6 +3981,8 @@
      "vu_khac": "691/QĐ-BCT"
     }
    ],
+   "tieu_de": "Thép cuộn, thép dây có mã HS: 7213.91.90, 7217.10.10, 7217.10.29, 7229.90.99, 9839.10.00 nhập khẩu vào Việt Nam từ các nước/vùng lãnh thổ khác nhau.",
+   "khoa_can_nhap": [],
    "muc_cao": null
   }
  ]

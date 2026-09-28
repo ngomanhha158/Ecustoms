@@ -12,13 +12,12 @@ Ghi đè/merge vào data/hs_tree.json (mặc định merge, dùng --replace đ�
 nạp lại từ đầu).
 """
 import sys
-import io
 import os
 import re
 import json
 import argparse
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(BASE, "data")

@@ -17,7 +17,6 @@ Cách dùng:
     python query_hs.py case "thep hinh H"
 """
 import sys
-import io
 import os
 import json
 import urllib.parse
@@ -27,8 +26,8 @@ import unicodedata
 from datetime import datetime, timezone
 
 # Ép output UTF-8 để tránh lỗi mã hóa trên Windows console (cp1252/cp437)
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(BASE, "data")
@@ -64,7 +63,29 @@ def _kho():
     return kho
 
 
-def cmd_cbpg(tu_khoa, kieu=None):
+def cmd_tom_tat(kho):
+    """Một dòng mỗi vụ: đang áp trước, rồi hiệu lực mới trước."""
+    ds = sorted(kho["vu_viec"], key=lambda v: v["hieu_luc_tu"], reverse=True)
+    ds.sort(key=lambda v: not pl.dang_ap(v))
+    print(f"=== {len(ds)} vụ phòng vệ thương mại (dữ liệu đồng bộ {kho['dong_bo_luc'][:10]}) ===")
+    for v in ds:
+        nuoc = ", ".join(f"{n['nuoc']} {_pt(n['muc_toan_quoc'])}" for n in v["nuoc"]) or "mọi xuất xứ"
+        tt = "ĐANG ÁP" if pl.dang_ap(v) else pl.NHAN_GIAI_DOAN.get(v["giai_doan"], v["giai_doan"])
+        dc = "" if v.get("da_doi_chieu") else " · chưa đối chiếu"
+        print(f"  [{v['ma_vu_viec']}] {v['ten_hang']}")
+        print(f"      {tt}{dc} · {v.get('so_hieu') or '—'} · đến {v.get('hieu_luc_den') or 'chưa ghi'} · "
+              f"{len(v['ma_hs'])} mã HS · không C/O {_pt(v['muc_khong_chung_tu'])} · {nuoc}")
+    print(chr(10) + "Xem hồ sơ: query_hs.py vu <mã vụ> · Tìm: query_hs.py cbpg <từ khóa>")
+
+
+def _nhan_mien(x):
+    t = x.get("thu_tuc")
+    return f"  [{pl.NHAN_THU_TUC_MIEN_TRU[t]}]" if t in pl.NHAN_THU_TUC_MIEN_TRU else ""
+
+
+def cmd_cbpg(tu_khoa=None, kieu=None):
+    if not tu_khoa:
+        return cmd_tom_tat(_kho())
     nhom = pl.tim(_kho(), tu_khoa, kieu or "")
     if not nhom:
         print(f"Không có vụ phòng vệ thương mại nào khớp '{tu_khoa}'.")
@@ -80,7 +101,7 @@ def cmd_cbpg(tu_khoa, kieu=None):
             elif g["kieu"] in ("mac_thep", "tieu_chuan"):
                 print(f"  LOẠI TRỪ: {x['mac_thep']} theo {x['tieu_chuan']}  ← {vu}")
             elif g["kieu"] == "loai_tru":
-                print(f"  KHÔNG THUỘC PHẠM VI: {x['noi_dung']}  ← {vu}")
+                print(f"  KHÔNG THUỘC PHẠM VI: {x['noi_dung']}{_nhan_mien(x)}  ← {vu}")
             elif g["kieu"] == "quy_cach":
                 print(f"  {x['noi_dung']}  ← {vu}")
             elif g["kieu"] == "ma_hs":
@@ -122,25 +143,49 @@ def cmd_vu(ma):
             if x["kieu"] == "mac_thep":
                 print(f"  Mác {x['mac_thep']} theo {x['tieu_chuan']}")
             else:
-                print(f"  {x['noi_dung'] or x.get('ma_hs')}")
+                print(f"  {x['noi_dung'] or x.get('ma_hs')}{_nhan_mien(x)}")
     if v.get("ghi_chu"):
         print(chr(10) + "Ghi chú: " + v["ghi_chu"])
 
 
-def cmd_thue(code, nuoc=None, nsx=None, nxk=None, mac=None, tc=None):
-    r = pl.tinh_cho_lo(_kho(), {"code": code, "nuoc_co": nuoc, "nha_sx": nsx, "nha_xk": nxk,
-                                "mac_thep": mac, "tieu_chuan": tc})
+def _soat_dac_tinh(code_n, dac_tinh):
+    if not dac_tinh:
+        return
+    e = load_json("hs_tree.json").get("codes", {}).get(code_n)
+    if e:
+        c = pl.lech_phu(dac_tinh, e.get("desc_vn", "") + " " + e.get("desc_en", ""))
+        if c:
+            print(c + chr(10))
+
+
+def cmd_thue(code, nuoc=None, nsx=None, nxk=None, mac=None, tc=None, dac_tinh=None, quy_cach=None):
+    kho = _kho()
+    _soat_dac_tinh(re.sub(r"\D", "", code), dac_tinh)
+    r = pl.tinh_cho_lo(kho, {"code": code, "nuoc_co": nuoc, "nha_sx": nsx, "nha_xk": nxk,
+                             "mac_thep": mac, "tieu_chuan": tc, **(quy_cach or {})})
+    if len(r["vu_viec"]) > 1:
+        print(f"! Mã {_ma(r['code'])} thuộc {len(r['vu_viec'])} vụ đang áp "
+              f"({', '.join(k['ma_vu_viec'] for k in r['vu_viec'])}) — xác định hàng đúng mô tả của vụ nào "
+              "trước khi chọn mức thuế (xem `vu <mã vụ>`)." + chr(10))
     if not r["vu_viec"]:
         print(f"Mã {_ma(r['code'])}: KHÔNG thuộc vụ phòng vệ thương mại nào đang áp (dữ liệu trên máy).")
         return
     for k in r["vu_viec"]:
-        print(f"=== [{k['ma_vu_viec']}] {k['ten_hang']} · {k['so_hieu']} ===")
+        print(f"=== [{k['ma_vu_viec']}] {k.get('tieu_de') or k['ten_hang']} · {k['so_hieu']} ===")
         for i, b in enumerate(k["cac_buoc"], 1):
-            print(f"  {i}. {b['buoc']}: {b['ket_qua']} {'✓' if b['dat'] else '✗'}  ({b['can_cu']})")
-        ket = f"BỊ ÁP {_pt(k['muc_thue'])}" if k["ket_luan"] == "ap" else "KHÔNG ÁP"
-        print(f"  => {ket}")
+            dau = {True: "✓", False: "✗"}.get(b["dat"], "?")
+            print(f"  {i}. {b['buoc']}: {b['ket_qua']} {dau}  ({b['can_cu']})")
+        kl = k["ket_luan"]
+        print("  => " + (f"BỊ ÁP {_pt(k['muc_thue'])}" if kl == "ap" else pl.NHAN_KET_LUAN.get(kl, kl).upper()))
+        if k.get("thieu"):
+            co = " ".join(f"--{x}" for x in k["thieu_khoa"])
+            print(f"  ? Cần thêm: {', '.join(k['thieu'])}  (nhập bằng {co})")
         for c in k["canh_bao"]:
             print(f"  ! {c}")
+        for c in k.get("tu_doi_chieu") or []:
+            print(f"  · Tự đối chiếu: {c}")
+    if r.get("chua_du"):
+        print(chr(10) + "CHƯA ĐỦ DỮ LIỆU ở ít nhất một vụ — không kết luận 'không áp'; hỏi thêm các thông số ở dòng '? Cần thêm'.")
 
 
 def _cbpg_cua_ma(code_n):
@@ -269,6 +314,15 @@ def api_dongbo(chi_keo=False):
                    "vu_viec": ds_vu}, f, ensure_ascii=False, indent=1)
     os.replace(tmp, pl.TEP)   # ghi xong mới thay: đứt mạng giữa chừng không để lại tệp dở
     print(f"Kéo {len(ds_vu)} vụ phòng vệ thương mại về data/pvtm.json.")
+    trung = pl.trung_ma(pl.doc_kho())
+    if trung:
+        print(f"Mã HS thuộc từ 2 vụ đang áp trở lên ({len(trung)} mã) — khi tính thuế phải chọn vụ theo mô tả hàng:")
+        for c, ds in trung.items():
+            print(f"  {_ma(c)}: {', '.join(ds)}")
+    import kiem_khop
+    so_lo, lech = kiem_khop.chay(in_chi_tiet=False)
+    print(f"So luật tính thuế trên máy với ILMS: {so_lo} lô, {lech} lệch."
+          + (" -> CHẠY scripts/kiem_khop.py xem chi tiết, chưa dùng `thue` được." if lech else ""))
     print(f"Đồng bộ xong: kéo {len(moi)} văn bản từ ILMS, đẩy {day} lên ILMS, "
           f"dời {doi} tệp định dạng cũ vào references/_cu/, xóa {xoa} bản đã bị xóa trên ILMS.")
 
@@ -301,7 +355,7 @@ def strip_accents(s):
     return "".join(c for c in s if unicodedata.category(c) != "Mn").lower()
 
 
-def cmd_code(code):
+def cmd_code(code, dac_tinh=None):
     tree = load_json("hs_tree.json")
     codes = tree.get("codes", {})
     code_n = re.sub(r"\D", "", code)
@@ -337,6 +391,7 @@ def cmd_code(code):
     if entry.get("chinh_sach"):
         print(f"Chính sách mặt hàng: {entry.get('chinh_sach')}")
     _cbpg_cua_ma(code_n)
+    _soat_dac_tinh(code_n, dac_tinh)
 
 
 def cmd_search(keyword):
@@ -412,22 +467,105 @@ def cmd_refs(keyword=None, category=None):
         for rel, _full in files:
             print(f"  {rel}")
         return
-    kw = strip_accents(keyword)
-    found_any = False
+    kq = xep_hang(files, keyword)
+    if not kq:
+        print(f"Không tìm thấy '{keyword}' trong các văn bản tham khảo hiện có.")
+        return
+    tong = len(kq)
+    print(f"{tong} văn bản khớp '{keyword}' (xếp theo độ liên quan, hiện {min(tong, 10)}):" + chr(10))
+    for diem, rel, dau, doan in kq[:10]:
+        print(f"=== {dau.get('Số hiệu') or rel} — {dau.get('Tiêu đề', '')[:110]}  (điểm {diem})")
+        for d in doan:
+            print("    ..." + d + "...")
+        print()
+    print("Đọc toàn văn: query_hs.py vanban <số hiệu>")
+
+
+_TU_NHO = {"va", "cua", "cac", "cho", "voi", "la", "the", "nhung", "mot", "trong", "theo", "ve", "tu", "den", "hoac",
+           "và", "của", "các", "cho", "với", "là", "thì", "những", "một", "trong", "theo", "về", "từ", "đến", "hoặc"}
+
+
+def _chuan(s, co_dau):
+    """Gõ CÓ dấu thì so có dấu (chỉ hạ chữ) — 'cán' không được khớp 'căn cứ'.
+    Gõ không dấu thì so không dấu. Cả hai giữ nguyên độ dài chuỗi NFC -> vị trí khớp
+    dùng lại được trên bản gốc để trích đoạn."""
+    s = unicodedata.normalize("NFC", s)
+    return s.lower() if co_dau else strip_accents(s)
+
+
+def xep_hang(files, keyword):
+    """Xếp văn bản theo độ liên quan (kiểu BM25 rút gọn):
+    - từ nào có trong hầu hết văn bản ('căn cứ', 'quyết định') thì nhẹ ký (idf);
+    - văn bản càng dài thì mỗi lần khớp càng nhẹ ký (chuẩn hóa độ dài);
+    - đủ mọi từ mới tính; không văn bản nào đủ thì hạ xuống 'có ít nhất một từ';
+    - cụm nguyên văn, các từ đứng GẦN nhau (≤ 12 từ), khớp ở số hiệu/tiêu đề: cộng thêm.
+    Trả [(điểm, rel, phần đầu, [≤2 đoạn trích tô **từ khớp**])]."""
+    import math
+    co_dau = strip_accents(keyword) != unicodedata.normalize("NFC", keyword).lower()
+    cum = " ".join(_chuan(keyword, co_dau).split())
+    tu = list(dict.fromkeys(t for t in cum.split() if t not in _TU_NHO)) or cum.split()
+    mau = {t: re.compile(r"(?<!\w)" + re.escape(t) + r"(?!\w)") for t in tu}
+    vb = []
     for rel, full in files:
         with open(full, "r", encoding="utf-8", errors="replace") as fh:
-            content = fh.read()
-        if kw in strip_accents(content):
-            found_any = True
-            print(f"=== Khớp trong: {rel} ===")
-            # in đoạn ngữ cảnh quanh từ khóa đầu tiên
-            idx = strip_accents(content).find(kw)
-            start = max(0, idx - 300)
-            end = min(len(content), idx + 500)
-            print("..." + content[start:end] + "...")
-            print()
-    if not found_any:
-        print(f"Không tìm thấy '{keyword}' trong các văn bản tham khảo hiện có.")
+            goc = unicodedata.normalize("NFC", fh.read())
+        vb.append((rel, goc, _chuan(goc, co_dau)))
+    df = {t: sum(1 for _r, _g, c in vb if mau[t].search(c)) for t in tu}
+    tb = sum(len(c) for _r, _g, c in vb) / max(len(vb), 1)   # độ dài trung bình (BM25: văn bản dài không tự được cộng)
+    idf = {t: math.log(1 + len(vb) / df[t]) if df[t] else 0 for t in tu}
+    ds = []
+    for rel, goc, c in vb:
+        vt = {t: [m.start() for m in mau[t].finditer(c)] for t in tu}
+        if not any(vt.values()):
+            continue
+        du = all(vt.values())
+        dau = _doc_dau(goc)
+        tieu = _chuan(" ".join(dau.values()), co_dau)
+        ti_le = 0.25 + 0.75 * len(c) / tb
+        diem = sum(idf[t] * len(v) * 2.2 / (len(v) + 1.2 * ti_le) for t, v in vt.items() if v)
+        diem += sum(2 * idf[t] for t in tu if mau[t].search(tieu))
+        gan = _cua_so_gan(vt, c) if du and len(tu) > 1 else None
+        if cum in c:
+            diem += 5 * sum(idf.values())
+        elif gan:
+            diem += 3 * sum(idf.values())
+        tam = c.find(cum) if cum in c else (gan if gan is not None else
+                                             min((v[0] for t, v in vt.items() if v), key=lambda x: x))
+        ds.append((du, round(diem, 1), rel, dau, _trich(goc, c, tam, tu, mau)))
+    co_du = any(x[0] for x in ds)
+    ds = [x for x in ds if x[0] or not co_du]
+    ds.sort(key=lambda x: -x[1])
+    return [(diem, rel, dau, doan) for _du, diem, rel, dau, doan in ds]
+
+
+def _cua_so_gan(vt, c, tran=12):
+    """Vị trí đầu của đoạn NGẮN NHẤT chứa đủ mọi từ, nếu đoạn ấy ≤ `tran` từ; không thì None."""
+    moc = sorted((i, t) for t, v in vt.items() for i in v)
+    can, dem, trai, tot = len(vt), {}, 0, None
+    for phai, (i, t) in enumerate(moc):
+        dem[t] = dem.get(t, 0) + 1
+        while len(dem) == can:
+            a, ta = moc[trai]
+            if len(c[a:i].split()) <= tran and (tot is None or i - a < tot[1] - tot[0]):
+                tot = (a, i)
+            dem[ta] -= 1
+            if not dem[ta]:
+                del dem[ta]
+            trai += 1
+    return tot[0] if tot else None
+
+
+def _trich(goc, c, tam, tu, mau, rong=170):
+    """Đoạn quanh vị trí `tam` (cụm / cửa sổ gần nhất / lần khớp đầu), tô **từ khớp**."""
+    a, b = max(0, tam - rong // 3), min(len(goc), tam + rong)
+    khoang = sorted({(m.start(), m.end()) for t in tu for m in mau[t].finditer(c[a:b])})
+    ra, i, s = [], 0, goc[a:b]
+    for x, y in khoang:
+        if x < i:
+            continue
+        ra.append(s[i:x] + "**" + s[x:y] + "**")
+        i = y
+    return [" ".join(("".join(ra) + s[i:]).split())]
 
 
 def cmd_case(keyword=None):
@@ -458,6 +596,7 @@ def main():
 
     sp = sub.add_parser("code")
     sp.add_argument("code")
+    sp.add_argument("--dac-tinh", help="Đặc tính hàng (vd 'đã sơn lót') — soát lệch với mô tả mã về phủ/mạ/sơn")
 
     sp = sub.add_parser("search")
     sp.add_argument("keyword")
@@ -485,7 +624,7 @@ def main():
     sp.add_argument("--chi-keo", action="store_true", help="Chỉ kéo từ ILMS về, không đẩy lên")
 
     sp = sub.add_parser("cbpg", help="Tìm vụ CBPG/PVTM theo tên hàng, mã HS, nhà SX, công ty TM, mác thép, tiêu chuẩn, số QĐ")
-    sp.add_argument("tu_khoa")
+    sp.add_argument("tu_khoa", nargs="?", help="Bỏ trống = bảng tóm tắt mọi vụ")
     sp.add_argument("--kieu", default=None, help="mat_hang|ma_hs|nha_sx|cong_ty_tm|mac_thep|tieu_chuan|so_qd|loai_tru")
 
     sp = sub.add_parser("vu", help="Hồ sơ đủ một vụ CBPG (mã vụ, vd AD19)")
@@ -498,6 +637,12 @@ def main():
     sp.add_argument("--nxk", help="Nhà xuất khẩu trên hóa đơn")
     sp.add_argument("--mac", help="Mác thép")
     sp.add_argument("--tc", help="Tiêu chuẩn đi kèm mác thép (ghi cả năm)")
+    sp.add_argument("--day", help="Độ dày lô (mm), vd 2,5")
+    sp.add_argument("--rong", help="Chiều rộng lô (mm), vd 1250")
+    sp.add_argument("--carbon", help="Hàm lượng carbon (%% khối lượng), vd 0,16")
+    sp.add_argument("--loi", help="Đường kính lõi dây/que hàn (mm)")
+    sp.add_argument("--dang", help="Dạng hàng: tam | cuon")
+    sp.add_argument("--dac-tinh", help="Đặc tính hàng (vd 'đã sơn lót') — soát lệch với mô tả mã về phủ/mạ/sơn")
 
     args = p.parse_args()
 
@@ -507,12 +652,13 @@ def main():
         return api_dongbo(args.chi_keo)
     chuyen = {"vanban": lambda: cmd_vanban(args.ma), "cbpg": lambda: cmd_cbpg(args.tu_khoa, args.kieu),
               "vu": lambda: cmd_vu(args.ma),
-              "thue": lambda: cmd_thue(args.code, args.nuoc, args.nsx, args.nxk, args.mac, args.tc)}
+              "thue": lambda: cmd_thue(args.code, args.nuoc, args.nsx, args.nxk, args.mac, args.tc, args.dac_tinh,
+                                       {k: getattr(args, k) for k in ("day", "rong", "carbon", "loi", "dang")})}
     if args.cmd in chuyen:
         return chuyen[args.cmd]()
 
     if args.cmd == "code":
-        cmd_code(args.code)
+        cmd_code(args.code, args.dac_tinh)
     elif args.cmd == "search":
         cmd_search(args.keyword)
     elif args.cmd == "chapter":
