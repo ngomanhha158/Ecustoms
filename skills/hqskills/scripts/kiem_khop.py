@@ -11,12 +11,11 @@ Chạy sau mỗi lần `dongbo` hoặc khi ILMS đổi luật:
     python scripts/kiem_khop.py
 Cần ILMS_URL + ILMS_USER/ILMS_PASS. Lệch dù một lô là thoát mã 1.
 """
-import io
 import os
 import sys
 import urllib.parse
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace", line_buffering=True)
+sys.stdout.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ilms_api  # noqa: E402
 import pvtm_local as pl  # noqa: E402
@@ -58,9 +57,11 @@ def rut(kq):
     return sorted(({k: v[k] for k in TRUONG} for v in kq["vu_viec"]), key=lambda v: v["ma_vu_viec"])
 
 
-def main():
-    if not ilms_api.bat():
-        raise SystemExit("Cần ILMS_URL + ILMS_USER/ILMS_PASS để so với máy chủ.")
+QUY_CACH = ("day", "rong", "carbon", "loi", "dang")
+
+
+def chay(in_chi_tiet=True):
+    """So mọi lô dựng từ dữ liệu trên máy + tiêu đề từng vụ. Trả (số lô, số lệch)."""
     kho = pl.doc_kho()
     so_lo = lech = 0
     da_thu = set()
@@ -75,24 +76,34 @@ def main():
             chu = rut(ilms_api.post("/pvtm/tinh-thue", {"code": lo["code"], "nuoc_co": lo.get("nuoc_co"),
                                                         "nha_sx": lo.get("nha_sx"), "nha_xk": lo.get("nha_xk"),
                                                         "mac_thep": lo.get("mac_thep"),
-                                                        "tieu_chuan": lo.get("tieu_chuan")}))
+                                                        "tieu_chuan": lo.get("tieu_chuan"),
+                                                        **{k: lo[k] for k in QUY_CACH if lo.get(k) is not None}}))
             for a in (may, chu):
                 for v in a:
                     v["muc_thue"] = None if v["muc_thue"] is None else round(float(v["muc_thue"]), 4)
             if may != chu:
                 lech += 1
-                print(f"LỆCH [{vu['ma_vu_viec']}] lô {lo}")
-                print(f"  máy : {may}")
-                print(f"  ILMS: {chu}")
+                if in_chi_tiet:
+                    print(f"LỆCH [{vu['ma_vu_viec']}] lô {lo}")
+                    print(f"  máy : {may}")
+                    print(f"  ILMS: {chu}")
     for vu in kho["vu_viec"]:
         may = pl.tieu_de(vu["mo_ta"], vu["ten_hang"])
         chu = ilms_api.get(f"/pvtm/vu-viec/{urllib.parse.quote(vu['ma_vu_viec'], safe='')}").get("tieu_de")
         if may != chu:
             lech += 1
-            print(f"LỆCH tiêu đề [{vu['ma_vu_viec']}]")
-            print(f"  máy : {may}")
-            print(f"  ILMS: {chu}")
-    print(f"{so_lo} lô + {len(kho['vu_viec'])} tiêu đề, {lech} lệch.")
+            if in_chi_tiet:
+                print(f"LỆCH tiêu đề [{vu['ma_vu_viec']}]")
+                print(f"  máy : {may}")
+                print(f"  ILMS: {chu}")
+    return so_lo + len(kho["vu_viec"]), lech
+
+
+def main():
+    if not ilms_api.bat():
+        raise SystemExit("Cần ILMS_URL + ILMS_USER/ILMS_PASS để so với máy chủ.")
+    so, lech = chay()
+    print(f"{so} lô + tiêu đề, {lech} lệch.")
     sys.exit(1 if lech else 0)
 
 

@@ -25,11 +25,13 @@ Chạy từ thư mục của skill này (đường dẫn tuyệt đối tới `s
 
 ```bash
 python scripts/query_hs.py code <mã 8 số>       # tra 1 mã HS
+python scripts/query_hs.py code <mã> --dac-tinh "đã sơn lót"  # soát đặc tính hàng lệch nhóm đã/chưa phủ-mạ-sơn của mã
 python scripts/query_hs.py search "<từ khóa>" [--chuong 72] [--n 30]  # tìm theo từ, không dấu, thứ tự tùy ý; xếp hạng, gom theo nhóm
 python scripts/query_hs.py chapter <số chương>  # Chú giải pháp lý theo Chương
 python scripts/query_hs.py heading <4 số>       # Chú giải chi tiết nhóm 4 số
 python scripts/query_hs.py gri [số quy tắc]     # toàn văn 6 quy tắc GRI
-python scripts/query_hs.py refs "<từ khóa>"     # tra văn bản pháp luật đã thêm (mọi danh mục)
+python scripts/query_hs.py refs "<từ khóa>"     # tra văn bản, XẾP theo độ liên quan + trích đoạn tô đậm
+                                                # (gõ có dấu thì so có dấu: "cán" không khớp "căn cứ")
 python scripts/query_hs.py refs "<từ khóa>" --category chinh_sach_phap_luat  # chỉ tra NĐ/TT
 python scripts/query_hs.py refs "<từ khóa>" --category cbpg_pvtm             # chỉ tra QĐ CBPG/PVTM
 python scripts/query_hs.py refs --nam 2026 --co-quan BCT   # liệt kê văn bản lọc theo năm/cơ quan, kèm nhãn ⚠ hiệu lực
@@ -84,11 +86,18 @@ $env:ILMS_PASS = "mat_khau"
 python scripts/query_hs.py dongbo            # kéo văn bản + kho CBPG về máy, đẩy văn bản chỉ có trên máy lên
 python scripts/query_hs.py dongbo --chi-keo  # chỉ kéo về
 python scripts/kiem_khop.py                  # so luật tính thuế CBPG trên máy với ILMS (phải 0 lệch)
+python scripts/nap_vb.py ocr "QD.pdf" --doc "QD.doc"   # OCR PDF scan qua ILMS -> bản chờ duyệt, đối chiếu mọi con số với bản Word
+python scripts/nap_vb.py luu QD --loai cbpg_pvtm --da-soat  # lưu bản đã soát (còn 【…】 thì từ chối)
 ```
 
 - `dongbo` kéo: mọi văn bản về `references/<loại>/`, mọi vụ phòng vệ thương mại (đủ hồ sơ,
   mức thuế từng nhà SX, công ty TM, loại trừ, điều kiện đi kèm loại trừ `dieu_kien`) về `data/pvtm.json`.
-  Ghi xong mới thay tệp cũ.
+  Ghi xong mới thay tệp cũ. Xong thì TỰ so luật với ILMS (như `kiem_khop.py`) — có lệch nghĩa là ILMS đã đổi
+  luật: chạy `chep_luat_ilms.py` trước khi dùng `thue`. Kèm danh sách mã HS thuộc ≥ 2 vụ đang áp.
+- Mạng chập chờn: lệnh đọc tự thử lại 3 lần; lệnh ghi / OCR không thử lại, báo lỗi rõ để chạy lại.
+- Văn bản PDF scan: `nap_vb.py ocr` → người đọc lại `data/ocr_cho_duyet/<tên>.txt` (sửa thẳng trong tệp, xóa mọi
+  dấu 【…】 sau khi soát) → `nap_vb.py luu`. Không bao giờ lưu bản OCR chưa soát. Gemini đôi khi từ chối chép
+  nguyên văn văn bản đã công bố (RECITATION) — ILMS tự thử lại, hết lượt thì báo 422: dùng bản Word/text.
 - Dữ liệu CBPG cũ hơn **7 ngày** thì `cbpg`/`vu`/`thue` in cảnh báo đầu kết quả — mức thuế đổi
   theo QĐ mới, nhắc người dùng chạy `dongbo`.
 - Luật tính thuế CBPG, kể cả soát lô theo quy cách (`scripts/pvtm_local.py`, khối "LUẬT"), là **bản chép
@@ -102,6 +111,7 @@ python scripts/kiem_khop.py                  # so luật tính thuế CBPG trên
 ## Tra cứu thuế phòng vệ thương mại (CBPG, chống lẩn tránh)
 
 ```bash
+python scripts/query_hs.py cbpg                            # bảng tóm tắt mọi vụ: trạng thái, hạn, mức không C/O, mức từng nước
 python scripts/query_hs.py cbpg "LX International"        # tìm theo tên hàng, mã HS, nhà SX, công ty TM, quy cách, mác thép, tiêu chuẩn, số QĐ
 python scripts/query_hs.py cbpg "DX57D+Z" --kieu mac_thep
 python scripts/query_hs.py vu AD19                          # hồ sơ đủ: tiêu đề theo mô tả hàng hóa, văn bản, quy cách, mã HS, mức thuế từng nhà SX, loại trừ
@@ -128,6 +138,14 @@ python scripts/query_hs.py vanban 3765/QĐ-BCT               # toàn văn một 
 - Điều kiện đi kèm loại trừ (trích nguyên văn + vị trí trong QĐ) nhập ở ILMS (bảng `pvtm_dieu_kien`) và về máy
   qua `dongbo`. QĐ mới có điều kiện đi kèm loại trừ thì báo người quản lý ILMS nhập — skill không giữ bản riêng.
   Có cảnh báo "chưa có điều kiện đi kèm loại trừ" thì chạy `dongbo` trước khi kết luận "không áp" theo mác thép.
+- Mã thuộc ≥ 2 vụ đang áp (vd AD20 + AC03.AD20; que hàn + dây hàn AD15): `thue` in cảnh báo đầu kết quả —
+  xác định hàng đúng MÔ TẢ của vụ nào trước khi đưa mức thuế.
+- Dòng loại trừ có nhãn cách miễn (ILMS phase141): **[Tự động — căn cứ kết quả kiểm định…]** chỉ cần kết quả kiểm
+  định Hải quan hoặc giám định; **[Chỉ khi có quyết định miễn trừ của Bộ Công Thương]** thì DN phải có QĐ miễn trừ
+  (chưa có thì nộp hồ sơ theo TT 37/2019 + TT 42/2023) — nói rõ loại nào khi tư vấn.
+- Người dùng tả đặc tính hàng (đã sơn / mạ / tráng / phủ, hay chưa) thì truyền `--dac-tinh` để máy soát lệch nhóm
+  của mã; có cảnh báo thì soát lại mã HS trước (bài học: thép "đã sơn lót" tra nhầm 7208 là bỏ sót vụ ER01.AD04
+  của 7210.70).
 - Vụ ghi "CHƯA ĐỐI CHIẾU BẢN GIẤY": nói rõ với người dùng rằng số liệu cần đối chiếu QĐ gốc trước khi khai.
 - Không nộp C/O, không có giấy chứng nhận nhà SX, hay nhà XK không cùng hàng ngang với nhà SX đều rơi về mức cao hơn — nêu rõ điều này khi tư vấn.
 - Có cảnh báo dữ liệu cũ hơn 7 ngày thì nói rõ với người dùng trước khi đưa mức thuế.

@@ -9,12 +9,11 @@ Cách dùng:
     python docx_to_text.py "file.docx" --out output.txt
 """
 import sys
-import io
 import zipfile
 import argparse
 import xml.etree.ElementTree as ET
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 W_NS = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
 

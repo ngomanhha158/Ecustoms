@@ -6,6 +6,7 @@ Bật khi có biến môi trường:
     ILMS_TOKEN token đăng nhập, HOẶC ILMS_USER + ILMS_PASS để tự đăng nhập
 Không có ILMS_URL -> các lệnh chạy trên tệp máy như cũ.
 """
+import http.client
 import json
 import os
 import urllib.error
@@ -21,7 +22,18 @@ def bat():
     return bool(URL)
 
 
-def _goi(method, path, body=None, headers=None, raw=None):
+def _goi(method, path, body=None, headers=None, raw=None, timeout=30):
+    """GET đứt mạng / quá giờ thì thử lại (tối đa 3 lần — đọc lặp lại vô hại).
+    POST không thử lại (có thể đã ghi / đã tốn một lượt OCR) — báo lỗi dễ đọc."""
+    for _lan in range(3 if method == "GET" else 1):
+        try:
+            return _goi_mot(method, path, body, headers, raw, timeout)
+        except (TimeoutError, ConnectionError, http.client.IncompleteRead, http.client.RemoteDisconnected) as e:
+            loi = e
+    raise SystemExit(f"Mạng tới ILMS chập chờn ({type(loi).__name__}) khi gọi {method} {path} — thử lại sau ít phút.")
+
+
+def _goi_mot(method, path, body, headers, raw, timeout):
     req = urllib.request.Request(URL + path, method=method)
     for k, v in (headers or {}).items():
         req.add_header(k, v)
@@ -30,7 +42,7 @@ def _goi(method, path, body=None, headers=None, raw=None):
         data = json.dumps(body).encode("utf-8")
         req.add_header("Content-Type", "application/json")
     try:
-        with urllib.request.urlopen(req, data=data, timeout=30) as r:
+        with urllib.request.urlopen(req, data=data, timeout=timeout) as r:
             txt = r.read().decode("utf-8")
             return json.loads(txt) if txt else None
     except urllib.error.HTTPError as e:
@@ -64,6 +76,20 @@ def get(path, **params):
 
 def post(path, body):
     return _goi("POST", f"/api/tracuu{path}", body=body, headers={"Authorization": f"Bearer {_dang_nhap()}"})
+
+
+def ocr_van_ban(duong_dan):
+    """POST /api/tracuu/van-ban/ocr-preview — ILMS OCR bằng Gemini, KHÔNG lưu gì.
+    Trả {so_hieu, ten, ngay_ban_hanh, co_quan, noi_dung (số/mã không chắc bọc 【…】), canh_bao}."""
+    ten = os.path.basename(duong_dan)
+    mime = "application/pdf" if ten.lower().endswith(".pdf") else "image/jpeg"
+    with open(duong_dan, "rb") as f:
+        tep = f.read()
+    ranh = uuid.uuid4().hex
+    raw = (f'--{ranh}\r\nContent-Disposition: form-data; name="tep"; filename="{ten}"\r\n'
+           f"Content-Type: {mime}\r\n\r\n").encode() + tep + f"\r\n--{ranh}--\r\n".encode()
+    return _goi("POST", "/api/tracuu/van-ban/ocr-preview", raw=raw, timeout=300, headers={
+        "Authorization": f"Bearer {_dang_nhap()}", "Content-Type": f"multipart/form-data; boundary={ranh}"})
 
 
 def them_van_ban(meta, noi_dung):

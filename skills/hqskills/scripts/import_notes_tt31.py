@@ -22,13 +22,12 @@ Toàn bộ văn bản giữa mốc "Chương N" và mốc heading đầu tiên (
 Chương kế tiếp) được lưu làm Chú giải của Chương N.
 """
 import sys
-import io
 import os
 import re
 import json
 import argparse
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(BASE, "data")

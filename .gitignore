@@ -3,3 +3,4 @@ __pycache__/
 .env
 *.xlsx
 skills/hqskills/references/_cu/
+skills/hqskills/data/ocr_cho_duyet/

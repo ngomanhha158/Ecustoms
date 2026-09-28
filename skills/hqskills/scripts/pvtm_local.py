@@ -150,24 +150,71 @@ def tim(kho, q, kieu=""):
                 if co(x["tieu_chuan"]):
                     nhom["tieu_chuan"].append({**vu, **x})
             elif co(x.get("noi_dung")):
-                nhom["loai_tru"].append({**vu, "noi_dung": x["noi_dung"]})
+                nhom["loai_tru"].append({**vu, "noi_dung": x["noi_dung"], "thu_tuc": x.get("thu_tuc")})
         so_qd = {v.get("so_hieu")} | {b["so_hieu"] for b in v.get("van_ban", [])}
         nhom["so_qd"] += [{**vu, "so_hieu": s} for s in sorted(x for x in so_qd if co(x))]
     return [{"kieu": x, "tong": len(ds), "ket_qua": ds} for x, ds in nhom.items()
             if ds and (not kieu or kieu == x)]
 
 
+def trung_ma(kho):
+    """{mã 8 số: [mã vụ…]} cho mọi mã thuộc TỪ HAI vụ đang áp trở lên.
+
+    Không phải lỗi dữ liệu (vd AD20 và vụ chống lẩn tránh AC03.AD20 cùng mã; que
+    hàn và dây hàn của QĐ 1624 chung 3 mã 8311) — nhưng người khai phải chọn đúng
+    vụ theo MÔ TẢ hàng, nên phải được nhắc mỗi khi tính thuế những mã này."""
+    gom = {}
+    for v in kho["vu_viec"]:
+        if dang_ap(v):
+            for c in v["ma_hs"]:
+                gom.setdefault(c, []).append(v["ma_vu_viec"])
+    return {c: ds for c, ds in sorted(gom.items()) if len(ds) > 1}
+
+
+_PHU = r"(son|ma|trang|dat phu|phu(?! dau)|vecni|plastic)"
+_KHONG_PHU = re.compile(r"\b(khong|chua)( duoc)? " + _PHU + r"\b")
+_CO_PHU = re.compile(r"\b(da |duoc )?" + _PHU + r"\b")
+
+
+def lech_phu(dac_tinh, mo_ta_ma):
+    """So đặc tính người dùng khai ('đã sơn lót', 'chưa mạ'…) với mô tả của mã HS về
+    phủ/mạ/tráng/sơn. Trả câu cảnh báo, hoặc '' khi không lệch / không đủ dữ kiện.
+
+    CHỈ là gợi ý soát lại mã — không kết luận phân loại (việc đó theo Chú giải + GRI).
+    Bài học 25-09: hàng 'đã sơn lót' mà tra mã 7208 (chưa phủ) thì bỏ sót vụ CBPG
+    của mã đúng 7210.70 (ER01.AD04)."""
+    t = " ".join(bo_dau(dac_tinh).replace(",", " ").split())
+    if not t:
+        return ""
+    khong = bool(_KHONG_PHU.search(t))
+    co = bool(_CO_PHU.search(_KHONG_PHU.sub(" ", t).replace("phu dau", " ")))
+    m = bo_dau(mo_ta_ma)
+    ma_chua = "chua dat phu" in m or "chua duoc dat phu" in m or "not clad" in m
+    ma_da = not ma_chua and ("da dat phu" in m or "duoc son" in m or "clad, plated or coated" in m
+                             or "da phu" in m or "duoc ma" in m or "da ma" in m)
+    if co and not khong and ma_chua:
+        return ("! Hàng khai là ĐÃ sơn/mạ/tráng/phủ nhưng mã này thuộc nhóm CHƯA dát phủ, phủ, mạ, tráng "
+                "— soát lại mã HS (thép cán phẳng đã sơn/mạ thường thuộc 7210/7212), vụ CBPG có thể khác hẳn.")
+    if khong and not co and ma_da:
+        return ("! Hàng khai là CHƯA sơn/mạ/tráng/phủ nhưng mã này thuộc nhóm ĐÃ dát phủ, phủ, mạ, tráng "
+                "— soát lại mã HS.")
+    return ""
+
+
 def _dong_sx(s):
     return {"ten": s["ten"], "nuoc": s["nuoc"], "muc_thue": s["muc_thue"], "khong_ap": s["khong_ap"]}
 
 
-# ================================================================ LUẬT — chép nguyên văn ILMS services/pvtm.py (commit f493d84)
+# ================================================================ LUẬT — chép nguyên văn ILMS services/pvtm.py (commit 999993f)
 # KHÔNG SỬA TAY: sửa ở ILMS rồi chạy scripts/chep_luat_ilms.py.
 
 LOAI = ("cbpg", "chong_lan_tranh", "chong_tro_cap", "tu_ve")
 GIAI_DOAN = ("tam_thoi", "chinh_thuc", "ra_soat", "het_hieu_luc", "cham_dut")
 VAI_VAN_BAN = ("goc", "sua_doi", "gia_han", "ra_soat", "cham_dut")
 KIEU_LOAI_TRU = ("mo_ta", "mac_thep", "ma_hs", "vu_khac")
+# Cách được miễn của một dòng loại trừ (phase141). Bỏ trống = QĐ không nói riêng.
+NHAN_THU_TUC_MIEN_TRU = {"kiem_dinh": "Tự động — căn cứ kết quả kiểm định Hải quan hoặc giám định",
+                         "xin_mien_tru": "Chỉ khi có quyết định miễn trừ của Bộ Công Thương"}
 GIAI_DOAN_CON_AP = ("tam_thoi", "chinh_thuc", "ra_soat")
 # phase138: thông số quy cách máy so được, loại điều kiện đi kèm loại trừ, và 4 kết luận.
 KHOA_QUY_CACH = ("day", "rong", "carbon", "loi", "dang")
