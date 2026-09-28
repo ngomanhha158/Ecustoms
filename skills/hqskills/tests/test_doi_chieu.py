@@ -7,7 +7,6 @@ import unittest
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "scripts"))
 import doi_chieu as dc  # noqa: E402
 import pvtm_local as pl  # noqa: E402
-import soat_lo  # noqa: E402
 
 
 def dong_cua(dong, truong):
@@ -48,7 +47,7 @@ class DoiChieu(unittest.TestCase):
     def test_canh_bao_mac_viet_khac_qd_va_soat_thue(self):
         kho = pl.doc_kho()
         self.assertTrue(any("'LRA'" in c and "'LR A'" in c for c in dc.canh_bao_cach_viet_mac(kho, self.lo)))
-        r = soat_lo.soat(kho, dc.lo_tinh_thue(self.lo))
+        r = pl.tinh_cho_lo(kho, dc.lo_tinh_thue(self.lo))
         self.assertEqual(next(k for k in r["vu_viec"] if k["ma_vu_viec"] == "AD20")["ket_luan"], "khong_ap")
 
     def test_thieu_ma_hs_8_so(self):

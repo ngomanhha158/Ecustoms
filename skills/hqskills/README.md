@@ -107,12 +107,14 @@ python scripts/kiem_khop.py                  # so luật tính thuế CBPG trên
 ```
 
 - `dongbo` kéo: mọi văn bản về `references/<loại>/`, mọi vụ phòng vệ thương mại (đủ hồ sơ,
-  mức thuế từng nhà SX, công ty TM, loại trừ) về `data/pvtm.json`. Ghi xong mới thay tệp cũ.
+  mức thuế từng nhà SX, công ty TM, loại trừ, điều kiện đi kèm loại trừ `dieu_kien`) về `data/pvtm.json`.
+  Ghi xong mới thay tệp cũ.
 - Dữ liệu CBPG cũ hơn **7 ngày** thì `cbpg`/`vu`/`thue` in cảnh báo đầu kết quả — mức thuế đổi
   theo QĐ mới, nhắc người dùng chạy `dongbo`.
-- Luật tính thuế CBPG (`scripts/pvtm_local.py`) là **bản chép** luật của ILMSv2
-  (`backend/app/services/pvtm.py`). ILMS đổi luật thì chép lại khối "LUẬT" rồi chạy
-  `kiem_khop.py`; lệch dù một lô là chưa được dùng.
+- Luật tính thuế CBPG, kể cả soát lô theo quy cách (`scripts/pvtm_local.py`, khối "LUẬT"), là **bản chép
+  nguyên văn** ILMSv2 `backend/app/services/pvtm.py` — một luật chỉ viết một chỗ, ở ILMS. ILMS đổi luật thì
+  chạy `python scripts/chep_luat_ilms.py <ILMS>/backend/app/services/pvtm.py --commit <sha>` (không sửa tay),
+  rồi chạy test và `kiem_khop.py`; lệch dù một lô là chưa được dùng.
 - `add_reference.py` có `ILMS_URL` thì gửi văn bản mới lên kho ILMS (cần quyền `tracuu.manage`:
   MANAGER, ACCOUNTANT, DOCS), sau đó chạy `dongbo --chi-keo` để có bản trên máy.
 - Biểu thuế, Chú giải, GRI trong `data/` là dữ liệu gốc của skill (ILMS được nạp từ chính các tệp này).
@@ -160,7 +162,7 @@ Ký hiệu cần xử lý sau khi nhận văn bản: `[...]` (điền vào),
 | `canhbao [--ngay 90]` | Vụ PVTM sắp hết hạn, quá hạn, tạm thời, rà soát; văn bản mới ban hành |
 | `scripts/xuat_docx.py van_ban.json --ra van_ban.docx` | Xuất tờ trình, công văn, báo cáo ra Word đúng thể thức NĐ 30/2020 (cần `pip install python-docx`) |
 
-Điều kiện đọc tay từ nguyên văn QĐ (vd 1959/QĐ-BCT chỉ loại trừ mác thép với hàng dạng tấm) nằm ở
-`data/dieu_kien_bo_sung.json`. Mẫu đầu vào: `mau/ho_so_mau.json`, `mau/to_trinh_mau.json`.
+Điều kiện đi kèm loại trừ (vd 1959/QĐ-BCT chỉ loại trừ mác thép với hàng dạng tấm) nhập ở ILMS và về máy qua
+`dongbo` (trường `dieu_kien` trong `data/pvtm.json`). Mẫu đầu vào: `mau/ho_so_mau.json`, `mau/to_trinh_mau.json`.
 
 Kiểm thử: `python -m unittest discover -s skills/hqskills/tests`

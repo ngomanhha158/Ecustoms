@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ilms_api  # noqa: E402
 import pvtm_local as pl  # noqa: E402
 
-TRUONG = ("ma_vu_viec", "ket_luan", "muc_thue", "cac_buoc", "canh_bao", "nha_sx_khop")
+TRUONG = ("ma_vu_viec", "ket_luan", "muc_thue", "cac_buoc", "canh_bao", "nha_sx_khop", "thieu", "tu_doi_chieu")
 
 
 def cac_lo(vu):
@@ -42,6 +42,14 @@ def cac_lo(vu):
             lo.append({"code": code, "nuoc_co": nuoc, "mac_thep": x["mac_thep"], "tieu_chuan": "TC khac"})
         elif x["kieu"] == "ma_hs" and pl.ma_hs_8(x.get("ma_hs")):
             lo.append({"code": pl.ma_hs_8(x["ma_hs"]), "nuoc_co": nuoc})
+    # Soát quy cách (ILMS phase138): mỗi ô quy cách vụ dùng — thiếu, trong và ngoài khoảng; dạng tấm/cuộn
+    mac = next(((x["mac_thep"], x["tieu_chuan"]) for x in vu["loai_tru"] if x["kieu"] == "mac_thep"), None)
+    for dang in (None, "tam", "cuon"):
+        for day, rong, carbon, loi in ((None,) * 4, (8, 1500, 0.2, 1.2), (12, 2000, 0.35, 4.3)):
+            q = {"code": code, "nuoc_co": nuoc, "dang": dang, "day": day, "rong": rong, "carbon": carbon, "loi": loi}
+            lo.append(q)
+            if mac:
+                lo.append({**q, "mac_thep": mac[0], "tieu_chuan": mac[1]})
     return lo
 
 
