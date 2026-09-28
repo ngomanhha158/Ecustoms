@@ -1,23 +1,23 @@
 {
  "nguon": "ILMSv2",
- "dong_bo_luc": "2026-09-28T02:20:05+00:00",
+ "dong_bo_luc": "2026-09-28T03:48:08+00:00",
  "vu_viec": [
   {
    "id": 2,
    "ma_vu_viec": "AC03.AD20",
    "loai": "chong_lan_tranh",
-   "giai_doan": "tam_thoi",
+   "giai_doan": "chinh_thuc",
    "ten_hang": "Thép cán nóng khổ rộng trên 1.880 mm đến 2.300 mm",
-   "hieu_luc_tu": "2026-04-17",
-   "hieu_luc_den": null,
-   "da_doi_chieu": true,
+   "hieu_luc_tu": "2026-08-12",
+   "hieu_luc_den": "2030-07-05",
+   "da_doi_chieu": false,
    "dang_ap": true,
-   "so_hieu": "612/QĐ-BCT",
+   "so_hieu": "1917/QĐ-BCT, 612/QĐ-BCT",
    "mo_ta": "Hàng hóa là một số sản phẩm sắt hoặc thép hợp kim hoặc không hợp kim được cán phẳng; được cán nóng; độ dày từ 1,2mm đến 25,4mm; có chiều rộng lớn hơn 1.880mm và nhỏ hơn hoặc bằng 2.300mm; chưa được gia công quá mức cán nóng; đã tẩy gỉ hoặc không tẩy gỉ; không dát phủ, phủ, mạ hoặc tráng; có phủ dầu hoặc không phủ dầu; hàm lượng carbon nhỏ hơn hoặc bằng 0,30% tính theo khối lượng.",
    "muc_khong_chung_tu": 27.83,
-   "ghi_chu": "Biện pháp chống lẩn tránh TẠM THỜI biện pháp CBPG của vụ AD20 (QĐ 1959/QĐ-BCT), do thay đổi không đáng kể hàng hóa (tăng chiều rộng lên trên 1.880 mm). Mức thuế CBPG 27,83% cho tất cả các công ty sản xuất, xuất khẩu của Trung Quốc. Không nộp C/O hoặc nộp C/O Trung Quốc → 27,83%; C/O nước khác → không áp. Thời hạn: từ ngày QĐ có hiệu lực đến hết thời hạn theo khoản 4 Điều 94 Nghị định 86/2025/NĐ-CP. Căn cứ điều tra: QĐ 3176/QĐ-BCT ngày 27/10/2025. Mục 3.3: mác BW450, BS700MCK2, AG700, LG700T là MIỄN TRỪ (nộp hồ sơ theo TT 26/2025/TT-BCT).",
-   "doi_chieu_luc": "2026-09-23T16:17:06.081505Z",
-   "doi_chieu_ten": "NMH",
+   "ghi_chu": "Biện pháp chống lẩn tránh CHÍNH THỨC biện pháp CBPG của vụ AD20 (QĐ 1959/QĐ-BCT) theo QĐ 1917/QĐ-BCT ngày 28/7/2026, hiệu lực sau 15 ngày kể từ ngày ban hành (12/8/2026); thay biện pháp TẠM THỜI theo QĐ 612/QĐ-BCT (áp từ 17/4/2026). Lẩn tránh do thay đổi không đáng kể hàng hóa (tăng chiều rộng lên trên 1.880 mm). Mức 27,83% cho tất cả các công ty sản xuất, xuất khẩu của Trung Quốc. Không nộp C/O hoặc nộp C/O Trung Quốc → 27,83%; C/O nước khác → không áp. Thời hạn: theo thời hạn của QĐ 1959/QĐ-BCT (Mục 5 Thông báo). Căn cứ điều tra: QĐ 3176/QĐ-BCT ngày 27/10/2025. Mục 3.3: mác BW450, BS700MCK2, AG700, LG700T là MIỄN TRỪ (nộp hồ sơ theo TT 26/2025/TT-BCT).",
+   "doi_chieu_luc": null,
+   "doi_chieu_ten": null,
    "van_ban": [
     {
      "so_hieu": "612/QĐ-BCT",
@@ -26,6 +26,14 @@
      "ten": "Chống lẩn tránh PVTM tạm thời thép cán nóng Trung Quốc khổ 1.880–2.300 mm (AC03.AD20)",
      "ngay_ban_hanh": "2026-04-02",
      "link_goc": "https://drive.google.com/file/d/1smoNGfEJbgr7O1BXUxQPF-MBa_PebcxS/view?usp=drive_link"
+    },
+    {
+     "so_hieu": "1917/QĐ-BCT",
+     "vai": "goc",
+     "van_ban_id": 87,
+     "ten": "Áp dụng chống lẩn tránh PVTM chính thức thép cán nóng Trung Quốc rộng >1.880–2.300mm (AC03.AD20)",
+     "ngay_ban_hanh": "2026-07-28",
+     "link_goc": ""
     }
    ],
    "ma_hs": [
@@ -132,7 +140,7 @@
       "vu": "AD20"
      },
      "trich": "Các sản phẩm thép cán nóng được loại trừ khỏi phạm vi áp dụng thuế CBPG chính thức theo Quyết định số 1959/QĐ-BCT ngày 04 tháng 07 năm 2025",
-     "can_cu": "612/QĐ-BCT — Thông báo kèm theo, Mục 3.2",
+     "can_cu": "1917/QĐ-BCT — Thông báo kèm theo, Mục 3.2",
      "loai_tru_mac": [
       {
        "mac_thep": "ABS A",
@@ -778,7 +786,7 @@
       "dang": "tam"
      },
      "trich": "Loại trừ theo 1959/QĐ-BCT chỉ áp dụng cho các sản phẩm thép cán nóng dạng tấm thuộc danh mục mác thép",
-     "can_cu": "612/QĐ-BCT — Thông báo kèm theo, Mục 3.2 (dẫn 1959/QĐ-BCT Mục 1 điểm c)"
+     "can_cu": "1917/QĐ-BCT — Thông báo kèm theo, Mục 3.2 (dẫn 1959/QĐ-BCT Mục 1 điểm c)"
     },
     {
      "loai": "loai_tru_quy_cach",
@@ -790,7 +798,7 @@
       "dang": "tam"
      },
      "trich": "Các sản phẩm thép cán nóng dạng tấm có độ dày từ 10mm trở lên",
-     "can_cu": "612/QĐ-BCT — Thông báo kèm theo, Mục 3.2"
+     "can_cu": "1917/QĐ-BCT — Thông báo kèm theo, Mục 3.2"
     },
     {
      "loai": "loai_tru_quy_cach",
@@ -801,7 +809,7 @@
       ]
      },
      "trich": "Các sản phẩm thép cán nóng có hàm lượng carbon lớn hơn 0,30% tính theo khối lượng",
-     "can_cu": "612/QĐ-BCT — Thông báo kèm theo, Mục 3.2"
+     "can_cu": "1917/QĐ-BCT — Thông báo kèm theo, Mục 3.2"
     }
    ],
    "nha_sx": [],
