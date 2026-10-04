@@ -500,8 +500,41 @@ def _tu(s):
     return re.findall(r"[a-z0-9]+", strip_accents(s))
 
 
-def xep_hang(codes, keyword, chuong=None):
-    """[(diem, code, entry, du_tu)] đã xếp; du_tu=False là kết quả nới lỏng (thiếu từ)."""
+# Cặp từ quá chung để một mình làm bằng chứng "cùng cụm" (dùng khi chọn nhóm cạnh tranh).
+TU_CHUNG = {"tu", "dong", "xu", "ly", "loai", "khac", "dang", "co", "chua", "da", "cac", "va", "hoac", "bang"}
+
+
+def dem_cum_lien(tu, vn, bo_chung=False):
+    """Số cặp từ liền nhau của người dùng cũng liền nhau trong mô tả `vn` (chuỗi không dấu, cách bằng khoảng trắng).
+    bo_chung=True: không đếm cặp mà cả hai từ đều chung chung ("xu ly", "tu dong")."""
+    vn = f" {vn} "
+    return sum(1 for a, b in zip(tu, tu[1:])
+               if f" {a} {b} " in vn and not (bo_chung and a in TU_CHUNG and b in TU_CHUNG))
+
+
+def mo_ta_nhom(codes, nhom):
+    """Mô tả dòng 4 số; nhóm chỉ có một mã (vd 7221.00.00) thì dòng 4 số trống → lấy đoạn đầu mã 8 số."""
+    mt = codes.get(nhom, {}).get("desc_vn", "")
+    if mt:
+        return mt
+    for c in sorted(codes):
+        if c.startswith(nhom) and len(c) == 8:
+            return doan(codes[c].get("desc_vn", ""))[0]
+    return ""
+
+
+_DOAN = re.compile(r"\s-(?:\s-)+\s")   # Biểu thuế nối các cấp bằng " - - ", " - - - "…
+
+
+def doan(desc):
+    """Các đoạn theo cấp của một mô tả: [mô tả nhóm, cấp 6 số, cấp 8 số…]."""
+    return [d.strip(" :") for d in _DOAN.split(desc or "")]
+
+
+def xep_hang(codes, keyword, chuong=None, noi_long=False):
+    """[(diem, code, entry, du_tu)] đã xếp; du_tu=False là kết quả nới lỏng (thiếu từ).
+
+    noi_long=True: trả MỌI mã khớp ≥ 1 từ (đã xếp hạng) — `phanloai` dùng để tìm nhóm cạnh tranh."""
     tu = list(dict.fromkeys(_tu(keyword)))
     if not tu:
         return []
@@ -515,13 +548,26 @@ def xep_hang(codes, keyword, chuong=None):
         khop = sum(1 for t in tu if t in chu or any(c.startswith(t) for c in chu if len(t) >= 3))
         if not khop:
             continue
-        diem = khop / len(tu) * 100 + (30 if cum in vn else 0) + (10 if len(code) == 8 else 0) \
+        # Cụm 2 từ liền nhau của người dùng cũng liền nhau trong mô tả ("khong gi", "can nong") = sát nghĩa hơn
+        # từ rời rạc — mỗi cụm +12, chặn trần 36 để không át mức khớp đủ từ.
+        cum2 = dem_cum_lien(tu, vn)
+        diem = khop / len(tu) * 100 + (30 if cum in vn else 0) + min(cum2, 3) * 12 + (10 if len(code) == 8 else 0) \
             - min(len(vn), 400) / 40
         ra.append((diem, code, e, khop == len(tu)))
     ra.sort(key=lambda r: (-r[0], r[1]))
+    if noi_long:
+        return ra
+    return loc_du_tu(ra)
+
+
+# Ngưỡng giữ kết quả thiếu từ: khớp ≥ nửa số từ (50 điểm) sau khi trừ tối đa cho mô tả dài (400/40).
+NGUONG_NOI_LONG = 50 - 400 / 40
+
+
+def loc_du_tu(ra):
+    """Có kết quả đủ từ thì bỏ kết quả thiếu; không có thì chỉ giữ kết quả khớp >= nửa số từ."""
     du = [r for r in ra if r[3]]
-    # Có kết quả đủ từ thì bỏ kết quả thiếu; không có thì chỉ giữ kết quả khớp >= nửa số từ.
-    return du or [r for r in ra if r[0] >= 50 - 400 / 40]
+    return du or [r for r in ra if r[0] >= NGUONG_NOI_LONG]
 
 
 def cmd_search(keyword, chuong=None, n=20):
@@ -538,7 +584,7 @@ def cmd_search(keyword, chuong=None, n=20):
         nhom = code[:4]
         if nhom not in nhom_da_in:
             nhom_da_in.add(nhom)
-            print(f"— Nhóm {nhom}: {codes.get(nhom, {}).get('desc_vn', '')[:90]}")
+            print(f"— Nhóm {nhom}: {mo_ta_nhom(codes, nhom)[:90]}")
         if len(code) == 8:
             print(f"    {_ma(code)}  MFN={e.get('mfn', '')}  {e.get('desc_vn', '')[:100]}")
     chuong_ds = sorted({c[:2] for _d, c, _e, _du in kq})
@@ -863,6 +909,12 @@ def main():
     sp.add_argument("--chuong", help="Chỉ tìm trong 1 Chương (vd 72)")
     sp.add_argument("--n", type=int, default=20, help="Số mã hiển thị (mặc định 20)")
 
+    sp = sub.add_parser("phanloai", help="Gợi ý mã HS từ TÊN HÀNG theo 6 quy tắc GRI (trình bày từng quy tắc + câu hỏi)")
+    sp.add_argument("ten", help="Tên hàng khai báo, vd 'Thép không gỉ dạng thanh tròn cán nóng, hiệu POSCO'")
+    sp.add_argument("--chuong", help="Chỉ xét trong 1 Chương (vd 72)")
+    sp.add_argument("--n", type=int, default=8, help="Số mã hiển thị mỗi nhóm (mặc định 8)")
+    sp.add_argument("--json", action="store_true", help="Xuất JSON có cấu trúc (cho ILMS/agent dùng)")
+
     sp = sub.add_parser("chapter")
     sp.add_argument("num")
 
@@ -945,6 +997,9 @@ def main():
         cmd_code(args.code, args.dac_tinh)
     elif args.cmd == "search":
         cmd_search(args.keyword, args.chuong, args.n)
+    elif args.cmd == "phanloai":
+        import phan_loai
+        phan_loai.cmd_phanloai(args.ten, args.chuong, args.n, args.json)
     elif args.cmd == "chapter":
         cmd_chapter(args.num)
     elif args.cmd == "heading":
