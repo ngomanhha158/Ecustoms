@@ -24,6 +24,7 @@ hành, được người dùng tự nhập/tự cập nhật qua các script tro
 Chạy từ thư mục của skill này (đường dẫn tuyệt đối tới `scripts/query_hs.py`):
 
 ```bash
+python scripts/query_hs.py phanloai "<tên hàng khai báo>" [--chuong 72] [--n 8] [--json]  # gợi ý mã theo 6 GRI (xem mục riêng)
 python scripts/query_hs.py code <mã 8 số>       # tra 1 mã HS
 python scripts/query_hs.py code <mã> --dac-tinh "đã sơn lót"  # soát đặc tính hàng lệch nhóm đã/chưa phủ-mạ-sơn của mã
 python scripts/query_hs.py search "<từ khóa>" [--chuong 72] [--n 30]  # tìm theo từ, không dấu, thứ tự tùy ý; xếp hạng, gom theo nhóm
@@ -53,11 +54,45 @@ Nếu dữ liệu Biểu thuế/Chú giải chưa được nhập, script sẽ b
 hướng dẫn chạy `scripts/import_tariff.py` — không tự bịa số liệu khi
 thiếu dữ liệu.
 
+## Phân loại theo 6 quy tắc GRI từ tên hàng (`phanloai`)
+
+Người dùng gõ tên hàng như trên tờ khai → máy trình bày **từng quy tắc với căn cứ đọc được**, rồi dừng ở câu
+hỏi thay vì tự kết luận. Chạy `phanloai` TRƯỚC `search` khi đầu vào là một tên hàng đầy đủ.
+
+```bash
+python scripts/query_hs.py phanloai "Thép không gỉ dạng thanh tròn cán nóng, hiệu POSCO, đường kính 12mm, hàng mới 100%"
+python scripts/query_hs.py phanloai "máy tính xách tay hiệu Dell model Latitude 5440" --json   # cấu trúc cho ILMS/agent
+```
+
+Máy làm gì (và chỉ làm chừng đó):
+
+- **Tách tên hàng:** bỏ nhãn hiệu / model / xuất xứ / "mới 100%" (không phải yếu tố phân loại theo QT 1); tách thông
+  số (`12mm`) ra riêng để đối chiếu Chú giải; thay từ thương mại bằng từ của Biểu thuế theo `data/tu_dong_nghia.json`
+  (`inox → thép không gỉ`, `laptop → máy xử lý dữ liệu tự động xách tay`…). Tệp này người dùng tự bổ sung, **chỉ ghi
+  cặp đã chắc**.
+- **QT 1:** xếp hạng mã theo từ + **cụm liền** (`khong gi`, `can nong` liền nhau điểm cao hơn từ rời), gom theo nhóm 4
+  số, in mô tả nhóm, báo Chú giải Chương đã nạp chưa, và **trích câu loại trừ** trong Chú giải Chương có nhắc tới từ
+  của tên hàng. In thêm **nhóm cạnh tranh** (mô tả nhóm chứa ≥ 2 cụm liền của tên hàng) để đọc loại trừ ở cả hai đầu.
+  Chương 98 (mã ưu đãi riêng của Biểu thuế VN) không là ứng viên — chỉ áp sau khi đã xếp vào Chương 1-97.
+- **QT 2(a)/2(b), QT 5:** chỉ bật khi tên hàng có dấu hiệu (`tháo rời`, `chưa lắp ráp`, `hỗn hợp`, `kèm hộp`…) — in
+  dấu hiệu + câu hỏi, không tự trả lời.
+- **QT 3:** nhiều nhóm sát điểm (chênh ≤ 15) → báo 3(a) máy chưa tách được, 3(b) hỏi đặc trưng cơ bản, 3(c) chỉ nêu
+  nhóm số sau cùng kèm chữ "CHỈ KHI 3(a), 3(b) không giải quyết được".
+- **QT 4:** không mã nào khớp → yêu cầu mô tả lại bản chất hàng.
+- **QT 6:** liệt kê **mọi** phân nhóm 6 số của nhóm đứng đầu (★ = có mã khớp) để so cùng cấp, và in **dòng phân biệt
+  nguyên văn** giữa các mã 8 số (vd `Có mặt cắt ngang hình tròn | Loại khác`) thành câu hỏi.
+- "Độ khớp từ khóa" (khá / trung bình / thấp) là mức khớp chữ, **không phải** độ chắc chắn pháp lý.
+
+Khi dùng kết quả: trả lời đủ các câu "CẦN HỎI NGƯỜI DÙNG" (hỏi lại nếu thiếu), đọc `chapter` của CẢ nhóm chọn và nhóm
+cạnh tranh, rồi `code <mã>` để lấy thuế / FTA / CBPG. Chú giải chi tiết nhóm chưa nạp (`heading_notes.json` trống)
+thì phải nói rõ là chưa đối chiếu Chú giải nhóm. Luật xếp hạng viết một chỗ: `query_hs.xep_hang` (dùng chung với
+`search`).
+
 ## Quy trình phân tích gợi ý (người dùng tự điều chỉnh theo kinh nghiệm riêng)
 
 1. Đọc kỹ tên hàng khai báo, tách bản chất/thành phần/công dụng thật
    khỏi các yếu tố không liên quan phân loại (model, NSX, đóng gói...).
-2. Nếu đã có mã khai báo: `code <mã>` để đối chiếu mô tả chính thức.
+2. Nếu đã có mã khai báo: `code <mã>` để đối chiếu mô tả chính thức. Chưa có mã: `phanloai "<tên hàng>"`.
 3. Nếu cần tìm/thẩm định mã: đọc `chapter` và `heading` của các nhóm
    nghi vấn, đối chiếu Chú giải loại trừ ở CẢ hai đầu (nhóm nghiêng về
    và nhóm cạnh tranh) trước khi kết luận.
@@ -75,7 +110,7 @@ Xem `README.md` ở thư mục gốc để biết cách nhập/cập nhật dữ
 
 ## Chạy độc lập — ILMSv2 chỉ là nơi đồng bộ dữ liệu
 
-Mọi lệnh tra cứu (`code`, `search`, `chapter`, `heading`, `gri`, `refs`, `vanban`,
+Mọi lệnh tra cứu (`code`, `phanloai`, `search`, `chapter`, `heading`, `gri`, `refs`, `vanban`,
 `case`, `cbpg`, `vu`, `thue`) chạy **hoàn toàn trên máy**, không cần mạng, không cần
 ILMS. ILMSv2 chỉ dùng ở lệnh đồng bộ:
 

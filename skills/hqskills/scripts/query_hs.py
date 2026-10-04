@@ -497,31 +497,178 @@ def cmd_code(code, dac_tinh=None):
 # Khớp theo TỪ (không phân biệt dấu, thứ tự tùy ý): "thep hinh" khớp "Thép ... dạng hình".
 # Xếp hạng: đủ mọi từ > thiếu từ; cụm liền mạch; mã 8 số; mô tả ngắn (sát nghĩa hơn).
 def _tu(s):
-    return re.findall(r"[a-z0-9]+", strip_accents(s))
+    """Từ không dấu, chữ thường. Số bỏ dấu phân cách nghìn và tách khỏi đơn vị: "1.000 V" và "1000V" → 1000, v."""
+    s = re.sub(r"(\d)[.,](\d{3})(?!\d)", r"\1\2", strip_accents(s))
+    return re.findall(r"[a-z]+|\d+", s)
 
 
-def xep_hang(codes, keyword, chuong=None):
-    """[(diem, code, entry, du_tu)] đã xếp; du_tu=False là kết quả nới lỏng (thiếu từ)."""
+# Cặp từ quá chung để một mình làm bằng chứng "cùng cụm" (dùng khi chọn nhóm cạnh tranh).
+TU_CHUNG = {"tu", "dong", "xu", "ly", "loai", "khac", "dang", "co", "chua", "da", "cac", "va", "hoac", "bang"}
+
+
+def dem_cum_lien(tu, vn, bo_chung=False):
+    """Số cặp từ liền nhau của người dùng cũng liền nhau trong mô tả `vn` (chuỗi không dấu, cách bằng khoảng trắng).
+    bo_chung=True: không đếm cặp mà cả hai từ đều chung chung ("xu ly", "tu dong")."""
+    vn = f" {vn} "
+    return sum(1 for a, b in zip(tu, tu[1:])
+               if f" {a} {b} " in vn and not (bo_chung and a in TU_CHUNG and b in TU_CHUNG))
+
+
+def mo_ta_nhom(codes, nhom):
+    """Mô tả dòng 4 số; nhóm chỉ có một mã (vd 7221.00.00) thì dòng 4 số trống → lấy đoạn đầu mã 8 số."""
+    mt = codes.get(nhom, {}).get("desc_vn", "")
+    if mt:
+        return mt
+    for c in sorted(codes):
+        if c.startswith(nhom) and len(c) == 8:
+            return doan(codes[c].get("desc_vn", ""))[0]
+    return ""
+
+
+_DOAN = re.compile(r"\s-(?:\s-)+\s")   # Biểu thuế nối các cấp bằng " - - ", " - - - "…
+
+
+def doan(desc):
+    """Các đoạn theo cấp của một mô tả: [mô tả nhóm, cấp 6 số, cấp 8 số…]."""
+    return [d.strip(" :") for d in _DOAN.split(desc or "")]
+
+
+_CHI_MUC = {}   # id(codes) -> (N, {code: (vn, chu)}, idf) — dựng một lần cho mỗi bảng mã
+
+
+def chi_muc(codes):
+    """Chỉ mục từ của Biểu thuế: chuỗi không dấu + tập từ mỗi mã, và IDF mỗi từ (từ càng phổ biến —
+    "may", "loai", "khac", "tu dong" — trọng số càng thấp, nên không còn kéo nhầm nhóm)."""
+    import math
+    k = (id(codes), len(codes))
+    if k in _CHI_MUC:
+        return _CHI_MUC[k]
+    # Bảng mã thật (Biểu thuế) thì đọc/ghi bản dựng sẵn trên đĩa — dựng mới mất ~6 s mỗi lệnh, đọc lại ~0,3 s.
+    # Khóa theo kích thước + mtime của hs_tree.json: import lại Biểu thuế là tự dựng lại.
+    tep_goc = os.path.join(DATA, "hs_tree.json")
+    tep_cache = os.path.join(DATA, ".chi_muc.pickle") if len(codes) > 1000 and os.path.exists(tep_goc) else None
+    if tep_cache:
+        import pickle
+        st = os.stat(tep_goc)
+        khoa = (st.st_size, int(st.st_mtime), len(codes))
+        try:
+            with open(tep_cache, "rb") as f:
+                goi = pickle.load(f)
+            if goi.get("khoa") == khoa:
+                _CHI_MUC.clear()
+                _CHI_MUC[k] = goi["chi_muc"]
+                return _CHI_MUC[k]
+        except (OSError, pickle.UnpicklingError, EOFError, AttributeError, KeyError):
+            pass   # cache hỏng/thiếu thì dựng lại rồi ghi đè
+    tai_lieu, df = {}, {}
+    for code, e in codes.items():
+        vn = " ".join(_tu(e.get("desc_vn", "")))
+        chu = set(vn.split()) | set(_tu(e.get("desc_en", "")))
+        tai_lieu[code] = (vn, chu, tu_bi_phu_dinh(e.get("desc_vn", "")))
+        for t in chu:
+            df[t] = df.get(t, 0) + 1
+    n = len(codes) or 1
+    idf = {t: math.log((n + 1) / (d + 1)) + 1 for t, d in df.items()}
+    _CHI_MUC.clear()          # giữ một bảng — tránh phình bộ nhớ khi test đổi bảng liên tục
+    _CHI_MUC[k] = (n, tai_lieu, idf)
+    if tep_cache:
+        tam = tep_cache + ".tmp"
+        with open(tam, "wb") as f:
+            pickle.dump({"khoa": khoa, "chi_muc": _CHI_MUC[k]}, f, protocol=pickle.HIGHEST_PROTOCOL)
+        os.replace(tam, tep_cache)   # ghi xong mới thay — hai lệnh chạy song song không đọc phải tệp dở
+    return _CHI_MUC[k]
+
+
+PHU_DINH = {"khong", "chua", "tru"}   # "không hợp kim", "chưa sơn", "trừ máy tính xách tay" — nghĩa ngược hẳn
+PHAT_LECH_PHU_DINH = 35               # người dùng nói "không X", mô tả chỉ có "X" khẳng định
+PHAT_THIEU_PHU_DINH = 25              # người dùng nói "X", mô tả CHỈ nói về X trong phạm vi phủ định
+
+
+KET_PHU_DINH = {"duoc", "da", "co", "o", "ke", "voi"}   # từ mở vị ngữ mới — kết thúc phạm vi phủ định
+
+
+def tu_bi_phu_dinh(desc):
+    """Tập từ của mô tả CHỈ xuất hiện trong phạm vi một từ phủ định. Phạm vi = từ sau "không/chưa/trừ" tới
+    hết mệnh đề (dấu ; : ( ) hoặc ranh giới cấp " - - "); qua dấu phẩy chỉ khi vế sau ≤ 3 từ (liệt kê kiểu
+    "chưa dát phủ, phủ, mạ hoặc tráng"), còn "không hợp kim, dạng thanh và que" thì dừng ở dấu phẩy."""
+    am, duong = set(), set()
+    # Chú thích tiếng Anh trong ngoặc "(clad)", "(coated)" nằm giữa liệt kê — bỏ đi, kẻo cắt đứt phạm vi.
+    desc = re.sub(r"\([^)]*\)", " ", desc or "")
+    for menh_de in re.split(r"[;:]|\s-(?:\s-)+\s", strip_accents(desc)):
+        ve = [re.findall(r"[a-z]+|\d+", v) for v in menh_de.split(",")]
+        dang_phu_dinh = False
+        for i, tu_ve in enumerate(ve):
+            if i and (len(tu_ve) > 3 or not tu_ve):
+                dang_phu_dinh = False
+            for t in tu_ve:
+                if t in PHU_DINH:
+                    dang_phu_dinh = True
+                    continue
+                if t in KET_PHU_DINH:          # "không hợp kim ĐƯỢC cán phẳng": vị ngữ mới, hết phủ định
+                    dang_phu_dinh = False
+                (am if dang_phu_dinh else duong).add(t)
+    return am - duong
+
+
+def lech_phu_dinh(tu, vn, am):
+    """(lech_nang, lech_nhe) giữa tên hàng `tu` và mô tả: vn = chuỗi không dấu, am = tu_bi_phu_dinh(mô tả).
+    nặng: người dùng "không X" / "chưa X" mà mô tả có X khẳng định; nhẹ: người dùng nói X, mô tả chỉ phủ định X."""
+    vn_k = f" {vn} "
+    nang = sum(1 for a, b in zip(tu, tu[1:]) if a in PHU_DINH and b not in am and f" {b} " in vn_k)
+    bi_phu_dinh_boi_nguoi_dung = {b for a, b in zip(tu, tu[1:]) if a in PHU_DINH}
+    nhe = sum(1 for t in tu if t in am and t not in PHU_DINH and t not in bi_phu_dinh_boi_nguoi_dung)
+    return nang, min(nhe, 2)
+
+
+def xep_hang(codes, keyword, chuong=None, noi_long=False):
+    """[(diem, code, entry, du_tu)] đã xếp; du_tu=False là kết quả nới lỏng (thiếu từ).
+
+    Điểm = độ phủ từ có trọng số IDF (0–100) + cụm liền + cả câu + mã 8 số − mô tả dài − lệch phủ định.
+    noi_long=True: trả MỌI mã khớp ≥ 1 từ (đã xếp hạng) — `phanloai` dùng để tìm nhóm cạnh tranh."""
     tu = list(dict.fromkeys(_tu(keyword)))
     if not tu:
         return []
+    _n, tai_lieu, idf = chi_muc(codes)
+    idf_mac_dinh = max(idf.values(), default=1.0)           # từ không có trong Biểu thuế = hiếm nhất
+    # Từ phủ định ("không", "chưa") không tính vào độ phủ: nó chỉ có nghĩa đi kèm từ sau (xử lý ở cụm liền
+    # và lech_phu_dinh); đứng một mình nó khớp bừa với mọi "chưa được gia công", "không quá…".
+    noi_dung = [t for t in tu if t not in PHU_DINH] or tu
+    tong_idf = sum(idf.get(t, idf_mac_dinh) for t in noi_dung) or 1.0
     cum = " ".join(tu)
     ra = []
     for code, e in codes.items():
         if chuong and not code.startswith(f"{int(chuong):02d}"):
             continue
-        vn = " ".join(_tu(e.get("desc_vn", "")))
-        chu = set(vn.split()) | set(_tu(e.get("desc_en", "")))
-        khop = sum(1 for t in tu if t in chu or any(c.startswith(t) for c in chu if len(t) >= 3))
+        vn, chu, am = tai_lieu[code]
+        khop = [t for t in tu if t in chu or any(c.startswith(t) for c in chu if len(t) >= 3)]
         if not khop:
             continue
-        diem = khop / len(tu) * 100 + (30 if cum in vn else 0) + (10 if len(code) == 8 else 0) \
-            - min(len(vn), 400) / 40
-        ra.append((diem, code, e, khop == len(tu)))
+        phu = sum(idf.get(t, idf_mac_dinh) for t in khop if t in noi_dung) / tong_idf * 100
+        # Cụm 2 từ liền nhau ("khong gi", "can nong") sát nghĩa hơn từ rời — +12/cụm (cụm toàn từ chung +3),
+        # chặn trần 36 để không át độ phủ.
+        cum2 = sum(12 if not (a in TU_CHUNG and b in TU_CHUNG) else 3
+                   for a, b in zip(tu, tu[1:]) if f" {a} {b} " in f" {vn} ")
+        nang, nhe = lech_phu_dinh(tu, vn, am)
+        # Chuỗi ≥ 3 từ liền mạch ("may dieu hoa khong khi") = gần như trúng tên nhóm: +8 mỗi từ từ từ thứ 3.
+        chuoi = max([8 * (k - 2) for k in range(3, len(tu) + 1) for i in range(len(tu) - k + 1)
+                     if f" {' '.join(tu[i:i + k])} " in f" {vn} "], default=0)
+        diem = phu + (30 if cum in vn else 0) + min(cum2, 36) + chuoi + (10 if len(code) == 8 else 0) \
+            - min(len(vn), 400) / 40 - nang * PHAT_LECH_PHU_DINH - nhe * PHAT_THIEU_PHU_DINH
+        ra.append((diem, code, e, all(t in khop for t in noi_dung)))
     ra.sort(key=lambda r: (-r[0], r[1]))
+    if noi_long:
+        return ra
+    return loc_du_tu(ra)
+
+
+# Ngưỡng giữ kết quả thiếu từ: khớp ≥ nửa số từ (50 điểm) sau khi trừ tối đa cho mô tả dài (400/40).
+NGUONG_NOI_LONG = 50 - 400 / 40
+
+
+def loc_du_tu(ra):
+    """Có kết quả đủ từ thì bỏ kết quả thiếu; không có thì chỉ giữ kết quả khớp >= nửa số từ."""
     du = [r for r in ra if r[3]]
-    # Có kết quả đủ từ thì bỏ kết quả thiếu; không có thì chỉ giữ kết quả khớp >= nửa số từ.
-    return du or [r for r in ra if r[0] >= 50 - 400 / 40]
+    return du or [r for r in ra if r[0] >= NGUONG_NOI_LONG]
 
 
 def cmd_search(keyword, chuong=None, n=20):
@@ -538,7 +685,7 @@ def cmd_search(keyword, chuong=None, n=20):
         nhom = code[:4]
         if nhom not in nhom_da_in:
             nhom_da_in.add(nhom)
-            print(f"— Nhóm {nhom}: {codes.get(nhom, {}).get('desc_vn', '')[:90]}")
+            print(f"— Nhóm {nhom}: {mo_ta_nhom(codes, nhom)[:90]}")
         if len(code) == 8:
             print(f"    {_ma(code)}  MFN={e.get('mfn', '')}  {e.get('desc_vn', '')[:100]}")
     chuong_ds = sorted({c[:2] for _d, c, _e, _du in kq})
@@ -863,6 +1010,12 @@ def main():
     sp.add_argument("--chuong", help="Chỉ tìm trong 1 Chương (vd 72)")
     sp.add_argument("--n", type=int, default=20, help="Số mã hiển thị (mặc định 20)")
 
+    sp = sub.add_parser("phanloai", help="Gợi ý mã HS từ TÊN HÀNG theo 6 quy tắc GRI (trình bày từng quy tắc + câu hỏi)")
+    sp.add_argument("ten", help="Tên hàng khai báo, vd 'Thép không gỉ dạng thanh tròn cán nóng, hiệu POSCO'")
+    sp.add_argument("--chuong", help="Chỉ xét trong 1 Chương (vd 72)")
+    sp.add_argument("--n", type=int, default=8, help="Số mã hiển thị mỗi nhóm (mặc định 8)")
+    sp.add_argument("--json", action="store_true", help="Xuất JSON có cấu trúc (cho ILMS/agent dùng)")
+
     sp = sub.add_parser("chapter")
     sp.add_argument("num")
 
@@ -945,6 +1098,9 @@ def main():
         cmd_code(args.code, args.dac_tinh)
     elif args.cmd == "search":
         cmd_search(args.keyword, args.chuong, args.n)
+    elif args.cmd == "phanloai":
+        import phan_loai
+        phan_loai.cmd_phanloai(args.ten, args.chuong, args.n, args.json)
     elif args.cmd == "chapter":
         cmd_chapter(args.num)
     elif args.cmd == "heading":

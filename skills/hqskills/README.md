@@ -71,6 +71,7 @@ python scripts/query_hs.py refs                                          # xem d
 ## Bước 3 — Dùng hằng ngày
 
 ```bash
+python scripts/query_hs.py phanloai "Thép không gỉ dạng thanh tròn cán nóng, hiệu POSCO"  # gợi ý mã theo 6 GRI từ tên hàng
 python scripts/query_hs.py code 72287010
 python scripts/query_hs.py search "thep hinh"
 python scripts/query_hs.py chapter 72
@@ -93,7 +94,7 @@ Thư mục `claude-skill/` (nếu có) chứa bản đóng gói để copy vào
 
 ## Chạy độc lập — ILMSv2 chỉ là nơi đồng bộ dữ liệu
 
-Mọi lệnh tra cứu (`code`, `search`, `chapter`, `heading`, `gri`, `refs`, `vanban`,
+Mọi lệnh tra cứu (`code`, `phanloai`, `search`, `chapter`, `heading`, `gri`, `refs`, `vanban`,
 `case`, `cbpg`, `vu`, `thue`) chạy **hoàn toàn trên máy**, không cần mạng, không cần
 ILMS. ILMSv2 chỉ dùng ở lệnh đồng bộ:
 
