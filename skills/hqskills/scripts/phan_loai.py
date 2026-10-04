@@ -17,8 +17,9 @@ DATA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
 
 # Từ không mang nghĩa phân loại (so sau khi bỏ dấu).
 TU_BO = {"hang", "moi", "100", "loai", "dung", "cho", "cua", "va", "cac", "bang", "co", "la", "theo", "de",
-         "san", "pham", "kem", "tren", "duoi", "trong", "ngoai", "chiec", "cai", "bo", "kg", "mm", "cm",
-         "m", "inch", "pcs", "set", "kich", "thuoc", "quy", "cach", "duong", "kinh", "luong", "dai", "rong", "day"}
+         "san", "pham", "tren", "duoi", "trong", "ngoai", "chiec", "cai", "bo", "kg", "mm", "cm",
+         "m", "inch", "pcs", "set", "kich", "thuoc", "quy", "cach", "duong", "kinh", "luong", "chieu", "dai",
+         "rong", "day"}
 
 # Phần KHÔNG dùng để phân loại (GRI 1 chỉ xét bản chất hàng): nhãn hiệu, model, xuất xứ, tình trạng mới.
 # "hiệu"/"model" chỉ coi là nhãn hiệu khi đứng trước tên viết hoa hoặc có số ("hiệu POSCO", "model X1") — để không

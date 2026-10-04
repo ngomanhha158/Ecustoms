@@ -497,7 +497,9 @@ def cmd_code(code, dac_tinh=None):
 # Khớp theo TỪ (không phân biệt dấu, thứ tự tùy ý): "thep hinh" khớp "Thép ... dạng hình".
 # Xếp hạng: đủ mọi từ > thiếu từ; cụm liền mạch; mã 8 số; mô tả ngắn (sát nghĩa hơn).
 def _tu(s):
-    return re.findall(r"[a-z0-9]+", strip_accents(s))
+    """Từ không dấu, chữ thường. Số bỏ dấu phân cách nghìn và tách khỏi đơn vị: "1.000 V" và "1000V" → 1000, v."""
+    s = re.sub(r"(\d)[.,](\d{3})(?!\d)", r"\1\2", strip_accents(s))
+    return re.findall(r"[a-z]+|\d+", s)
 
 
 # Cặp từ quá chung để một mình làm bằng chứng "cùng cụm" (dùng khi chọn nhóm cạnh tranh).
@@ -531,29 +533,104 @@ def doan(desc):
     return [d.strip(" :") for d in _DOAN.split(desc or "")]
 
 
+_CHI_MUC = {}   # id(codes) -> (N, {code: (vn, chu)}, idf) — dựng một lần cho mỗi bảng mã
+
+
+def chi_muc(codes):
+    """Chỉ mục từ của Biểu thuế: chuỗi không dấu + tập từ mỗi mã, và IDF mỗi từ (từ càng phổ biến —
+    "may", "loai", "khac", "tu dong" — trọng số càng thấp, nên không còn kéo nhầm nhóm)."""
+    import math
+    k = (id(codes), len(codes))
+    if k in _CHI_MUC:
+        return _CHI_MUC[k]
+    tai_lieu, df = {}, {}
+    for code, e in codes.items():
+        vn = " ".join(_tu(e.get("desc_vn", "")))
+        chu = set(vn.split()) | set(_tu(e.get("desc_en", "")))
+        tai_lieu[code] = (vn, chu, tu_bi_phu_dinh(e.get("desc_vn", "")))
+        for t in chu:
+            df[t] = df.get(t, 0) + 1
+    n = len(codes) or 1
+    idf = {t: math.log((n + 1) / (d + 1)) + 1 for t, d in df.items()}
+    _CHI_MUC.clear()          # giữ một bảng — tránh phình bộ nhớ khi test đổi bảng liên tục
+    _CHI_MUC[k] = (n, tai_lieu, idf)
+    return _CHI_MUC[k]
+
+
+PHU_DINH = {"khong", "chua", "tru"}   # "không hợp kim", "chưa sơn", "trừ máy tính xách tay" — nghĩa ngược hẳn
+PHAT_LECH_PHU_DINH = 35               # người dùng nói "không X", mô tả chỉ có "X" khẳng định
+PHAT_THIEU_PHU_DINH = 25              # người dùng nói "X", mô tả CHỈ nói về X trong phạm vi phủ định
+
+
+KET_PHU_DINH = {"duoc", "da", "co", "o", "ke", "voi"}   # từ mở vị ngữ mới — kết thúc phạm vi phủ định
+
+
+def tu_bi_phu_dinh(desc):
+    """Tập từ của mô tả CHỈ xuất hiện trong phạm vi một từ phủ định. Phạm vi = từ sau "không/chưa/trừ" tới
+    hết mệnh đề (dấu ; : ( ) hoặc ranh giới cấp " - - "); qua dấu phẩy chỉ khi vế sau ≤ 3 từ (liệt kê kiểu
+    "chưa dát phủ, phủ, mạ hoặc tráng"), còn "không hợp kim, dạng thanh và que" thì dừng ở dấu phẩy."""
+    am, duong = set(), set()
+    for menh_de in re.split(r"[;:()]|\s-(?:\s-)+\s", strip_accents(desc or "")):
+        ve = [re.findall(r"[a-z]+|\d+", v) for v in menh_de.split(",")]
+        dang_phu_dinh = False
+        for i, tu_ve in enumerate(ve):
+            if i and (len(tu_ve) > 3 or not tu_ve):
+                dang_phu_dinh = False
+            for t in tu_ve:
+                if t in PHU_DINH:
+                    dang_phu_dinh = True
+                    continue
+                if t in KET_PHU_DINH:          # "không hợp kim ĐƯỢC cán phẳng": vị ngữ mới, hết phủ định
+                    dang_phu_dinh = False
+                (am if dang_phu_dinh else duong).add(t)
+    return am - duong
+
+
+def lech_phu_dinh(tu, vn, am):
+    """(lech_nang, lech_nhe) giữa tên hàng `tu` và mô tả: vn = chuỗi không dấu, am = tu_bi_phu_dinh(mô tả).
+    nặng: người dùng "không X" / "chưa X" mà mô tả có X khẳng định; nhẹ: người dùng nói X, mô tả chỉ phủ định X."""
+    vn_k = f" {vn} "
+    nang = sum(1 for a, b in zip(tu, tu[1:]) if a in PHU_DINH and b not in am and f" {b} " in vn_k)
+    bi_phu_dinh_boi_nguoi_dung = {b for a, b in zip(tu, tu[1:]) if a in PHU_DINH}
+    nhe = sum(1 for t in tu if t in am and t not in PHU_DINH and t not in bi_phu_dinh_boi_nguoi_dung)
+    return nang, min(nhe, 2)
+
+
 def xep_hang(codes, keyword, chuong=None, noi_long=False):
     """[(diem, code, entry, du_tu)] đã xếp; du_tu=False là kết quả nới lỏng (thiếu từ).
 
+    Điểm = độ phủ từ có trọng số IDF (0–100) + cụm liền + cả câu + mã 8 số − mô tả dài − lệch phủ định.
     noi_long=True: trả MỌI mã khớp ≥ 1 từ (đã xếp hạng) — `phanloai` dùng để tìm nhóm cạnh tranh."""
     tu = list(dict.fromkeys(_tu(keyword)))
     if not tu:
         return []
+    _n, tai_lieu, idf = chi_muc(codes)
+    idf_mac_dinh = max(idf.values(), default=1.0)           # từ không có trong Biểu thuế = hiếm nhất
+    # Từ phủ định ("không", "chưa") không tính vào độ phủ: nó chỉ có nghĩa đi kèm từ sau (xử lý ở cụm liền
+    # và lech_phu_dinh); đứng một mình nó khớp bừa với mọi "chưa được gia công", "không quá…".
+    noi_dung = [t for t in tu if t not in PHU_DINH] or tu
+    tong_idf = sum(idf.get(t, idf_mac_dinh) for t in noi_dung) or 1.0
     cum = " ".join(tu)
     ra = []
     for code, e in codes.items():
         if chuong and not code.startswith(f"{int(chuong):02d}"):
             continue
-        vn = " ".join(_tu(e.get("desc_vn", "")))
-        chu = set(vn.split()) | set(_tu(e.get("desc_en", "")))
-        khop = sum(1 for t in tu if t in chu or any(c.startswith(t) for c in chu if len(t) >= 3))
+        vn, chu, am = tai_lieu[code]
+        khop = [t for t in tu if t in chu or any(c.startswith(t) for c in chu if len(t) >= 3)]
         if not khop:
             continue
-        # Cụm 2 từ liền nhau của người dùng cũng liền nhau trong mô tả ("khong gi", "can nong") = sát nghĩa hơn
-        # từ rời rạc — mỗi cụm +12, chặn trần 36 để không át mức khớp đủ từ.
-        cum2 = dem_cum_lien(tu, vn)
-        diem = khop / len(tu) * 100 + (30 if cum in vn else 0) + min(cum2, 3) * 12 + (10 if len(code) == 8 else 0) \
-            - min(len(vn), 400) / 40
-        ra.append((diem, code, e, khop == len(tu)))
+        phu = sum(idf.get(t, idf_mac_dinh) for t in khop if t in noi_dung) / tong_idf * 100
+        # Cụm 2 từ liền nhau ("khong gi", "can nong") sát nghĩa hơn từ rời — +12/cụm (cụm toàn từ chung +3),
+        # chặn trần 36 để không át độ phủ.
+        cum2 = sum(12 if not (a in TU_CHUNG and b in TU_CHUNG) else 3
+                   for a, b in zip(tu, tu[1:]) if f" {a} {b} " in f" {vn} ")
+        nang, nhe = lech_phu_dinh(tu, vn, am)
+        # Chuỗi ≥ 3 từ liền mạch ("may dieu hoa khong khi") = gần như trúng tên nhóm: +8 mỗi từ từ từ thứ 3.
+        chuoi = max([8 * (k - 2) for k in range(3, len(tu) + 1) for i in range(len(tu) - k + 1)
+                     if f" {' '.join(tu[i:i + k])} " in f" {vn} "], default=0)
+        diem = phu + (30 if cum in vn else 0) + min(cum2, 36) + chuoi + (10 if len(code) == 8 else 0) \
+            - min(len(vn), 400) / 40 - nang * PHAT_LECH_PHU_DINH - nhe * PHAT_THIEU_PHU_DINH
+        ra.append((diem, code, e, all(t in khop for t in noi_dung)))
     ra.sort(key=lambda r: (-r[0], r[1]))
     if noi_long:
         return ra
