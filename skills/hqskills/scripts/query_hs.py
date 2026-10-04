@@ -543,6 +543,23 @@ def chi_muc(codes):
     k = (id(codes), len(codes))
     if k in _CHI_MUC:
         return _CHI_MUC[k]
+    # Bảng mã thật (Biểu thuế) thì đọc/ghi bản dựng sẵn trên đĩa — dựng mới mất ~6 s mỗi lệnh, đọc lại ~0,3 s.
+    # Khóa theo kích thước + mtime của hs_tree.json: import lại Biểu thuế là tự dựng lại.
+    tep_goc = os.path.join(DATA, "hs_tree.json")
+    tep_cache = os.path.join(DATA, ".chi_muc.pickle") if len(codes) > 1000 and os.path.exists(tep_goc) else None
+    if tep_cache:
+        import pickle
+        st = os.stat(tep_goc)
+        khoa = (st.st_size, int(st.st_mtime), len(codes))
+        try:
+            with open(tep_cache, "rb") as f:
+                goi = pickle.load(f)
+            if goi.get("khoa") == khoa:
+                _CHI_MUC.clear()
+                _CHI_MUC[k] = goi["chi_muc"]
+                return _CHI_MUC[k]
+        except (OSError, pickle.UnpicklingError, EOFError, AttributeError, KeyError):
+            pass   # cache hỏng/thiếu thì dựng lại rồi ghi đè
     tai_lieu, df = {}, {}
     for code, e in codes.items():
         vn = " ".join(_tu(e.get("desc_vn", "")))
@@ -554,6 +571,11 @@ def chi_muc(codes):
     idf = {t: math.log((n + 1) / (d + 1)) + 1 for t, d in df.items()}
     _CHI_MUC.clear()          # giữ một bảng — tránh phình bộ nhớ khi test đổi bảng liên tục
     _CHI_MUC[k] = (n, tai_lieu, idf)
+    if tep_cache:
+        tam = tep_cache + ".tmp"
+        with open(tam, "wb") as f:
+            pickle.dump({"khoa": khoa, "chi_muc": _CHI_MUC[k]}, f, protocol=pickle.HIGHEST_PROTOCOL)
+        os.replace(tam, tep_cache)   # ghi xong mới thay — hai lệnh chạy song song không đọc phải tệp dở
     return _CHI_MUC[k]
 
 
@@ -570,7 +592,9 @@ def tu_bi_phu_dinh(desc):
     hết mệnh đề (dấu ; : ( ) hoặc ranh giới cấp " - - "); qua dấu phẩy chỉ khi vế sau ≤ 3 từ (liệt kê kiểu
     "chưa dát phủ, phủ, mạ hoặc tráng"), còn "không hợp kim, dạng thanh và que" thì dừng ở dấu phẩy."""
     am, duong = set(), set()
-    for menh_de in re.split(r"[;:()]|\s-(?:\s-)+\s", strip_accents(desc or "")):
+    # Chú thích tiếng Anh trong ngoặc "(clad)", "(coated)" nằm giữa liệt kê — bỏ đi, kẻo cắt đứt phạm vi.
+    desc = re.sub(r"\([^)]*\)", " ", desc or "")
+    for menh_de in re.split(r"[;:]|\s-(?:\s-)+\s", strip_accents(desc)):
         ve = [re.findall(r"[a-z]+|\d+", v) for v in menh_de.split(",")]
         dang_phu_dinh = False
         for i, tu_ve in enumerate(ve):
