@@ -541,12 +541,12 @@ def chi_muc(codes):
     sẵn trên đĩa — dựng mới ~6 s, đọc lại ~0,3 s; khóa theo kích thước + mtime của hs_tree.json và của bản chép
     luật (đổi luật là tự dựng lại). Nạp xong thì hx.phan_tich đọc thẳng từ đây thay cho lru_cache."""
     import math
-    # Bảng thật (> 1000 mã) dùng MỘT chỉ mục, kể cả khi người gọi lọc bớt thành dict mới (phanloai bỏ Chương 98):
-    # khóa theo id() thì mỗi lượt dựng lại ~10 s. IDF tính trên cả Biểu thuế — đúng nghĩa "từ phổ biến".
+    # Bảng thật (> 1000 mã) dùng MỘT chỉ mục dựng từ CẢ hs_tree.json, bất kể người gọi truyền bảng nào: IDF đúng
+    # nghĩa "từ phổ biến trong Biểu thuế" và không phụ thuộc thứ tự lệnh; khóa theo id() thì mỗi lượt dựng lại.
     k = "bang_that" if len(codes) > 1000 else (id(codes), len(codes))
     if k not in _CHI_MUC:
         _CHI_MUC.clear()          # giữ một bảng — tránh phình bộ nhớ khi test đổi bảng liên tục
-        _CHI_MUC[k] = _doc_hoac_dung(codes, math)
+        _CHI_MUC[k] = _doc_hoac_dung(load_json("hs_tree.json").get("codes", codes) if k == "bang_that" else codes, math)
     cm = _CHI_MUC[k]
     lru = _PHAN_TICH_GOC
     hx.phan_tich = lambda vn, en, _m=cm["mo_ta"]: _m.get((vn, en)) or lru(vn, en)
@@ -563,7 +563,7 @@ def _doc_hoac_dung(codes, math):
     if tep_cache:
         import pickle
         st, sl = os.stat(tep_goc), os.stat(hx.__file__)
-        khoa = (st.st_size, int(st.st_mtime), len(codes), sl.st_size, int(sl.st_mtime), 2)
+        khoa = (st.st_size, int(st.st_mtime), sl.st_size, int(sl.st_mtime), 3)
         try:
             with open(tep_cache, "rb") as f:
                 goi = pickle.load(f)
@@ -602,9 +602,9 @@ def tien_le():
 
 
 def xep_hang(codes, keyword, chuong=None, noi_long=False, tien_le_ds=None, bo_tien_le_id=None, ten_goc=None):
-    """[(diem, code, entry, du_tu)] đã xếp; du_tu=False là kết quả nới lỏng (thiếu từ). Luật chấm: hx.cham
-    (bản chép ILMS) + đổi từ đồng nghĩa + cộng điểm tiền lệ — giống tra_cuu.tim_ma của ILMS, chỉ khác là xét MỌI
-    mã trên máy thay cho 400 ứng viên tsv.
+    """[(diem, code, entry, du_tu)] đã xếp; du_tu=False là kết quả nới lỏng (thiếu từ). Chấm từng mã bằng
+    hx.cham_mot (bản chép ILMS: luật + cộng tiền lệ), đổi từ đồng nghĩa, bỏ Chương 98 trừ khi chuong=98 — như
+    tra_cuu.tim_ma của ILMS; chỉ khác là xét MỌI mã trên máy thay cho 400 ứng viên tsv, và dòng 4/6 số lùi sau.
     noi_long=True: trả MỌI mã khớp ≥ 1 từ (đã xếp hạng) — `phanloai` dùng để tìm nhóm cạnh tranh.
     tien_le_ds: None = đọc data/tien_le.tsv; [] = bỏ tiền lệ (đo luật thuần). ten_goc: tên hàng nguyên văn để so
     với tiền lệ (mặc định = keyword) — phanloai truyền tên chưa bỏ nhãn hiệu, như ILMS so mo_ta nguyên văn."""
@@ -616,31 +616,28 @@ def xep_hang(codes, keyword, chuong=None, noi_long=False, tien_le_ds=None, bo_ti
     if not tv.tu:
         return []
     thuong = hx.thuong_tien_le(ten_goc or keyword, tien_le() if tien_le_ds is None else tien_le_ds, bo_tien_le_id)
+    chuong_s = f"{int(chuong):02d}" if chuong else None
     ra = []
     for code, e in codes.items():
-        if chuong and not code.startswith(f"{int(chuong):02d}"):
+        if (chuong_s and not code.startswith(chuong_s)) or (not chuong_s and code.startswith("98")):
             continue
-        d, du = hx.cham(tv, e.get("desc_vn", "") or "", e.get("desc_en", "") or "")
-        t = thuong.get(code)
-        if t:
-            d, du, e = (d if d != float("-inf") else 0.0) + t[0], True, dict(e, tien_le=t[1])
-        if d == float("-inf"):
-            continue
-        ra.append((d + (0 if len(code) == 8 else -10), code, e, du))   # ILMS chỉ có mã 8 số; ở đây dòng 4/6 số lùi sau
+        d, du, e = hx.cham_mot(tv, dict(e, code=code), thuong)
+        if d != float("-inf"):
+            ra.append((d + (0 if len(code) == 8 else -10), code, e, du))
     ra.sort(key=lambda r: (-r[0], r[1]))
     if noi_long:
         return ra
     return loc_du_tu(ra)
 
 
-# Ngưỡng giữ kết quả thiếu từ: khớp ≥ nửa số từ (50 điểm) sau khi trừ tối đa cho mô tả dài (400/40).
 NGUONG_NOI_LONG = hx.NGUONG_NOI_LONG
 
 
 def loc_du_tu(ra):
-    """Có kết quả đủ từ thì bỏ kết quả thiếu; không có thì chỉ giữ kết quả khớp >= nửa số từ."""
-    du = [r for r in ra if r[3]]
-    return du or [r for r in ra if r[0] >= NGUONG_NOI_LONG]
+    """Có kết quả đủ từ thì bỏ kết quả thiếu; không có thì chỉ giữ kết quả ≥ ngưỡng — luật hx.chon_du_tu của ILMS
+    (dòng ở đây là (điểm, mã, entry, đủ_từ) nên đảo cột cho khớp)."""
+    giu, _mot_phan = hx.chon_du_tu([(r[0], r[3], r) for r in ra])
+    return [r for _d, _du, r in giu]
 
 
 def cmd_tienle(ten=None, ma=None):

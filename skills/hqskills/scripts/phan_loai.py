@@ -151,10 +151,8 @@ def phan_loai(ten, codes, chapters=None, headings=None, chuong=None, toi_da_nhom
     headings = headings or {}
     t = tach_ten(ten)
     tu_khoa = " ".join(t["tu"])
-    # Chương 98 (mã riêng hưởng ưu đãi của Biểu thuế VN) chỉ áp SAU khi đã phân loại vào Chương 1-97
-    # theo GRI — không phải nhóm cạnh tranh, bỏ khỏi ứng viên trừ khi người dùng chỉ định --chuong 98.
-    if str(chuong or "") != "98":
-        codes = {c: e for c, e in codes.items() if not c.startswith("98")}
+    # Chương 98 (mã riêng hưởng ưu đãi của Biểu thuế VN) không là ứng viên trừ khi --chuong 98 — luật ở
+    # query_hs.xep_hang (một chỗ cho cả search lẫn phanloai, như tra_cuu.tim_ma của ILMS).
     tat_ca = q.xep_hang(codes, tu_khoa, chuong, noi_long=True, tien_le_ds=tien_le_ds,
                         bo_tien_le_id=bo_tien_le_id, ten_goc=ten) if tu_khoa else []
     kq = q.loc_du_tu(tat_ca)

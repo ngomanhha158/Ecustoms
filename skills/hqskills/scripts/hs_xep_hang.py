@@ -1,4 +1,4 @@
-# BẢN CHÉP TỰ ĐỘNG từ ILMSv2 backend/app/services/hs_xep_hang.py @ ilmsV2@f8b7b00.
+# BẢN CHÉP TỰ ĐỘNG từ ILMSv2 backend/app/services/hs_xep_hang.py @ ilmsV2@8a90654.
 # Đừng sửa tay — sửa ở ILMS rồi chạy scripts/chep_xep_hang_ilms.py.
 """Xếp hạng mã HS theo tên hàng — hàm thuần, không DB (phase144, 04-10-2026).
 
@@ -281,6 +281,22 @@ def thuong_tien_le(q: str, tien_le: Iterable[tuple[int, frozenset[str], str]],
     return {ma: (min(d, TRAN_THUONG_TIEN_LE), n) for ma, (d, n) in cong.items()}
 
 
+def cham_mot(tv: TruyVan, r: dict[str, Any], thuong: dict[str, tuple[float, int]]) -> tuple[float, bool, dict[str, Any]]:
+    """(điểm, đủ_từ, dòng) của một ứng viên, đã cộng tiền lệ: mã có tiền lệ được cộng điểm, coi như đủ từ, mang
+    `tien_le` = số lần đã chọn. Điểm -inf = không khớp từ nào và không có tiền lệ (loại). HQskills gọi thẳng hàm này."""
+    d, du = cham(tv, r.get("desc_vn") or "", r.get("desc_en") or "")
+    t = thuong.get(r.get("code", ""))
+    if t:
+        return (d if d != float("-inf") else 0.0) + t[0], True, dict(r, tien_le=t[1])
+    return d, du, r
+
+
+def chon_du_tu(cham_xong: list[tuple[float, bool, Any]]) -> tuple[list, bool]:
+    """Đã xếp → (danh sách giữ, khớp_một_phần): có mã đủ từ thì chỉ giữ chúng; không thì giữ mã ≥ NGUONG_NOI_LONG."""
+    du_tu = [x for x in cham_xong if x[1]]
+    return (du_tu, False) if du_tu else ([x for x in cham_xong if x[0] >= NGUONG_NOI_LONG], True)
+
+
 def xep_hang(q: str, ung_vien: Iterable[dict[str, Any]], idf: dict[str, float], limit: int,
              thuong: dict[str, tuple[float, int]] | None = None) -> tuple[list[dict[str, Any]], bool]:
     """Chấm lại ứng viên (dict có desc_vn/desc_en/code) → (danh sách đã xếp, cắt `limit`, thêm `diem`; khớp_một_phần).
@@ -291,22 +307,8 @@ def xep_hang(q: str, ung_vien: Iterable[dict[str, Any]], idf: dict[str, float], 
     if not tv.tu:
         return [], False
     thuong = thuong or {}
-    cham_xong = []
-    for r in ung_vien:
-        d, du = cham(tv, r.get("desc_vn") or "", r.get("desc_en") or "")
-        t = thuong.get(r.get("code", ""))
-        if t:
-            d = (d if d != float("-inf") else 0.0) + t[0]
-            du = True
-            r = dict(r, tien_le=t[1])
-        if d != float("-inf"):
-            cham_xong.append((d, du, r))
+    cham_xong = [x for x in (cham_mot(tv, r, thuong) for r in ung_vien) if x[0] != float("-inf")]
     cham_xong.sort(key=lambda x: (-x[0], x[2].get("code", "")))
-    du_tu = [x for x in cham_xong if x[1]]
-    chon = du_tu or [x for x in cham_xong if x[0] >= NGUONG_NOI_LONG]
-    ra = []
-    for d, _du, r in chon[:limit]:
-        r = dict(r)
-        r["diem"] = round(d, 1)
-        ra.append(r)
-    return ra, not du_tu and bool(ra)
+    chon, mot_phan = chon_du_tu(cham_xong)
+    ra = [dict(r, diem=round(d, 1)) for d, _du, r in chon[:limit]]
+    return ra, mot_phan and bool(ra)
