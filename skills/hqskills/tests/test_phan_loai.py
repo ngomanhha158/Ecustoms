@@ -29,28 +29,27 @@ CODES = {
 }
 CHU_GIAI = {"72": "Sắt và thép. Chú giải. 1. Chương này không bao gồm thép đúc dạng thanh thuộc Chương 73. "
                   "(d) Thép là vật liệu dễ uốn có chứa sắt."}
-DN = {"inox": "thép không gỉ"}
 
 
 class TachTen(unittest.TestCase):
     def test_bo_hieu_model_xuat_xu_va_moi_100(self):
-        t = pl.tach_ten("Thép không gỉ dạng thanh tròn, hiệu POSCO, model X1, xuất xứ Hàn Quốc, hàng mới 100%", DN)
+        t = pl.tach_ten("Thép không gỉ dạng thanh tròn, hiệu POSCO, model X1, xuất xứ Hàn Quốc, hàng mới 100%")
         self.assertEqual(t["tu"], ["thep", "khong", "gi", "dang", "thanh", "tron"])
         self.assertTrue(any("POSCO" in b for b in t["bo_qua"]))
         self.assertTrue(any("Hàn Quốc" in b for b in t["bo_qua"]))
 
     def test_thong_so_tach_rieng_khong_vao_tu_khoa(self):
-        t = pl.tach_ten("Thép tấm dày 12mm x 1500mm", DN)
+        t = pl.tach_ten("Thép tấm dày 12mm x 1500mm")
         self.assertIn("12mm x 1500mm", t["thong_so"][0])
         self.assertNotIn("12", t["tu"])
 
     def test_tu_thuong_mai_thay_bang_tu_bieu_thue(self):
-        t = pl.tach_ten("ống inox 304", DN)
+        t = pl.tach_ten("ống inox 304")
         self.assertEqual(t["dong_nghia"], {"inox": "thép không gỉ"})
         self.assertEqual(t["tu"][:4], ["ong", "thep", "khong", "gi"])
 
     def test_dau_hieu_gri(self):
-        t = pl.tach_ten("Bộ gồm bút và sổ, kèm hộp giấy; xe đạp dạng tháo rời; hỗn hợp cao su", DN)
+        t = pl.tach_ten("Bộ gồm bút và sổ, kèm hộp giấy; xe đạp dạng tháo rời; hỗn hợp cao su")
         self.assertEqual(set(t["dau_hieu"]), {"2(a)", "2(b)", "3", "5"})
 
 

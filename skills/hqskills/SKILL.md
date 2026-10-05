@@ -25,6 +25,7 @@ Chạy từ thư mục của skill này (đường dẫn tuyệt đối tới `s
 
 ```bash
 python scripts/query_hs.py phanloai "<tên hàng khai báo>" [--chuong 72] [--n 8] [--json]  # gợi ý mã theo 6 GRI (xem mục riêng)
+python scripts/query_hs.py tienle "<tên hàng>" <mã 8 số>  # ghi tiền lệ đã chốt — lần tra sau cộng điểm mã ấy
 python scripts/query_hs.py code <mã 8 số>       # tra 1 mã HS
 python scripts/query_hs.py code <mã> --dac-tinh "đã sơn lót"  # soát đặc tính hàng lệch nhóm đã/chưa phủ-mạ-sơn của mã
 python scripts/query_hs.py search "<từ khóa>" [--chuong 72] [--n 30]  # tìm theo từ, không dấu, thứ tự tùy ý; xếp hạng, gom theo nhóm
@@ -83,6 +84,27 @@ Máy làm gì (và chỉ làm chừng đó):
   nguyên văn** giữa các mã 8 số (vd `Có mặt cắt ngang hình tròn | Loại khác`) thành câu hỏi.
 - "Độ khớp từ khóa" (khá / trung bình / thấp) là mức khớp chữ, **không phải** độ chắc chắn pháp lý.
 
+**Luật xếp hạng dùng chung với ILMS.** `scripts/hs_xep_hang.py` là BẢN CHÉP của ILMS
+`backend/app/services/hs_xep_hang.py` (IDF, phạm vi phủ định "không/chưa/trừ" và phụ thuộc "dùng cho/của", cụm liền,
+từ đồng nghĩa, tiền lệ). Không sửa tay: sửa ở ILMS rồi chạy
+`python scripts/chep_xep_hang_ilms.py <ILMS>/backend/app/services/hs_xep_hang.py --commit <sha>`.
+`data/tu_dong_nghia.json` giữ giống hệt `<ILMS>/backend/db/tra_cuu_seed/tu_dong_nghia.json` — so theo chữ CÓ DẤU,
+chỉ ghi từ không có trong Biểu thuế (inox, laptop, tôn…). Test `test_dong_bo_xep_hang` canh cả hai khi có ILMS cạnh.
+
+**Tiền lệ (tầng 1).** Mã đã chốt cho một tên hàng được cộng điểm khi tên hàng mới giống (≥ 60% từ chung):
+
+```bash
+python scripts/query_hs.py tienle "Lốp bơm hơi bằng cao su dùng cho ô tô con" 4011.10.00   # ghi data/tien_le.tsv
+python scripts/query_hs.py tienle                                                       # liệt kê
+```
+
+Kết quả có tiền lệ mang `tien_le` = số lần đã chốt. Chỉ ghi mã đã được xác nhận (tờ khai thông quan, PTPL, ý kiến
+người có thẩm quyền) — tiền lệ sai sẽ kéo các lần tra sau đi sai. ILMS lấy tiền lệ từ nút "Chọn mã này" (hs_goi_y_log).
+
+**Đo:** `python scripts/danh_gia.py [tep.tsv] --chi-tiet [--tien-le]` (cột `ten_hang`, `ma_hs`). `--tien-le` dùng chính
+bộ thử làm tiền lệ, đo leave-one-out. Bộ mẫu 20 dòng chỉ để so trước/sau; % đáng công bố cần bảng tờ khai thật
+(≥ 100 dòng). ILMS: `python tools/do_goi_y_hs.py [--tsv tep.tsv]`.
+
 Khi dùng kết quả: trả lời đủ các câu "CẦN HỎI NGƯỜI DÙNG" (hỏi lại nếu thiếu), đọc `chapter` của CẢ nhóm chọn và nhóm
 cạnh tranh, rồi `code <mã>` để lấy thuế / FTA / CBPG. Chú giải chi tiết nhóm chưa nạp (`heading_notes.json` trống)
 thì phải nói rõ là chưa đối chiếu Chú giải nhóm. Luật xếp hạng viết một chỗ: `query_hs.xep_hang` (dùng chung với
@@ -110,7 +132,7 @@ Xem `README.md` ở thư mục gốc để biết cách nhập/cập nhật dữ
 
 ## Chạy độc lập — ILMSv2 chỉ là nơi đồng bộ dữ liệu
 
-Mọi lệnh tra cứu (`code`, `phanloai`, `search`, `chapter`, `heading`, `gri`, `refs`, `vanban`,
+Mọi lệnh tra cứu (`code`, `phanloai`, `tienle`, `search`, `chapter`, `heading`, `gri`, `refs`, `vanban`,
 `case`, `cbpg`, `vu`, `thue`) chạy **hoàn toàn trên máy**, không cần mạng, không cần
 ILMS. ILMSv2 chỉ dùng ở lệnh đồng bộ:
 

@@ -1,15 +1,12 @@
 {
-  "_meta": "Từ thương mại → từ ngữ của Biểu thuế, dùng cho lệnh `phanloai`. Người dùng tự bổ sung; chỉ ghi cặp tương đương đã chắc (không suy diễn). Khóa so không dấu.",
+  "_meta": "Từ thương mại → từ ngữ của Biểu thuế XNK, dùng khi tra mã HS theo tên hàng (services/hs_xep_hang.doi_dong_nghia). So theo chữ CÓ DẤU, nguyên từ. CHỈ ghi từ KHÔNG có trong Biểu thuế (inox, laptop, tôn…) và cặp tương đương đã chắc — đừng ghi cụm Biểu thuế đã viết sẵn (vd \"máy tính xách tay\" có nguyên văn ở 8471.30.20), đổi đi chỉ làm mất chữ khớp. Bản chép ở Ecustoms/skills/hqskills/data/tu_dong_nghia.json phải giống hệt (test canh).",
   "inox": "thép không gỉ",
   "stainless": "thép không gỉ",
-  "máy tính xách tay": "máy xử lý dữ liệu tự động xách tay",
-  "laptop": "máy xử lý dữ liệu tự động xách tay",
-  "điện thoại di động": "điện thoại cho mạng di động",
-  "điện thoại thông minh": "điện thoại cho mạng di động",
-  "smartphone": "điện thoại cho mạng di động",
-  "ô tô": "xe có động cơ",
-  "xe máy": "mô tô",
-  "tivi": "máy thu dùng trong truyền hình",
+  "tôn mạ kẽm": "thép cán phẳng mạ kẽm",
   "tôn": "thép cán phẳng",
-  "tôn mạ kẽm": "thép cán phẳng mạ kẽm"
+  "laptop": "máy xử lý dữ liệu tự động xách tay",
+  "notebook": "máy tính xách tay",
+  "smartphone": "điện thoại thông minh",
+  "tivi": "máy thu dùng trong truyền hình",
+  "xe máy": "mô tô"
 }

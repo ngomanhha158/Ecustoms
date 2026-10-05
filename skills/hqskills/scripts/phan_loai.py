@@ -52,35 +52,20 @@ DAU_HIEU = {
 _CUM_LOAI_TRU = ("không bao gồm", "loại trừ", "không áp dụng", "không thuộc", "trừ các", "trừ loại")
 
 
-def _doc_tu_dong_nghia():
-    path = os.path.join(DATA, "tu_dong_nghia.json")
-    if not os.path.exists(path):
-        print(f"! Thiếu {path} — từ thương mại (inox, laptop…) sẽ KHÔNG được đổi sang từ Biểu thuế.")
-        return {}
-    with open(path, "r", encoding="utf-8") as f:
-        d = json.load(f)
-    return {q.strip_accents(k): v for k, v in d.items() if not k.startswith("_")}
-
-
-def tach_ten(ten, dong_nghia=None):
+def tach_ten(ten):
     """Tách tên hàng khai báo → {'tu': từ phân loại, 'bo_qua': phần bỏ, 'thong_so': [...], 'dau_hieu': {qt: cụm}}.
 
     Bỏ nhãn hiệu/model/xuất xứ/"mới 100%" (không phải yếu tố phân loại theo GRI 1); giữ thông số kỹ thuật
-    riêng; thay từ thương mại bằng từ của Biểu thuế theo `data/tu_dong_nghia.json` (vd inox → thép không gỉ).
+    riêng; thay từ thương mại bằng từ của Biểu thuế (hx.doi_dong_nghia — cùng luật và cùng bảng với ILMS).
     """
-    dong_nghia = _doc_tu_dong_nghia() if dong_nghia is None else dong_nghia
     goc = ten.strip()
     bo_qua = [m.group(0).strip(" ,;:") for m in _MAU_BO.finditer(goc)] + \
              [m.group(0).strip() for m in _MAU_MOI.finditer(goc)]
     con = _MAU_MOI.sub(" ", _MAU_BO.sub(" ", goc))
     thong_so = [m.group(0).strip() for m in _MAU_THONG_SO.finditer(con)]
     con = _MAU_THONG_SO.sub(" ", con)
-    khong_dau = " ".join(q._tu(con))
-    da_thay = {}
-    for tm, hs in sorted(dong_nghia.items(), key=lambda kv: -len(kv[0])):
-        if re.search(rf"\b{re.escape(tm)}\b", khong_dau):
-            khong_dau = re.sub(rf"\b{re.escape(tm)}\b", q.strip_accents(hs), khong_dau)
-            da_thay[tm] = hs
+    doi, da_thay = q.hx.doi_dong_nghia(con)
+    khong_dau = " ".join(q._tu(doi))
     dau_hieu = {}
     for qt, (_ten, cum) in DAU_HIEU.items():
         trung = [c for c in cum if re.search(rf"\b{re.escape(c)}\b", khong_dau)]
@@ -159,17 +144,17 @@ def diem_phan_biet(codes, nhom, ung_vien):
     return ra[:8]
 
 
-def phan_loai(ten, codes, chapters=None, headings=None, chuong=None, toi_da_nhom=3, toi_da_ma=8):
+def phan_loai(ten, codes, chapters=None, headings=None, chuong=None, toi_da_nhom=3, toi_da_ma=8,
+              tien_le_ds=None, bo_tien_le_id=None):
     """Kết quả có cấu trúc (in ra hoặc xuất JSON). Không đọc tệp — để test không cần dữ liệu thật."""
     chapters = chapters or {}
     headings = headings or {}
     t = tach_ten(ten)
     tu_khoa = " ".join(t["tu"])
-    # Chương 98 (mã riêng hưởng ưu đãi của Biểu thuế VN) chỉ áp SAU khi đã phân loại vào Chương 1-97
-    # theo GRI — không phải nhóm cạnh tranh, bỏ khỏi ứng viên trừ khi người dùng chỉ định --chuong 98.
-    if str(chuong or "") != "98":
-        codes = {c: e for c, e in codes.items() if not c.startswith("98")}
-    tat_ca = q.xep_hang(codes, tu_khoa, chuong, noi_long=True) if tu_khoa else []
+    # Chương 98 (mã riêng hưởng ưu đãi của Biểu thuế VN) không là ứng viên trừ khi --chuong 98 — luật ở
+    # query_hs.xep_hang (một chỗ cho cả search lẫn phanloai, như tra_cuu.tim_ma của ILMS).
+    tat_ca = q.xep_hang(codes, tu_khoa, chuong, noi_long=True, tien_le_ds=tien_le_ds,
+                        bo_tien_le_id=bo_tien_le_id, ten_goc=ten) if tu_khoa else []
     kq = q.loc_du_tu(tat_ca)
     nhom_ds = gom_nhom(kq, toi_da_nhom)
     du_tu = bool(kq) and kq[0][3]
