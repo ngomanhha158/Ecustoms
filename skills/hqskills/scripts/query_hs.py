@@ -496,14 +496,14 @@ def cmd_code(code, dac_tinh=None):
 # ---------------------------------------------------------------- tìm mã theo từ khóa
 # Khớp theo TỪ (không phân biệt dấu, thứ tự tùy ý): "thep hinh" khớp "Thép ... dạng hình".
 # Xếp hạng: đủ mọi từ > thiếu từ; cụm liền mạch; mã 8 số; mô tả ngắn (sát nghĩa hơn).
-def _tu(s):
-    """Từ không dấu, chữ thường. Số bỏ dấu phân cách nghìn và tách khỏi đơn vị: "1.000 V" và "1000V" → 1000, v."""
-    s = re.sub(r"(\d)[.,](\d{3})(?!\d)", r"\1\2", strip_accents(s))
-    return re.findall(r"[a-z]+|\d+", s)
+# Luật xếp hạng là BẢN CHÉP nguyên văn của ILMS (scripts/hs_xep_hang.py, sinh bằng chep_xep_hang_ilms.py).
+# Ở đây chỉ còn phần riêng của skill: chỉ mục trên hs_tree.json (thay cho tsvector + ts_stat của ILMS) và
+# tiền lệ đọc từ data/tien_le.tsv (thay cho hs_goi_y_log).
+import hs_xep_hang as hx  # noqa: E402
 
-
-# Cặp từ quá chung để một mình làm bằng chứng "cùng cụm" (dùng khi chọn nhóm cạnh tranh).
-TU_CHUNG = {"tu", "dong", "xu", "ly", "loai", "khac", "dang", "co", "chua", "da", "cac", "va", "hoac", "bang"}
+_tu = hx.tach_tu
+tu_bi_phu_dinh = hx.tu_bi_phu_dinh
+TU_CHUNG = hx.TU_CHUNG
 
 
 def dem_cum_lien(tu, vn, bo_chung=False):
@@ -533,128 +533,100 @@ def doan(desc):
     return [d.strip(" :") for d in _DOAN.split(desc or "")]
 
 
-_CHI_MUC = {}   # id(codes) -> (N, {code: (vn, chu)}, idf) — dựng một lần cho mỗi bảng mã
+_CHI_MUC = {}   # (id(codes), len) -> {"idf": …, "mo_ta": {(vn, en): hx.MoTa}} — dựng một lần cho mỗi bảng mã
 
 
 def chi_muc(codes):
-    """Chỉ mục từ của Biểu thuế: chuỗi không dấu + tập từ mỗi mã, và IDF mỗi từ (từ càng phổ biến —
-    "may", "loai", "khac", "tu dong" — trọng số càng thấp, nên không còn kéo nhầm nhóm)."""
+    """IDF mỗi từ của Biểu thuế + bản phân tích sẵn từng mô tả (hx.MoTa). Bảng thật (> 1000 mã) đọc/ghi bản dựng
+    sẵn trên đĩa — dựng mới ~6 s, đọc lại ~0,3 s; khóa theo kích thước + mtime của hs_tree.json và của bản chép
+    luật (đổi luật là tự dựng lại). Nạp xong thì hx.phan_tich đọc thẳng từ đây thay cho lru_cache."""
     import math
-    k = (id(codes), len(codes))
-    if k in _CHI_MUC:
-        return _CHI_MUC[k]
-    # Bảng mã thật (Biểu thuế) thì đọc/ghi bản dựng sẵn trên đĩa — dựng mới mất ~6 s mỗi lệnh, đọc lại ~0,3 s.
-    # Khóa theo kích thước + mtime của hs_tree.json: import lại Biểu thuế là tự dựng lại.
+    # Bảng thật (> 1000 mã) dùng MỘT chỉ mục, kể cả khi người gọi lọc bớt thành dict mới (phanloai bỏ Chương 98):
+    # khóa theo id() thì mỗi lượt dựng lại ~10 s. IDF tính trên cả Biểu thuế — đúng nghĩa "từ phổ biến".
+    k = "bang_that" if len(codes) > 1000 else (id(codes), len(codes))
+    if k not in _CHI_MUC:
+        _CHI_MUC.clear()          # giữ một bảng — tránh phình bộ nhớ khi test đổi bảng liên tục
+        _CHI_MUC[k] = _doc_hoac_dung(codes, math)
+    cm = _CHI_MUC[k]
+    lru = _PHAN_TICH_GOC
+    hx.phan_tich = lambda vn, en, _m=cm["mo_ta"]: _m.get((vn, en)) or lru(vn, en)
+    return cm
+
+
+_PHAN_TICH_GOC = hx.phan_tich
+
+
+def _doc_hoac_dung(codes, math):
     tep_goc = os.path.join(DATA, "hs_tree.json")
     tep_cache = os.path.join(DATA, ".chi_muc.pickle") if len(codes) > 1000 and os.path.exists(tep_goc) else None
+    khoa = None
     if tep_cache:
         import pickle
-        st = os.stat(tep_goc)
-        khoa = (st.st_size, int(st.st_mtime), len(codes))
+        st, sl = os.stat(tep_goc), os.stat(hx.__file__)
+        khoa = (st.st_size, int(st.st_mtime), len(codes), sl.st_size, int(sl.st_mtime), 2)
         try:
             with open(tep_cache, "rb") as f:
                 goi = pickle.load(f)
             if goi.get("khoa") == khoa:
-                _CHI_MUC.clear()
-                _CHI_MUC[k] = goi["chi_muc"]
-                return _CHI_MUC[k]
-        except (OSError, pickle.UnpicklingError, EOFError, AttributeError, KeyError):
-            pass   # cache hỏng/thiếu thì dựng lại rồi ghi đè
-    tai_lieu, df = {}, {}
-    for code, e in codes.items():
-        vn = " ".join(_tu(e.get("desc_vn", "")))
-        chu = set(vn.split()) | set(_tu(e.get("desc_en", "")))
-        tai_lieu[code] = (vn, chu, tu_bi_phu_dinh(e.get("desc_vn", "")))
-        for t in chu:
+                return goi["chi_muc"]
+        except (OSError, pickle.UnpicklingError, EOFError, AttributeError, KeyError, TypeError):
+            pass   # cache hỏng/thiếu/bản cũ thì dựng lại rồi ghi đè
+    df, mo_ta = {}, {}
+    for e in codes.values():
+        vn, en = e.get("desc_vn", "") or "", e.get("desc_en", "") or ""
+        m = mo_ta[(vn, en)] = hx.MoTa(vn, en)
+        for t in m.chu:
             df[t] = df.get(t, 0) + 1
-    n = len(codes) or 1
-    idf = {t: math.log((n + 1) / (d + 1)) + 1 for t, d in df.items()}
-    _CHI_MUC.clear()          # giữ một bảng — tránh phình bộ nhớ khi test đổi bảng liên tục
-    _CHI_MUC[k] = (n, tai_lieu, idf)
+    cm = {"idf": hx.idf_tu_df(df, len(codes)), "mo_ta": mo_ta}
     if tep_cache:
+        import pickle
         tam = tep_cache + ".tmp"
         with open(tam, "wb") as f:
-            pickle.dump({"khoa": khoa, "chi_muc": _CHI_MUC[k]}, f, protocol=pickle.HIGHEST_PROTOCOL)
+            pickle.dump({"khoa": khoa, "chi_muc": cm}, f, protocol=pickle.HIGHEST_PROTOCOL)
         os.replace(tam, tep_cache)   # ghi xong mới thay — hai lệnh chạy song song không đọc phải tệp dở
-    return _CHI_MUC[k]
+    return cm
 
 
-PHU_DINH = {"khong", "chua", "tru"}   # "không hợp kim", "chưa sơn", "trừ máy tính xách tay" — nghĩa ngược hẳn
-PHAT_LECH_PHU_DINH = 35               # người dùng nói "không X", mô tả chỉ có "X" khẳng định
-PHAT_THIEU_PHU_DINH = 25              # người dùng nói "X", mô tả CHỈ nói về X trong phạm vi phủ định
+TEP_TIEN_LE = os.path.join(DATA, "tien_le.tsv")
 
 
-KET_PHU_DINH = {"duoc", "da", "co", "o", "ke", "voi"}   # từ mở vị ngữ mới — kết thúc phạm vi phủ định
-
-
-def tu_bi_phu_dinh(desc):
-    """Tập từ của mô tả CHỈ xuất hiện trong phạm vi một từ phủ định. Phạm vi = từ sau "không/chưa/trừ" tới
-    hết mệnh đề (dấu ; : ( ) hoặc ranh giới cấp " - - "); qua dấu phẩy chỉ khi vế sau ≤ 3 từ (liệt kê kiểu
-    "chưa dát phủ, phủ, mạ hoặc tráng"), còn "không hợp kim, dạng thanh và que" thì dừng ở dấu phẩy."""
-    am, duong = set(), set()
-    # Chú thích tiếng Anh trong ngoặc "(clad)", "(coated)" nằm giữa liệt kê — bỏ đi, kẻo cắt đứt phạm vi.
-    desc = re.sub(r"\([^)]*\)", " ", desc or "")
-    for menh_de in re.split(r"[;:]|\s-(?:\s-)+\s", strip_accents(desc)):
-        ve = [re.findall(r"[a-z]+|\d+", v) for v in menh_de.split(",")]
-        dang_phu_dinh = False
-        for i, tu_ve in enumerate(ve):
-            if i and (len(tu_ve) > 3 or not tu_ve):
-                dang_phu_dinh = False
-            for t in tu_ve:
-                if t in PHU_DINH:
-                    dang_phu_dinh = True
-                    continue
-                if t in KET_PHU_DINH:          # "không hợp kim ĐƯỢC cán phẳng": vị ngữ mới, hết phủ định
-                    dang_phu_dinh = False
-                (am if dang_phu_dinh else duong).add(t)
-    return am - duong
-
-
-def lech_phu_dinh(tu, vn, am):
-    """(lech_nang, lech_nhe) giữa tên hàng `tu` và mô tả: vn = chuỗi không dấu, am = tu_bi_phu_dinh(mô tả).
-    nặng: người dùng "không X" / "chưa X" mà mô tả có X khẳng định; nhẹ: người dùng nói X, mô tả chỉ phủ định X."""
-    vn_k = f" {vn} "
-    nang = sum(1 for a, b in zip(tu, tu[1:]) if a in PHU_DINH and b not in am and f" {b} " in vn_k)
-    bi_phu_dinh_boi_nguoi_dung = {b for a, b in zip(tu, tu[1:]) if a in PHU_DINH}
-    nhe = sum(1 for t in tu if t in am and t not in PHU_DINH and t not in bi_phu_dinh_boi_nguoi_dung)
-    return nang, min(nhe, 2)
-
-
-def xep_hang(codes, keyword, chuong=None, noi_long=False):
-    """[(diem, code, entry, du_tu)] đã xếp; du_tu=False là kết quả nới lỏng (thiếu từ).
-
-    Điểm = độ phủ từ có trọng số IDF (0–100) + cụm liền + cả câu + mã 8 số − mô tả dài − lệch phủ định.
-    noi_long=True: trả MỌI mã khớp ≥ 1 từ (đã xếp hạng) — `phanloai` dùng để tìm nhóm cạnh tranh."""
-    tu = list(dict.fromkeys(_tu(keyword)))
-    if not tu:
+def tien_le():
+    """Tiền lệ của người dùng: data/tien_le.tsv (cột ten_hang, ma_hs) → [(số dòng, tập từ, mã 8 số)].
+    Bản trên máy của hs_goi_y_log.ma_chon ở ILMS — ghi bằng `tienle them`."""
+    if not os.path.exists(TEP_TIEN_LE):
         return []
-    _n, tai_lieu, idf = chi_muc(codes)
-    idf_mac_dinh = max(idf.values(), default=1.0)           # từ không có trong Biểu thuế = hiếm nhất
-    # Từ phủ định ("không", "chưa") không tính vào độ phủ: nó chỉ có nghĩa đi kèm từ sau (xử lý ở cụm liền
-    # và lech_phu_dinh); đứng một mình nó khớp bừa với mọi "chưa được gia công", "không quá…".
-    noi_dung = [t for t in tu if t not in PHU_DINH] or tu
-    tong_idf = sum(idf.get(t, idf_mac_dinh) for t in noi_dung) or 1.0
-    cum = " ".join(tu)
+    import csv
+    with open(TEP_TIEN_LE, encoding="utf-8") as f:
+        return [(i, hx.tap_tu(r["ten_hang"]), re.sub(r"\D", "", r["ma_hs"]))
+                for i, r in enumerate(csv.DictReader(f, delimiter="\t"), 1) if r.get("ten_hang") and r.get("ma_hs")]
+
+
+def xep_hang(codes, keyword, chuong=None, noi_long=False, tien_le_ds=None, bo_tien_le_id=None, ten_goc=None):
+    """[(diem, code, entry, du_tu)] đã xếp; du_tu=False là kết quả nới lỏng (thiếu từ). Luật chấm: hx.cham
+    (bản chép ILMS) + đổi từ đồng nghĩa + cộng điểm tiền lệ — giống tra_cuu.tim_ma của ILMS, chỉ khác là xét MỌI
+    mã trên máy thay cho 400 ứng viên tsv.
+    noi_long=True: trả MỌI mã khớp ≥ 1 từ (đã xếp hạng) — `phanloai` dùng để tìm nhóm cạnh tranh.
+    tien_le_ds: None = đọc data/tien_le.tsv; [] = bỏ tiền lệ (đo luật thuần). ten_goc: tên hàng nguyên văn để so
+    với tiền lệ (mặc định = keyword) — phanloai truyền tên chưa bỏ nhãn hiệu, như ILMS so mo_ta nguyên văn."""
+    if not _tu(keyword):
+        return []
+    idf = chi_muc(codes)["idf"]
+    q, _da = hx.doi_dong_nghia(keyword)
+    tv = hx.TruyVan(q, idf)
+    if not tv.tu:
+        return []
+    thuong = hx.thuong_tien_le(ten_goc or keyword, tien_le() if tien_le_ds is None else tien_le_ds, bo_tien_le_id)
     ra = []
     for code, e in codes.items():
         if chuong and not code.startswith(f"{int(chuong):02d}"):
             continue
-        vn, chu, am = tai_lieu[code]
-        khop = [t for t in tu if t in chu or any(c.startswith(t) for c in chu if len(t) >= 3)]
-        if not khop:
+        d, du = hx.cham(tv, e.get("desc_vn", "") or "", e.get("desc_en", "") or "")
+        t = thuong.get(code)
+        if t:
+            d, du, e = (d if d != float("-inf") else 0.0) + t[0], True, dict(e, tien_le=t[1])
+        if d == float("-inf"):
             continue
-        phu = sum(idf.get(t, idf_mac_dinh) for t in khop if t in noi_dung) / tong_idf * 100
-        # Cụm 2 từ liền nhau ("khong gi", "can nong") sát nghĩa hơn từ rời — +12/cụm (cụm toàn từ chung +3),
-        # chặn trần 36 để không át độ phủ.
-        cum2 = sum(12 if not (a in TU_CHUNG and b in TU_CHUNG) else 3
-                   for a, b in zip(tu, tu[1:]) if f" {a} {b} " in f" {vn} ")
-        nang, nhe = lech_phu_dinh(tu, vn, am)
-        # Chuỗi ≥ 3 từ liền mạch ("may dieu hoa khong khi") = gần như trúng tên nhóm: +8 mỗi từ từ từ thứ 3.
-        chuoi = max([8 * (k - 2) for k in range(3, len(tu) + 1) for i in range(len(tu) - k + 1)
-                     if f" {' '.join(tu[i:i + k])} " in f" {vn} "], default=0)
-        diem = phu + (30 if cum in vn else 0) + min(cum2, 36) + chuoi + (10 if len(code) == 8 else 0) \
-            - min(len(vn), 400) / 40 - nang * PHAT_LECH_PHU_DINH - nhe * PHAT_THIEU_PHU_DINH
-        ra.append((diem, code, e, all(t in khop for t in noi_dung)))
+        ra.append((d + (0 if len(code) == 8 else -10), code, e, du))   # ILMS chỉ có mã 8 số; ở đây dòng 4/6 số lùi sau
     ra.sort(key=lambda r: (-r[0], r[1]))
     if noi_long:
         return ra
@@ -662,13 +634,35 @@ def xep_hang(codes, keyword, chuong=None, noi_long=False):
 
 
 # Ngưỡng giữ kết quả thiếu từ: khớp ≥ nửa số từ (50 điểm) sau khi trừ tối đa cho mô tả dài (400/40).
-NGUONG_NOI_LONG = 50 - 400 / 40
+NGUONG_NOI_LONG = hx.NGUONG_NOI_LONG
 
 
 def loc_du_tu(ra):
     """Có kết quả đủ từ thì bỏ kết quả thiếu; không có thì chỉ giữ kết quả khớp >= nửa số từ."""
     du = [r for r in ra if r[3]]
     return du or [r for r in ra if r[0] >= NGUONG_NOI_LONG]
+
+
+def cmd_tienle(ten=None, ma=None):
+    """Không đối số: liệt kê tiền lệ. Có tên + mã: ghi thêm một dòng (mã phải có trong Biểu thuế, 8 số)."""
+    if not ten:
+        ds = tien_le()
+        print(f"{len(ds)} tiền lệ trong {TEP_TIEN_LE}" if ds else f"Chưa có tiền lệ ({TEP_TIEN_LE}).")
+        if os.path.exists(TEP_TIEN_LE):
+            with open(TEP_TIEN_LE, encoding="utf-8") as f:
+                for dong in list(f)[1:]:
+                    print("  " + dong.rstrip("\n").replace("\t", "  →  "))
+        return
+    code = re.sub(r"\D", "", ma or "")
+    codes = load_json("hs_tree.json").get("codes", {})
+    if len(code) != 8 or code not in codes:
+        raise SystemExit(f"Mã '{ma}' không phải mã 8 số có trong Biểu thuế — không ghi.")
+    moi = not os.path.exists(TEP_TIEN_LE)
+    with open(TEP_TIEN_LE, "a", encoding="utf-8") as f:
+        if moi:
+            f.write("ten_hang\tma_hs\n")
+        f.write(f"{ten.replace(chr(9), ' ').strip()}\t{code}\n")
+    print(f"Đã ghi tiền lệ: {ten.strip()} → {_ma(code)}  ({codes[code].get('desc_vn', '')[:80]})")
 
 
 def cmd_search(keyword, chuong=None, n=20):
@@ -1048,6 +1042,10 @@ def main():
     sp.add_argument("--ngay-vb", type=int, default=30, help="Văn bản ban hành trong bao nhiêu ngày qua (mặc định 30)")
     sp.add_argument("--hom-nay", help="Tính như thể hôm nay là ngày này (YYYY-MM-DD)")
 
+    sp = sub.add_parser("tienle", help="Tiền lệ: tên hàng → mã đã chốt (data/tien_le.tsv); phanloai/search cộng điểm mã ấy")
+    sp.add_argument("ten", nargs="?", help="Tên hàng (bỏ trống = liệt kê)")
+    sp.add_argument("ma", nargs="?", help="Mã HS 8 số đã chốt cho tên hàng này")
+
     sp = sub.add_parser("case")
     sp.add_argument("keyword", nargs="?")
 
@@ -1109,6 +1107,8 @@ def main():
         cmd_gri(args.so)
     elif args.cmd == "refs":
         cmd_refs(args.keyword, args.category, args.nam, args.co_quan)
+    elif args.cmd == "tienle":
+        cmd_tienle(args.ten, args.ma)
     elif args.cmd == "case":
         cmd_case(args.keyword)
     else:

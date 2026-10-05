@@ -145,7 +145,9 @@ def main():
             "desc_vn": full_desc_vn,
             "desc_en": full_desc_en,
             "section": current_section or "",
-            "chapter": current_chapter or "",
+            # Chương = 2 số đầu của mã (định nghĩa HS). Biểu thuế VN không có dòng tiêu đề "Chương 98" nên lấy
+            # dòng "Chương …" gần nhất từng ghi 98xx thành "Chương 97" (lỗi bắt được 05-10-2026).
+            "chapter": f"Chương {int(code[:2])}" if code[:2].isdigit() else (current_chapter or ""),
             "unit": str(cell(row, COL["unit"]) or "").strip(),
             "thue_nk_thong_thuong": str(thue_nk).strip() if thue_nk is not None else "",
             "mfn": str(mfn).strip() if mfn is not None else "",

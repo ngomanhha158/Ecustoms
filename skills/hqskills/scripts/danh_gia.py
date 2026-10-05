@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Đo tỷ lệ gợi ý đúng của `phanloai` trên bộ thử có nhãn (tên hàng ↔ mã HS đã chốt).
 
-    python scripts/danh_gia.py [data/danh_gia/mau_thu.tsv] [--chi-tiet]
+    python scripts/danh_gia.py [data/danh_gia/mau_thu.tsv] [--chi-tiet] [--tien-le]
 
 Tệp TSV: cột `ten_hang`, `ma_hs` (8 số), tùy chọn `ghi_chu`. Kết quả: top-1 / top-3 đúng theo mã 8 số,
 nhóm 4 số, và chương — đây là CON SỐ THẬT duy nhất được phép nói về "độ chính xác" của skill.
@@ -22,11 +22,15 @@ def doc(tep):
         return [r for r in csv.DictReader(f, delimiter="\t") if r.get("ten_hang") and r.get("ma_hs")]
 
 
-def do(dong, codes, chapters, top=3):
-    """[(ten, ma_dung, [ma gợi ý theo thứ tự])]."""
+def do(dong, codes, chapters, top=3, tien_le=False):
+    """[(ten, ma_dung, [ma gợi ý theo thứ tự])]. tien_le=False: đo luật thuần (bỏ data/tien_le.tsv).
+    tien_le=True: chính bộ thử làm tiền lệ, đo leave-one-out (dòng đang đo không được tự trúng mình) —
+    ước lượng máy sẽ trúng bao nhiêu khi đã tích lũy tiền lệ cỡ bộ thử."""
+    ds = [(i, pl.q.hx.tap_tu(r["ten_hang"]), r["ma_hs"].strip()) for i, r in enumerate(dong)] if tien_le else []
     ra = []
-    for r in dong:
-        kq = pl.phan_loai(r["ten_hang"], codes, chapters, {}, toi_da_nhom=top, toi_da_ma=top)
+    for i, r in enumerate(dong):
+        kq = pl.phan_loai(r["ten_hang"], codes, chapters, {}, toi_da_nhom=top, toi_da_ma=top,
+                          tien_le_ds=ds, bo_tien_le_id=i)
         goi_y = [m["ma"] for n in kq["nhom"] for m in n["ma"] if len(m["ma"]) == 8]
         ra.append((r["ten_hang"], r["ma_hs"].strip(), goi_y[:top * 3]))
     return ra
@@ -44,7 +48,7 @@ def main():
     tep = next((a for a in sys.argv[1:] if not a.startswith("--")), os.path.join(pl.DATA, "danh_gia", "mau_thu.tsv"))
     codes = q.load_json("hs_tree.json").get("codes", {})
     chapters = q.load_json("chapter_notes.json").get("chapters", {})
-    kq = do(doc(tep), codes, chapters)
+    kq = do(doc(tep), codes, chapters, tien_le="--tien-le" in sys.argv)
     tk = tong_ket(kq)
     print(f"Bộ thử: {tep} — {tk['n']} dòng")
     print(f"Mã 8 số   : top-1 {tk['ma8_top1']:.0f}%  top-3 {tk['ma8_top3']:.0f}%")
