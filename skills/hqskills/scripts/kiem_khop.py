@@ -128,6 +128,9 @@ def chay_phieu(in_chi_tiet=True):
         so += 1
         may = json.loads(json.dumps(ki.kiem_tra(dict(d), codes, kho)))   # tuple -> list như JSON của ILMS
         chu = ilms_api.post("/kiem-tra", d)
+        for p in (may, chu):   # id văn bản là khóa kho ILMS (skill để None) — không phải luật
+            for x in p.get("pvtm", []) + [c for c in p.get("can_cu_phap_ly", []) if c.get("loai") == "qd"]:
+                x["van_ban"] = [v.get("so_hieu") if isinstance(v, dict) else v for v in x.get("van_ban", [])]
         if may != chu:
             lech += 1
             if in_chi_tiet:

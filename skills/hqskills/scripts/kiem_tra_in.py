@@ -16,6 +16,20 @@ import pvtm_local as pl
 DATA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 
 
+_CHU_GIAI = {}
+
+
+def chu_giai(chuong):
+    """Toàn văn Chú giải Chương từ data/chapter_notes.json (cùng nguồn ILMS nạp vào hs_chapter_notes)."""
+    if not _CHU_GIAI:
+        try:
+            with open(os.path.join(DATA, "chapter_notes.json"), encoding="utf-8") as f:
+                _CHU_GIAI.update(json.load(f).get("chapters", {}))
+        except OSError:
+            return None
+    return _CHU_GIAI.get(str(chuong))
+
+
 def kiem_tra(dau_vao, codes, kho):
     """dau_vao như ILMS KiemTraIn. Sai dữ liệu -> SystemExit (ILMS trả 422/404)."""
     code = re.sub(r"\D", "", dau_vao.get("ma") or "")
@@ -44,7 +58,13 @@ def kiem_tra(dau_vao, codes, kho):
     pv_ma = pl.tinh_cho_lo(kho, {"code": code, **lo}) if kho else None
     ds = kt.nghi_ngo(code, tt, tra_ma, ma_con)
     nghi = {m["code"]: pl.tinh_cho_lo(kho, {"code": m["code"], **lo}) for m in ds} if kho else {}
-    return kt.lap_phieu(dau_vao, tra_ma, ma_con, pv_ma, nghi, tt=tt, ds_nghi_ngo=ds)
+    p = kt.lap_phieu(dau_vao, tra_ma, ma_con, pv_ma, nghi, tt=tt, ds_nghi_ngo=ds, chu_giai=chu_giai)
+    for v in p["pvtm"]:   # cùng dạng ILMS (id văn bản trong kho ILMS — skill không có, để None)
+        v["van_ban"] = [{"so_hieu": x, "id": None} for x in v["van_ban"]]
+    for c in p["can_cu_phap_ly"]:
+        if c["loai"] == "qd":
+            c["van_ban"] = [{"so_hieu": x, "id": None} for x in c["van_ban"]]
+    return p
 
 
 _DAU = {"tot": "✓", "canh": "!", "xau": "✗"}
@@ -75,9 +95,16 @@ def in_chu(p):
     print("\nKIỂM HÓA CẦN XEM TẬN MẮT")
     for x in p["tan_mat"] or [{"viec": "Không có thông số nào cần đo để giữ kết luận.", "khai": ""}]:
         print(f"  [ ] {x['viec']}" + (f"   (khai {x['khai']})" if x["khai"] else ""))
+        if x.get("can_cu"):
+            print(f"      căn cứ: {x['can_cu']}")
     print("\nVÌ SAO MÃ NÀY")
-    for i, x in enumerate(p["lap_luan"], 1):
-        print(f"  {i}. {x}")
+    for i, b in enumerate(p["lap_luan"], 1):
+        print(f"  {i}. {b['cau']}")
+        for c in b["can_cu"]:
+            print(f"     Căn cứ — {c['nhan']} ({c['nguon']}):")
+            for dong in (c["trich"] or "(chưa có nguyên văn trên máy)").split("\n"):
+                dau = "  >>" if c["nhan_manh"] and c["nhan_manh"] in dong else "    "
+                print(f"     {dau} {dong}")
     print("\nMÃ NGHI NGỜ TƯƠNG TỰ")
     if len(p["nghi_ngo"]) > 1:
         for x in p["nghi_ngo"]:
@@ -95,6 +122,9 @@ def in_chu(p):
         print(f"  [{v['vu']}] {v['so_hieu']} => {v['ket_luan'].upper()}")
         for t in v["tieu_chi"]:
             print(f"      {t['ten']}: {t['qd']} — lô {t['lo']} {({True: '✓', False: '✗'}).get(t['dat'], '?')}")
+    print("\nCĂN CỨ PHÁP LÝ ĐÃ DÙNG")
+    for c in p["can_cu_phap_ly"]:
+        print(f"  - {c['nhan']} — {c['chi_tiet']}")
     print("\nKết quả soát tự động theo Biểu thuế, Chú giải Chương 72 và kho phòng vệ thương mại trên máy —"
           "\nđối chiếu chứng từ gốc (Mill Test, C/O) trước khi kết luận.")
 
@@ -121,7 +151,10 @@ td{border-top:1px solid var(--vien);padding:8px 8px 8px 0;vertical-align:top}tr.
 .pill{display:inline-block;padding:1px 8px;border-radius:999px;font-size:12px;font-weight:600}
 .p-tot{background:var(--nen-tot);color:var(--tot)}.p-canh{background:var(--nen-canh);color:var(--canh)}.p-xau{background:var(--nen-xau);color:var(--xau)}
 .do{color:var(--xau)}footer{padding:10px 16px;border-top:1px dashed var(--vien);font-size:12px;color:var(--phu)}
-@media print{body{padding:0}@page{size:A4;margin:12mm}}"""
+summary{cursor:pointer;color:#1d4ed8;font-size:13px;font-weight:600}
+blockquote{margin:6px 0 4px;padding:8px 12px;border-left:4px solid #c9b98a;background:rgba(201,185,138,.12)}
+mark{background:none;color:inherit;font-weight:700;border-bottom:2px solid var(--canh)}
+@media print{body{padding:0}@page{size:A4;margin:12mm}details{display:block}details>*{display:block}}"""
 
 
 def in_html(p):
@@ -134,9 +167,18 @@ def in_html(p):
     if p["can_lam_ro"]:
         muc.append(("Cần làm rõ", '<ul class="do">' + "".join(f"<li>{e(x)}</li>" for x in p["can_lam_ro"]) + "</ul>"))
     muc.append(("Kiểm hóa cần xem tận mắt", '<ul class="tm">' + "".join(
-        f'<li><span class="hop"></span><span>{e(x["viec"])}</span><span class="mono">khai {e(x["khai"])}</span></li>'
+        f'<li><span class="hop"></span><span>{e(x["viec"])}'
+        + (f'<small class="ct" style="display:block">{e(x["can_cu"])}</small>' if x.get("can_cu") else "")
+        + f'</span><span class="mono">khai {e(x["khai"])}</span></li>'
         for x in p["tan_mat"]) + "</ul>" if p["tan_mat"] else "<p>Không có thông số nào cần đo để giữ kết luận.</p>"))
-    muc.append(("Vì sao mã này", "<ol>" + "".join(f"<li>{e(x)}</li>" for x in p["lap_luan"]) + "</ol>"))
+    def trich(c):
+        t = e(c["trich"] or "(chưa có nguyên văn trên máy)")
+        if c["nhan_manh"]:
+            t = t.replace(e(c["nhan_manh"]), f"<mark>{e(c['nhan_manh'])}</mark>")
+        return (f'<details><summary>Căn cứ: {e(c["nhan"])}</summary><blockquote><span class="nhan">{e(c["nhan"])} — '
+                f'{e(c["nguon"])}</span><div style="white-space:pre-line">{t}</div></blockquote></details>')
+    muc.append(("Vì sao mã này", "<ol>" + "".join(f"<li>{e(b['cau'])}{''.join(trich(c) for c in b['can_cu'])}</li>"
+                                              for b in p["lap_luan"]) + "</ol>"))
     if len(p["nghi_ngo"]) > 1:
         dong = "".join(
             f'<tr class="{"khai" if x["dang_khai"] else ""}"><td class="mono"><b>{_ma(x["code"])}</b><br>'
@@ -158,6 +200,8 @@ def in_html(p):
     else:
         cb = "<p>Mã này không thuộc vụ phòng vệ thương mại nào đang áp.</p>"
     muc.append(("Đối chiếu phạm vi CBPG", cb))
+    muc.append(("Căn cứ pháp lý đã dùng", "<ul>" + "".join(f"<li><b>{e(c['nhan'])}</b> — {e(c['chi_tiet'])}</li>"
+                                                          for c in p["can_cu_phap_ly"]) + "</ul>"))
     than = "".join(f"<section><h3>{e(t)}</h3>{n}</section>" for t, n in muc)
     return (f'<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,'
             f'initial-scale=1"><title>Phiếu kiểm tra {_ma(d["ma"])}</title><style>{_CSS}</style></head><body><article>'

@@ -34,6 +34,14 @@ class PhieuA709(unittest.TestCase):
         self.assertEqual([x["code"] for x in p["nghi_ngo"]], ["72254090", "72085100"])
         self.assertTrue(all(v["ket_luan"] == "Ngoài phạm vi" for v in p["pvtm"]))
 
+    def test_can_cu_nguyen_van(self):
+        p = ki.kiem_tra(dict(A709), CODES, KHO)
+        cc = p["lap_luan"][0]["can_cu"][0]
+        self.assertEqual((cc["nhan"], cc["nhan_manh"]), ("Chú giải 1(f) Chương 72", "Crôm từ 0,3% trở lên"))
+        self.assertIn("- Crôm từ 0,3% trở lên", cc["trich"])
+        self.assertTrue(all(x.get("can_cu") for x in p["tan_mat"]))
+        self.assertTrue(all(isinstance(x, dict) for v in p["pvtm"] for x in v["van_ban"]))
+
     def test_cap_khong_xe_gach_giua_cau(self):
         cap = ki.kt._cap({"desc_vn": CODES["72259220"]["desc_vn"]})
         self.assertTrue(cap[-1].endswith("kẽm - nhôm - magiê"), cap)
@@ -45,7 +53,7 @@ class PhieuA709(unittest.TestCase):
             ki.in_chu(p)
         self.assertIn("KIỂM HÓA CẦN XEM TẬN MẮT", buf.getvalue())
         h = ki.in_html(p)
-        self.assertTrue(h.startswith("<!doctype html>") and "7208.51.00" in h and "<script" not in h)
+        self.assertTrue(h.startswith("<!doctype html>") and "7208.51.00" in h and "<mark>Crôm từ 0,3% trở lên</mark>" in h and "<script" not in h)
 
 
 class LoiNhap(unittest.TestCase):

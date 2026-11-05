@@ -205,7 +205,7 @@ def _dong_sx(s):
     return {"ten": s["ten"], "nuoc": s["nuoc"], "muc_thue": s["muc_thue"], "khong_ap": s["khong_ap"]}
 
 
-# ================================================================ LUẬT — chép nguyên văn ILMS services/pvtm.py (commit 30daf4c7)
+# ================================================================ LUẬT — chép nguyên văn ILMS services/pvtm.py (commit 0d5922d7)
 # KHÔNG SỬA TAY: sửa ở ILMS rồi chạy scripts/chep_luat_ilms.py.
 
 LOAI = ("cbpg", "chong_lan_tranh", "chong_tro_cap", "tu_ve")

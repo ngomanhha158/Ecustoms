@@ -1,4 +1,4 @@
-# Chép nguyên văn ILMS services/kiem_tra_dong.py (commit 30daf4c7) — KHÔNG SỬA TAY:
+# Chép nguyên văn ILMS services/kiem_tra_dong.py (commit 0d5922d7) — KHÔNG SỬA TAY:
 # sửa ở ILMS rồi chạy scripts/chep_luat_ilms.py.
 """Kiểm tra nhanh MỘT dòng hàng tờ khai — luật thuần, không chạm CSDL (CEO duyệt mẫu 05-11-2026).
 
@@ -371,7 +371,9 @@ def _bang_pvtm(kq: dict[str, Any] | None) -> list[dict[str, Any]]:
     for v, b, p in _buoc_pham_vi(kq):
         tieu_chi.setdefault(v["ma_vu_viec"], []).append(
             {"ten": NHAN_KHOA[p["khoa"]], "qd": p["goc"].split(": ", 1)[-1], "lo": _lo_chu(p), "dat": b["dat"]})
-    return [{"vu": v["ma_vu_viec"], "so_hieu": v.get("so_hieu", ""), "tieu_chi": tieu_chi.get(v["ma_vu_viec"], []),
+    return [{"vu": v["ma_vu_viec"], "so_hieu": v.get("so_hieu", ""),
+             "van_ban": [x.strip() for x in (v.get("so_hieu") or "").split(",") if x.strip()],
+             "tieu_chi": tieu_chi.get(v["ma_vu_viec"], []),
              "ket_luan": {"khong_thuoc_pham_vi": "Ngoài phạm vi",
                           "ap": f"Bị áp {_pt(v['muc_thue'])}" if v["muc_thue"] is not None else "Bị áp — chưa có mức",
                           "khong_ap": "Không áp", "chua_du": "Chưa đủ dữ liệu"}[v["ket_luan"]],
@@ -417,36 +419,45 @@ def _nguong_thoat(khoang_vu: list[tuple[float, float]], lo_khai: float | None = 
     return " và ".join(cau)
 
 
-def _tan_mat(tt: dict[str, Any], hk: dict[str, Any], kq: dict[str, Any] | None, code: str) -> list[dict[str, str]]:
-    """Việc kiểm hóa phải xem tận mắt — mỗi việc gắn với NGƯỠNG làm đổi kết luận.
+def _tan_mat(tt: dict[str, Any], hk: dict[str, Any], kq: dict[str, Any] | None, code: str,
+             ma: dict[str, Any] | None = None) -> list[dict[str, str]]:
+    """Việc kiểm hóa phải xem tận mắt — mỗi việc gắn với NGƯỠNG làm đổi kết luận và CĂN CỨ (câu chữ QĐ / Chú giải).
     Tiêu chí quy cách: gộp khoảng (pham_vi.dk của pvtm) của MỌI vụ cùng mã -> ngưỡng để lô nằm ngoài tất cả."""
     gom: dict[str, dict[str, Any]] = {}
     tay: list[dict[str, str]] = []
-    for _v, b, p in _buoc_pham_vi(kq):
+    for v, b, p in _buoc_pham_vi(kq):
         if b["dat"] is not False:
             continue
+        qd = f"{v.get('so_hieu') or v['ma_vu_viec']}: “{p['goc'].split(': ', 1)[-1]}”"
         if p.get("dk"):
-            g = gom.setdefault(p["khoa"], {"khoang": [], "lo": p["lo"]})
+            g = gom.setdefault(p["khoa"], {"khoang": [], "lo": p["lo"], "qd": []})
             g["khoang"].append(_khoang_dong(p["dk"]))
+            if qd not in g["qd"]:
+                g["qd"].append(qd)
         else:   # dạng hàng / quy cách chữ: không có ngưỡng số -> đối chiếu tay, không lặng lẽ mất dòng
             viec = {"viec": f"Đối chiếu tay {NHAN_KHOA[p['khoa']].lower()}: QĐ ghi “{p['goc'].split(': ', 1)[-1]}”",
-                    "khai": _lo_chu(p)}
+                    "khai": _lo_chu(p), "can_cu": f"Mô tả hàng hóa {v.get('so_hieu') or v['ma_vu_viec']}"}
             if viec not in tay:
                 tay.append(viec)
     ra = [{"viec": f"Đo {NHAN_KHOA[k].lower()}: phải {_nguong_thoat(g['khoang'], g['lo'])} {DON_VI.get(k, '')} "
-                   "thì nằm ngoài phạm vi chống bán phá giá", "khai": _lo_chu({"khoa": k, "lo": g["lo"]})}
+                   "thì nằm ngoài phạm vi chống bán phá giá", "khai": _lo_chu({"khoa": k, "lo": g["lo"]}),
+           "can_cu": "Mô tả hàng hóa " + " · ".join(g["qd"])}
           for k, g in gom.items()] + tay
     if hk.get("nguyen_to"):
         nt = hk["nguyen_to"]
         a, b = hk["gia_tri"]
         tren = hk["ket_luan"] in ("hop_kim", "khong_gi")
+        muc = "1(e)" if hk["ket_luan"] == "khong_gi" else "1(f)"
         ra.append({"viec": f"Mill Test ghi {TEN_NGUYEN_TO[nt]} {'≥' if tren else '<'} {_vn(hk['nguong'])}%: căn cứ xếp "
                            f"{_TEN_LOAI.get(hk['ket_luan'], 'thép')}",
-                   "khai": f"{_vn(a)}–{_vn(b)}%" if a != b else f"{_vn(a)}%"})
+                   "khai": f"{_vn(a)}–{_vn(b)}%" if a != b else f"{_vn(a)}%",
+                   "can_cu": f"Chú giải {muc} Chương 72 — khác ngưỡng thì xem Mã nghi ngờ tương tự"})
     if tt.get("dang"):
+        cap = _cap(ma) if ma else []
         ra.append({"viec": f"Hàng dạng {'tấm, không cuộn' if tt['dang'] == 'tam' else 'cuộn'}"
                            + ("" if tt.get("phu") else "; bề mặt không sơn, mạ, tráng"),
-                   "khai": code[:4] + "." + code[4:6]})
+                   "khai": code[:4] + "." + code[4:6],
+                   "can_cu": f"Phân nhóm {_ma_cham(code)[:7]}: “{cap[-2]}”" if len(cap) > 1 else ""})
     return ra
 
 
@@ -496,10 +507,13 @@ def ma_nghi_ngo(code: str, tt: dict[str, Any], tra_ma: Callable[[str], dict | No
 
 def lap_phieu(dau_vao: dict[str, Any], tra_ma: Callable[[str], dict | None], ma_con: Callable[[str], list[str]],
               pvtm_ma: dict[str, Any] | None, pvtm_nghi_ngo: dict[str, dict[str, Any]] | None = None,
-              tt: dict[str, Any] | None = None, ds_nghi_ngo: list[dict[str, Any]] | None = None) -> dict[str, Any]:
+              tt: dict[str, Any] | None = None, ds_nghi_ngo: list[dict[str, Any]] | None = None,
+              chu_giai: Callable[[int], str | None] | None = None) -> dict[str, Any]:
     """dau_vao: {ma, mo_ta, nuoc?, thue_suat?, tk?, dong?, luong?, nsx?, nxk?, + ghi đè day/rong/carbon/dang/mac_thep/
     tieu_chuan}. pvtm_ma: tinh_cho_lo của chính mã khai; pvtm_nghi_ngo: {mã nghi ngờ: tinh_cho_lo} (nơi gọi tính trước).
-    tt / ds_nghi_ngo: nơi gọi đã tính (thong_so / nghi_ngo) thì đưa vào, khỏi đọc mô tả và soát mã đối ứng lần hai."""
+    tt / ds_nghi_ngo: nơi gọi đã tính (thong_so / nghi_ngo) thì đưa vào, khỏi đọc mô tả và soát mã đối ứng lần hai.
+    chu_giai(chương) -> toàn văn Chú giải Chương (ILMS: hs_chapter_notes) để trích nguyên văn căn cứ; None thì phiếu
+    chỉ ghi TÊN căn cứ."""
     code = re.sub(r"\D", "", dau_vao.get("ma") or "")
     ma = tra_ma(code)
     if not ma:
@@ -558,6 +572,8 @@ def lap_phieu(dau_vao: dict[str, Any], tra_ma: Callable[[str], dict | None], ma_
         tren = hk["ket_luan"] == "hop_kim"
         ghi = (f"{TEN_NGUYEN_TO[nt]} khai {_vn(a)}–{_vn(b)}%, {'cao hơn' if tren else 'thấp hơn'} ngưỡng {_vn(ng)}% là "
                f"{_vn(abs(hk['cach']))} điểm %. Mill Test là chứng từ quyết định.")
+    lap_luan = _lap_luan(code, ma, hk, tt, chu_giai)
+    bang_pv = _bang_pvtm(pvtm_ma)
     return {
         "dau": {"ten": _ten_rut_gon(dau_vao.get("mo_ta", "")), "tk": dau_vao.get("tk"), "dong": dau_vao.get("dong"),
                 "nuoc": nuoc, "luong": dau_vao.get("luong"), "ma": code},
@@ -574,11 +590,29 @@ def lap_phieu(dau_vao: dict[str, Any], tra_ma: Callable[[str], dict | None], ma_
         ],
         "can_lam_ro": can_lam_ro,
         "thong_so": tt, "hop_kim": hk, "tieu_chi_ma": tieu_chi,
-        "tan_mat": _tan_mat(tt, hk, pvtm_ma, code),
-        "lap_luan": _lap_luan(code, ma, hk, tt),
+        "tan_mat": _tan_mat(tt, hk, pvtm_ma, code, ma),
+        "lap_luan": lap_luan,
         "nghi_ngo": dong_nghi, "ghi_nghi_ngo": ghi, "ly_do_nghi_ngo": ly_do_nghi_ngo,
-        "pvtm": _bang_pvtm(pvtm_ma),
+        "pvtm": bang_pv,
+        "can_cu_phap_ly": _can_cu_phap_ly(lap_luan, dong_nghi or [{"code": code}], bang_pv),
     }
+
+
+def _can_cu_phap_ly(lap_luan: list[dict[str, Any]], dong_nghi: list[dict[str, Any]],
+                    bang_pv: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Cuối phiếu: mọi căn cứ phiếu đã dùng, mỗi thứ một dòng (Chú giải gộp mục, Biểu thuế gộp mã, QĐ theo vụ)."""
+    muc = sorted({c["nhan"].split()[2] for b in lap_luan for c in b["can_cu"] if c["loai"] == "chu_giai"})
+    ra = []
+    if muc:
+        ra.append({"loai": "chu_giai", "chuong": 72, "nhan": f"Chú giải {', '.join(muc)} Chương 72",
+                   "chi_tiet": "Chú giải pháp lý — TT 31/2022/TT-BTC"})
+    ra.append({"loai": "bieu_thue", "ma": [x["code"] for x in dong_nghi],
+               "nhan": "Biểu thuế 2026 — " + ", ".join(_ma_cham(x["code"]) for x in dong_nghi),
+               "chi_tiet": "mô tả, MFN, FTA"})
+    for v in bang_pv:
+        ra.append({"loai": "qd", "van_ban": v["van_ban"], "nhan": " · ".join(v["van_ban"]) or v["vu"],
+                   "chi_tiet": f"vụ {v['vu']} — mô tả hàng hóa thuộc phạm vi"})
+    return ra
 
 
 def _khi(hk: dict[str, Any], code: str) -> str:
@@ -592,24 +626,86 @@ def _khi(hk: dict[str, Any], code: str) -> str:
     return f"{TEN_NGUYEN_TO[nt]} < {_vn(ng)}% và không nguyên tố nào đạt ngưỡng Chú giải 1(f)"
 
 
-def _lap_luan(code: str, ma: dict[str, Any], hk: dict[str, Any], tt: dict[str, Any]) -> list[str]:
+def _lap_luan(code: str, ma: dict[str, Any], hk: dict[str, Any], tt: dict[str, Any],
+              chu_giai: Callable[[int], str | None] | None = None) -> list[dict[str, Any]]:
+    """Từng bước lập luận + CĂN CỨ nguyên văn (Chú giải / Biểu thuế) — kiểm hóa bấm là đọc được câu chữ gốc."""
     ra = []
     if hk.get("ket_luan") == "khong_gi":
         a, b = hk["gia_tri"]
-        ra.append(f"Crôm {_vn(a)}–{_vn(b)}% ≥ 10,5% → thép không gỉ (Chú giải 1(e) Chương 72) → nhóm 72.18–72.23")
+        ra.append({"cau": f"Crôm {_vn(a)}–{_vn(b)}% ≥ 10,5% → thép không gỉ → nhóm 72.18–72.23",
+                   "can_cu": [_cc_chu_giai("1(e)", chu_giai)]})
     elif hk.get("ket_luan") in ("hop_kim", "khong_hop_kim") and hk.get("nguyen_to"):
         a, b = hk["gia_tri"]
         if hk["ket_luan"] == "hop_kim":
-            ra.append(f"{TEN_NGUYEN_TO[hk['nguyen_to']]} {_vn(a)}–{_vn(b)}% ≥ {_vn(hk['nguong'])}% → thép hợp kim "
-                      "(Chú giải 1(f) Chương 72) → không thuộc nhóm thép không hợp kim")
+            ten = TEN_NGUYEN_TO[hk["nguyen_to"]]
+            ra.append({"cau": f"{ten} {_vn(a)}–{_vn(b)}% ≥ {_vn(hk['nguong'])}% → thép hợp kim → không thuộc nhóm "
+                              "thép không hợp kim (72.08–72.17)",
+                       "can_cu": [_cc_chu_giai("1(f)", chu_giai, f"{ten} từ")]})
         else:
-            ra.append("Không nguyên tố nào đạt ngưỡng Chú giải 1(f) Chương 72 → thép không hợp kim")
-    if tt.get("rong") is not None:
-        ra.append(f"Rộng {_vn(tt['rong'])} mm {'≥' if tt['rong'] >= 600 else '<'} 600 mm → nhóm {code[:2]}.{code[2:4]}")
+            ra.append({"cau": "Không nguyên tố nào đạt ngưỡng Chú giải 1(f) Chương 72 → thép không hợp kim",
+                       "can_cu": [_cc_chu_giai("1(f)", chu_giai)]})
     cap = _cap(ma)
+    if tt.get("rong") is not None:
+        cc = [_cc_bieu_thue(f"Nhóm {code[:2]}.{code[2:4]}", cap[0], next(iter(
+            re.findall(r"chiều rộng (?:từ|dưới) 600 ?mm(?: trở lên)?", cap[0])), None))] if cap else []
+        if _la_ma_thep(code):
+            cc.insert(0, _cc_chu_giai("1(k)", chu_giai))
+        ra.append({"cau": f"Rộng {_vn(tt['rong'])} mm {'≥' if tt['rong'] >= 600 else '<'} 600 mm → nhóm "
+                          f"{code[:2]}.{code[2:4]}", "can_cu": cc})
     if len(cap) > 1:
-        ra.append(f"{cap[-2]} → {_ma_cham(code)[:7]}; {cap[-1]} → .{code[6:]}")
+        ra.append({"cau": f"{cap[-2]} → {_ma_cham(code)[:7]}; {cap[-1]} → .{code[6:]}",
+                   "can_cu": [_cc_bieu_thue(f"Biểu thuế — {_ma_cham(code)}", ma["desc_vn"], cap[-2])]})
     return ra
+
+
+# Dòng tiếng Anh sót lại trong bản Chú giải song ngữ đã nạp ("the meanings hereby assigned to them:") — chữ thường
+# mở đầu, toàn ASCII. Dòng tiếng Việt luôn có dấu hoặc mở bằng hoa / gạch / số, nên không bị bỏ nhầm.
+_DONG_ANH = re.compile(r"^[a-z][a-z ,.;:()'/-]*$")
+
+
+def _la_muc(d: str, chu: str = "[a-z]+") -> bool:
+    """Dòng mở một mục: "(f) Thép hợp kim khác" — chữ HOA sau ngoặc. "(e) và (f) của Danh mục" là câu đang chạy."""
+    return bool(re.match(r"\(" + chu + r"\)\s+[A-ZĐÀ-Ỹ\"“]", d))
+
+
+def trich_chu_giai(noi_dung: str | None, muc: str) -> str | None:
+    """Nguyên văn MỘT mục Chú giải pháp lý ('1(f)', '1(k)') từ toàn văn Chú giải Chương (hs_chapter_notes.noi_dung).
+    Không tìm thấy -> None (phiếu chỉ ghi tên căn cứ, KHÔNG tự viết lại câu chữ)."""
+    m = re.fullmatch(r"(\d+)\(([a-z]+)\)", muc)
+    if not noi_dung or not m:
+        return None
+    dong = [d.strip() for d in noi_dung.splitlines() if d.strip() and not _DONG_ANH.match(d.strip())]
+    dau_chu_giai = next((i for i, d in enumerate(dong) if re.match(rf"{m[1]}\.\s", d)), None)
+    if dau_chu_giai is None:
+        return None
+    dau = next((i for i in range(dau_chu_giai, len(dong)) if _la_muc(dong[i], m[2])), None)
+    if dau is None:
+        return None
+    ra: list[str] = []
+    for d in dong[dau:]:
+        if ra and (_la_muc(d) or re.match(r"\d+\.\s", d)):
+            break
+        moi_doan = ra and ra[-1].endswith((".", ":")) and d[:1].isupper()   # hết câu + chữ hoa = đoạn mới
+        if ra and not d.startswith("-") and not moi_doan:
+            ra[-1] += " " + d
+        else:
+            ra.append(d)
+    return "\n".join(ra)
+
+
+def _cc_chu_giai(muc: str, chu_giai: Callable[[int], str | None] | None, nhan_manh: str | None = None
+                 ) -> dict[str, Any]:
+    trich = trich_chu_giai(chu_giai(72) if chu_giai else None, muc)
+    if trich and nhan_manh:
+        nhan_manh = next((d.lstrip("- ").rstrip(";.") for d in trich.split("\n") if d.lstrip("- ").startswith(nhan_manh)),
+                         None)
+    return {"nhan": f"Chú giải {muc} Chương 72", "nguon": "Chú giải pháp lý — TT 31/2022/TT-BTC",
+            "trich": trich, "nhan_manh": nhan_manh if trich else None, "loai": "chu_giai", "chuong": 72}
+
+
+def _cc_bieu_thue(nhan: str, trich: str, nhan_manh: str | None = None) -> dict[str, Any]:
+    return {"nhan": nhan, "nguon": "Biểu thuế XNK 2026", "trich": trich,
+            "nhan_manh": nhan_manh if nhan_manh and nhan_manh in trich else None, "loai": "bieu_thue"}
 
 
 def _ten_rut_gon(mo_ta: str) -> str:
