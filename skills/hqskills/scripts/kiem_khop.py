@@ -12,6 +12,7 @@ Chạy sau mỗi lần `dongbo` hoặc khi ILMS đổi luật:
     python scripts/kiem_khop.py
 Cần ILMS_URL + ILMS_USER/ILMS_PASS. Lệch dù một lô là thoát mã 1.
 """
+import json
 import os
 import sys
 import urllib.parse
@@ -55,6 +56,8 @@ def cac_lo(vu):
 
 def rut(kq):
     # Thứ tự các vụ không phải luật (ILMS không chốt thứ tự khi trùng ngày hiệu lực) -> so theo mã vụ.
+    # Qua JSON như đường mạng: bên máy giữ tuple (vd pham_vi.dk), bên ILMS là list — cùng giá trị, không phải lệch.
+    kq = json.loads(json.dumps(kq))
     return sorted(({k: v[k] for k in TRUONG} for v in kq["vu_viec"]), key=lambda v: v["ma_vu_viec"])
 
 
@@ -114,7 +117,6 @@ DONG_MAU = [
 
 def chay_phieu(in_chi_tiet=True):
     """So phiếu kiểm tra dòng hàng trên máy với ILMS. Trả (số dòng, số lệch); dòng mã máy không có thì bỏ qua."""
-    import json
     import kiem_tra_in as ki
     with open(os.path.join(ki.DATA, "hs_tree.json"), encoding="utf-8") as f:
         codes = json.load(f).get("codes", {})
