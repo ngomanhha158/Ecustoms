@@ -93,3 +93,44 @@ thì in mã 6 số + "cần xác định thêm", không ghép đuôi.
 ## 7. Ngoài phạm vi bản 1
 
 Cặp nghi ngờ cho chương khác (nhôm 76, đồng 74…); đọc trực tiếp tệp ECUS/ảnh chụp màn hình; xuất Word.
+
+## 8. Đưa vào ILMSv2 (CEO 05-11: "thêm chức năng này cho ILMS v2 luôn")
+
+**Một luật một chỗ:** luật nằm ở ILMS, skill chép nguyên văn (như luật PVTM).
+
+### 8.1 Luật thuần — ILMS `backend/app/services/kiem_tra_dong.py` (không chạm CSDL)
+
+Gộp 4 thành phần §3 (`doc_dong_hang`, `la_hop_kim`, `cap_nghi_ngo`, `lap_phieu`) vào MỘT tệp luật thuần.
+Dữ liệu biểu thuế đưa vào qua hai hàm do nơi gọi cấp — nên cùng một tệp chạy được ở cả hai đầu:
+
+- `tra_ma(code) -> {code, desc_vn, desc_en, mfn, fta, ...} | None`
+- `ma_con(tien_to) -> [ma 8 so]`
+- kết quả PVTM truyền vào sẵn (ILMS: `pvtm_kho.tinh_cho_lo`; skill: `pvtm_local.tinh_cho_lo`).
+
+ILMS: hai hàm đọc bảng `hs_codes`. Skill: đọc `data/hs_tree.json`; `chep_luat_ilms.py` chép thêm tệp này
+(nguyên văn, chỉ thay import) — `kiem_khop.py` thêm phần so phiếu máy ↔ ILMS cho các dòng hàng mẫu.
+
+### 8.2 API (trình duyệt — không đổi lược đồ CSDL)
+
+| Phương thức | Đường dẫn | Quyền | Việc |
+|---|---|---|---|
+| POST | `/api/tracuu/kiem-tra` | `tracuu.view` | Body `{ma, mo_ta, nuoc?, thue_suat?, tk?, dong?, luong?, nsx?, nxk?, day?, rong?, carbon?, dang?, mac?, tc?}` → JSON phiếu (§4). Không ghi gì vào CSDL. Mô tả quá dài (> 2.000 ký tự) hay mã sai dạng → 422. |
+
+Không thêm bảng, không thêm cột. Không lưu lịch sử phiếu (bản 1).
+
+### 8.3 Màn hình
+
+Tab "Tra cứu HS" thêm sub-tab thứ tư **"Kiểm tra dòng hàng"** (cạnh Mã HS · Phòng vệ thương mại · Văn bản):
+ô mã HS, ô nước xuất xứ, ô thuế suất khai, ô lớn dán "Mô tả hàng hóa" ECUS, nút **Kiểm tra** → phiếu đúng mẫu A
+đã duyệt (4 ô tín hiệu, tận mắt, lập luận, mã nghi ngờ, phạm vi CBPG); nút **In phiếu** (in 1 tờ A4).
+Mã nghi ngờ bấm được → mở hồ sơ mã đó ở sub-tab Mã HS. Mọi vai có `tracuu.view` dùng được (không có số tiền).
+
+### 8.4 TruePilot
+
+Tool XANH `kiem_tra_dong_hang` (chỉ đọc) gọi cùng luật — nhân viên hỏi bằng lời trong ô chat cũng ra phiếu.
+
+### 8.5 Thứ tự làm
+
+1. ILMS: luật thuần + test đơn vị (dòng A709 khớp mẫu) → API + e2e → màn hình (Chromium thật) → tool TruePilot.
+2. Ba lượt rà (soi-hong-im-lang, /code-review, /simplify) → CEO duyệt merge → deploy.
+3. Skill: `chep_luat_ilms.py` chép `kiem_tra_dong.py`; lệnh `kiemtra` + in chữ/HTML; `kiem_khop` so phiếu.
