@@ -1,6 +1,6 @@
 {
  "nguon": "ILMSv2",
- "dong_bo_luc": "2026-09-28T03:48:08+00:00",
+ "dong_bo_luc": "2026-11-05T03:38:05+00:00",
  "vu_viec": [
   {
    "id": 2,
@@ -10,14 +10,14 @@
    "ten_hang": "Thép cán nóng khổ rộng trên 1.880 mm đến 2.300 mm",
    "hieu_luc_tu": "2026-08-12",
    "hieu_luc_den": "2030-07-05",
-   "da_doi_chieu": false,
+   "da_doi_chieu": true,
    "dang_ap": true,
    "so_hieu": "1917/QĐ-BCT, 612/QĐ-BCT",
    "mo_ta": "Hàng hóa là một số sản phẩm sắt hoặc thép hợp kim hoặc không hợp kim được cán phẳng; được cán nóng; độ dày từ 1,2mm đến 25,4mm; có chiều rộng lớn hơn 1.880mm và nhỏ hơn hoặc bằng 2.300mm; chưa được gia công quá mức cán nóng; đã tẩy gỉ hoặc không tẩy gỉ; không dát phủ, phủ, mạ hoặc tráng; có phủ dầu hoặc không phủ dầu; hàm lượng carbon nhỏ hơn hoặc bằng 0,30% tính theo khối lượng.",
    "muc_khong_chung_tu": 27.83,
    "ghi_chu": "Biện pháp chống lẩn tránh CHÍNH THỨC biện pháp CBPG của vụ AD20 (QĐ 1959/QĐ-BCT) theo QĐ 1917/QĐ-BCT ngày 28/7/2026, hiệu lực sau 15 ngày kể từ ngày ban hành (12/8/2026); thay biện pháp TẠM THỜI theo QĐ 612/QĐ-BCT (áp từ 17/4/2026). Lẩn tránh do thay đổi không đáng kể hàng hóa (tăng chiều rộng lên trên 1.880 mm). Mức 27,83% cho tất cả các công ty sản xuất, xuất khẩu của Trung Quốc. Không nộp C/O hoặc nộp C/O Trung Quốc → 27,83%; C/O nước khác → không áp. Thời hạn: theo thời hạn của QĐ 1959/QĐ-BCT (Mục 5 Thông báo). Căn cứ điều tra: QĐ 3176/QĐ-BCT ngày 27/10/2025. Mục 3.3: mác BW450, BS700MCK2, AG700, LG700T là MIỄN TRỪ (nộp hồ sơ theo TT 26/2025/TT-BCT).",
-   "doi_chieu_luc": null,
-   "doi_chieu_ten": null,
+   "doi_chieu_luc": "2026-09-28T03:53:19.749391Z",
+   "doi_chieu_ten": "NMH",
    "van_ban": [
     {
      "so_hieu": "612/QĐ-BCT",
@@ -33,7 +33,7 @@
      "van_ban_id": 87,
      "ten": "Áp dụng chống lẩn tránh PVTM chính thức thép cán nóng Trung Quốc rộng >1.880–2.300mm (AC03.AD20)",
      "ngay_ban_hanh": "2026-07-28",
-     "link_goc": ""
+     "link_goc": "https://drive.google.com/file/d/15Hl0PTyk9g3pM2ICmRYYv-Lfoa3On29U/view?usp=drive_link"
     }
    ],
    "ma_hs": [
