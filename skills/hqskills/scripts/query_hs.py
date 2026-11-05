@@ -1073,6 +1073,25 @@ def main():
     sp.add_argument("--dang", help="tam (tấm) hoặc cuon (cuộn)")
     sp.add_argument("--dac-tinh", help="Đặc tính hàng (vd 'đã sơn lót') — soát lệch với mô tả mã về phủ/mạ/sơn")
 
+    sp = sub.add_parser("kiemtra", help="Phiếu kiểm tra nhanh MỘT dòng hàng tờ khai: mã HS, thuế, CBPG, việc kiểm hóa xem tận mắt")
+    sp.add_argument("ma", help="Mã HS đã khai (8 số)")
+    sp.add_argument("--mo-ta", help="Mô tả hàng hóa — dán nguyên ô trên ECUS")
+    sp.add_argument("--nuoc", help="Xuất xứ / nước trên C/O (ISO-2 hoặc tên)")
+    sp.add_argument("--thue-suat", help="Thuế suất NK đã khai (%%)")
+    sp.add_argument("--nsx", help="Nhà sản xuất")
+    sp.add_argument("--nxk", help="Nhà xuất khẩu")
+    sp.add_argument("--tk", help="Số tờ khai")
+    sp.add_argument("--dong", help="Số dòng hàng")
+    sp.add_argument("--luong", help="Luồng (xanh/vàng/đỏ)")
+    sp.add_argument("--day", type=float, help="Độ dày (mm) — ghi đè số đọc từ mô tả")
+    sp.add_argument("--rong", type=float, help="Chiều rộng (mm) — ghi đè")
+    sp.add_argument("--carbon", type=float, help="Carbon (%%) — ghi đè")
+    sp.add_argument("--dang", help="tam / cuon — ghi đè")
+    sp.add_argument("--mac", help="Mác thép — ghi đè")
+    sp.add_argument("--tc", help="Tiêu chuẩn — ghi đè")
+    sp.add_argument("--html", help="Ghi phiếu ra tệp HTML (in A4)")
+    sp.add_argument("--json", action="store_true", help="In phiếu dạng JSON (so với ILMS)")
+
     args = p.parse_args()
 
     if args.cmd == "dongbo":
@@ -1084,6 +1103,7 @@ def main():
               "lo": lambda: cmd_lo(args.tep, args.fta, args.ra),
               "canhbao": lambda: cmd_canhbao(args.ngay, args.ngay_vb, args.hom_nay),
               "chungtu": lambda: cmd_chungtu(args.tep, args.tsv),
+              "kiemtra": lambda: __import__("kiem_tra_in").cmd_kiemtra(args, load_json("hs_tree.json").get("codes", {})),
               "thue": lambda: cmd_thue(args.code, args.nuoc, args.nsx, args.nxk, args.mac, args.tc,
                                          args.day, args.rong, args.carbon, args.loi, args.dang, args.dac_tinh)}
     if args.cmd in chuyen:

@@ -207,6 +207,26 @@ python scripts/query_hs.py vanban 3765/QĐ-BCT               # toàn văn một 
 - Không nộp C/O, không có giấy chứng nhận nhà SX, hay nhà XK không cùng hàng ngang với nhà SX đều rơi về mức cao hơn — nêu rõ điều này khi tư vấn.
 - Có cảnh báo dữ liệu cũ hơn 7 ngày thì nói rõ với người dùng trước khi đưa mức thuế.
 
+## Phiếu kiểm tra nhanh một dòng hàng (`kiemtra`)
+
+Khi người dùng đưa MỘT dòng hàng tờ khai (mã đã khai + ô mô tả ECUS, thường kèm xuất xứ, thuế suất đã khai),
+**chạy một lệnh thay cho chuỗi code/chapter/thue**:
+
+```bash
+python scripts/query_hs.py kiemtra 72254090 --nuoc CN --thue-suat 0 --mo-ta "<dán nguyên ô Mô tả ECUS>"
+python scripts/query_hs.py kiemtra 72254090 ... --html phieu.html   # phiếu A4 để in / gửi kiểm hóa
+```
+
+- Phiếu gồm: 4 ô tín hiệu (Mã HS · Thuế NK · CBPG · Cần làm rõ), việc **kiểm hóa cần xem tận mắt** kèm ngưỡng làm
+  đổi kết luận ("Đo độ dày: phải trên 25,4 mm thì nằm ngoài phạm vi chống bán phá giá"), lập luận vì sao mã này,
+  **mã nghi ngờ tương tự** (không hợp kim ↔ hợp kim theo Chú giải 1(f) Chương 72, có HS code, thuế, CBPG), bảng
+  đối chiếu phạm vi từng vụ.
+- Mô tả đọc không ra số nào thì phiếu ghi "Không đọc được …"; có số trên chứng từ thì truyền ô riêng
+  `--day --rong --carbon --dang --mac --tc` (ghi đè mô tả). Độ dày "2.500" bị coi là mơ hồ — hỏi lại người dùng.
+- Trình bày cho người dùng: in nguyên phiếu (hoặc đưa tệp HTML), rồi nói rõ các dòng ✗ / "Cần làm rõ" trước.
+- Luật dựng phiếu là bản chép ILMS (`kiem_tra_dong_local.py`, do `chep_luat_ilms.py` sinh) — KHÔNG sửa tay;
+  `kiem_khop.py` so cả phiếu với `POST /api/tracuu/kiem-tra` của ILMS.
+
 ## Đối chiếu chứng từ một lô (`chungtu`)
 
 Khi người dùng đưa Mill Test, C/O, hóa đơn, tờ khai (PDF/ảnh) của một lô:

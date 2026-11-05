@@ -5,7 +5,8 @@ pvtm_local.py là BẢN CHÉP luật của ILMS. Script này dựng mọi kiểu
 liệu đã đồng bộ (không C/O, C/O từng nước, nước không bị áp, từng nhà SX tự
 xuất, từng công ty TM, nhà XK sai, mác thép loại trừ đúng/sai tiêu chuẩn, mã
 HS loại trừ), gọi CẢ HAI bên rồi so kết luận, mức thuế, từng bước, cảnh báo.
-Kèm tiêu đề hồ sơ từng vụ (`tieu_de`, theo Mô tả hàng hóa).
+Kèm tiêu đề hồ sơ từng vụ (`tieu_de`, theo Mô tả hàng hóa), và PHIẾU KIỂM TRA DÒNG HÀNG (lệnh `kiemtra`,
+bản chép kiem_tra_dong_local.py) so nguyên phiếu với POST /api/tracuu/kiem-tra trên các dòng mẫu DONG_MAU.
 
 Chạy sau mỗi lần `dongbo` hoặc khi ILMS đổi luật:
     python scripts/kiem_khop.py
@@ -99,11 +100,51 @@ def chay(in_chi_tiet=True):
     return so_lo + len(kho["vu_viec"]), lech
 
 
+# Dòng hàng mẫu cho phiếu kiểm tra: hợp kim ngoài phạm vi, không hợp kim trong phạm vi, khai lệch, không gỉ, ngoài thép.
+DONG_MAU = [
+    {"ma": "72254090", "nuoc": "CN", "thue_suat": "0", "mo_ta": "Thép tấm hợp kim crom được cán phẳng, chưa được gia "
+     "công quá mức cán nóng, chứa C=0.07%-> 0.09% Cr= 0.49%->0.52%,KT: 40x2440x5729mm,TC: ASTM A709-2024,Mác: A709Gr50W"},
+    {"ma": "72085100", "nuoc": "CN", "thue_suat": "0", "mo_ta": "Thép tấm không hợp kim cán nóng, C 0.18%, 12 x 1500 x 6000mm"},
+    {"ma": "72085100", "nuoc": "Trung Quốc", "thue_suat": "5%", "mo_ta": "Thép tấm cán nóng, Cr 0.4%, KT: 20x2000x6000mm"},
+    {"ma": "72192200", "nuoc": "KR", "mo_ta": "Thép không gỉ cán nóng dạng tấm, Cr 18%, C 0.05%, 6 x 1500 mm"},
+    {"ma": "72103011", "nuoc": "CN", "mo_ta": "Tôn mạ kẽm 0,5 x 1200 x C"},
+    {"ma": "84713020", "nuoc": "CN", "thue_suat": "0", "mo_ta": "Máy tính xách tay"},
+]
+
+
+def chay_phieu(in_chi_tiet=True):
+    """So phiếu kiểm tra dòng hàng trên máy với ILMS. Trả (số dòng, số lệch); dòng mã máy không có thì bỏ qua."""
+    import json
+    import kiem_tra_in as ki
+    with open(os.path.join(ki.DATA, "hs_tree.json"), encoding="utf-8") as f:
+        codes = json.load(f).get("codes", {})
+    kho = pl.doc_kho()
+    so = lech = 0
+    for d in DONG_MAU:
+        if d["ma"] not in codes:
+            continue
+        so += 1
+        may = json.loads(json.dumps(ki.kiem_tra(dict(d), codes, kho)))   # tuple -> list như JSON của ILMS
+        chu = ilms_api.post("/kiem-tra", d)
+        if may != chu:
+            lech += 1
+            if in_chi_tiet:
+                print(f"LỆCH phiếu {d['ma']} ({d['mo_ta'][:40]}…)")
+                for k in sorted(set(may) | set(chu)):
+                    if may.get(k) != chu.get(k):
+                        print(f"  [{k}] máy : {may.get(k)}")
+                        print(f"  [{k}] ILMS: {chu.get(k)}")
+    return so, lech
+
+
 def main():
     if not ilms_api.bat():
         raise SystemExit("Cần ILMS_URL + ILMS_USER/ILMS_PASS để so với máy chủ.")
     so, lech = chay()
     print(f"{so} lô + tiêu đề, {lech} lệch.")
+    so_p, lech_p = chay_phieu()
+    print(f"{so_p} phiếu kiểm tra dòng hàng, {lech_p} lệch.")
+    lech += lech_p
     sys.exit(1 if lech else 0)
 
 

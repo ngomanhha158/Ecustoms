@@ -205,7 +205,7 @@ def _dong_sx(s):
     return {"ten": s["ten"], "nuoc": s["nuoc"], "muc_thue": s["muc_thue"], "khong_ap": s["khong_ap"]}
 
 
-# ================================================================ LUẬT — chép nguyên văn ILMS services/pvtm.py (commit 999993f)
+# ================================================================ LUẬT — chép nguyên văn ILMS services/pvtm.py (commit 30daf4c7)
 # KHÔNG SỬA TAY: sửa ở ILMS rồi chạy scripts/chep_luat_ilms.py.
 
 LOAI = ("cbpg", "chong_lan_tranh", "chong_tro_cap", "tu_ve")
@@ -331,12 +331,18 @@ def so(v: Any) -> float | None:
 
 
 # ---------------------------------------------------------------- tính thuế
+BUOC_CHUNG_TU, BUOC_NHA_SX = "Chứng từ xuất xứ", "Nhà sản xuất"   # hs_goi_y lọc bước theo hai tên này
+
+
 @dataclass
 class Buoc:
     buoc: str
     ket_qua: str
     dat: bool | None      # True = qua bước, False = dừng ở bước này, None = chỉ thông tin
     can_cu: str = ""
+    # Bước "Phạm vi — …" (soat_quy_cach): {khoa, lo, dk, dang, goc} — để nơi khác (phiếu kiểm tra dòng hàng)
+    # dùng thẳng dữ liệu, KHÔNG đọc ngược câu chữ hiển thị ở `ket_qua`.
+    pham_vi: dict[str, Any] | None = None
 
 
 @dataclass
@@ -406,10 +412,11 @@ def khoang(text: str) -> list[tuple[str, float]]:
     if m:   # "trên 3 mm đến 10 mm" / "lớn hơn 3 đến 10": đầu dưới là biên MỞ
         mo = re.search(r"(?:tren|lon hon)\s*$", t[:m.start()]) and not re.search(r"hoac bang\s*$", t[:m.start()])
         return [(">" if mo else ">=", doc_so(m.group(1)) - tol), ("<=", doc_so(m.group(2)) + tol)]
-    m = re.search(r"tu\s*(" + _SO + r")\s*(?:mm|%)?\s*tro len", t)
-    if m:
-        return [(">=", doc_so(m.group(1)))]
     ds: list[tuple[str, float]] = []
+    m = re.search(r"tu\s*(" + _SO + r")\s*(?:mm|%)?\s*tro len", t)
+    if m:   # "từ 4,75 mm trở lên nhưng không quá 10 mm": đọc tiếp phần sau — trước 05-11 bỏ mất cận trên
+        ds.append((">=", doc_so(m.group(1))))
+        t = t[:m.start()] + " " + t[m.end():]
     for mau, op in _TOAN_TU:
         ds += [(op, doc_so(x.group(1))) for x in re.finditer(r"(?:" + mau + r")\s*(" + _SO + ")", t)]
         t = re.sub(r"(?:" + mau + r")\s*" + _SO, " ", t)   # đọc rồi thì xóa, tránh toán tử ngắn bắt lại
@@ -491,7 +498,9 @@ def soat_quy_cach(vu: dict[str, Any], lo: dict[str, Any]) -> tuple[list[Buoc], b
         else:
             ok, noi = all(_dat(so(gt), d) for d in x["dk"]), f"lô {so(gt):g} {DON_VI[khoa]}"
         ngoai |= not ok
-        buoc.append(Buoc(f"Phạm vi — {NHAN_KHOA[khoa]}", f"{noi}; QĐ: {x['goc']}", ok, can_cu))
+        buoc.append(Buoc(f"Phạm vi — {NHAN_KHOA[khoa]}", f"{noi}; QĐ: {x['goc']}", ok, can_cu,
+                         {"khoa": khoa, "lo": gt if khoa == "dang" else so(gt), "dk": x.get("dk"),
+                          "dang": sorted(x["dang"]) if khoa == "dang" else None, "goc": x["goc"]}))
     return buoc, ngoai, thieu, chu
 
 
@@ -631,14 +640,14 @@ def _tinh(vu: dict[str, Any], lo: dict[str, Any]) -> KetQua:
         kq.muc_thue = so(vu.get("muc_khong_chung_tu"))
         if kq.muc_thue is None:
             kq.muc_thue = max((v for v in nuoc_ap.values() if v is not None), default=None)
-        kq.cac_buoc.append(Buoc("Chứng từ xuất xứ", "Không nộp C/O", False, f"{can_cu} — bước 1"))
+        kq.cac_buoc.append(Buoc(BUOC_CHUNG_TU, "Không nộp C/O", False, f"{can_cu} — bước 1"))
         return kq
     if not moi_nuoc and nuoc_co not in nuoc_ap:
-        kq.cac_buoc.append(Buoc("Chứng từ xuất xứ", f"C/O {TEN_NUOC.get(nuoc_co, nuoc_co)} — không thuộc nước bị áp",
+        kq.cac_buoc.append(Buoc(BUOC_CHUNG_TU, f"C/O {TEN_NUOC.get(nuoc_co, nuoc_co)} — không thuộc nước bị áp",
                                 True, f"{can_cu} — bước 1"))
         kq.ket_luan, kq.muc_thue = "khong_ap", 0.0
         return kq
-    kq.cac_buoc.append(Buoc("Chứng từ xuất xứ", f"C/O {TEN_NUOC.get(nuoc_co, nuoc_co)}", True, f"{can_cu} — bước 1"))
+    kq.cac_buoc.append(Buoc(BUOC_CHUNG_TU, f"C/O {TEN_NUOC.get(nuoc_co, nuoc_co)}", True, f"{can_cu} — bước 1"))
     toan_quoc = so(vu.get("muc_khong_chung_tu")) if moi_nuoc else nuoc_ap[nuoc_co]
     trong_nuoc = [n for n in vu.get("nha_sx", []) if n["nuoc"] == nuoc_co]
 
@@ -646,11 +655,11 @@ def _tinh(vu: dict[str, Any], lo: dict[str, Any]) -> KetQua:
     sx = chuan_ten_cong_ty(lo.get("nha_sx"))
     chon = next((n for n in trong_nuoc if sx and chuan_ten_cong_ty(n["ten"]) == sx), None)
     if not chon:
-        kq.cac_buoc.append(Buoc("Nhà sản xuất", (lo.get("nha_sx") or "Không có giấy chứng nhận") + " — không có tên trong bảng",
+        kq.cac_buoc.append(Buoc(BUOC_NHA_SX, (lo.get("nha_sx") or "Không có giấy chứng nhận") + " — không có tên trong bảng",
                                 False, f"{can_cu} — bước 2"))
         kq.muc_thue = toan_quoc
         return kq
-    kq.cac_buoc.append(Buoc("Nhà sản xuất", chon["ten"], True, f"{can_cu} — bước 2"))
+    kq.cac_buoc.append(Buoc(BUOC_NHA_SX, chon["ten"], True, f"{can_cu} — bước 2"))
     kq.nha_sx_khop = chon["ten"]
 
     # Bước 3: nhà xuất khẩu trên hợp đồng/hóa đơn — trùng nhà SX hoặc công ty TM cùng hàng ngang.
