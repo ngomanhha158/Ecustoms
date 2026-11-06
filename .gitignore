@@ -4,3 +4,7 @@ __pycache__/
 *.xlsx
 skills/hqskills/references/_cu/
 skills/hqskills/data/ocr_cho_duyet/
+
+# Tiền lệ PTPL kéo từ ILMS — dữ liệu nghiệp vụ nội bộ, không đưa lên repo công khai
+skills/hqskills/data/ptpl.json
+skills/hqskills/data/ptpl.json.tmp

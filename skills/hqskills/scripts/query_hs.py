@@ -327,6 +327,11 @@ def api_dongbo(chi_keo=False):
         print(f"Mã HS thuộc từ 2 vụ đang áp trở lên ({len(trung)} mã) — khi tính thuế phải chọn vụ theo mô tả hàng:")
         for c, ds in trung.items():
             print(f"  {_ma(c)}: {', '.join(ds)}")
+    # 5. Tiền lệ phân tích phân loại (ILMS phase171) về data/ptpl.json — BỎ số tờ khai, mã doanh nghiệp
+    #    (skill chỉ cần mã + số thông báo; tệp này KHÔNG commit, xem .gitignore).
+    n_pl = _keo_ptpl()
+    print(f"Kéo {n_pl} tiền lệ PTPL về data/ptpl.json." if n_pl is not None
+          else "Chưa kéo được tiền lệ PTPL (ILMS chưa có /ptpl hoặc chưa nạp) — lệnh `case` chỉ đọc case_notes.md.")
     import kiem_khop   # (6) ILMS đổi luật mà skill chưa chép lại thì biết NGAY, không đợi tính sai
     so, lech = kiem_khop.chay(in_chi_tiet=False)
     print(f"So luật tính thuế trên máy với ILMS: {so} lô + tiêu đề, {lech} lệch."
@@ -966,7 +971,83 @@ def cmd_hieuluc(ma=None):
               "hiệu lực; kho chỉ gồm văn bản đã đồng bộ.")
 
 
+PTPL = os.path.join(DATA, "ptpl.json")
+_PTPL_GIU = ("ma_khai", "ma_ket_luan", "trang_thai", "ten_hang", "so_yc", "ngay_yc", "so_tbkqpt", "ngay_tbkqpt",
+             "so_tbkqpl", "ngay_tbkqpl", "so_tbgn", "ma_tbgn", "mo_ta_kq")
+
+
+def _keo_ptpl():
+    """Kéo cả kho tiền lệ PTPL theo trang. Trả số dòng, hoặc None nếu ILMS chưa có kho này."""
+    ds, off = [], 0
+    try:
+        while True:
+            trang = ilms_api.get(f"/ptpl?limit=200&offset={off}")["ket_qua"]
+            ds += [{k: d.get(k) for k in _PTPL_GIU} for d in trang]
+            if len(trang) < 200:
+                break
+            off += 200
+    except Exception as e:   # 404 khi ILMS chưa lên phase171 — báo, không làm hỏng cả lượt dongbo
+        print(f"  (tiền lệ PTPL: {e})")
+        return None
+    tmp = PTPL + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump({"nguon": "ILMSv2", "dong_bo_luc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                   "tien_le": ds}, f, ensure_ascii=False, indent=1)
+    os.replace(tmp, PTPL)
+    return len(ds)
+
+
+def _ptpl_in(d):
+    kl = _ma(d["ma_ket_luan"]) if d.get("ma_ket_luan") else "chưa có kết luận"
+    dau = "ĐỔI MÃ" if d.get("trang_thai") == "doi_ma" else ("giữ mã" if d.get("trang_thai") == "giu_ma" else "chờ")
+    so = d.get("so_tbkqpl") or d.get("so_tbkqpt") or d.get("so_yc") or ""
+    print(f"  [{dau}] khai {_ma(d['ma_khai'][:8])} -> {kl} · {so} {d.get('ngay_tbkqpl') or d.get('ngay_tbkqpt') or ''}")
+    print(f"      {d['ten_hang'][:160]}")
+    if d.get("mo_ta_kq"):
+        print(f"      Mô tả trong thông báo: {d['mo_ta_kq'][:220]}")
+
+
+def cmd_case_ptpl(keyword):
+    """Tiền lệ PTPL: gõ mã -> tóm tắt 'khai mã này bị đổi mấy lần'; gõ chữ -> thông báo có mô tả giống nhất."""
+    if not os.path.exists(PTPL):
+        print("Chưa có data/ptpl.json — chạy `query_hs.py dongbo --chi-keo` để kéo tiền lệ PTPL từ ILMS.")
+        return
+    with open(PTPL, encoding="utf-8") as f:
+        kho = json.load(f)
+    ds = kho["tien_le"]
+    so = keyword.replace(".", "").replace(" ", "")
+    print(f"=== Tiền lệ phân tích phân loại ({len(ds)} dòng, đồng bộ {kho['dong_bo_luc'][:10]}) ===")
+    if so.isdigit() and len(so) >= 4:
+        khai = [d for d in ds if d["ma_khai"].startswith(so)]
+        ve = [d for d in ds if (d.get("ma_ket_luan") or "").startswith(so) and not d["ma_khai"].startswith(so)]
+        co_kl = [d for d in khai if d.get("ma_ket_luan")]
+        doi = [d for d in co_kl if d.get("trang_thai") == "doi_ma"]
+        print(f"Khai {keyword}: {len(co_kl)} lần có kết luận, {len(doi)} lần BỊ ĐỔI mã; {len(ve)} lần hàng mã khác kết luận về mã này.")
+        for d in sorted(khai + ve, key=lambda d: (not d.get("ma_ket_luan"), d.get("ngay_tbkqpl") or ""), reverse=False)[:20]:
+            _ptpl_in(d)
+        return
+    tu = set(strip_accents(keyword).split())
+    diem = []
+    for d in ds:
+        if not d.get("ma_ket_luan"):
+            continue
+        van = set(strip_accents(d["ten_hang"] + " " + (d.get("mo_ta_kq") or "")).split())
+        chung = len(tu & van)
+        if chung:
+            diem.append((chung / len(tu), d))
+    diem.sort(key=lambda x: (-x[0], len(x[1]["ten_hang"])))
+    if not diem:
+        print("Không có thông báo kết luận nào có từ trùng.")
+    for ti, d in diem[:8]:
+        print(f" {round(ti * 100)}% từ trùng:")
+        _ptpl_in(d)
+    print("Tiền lệ chỉ để tham khảo cách kết luận — không thay việc đọc Chú giải; trích số thông báo khi dùng làm căn cứ.")
+
+
 def cmd_case(keyword=None):
+    if keyword:
+        cmd_case_ptpl(keyword)
+        print()
     path = os.path.join(DATA, "case_notes.md")
     if not os.path.exists(path):
         print("Chưa có file case_notes.md.")

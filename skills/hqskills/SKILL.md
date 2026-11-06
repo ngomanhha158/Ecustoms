@@ -40,7 +40,8 @@ python scripts/query_hs.py refs --nam 2026 --co-quan BCT   # liệt kê văn b�
 python scripts/query_hs.py hieuluc 13/2015/TT-BTC  # văn bản nào trong kho sửa đổi/thay thế/bãi bỏ văn bản này
 python scripts/query_hs.py hieuluc                 # mọi văn bản trong kho đã bị văn bản khác tác động
 python scripts/query_hs.py lo ds_ma.csv --fta acfta,evfta [--ra ket_qua.tsv]  # tra hàng loạt, xuất TSV dán Excel
-python scripts/query_hs.py case "<từ khóa>"     # tra tiền lệ/case đã tự ghi lại
+python scripts/query_hs.py case "<từ khóa>"     # tiền lệ PTPL (thông báo kết quả phân loại) + case tự ghi lại
+python scripts/query_hs.py case 2008.80.00      # khai mã này bị PTPL đổi mấy lần, sang mã nào, số thông báo
 python scripts/query_hs.py canhbao [--ngay 90]  # vụ PVTM sắp hết hạn/quá hạn/tạm thời/rà soát, văn bản mới ban hành
 ```
 
@@ -148,8 +149,9 @@ python scripts/nap_vb.py luu QD --loai cbpg_pvtm --da-soat  # lưu bản đã so
 ```
 
 - `dongbo` kéo: mọi văn bản về `references/<loại>/`, mọi vụ phòng vệ thương mại (đủ hồ sơ,
-  mức thuế từng nhà SX, công ty TM, loại trừ, điều kiện đi kèm loại trừ `dieu_kien`) về `data/pvtm.json`.
-  Ghi xong mới thay tệp cũ. Xong thì TỰ so luật với ILMS (như `kiem_khop.py`) — có lệch nghĩa là ILMS đã đổi
+  mức thuế từng nhà SX, công ty TM, loại trừ, điều kiện đi kèm loại trừ `dieu_kien`) về `data/pvtm.json`,
+  và tiền lệ phân tích phân loại về `data/ptpl.json` (đã bỏ số tờ khai, mã doanh nghiệp; tệp không commit).
+  Khi phân loại mà mã khai có tiền lệ "ĐỔI MÃ" thì nêu số thông báo cho người dùng đối chiếu. Ghi xong mới thay tệp cũ. Xong thì TỰ so luật với ILMS (như `kiem_khop.py`) — có lệch nghĩa là ILMS đã đổi
   luật: chạy `chep_luat_ilms.py` trước khi dùng `thue`. Kèm danh sách mã HS thuộc ≥ 2 vụ đang áp.
 - Mạng chập chờn: lệnh đọc tự thử lại 3 lần; lệnh ghi / OCR không thử lại, báo lỗi rõ để chạy lại.
 - Văn bản PDF scan: `nap_vb.py ocr` → người đọc lại `data/ocr_cho_duyet/<tên>.txt` (sửa thẳng trong tệp, xóa mọi

@@ -1,6 +1,6 @@
 {
  "nguon": "ILMSv2",
- "dong_bo_luc": "2026-11-05T06:58:01+00:00",
+ "dong_bo_luc": "2026-11-06T07:36:38+00:00",
  "vu_viec": [
   {
    "id": 2,
@@ -3781,6 +3781,119 @@
    "tieu_de": "Thép hợp kim hoặc không hợp kim được cán phẳng, được mạ hoặc không mạ sau đó được sơn. Tên gọi thông thường: thép phủ màu hoặc tôn màu",
    "khoa_can_nhap": [],
    "muc_cao": 34.27
+  },
+  {
+   "id": 11,
+   "ma_vu_viec": "ER01.AD03",
+   "loai": "cbpg",
+   "giai_doan": "chinh_thuc",
+   "ten_hang": "Thép hình chữ H",
+   "hieu_luc_tu": "2022-09-06",
+   "hieu_luc_den": "2027-09-05",
+   "da_doi_chieu": false,
+   "dang_ap": true,
+   "so_hieu": "1640/QĐ-BCT, 2084/QĐ-BCT",
+   "mo_ta": "Sản phẩm thép hình chữ H hợp kim hoặc không hợp kim có cấu trúc một thân bụng thẳng ở giữa cùng với hai cánh nằm ngang ở trên và dưới. Thép hình chữ H còn được biết đến như là \"Dầm thép H\", \"Dầm thép W\" hoặc thép dầm cánh rộng.",
+   "muc_khong_chung_tu": 33.51,
+   "ghi_chu": "Mức Nhóm Jinxi 6,78% và danh sách 5 công ty thương mại theo 2084/QĐ-BCT (rà soát lần thứ ba, mã AR03.AD03), áp dụng từ ngày 2084 có hiệu lực (sau 15 ngày kể từ 22/8/2026) đến hết 05/9/2027; trước đó 22,09% theo 1640/QĐ-BCT. Phân biệt thép hình chữ H và chữ I theo TCVN 7571-15:2019 (chữ I) và TCVN 7571-16:2017 (chữ H). Chưa có trong kho: QĐ gốc 3283/QĐ-BCT (21/8/2017).",
+   "doi_chieu_luc": null,
+   "doi_chieu_ten": null,
+   "van_ban": [
+    {
+     "so_hieu": "1640/QĐ-BCT",
+     "vai": "gia_han",
+     "van_ban_id": 95,
+     "ten": "Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép hình chữ H xuất xứ từ Cộng hòa nhân dân Trung Hoa",
+     "ngay_ban_hanh": "2022-08-19",
+     "link_goc": ""
+    },
+    {
+     "so_hieu": "2084/QĐ-BCT",
+     "vai": "ra_soat",
+     "van_ban_id": 85,
+     "ten": "Về kết quả rà soát lần thứ ba việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép hình chữ H có xuất xứ từ Cộng hòa nhân dân Trung Hoa",
+     "ngay_ban_hanh": "2026-08-22",
+     "link_goc": "https://drive.google.com/file/d/1e1p_0_ApQmLa4nFKqAx6gxg98Al2WUb2/view?usp=drivesdk"
+    }
+   ],
+   "ma_hs": [
+    "72163311",
+    "72163319",
+    "72163390",
+    "72287010",
+    "72287090"
+   ],
+   "nuoc": [
+    {
+     "nuoc": "CN",
+     "muc_toan_quoc": 33.51,
+     "ten_nuoc": "Trung Quốc"
+    }
+   ],
+   "quy_cach": [],
+   "dieu_kien": [],
+   "nha_sx": [
+    {
+     "id": 57,
+     "nuoc": "CN",
+     "ten": "Hebei Jinxi Section Steel Co., Ltd.",
+     "nhom": "Jinxi",
+     "muc_thue": 6.78,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Hebei Jinxi International Trade Co., Ltd.",
+      "Hebei Jinxi Iron and Steel Group Co., Ltd.",
+      "Tianjin New Asia Prosperity Proprietary Limited.",
+      "China Oriental Singapore Pte Ltd.",
+      "Qianxi Kaijia Trade Company Limited"
+     ]
+    },
+    {
+     "id": 58,
+     "nuoc": "CN",
+     "ten": "Rizhao Steel Holding Group Co., Ltd.",
+     "nhom": "Rizhao",
+     "muc_thue": 31.24,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Baohua Steel International Pte. Limited."
+     ]
+    },
+    {
+     "id": 59,
+     "nuoc": "CN",
+     "ten": "Rizhao Medium Section Mill Co., Ltd.",
+     "nhom": "Rizhao",
+     "muc_thue": 31.24,
+     "khong_ap": false,
+     "cong_ty_tm": [
+      "Baohua Steel International Pte. Limited."
+     ]
+    }
+   ],
+   "loai_tru": [
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Chiều cao 704mm trở lên hoặc chiều rộng 303mm trở lên",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null,
+     "thu_tuc": null
+    },
+    {
+     "kieu": "mo_ta",
+     "noi_dung": "Có kích thước: 100mm x 55mm hoặc 120mm x 64mm",
+     "mac_thep": null,
+     "tieu_chuan": null,
+     "ma_hs": null,
+     "vu_khac": null,
+     "thu_tuc": null
+    }
+   ],
+   "tieu_de": "Thép hình chữ H hợp kim hoặc không hợp kim có cấu trúc một thân bụng thẳng ở giữa cùng với hai cánh nằm ngang ở trên và dưới. Thép hình chữ H còn được biết đến như là \"Dầm thép H\", \"Dầm thép W\" hoặc thép dầm cánh rộng.",
+   "khoa_can_nhap": [],
+   "muc_cao": 33.51
   },
   {
    "id": 9,
